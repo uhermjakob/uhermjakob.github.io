@@ -1,0 +1,9 @@
+/* Egyptian Hieroglyphs font from https://mjn.host.cs.st-andrews.ac.uk/egyptian/fonts/newgardiner.html */
+@font-face {
+	font-family: 'EgyptianHieroglyphNewGardiner';
+	src: local('☺'),
+             url('NewGardinerSMP.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range:U+13000-1342E;
+}

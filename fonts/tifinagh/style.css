@@ -1,0 +1,9 @@
+/* Tifinagh font from http://hapax.qc.cahttp://hapax.qc.ca */
+@font-face {
+	font-family: 'Tifinagh';
+	src: local('☺'),
+             url('hapaxber.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range:U+2D30-2D7F;
+}

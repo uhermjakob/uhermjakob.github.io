@@ -1,0 +1,9 @@
+/* Myanmar font from https://code.google.com/archive/p/myanmar3source/downloads */
+@font-face {
+	font-family: 'Myanmar3';
+	src: local('☺'),
+             url('mm3-2011-08-16.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range:U+1000-109F,A9E0-A9FE;
+}

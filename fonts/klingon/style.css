@@ -1,0 +1,13 @@
+/* pIqaD font from http://www.evertype.com/fonts/tlh/
+ * open font license */
+@font-face {
+	font-family: 'KlingonpIqaDHaStaRegular';
+	src: url('klingon-piqad-hasta-webfont.eot');
+	src: local('☺'),
+             url('klingon-piqad-hasta-webfont.woff') format('woff'),
+             url('klingon-piqad-hasta-webfont.ttf') format('truetype'),
+             local('Unifont CSUR');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range:U+F8D0-F8FF;
+}
