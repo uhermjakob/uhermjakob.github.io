@@ -1,4 +1,0 @@
-STEM match for unaligned and :: and :: bolt-eng-DF-231-195133-7292503_0154.7 ldcpreferred
-STEM match for unaligned blameless :: blame-01 :: bolt-eng-DF-231-195133-7292503_0154.8 ldcpreferred
-STEM match for unaligned rumblings :: rumble-01 :: bolt-eng-DF-231-195133-7292503_0155.1 ldcpreferred
-STEM match for unaligned rumblings :: rumble-01 :: bolt-eng-DF-231-195133-7292503_0156.5 ldcpreferred

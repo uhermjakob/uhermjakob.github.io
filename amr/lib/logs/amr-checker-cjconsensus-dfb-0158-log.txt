@@ -1,8 +1,0 @@
-STEM match for unaligned sedative :: sedate-01 :: bolt-eng-DF-199-192794-6610506_0015.2 cjconsensus
-STEM match for unaligned effectss :: effect-03 :: bolt-eng-DF-199-192794-6610506_0015.4 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-199-192794-6610506_0016.3 cjconsensus
-STEM match for unaligned tolerable :: tolerate-01 :: bolt-eng-DF-199-192794-6610506_0017.4 cjconsensus
-STEM match for unaligned benzodiazeprines :: Benzodiazepine :: bolt-eng-DF-199-192794-6610506_0017.7 cjconsensus
-STEM match for unaligned extrememly :: extreme :: bolt-eng-DF-199-192794-6610506_0018.5 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-199-192794-6610506_0018.25 cjconsensus
-STEM match for unaligned undertand :: understand-01 :: bolt-eng-DF-199-192794-6610506_0018.30 cjconsensus

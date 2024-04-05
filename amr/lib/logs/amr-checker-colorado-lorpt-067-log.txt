@@ -1,9 +1,0 @@
-STEM match for unaligned and :: and :: NW_APW_ENG_0069_2003_0527.1 colorado
-STEM match for unaligned and :: and :: NW_APW_ENG_0069_2003_0527.1 colorado
-STEM match for unaligned and :: and :: NW_APW_ENG_0069_2003_0527.1 colorado
-STEM match for unaligned jump :: jumpstart-01 :: NW_APW_ENG_0069_2003_0527.3 colorado
-STEM match for unaligned and :: and :: NW_APW_ENG_0069_2003_0527.9 colorado
-STEM match for unaligned diplomatic :: diplomat :: NW_APW_ENG_0069_2003_0527.19 colorado
-STEM match for unaligned diplomatic :: diplomat :: NW_APW_ENG_0069_2003_0527.19 colorado
-STEM match for unaligned turnaround :: turn-01 :: NW_APW_ENG_0069_2003_0527.25 colorado
-STEM match for unaligned and :: and :: NW_APW_ENG_0069_2003_0527.31 colorado

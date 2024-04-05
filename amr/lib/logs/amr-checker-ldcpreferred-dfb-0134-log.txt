@@ -1,9 +1,0 @@
-STEM match for unaligned allowable :: allow-01 :: bolt-eng-DF-199-192780-6926619_0001.5 ldcpreferred
-STEM match for unaligned explosion :: explode-01 :: bolt-eng-DF-199-192780-6926619_0002.1 ldcpreferred
-STEM match for unaligned coolness :: cool-04 :: bolt-eng-DF-199-192780-6926619_0002.3 ldcpreferred
-STEM match for unaligned procede :: proceed-01 :: bolt-eng-DF-199-192780-6926619_0003.3 ldcpreferred
-STEM match for unaligned overengineered :: over-03 :: bolt-eng-DF-199-192780-6926619_0004.10 ldcpreferred
-STEM match for unaligned overengineering :: over-03 :: bolt-eng-DF-199-192780-6926619_0005.1 ldcpreferred
-STEM match for unaligned Duponts :: Dupont :: bolt-eng-DF-199-192780-6926619_0006.1 ldcpreferred
-STEM match for unaligned waterfilled :: water :: bolt-eng-DF-199-192780-6926619_0008.4 ldcpreferred
-STEM match for unaligned microns :: micrometer :: bolt-eng-DF-199-192780-6926619_0009.4 ldcpreferred

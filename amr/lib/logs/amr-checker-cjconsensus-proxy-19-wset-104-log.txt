@@ -1,3 +1,0 @@
-STEM match for unaligned bioweapons :: bioweapon :: PROXY_NYT_ENG_20020406_0118.19 cjconsensus
-STEM match for unaligned arrears :: arrear :: PROXY_NYT_ENG_20020406_0118.19 cjconsensus
-STEM match for unaligned bioweapons :: bioweapon :: PROXY_NYT_ENG_20020406_0118.21 cjconsensus

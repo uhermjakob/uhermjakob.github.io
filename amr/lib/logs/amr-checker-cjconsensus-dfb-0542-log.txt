@@ -1,3 +1,0 @@
-STEM match for unaligned quit :: quite :: web1-eng-DF-233-195303-1476482_0005.1 cjconsensus
-STEM match for unaligned train :: trainspotting :: web1-eng-DF-233-195303-1476482_0005.1 cjconsensus
-STEM match for unaligned threes :: three :: web1-eng-DF-233-195303-1476482_0007.3 cjconsensus

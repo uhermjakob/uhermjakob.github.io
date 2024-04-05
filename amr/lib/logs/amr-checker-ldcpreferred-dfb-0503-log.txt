@@ -1,7 +1,0 @@
-STEM match for unaligned metalworking :: metal :: bolt-eng-DF-245-199817-13471816_0002.12 ldcpreferred
-STEM match for unaligned loop :: loophole :: bolt-eng-DF-245-199817-13471816_0003.3 ldcpreferred
-STEM match for unaligned turn :: turnaround :: bolt-eng-DF-245-199817-13471816_0003.4 ldcpreferred
-STEM match for unaligned burglars :: burgle-02 :: bolt-eng-DF-245-199817-13471816_0030.9 ldcpreferred
-STEM match for unaligned thereabouts :: thereabout :: bolt-eng-DF-245-199817-13471816_0030.15 ldcpreferred
-STEM match for unaligned defenseless :: defend-01 :: bolt-eng-DF-245-199817-13471816_0030.19 ldcpreferred
-STEM match for unaligned actualy :: actual-02 :: bolt-eng-DF-245-199817-13471816_0030.26 ldcpreferred

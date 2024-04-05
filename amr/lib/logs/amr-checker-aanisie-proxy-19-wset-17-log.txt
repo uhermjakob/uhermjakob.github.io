@@ -1,7 +1,0 @@
-STEM match for unaligned Telecom :: telecommunication :: PROXY_AFP_ENG_20050601_0389.3 aanisie
-STEM match for unaligned browser :: browse-01 :: PROXY_AFP_ENG_20050601_0389.10 aanisie
-STEM match for unaligned Ransomware :: ransomeware :: PROXY_AFP_ENG_20050601_0389.16 aanisie
-STEM match for unaligned weakness :: weaken-01 :: PROXY_AFP_ENG_20050601_0389.16 aanisie
-STEM match for unaligned technical :: technique :: PROXY_AFP_ENG_20050603_0056.27 aanisie
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050604_0444.7 aanisie
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050604_0444.19 aanisie

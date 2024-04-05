@@ -1,3 +1,0 @@
-STEM match for unaligned AFGHAN :: Afghanistan :: nyt_eng_20130703_0214.1 cjconsensus
-STEM match for unaligned and :: and :: nyt_eng_20130703_0214.3 cjconsensus
-STEM match for unaligned and :: and :: nyt_eng_20130703_0214.5 cjconsensus

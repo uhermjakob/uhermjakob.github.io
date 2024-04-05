@@ -1,3 +1,0 @@
-STEM match for unaligned McCains :: McCain :: web1-eng-DF-170-181103-5520823_0005.1 ldcpreferred
-STEM match for unaligned shinebox :: shine-01 :: web1-eng-DF-170-181103-5520823_0010.8 ldcpreferred
-STEM match for unaligned shaking :: shake-01 :: web1-eng-DF-170-181103-5520823_0015.3 ldcpreferred

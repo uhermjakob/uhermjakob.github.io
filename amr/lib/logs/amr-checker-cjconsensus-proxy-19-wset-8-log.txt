@@ -1,2 +1,0 @@
-STEM match for unaligned volkswagens :: Volkswagen :: PROXY_AFP_ENG_20040209_0175.20 cjconsensus
-STEM match for unaligned buicks :: Buick :: PROXY_AFP_ENG_20040209_0175.20 cjconsensus

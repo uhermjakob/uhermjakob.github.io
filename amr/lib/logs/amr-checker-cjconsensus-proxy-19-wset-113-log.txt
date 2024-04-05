@@ -1,8 +1,0 @@
-STEM match for unaligned and :: and :: PROXY_XIN_ENG_20021228_0162.7 cjconsensus
-STEM match for unaligned imagers :: imager :: PROXY_XIN_ENG_20030428_0226.13 cjconsensus
-STEM match for unaligned and :: and :: PROXY_XIN_ENG_20030428_0226.13 cjconsensus
-STEM match for unaligned and :: and :: PROXY_XIN_ENG_20030428_0226.13 cjconsensus
-STEM match for unaligned and :: and :: PROXY_XIN_ENG_20030428_0226.13 cjconsensus
-STEM match for unaligned bulletproof :: bullet :: PROXY_XIN_ENG_20030624_0298.14 cjconsensus
-STEM match for unaligned Islamic :: Islamism :: PROXY_XIN_ENG_20030624_0298.16 cjconsensus
-STEM match for unaligned and :: and :: PROXY_XIN_ENG_20030624_0298.21 cjconsensus

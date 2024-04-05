@@ -1,8 +1,0 @@
-STEM match for unaligned buildings :: build :: wb.eng_0007.1 neilkus
-STEM match for unaligned gloomy :: gloom :: wb.eng_0007.5 neilkus
-STEM match for unaligned trendy :: trend :: wb.eng_0007.6 neilkus
-STEM match for unaligned square :: square-feet :: wb.eng_0007.7 neilkus
-STEM match for unaligned feet :: square-feet :: wb.eng_0007.7 neilkus
-STEM match for unaligned Housing :: house-01 :: wb.eng_0007.10 neilkus
-STEM match for unaligned presumably :: presume-01 :: wb.eng_0007.16 neilkus
-STEM match for unaligned employees :: employ :: wb.eng_0007.17 neilkus

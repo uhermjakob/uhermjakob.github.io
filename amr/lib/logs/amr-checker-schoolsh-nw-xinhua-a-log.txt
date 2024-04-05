@@ -1,6 +1,0 @@
-STEM match for unaligned End :: end-01 :: nw.chtb_0027.10 schoolsh
-STEM match for unaligned End :: end-01 :: nw.chtb_0028.9 schoolsh
-STEM match for unaligned month :: month :: nw.chtb_0039.2 schoolsh
-STEM match for unaligned month :: month :: nw.chtb_0039.2 schoolsh
-STEM match for unaligned separatist :: separtist :: nw.chtb_0058.13 schoolsh
-STEM match for unaligned Taiwan :: Taiwain :: nw.chtb_0058.13 schoolsh

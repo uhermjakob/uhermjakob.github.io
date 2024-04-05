@@ -1,3 +1,0 @@
-STEM match for unaligned ground’' :: ground :: nyt_eng_20130816_0151.3 cjconsensus
-STEM match for unaligned ground’' :: ground :: nyt_eng_20130816_0151.9 cjconsensus
-STEM match for unaligned ground’' :: ground :: nyt_eng_20130816_0151.15 cjconsensus

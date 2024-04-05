@@ -1,4 +1,0 @@
-STEM match for unaligned amphobiles :: amphibole :: nw.wsj_0003.20 consensus
-STEM match for unaligned and :: and :: nw.wsj_0003.21 consensus
-STEM match for unaligned and :: and :: nw.wsj_0009.1 consensus
-STEM match for unaligned knowns :: know-02 :: nw.wsj_0010.6 consensus

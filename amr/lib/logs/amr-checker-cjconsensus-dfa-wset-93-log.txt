@@ -1,7 +1,0 @@
-STEM match for unaligned and :: and :: DF-225-196010-966_3771.1 cjconsensus
-STEM match for unaligned chunky :: chunk :: DF-225-196010-966_3771.2 cjconsensus
-STEM match for unaligned sweetie :: sweet-04 :: DF-225-196010-966_3771.10 cjconsensus
-STEM match for unaligned forensically :: forensic :: DF-225-196010-966_4222.4 cjconsensus
-STEM match for unaligned moneysaving :: money :: DF-225-196010-966_4222.15 cjconsensus
-STEM match for unaligned years :: year :: DF-225-196010-966_4222.22 cjconsensus
-STEM match for unaligned cynical :: cynic :: DF-225-196010-966_4435.1 cjconsensus

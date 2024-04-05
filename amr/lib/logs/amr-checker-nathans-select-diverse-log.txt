@@ -1,6 +1,0 @@
-STEM match for unaligned rich :: rich :: bc.cctv_0000.197 nathans
-STEM match for unaligned Kuwait :: Kuwait :: bc.msnbc_0005.197 nathans
-STEM match for unaligned Kuwait :: Kuwait :: bc.msnbc_0005.197 nathans
-STEM match for unaligned vote :: vote-01 :: bc.msnbc_0005.197 nathans
-STEM match for unaligned Only :: only :: nw.wsj_1327.4 nathans
-STEM match for unaligned 4 :: 4 :: nw.wsj_2448.38 nathans

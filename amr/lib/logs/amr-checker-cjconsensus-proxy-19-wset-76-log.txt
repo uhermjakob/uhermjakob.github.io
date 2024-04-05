@@ -1,7 +1,0 @@
-STEM match for unaligned Indonesian :: Indonesia :: PROXY_APW_ENG_20020516_0478.6 cjconsensus
-STEM match for unaligned Indonesian :: Indonesia :: PROXY_APW_ENG_20020516_0478.6 cjconsensus
-STEM match for unaligned Indonesian :: Indonesia :: PROXY_APW_ENG_20020516_0478.6 cjconsensus
-STEM match for unaligned Indonesian :: Indonesia :: PROXY_APW_ENG_20020516_0478.6 cjconsensus
-STEM match for unaligned piracy :: pirate-01 :: PROXY_APW_ENG_20020516_0478.10 cjconsensus
-STEM match for unaligned piracy :: pirate-01 :: PROXY_APW_ENG_20020520_0345.13 cjconsensus
-STEM match for unaligned cybercrime :: cyber :: PROXY_APW_ENG_20020520_0345.13 cjconsensus

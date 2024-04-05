@@ -1,8 +1,0 @@
-STEM match for unaligned Christoper :: Christopher :: bolt-eng-DF-170-181106-8872271_0015.1 ldcpreferred
-STEM match for unaligned underplayed :: understand-01 :: bolt-eng-DF-170-181106-8872271_0015.2 ldcpreferred
-STEM match for unaligned Christoper :: Christopher :: bolt-eng-DF-170-181106-8872271_0017.1 ldcpreferred
-STEM match for unaligned genetic :: gene :: bolt-eng-DF-170-181106-8872271_0017.11 ldcpreferred
-STEM match for unaligned asians :: Asia :: bolt-eng-DF-170-181106-8872271_0018.3 ldcpreferred
-STEM match for unaligned and :: and :: bolt-eng-DF-170-181106-8872271_0034.3 ldcpreferred
-STEM match for unaligned and :: and :: bolt-eng-DF-170-181106-8872271_0034.20 ldcpreferred
-STEM match for unaligned attraction :: attract-01 :: bolt-eng-DF-170-181106-8872271_0035.3 ldcpreferred

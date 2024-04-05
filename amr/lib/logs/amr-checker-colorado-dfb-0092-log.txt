@@ -1,7 +1,0 @@
-STEM match for unaligned boot :: bootcamp :: bolt-eng-DF-170-181118-8874674_0008.9 colorado
-STEM match for unaligned swabbed :: swab-01 :: bolt-eng-DF-170-181118-8874674_0008.9 colorado
-STEM match for unaligned and :: and :: bolt-eng-DF-170-181118-8874674_0008.21 colorado
-STEM match for unaligned and :: and :: bolt-eng-DF-170-181118-8874674_0008.21 colorado
-STEM match for unaligned Swimmers :: swim-01 :: bolt-eng-DF-170-181118-8874674_0008.22 colorado
-STEM match for unaligned world :: worldwide :: bolt-eng-DF-170-181118-8874674_0008.22 colorado
-STEM match for unaligned Swimmers :: swim-01 :: bolt-eng-DF-170-181118-8874674_0011.1 colorado

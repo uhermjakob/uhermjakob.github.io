@@ -1,8 +1,0 @@
-STEM match for unaligned parliamentarians :: Parliament :: PROXY_AFP_ENG_20040216_0567.18 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20040216_0567.18 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20040216_0567.18 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20040229_0048.11 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20040229_0048.11 cjconsensus
-STEM match for unaligned nightclub :: night :: PROXY_AFP_ENG_20040229_0048.27 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20040229_0048.27 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20040229_0048.27 cjconsensus

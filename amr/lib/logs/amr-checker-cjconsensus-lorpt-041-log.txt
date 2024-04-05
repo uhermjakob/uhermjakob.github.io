@@ -1,2 +1,0 @@
-STEM match for unaligned executive :: execute-02 :: NW_AGV_ENG_0043_2004_1215.6 cjconsensus
-STEM match for unaligned burgulars :: burglar :: NW_AGV_ENG_0043_2004_1215.16 cjconsensus

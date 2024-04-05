@@ -1,2 +1,0 @@
-STEM match for unaligned 55 :: 55 :: nw.wsj_0002.1 ebutusina
-STEM match for unaligned years :: year :: nw.wsj_0002.1 ebutusina

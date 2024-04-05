@@ -1,8 +1,0 @@
-STEM match for unaligned late :: late :: wb.eng_0003.4 gsandru
-STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.4 gsandru
-STEM match for unaligned year :: year :: wb.eng_0003.9 gsandru
-STEM match for unaligned all :: all :: wb.eng_0003.9 gsandru
-STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.9 gsandru
-STEM match for unaligned need :: need-01 :: wb.eng_0003.13 gsandru
-STEM match for unaligned years :: year :: wb.eng_0003.19 gsandru
-STEM match for unaligned years :: year :: wb.eng_0003.19 gsandru

@@ -1,2 +1,0 @@
-STEM match for unaligned Digi :: Digicel :: ENG_NA_020001_20161020_G0023FSU4_0001.4 cjconsensus
-STEM match for unaligned Campfire :: camp :: ENG_NA_020001_20161020_G0023FSU4_0001.7 cjconsensus

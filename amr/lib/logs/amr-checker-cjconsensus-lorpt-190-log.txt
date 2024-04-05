@@ -1,3 +1,0 @@
-STEM match for unaligned and :: and :: NW_XIN_ENG_0191_2005_0405.3 cjconsensus
-STEM match for unaligned mountaineering :: mountain :: NW_XIN_ENG_0191_2005_0405.7 cjconsensus
-STEM match for unaligned slided :: slide-01 :: NW_XIN_ENG_0191_2005_0405.9 cjconsensus

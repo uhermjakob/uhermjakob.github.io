@@ -1,2 +1,0 @@
-STEM match for unaligned friends :: friend :: bolt12_12240_8611.3 schoolsh
-STEM match for unaligned lenient :: leninent :: bolt12_10510_8171.3 schoolsh

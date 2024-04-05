@@ -1,6 +1,0 @@
-STEM match for unaligned signifigant :: significant-02 :: DF-199-192821-670_6556.1 cjconsensus
-STEM match for unaligned hoarder :: hoard-01 :: DF-199-192821-670_6556.11 cjconsensus
-STEM match for unaligned and :: and :: DF-199-192821-670_6556.13 cjconsensus
-STEM match for unaligned and :: and :: DF-199-192821-670_6556.18 cjconsensus
-STEM match for unaligned succumbed :: succumb-01 :: DF-199-192821-670_6556.20 cjconsensus
-STEM match for unaligned alzheimers :: Alzheimer :: DF-199-192821-670_6556.35 cjconsensus

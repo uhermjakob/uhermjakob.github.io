@@ -1,7 +1,0 @@
-STEM match for unaligned stealthy :: stealth :: DF-200-192446-380_7702.3 cjconsensus
-STEM match for unaligned criticise :: criticize-01 :: DF-200-192446-380_7702.4 cjconsensus
-STEM match for unaligned britian :: Britain :: DF-200-192446-380_7702.6 cjconsensus
-STEM match for unaligned harbour :: harbor-01 :: DF-200-192446-380_7702.9 cjconsensus
-STEM match for unaligned vitriole :: vitriol :: DF-200-192446-380_7702.10 cjconsensus
-STEM match for unaligned readership :: read-01 :: DF-200-192446-380_7702.12 cjconsensus
-STEM match for unaligned requisite :: require-01 :: DF-200-192446-380_7752.9 cjconsensus

@@ -1,9 +1,0 @@
-STEM match for unaligned business :: businessman :: sdl_0001.3 knight
-STEM match for unaligned sedentariness :: sedentary :: sdl_0001.4 knight
-STEM match for unaligned cause :: cause-of :: sdl_0001.4 knight
-STEM match for unaligned cause :: cause-of :: sdl_0001.4 knight
-STEM match for unaligned this :: this :: sdl_0001.6 knight
-STEM match for unaligned spring :: spring :: sdl_0001.6 knight
-STEM match for unaligned spring :: spring :: sdl_0001.6 knight
-STEM match for unaligned threat :: threaten-01 :: sdl_0001.6 knight
-STEM match for unaligned considered :: consider-01 :: sdl_0001.9 knight

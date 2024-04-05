@@ -1,2 +1,0 @@
-STEM match for unaligned 23 :: 23 :: isi_0002.211 ulf
-STEM match for unaligned 1564 :: 1564 :: isi_0002.211 ulf

@@ -1,5 +1,0 @@
-STEM match for unaligned Pete :: Petersburg :: NW_AGV_ENG_0050_2005_0224.1 cjconsensus
-STEM match for unaligned Floridians :: Florida :: NW_AGV_ENG_0050_2005_0224.9 cjconsensus
-STEM match for unaligned and :: and :: NW_AGV_ENG_0050_2005_0224.10 cjconsensus
-STEM match for unaligned and :: and :: NW_AGV_ENG_0050_2005_0224.10 cjconsensus
-STEM match for unaligned and :: and :: NW_AGV_ENG_0050_2005_0224.10 cjconsensus

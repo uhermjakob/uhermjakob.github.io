@@ -1,3 +1,0 @@
-STEM match for unaligned and :: and :: NW_XIN_ENG_0195_2008_0420.4 cjconsensus
-STEM match for unaligned forecasters :: forecast-01 :: NW_XIN_ENG_0195_2008_0420.13 cjconsensus
-STEM match for unaligned lightning :: light :: NW_XIN_ENG_0195_2008_0420.17 cjconsensus

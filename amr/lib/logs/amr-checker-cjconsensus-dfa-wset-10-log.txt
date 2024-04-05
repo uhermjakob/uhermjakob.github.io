@@ -1,9 +1,0 @@
-STEM match for unaligned and :: and :: DF-199-192821-670_8251.1 cjconsensus
-STEM match for unaligned organised :: organize-01 :: DF-199-192821-670_8251.13 cjconsensus
-STEM match for unaligned releasable :: release-01 :: DF-199-192821-670_8251.14 cjconsensus
-STEM match for unaligned and :: and :: DF-199-192821-670_8251.19 cjconsensus
-STEM match for unaligned achievedfame :: achieve-01 :: DF-199-192821-670_8251.19 cjconsensus
-STEM match for unaligned publication :: publicize-01 :: DF-199-192821-670_8251.27 cjconsensus
-STEM match for unaligned matters :: matter :: DF-199-192821-670_8251.33 cjconsensus
-STEM match for unaligned and :: and :: DF-199-192821-670_8251.45 cjconsensus
-STEM match for unaligned critical :: critique-01 :: DF-199-192821-670_8251.45 cjconsensus

@@ -1,4 +1,0 @@
-STEM match for unaligned boy :: boy :: isi_0001.2 lnodari
-STEM match for unaligned believed :: believe-01 :: isi_0001.2 lnodari
-STEM match for unaligned girl :: girl :: isi_0001.2 lnodari
-STEM match for unaligned girl :: girl :: isi_0001.7 lnodari

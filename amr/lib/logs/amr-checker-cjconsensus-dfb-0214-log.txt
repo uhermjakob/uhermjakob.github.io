@@ -1,9 +1,0 @@
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811758_0001.4 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811758_0001.4 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811758_0001.4 cjconsensus
-STEM match for unaligned passers :: pass-by-17 :: bolt-eng-DF-200-192446-3811758_0001.10 cjconsensus
-STEM match for unaligned TSRians :: tsrian :: bolt-eng-DF-200-192446-3811758_0001.13 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811758_0003.1 cjconsensus
-STEM match for unaligned lecturers :: lecture :: bolt-eng-DF-200-192446-3811758_0004.1 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811758_0004.8 cjconsensus
-STEM match for unaligned lecturer :: lecture-01 :: bolt-eng-DF-200-192446-3811758_0004.8 cjconsensus

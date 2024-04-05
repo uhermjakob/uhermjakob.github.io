@@ -1,3 +1,0 @@
-STEM match for unaligned attachers :: attack-01 :: bolt-eng-DF-199-192909-6671340_0010.4 cjconsensus
-STEM match for unaligned Italians :: Italia :: bolt-eng-DF-199-192909-6671340_0010.11 cjconsensus
-STEM match for unaligned touristy :: tour-01 :: bolt-eng-DF-199-192909-6671340_0011.4 cjconsensus

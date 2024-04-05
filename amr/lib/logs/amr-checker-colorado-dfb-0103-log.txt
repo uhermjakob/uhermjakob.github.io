@@ -1,3 +1,0 @@
-STEM match for unaligned Cartorage :: cartridge :: bolt-eng-DF-170-181122-8787574_0006.1 colorado
-STEM match for unaligned Bombs :: bomb :: bolt-eng-DF-170-181122-8787574_0006.1 colorado
-STEM match for unaligned identity :: identify-01 :: bolt-eng-DF-170-181122-8787574_0011.15 colorado

@@ -1,7 +1,0 @@
-STEM match for unaligned this :: this :: sdl_0001.6 consensus
-STEM match for unaligned spring :: spring :: sdl_0001.6 consensus
-STEM match for unaligned spring :: spring :: sdl_0001.6 consensus
-STEM match for unaligned threat :: threaten-01 :: sdl_0001.6 consensus
-STEM match for unaligned exorbitant :: exorbitant :: sdl_0001.7 consensus
-STEM match for unaligned exorbitant :: exorbitant :: sdl_0001.7 consensus
-STEM match for unaligned costs :: cost-01 :: sdl_0001.7 consensus

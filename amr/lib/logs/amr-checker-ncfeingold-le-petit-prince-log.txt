@@ -1,6 +1,0 @@
-STEM match for unaligned years :: year :: lpp_1943.2 ncfeingold
-STEM match for unaligned drawing :: draw-01 :: lpp_1943.4 ncfeingold
-STEM match for unaligned months :: month :: lpp_1943.6 ncfeingold
-STEM match for unaligned first :: first :: lpp_1943.8 ncfeingold
-STEM match for unaligned first :: first :: lpp_1943.8 ncfeingold
-STEM match for unaligned drawing :: draw-01 :: lpp_1943.10 ncfeingold

@@ -1,5 +1,0 @@
-STEM match for unaligned khariji :: al-Khariji :: PROXY_AFP_ENG_20070818_0078.14 cjconsensus
-STEM match for unaligned Interpol :: International :: PROXY_AFP_ENG_20070818_0297.6 cjconsensus
-STEM match for unaligned nationality :: nation :: PROXY_AFP_ENG_20070818_0297.14 cjconsensus
-STEM match for unaligned nationality :: nation :: PROXY_AFP_ENG_20070818_0297.14 cjconsensus
-STEM match for unaligned headquartered :: headquarters-yy :: PROXY_AFP_ENG_20070818_0297.63 cjconsensus

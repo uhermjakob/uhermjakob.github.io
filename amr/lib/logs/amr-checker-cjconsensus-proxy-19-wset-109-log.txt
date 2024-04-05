@@ -1,5 +1,0 @@
-STEM match for unaligned rejecters :: reject-01 :: PROXY_NYT_ENG_20080919_0209.19 cjconsensus
-STEM match for unaligned and :: and :: PROXY_NYT_ENG_20081008_0040.8 cjconsensus
-STEM match for unaligned and :: and :: PROXY_NYT_ENG_20081008_0040.8 cjconsensus
-STEM match for unaligned receipt :: receive-01 :: PROXY_NYT_ENG_20081008_0040.17 cjconsensus
-STEM match for unaligned preferably :: prefer-01 :: PROXY_NYT_ENG_20081008_0040.17 cjconsensus

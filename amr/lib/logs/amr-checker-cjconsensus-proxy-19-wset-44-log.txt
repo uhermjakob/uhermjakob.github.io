@@ -1,4 +1,0 @@
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070820_0344.9 cjconsensus
-STEM match for unaligned Interpol :: International :: PROXY_AFP_ENG_20070820_0344.10 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070820_0344.14 cjconsensus
-STEM match for unaligned codenamed :: code :: PROXY_AFP_ENG_20070904_0188.11 cjconsensus

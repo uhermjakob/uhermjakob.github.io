@@ -1,7 +1,0 @@
-STEM match for unaligned Oroscos :: Orosco :: NW_NYT_ENG_0136_2005_1014.3 cjconsensus
-STEM match for unaligned Oroscos :: Orosco :: NW_NYT_ENG_0136_2005_1014.6 cjconsensus
-STEM match for unaligned bullishness :: bullish :: NW_NYT_ENG_0136_2005_1014.13 cjconsensus
-STEM match for unaligned Oroscos :: Orosco :: NW_NYT_ENG_0136_2005_1014.18 cjconsensus
-STEM match for unaligned unfazed :: faze-01 :: NW_NYT_ENG_0136_2005_1014.21 cjconsensus
-STEM match for unaligned slowdown :: slow-down-03 :: NW_NYT_ENG_0136_2005_1014.23 cjconsensus
-STEM match for unaligned slowdown :: slow-down-03 :: NW_NYT_ENG_0136_2005_1014.27 cjconsensus

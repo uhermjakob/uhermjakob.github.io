@@ -1,4 +1,0 @@
-STEM match for unaligned recountable :: record :: bolt-eng-DF-259-200782-13096251_0187.7 ldcpreferred
-STEM match for unaligned recountable :: recount-01 :: bolt-eng-DF-259-200782-13096251_0187.7 ldcpreferred
-STEM match for unaligned recountable :: record :: bolt-eng-DF-259-200782-13096251_0187.7 ldcpreferred
-STEM match for unaligned and :: and :: bolt-eng-DF-259-200782-13096251_0190.6 ldcpreferred

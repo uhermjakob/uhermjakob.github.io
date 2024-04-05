@@ -1,2 +1,0 @@
-STEM match for unaligned mountainsides :: mountain :: NW_APW_ENG_0080_2007_1231.4 cjconsensus
-STEM match for unaligned Eastbound :: east :: NW_APW_ENG_0080_2007_1231.15 cjconsensus

@@ -1,9 +1,0 @@
-STEM match for unaligned little :: little :: lpp_1943.1362 kirchman
-STEM match for unaligned little :: little :: lpp_1943.1362 kirchman
-STEM match for unaligned suffering :: suffer-01 :: lpp_1943.1468 kirchman
-STEM match for unaligned gently :: gentle :: lpp_1943.1524 kirchman
-STEM match for unaligned years :: year :: lpp_1943.1527 kirchman
-STEM match for unaligned sheep :: sheep :: lpp_1943.1545 kirchman
-STEM match for unaligned sheep :: sheep :: lpp_1943.1545 kirchman
-STEM match for unaligned night :: night :: lpp_1943.1545 kirchman
-STEM match for unaligned night :: night :: lpp_1943.1545 kirchman

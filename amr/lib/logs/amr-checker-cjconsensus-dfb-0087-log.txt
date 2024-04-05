@@ -1,8 +1,0 @@
-STEM match for unaligned artifical :: artificial :: bolt-eng-DF-170-181113-8748063_0029.5 cjconsensus
-STEM match for unaligned artifical :: artificial :: bolt-eng-DF-170-181113-8748063_0030.1 cjconsensus
-STEM match for unaligned produced :: produce-01 :: bolt-eng-DF-170-181113-8748063_0030.3 cjconsensus
-STEM match for unaligned demi :: demigod :: bolt-eng-DF-170-181113-8748063_0035.7 cjconsensus
-STEM match for unaligned Shocker :: shock-01 :: bolt-eng-DF-170-181113-8748063_0035.14 cjconsensus
-STEM match for unaligned strawman :: straw :: bolt-eng-DF-170-181113-8748063_0044.5 cjconsensus
-STEM match for unaligned strawman :: straw :: bolt-eng-DF-170-181113-8748063_0047.6 cjconsensus
-STEM match for unaligned bullshitters :: bullshit-01 :: bolt-eng-DF-170-181113-8748063_0047.9 cjconsensus

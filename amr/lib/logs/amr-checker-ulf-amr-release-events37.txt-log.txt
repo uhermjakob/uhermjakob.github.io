@@ -1,7 +1,0 @@
-STEM match for unaligned and :: and :: events_0037.10 ulf
-STEM match for unaligned aftermath :: after :: events_0037.17 ulf
-STEM match for unaligned aftermath :: after :: events_0037.17 ulf
-STEM match for unaligned aftermath :: after :: events_0037.17 ulf
-STEM match for unaligned hospitalised :: hospitalize-01 :: events_0037.43 ulf
-STEM match for unaligned and :: and :: events_0037.57 ulf
-STEM match for unaligned and :: and :: events_0037.59 ulf

@@ -1,2 +1,0 @@
-STEM match for unaligned years :: year :: lpp_1943.2 kiragrif
-STEM match for unaligned drawing :: draw-01 :: lpp_1943.4 kiragrif

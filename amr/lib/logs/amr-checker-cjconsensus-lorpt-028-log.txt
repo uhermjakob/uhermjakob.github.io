@@ -1,7 +1,0 @@
-STEM match for unaligned catastrophic :: catastrophe :: NW_AFP_ENG_0028_2009_1117.3 cjconsensus
-STEM match for unaligned homeowners :: home :: NW_AFP_ENG_0028_2009_1117.5 cjconsensus
-STEM match for unaligned Catastrophic :: catastrophe :: NW_AFP_ENG_0028_2009_1117.6 cjconsensus
-STEM match for unaligned forcibly :: force-02 :: NW_AFP_ENG_0028_2009_1117.9 cjconsensus
-STEM match for unaligned and :: and :: NW_AFP_ENG_0028_2009_1117.11 cjconsensus
-STEM match for unaligned and :: and :: NW_AFP_ENG_0028_2009_1117.11 cjconsensus
-STEM match for unaligned combustible :: combust-01 :: NW_AFP_ENG_0028_2009_1117.12 cjconsensus

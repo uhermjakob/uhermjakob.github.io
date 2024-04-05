@@ -1,3 +1,0 @@
-STEM match for unaligned mission :: miss-01 :: ENG_NW_000050_19940608_B000007EH_0001.4 cjconsensus
-STEM match for unaligned hard :: hardly :: ENG_NW_000050_19940608_B000007EH_0001.6 cjconsensus
-STEM match for unaligned Andean :: Andes :: ENG_NW_000050_19940608_B000007EH_0001.12 cjconsensus

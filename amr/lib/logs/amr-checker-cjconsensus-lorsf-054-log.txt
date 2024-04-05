@@ -1,7 +1,0 @@
-STEM match for unaligned Tabare :: Tabarre :: ENG_NA_020001_20161020_G0023FSU8_0001.5 cjconsensus
-STEM match for unaligned PHONENUMBER :: phone-number-entity :: ENG_NA_020001_20161020_G0023FSU8_0001.6 cjconsensus
-STEM match for unaligned PHONENUMBER :: phone-number-entity :: ENG_NA_020001_20161020_G0023FSU8_0001.6 cjconsensus
-STEM match for unaligned PHONENUMBER :: phone :: ENG_NA_020001_20161020_G0023FSU8_0001.6 cjconsensus
-STEM match for unaligned PHONENUMBER :: phone-number-entity :: ENG_NA_020001_20161020_G0023FSU8_0001.6 cjconsensus
-STEM match for unaligned PHONENUMBER :: phone-number-entity :: ENG_NA_020001_20161020_G0023FSU8_0001.6 cjconsensus
-STEM match for unaligned PHONENUMBER :: phone :: ENG_NA_020001_20161020_G0023FSU8_0001.6 cjconsensus

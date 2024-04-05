@@ -1,5 +1,0 @@
-STEM match for unaligned http://oneresponse.info/Disasters/Haiti/Health/Pages/default.aspx :: http://oneresponse.info/Disasters/Haiti/Health/Pages/default.aspx. :: ENG_NA_020001_20161020_G0023FSTF_0001.6 cjconsensus
-STEM match for unaligned Industrielle :: Industrial :: ENG_NA_020001_20161020_G0023FSTF_0001.18 cjconsensus
-STEM match for unaligned Industrielle :: industry :: ENG_NA_020001_20161020_G0023FSTF_0001.18 cjconsensus
-STEM match for unaligned Industrielle :: Industrial :: ENG_NA_020001_20161020_G0023FSTF_0001.18 cjconsensus
-STEM match for unaligned Industrielle :: industry :: ENG_NA_020001_20161020_G0023FSTF_0001.18 cjconsensus

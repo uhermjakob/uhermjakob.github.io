@@ -1,9 +1,0 @@
-STEM match for unaligned http://sfgate.com/cgi-bin/article.cg...238EST0613.DTL :: http://sfgate.com/cgi-bin/article.cgi?f=/news/a/2004/03/31/national1238EST0613.DTL :: web1-eng-DF-241-201379-3780177_0001.6 colorado
-STEM match for unaligned strangly :: strange :: web1-eng-DF-241-201379-3780177_0002.2 colorado
-STEM match for unaligned somethings :: something :: web1-eng-DF-241-201379-3780177_0004.1 colorado
-STEM match for unaligned thinks :: think-01 :: web1-eng-DF-241-201379-3780177_0011.4 colorado
-STEM match for unaligned shakes :: shake-01 :: web1-eng-DF-241-201379-3780177_0013.12 colorado
-STEM match for unaligned chuckles :: chuckle-01 :: web1-eng-DF-241-201379-3780177_0014.3 colorado
-STEM match for unaligned Auto :: automate-01 :: web1-eng-DF-241-201379-3780177_0014.3 colorado
-STEM match for unaligned parentage :: parent :: web1-eng-DF-241-201379-3780177_0014.3 colorado
-STEM match for unaligned alarmbells :: alarm-01 :: web1-eng-DF-241-201379-3780177_0014.10 colorado

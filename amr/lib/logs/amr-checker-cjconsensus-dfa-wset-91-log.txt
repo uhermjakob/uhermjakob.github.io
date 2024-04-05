@@ -1,6 +1,0 @@
-STEM match for unaligned rangebound :: range-01 :: DF-225-195989-879_3877.9 cjconsensus
-STEM match for unaligned and :: and :: DF-225-195989-879_3877.10 cjconsensus
-STEM match for unaligned destruction :: destruct-01 :: DF-225-195989-879_3877.10 cjconsensus
-STEM match for unaligned terma :: term :: DF-225-195989-879_3877.12 cjconsensus
-STEM match for unaligned and :: and :: DF-225-195989-880_0167.2 cjconsensus
-STEM match for unaligned bonds :: bond :: DF-225-195989-880_0167.5 cjconsensus

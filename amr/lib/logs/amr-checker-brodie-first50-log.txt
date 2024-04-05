@@ -1,8 +1,0 @@
-STEM match for unaligned prison :: prison :: wsj_2452.5 brodie
-STEM match for unaligned prison :: prison :: wsj_2452.5 brodie
-STEM match for unaligned 1943 :: 1943 :: chtb_0208.6 brodie
-STEM match for unaligned 1946 :: 1946 :: chtb_0208.6 brodie
-STEM match for unaligned 1947 :: 1947 :: chtb_0208.6 brodie
-STEM match for unaligned 59 :: 59 :: wsj_1224.1 brodie
-STEM match for unaligned year :: year :: wsj_1224.1 brodie
-STEM match for unaligned 9.5 :: 9.5 :: wsj_1224.1 brodie

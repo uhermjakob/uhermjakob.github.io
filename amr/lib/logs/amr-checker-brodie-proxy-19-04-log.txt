@@ -1,4 +1,0 @@
-STEM match for unaligned reemerged :: reemerge-00 :: PROXY_AFP_ENG_20020518_0107.27 brodie
-STEM match for unaligned methamphethamine :: methamphetamine :: PROXY_AFP_ENG_20020522_0013.9 brodie
-STEM match for unaligned derivative :: derive-01 :: PROXY_AFP_ENG_20020522_0013.12 brodie
-STEM match for unaligned Smokable :: smoke-02 :: PROXY_AFP_ENG_20020522_0013.12 brodie

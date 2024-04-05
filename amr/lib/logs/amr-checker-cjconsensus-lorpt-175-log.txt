@@ -1,7 +1,0 @@
-STEM match for unaligned processor :: process-01 :: NW_WSJ_ENG_0176_2006_0331.14 cjconsensus
-STEM match for unaligned diarrheal :: diarrhea :: NW_WSJ_ENG_0176_2006_0331.19 cjconsensus
-STEM match for unaligned and :: and :: NW_WSJ_ENG_0176_2006_0331.23 cjconsensus
-STEM match for unaligned gouty :: gout :: NW_WSJ_ENG_0176_2006_0331.24 cjconsensus
-STEM match for unaligned colorlessness :: color-01 :: NW_WSJ_ENG_0176_2006_0331.26 cjconsensus
-STEM match for unaligned Chemicals :: Chemicals, :: NW_WSJ_ENG_0176_2006_0331.53 cjconsensus
-STEM match for unaligned regularity :: regular-02 :: NW_WSJ_ENG_0176_2006_0331.54 cjconsensus

@@ -1,8 +1,0 @@
-STEM match for unaligned invaluable :: value-01 :: NW_GET_ENG_0113_2005_0105.7 cjconsensus
-STEM match for unaligned and :: and :: NW_GET_ENG_0113_2005_0105.7 cjconsensus
-STEM match for unaligned and :: and :: NW_GET_ENG_0113_2005_0105.7 cjconsensus
-STEM match for unaligned and :: and :: NW_GET_ENG_0113_2005_0105.7 cjconsensus
-STEM match for unaligned and :: and :: NW_GET_ENG_0113_2005_0105.16 cjconsensus
-STEM match for unaligned and :: and :: NW_GET_ENG_0113_2005_0105.16 cjconsensus
-STEM match for unaligned and :: and :: NW_GET_ENG_0113_2005_0105.16 cjconsensus
-STEM match for unaligned and :: and :: NW_GET_ENG_0113_2005_0105.16 cjconsensus

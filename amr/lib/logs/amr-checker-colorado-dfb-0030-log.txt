@@ -1,6 +1,0 @@
-STEM match for unaligned breath :: breathe-01 :: bolt-eng-DF-170-181103-8887769_0065.11 colorado
-STEM match for unaligned narrative :: narrate-01 :: bolt-eng-DF-170-181103-8887769_0068.1 colorado
-STEM match for unaligned narrative :: narrate-01 :: bolt-eng-DF-170-181103-8887769_0068.3 colorado
-STEM match for unaligned trustafarians :: trustafarian :: bolt-eng-DF-170-181103-8887769_0068.3 colorado
-STEM match for unaligned saintlike :: saint :: bolt-eng-DF-170-181103-8887769_0070.4 colorado
-STEM match for unaligned bleating :: bleat-01 :: bolt-eng-DF-170-181103-8887769_0070.11 colorado

@@ -1,7 +1,0 @@
-STEM match for unaligned late :: late :: wb.eng_0003.4 ptcacenco
-STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.4 ptcacenco
-STEM match for unaligned all :: all :: wb.eng_0003.9 ptcacenco
-STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.9 ptcacenco
-STEM match for unaligned Here :: here :: wb.eng_0003.21 ptcacenco
-STEM match for unaligned another :: another :: wb.eng_0003.21 ptcacenco
-STEM match for unaligned another :: another :: wb.eng_0003.21 ptcacenco

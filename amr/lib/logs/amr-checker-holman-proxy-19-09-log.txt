@@ -1,5 +1,0 @@
-STEM match for unaligned Kazakh :: Kazakhstan :: PROXY_AFP_ENG_20030321_0363.15 holman
-STEM match for unaligned Clubbers :: clubber :: PROXY_AFP_ENG_20030330_0257.19 holman
-STEM match for unaligned Villagers :: village :: PROXY_AFP_ENG_20030525_0181.15 holman
-STEM match for unaligned capital :: capitol :: PROXY_AFP_ENG_20030525_0181.15 holman
-STEM match for unaligned villagers :: village :: PROXY_AFP_ENG_20030525_0181.18 holman

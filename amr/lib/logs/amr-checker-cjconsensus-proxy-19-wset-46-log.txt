@@ -1,8 +1,0 @@
-STEM match for unaligned inflow :: flow-01 :: PROXY_AFP_ENG_20070925_0180.13 cjconsensus
-STEM match for unaligned Sensex :: Sensitive :: PROXY_AFP_ENG_20071001_0260.9 cjconsensus
-STEM match for unaligned hopes :: hopeful-02 :: PROXY_AFP_ENG_20071001_0260.13 cjconsensus
-STEM match for unaligned remittance :: remit-01 :: PROXY_AFP_ENG_20071001_0260.16 cjconsensus
-STEM match for unaligned remittance :: remit-01 :: PROXY_AFP_ENG_20071001_0260.17 cjconsensus
-STEM match for unaligned issuance :: issue-01 :: PROXY_AFP_ENG_20071003_0237.7 cjconsensus
-STEM match for unaligned playeda :: play-08 :: PROXY_AFP_ENG_20071003_0237.11 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20071003_0237.19 cjconsensus

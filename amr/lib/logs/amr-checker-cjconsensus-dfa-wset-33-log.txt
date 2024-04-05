@@ -1,7 +1,0 @@
-STEM match for unaligned and :: and :: DF-200-192403-625_1582.11 cjconsensus
-STEM match for unaligned and :: and :: DF-200-192403-625_1668.2 cjconsensus
-STEM match for unaligned and :: and :: DF-200-192403-625_1668.3 cjconsensus
-STEM match for unaligned apologising :: apologize-01 :: DF-200-192403-625_1668.10 cjconsensus
-STEM match for unaligned clingy :: cling-01 :: DF-200-192403-625_1668.14 cjconsensus
-STEM match for unaligned womanising :: womanize-01 :: DF-200-192403-625_1668.16 cjconsensus
-STEM match for unaligned banging :: bang-04 :: DF-200-192403-625_1668.24 cjconsensus

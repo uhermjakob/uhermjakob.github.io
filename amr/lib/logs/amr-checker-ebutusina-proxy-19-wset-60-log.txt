@@ -1,9 +1,0 @@
-STEM match for unaligned ELBarade :: ElBaradei :: PROXY_AFP_ENG_20080303_0135.8 ebutusina
-STEM match for unaligned necessary :: necessitate-01 :: PROXY_AFP_ENG_20080303_0135.9 ebutusina
-STEM match for unaligned weaponisation :: weaponize-01 :: PROXY_AFP_ENG_20080303_0135.14 ebutusina
-STEM match for unaligned baseless :: base-02 :: PROXY_AFP_ENG_20080303_0135.26 ebutusina
-STEM match for unaligned regrettable :: regret-01 :: PROXY_AFP_ENG_20080303_0135.29 ebutusina
-STEM match for unaligned Nation :: Nations :: PROXY_AFP_ENG_20080303_0135.33 ebutusina
-STEM match for unaligned accountable :: account-01 :: PROXY_AFP_ENG_20080303_0316.9 ebutusina
-STEM match for unaligned baseless :: base-02 :: PROXY_AFP_ENG_20080303_0316.19 ebutusina
-STEM match for unaligned suitable :: suit-01 :: PROXY_AFP_ENG_20080303_0316.22 ebutusina

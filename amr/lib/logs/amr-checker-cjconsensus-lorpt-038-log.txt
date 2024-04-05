@@ -1,6 +1,0 @@
-STEM match for unaligned swathes :: swath :: NW_AFP_ENG_0201_2006_0417.3 cjconsensus
-STEM match for unaligned Danube :: Danuve :: NW_AFP_ENG_0201_2006_0417.4 cjconsensus
-STEM match for unaligned eastwards :: east :: NW_AFP_ENG_0201_2006_0417.6 cjconsensus
-STEM match for unaligned scraped :: scrap-01 :: NW_AFP_ENG_0201_2006_0417.17 cjconsensus
-STEM match for unaligned centimetres :: centimeter :: NW_AFP_ENG_0201_2006_0417.24 cjconsensus
-STEM match for unaligned centimetres :: centimeter :: NW_AFP_ENG_0201_2006_0417.26 cjconsensus

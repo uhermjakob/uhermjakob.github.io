@@ -1,7 +1,0 @@
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192410-4717356_0081.6 cjconsensus
-STEM match for unaligned personaluty :: personality :: bolt-eng-DF-200-192410-4717356_0081.11 cjconsensus
-STEM match for unaligned personaluty :: person :: bolt-eng-DF-200-192410-4717356_0081.11 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192410-4717356_0081.11 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192410-4717356_0083.1 cjconsensus
-STEM match for unaligned presenter :: present-02 :: bolt-eng-DF-200-192410-4717356_0085.1 cjconsensus
-STEM match for unaligned nothhing :: nothing :: bolt-eng-DF-200-192410-4717356_0085.2 cjconsensus

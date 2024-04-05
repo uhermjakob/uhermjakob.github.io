@@ -1,9 +1,0 @@
-STEM match for unaligned entitlements :: entitlement :: bolt-eng-DF-170-181103-8890854_0030.23 colorado
-STEM match for unaligned light :: lightsaber :: bolt-eng-DF-170-181103-8890854_0030.31 colorado
-STEM match for unaligned listener :: listen-01 :: bolt-eng-DF-170-181103-8890854_0030.34 colorado
-STEM match for unaligned stealing :: steal-01 :: bolt-eng-DF-170-181103-8890854_0032.1 colorado
-STEM match for unaligned foreclosure :: foreclose-01 :: bolt-eng-DF-170-181103-8890854_0048.13 colorado
-STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8890854_0048.34 colorado
-STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8890854_0048.34 colorado
-STEM match for unaligned loans :: loan-01 :: bolt-eng-DF-170-181103-8890854_0053.29 colorado
-STEM match for unaligned prevelant :: prevail-02 :: bolt-eng-DF-170-181103-8890854_0053.29 colorado

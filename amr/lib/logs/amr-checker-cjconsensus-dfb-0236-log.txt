@@ -1,5 +1,0 @@
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6193043_0150.3 cjconsensus
-STEM match for unaligned scroungers :: scrounge-01 :: bolt-eng-DF-200-192448-6193043_0152.15 cjconsensus
-STEM match for unaligned governmetn :: government-organization :: bolt-eng-DF-200-192448-6193043_0152.20 cjconsensus
-STEM match for unaligned governmetn :: govern-01 :: bolt-eng-DF-200-192448-6193043_0152.20 cjconsensus
-STEM match for unaligned removed :: remove-01 :: bolt-eng-DF-200-192448-6193043_0152.33 cjconsensus

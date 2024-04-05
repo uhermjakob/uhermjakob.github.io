@@ -1,6 +1,0 @@
-STEM match for unaligned borderless :: border :: PROXY_APW_ENG_20080514_1125.29 cjconsensus
-STEM match for unaligned sourced :: source :: PROXY_APW_ENG_20080515_0628.11 cjconsensus
-STEM match for unaligned and :: and :: PROXY_APW_ENG_20080515_0931.14 cjconsensus
-STEM match for unaligned assertive :: assert-01 :: PROXY_APW_ENG_20080515_0931.16 cjconsensus
-STEM match for unaligned multitude :: multiple :: PROXY_APW_ENG_20080515_0931.25 cjconsensus
-STEM match for unaligned topol :: Topol-M :: PROXY_APW_ENG_20080515_0931.26 cjconsensus

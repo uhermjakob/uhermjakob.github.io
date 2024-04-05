@@ -1,5 +1,0 @@
-STEM match for unaligned doomsday :: doom-01 :: NW_LTW_ENG_0119_2006_0102.7 cjconsensus
-STEM match for unaligned and :: and :: NW_LTW_ENG_0119_2006_0102.9 cjconsensus
-STEM match for unaligned rooftops :: roof :: NW_LTW_ENG_0119_2006_0102.32 cjconsensus
-STEM match for unaligned crowbarred :: crowbar-00 :: NW_LTW_ENG_0119_2006_0102.43 cjconsensus
-STEM match for unaligned commander :: command-01 :: NW_LTW_ENG_0119_2006_0102.46 cjconsensus

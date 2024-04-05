@@ -1,3 +1,0 @@
-STEM match for unaligned smallholders :: small :: xin_eng_20101125_0137.8 consensus
-STEM match for unaligned keepers :: keep-01 :: xin_eng_20101125_0137.8 consensus
-STEM match for unaligned catastrophic :: catastrophe :: xin_eng_20101125_0137.15 consensus

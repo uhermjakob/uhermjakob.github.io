@@ -1,8 +1,0 @@
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031216_0401.10 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031216_0401.10 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031216_0401.10 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031216_0401.12 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031216_0401.18 cjconsensus
-STEM match for unaligned checkpoints :: check-01 :: PROXY_AFP_ENG_20040203_0804.9 cjconsensus
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20040203_0804.15 cjconsensus
-STEM match for unaligned coastguards :: Coast :: PROXY_AFP_ENG_20040203_0804.22 cjconsensus

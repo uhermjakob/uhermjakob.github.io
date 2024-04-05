@@ -1,4 +1,0 @@
-STEM match for unaligned fabled :: fable-00 :: NW_NBC_ENG_0129_2000_1017.1 cjconsensus
-STEM match for unaligned swampy :: swamp :: NW_NBC_ENG_0129_2000_1017.6 cjconsensus
-STEM match for unaligned hatcheries :: hatch-01 :: NW_NBC_ENG_0129_2000_1017.14 cjconsensus
-STEM match for unaligned untamed :: tame-01 :: NW_NBC_ENG_0129_2000_1017.34 cjconsensus

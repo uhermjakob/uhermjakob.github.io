@@ -1,7 +1,0 @@
-STEM match for unaligned Category :: categorize-01 :: NW_AFP_ENG_0022_2005_0922.4 cjconsensus
-STEM match for unaligned category :: categorize-01 :: NW_AFP_ENG_0022_2005_0922.4 cjconsensus
-STEM match for unaligned north :: northwest :: NW_AFP_ENG_0022_2005_0922.6 cjconsensus
-STEM match for unaligned sweet :: sweeten-02 :: NW_AFP_ENG_0022_2005_0922.15 cjconsensus
-STEM match for unaligned Category :: categorize-01 :: NW_AFP_ENG_0022_2005_0922.16 cjconsensus
-STEM match for unaligned Category :: categorize-01 :: NW_AFP_ENG_0022_2005_0922.33 cjconsensus
-STEM match for unaligned midwesten :: Midwest :: NW_AFP_ENG_0022_2005_0922.35 cjconsensus

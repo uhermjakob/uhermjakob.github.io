@@ -1,5 +1,0 @@
-STEM match for unaligned politicial :: politics :: bolt-eng-DF-200-192448-6195788_0134.7 ldcpreferred
-STEM match for unaligned motive :: motivate-01 :: bolt-eng-DF-200-192448-6195788_0134.7 ldcpreferred
-STEM match for unaligned striken :: strike-01 :: bolt-eng-DF-200-192448-6195788_0135.3 ldcpreferred
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6195788_0138.11 ldcpreferred
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6195788_0138.11 ldcpreferred

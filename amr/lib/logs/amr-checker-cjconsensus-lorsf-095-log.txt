@@ -1,3 +1,0 @@
-STEM match for unaligned HAITIEN :: Haitian :: ENG_NA_020001_20161020_G0023FSVD_0001.4 cjconsensus
-STEM match for unaligned AUTHORITIY :: authority :: ENG_NA_020001_20161020_G0023FSVD_0001.4 cjconsensus
-STEM match for unaligned RESPOSABLE :: responsible-03 :: ENG_NA_020001_20161020_G0023FSVD_0001.4 cjconsensus

@@ -1,3 +1,0 @@
-STEM match for unaligned treat :: treaty :: PROXY_APW_ENG_20081031_1096.7 cjconsensus
-STEM match for unaligned and :: and :: PROXY_APW_ENG_20081031_1096.10 cjconsensus
-STEM match for unaligned and :: and :: PROXY_APW_ENG_20081031_1096.28 cjconsensus

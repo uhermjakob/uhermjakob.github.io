@@ -1,5 +1,0 @@
-STEM match for unaligned 61 :: 61 :: nw.wsj_0001.1 ncfeingold
-STEM match for unaligned years :: year :: nw.wsj_0001.1 ncfeingold
-STEM match for unaligned 29 :: 29 :: nw.wsj_0001.1 ncfeingold
-STEM match for unaligned 55 :: 55 :: nw.wsj_0002.1 ncfeingold
-STEM match for unaligned years :: year :: nw.wsj_0002.1 ncfeingold

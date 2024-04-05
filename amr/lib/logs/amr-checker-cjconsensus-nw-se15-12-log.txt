@@ -1,4 +1,0 @@
-STEM match for unaligned fearsome :: fear-01 :: nyt_eng_20130619_0092.4 cjconsensus
-STEM match for unaligned Islamist :: Islam :: nyt_eng_20130619_0092.4 cjconsensus
-STEM match for unaligned disinformation :: disinform-01 :: nyt_eng_20130619_0092.14 cjconsensus
-STEM match for unaligned and :: and :: nyt_eng_20130619_0092.21 cjconsensus

@@ -1,8 +1,0 @@
-STEM match for unaligned recreational :: recreate-00 :: PROXY_AFP_ENG_20080421_0468.10 ptcacenco
-STEM match for unaligned trans :: transship-00 :: PROXY_AFP_ENG_20080421_0468.12 ptcacenco
-STEM match for unaligned Iranian :: Iran :: PROXY_AFP_ENG_20080423_0427.4 ptcacenco
-STEM match for unaligned Iranian :: Iran :: PROXY_AFP_ENG_20080423_0427.5 ptcacenco
-STEM match for unaligned nationals :: nationality :: PROXY_AFP_ENG_20080423_0427.9 ptcacenco
-STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080423_0427.19 ptcacenco
-STEM match for unaligned elektrizitaets :: Elektrizitaets-Gesellschaft :: PROXY_AFP_ENG_20080423_0427.21 ptcacenco
-STEM match for unaligned Commissioner :: commission-01 :: PROXY_AFP_ENG_20080425_0198.6 ptcacenco

@@ -1,7 +1,0 @@
-STEM match for unaligned Economics :: economy :: PROXY_CNA_ENG_20031021_0019.7 cjconsensus
-STEM match for unaligned shiang :: Yen-Shiang :: PROXY_CNA_ENG_20031021_0019.7 cjconsensus
-STEM match for unaligned antennas :: antenna :: PROXY_CNA_ENG_20031021_0019.17 cjconsensus
-STEM match for unaligned laboratory :: Laboratories :: PROXY_CNA_ENG_20031021_0019.24 cjconsensus
-STEM match for unaligned and :: and :: PROXY_CNA_ENG_20031021_0019.24 cjconsensus
-STEM match for unaligned and :: and :: PROXY_CNA_ENG_20031021_0019.24 cjconsensus
-STEM match for unaligned and :: and :: PROXY_CNA_ENG_20031021_0019.24 cjconsensus

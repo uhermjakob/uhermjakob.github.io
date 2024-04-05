@@ -1,3 +1,0 @@
-STEM match for unaligned mistakenly :: mistake-02 :: nyt_eng_20130822_0136.17 cjconsensus
-STEM match for unaligned pitcher :: pitch-01 :: nyt_eng_20130822_0136.21 cjconsensus
-STEM match for unaligned Phillies :: Philadelphia :: nyt_eng_20130822_0136.30 cjconsensus

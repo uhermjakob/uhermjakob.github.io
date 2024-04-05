@@ -1,9 +1,0 @@
-Spelling:
-
-5-tuple:
-
-chairman class:
-
-VERBALIZE quester TO person :ARG0-of quest-01
-VERBALIZE raiser TO person :ARG0-of raise-02 # raiser
-VERBALIZE spectator TO person :ARG0-of spectate-00

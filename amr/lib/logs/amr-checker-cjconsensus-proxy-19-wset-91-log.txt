@@ -1,5 +1,0 @@
-STEM match for unaligned proprietary :: proprietor :: PROXY_APW_ENG_20080903_0510.11 cjconsensus
-STEM match for unaligned kroner :: krona :: PROXY_APW_ENG_20080903_0510.13 cjconsensus
-STEM match for unaligned United :: unit :: PROXY_APW_ENG_20080903_0510.13 cjconsensus
-STEM match for unaligned and :: and :: PROXY_APW_ENG_20080903_0510.26 cjconsensus
-STEM match for unaligned and :: and :: PROXY_APW_ENG_20080903_0510.26 cjconsensus

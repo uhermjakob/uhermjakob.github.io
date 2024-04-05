@@ -1,9 +1,0 @@
-STEM match for unaligned years :: year :: bc.cctv_0000.7 yaqin
-STEM match for unaligned years :: year :: bc.cctv_0000.7 yaqin
-STEM match for unaligned 2003 :: 2003 :: bc.cctv_0000.7 yaqin
-STEM match for unaligned defensive :: defend-01 :: bc.cctv_0001.26 yaqin
-STEM match for unaligned Nor :: nor :: bc.cctv_0002.56 yaqin
-STEM match for unaligned this :: this :: bc.cctv_0002.56 yaqin
-STEM match for unaligned 8.2 :: 8.2 :: bc.cctv_0002.198 yaqin
-STEM match for unaligned 0.4 :: 0.4 :: bc.cctv_0002.198 yaqin
-STEM match for unaligned unchanged :: change-01 :: bc.cctv_0003.70 yaqin

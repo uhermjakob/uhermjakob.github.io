@@ -1,5 +1,0 @@
-STEM match for unaligned and :: and :: bolt-eng-DF-225-196010-9672805_0037.3 ldcpreferred
-STEM match for unaligned witness'es :: witness-01 :: bolt-eng-DF-225-196010-9672805_0037.10 ldcpreferred
-STEM match for unaligned bruising :: bruise-01 :: bolt-eng-DF-225-196010-9672805_0037.13 ldcpreferred
-STEM match for unaligned victins :: victim :: bolt-eng-DF-225-196010-9672805_0039.7 ldcpreferred
-STEM match for unaligned and :: and :: bolt-eng-DF-225-196010-9672805_0041.5 ldcpreferred

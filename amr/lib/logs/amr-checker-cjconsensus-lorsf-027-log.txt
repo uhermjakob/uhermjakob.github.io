@@ -1,6 +1,0 @@
-STEM match for unaligned unaccompanied :: accompany-01 :: ENG_NA_020001_20161020_G0023FSTH_0001.10 cjconsensus
-STEM match for unaligned breastfed :: breastfeed-01 :: ENG_NA_020001_20161020_G0023FSTH_0001.10 cjconsensus
-STEM match for unaligned formulae :: information :: ENG_NA_020001_20161020_G0023FSTH_0001.10 cjconsensus
-STEM match for unaligned formulae :: formula :: ENG_NA_020001_20161020_G0023FSTH_0001.10 cjconsensus
-STEM match for unaligned breakdown :: break-down-27 :: ENG_NA_020001_20161020_G0023FSTH_0001.14 cjconsensus
-STEM match for unaligned breastmilk :: breast :: ENG_NA_020001_20161020_G0023FSTH_0001.20 cjconsensus

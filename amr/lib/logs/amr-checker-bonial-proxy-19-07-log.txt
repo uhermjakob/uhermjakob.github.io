@@ -1,3 +1,0 @@
-STEM match for unaligned 2002 :: 2002 :: PROXY_AFP_ENG_20021226_0325.1 bonial
-STEM match for unaligned 12 :: 12 :: PROXY_AFP_ENG_20021226_0325.1 bonial
-STEM match for unaligned nuclear :: nucleus :: PROXY_AFP_ENG_20021226_0325.4 bonial

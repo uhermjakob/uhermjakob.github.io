@@ -1,9 +1,0 @@
-STEM match for unaligned Britian :: Britain :: DF-200-192448-619_0441.4 cjconsensus
-STEM match for unaligned maximise :: maximize-01 :: DF-200-192448-619_0441.7 cjconsensus
-STEM match for unaligned and :: and :: DF-200-192448-619_0441.9 cjconsensus
-STEM match for unaligned monopolistic :: monopolize-01 :: DF-200-192448-619_0441.14 cjconsensus
-STEM match for unaligned ultimatly :: ultimate :: DF-200-192448-619_0772.2 cjconsensus
-STEM match for unaligned and :: and :: DF-200-192448-619_0772.7 cjconsensus
-STEM match for unaligned Privatising :: privatize-01 :: DF-200-192448-619_0772.13 cjconsensus
-STEM match for unaligned and :: and :: DF-200-192448-619_0772.15 cjconsensus
-STEM match for unaligned nationalise :: nationalize-01 :: DF-200-192448-619_0772.16 cjconsensus

@@ -1,6 +1,0 @@
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191481_0057.3 cjconsensus
-STEM match for unaligned spoilt :: spoil-01 :: bolt-eng-DF-200-192448-6191481_0057.7 cjconsensus
-STEM match for unaligned Selfishness :: selfish :: bolt-eng-DF-200-192448-6191481_0057.19 cjconsensus
-STEM match for unaligned lucky :: luck :: bolt-eng-DF-200-192448-6191481_0057.28 cjconsensus
-STEM match for unaligned technical :: technology :: bolt-eng-DF-200-192448-6191481_0057.33 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191481_0059.5 cjconsensus

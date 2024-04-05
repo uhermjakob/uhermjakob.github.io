@@ -1,9 +1,0 @@
-STEM match for unaligned misidentification :: misidentify-00 :: PROXY_NYT_ENG_20040724_0084.5 cjconsensus
-STEM match for unaligned unthreatened :: threaten-01 :: PROXY_NYT_ENG_20040724_0084.24 cjconsensus
-STEM match for unaligned and :: and :: PROXY_NYT_ENG_20040724_0084.26 cjconsensus
-STEM match for unaligned and :: and :: PROXY_NYT_ENG_20040724_0084.26 cjconsensus
-STEM match for unaligned constitutionality :: constitution :: PROXY_NYT_ENG_20040724_0084.30 cjconsensus
-STEM match for unaligned commentators :: comment-01 :: PROXY_NYT_ENG_20040724_0084.31 cjconsensus
-STEM match for unaligned reaccelerated :: reaccelerate-00 :: PROXY_NYT_ENG_20040724_0084.37 cjconsensus
-STEM match for unaligned and :: and :: PROXY_NYT_ENG_20040724_0084.42 cjconsensus
-STEM match for unaligned and :: and :: PROXY_NYT_ENG_20040724_0084.42 cjconsensus

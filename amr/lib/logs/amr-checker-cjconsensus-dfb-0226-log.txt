@@ -1,9 +1,0 @@
-STEM match for unaligned hoodies :: hoodie :: bolt-eng-DF-200-192448-6189862_0039.2 cjconsensus
-STEM match for unaligned asian :: Asia :: bolt-eng-DF-200-192448-6189862_0039.3 cjconsensus
-STEM match for unaligned somalian :: Somalia :: bolt-eng-DF-200-192448-6189862_0039.4 cjconsensus
-STEM match for unaligned hoodies :: hoodie :: bolt-eng-DF-200-192448-6189862_0043.4 cjconsensus
-STEM match for unaligned shop :: shoplift-01 :: bolt-eng-DF-200-192448-6189862_0043.5 cjconsensus
-STEM match for unaligned Jainists :: Jainism :: bolt-eng-DF-200-192448-6189862_0043.6 cjconsensus
-STEM match for unaligned asian :: Asia :: bolt-eng-DF-200-192448-6189862_0043.10 cjconsensus
-STEM match for unaligned criticised :: criticize-01 :: bolt-eng-DF-200-192448-6189862_0043.11 cjconsensus
-STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6189862_0043.15 cjconsensus
