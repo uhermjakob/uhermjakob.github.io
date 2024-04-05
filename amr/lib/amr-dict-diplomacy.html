@@ -1,0 +1,1873 @@
+﻿
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="max-age=3600" />
+    <title>AMR dict</title>
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+       if ((s = document.getElementById(id)) != null) {
+          if (s.style.display == 'none') {
+             s.style.display = 'inline';
+          } else {
+             s.style.display = 'none';
+          }
+       }
+    }
+
+    function toggle_group(group_id, url, new_search_help_id) {
+       if (((s = document.getElementById('new_search_on_next_click_p')) == null) || (s.value == 0)) {          
+          i = 1;         
+          id = group_id + '_' + i;
+          while ((s = document.getElementById(id)) != null) {
+             if (s.style.display == 'none') {
+                s.style.display = 'inline';
+             } else {
+                s.style.display = 'none';
+             }
+             i = i + 1;
+             id = group_id + '_' + i;
+          }
+       }
+
+       if ((s = document.getElementById('new_search_on_next_click_p')) != null) {
+          new_search_value = s.value;
+          s.value = 0;
+          if ((new_search_help_id != 0) && ((s2 = document.getElementById(new_search_help_id)) != null)) {
+             s2.style.display = 'none';
+          }
+          if ((new_search_value == 1) && (url != 0)) {
+             popUpBottom(url,750,400);
+          }
+       }
+    }
+
+    function set_group_display(group_id, value) {
+       i = 1;         
+       id = group_id + '_' + i;
+       while ((s = document.getElementById(id)) != null) {
+          s.style.display = value;
+          i = i + 1;
+          id = group_id + '_' + i;
+       }
+    }
+
+    function popUpBottom(URL,width,height) {
+       day = new Date();
+       id = day.getTime();
+       eval("myWindow = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=" + width + ",height=" + height + "');");
+    }
+
+    function popUpWarning(warning) {
+       newwindow=window.open('','Warning','height=160,width=400,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
+       var tmp = newwindow.document;
+       tmp.write('<html>\n');
+       tmp.write('  <head><title>AMR Editor Warning</title></head>\n');
+       tmp.write('  <body' + ' style="background-color:#FFFFEE;">\n');
+       tmp.write('    <h3>Warning</h3>\n');
+       tmp.write('    ' + warning + '\n');
+       tmp.write('    <p>\n');
+       tmp.write('    <input type="submit" title="Close this window." value="OK" onclick="self.close();">\n');
+       tmp.write('  </body>\n');
+       tmp.write('</html>\n');
+       tmp.close();
+    }
+
+    function new_search_on_next_click(new_search_help_id) {
+       if ((s = document.getElementById(new_search_help_id)) != null) {
+          s.style.display = 'inline';
+       }
+       if ((s = document.getElementById('new_search_on_next_click_p')) != null) {
+          s.value = 1;
+       }
+    }
+
+    function set(id, value) {
+       if ((s = document.getElementById(id)) != null) {
+	  s.value = value;
+       }
+    }
+
+    function set_group_pairwise(snt_id, odd_value, even_value) {
+       gi = 0;
+       group_id = snt_id + '_' + gi;
+       i = 1;
+       id = group_id + '_' + i;
+       while (((s = document.getElementById(id)) != null) || (gi == 0)) {
+          while ((s = document.getElementById(id)) != null) {
+	     s.style.display = odd_value;
+             i = i + 1;
+	     id = group_id + '_' + i;
+	     if ((s = document.getElementById(id)) != null) {
+	        s.style.display = even_value;
+	     }
+             i = i + 1;
+	     id = group_id + '_' + i;
+          }
+          gi = gi + 1;
+          group_id = snt_id + '_' + gi;
+          i = 1;
+          id = group_id + '_' + i;
+       }
+    }
+
+    function clear(id) {
+       if (s = document.getElementById(id)) {
+          s.value = '';
+       }
+    }
+
+    function goto_page_loc(hash, id, y) {
+       var s ;
+       var page_dynamically_created_p = 0;
+       if (page_dynamically_created_p) {
+          if ((s = document.getElementById(id)) != null) {
+             s.checked = "true";
+             s.focus();
+             if (document.body.scrollTop > 0) {
+               document.body.scrollTop += y;
+             } else {
+               // document.body.scrollTop = document.body.scrollHeight;
+               // s.focus();
+             }
+          } 
+       } else {
+          window.location.hash = hash;
+          if ((s = document.getElementById(id)) != null) {
+             s.checked = "true";
+          }
+       }
+    }
+
+    function redirect(url) {
+       window.location = url;
+    }
+
+    function initialize() {
+    }
+
+    
+    function set_display(id, value) {
+       if ((s = document.getElementById(id)) != null) {
+          s.style.display = value;
+       }
+    }
+
+    function redraw_context(i) {
+       if ((s = document.getElementById('fe_' + i)) != null) { s.style.display = 'inline'; s.style.color = 'black'; }
+       if ((s = document.getElementById('ps_' + i)) != null) { s.style.display = 'inline'; s.style.color = '#666666'; }
+       if ((s = document.getElementById('ex_' + i)) != null) { s.style.display = 'inline'; s.style.color = 'purple'; }
+    }
+
+    function simple_print_date(date) {
+       var monthNames=new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+       var month;
+       if (typeof (month = date.getMonth()) !== 'undefined') {
+          return monthNames[month] + ' ' + date.getDate() + ', ' + date.getFullYear();
+       } else {
+	  return "";
+       }
+    }
+
+    function update_date_add_mod_info() {
+       var fromSecondsTime = document.getElementById('ref_time_from').value;
+       var toSecondsTime = document.getElementById('ref_time_to').value;
+
+       // var sl = document.getElementById('log');
+       // sl.innerHTML = fromSecondsTime + '-' + toSecondsTime;
+
+       var n_topics_added = 0;
+       var n_topics_modified = 0;
+       var n_changes = 0;
+
+       var n_date_topic_index = 1;
+       while ((s = document.getElementById('DATED_TOPIC_' + n_date_topic_index)) != null) {
+	  var time_added = s.getAttribute('time_added');
+	  var times_modified = s.getAttribute('times_modified');
+	  var title = s.getAttribute('core_title');
+	  if (time_added && (fromSecondsTime <= time_added) && (time_added <= toSecondsTime)) {
+	     s.style.color = 'red';
+	     title += '\n(topic added ' + simple_print_date(new Date(time_added * 1000)) + ')';
+	     n_topics_added++;
+	     // sl.innerHTML += ' T: ' + title;
+	  } else if (times_modified) {
+	     var time_modified_list = times_modified.split(/\s+/);
+	     var matching_time_modified_list = new Array();
+	     for (var i=0; i<time_modified_list.length; i++) {
+		var time_modified = time_modified_list[i];
+		if ((fromSecondsTime <= time_modified) && (time_modified <= toSecondsTime)) {
+		   matching_time_modified_list.push(time_modified);
+		}
+	     }
+	     if (matching_time_modified_list.length >= 1) {
+		s.style.color = 'green';
+	        title += '\n(topic modified ' + simple_print_date(new Date(matching_time_modified_list[0] * 1000));
+		for (var i=1; i<matching_time_modified_list.length; i++) {
+	           title += '; ' + simple_print_date(new Date(matching_time_modified_list[i] * 1000));
+		}
+		title += ')';
+	        n_topics_modified++;
+	     } else {
+		s.style.color = '#0000DD';
+	     }
+	  } else {
+	     s.style.color = '#0000DD';
+	  }
+	  s.setAttribute('title', title);
+	  n_date_topic_index++;
+       }
+
+       var n_date_body_index = 1;
+       while ((s = document.getElementById('DATED_BODY_' + n_date_body_index)) != null) {
+	  var time_added = s.getAttribute('time_added');
+	  var times_modified = s.getAttribute('times_modified');
+	  // sl.innerHTML += ' I: ' + n_date_body_index + ' A: ' + time_added + ' M: ' + times_modified;
+	  if (time_added && (fromSecondsTime <= time_added) && (time_added <= toSecondsTime)) {
+	     s.style.color = 'red';
+	     s.style.display = 'inline';
+	     s.innerHTML = ' &nbsp; (added ' + simple_print_date(new Date(time_added * 1000)) + ')';
+	     n_changes++;
+	     // sl.innerHTML += ' T: ' + time_added;
+	  } else if (times_modified) {
+	     var time_modified_list = times_modified.split(/\s+/);
+	     var matching_time_modified_list = new Array();
+	     for (var i=0; i<time_modified_list.length; i++) {
+		var time_modified = time_modified_list[i];
+		if ((fromSecondsTime <= time_modified) && (time_modified <= toSecondsTime)) {
+		   matching_time_modified_list.push(time_modified);
+		}
+	     }
+	     if (matching_time_modified_list.length >= 1) {
+		s.style.color = 'green';
+	        s.innerHTML = ' &nbsp; (modified ' + simple_print_date(new Date(matching_time_modified_list[0] * 1000));
+	        // sl.innerHTML += ' T: ' + matching_time_modified_list[0];
+		for (var i=1; i<matching_time_modified_list.length; i++) {
+	           s.innerHTML += '; ' + simple_print_date(new Date(matching_time_modified_list[i] * 1000));
+	           // sl.innerHTML += ' T: ' + matching_time_modified_list[i];
+		}
+		s.innerHTML += ')';
+	        n_changes += matching_time_modified_list.length;
+		s.style.display = 'inline';
+	     } else {
+		s.style.display = 'none';
+		// sl.innerHTML += ' NONE ';
+	     }
+	  } else {
+	     s.style.display = 'none';
+	     // sl.innerHTML += ' NONE ';
+	  }
+	  n_date_body_index++;
+       }
+
+       // sl.innerHTML += ' change ' + n_topics_added + ' ' + n_topics_modified + ' ' + n_changes;
+       if ((ss = document.getElementById('change_summary')) != null) {
+	  var text = 'Additions/modifications in this time period: &nbsp; ';
+	  var keywords;
+	  if (n_changes) {
+	     var s; // plural s
+	     var texts = new Array();
+	     if (n_topics_added) {
+	        if (n_topics_added == 1) {
+	           s = '';
+	        } else {
+	           s = 's';
+	        }
+	        texts.push(n_topics_added + ' topic' + s + ' added');
+	     }
+	     if (n_topics_modified) {
+	        if (n_topics_modified == 1) {
+	           s = '';
+	        } else {
+	           s = 's';
+	        }
+	        texts.push(n_topics_modified + ' topic' + s + ' modified');
+	     }
+	     if (n_changes == 1) {
+	        s = '';
+	     } else {
+	        s = 's';
+	     }
+	     texts.push('with a total of ' + n_changes + ' change note' + s);
+	     text += texts.join(", ");
+	  } else {
+	     text += 'none';
+	  }
+	  ss.innerHTML = text;
+       }
+    }
+
+    function update_from_n_days_ago () {
+       var s;
+       if ((s = document.getElementById('from_n_days_ago')) != null) {
+	  s.value = s.value.replace(/[^0-9]/g, "") || 0;
+	  s.value = s.value.replace(/^0+([0-9])/, '$1');
+	  var from_n_days_ago = s.value;
+          var fromDate = new Date();
+	  fromDate.setHours(0);
+	  fromDate.setMinutes(0);
+	  fromDate.setSeconds(0);
+	  fromDate.setDate(fromDate.getDate()-from_n_days_ago);
+	  if ((s2 = document.getElementById('from_date')) != null) {
+	     s2.innerHTML = simple_print_date(fromDate);
+	  }
+	  fromSecondsTime = Math.floor(fromDate.getTime() / 1000);
+	  if ((s3 = document.getElementById('ref_time_from')) != null) {
+	     s3.value = fromSecondsTime;
+	  }
+       }
+    }
+
+    function update_to_n_days_ago () {
+       var s;
+       if ((s = document.getElementById('to_n_days_ago')) != null) {
+	  s.value = s.value.replace(/[^0-9]/g, "") || 0;
+	  s.value = s.value.replace(/^0+([0-9])/, '$1');
+	  var to_n_days_ago = s.value;
+          var toDate = new Date();
+	  toDate.setHours(23);
+	  toDate.setMinutes(59);
+	  toDate.setSeconds(59);
+	  toDate.setDate(toDate.getDate()-to_n_days_ago);
+	  if ((s2 = document.getElementById('to_date')) != null) {
+	     s2.innerHTML = simple_print_date(toDate);
+	  }
+	  toSecondsTime = Math.floor(toDate.getTime() / 1000);
+	  if ((s3 = document.getElementById('ref_time_to')) != null) {
+	     s3.value = toSecondsTime;
+	  }
+       }
+    }
+
+    function key_up(e) {
+
+       var keycode = -1;
+       if (window.event) {
+	  keycode = window.event.keyCode;
+       } else if (e) {
+	  keycode = e.which;
+       }
+
+       var s;
+       if ((s = document.getElementById('from_n_days_ago')) == document.activeElement) {
+          if (keycode == 13) {
+	     s.blur();
+	  } else {
+	     update_from_n_days_ago();
+	     update_date_add_mod_info();
+          }
+       } else if ((s = document.getElementById('to_n_days_ago')) == document.activeElement) {
+	  if (keycode == 13) {
+	     s.blur();
+	  } else {
+	     update_to_n_days_ago();
+	     update_date_add_mod_info();
+	  }
+       }
+    }
+
+    function key_press(e) {
+
+       var keycode = -1;
+       if (window.event) {
+	  keycode = window.event.keyCode;
+       } else if (e) {
+	  keycode = e.which;
+       }
+
+       var s;
+       if ((s = document.getElementById('from_n_days_ago')) == document.activeElement) {
+	  // special case -> key_up
+       } else if ((s = document.getElementById('to_n_days_ago')) == document.activeElement) {
+	  // special case -> key_up
+       } else {
+
+          // sd = document.getElementById('log'); sd.innerHTML = 'key-press: ' + keycode;
+ 
+          var date = new Date();
+          var current_time = date.getTime();
+          var time_diff = current_time - last_time;
+
+          // reset jump_string after 1000 milliseconds
+          if (time_diff > 1000) {
+	     jump_string = '#';
+          }
+          // sd = document.getElementById('log'); sd.innerHTML = 'key-press: ' + keycode + ' jump_string: ' + jump_string + '  time_diff: ' + time_diff;
+          last_time = current_time;
+
+          if (keycode == 13) {
+	     // carriage return (enter)
+	     jump_string = '#';
+	     window.location = jump_string;
+          } else if (keycode == 2) {
+             // CTRL-B
+             set_group_display('t','none');
+          } else if ((keycode == 32) && (jump_string == '#')) {
+	     // space bar, no special action, let browser scroll
+          } else if ((keycode >= 32) && (keycode <= 126)) {
+	     var chr = String.fromCharCode(keycode) + '';
+	     jump_string += chr;
+             window.location = jump_string;
+	     // sd = document.getElementById('log'); sd.innerHTML = 'jump-string: ' + jump_string;
+          } else if (keycode == 13) {
+	     // enter
+	     // sd = document.getElementById('log'); sd.innerHTML = 'key-press: ' + keycode + ' (enter)';
+	     jump_string = '#';
+          } else {
+	     sd = document.getElementById('log'); sd.innerHTML = 'key-press: ' + keycode + ' (unrecognized shortcut key)';
+          }
+       }
+    }
+
+    function show_list(page_id, page_target, page_title, page_filter) {
+       var newWindow=window.open('',page_target);
+       newWindow.focus();
+       var tmp = newWindow.document;
+       tmp.write('<html>\n  <head><title>list</title></head>\n');
+       tmp.write('  <body style="background-color:#FFFFEE;" onload="document.getElementById(\'show-list\').submit();">\n');
+       tmp.write('    <form name="show-list" id="show-list" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/amr-editor/show-list.cgi" method="post">\n');
+       tmp.write('      <input type="hidden" id="page-id" name="page-id" value="' + page_id     + '">\n');
+       tmp.write('      <input type="hidden" id="filter"  name="filter"  value="' + page_filter + '">\n');
+       tmp.write('      <input type="hidden" id="title"   name="title"   value="' + page_title  + '">\n');
+       tmp.write('    </form>\n');
+       tmp.write('  </body>\n');
+       tmp.write('</html>\n');
+       tmp.close();
+    }
+
+    function show_lvc_list() {
+       show_list('amr-auto-correction-rules.txt', 'LVC_LIST', 'List of common mappings from light verb construction to AMR concept', 'ELIMINATE-SUPPORT-VERB');
+    }
+
+    function initialize() {
+       document.onkeypress = key_press;
+       document.onkeyup = key_up;
+       if (document.layers) {
+	  document.captureEvents(Event.KEYPRESS);
+       }
+       update_from_n_days_ago();
+       update_to_n_days_ago();
+       update_date_add_mod_info();
+    }
+
+    var jump_string = '#';
+    var last_time = 0;
+
+
+    -->
+    </script>
+  </head>
+  <body bgcolor="#FFFFEE" onload="initialize();">
+<table width="100%" border="0" cellpadding="3" cellspacing="0"><tr bgcolor="#BBCCFF"><td>&nbsp; <font size="+1"><b>AMR Annotation Dictionary &nbsp; &ndash; &nbsp; Diplomacy Appendix</b></font> &nbsp; &nbsp; <span style="color:#777777;">last updated on Mon Oct 17, 2022 at 23:14:15</span></td></tr></table>
+<br />
+<font size="+2" color="black"><b>Alphabetical Index</b></font><ul style="margin-top:0px;">
+<li> <b>Quick access</b>: Type the first letter(s) of a topic to jump to it (just type, not into any particular text box). &nbsp; Press the <i>enter</i> key to return to this top of the page.
+<li> <b>List of topics:</b> &nbsp; 
+<nobr><a style="color:#0000DD;" href="#afraid" title="afraid (sub-topic of fear-01)" core_title="afraid (sub-topic of fear-01)">afraid</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#aggression" title="aggression (sub-topic of threaten-01)" core_title="aggression (sub-topic of threaten-01)">aggression</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#agree-01" title="agree-01&#xA; &nbsp; &nbsp; agree, accept, consent" core_title="agree-01&#xA; &nbsp; &nbsp; agree, accept, consent">agree-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#ally-01" title="ally-01&#xA; &nbsp; &nbsp; alliance, have allies" core_title="ally-01&#xA; &nbsp; &nbsp; alliance, have allies">ally-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#amr annotation dictionary" title="AMR Annotation Dictionary" core_title="AMR Annotation Dictionary">AMR Annotation Dictionary</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#and" title="and&#xA; &nbsp; &nbsp; Conjunction of entities or sentences" core_title="and&#xA; &nbsp; &nbsp; Conjunction of entities or sentences">and</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#attack-01" title="attack-01&#xA; &nbsp; &nbsp; attacking a location or power; invade" core_title="attack-01&#xA; &nbsp; &nbsp; attacking a location or power; invade">attack-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#betray-01" title="betray-01&#xA; &nbsp; &nbsp; betray, stab, traitor, treason" core_title="betray-01&#xA; &nbsp; &nbsp; betray, stab, traitor, treason">betray-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#bounce-03" title="bounce-03&#xA; &nbsp; &nbsp; bounce, move blocked" core_title="bounce-03&#xA; &nbsp; &nbsp; bounce, move blocked">bounce-03</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#build-01" title="build-01&#xA; &nbsp; &nbsp; build an army or fleet" core_title="build-01&#xA; &nbsp; &nbsp; build an army or fleet">build-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#cannot" title="cannot (sub-topic of possible-01)" core_title="cannot (sub-topic of possible-01)">cannot</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#convoy" title="convoy (sub-topic of transport-01)" core_title="convoy (sub-topic of transport-01)">convoy</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#date-entity" title="date-entity&#xA; &nbsp; &nbsp; a season and/or year that is or can be converted to an absolute temporal expression" core_title="date-entity&#xA; &nbsp; &nbsp; a season and/or year that is or can be converted to an absolute temporal expression">date-entity</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#defend-01" title="defend-01&#xA; &nbsp; &nbsp; defend or protect a power, province or sea" core_title="defend-01&#xA; &nbsp; &nbsp; defend or protect a power, province or sea">defend-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#demilitarize-01" title="demilitarize-01&#xA; &nbsp; &nbsp; withdraw and keep all military units from a province or sea" core_title="demilitarize-01&#xA; &nbsp; &nbsp; withdraw and keep all military units from a province or sea">demilitarize-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#dislodge-01" title="dislodge-01&#xA; &nbsp; &nbsp; forcing a unit out of a province or sea by attacking it; knock out, knock off; kick out&#xA; &nbsp; &nbsp; related topic retreat-01&#xA; &nbsp; &nbsp; related topic remove-01" core_title="dislodge-01&#xA; &nbsp; &nbsp; forcing a unit out of a province or sea by attacking it; knock out, knock off; kick out&#xA; &nbsp; &nbsp; related topic retreat-01&#xA; &nbsp; &nbsp; related topic remove-01">dislodge-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#expect-01" title="expect-01&#xA; &nbsp; &nbsp; expect, guess, think that something will probably happen" core_title="expect-01&#xA; &nbsp; &nbsp; expect, guess, think that something will probably happen">expect-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#fear-01" title="fear-01&#xA; &nbsp; &nbsp; be afraid, fear, worry about something" core_title="fear-01&#xA; &nbsp; &nbsp; be afraid, fear, worry about something">fear-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#gain-02" title="gain-02&#xA; &nbsp; &nbsp; to gain a supply center&#xA; &nbsp; &nbsp; related topic lose-02" core_title="gain-02&#xA; &nbsp; &nbsp; to gain a supply center&#xA; &nbsp; &nbsp; related topic lose-02">gain-02</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#get" title="get (sub-topic of have-03)" core_title="get (sub-topic of have-03)">get</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#guess" title="guess (sub-topic of expect-01)" core_title="guess (sub-topic of expect-01)">guess</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#have-03" title="have-03&#xA; &nbsp; &nbsp; have, control, get, occupy, possess" core_title="have-03&#xA; &nbsp; &nbsp; have, control, get, occupy, possess">have-03</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#help" title="help (sub-topic of support-01)" core_title="help (sub-topic of support-01)">help</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#hold-17" title="hold-17&#xA; &nbsp; &nbsp; keep an army or fleet in its current location" core_title="hold-17&#xA; &nbsp; &nbsp; keep an army or fleet in its current location">hold-17</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#hold-03" title="hold-03&#xA; &nbsp; &nbsp; hold on to a province or sea, especially a supply center" core_title="hold-03&#xA; &nbsp; &nbsp; hold on to a province or sea, especially a supply center">hold-03</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#lie-08" title="lie-08&#xA; &nbsp; &nbsp; telling a falsehood&#xA; &nbsp; &nbsp; related topic tell-01" core_title="lie-08&#xA; &nbsp; &nbsp; telling a falsehood&#xA; &nbsp; &nbsp; related topic tell-01">lie-08</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#lose-02" title="lose-02&#xA; &nbsp; &nbsp; to lose a supply center&#xA; &nbsp; &nbsp; related topic gain-02" core_title="lose-02&#xA; &nbsp; &nbsp; to lose a supply center&#xA; &nbsp; &nbsp; related topic gain-02">lose-02</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#might" title="might (sub-topic of possible-01)" core_title="might (sub-topic of possible-01)">might</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#move-01" title="move-01&#xA; &nbsp; &nbsp; move an army or fleet" core_title="move-01&#xA; &nbsp; &nbsp; move an army or fleet">move-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#peace" title="peace&#xA; &nbsp; &nbsp; make peace, extend peace" core_title="peace&#xA; &nbsp; &nbsp; make peace, extend peace">peace</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#possible-01" title="possible-01&#xA; &nbsp; &nbsp; possible, might&#xA; &nbsp; &nbsp; cannot (not possible)&#xA; &nbsp; &nbsp; related topic reject-01" core_title="possible-01&#xA; &nbsp; &nbsp; possible, might&#xA; &nbsp; &nbsp; cannot (not possible)&#xA; &nbsp; &nbsp; related topic reject-01">possible-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#powers" title="powers (sub-topic of shortcuts)" core_title="powers (sub-topic of shortcuts)">powers</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#prevent-01" title="prevent-01&#xA; &nbsp; &nbsp; prevent, keep something from happening" core_title="prevent-01&#xA; &nbsp; &nbsp; prevent, keep something from happening">prevent-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#propose-01" title="propose-01&#xA; &nbsp; &nbsp; propose an alliance, peace, attack, move, demilitarization, ...; request" core_title="propose-01&#xA; &nbsp; &nbsp; propose an alliance, peace, attack, move, demilitarization, ...; request">propose-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#protect" title="protect (sub-topic of defend-01)" core_title="protect (sub-topic of defend-01)">protect</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#provinces" title="provinces (sub-topic of shortcuts)" core_title="provinces (sub-topic of shortcuts)">provinces</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#reject-01" title="reject-01&#xA; &nbsp; &nbsp; reject" core_title="reject-01&#xA; &nbsp; &nbsp; reject">reject-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#remove-01" title="remove-01&#xA; &nbsp; &nbsp; remove a military unit from the game (lack of supply center support)&#xA; &nbsp; &nbsp; related topic retreat-01&#xA; &nbsp; &nbsp; related topic dislodge-01" core_title="remove-01&#xA; &nbsp; &nbsp; remove a military unit from the game (lack of supply center support)&#xA; &nbsp; &nbsp; related topic retreat-01&#xA; &nbsp; &nbsp; related topic dislodge-01">remove-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#request" title="request (sub-topic of propose-01)" core_title="request (sub-topic of propose-01)">request</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#retreat-01" title="retreat-01&#xA; &nbsp; &nbsp; retreat a defeated army or fleet&#xA; &nbsp; &nbsp; related topic remove-01&#xA; &nbsp; &nbsp; related topic dislodge-01" core_title="retreat-01&#xA; &nbsp; &nbsp; retreat a defeated army or fleet&#xA; &nbsp; &nbsp; related topic remove-01&#xA; &nbsp; &nbsp; related topic dislodge-01">retreat-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#seas" title="seas (sub-topic of shortcuts)" core_title="seas (sub-topic of shortcuts)">seas</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#:season" title=":season (sub-topic of date-entity)" core_title=":season (sub-topic of date-entity)">:season</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#shortcuts" title="shortcuts&#xA; &nbsp; &nbsp; powers&#xA; &nbsp; &nbsp; unit types&#xA; &nbsp; &nbsp; provinces&#xA; &nbsp; &nbsp; seas&#xA; &nbsp; &nbsp; coasts&#xA; &nbsp; &nbsp; unit descriptions (power + army/fleet + province/sea/coast sea/sea coast)" core_title="shortcuts&#xA; &nbsp; &nbsp; powers&#xA; &nbsp; &nbsp; unit types&#xA; &nbsp; &nbsp; provinces&#xA; &nbsp; &nbsp; seas&#xA; &nbsp; &nbsp; coasts&#xA; &nbsp; &nbsp; unit descriptions (power + army/fleet + province/sea/coast sea/sea coast)">shortcuts</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#stab" title="stab (sub-topic of betray-01)" core_title="stab (sub-topic of betray-01)">stab</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#support-01" title="support-01&#xA; &nbsp; &nbsp; support another military unit defend itself or conquer another location; help" core_title="support-01&#xA; &nbsp; &nbsp; support another military unit defend itself or conquer another location; help">support-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#tell-01" title="tell-01&#xA; &nbsp; &nbsp; tell, inform, say&#xA; &nbsp; &nbsp; related topic lie-08" core_title="tell-01&#xA; &nbsp; &nbsp; tell, inform, say&#xA; &nbsp; &nbsp; related topic lie-08">tell-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#think" title="think (sub-topic of expect-01)" core_title="think (sub-topic of expect-01)">think</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#threaten-01" title="threaten-01&#xA; &nbsp; &nbsp; threaten; being aggressive" core_title="threaten-01&#xA; &nbsp; &nbsp; threaten; being aggressive">threaten-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#:time" title=":time (sub-topic of date-entity)" core_title=":time (sub-topic of date-entity)">:time</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#traitor" title="traitor (sub-topic of betray-01)" core_title="traitor (sub-topic of betray-01)">traitor</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#transport-01" title="transport-01&#xA; &nbsp; &nbsp; transport an army via one or more seas to a destination by fleet" core_title="transport-01&#xA; &nbsp; &nbsp; transport an army via one or more seas to a destination by fleet">transport-01</a> &nbsp; </nobr>
+<nobr><a id="DATED_TOPIC_1" time_added="1654498800" times_modified="1654498800" style="color:#0000DD;" href="#trust-01" title="trust-01&#xA; &nbsp; &nbsp; trust" core_title="trust-01&#xA; &nbsp; &nbsp; trust">trust-01</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#unit types" title="unit types (sub-topic of shortcuts)" core_title="unit types (sub-topic of shortcuts)">unit types</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#warn-01" title="warn-01&#xA; &nbsp; &nbsp; warn" core_title="warn-01&#xA; &nbsp; &nbsp; warn">warn-01</a> &nbsp; </nobr>
+<nobr><a id="DATED_TOPIC_2" time_added="1654412400" times_modified="1654412400" style="color:#0000DD;" href="#world-region" title="world-region&#xA; &nbsp; &nbsp; named-entity type world-region" core_title="world-region&#xA; &nbsp; &nbsp; named-entity type world-region">world-region</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#worry" title="worry (sub-topic of fear-01)" core_title="worry (sub-topic of fear-01)">worry</a> &nbsp; </nobr>
+<nobr><a style="color:#0000DD;" href="#:year" title=":year (sub-topic of date-entity)" core_title=":year (sub-topic of date-entity)">:year</a> &nbsp; </nobr>
+ &nbsp; &nbsp; <nobr>‎<font color="#999999">(36 topics + 21 sub-topics)</font></nobr></ul>
+<a name="`">
+<a name="a">
+<a name="ag">
+<a name="agr">
+<a name="agre">
+<a name="agree">
+<a name="agree-">
+<a name="agree-0">
+<a name="agree-01">
+<font size="+2" color="#0000BB"><b>agree-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">agree, accept, consent</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_1">Germany agreed to make peace with France.
+ &nbsp; &nbsp; <nobr><span id="ps_1" style="font-family:Courier;color:#666666;">(agree-01 :ARG0 Germany :ARG1 (peace :op1 Germany :op2 France))</span></nobr>&nbsp; &nbsp; <span id="ex_1" title="Click here for a full example" onclick="javascript:toggle('t_1');redraw_context('1');" ondblclick="redraw_context('1');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_1" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Germany agreed to make peace with France. [dip_0003.35]<br><span style="font-family:Courier;">(a / agree-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / peace <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="al">
+<a name="all">
+<a name="ally">
+<a name="ally-">
+<a name="ally-0">
+<a name="ally-01">
+<font size="+2" color="#0000BB"><b>ally-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">alliance, have allies</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_2">Germany, Austria and Italy are allies against France and Russia.
+ &nbsp; &nbsp; <nobr><span id="ps_2" style="font-family:Courier;color:#666666;">(ally-01 :ARG1 (and :op1 Germany :op2 Austria :op3 Italy) :ARG3 (and :op1 France :op2 Russia))</span></nobr>&nbsp; &nbsp; <span id="ex_2" title="Click here for a full example" onclick="javascript:toggle('t_2');redraw_context('2');" ondblclick="redraw_context('2');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_2" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Germany, Austria and Italy are allies against France and Russia. [dip_0003.1]<br><span style="font-family:Courier;">(a / ally-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a2 / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op3 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Italy"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (a3 / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (c4 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (c5 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n5 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia"))))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_3">GER -> AUS : We propose an alliance between Germany, Austria and Italy against France and Russia.
+ &nbsp; &nbsp; <nobr><span id="ps_3" style="font-family:Courier;color:#666666;">(propose-01 :ARG0 Germany :arg1 (ally-01 :arg1 Germany, Austria and Italy :arg3 France and Russia) :arg3 Austria)</span></nobr>&nbsp; &nbsp; <span id="ex_3" title="Click here for a full example" onclick="javascript:toggle('t_3');redraw_context('3');" ondblclick="redraw_context('3');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_3" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> GER -> AUS: We propose an alliance between Germany, Austria and Italy against France and Russia. [dip_0003.27]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / ally-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a2 / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 c2 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op3 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Italy"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (a3 / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (c4 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (c5 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n5 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="am">
+<a name="amr">
+<a name="amr ">
+<a name="amr a">
+<a name="amr an">
+<a name="amr ann">
+<a name="amr anno">
+<a name="amr annot">
+<a name="amr annota">
+<a name="amr annotat">
+<a name="amr annotati">
+<a name="amr annotatio">
+<a name="amr annotation">
+<a name="amr annotation ">
+<a name="amr annotation d">
+<a name="amr annotation di">
+<a name="amr annotation dic">
+<a name="amr annotation dict">
+<a name="amr annotation dicti">
+<a name="amr annotation dictio">
+<a name="amr annotation diction">
+<a name="amr annotation dictiona">
+<a name="amr annotation dictionar">
+<a name="amr annotation dictionary">
+<a href="http://www.isi.edu/~ulf/amr/lib/amr-dict.html" target="_POPUP" title="Click here for further information about AMR Annotation Dictionary (on separate page)." style="text-decoration:none;"><font size="+2" style="#color:0000BB;text-decoration:underline;"><b>AMR Annotation Dictionary</b></font> <img src="http://www.isi.edu/~ulf/amr/images/externallink.png" border="0"></a>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_4">primary AMR Annotation Dictionary
+       </ul>
+<p></p>
+<a name="an">
+<a name="and">
+<font size="+2" color="#0000BB"><b>and</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">Conjunction of entities or sentences</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_4">Germany, Austria and Italy
+ &nbsp; &nbsp; <nobr><span id="ps_4" style="font-family:Courier;color:#666666;">(and :op1 Germany :op2 Austria :op3 Italy)</span></nobr>&nbsp; &nbsp; <span id="ex_4" title="Click here for a full example" onclick="javascript:toggle('t_4');redraw_context('4');" ondblclick="redraw_context('4');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_4" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Germany, Austria and Italy are allies against France and Russia. [dip_0003.1]<br><span style="font-family:Courier;">(a / ally-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a2 / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op3 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Italy"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (a3 / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (c4 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (c5 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n5 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia"))))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_5">Hold the English army in Liverpool in place and move the English fleet in London to the North Sea.
+ &nbsp; &nbsp; <nobr><span id="ps_5" style="font-family:Courier;color:#666666;">(and :op1 hold-17 :op2 move-01)</span></nobr>&nbsp; &nbsp; <span id="ex_5" title="Click here for a full example" onclick="javascript:toggle('t_5');redraw_context('5');" ondblclick="redraw_context('5');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_5" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Hold the English army in Liverpool in place and move the English fleet in London to the North Sea. [dip_0003.2]<br><span style="font-family:Courier;">(a / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (h / hold-17 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode imperative <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a2 / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "England")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Liverpool")))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (m / move-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode imperative <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "London"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (s3 / sea <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "North" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Sea"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="at">
+<a name="att">
+<a name="atta">
+<a name="attac">
+<a name="attack">
+<a name="attack-">
+<a name="attack-0">
+<a name="attack-01">
+<font size="+2" color="#0000BB"><b>attack-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">attacking a location or power; invade</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_6">AUS-> GER: I'm worried about Russia attacking me.
+ &nbsp; &nbsp; <nobr><span id="ps_6" style="font-family:Courier;color:#666666;">(attack-01 :ARG0 Russia :ARG1 Austria)</span></nobr>&nbsp; &nbsp; <span id="ex_6" title="Click here for a full example" onclick="javascript:toggle('t_6');redraw_context('6');" ondblclick="redraw_context('6');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_6" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> AUS -> GER: I'm worried about Russia attacking me. [dip_0003.17]<br><span style="font-family:Courier;">(f / fear-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 c))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="b">
+<a name="be">
+<a name="bet">
+<a name="betr">
+<a name="betra">
+<a name="betray">
+<a name="betray-">
+<a name="betray-0">
+<a name="betray-01">
+   <a name="stab">
+   <a name="traitor">
+<font size="+2" color="#0000BB"><b>betray-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">betray, stab, traitor, treason</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_7">Russia betrayed Germany by invading Prussia.
+ &nbsp; &nbsp; <nobr><span id="ps_7" style="font-family:Courier;color:#666666;">(betray-01 :ARG0 Russia :ARG1 Germany :manner attack-01)</span></nobr>&nbsp; &nbsp; <span id="ex_7" title="Click here for a full example" onclick="javascript:toggle('t_7');redraw_context('7');" ondblclick="redraw_context('7');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_7" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Russia betrayed Germany by invading Prussia. [dip_0003.38]<br><span style="font-family:Courier;">(b / betray-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:manner (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Prussia"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="bo">
+<a name="bou">
+<a name="boun">
+<a name="bounc">
+<a name="bounce">
+<a name="bounce-">
+<a name="bounce-0">
+<a name="bounce-03">
+<font size="+2" color="#0000BB"><b>bounce-03</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">bounce, move blocked</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_8">The Russian army in Gal and the German army in Tyr bounced in Vienna.
+ &nbsp; &nbsp; <nobr><span id="ps_8" style="font-family:Courier;color:#666666;">(bounce-03 :ARG1 (and :op1 Russian army in Gal :op2 German army in Tyr) :ARG3 Vienna)</span></nobr>&nbsp; &nbsp; <span id="ex_8" title="Click here for a full example" onclick="javascript:toggle('t_8');redraw_context('8');" ondblclick="redraw_context('8');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_8" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> The Russian army in Gal and the German army in Tyr bounced in Vienna. [dip_0003.46]<br><span style="font-family:Courier;">(b / bounce-03 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (a2 / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Galicia"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (a3 / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Tyrolia")))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (p3 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n5 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Vienna")))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_9">The Russian army in Gal was bounced by the Austrians in Vienna.
+ &nbsp; &nbsp; <nobr><span id="ps_9" style="font-family:Courier;color:#666666;">(bounce-03 :ARG1 Russian army in Gal :ARG2 Austrians :ARG3 Vienna)</span></nobr>&nbsp; &nbsp; <span id="ex_9" title="Click here for a full example" onclick="javascript:toggle('t_9');redraw_context('9');" ondblclick="redraw_context('9');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_9" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> The Russian army in Gal was bounced by the Austrians in Vienna. [dip_0003.47]<br><span style="font-family:Courier;">(b / bounce-03 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Galicia"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (a2 / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location p2) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Vienna")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="bu">
+<a name="bui">
+<a name="buil">
+<a name="build">
+<a name="build-">
+<a name="build-0">
+<a name="build-01">
+<font size="+2" color="#0000BB"><b>build-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">build an army or fleet</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_10">Shortcut and DAIDE code: BLD
+   <li> <div id="fe_10">Build a Russian army in Moscow.
+ &nbsp; &nbsp; <nobr><span id="ps_10" style="font-family:Courier;color:#666666;">(build-01 :ARG0 Russia :ARG1 army :location Moscow)</span></nobr>&nbsp; &nbsp; <span id="ex_10" title="Click here for a full example" onclick="javascript:toggle('t_10');redraw_context('10');" ondblclick="redraw_context('10');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_10" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Build a Russian army in Moscow. [dip_0003.6]<br><span style="font-family:Courier;">(b / build-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode imperative <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Moscow")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="c">
+<a name="d">
+<a name="da">
+<a name="dat">
+<a name="date">
+<a name="date-">
+<a name="date-e">
+<a name="date-en">
+<a name="date-ent">
+<a name="date-enti">
+<a name="date-entit">
+<a name="date-entity">
+<a name="datee">
+<a name="dateen">
+<a name="dateent">
+<a name="dateenti">
+<a name="dateentit">
+<a name="dateentity">
+   <a name=":season">
+   <a name=":time">
+   <a name=":year">
+<font size="+2" color="#0000BB"><b>date-entity</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">a season and/or year that is or can be converted to an absolute temporal expression</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_11">For Diplomacy, we decided to convert relative temporal expressions (e.g. "next spring") to absolute ones (e.g. "spring 1904").
+   <li> <div id="fe_11">Russia attacked Ukraine in spring 1903.
+ &nbsp; &nbsp; <nobr><span id="ps_11" style="font-family:Courier;color:#666666;">:time (date-entity :year 1903 :season spring)</span></nobr>&nbsp; &nbsp; <span id="ex_11" title="Click here for a full example" onclick="javascript:toggle('t_11');redraw_context('11');" ondblclick="redraw_context('11');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_11" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Russia attacked Ukraine in spring 1903. [dip_0003.30]<br><span style="font-family:Courier;">(a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Ukraine")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time (d / date-entity <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:year 1903 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:season (s / spring)))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_12">AUS -> TUR (Fall 1902): I will help defend Bulgaria next year.
+ &nbsp; &nbsp; <nobr><span id="ps_12" style="font-family:Courier;color:#666666;">:time (date-entity :year 1903)</span></nobr>&nbsp; &nbsp; <span id="ex_12" title="Click here for a full example" onclick="javascript:toggle('t_12');redraw_context('12');" ondblclick="redraw_context('12');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_12" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> AUS -> TUR (Fall 1902): I will help defend Bulgaria next year. [dip_0003.31]<br><span style="font-family:Courier;">(s / support-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (d / defend-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Bulgaria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time (d2 / date-entity <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:year 1903)))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="de">
+<a name="def">
+<a name="defe">
+<a name="defen">
+<a name="defend">
+<a name="defend-">
+<a name="defend-0">
+<a name="defend-01">
+   <a name="protect">
+<font size="+2" color="#0000BB"><b>defend-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">defend or protect a power, province or sea</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_13">AUS -> GER: Will you help me defend Vienna against the Turks?
+ &nbsp; &nbsp; <nobr><span id="ps_13" style="font-family:Courier;color:#666666;">(defend-01 :ARG0 Austria :ARG1 Vienna :ARG3 Turkey)</span></nobr>&nbsp; &nbsp; <span id="ex_13" title="Click here for a full example" onclick="javascript:toggle('t_13');redraw_context('13');" ondblclick="redraw_context('13');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_13" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> AUS -> GER: Will you help me defend Vienna against the Turks? [dip_0003.19]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (s / support-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (d / defend-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Vienna")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Turkey")))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 c3)</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="dem">
+<a name="demi">
+<a name="demil">
+<a name="demili">
+<a name="demilit">
+<a name="demilita">
+<a name="demilitar">
+<a name="demilitari">
+<a name="demilitariz">
+<a name="demilitarize">
+<a name="demilitarize-">
+<a name="demilitarize-0">
+<a name="demilitarize-01">
+<font size="+2" color="#0000BB"><b>demilitarize-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">withdraw and keep all military units from a province or sea</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_14">Shortcut and DAIDE code: DMZ
+   <li> <div id="fe_14">GER -> FRA: We propose to demilitarize Belgium.
+ &nbsp; &nbsp; <nobr><span id="ps_14" style="font-family:Courier;color:#666666;">(demilitarize-01 :ARG2 Belgium)</span></nobr>&nbsp; &nbsp; <span id="ex_14" title="Click here for a full example" onclick="javascript:toggle('t_14');redraw_context('14');" ondblclick="redraw_context('14');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_14" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> GER -> FRA: We propose to demilitarize Belgium. [dip_0003.11]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (d / demilitarize-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 c2) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Belgium"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="di">
+<a name="dis">
+<a name="disl">
+<a name="dislo">
+<a name="dislod">
+<a name="dislodg">
+<a name="dislodge">
+<a name="dislodge-">
+<a name="dislodge-0">
+<a name="dislodge-01">
+<font size="+2" color="#0000BB"><b>dislodge-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">forcing a unit out of a province or sea by attacking it; knock out, knock off; kick out</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_15">The French fleet dislodged the English army from Belgium.
+ &nbsp; &nbsp; <nobr><span id="ps_15" style="font-family:Courier;color:#666666;">(dislodge-01 :ARG0 (fleet :mod France) :ARG1 (army :mod England) :ARG2 Belgium)</span></nobr>&nbsp; &nbsp; <span id="ex_15" title="Click here for a full example" onclick="javascript:toggle('t_15');redraw_context('15');" ondblclick="redraw_context('15');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_15" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> The French fleet dislodged the English army from Belgium. [dip_0003.48]<br><span style="font-family:Courier;">(d / dislodge-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "England"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Belgium")))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_16">Italy dislodged Turkey from Albania.
+ &nbsp; &nbsp; <nobr><span id="ps_16" style="font-family:Courier;color:#666666;">(dislodge-01 :ARG0 (unit :mod Italy) :ARG1 (unit :mod Turkey) :ARG2 Albania)</span></nobr>&nbsp; &nbsp; <span id="ex_16" title="Click here for a full example" onclick="javascript:toggle('t_16');redraw_context('16');" ondblclick="redraw_context('16');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_16" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Italy dislodged Turkey from Albania. [dip_0003.49]<br><span style="font-family:Courier;">(d / dislodge-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (u / unit <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Italy"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (u2 / unit <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Turkey"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Albania")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#retreat-01"><font color="#CC0000">retreat-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#remove-01"><font color="#CC0000">remove-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="e">
+<a name="ex">
+<a name="exp">
+<a name="expe">
+<a name="expec">
+<a name="expect">
+<a name="expect-">
+<a name="expect-0">
+<a name="expect-01">
+   <a name="guess">
+   <a name="think">
+<font size="+2" color="#0000BB"><b>expect-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">expect, guess, think that something will probably happen</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_17">AUS -> GER: I think Russia will attack Ukraine.
+ &nbsp; &nbsp; <nobr><span id="ps_17" style="font-family:Courier;color:#666666;">(think-01 :ARG0 Austria :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine))</span></nobr>&nbsp; &nbsp; <span id="ex_17" title="Click here for a full example" onclick="javascript:toggle('t_17');redraw_context('17');" ondblclick="redraw_context('17');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_17" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> AUS -> GER: I think Russia will attack Ukraine. [dip_0003.21]<br><span style="font-family:Courier;">(e / expect-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Ukraine"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="f">
+<a name="fe">
+<a name="fea">
+<a name="fear">
+<a name="fear-">
+<a name="fear-0">
+<a name="fear-01">
+   <a name="afraid">
+   <a name="worry">
+<font size="+2" color="#0000BB"><b>fear-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">be afraid, fear, worry about something</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_18">AUS-> GER: I'm worried about Russia attacking me.
+ &nbsp; &nbsp; <nobr><span id="ps_18" style="font-family:Courier;color:#666666;">(fear-01 :ARG0 Austria :ARG1 attack-01)</span></nobr>&nbsp; &nbsp; <span id="ex_18" title="Click here for a full example" onclick="javascript:toggle('t_18');redraw_context('18');" ondblclick="redraw_context('18');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_18" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> AUS -> GER: I'm worried about Russia attacking me. [dip_0003.17]<br><span style="font-family:Courier;">(f / fear-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 c))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="g">
+<a name="ga">
+<a name="gai">
+<a name="gain">
+<a name="gain-">
+<a name="gain-0">
+<a name="gain-02">
+<font size="+2" color="#0000BB"><b>gain-02</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">to gain a supply center</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_19">France will gain two supply centers.
+ &nbsp; &nbsp; <nobr><span id="ps_19" style="font-family:Courier;color:#666666;">(gain-02 :ARG0 France :ARG1 (supply-center :quant 2))</span></nobr>&nbsp; &nbsp; <span id="ex_19" title="Click here for a full example" onclick="javascript:toggle('t_19');redraw_context('19');" ondblclick="redraw_context('19');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_19" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> France will gain two supply centers. [dip_0003.50]<br><span style="font-family:Courier;">(g / gain-02 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (s / supply-center <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:quant 2))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_20">France took Belgium.
+ &nbsp; &nbsp; <nobr><span id="ps_20" style="font-family:Courier;color:#666666;">(gain-02 :ARG0 France :ARG1 Belgium)</span></nobr>&nbsp; &nbsp; <span id="ex_20" title="Click here for a full example" onclick="javascript:toggle('t_20');redraw_context('20');" ondblclick="redraw_context('20');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_20" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> France took Belgium. [dip_0003.52]<br><span style="font-family:Courier;">(g / gain-02 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Belgium")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#lose-02"><font color="#CC0000">lose-02</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="h">
+<a name="ha">
+<a name="hav">
+<a name="have">
+<a name="have-">
+<a name="have-0">
+<a name="have-03">
+   <a name="get">
+<font size="+2" color="#0000BB"><b>have-03</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">have, control, get, occupy, possess</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_21">TUR -> RUS: If we get Bulgaria, you can have Romania.
+ &nbsp; &nbsp; <nobr><span id="ps_21" style="font-family:Courier;color:#666666;">(and :op1 (have-03 :ARG0 Turkey :ARG1 Bulgaria) :op2 (have-03 :ARG0 Russia :ARG1 Romania))</span></nobr>&nbsp; &nbsp; <span id="ex_21" title="Click here for a full example" onclick="javascript:toggle('t_21');redraw_context('21');" ondblclick="redraw_context('21');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_21" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> TUR -> RUS: If we get Bulgaria, you can have Romania. [dip_0003.39]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Turkey")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (h / have-03 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Bulgaria"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (h2 / have-03 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p3 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Romania")))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="ho">
+<a name="hol">
+<a name="hold">
+<a name="hold-">
+<a name="hold-1">
+<a name="hold-17">
+<font size="+2" color="#0000BB"><b>hold-17</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">keep an army or fleet in its current location</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_22">Shortcut and DAIDE code: HLD
+   <li> <div id="fe_22">Hold the English army in Liverpool in place.
+ &nbsp; &nbsp; <nobr><span id="ps_22" style="font-family:Courier;color:#666666;">(hold-17 :ARG1 (army :mod England :location Liverpool))</span></nobr>&nbsp; &nbsp; <span id="ex_22" title="Click here for a full example" onclick="javascript:toggle('t_22');redraw_context('22');" ondblclick="redraw_context('22');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_22" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Hold the English army in Liverpool in place. [dip_0003.14]<br><span style="font-family:Courier;">(h / hold-17 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "England")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Liverpool"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="hold-0">
+<a name="hold-03">
+<font size="+2" color="#0000BB"><b>hold-03</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">hold on to a province or sea, especially a supply center</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_23">Germany will hold on to Holland.
+ &nbsp; &nbsp; <nobr><span id="ps_23" style="font-family:Courier;color:#666666;">(hold-03 :ARG0 Germany :ARG1 Holland)</span></nobr>&nbsp; &nbsp; <span id="ex_23" title="Click here for a full example" onclick="javascript:toggle('t_23');redraw_context('23');" ondblclick="redraw_context('23');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_23" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Germany will hold on to Holland. [dip_0003.54]<br><span style="font-family:Courier;">(h / hold-03 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Holland")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="i">
+<a name="j">
+<a name="k">
+<a name="l">
+<a name="li">
+<a name="lie">
+<a name="lie-">
+<a name="lie-0">
+<a name="lie-08">
+<font size="+2" color="#0000BB"><b>lie-08</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">telling a falsehood</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_24">AUS -> GER: Russia is lying to you.
+ &nbsp; &nbsp; <nobr><span id="ps_24" style="font-family:Courier;color:#666666;">(lie-08 :ARG0 Russia :ARG2 Germany)</span></nobr>&nbsp; &nbsp; <span id="ex_24" title="Click here for a full example" onclick="javascript:toggle('t_24');redraw_context('24');" ondblclick="redraw_context('24');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_24" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> AUS -> GER: Russia is lying to you. [dip_0003.18]<br><span style="font-family:Courier;">(l / lie-08 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#tell-01"><font color="#CC0000">tell-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="lo">
+<a name="los">
+<a name="lose">
+<a name="lose-">
+<a name="lose-0">
+<a name="lose-02">
+<font size="+2" color="#0000BB"><b>lose-02</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">to lose a supply center</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_25">Russia lost a home supply center.
+ &nbsp; &nbsp; <nobr><span id="ps_25" style="font-family:Courier;color:#666666;">(lose-02 :ARG0 Russia :ARG1 (supply-center :mod home))</span></nobr>&nbsp; &nbsp; <span id="ex_25" title="Click here for a full example" onclick="javascript:toggle('t_25');redraw_context('25');" ondblclick="redraw_context('25');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_25" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Russia lost a home supply center. [dip_0003.51]<br><span style="font-family:Courier;">(l / lose-02 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (s / supply-center <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (h / home)))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_26">Russia lost Warsaw.
+ &nbsp; &nbsp; <nobr><span id="ps_26" style="font-family:Courier;color:#666666;">(lose-02 :ARG0 Russia :ARG1 Warsaw)</span></nobr>&nbsp; &nbsp; <span id="ex_26" title="Click here for a full example" onclick="javascript:toggle('t_26');redraw_context('26');" ondblclick="redraw_context('26');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_26" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Russia lost Warsaw. [dip_0003.53]<br><span style="font-family:Courier;">(l / lose-02 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Warsaw")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#gain-02"><font color="#CC0000">gain-02</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="m">
+<a name="mo">
+<a name="mov">
+<a name="move">
+<a name="move-">
+<a name="move-0">
+<a name="move-01">
+<font size="+2" color="#0000BB"><b>move-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">move an army or fleet</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_27">Shortcut and DAIDE code: MTO ("move to")
+   <li> <div id="fe_27">move-01 typically without explicit agent (:ARG0); :ARG1 is army/fleet/unit (unspecified)
+   <li> <div id="fe_27">Move the French fleet on the north coast of Spain to the Mid-Atlantic Ocean.
+ &nbsp; &nbsp; <nobr><span id="ps_27" style="font-family:Courier;color:#666666;">(move-01 :arg1 fleet :arg2 sea)</span></nobr>&nbsp; &nbsp; <span id="ex_27" title="Click here for a full example" onclick="javascript:toggle('t_27');redraw_context('27');" ondblclick="redraw_context('27');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_27" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Move the French fleet on the north coast of Spain to the Mid-Atlantic Ocean. [dip_0003.3]<br><span style="font-family:Courier;">(m / move-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode imperative <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (c2 / coast <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (n3 / north <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:part-of (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Spain"))))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (s / sea <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Mid-Atlantic" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Ocean")))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_28">France's move into Belgium
+ &nbsp; &nbsp; <nobr><span id="ps_28" style="font-family:Courier;color:#666666;">(move-01 :arg1 (unit :mod France) :arg2 Belgium)</span></nobr>&nbsp; &nbsp; <span id="ex_28" title="Click here for a full example" onclick="javascript:toggle('t_28');redraw_context('28');" ondblclick="redraw_context('28');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_28" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> France's move into Belgium [dip_0003.24]<br><span style="font-family:Courier;">(m / move-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (u / unit <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Belgium")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="n">
+<a name="o">
+<a name="p">
+<a name="pe">
+<a name="pea">
+<a name="peac">
+<a name="peace">
+<font size="+2" color="#0000BB"><b>peace</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">make peace, extend peace</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_29">Shortcut and DAIDE code: PCE
+   <li> <div id="fe_29">GER -> FRA: Let's make peace with each other.
+ &nbsp; &nbsp; <nobr><span id="ps_29" style="font-family:Courier;color:#666666;">(peace :op1 Germany :op2 France)</span></nobr>&nbsp; &nbsp; <span id="ex_29" title="Click here for a full example" onclick="javascript:toggle('t_29');redraw_context('29');" ondblclick="redraw_context('29');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_29" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> GER -> FRA: Let's make peace with each other. [dip_0003.25]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p2 / peace <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 c2) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="po">
+<a name="pos">
+<a name="poss">
+<a name="possi">
+<a name="possib">
+<a name="possibl">
+<a name="possible">
+<a name="possible-">
+<a name="possible-0">
+<a name="possible-01">
+   <a name="cannot">
+   <a name="might">
+<font size="+2" color="#0000BB"><b>possible-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">possible, might</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_30">Russia might attack Ukraine.
+ &nbsp; &nbsp; <nobr><span id="ps_30" style="font-family:Courier;color:#666666;">(possible-01 :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine))</span></nobr>&nbsp; &nbsp; <span id="ex_30" title="Click here for a full example" onclick="javascript:toggle('t_30');redraw_context('30');" ondblclick="redraw_context('30');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_30" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Russia might attack Ukraine. [dip_0003.32]<br><span style="font-family:Courier;">(p / possible-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Ukraine"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#0000DD">cannot (not possible)</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_31">GER -> RUS: I can't support your attack on Ukraine.
+ &nbsp; &nbsp; <nobr><span id="ps_31" style="font-family:Courier;color:#666666;">(possible-01 :polarity - :ARG1 (support-01 :ARG0 Germany :ARG1 attack-01))</span></nobr>&nbsp; &nbsp; <span id="ex_31" title="Click here for a full example" onclick="javascript:toggle('t_31');redraw_context('31');" ondblclick="redraw_context('31');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_31" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> GER -> RUS: I can't support your attack on Ukraine. [dip_0003.33]<br><span style="font-family:Courier;">(p / possible-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:polarity - <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (s / support-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Ukraine")))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#reject-01"><font color="#CC0000">reject-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="pr">
+<a name="pre">
+<a name="prev">
+<a name="preve">
+<a name="preven">
+<a name="prevent">
+<a name="prevent-">
+<a name="prevent-0">
+<a name="prevent-01">
+<font size="+2" color="#0000BB"><b>prevent-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">prevent, keep something from happening</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_32">Austria prevented Russia from attacking Turkey.
+ &nbsp; &nbsp; <nobr><span id="ps_32" style="font-family:Courier;color:#666666;">(prevent-01 :ARG0 Austria :ARG1 (attack-01 :ARG0 Russia :ARG1 Turkey))</span></nobr>&nbsp; &nbsp; <span id="ex_32" title="Click here for a full example" onclick="javascript:toggle('t_32');redraw_context('32');" ondblclick="redraw_context('32');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_32" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Austria prevented Russia from attacking Turkey. [dip_0003.28]<br><span style="font-family:Courier;">(p / prevent-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Turkey"))))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_33">AUS -> TUR: Let's make sure to keep Russia out of Romania.
+ &nbsp; &nbsp; <nobr><span id="ps_33" style="font-family:Courier;color:#666666;">(prevent-01 :ARG0 Austria and Turkey :ARG1 (move-01 :ARG0 Russian unit :ARG2 Romania))</span></nobr>&nbsp; &nbsp; <span id="ex_33" title="Click here for a full example" onclick="javascript:toggle('t_33');redraw_context('33');" ondblclick="redraw_context('33');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_33" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> AUS -> TUR: Let's make sure to keep Russia out of Romania. [dip_0003.22]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p2 / prevent-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (a / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 c2) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (m / move-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (u / unit <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (p3 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Romania")))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Turkey")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="pro">
+<a name="prop">
+<a name="propo">
+<a name="propos">
+<a name="propose">
+<a name="propose-">
+<a name="propose-0">
+<a name="propose-01">
+   <a name="request">
+<font size="+2" color="#0000BB"><b>propose-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">propose an alliance, peace, attack, move, demilitarization, ...; request</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_34">Shortcut and DAIDE code: PRP
+   <li> <div id="fe_34">GER -> FRA: We propose to demilitarize Belgium.
+ &nbsp; &nbsp; <nobr><span id="ps_34" style="font-family:Courier;color:#666666;">(propose-01 :ARG0 Germany :ARG1 (demilitarize-01 :ARG2 Belgium) :ARG3 France)</span></nobr>&nbsp; &nbsp; <span id="ex_34" title="Click here for a full example" onclick="javascript:toggle('t_34');redraw_context('34');" ondblclick="redraw_context('34');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_34" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> GER -> FRA: We propose to demilitarize Belgium. [dip_0003.11]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (d / demilitarize-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 c2) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Belgium"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="q">
+<a name="r">
+<a name="re">
+<a name="rej">
+<a name="reje">
+<a name="rejec">
+<a name="reject">
+<a name="reject-">
+<a name="reject-0">
+<a name="reject-01">
+<font size="+2" color="#0000BB"><b>reject-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">reject</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_35">Germany rejected an alliance proposal by Russia.
+ &nbsp; &nbsp; <nobr><span id="ps_35" style="font-family:Courier;color:#666666;">(reject-01 :ARG0 Germany :ARG1 propose-01)</span></nobr>&nbsp; &nbsp; <span id="ex_35" title="Click here for a full example" onclick="javascript:toggle('t_35');redraw_context('35');" ondblclick="redraw_context('35');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_35" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Germany rejected an alliance proposal by Russia. [dip_0003.41]<br><span style="font-family:Courier;">(r / reject-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / ally-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a2 / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 c2))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="rem">
+<a name="remo">
+<a name="remov">
+<a name="remove">
+<a name="remove-">
+<a name="remove-0">
+<a name="remove-01">
+<font size="+2" color="#0000BB"><b>remove-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">remove a military unit from the game (lack of supply center support)</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_36">Shortcut and DAIDE code: REM
+   <li> <div id="fe_36">Remove the Russian army in Ukraine.
+ &nbsp; &nbsp; <nobr><span id="ps_36" style="font-family:Courier;color:#666666;">(remove-01 :ARG1 (army :mod Russia :location Ukraine))</span></nobr>&nbsp; &nbsp; <span id="ex_36" title="Click here for a full example" onclick="javascript:toggle('t_36');redraw_context('36');" ondblclick="redraw_context('36');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_36" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Remove the Russian army in Ukraine. [dip_0003.13]<br><span style="font-family:Courier;">(r / remove-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Ukraine"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#retreat-01"><font color="#CC0000">retreat-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#dislodge-01"><font color="#CC0000">dislodge-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="ret">
+<a name="retr">
+<a name="retre">
+<a name="retrea">
+<a name="retreat">
+<a name="retreat-">
+<a name="retreat-0">
+<a name="retreat-01">
+<font size="+2" color="#0000BB"><b>retreat-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">retreat a defeated army or fleet</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_37">Shortcut and DAIDE code: RTO ("retreat to")
+   <li> <div id="fe_37">Retreat the Italian army from Greece to Albania.
+ &nbsp; &nbsp; <nobr><span id="ps_37" style="font-family:Courier;color:#666666;">(retreat-01 :ARG1 (army :mod Italy :location Greece) :destination Albania)</span></nobr>&nbsp; &nbsp; <span id="ex_37" title="Click here for a full example" onclick="javascript:toggle('t_37');redraw_context('37');" ondblclick="redraw_context('37');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_37" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Retreat the Italian army from Greece to Albania. [dip_0003.7]<br><span style="font-family:Courier;">(r / retreat-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode imperative <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Italy")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Greece"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:destination (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Albania")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#remove-01"><font color="#CC0000">remove-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#dislodge-01"><font color="#CC0000">dislodge-01</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="s">
+<a name="sh">
+<a name="sho">
+<a name="shor">
+<a name="short">
+<a name="shortc">
+<a name="shortcu">
+<a name="shortcut">
+<a name="shortcuts">
+<font size="+2" color="#0000BB"><b>shortcuts</b></font>
+<ul style="margin-top:0px;">
+   <a name="powers">
+   <li> <font size="+1" color="#0000DD">powers</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_38">Austria (AUS, A), England (ENG, E), France (FRA, F), Germany (GER, G), Italy (ITA, I), Russia (RUS, R), Turkey (TUR, T)
+   <li> <div id="fe_38">Note: 3-letter shortcuts are DAIDE codes, 1-letter shortcuts in compounds such as F A PAR (French army in Paris)
+       </ul>
+   <a name="unit types">
+   <li> <font size="+1" color="#0000DD">unit types</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_38">army (AMY, A), fleet (FLT, F), unit (unspecified military unit, U)
+   <li> <div id="fe_38">Note: 3-letter shortcuts are DAIDE codes, 1-letter shortcuts in compounds such as F A PAR (French army in Paris)
+       </ul>
+   <a name="provinces">
+   <li> <font size="+1" color="#0000DD">provinces</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_38">Albania (ALB), Ankara (ANK), Apulia (APU), Armenia (ARM), Belgium (BEL), Berlin (BER), Bohemia (BOH), Brest (BRE), Budapest (BUD), Bulgaria (BUL), Burgundy (BUR), Clyde (CLY), Constantinople (CON), Denmark (DEN), Edinburgh (EDI), Finland (FIN), Galicia (GAL), Gascony (GAS), Greece (GRE), Holland (HOL), Ireland (IRE), Kiel (KIE), Livonia (LVN), Liverpool (LVP), London (LON), Marseille (MAR), Moscow (MOS), Munich (MUN), North Africa (NAF), Naples (NAP), Norway (NWY), Paris (PAR), Picardy (PIC), Piedmont (PIE), Portugal (POR), Prussia (PRU), Rome (ROM), Ruhr (RUH), Romania (RUM), Serbia (SER), Sevastopol (SEV), Silesia (SIL), Smyrna (SMY), Spain (SPA), St. Petersburg (STP), Sweden (SWE), Switzerland (SWI), Syria (SYR), Trieste (TRI), Tunisia (TUN), Tuscany (TUS), Tyrolia (TYR), Ukraine (UKR), Venice (VEN), Vienna (VIE), Wales (WAL), Warsaw (WAR), Yorkshire (YOR)
+   <li> <div id="fe_38">Note: 3-letter shortcuts are DAIDE codes
+       </ul>
+   <a name="seas">
+   <li> <font size="+1" color="#0000DD">seas</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_38">Adriatic Sea (ADR), Aegean Sea (AEG), Baltic Sea (BAL), Barents Sea (BAR), Black Sea (BLA), Gulf of Bothnia (BOT), Eastern Mediterranean (EAS), English Channel (ECH), Heligoland Bight (HEL), Ionian Sea (ION), Irish Sea (IRI), Gulf of Lyon (LYO), Mid-Atlantic Ocean (MAO), North Atlantic Ocean (NAO), North Sea (NTH), Norwegian Sea (NWG), Skagerrak (SKA), Tyrrhenian Sea (TYS), Western Mediterranean (WES)
+   <li> <div id="fe_38">Note: 3-letter shortcuts are DAIDE codes
+       </ul>
+   <li> <font size="+1" color="#0000DD">coasts</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_38">north coast (NCS, NC, N), east coast (ECS, EC, E), south coast (SCS, SC, S), west coast (WCS, WC, W)
+   <li> <div id="fe_38">Note: 3-letter shortcuts are DAIDE codes
+   <li> <div id="fe_38">a coast can be added with any level of abbreviation (e.g. NCS, NC or N) before or after the province
+   <li> <div id="fe_38">RUS FLT SCS STP
+ &nbsp; &nbsp; <nobr><span id="ps_38" style="font-family:Courier;color:#666666;">(fleet :mod Russia :location (coast :location (south :part-of St.Petersburg)))</span></nobr>&nbsp; &nbsp; <span id="ex_38" title="Click here for a full example" onclick="javascript:toggle('t_38');redraw_context('38');" ondblclick="redraw_context('38');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_38" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> the Russian fleet on the south coast of St. Petersburg [dip_0003.5]<br><span style="font-family:Courier;">(f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (c2 / coast <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (s / south <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:part-of (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "St." <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Petersburg")))))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_39">R F S STP
+ &nbsp; &nbsp; <nobr><span id="ps_39" style="font-family:Courier;color:#666666;">(fleet :mod Russia :location (coast :location (south :part-of St.Petersburg)))</span></nobr>&nbsp; &nbsp; <span id="ex_39" title="Click here for a full example" onclick="javascript:toggle('t_39');redraw_context('39');" ondblclick="redraw_context('39');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_39" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> the Russian fleet on the south coast of St. Petersburg [dip_0003.5]<br><span style="font-family:Courier;">(f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (c2 / coast <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (s / south <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:part-of (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "St." <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Petersburg")))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#0000DD">unit descriptions (power + army/fleet + province/sea/coast sea/sea coast)</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_40">Full usage example: top ENG FLT LON
+   <li> <div id="fe_40">Full usage example (assuming m is index of move-01): m :arg1 E F LON
+   <li> <div id="fe_40">ENG FLT LON
+ &nbsp; &nbsp; <nobr><span id="ps_40" style="font-family:Courier;color:#666666;">(fleet :mod England :location London)</span></nobr>&nbsp; &nbsp; <span id="ex_40" title="Click here for a full example" onclick="javascript:toggle('t_40');redraw_context('40');" ondblclick="redraw_context('40');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_40" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> the English fleet in London [dip_0003.4]<br><span style="font-family:Courier;">(f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "England")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "London")))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_41">E F LON
+ &nbsp; &nbsp; <nobr><span id="ps_41" style="font-family:Courier;color:#666666;">(fleet :mod England :location London)</span></nobr>&nbsp; &nbsp; <span id="ex_41" title="Click here for a full example" onclick="javascript:toggle('t_41');redraw_context('41');" ondblclick="redraw_context('41');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_41" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> the English fleet in London [dip_0003.4]<br><span style="font-family:Courier;">(f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "England")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "London")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="su">
+<a name="sup">
+<a name="supp">
+<a name="suppo">
+<a name="suppor">
+<a name="support">
+<a name="support-">
+<a name="support-0">
+<a name="support-01">
+   <a name="help">
+<font size="+2" color="#0000BB"><b>support-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">support another military unit defend itself or conquer another location; help</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_42">Shortcut and DAIDE code: SUP
+   <li> <div id="fe_42">Let the French fleet in the English Channel support the French army in Belgium.
+ &nbsp; &nbsp; <nobr><span id="ps_42" style="font-family:Courier;color:#666666;">(support-01 :ARG0 fleet :ARG1 army)</span></nobr>&nbsp; &nbsp; <span id="ex_42" title="Click here for a full example" onclick="javascript:toggle('t_42');redraw_context('42');" ondblclick="redraw_context('42');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_42" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Let the French fleet in the English Channel support the French army in Belgium. [dip_0003.15]<br><span style="font-family:Courier;">(s / support-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (s2 / sea <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "English" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Channel"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Belgium"))))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_43">Let the German fleet in the North Sea support the German army's move from Holland to Belgium.
+ &nbsp; &nbsp; <nobr><span id="ps_43" style="font-family:Courier;color:#666666;">(support-01 :ARG0 fleet :ARG1 (move-01 :ARG1 army :ARG2 Belgium))</span></nobr>&nbsp; &nbsp; <span id="ex_43" title="Click here for a full example" onclick="javascript:toggle('t_43');redraw_context('43');" ondblclick="redraw_context('43');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_43" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Let the German fleet in the North Sea support the German army's move from Holland to Belgium. [dip_0003.16]<br><span style="font-family:Courier;">(s / support-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (s2 / sea <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "North" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Sea"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (m / move-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Holland"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Belgium"))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="t">
+<a name="te">
+<a name="tel">
+<a name="tell">
+<a name="tell-">
+<a name="tell-0">
+<a name="tell-01">
+<font size="+2" color="#0000BB"><b>tell-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">tell, inform, say</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_44">GER -> AUS: France told me that Russian will attack Ukraine.
+ &nbsp; &nbsp; <nobr><span id="ps_44" style="font-family:Courier;color:#666666;">(tell-01 :ARG0 France :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine) :ARG2 Germany)</span></nobr>&nbsp; &nbsp; <span id="ex_44" title="Click here for a full example" onclick="javascript:toggle('t_44');redraw_context('44');" ondblclick="redraw_context('44');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_44" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> GER -> AUS: France told me that Russian will attack Ukraine. [dip_0003.34]<br><span style="font-family:Courier;">(t / tell-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Ukraine"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+   <li> <font size="+1" color="#CC0000">related topic <b><a href="#lie-08"><font color="#CC0000">lie-08</font></a></b> </font>
+       <ul style="margin-top:0px;">
+       </ul>
+</ul>
+<p></p>
+<a name="th">
+<a name="thr">
+<a name="thre">
+<a name="threa">
+<a name="threat">
+<a name="threate">
+<a name="threaten">
+<a name="threaten-">
+<a name="threaten-0">
+<a name="threaten-01">
+   <a name="aggression">
+<font size="+2" color="#0000BB"><b>threaten-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">threaten; being aggressive</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_45">Russia threatened to attack Austria.
+ &nbsp; &nbsp; <nobr><span id="ps_45" style="font-family:Courier;color:#666666;">(threaten-01 :ARG0 Russia :ARG2 (attack-01 :arg1 Austria))</span></nobr>&nbsp; &nbsp; <span id="ex_45" title="Click here for a full example" onclick="javascript:toggle('t_45');redraw_context('45');" ondblclick="redraw_context('45');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_45" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Russia threatened to attack Austria. [dip_0003.29]<br><span style="font-family:Courier;">(t / threaten-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria"))))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_46">France's move into the English Channel is a clear act of aggression against England.
+ &nbsp; &nbsp; <nobr><span id="ps_46" style="font-family:Courier;color:#666666;">(threaten-01 :ARG0 move-01 :ARG2 England)</span></nobr>&nbsp; &nbsp; <span id="ex_46" title="Click here for a full example" onclick="javascript:toggle('t_46');redraw_context('46');" ondblclick="redraw_context('46');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_46" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> France's move into the English Channel is a clear act of aggression against England. [dip_0003.23]<br><span style="font-family:Courier;">(t / threaten-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (m / move-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (u / unit <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (s / sea <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "English" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Channel"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "England")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="tr">
+<a name="tra">
+<a name="tran">
+<a name="trans">
+<a name="transp">
+<a name="transpo">
+<a name="transpor">
+<a name="transport">
+<a name="transport-">
+<a name="transport-0">
+<a name="transport-01">
+   <a name="convoy">
+<font size="+2" color="#0000BB"><b>transport-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">transport an army via one or more seas to a destination by fleet</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_47">Shortcut and DAIDE code: CTO ("convoy to"), CVY ("convoy")
+   <li> <div id="fe_47">Convoy the English army in Edinburgh to Norway via the North Sea.
+ &nbsp; &nbsp; <nobr><span id="ps_47" style="font-family:Courier;color:#666666;">(transport-01 :ARG1 (army :mod England :location Edinburgh) :ARG3 Norway :ARG4 North Sea)</span></nobr>&nbsp; &nbsp; <span id="ex_47" title="Click here for a full example" onclick="javascript:toggle('t_47');redraw_context('47');" ondblclick="redraw_context('47');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_47" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Convoy the English army in Edinburgh to Norway via the North Sea. [dip_0003.12]<br><span style="font-family:Courier;">(t / transport-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode imperative <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "England")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Edinburgh"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Norway")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG4 (s / sea <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "North" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 "Sea")))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_48">Let the French fleet transport the French army in Picardy to London.
+ &nbsp; &nbsp; <nobr><span id="ps_48" style="font-family:Courier;color:#666666;">(transport-01 :ARG0 (fleet :mod France) :ARG1 (army :mod France :location Picardy) :ARG3 London)</span></nobr>&nbsp; &nbsp; <span id="ex_48" title="Click here for a full example" onclick="javascript:toggle('t_48');redraw_context('48');" ondblclick="redraw_context('48');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_48" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Let the French fleet transport the French army in Picardy to London. [dip_0003.9]<br><span style="font-family:Courier;">(t / transport-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (f / fleet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "France"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / army <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod c <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Picardy"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3 (p2 / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "London")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="tru">
+<a name="trus">
+<a name="trust">
+<a name="trust-">
+<a name="trust-0">
+<a name="trust-01">
+<font size="+2" color="#0000BB"><b>trust-01</b></font>
+<span id="DATED_BODY_1" time_added="1654498800" times_modified="1654498800" style="color:black;display:none;"> &nbsp; (ID)</span><ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">trust</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_49">ITA -> GER: I don’t really trust Austria.
+ &nbsp; &nbsp; <nobr><span id="ps_49" style="font-family:Courier;color:#666666;">(trust-01 :polarity - :ARG0 Italy :ARG2 Austria)</span></nobr>&nbsp; &nbsp; <span id="ex_49" title="Click here for a full example" onclick="javascript:toggle('t_49');redraw_context('49');" ondblclick="redraw_context('49');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_49" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> ITA -> GER: I don’t really trust Austria. [dip_0003.45]<br><span style="font-family:Courier;">(t / trust-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:polarity - <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Italy")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="u">
+<a name="v">
+<a name="w">
+<a name="wa">
+<a name="war">
+<a name="warn">
+<a name="warn-">
+<a name="warn-0">
+<a name="warn-01">
+<font size="+2" color="#0000BB"><b>warn-01</b></font>
+<ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">warn</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_50">Germany warned Austria that Russia would invade Ukraine.
+ &nbsp; &nbsp; <nobr><span id="ps_50" style="font-family:Courier;color:#666666;">(warn-01 :ARG0 Germany :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine) :ARG2 Austria)</span></nobr>&nbsp; &nbsp; <span id="ex_50" title="Click here for a full example" onclick="javascript:toggle('t_50');redraw_context('50');" ondblclick="redraw_context('50');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_50" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Germany warned Austria that Russia would invade Ukraine. [dip_0003.42]<br><span style="font-family:Courier;">(w / warn-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (a / attack-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (p / province <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n4 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Ukraine"))) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")))</span></td></tr></table></td></tr></table></div>
+   <li> <div id="fe_51">GER -> AUS: You better watch out for Russia.
+ &nbsp; &nbsp; <nobr><span id="ps_51" style="font-family:Courier;color:#666666;">(warn-01 :ARG0 Germany :ARG1 Russia :ARG2 Austria)</span></nobr>&nbsp; &nbsp; <span id="ex_51" title="Click here for a full example" onclick="javascript:toggle('t_51');redraw_context('51');" ondblclick="redraw_context('51');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_51" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> GER -> AUS: You better watch out for Russia. [dip_0003.43]<br><span style="font-family:Courier;">(w / warn-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Germany")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (c2 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (c3 / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Austria")))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="wo">
+<a name="wor">
+<a name="worl">
+<a name="world">
+<a name="world-">
+<a name="world-r">
+<a name="world-re">
+<a name="world-reg">
+<a name="world-regi">
+<a name="world-regio">
+<a name="world-region">
+<a name="worldr">
+<a name="worldre">
+<a name="worldreg">
+<a name="worldregi">
+<a name="worldregio">
+<a name="worldregion">
+<font size="+2" color="#0000BB"><b>world-region</b></font>
+<span id="DATED_BODY_2" time_added="1654412400" times_modified="1654412400" style="color:black;display:none;"> &nbsp; (ID)</span><ul style="margin-top:0px;">
+   <li> <font size="+1" color="#0000DD">named-entity type world-region</font>
+       <ul style="margin-top:0px;">
+   <li> <div id="fe_52">Russia proposes to demilitarize Scandinavia and the Balkans.
+ &nbsp; &nbsp; <nobr><span id="ps_52" style="font-family:Courier;color:#666666;">(and :op1 (world-region :name (name :op1 Scandinavia)) :op2 (world-region :name (name :op1 Balkans)))</span></nobr>&nbsp; &nbsp; <span id="ex_52" title="Click here for a full example" onclick="javascript:toggle('t_52');redraw_context('52');" ondblclick="redraw_context('52');" style="color:#005500;text-decoration:underline;">Example</span></div><div id="t_52" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="700"><b>Example:</b> Russia proposes to demilitarize Scandinavia and the Balkans. [dip_0003.44]<br><span style="font-family:Courier;">(p / propose-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0 (c / country <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Russia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1 (d / demilitarize-01 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2 (a / and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 (w / world-region <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n2 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Scandinavia")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2 (w2 / world-region <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name (n3 / name <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1 "Balkans")))))</span></td></tr></table></td></tr></table></div>
+       </ul>
+</ul>
+<p></p>
+<a name="x">
+<a name="y">
+<a name="z">
+<style type="text/css">.right_align { text-align: right; }</style>
+<hr><p>
+<a href="javascript:set_group_display('t','inline');">Show all full examples</a> &nbsp; &mdash; &nbsp; <a href="javascript:set_group_display('t','none');">Hide all full examples</a>
+<br>
+The dictionary above shows additions and modifications from <input type="text" id="from_n_days_ago" value="30" class="right_align" size="2"> days ago = <b><span id="from_date">Sep 17, 2022</span></b> &nbsp; to <input type="text" id="to_n_days_ago" value="0" align="right" class="right_align" size="2"> days ago = <b><span id="to_date">Oct 17, 2022</span></b>.<br>
+ &nbsp; &nbsp; &nbsp; &bull; &nbsp; <span id="change_summary">Additions/modifications in this time period: &nbsp; initializing ...</span>
+<br>
+Please email Ulf with any corrections and suggestions.
+<input type="hidden" id="ref_time_from" value="1663398000">
+<input type="hidden" id="ref_time_to" value="1666076399">
+  </body>
+</html>

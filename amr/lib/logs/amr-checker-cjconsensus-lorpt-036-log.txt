@@ -1,0 +1,2 @@
+STEM match for unaligned mega :: megacity :: NW_AFP_ENG_0039_2010_0506.3 cjconsensus
+STEM match for unaligned organising :: organize-01 :: NW_AFP_ENG_0039_2010_0506.7 cjconsensus

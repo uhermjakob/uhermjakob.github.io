@@ -1,0 +1,2 @@
+STEM match for unaligned tented :: tent :: PROXY_AFP_ENG_20051018_0064.33 cjconsensus
+STEM match for unaligned Kashmirs :: Kashmir :: PROXY_AFP_ENG_20051018_0064.39 cjconsensus

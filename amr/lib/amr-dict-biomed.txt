@@ -1,0 +1,155 @@
+SURF: Abbreviations
+   DATE-ADDED: 2015-01-26
+   SEM: <b>-/-</b> &nbsp; Both copies of a gene have a mutation that renders the expressed protein inoperable.
+   SEM: <b>3'-end</b> &nbsp; ("three prime end") trailing end of DNA or RNA 
+      NOTE: <a target="_WIKI" href="https://en.wikipedia.org/wiki/Directionality_(molecular_biology)">more in Wikipedia</a>
+   SEM: <b>5'-end</b> &nbsp; ("five prime end") leading end of DNA or RNA
+   SEM: <b>CR</b> &nbsp; complete response (to treatment)
+   SEM: <b>DNA</b> &nbsp; (n / nucleic-acid :wiki "<a target="_WIKI" href="https://en.wikipedia.org/wiki/DNA">DNA</a>" :name (n2 / name :op1 "DNA"))
+   SEM: <b>EMT</b> &nbsp; (e / event :wiki "<a target="_WIKI" href="https://en.wikipedia.org/wiki/Epithelial%E2%80%93mesenchymal_transition">Epithelial&minus;mesenchymal_transition</a>" :name (n / name :op1 "epithelial-mesenchymal" :op2 "transition"))
+   SEM: <b>IR</b> &nbsp; ionizing radiation
+   SEM: <b>KD</b>
+      ENTRY: knockdown 
+         NOTE: <a  target="_WIKI" href="https://en.wikipedia.org/wiki/Gene_knockdown">more in Wikipedia</a>
+      ENTRY: dissociation constant K<sub>d</sub>
+         NOTE: <a  target="_WIKI" href="https://en.wikipedia.org/wiki/Dissociation_constant">more in Wikipedia</a>
+      ENTRY: kinase-deficient, kinase-inactivated
+   SEM: <b>MI</b>
+      LINK: https://github.com/cytoscape/webservice-psicquic-client/blob/master/src/main/resources/psimi_terms.txt
+      ENTRY: molecular interaction (code)
+      ENTRY: Example: MI:0118 = "mutation"
+      ENTRY: Example: MI:0326 = "protein"
+      ENTRY: Example: MI:0328 = "small molecule"
+      ENTRY: Example: MI:0573 = "mutation disrupting interaction"
+      ENTRY: Example: MI:1133 = "mutation decreasing interaction strength"
+   SEM: <b>p < 0.05</b> &nbsp; p-value when determining the statistical significance of a hypothesis
+      NOTE: <a  target="_WIKI" href="https://en.wikipedia.org/wiki/p-value">more in Wikipedia</a>
+   SEM: <b>PD</b> &nbsp; progressive disease
+   SEM: <b>PR</b> &nbsp; partial response (to treatment)
+   SEM: <b>RNA</b> &nbsp; (n / nucleic-acid :wiki "<a target="_WIKI" href="https://en.wikipedia.org/wiki/RNA">RNA</a>" :name (n2 / name :op1 "RNA"))
+   SEM: <b>s.d.</b> &nbsp; stable disease
+   SEM: <b>UTR</b> &nbsp; untranslated region
+   SEM: <b>WT</b> &nbsp; wild-type
+
+SURF: amino-acid
+   DATE-ADDED: 2014-11-25
+   SEM: definition
+      ENTRY: An amino-acid is an organic molecule.
+      ENTRY: Amino acids can be chained together and folded to form proteins. Proteins contain 23 types of amino acids, such as serine. &nbsp <a href="https://en.wikipedia.org/wiki/Amino_acid#Table_of_standard_amino_acid_abbreviations_and_properties" target="_AMINO_ACID_TABLE" title="Click for table of amino acids with abbreviations">Table $external_link_img</a>.
+      ENTRY: Technically, when they two amino acids are chained together, they lose an -H and an -OH respectively (combined to water), leaving two amino acid <i>residues</i>.
+   SEM: example
+      ENTRY: ERK phosphorylates B-Raf on the S151 site.
+	 PSEUDO: (phosphorylate-01 :ARG1 (amino-acid :mod 151 "serine" :part-of (enzyme "B-Raf")) :ARG2 (enzyme "ERK"))
+	 EXAMPLE: isi_0011.1
+   SEM: related topic protein
+
+SURF: AMR Annotation Dictionary
+   LINK: http://www.isi.edu/~ulf/amr/lib/amr-dict.html
+   ENTRY: primary AMR Annotation Dictionary
+
+SURF: domain
+   DATE-ADDED: 2014-11-05
+   LINK: https://en.wikipedia.org/wiki/Protein_domain
+   SEM: definition
+      ENTRY: a larger protein-segment
+      ENTRY: :part-of a protein
+      ENTRY: often with specific function(s)
+      ENTRY: often relatively independent of other parts of the protein
+   SEM: examples
+      ENTRY: G-domain
+   SEM: related topic protein
+   
+SURF: downregulation/upregulation
+   ANCHOR: upregulation
+   DATE-ADDED: 2014-11-05
+   LINK: https://en.wikipedia.org/wiki/Downregulation_and_upregulation
+   SEM: definition
+      ENTRY: Downregulation (or downmodulation) is a process where some instances of a protein (or other molecule) are deactivated or dismantled. If the downregulated molecule is an enzyme, the activity ("signaling") from that type of enzyme is reduced.
+      ENTRY: Conversely, <b>upregulation</b> (or upmodulation) is a process where some instances of a protein (or other molecule) are activated or built up. If the upregulated molecule is an enzyme, the activity ("signaling") from that type of enzyme is increased.
+   SEM: frame downregulate/upregulate
+      ENTRY: Both the agent and the target of downregulation/upregulation can be enzymes.
+
+SURF: effector
+   DATE-ADDED: 2014-12-03
+   SEM: definition
+      ENTRY: a molecule that is not directly involved in a chemical reaction, but weakly binds to an enzyme (or other protein), changing it to make it more (or less) able to perform its normal function. Therefore, effectors can be used to speed up (or slow down) certain reactions.
+   SEM: annotation
+      ENTRY: Do <b>not</b> map to affect-01 or other, since it's a more specific technical term.
+
+SURF: enzyme
+   DATE-ADDED: 2014-11-05
+   LINK: https://en.wikipedia.org/wiki/Enzyme
+   SEM: definition
+      ENTRY: large organic molecule (typically a protein) or macro-molecular-complex (containing a protein)
+      ENTRY: acts as an :instrument of biochemical processes, more specifically as a catalyst
+      ENTRY: often has activated and deactivated forms (e.g. activated by phosphorylation)
+   SEM: entity type
+      ENTRY: Annotate an enzyme as an enzyme even if the text describes it as a "protein" (which is more general). But if the text uses something more specific than an enzyme, such as kinase, use that more specific type.
+   SEM: examples
+      ENTRY: ERK phosphorylates B-Raf on the S151 site.
+	 PSEUDO: (phosphorylate-01 :ARG1 (amino-acid :mod 151 "serine" :part-of (enzyme "B-Raf")) :ARG2 (enzyme "ERK"))
+	 EXAMPLE: isi_0011.1
+      ENTRY: Raf proteins
+	 PSEUDO: (enzyme :name (name :op1 "Raf"))
+	 EXAMPLE: bio.mskcc_0001.6
+
+SURF: phosphorylation
+   DATE-ADDED: 2014-11-05
+   LINK: https://en.wikipedia.org/wiki/Phosphorylation 
+   SEM: definition   
+      ENTRY: process that modifies an organic molecule by adding a phosphate
+	  ENTRY: often applied to a protein, more specifically to certain amino acids that are part of a protein
+      ENTRY: often activates or deactivates enzymes and other proteins<br>Example:  If amino acid Serine-473 ("S473") in the protein AKT is phosphorylated, AKT is, in general, functionally active as a kinase. If not, it is an inactive kinase.
+      ENTRY: Reverse process: dephosphorylation
+      ENTRY: hyperphosphorylation: protein with multiple phosphorylation sites is fully saturated   
+      ENTRY: Common source of phosphate added in phosphorylation: ATP (= adenosine <b><u>tri</u>phosphate</b>) which donates one of its phosphates and becomes ADP (= adenosine <b><u>di</u>phosphate</b>)  
+      ENTRY: Typical agent: enzyme
+   SEM: frame for phosphorylate-01
+      LINK: http://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/phosphorylate-v.html#phosphorylate01
+	  ENTRY: :ARG0 agent of phosphorylation (e.g. person, process)
+	  ENTRY: :ARG1 thing phosphorylated; typically a protein or other organic molecule
+	  ENTRY: :ARG2 instrument (typically an enzyme)
+	  ENTRY: :ARG3 product of phosphorylation; typically a protein or other organic molecule 
+   SEM: examples
+      ENTRY: ERK phosphorylates B-Raf on the S151 site.
+	 PSEUDO: (phosphorylate-01 :ARG1 S151 :ARG2 ERK)
+	 EXAMPLE: isi_0011.1
+      ENTRY: phosphorylated ATM
+	 NOTE: Use :ARG3 for product of phosphorylation.
+	 PSEUDO: (ATM :ARG3-of phosphorylate-01)
+	 EXAMPLE: isi_0011.2
+
+SURF: protein
+   DATE-ADDED: 2014-11-05
+   LINK: https://en.wikipedia.org/wiki/Protein
+   SEM: definition
+      ENTRY: large organic molecule
+      ENTRY: major building block of living things
+      ENTRY: can be agents of biochemical processes (enzymes)
+      ENTRY: Proteins are encoded by genes. The physical expression of genes into proteins consists of two steps: (1) enzymes <i>transcribe</i> genes into messenger RNAs (mRNAs) and then (2) ribosomes <i>translate</i> these messenger RNAs into proteins.
+   SEM: components of a protein
+      ENTRY: A protein is a chain of many amino acid residues (An amino acid <i>residue</i> is an amino acid minus a -OH and a -H group, which are discarded as water when two amino acids are bound together as links in a protein chain in a process called polymerization).
+      ENTRY: A term such as "S151" refers to a specific amino acid ("S" = serine; <a href="https://en.wikipedia.org/wiki/Amino_acid#Table_of_standard_amino_acid_abbreviations_and_properties" target="_AMINO_ACID_TABLE" title="Click for table of amino acids with abbreviations">table $external_link_img</a>) at a specific position ("151") in the chain of amino acid residues that make up a protein. A prefix "p" (as in "pS151") indicates that the amino acid is <a href="#phosphorylation">phosphorylated</a>.
+      ENTRY: A protein-segment is a sub-chain of one or more amino acids.
+      ENTRY: Some protein-segments are referred to as a <a href="#domain"><b>domain</b></a> or <b>motif</b> or <b>(binding) site</b>.
+   SEM: types of proteins
+      ENTRY: enzyme
+	LINK: enzyme
+	NOTE: We annotate proteins that are also enzymes as an enzyme.
+
+SURF: when
+   DATE-ADDED: 2014-11-25
+   SEM: :time
+      ENTRY: <b>When</b> she arrived, he was still asleep.
+	 PSEUDO: (sleep-01 :ARG0 he :mod still :time (arrive-01 :ARG1 she))
+	 EXAMPLE: isi_0002.612
+   SEM: :condition
+      ENTRY: <b>When</b> all else fails, I use superglue.
+         PSEUDO: (use-01 :ARG0 i :ARG1 superglue <b>:condition</b> (fail-01 :ARG1 (all :mod else)))
+         EXAMPLE: isi_0002.613
+      ENTRY: <b>When</b> PP2A was inhibited, certain B-Raf mutants accumulated.
+	 PSEUDO: (accumulate :ARG1 enzyme :condition (inhibit-01 :ARG1 PP2A))
+	 EXAMPLE: bio.mskcc_0001.44
+   SEM: see general AMR Dict for more examples
+      LINK: http://www.isi.edu/~ulf/amr/lib/amr-dict.html#when
+

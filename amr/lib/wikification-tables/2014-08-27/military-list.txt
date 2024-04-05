@@ -1,0 +1,26 @@
+# military list
+(63) ::ne-surf NATO ::ne-type military ::wiki NATO
+(7) ::ne-surf North Atlantic Treaty Organization ::ne-type military ::wiki NATO
+(6) ::ne-surf Warsaw Pact ::ne-type military ::wiki Warsaw_Pact
+(5) ::ne-surf International Security Assistance Force ::ne-type military ::wiki International_Security_Assistance_Force
+(5) ::ne-surf Russian Space Forces ::ne-type military ::wiki Russian_Space_Forces
+(3) ::ne-surf Coast Guard ::ne-type military ::wiki United_States_Coast_Guard
+(3) ::ne-surf Indian Navy ::ne-type military ::wiki Indian_Navy
+(3) ::ne-surf People's Liberation Army ::ne-type military ::wiki People's_Liberation_Army
+(2) ::ne-surf Indian Air Force ::ne-type military ::wiki Indian_Air_Force
+(2) ::ne-surf Marines ::ne-type military ::wiki United_States_Marine_Corps
+(2) ::ne-surf United States Air Force ::ne-type military ::wiki United_States_Air_Force
+(2) ::ne-surf United States Military ::ne-type military ::wiki United_States_Armed_Forces
+(1) ::ne-surf Al-Qassam Brigades ::ne-type military ::wiki Izz_ad-Din_al-Qassam_Brigades
+(1) ::ne-surf U.S. Army ::ne-type military ::wiki United_States_Army
+(1) ::ne-surf US Army ::ne-type military ::wiki United_States_Army
+(1) ::ne-surf United States Army ::ne-type military ::wiki United_States_Army
+(0) ::ne-surf US Marines ::ne-type military ::wiki United_States_Marine_Corps
+(0) ::ne-surf United States Marines ::ne-type military ::wiki United_States_Marine_Corps
+(0) ::ne-surf US Air Force ::ne-type military ::wiki United_States_Air_Force
+(0) ::ne-surf US Coast Guard ::ne-type military ::wiki United_States_Coast_Guard
+(0) ::ne-surf US Navy ::ne-type military ::wiki United_States_Navy
+(0) ::ne-surf United States Navy ::ne-type military ::wiki United_States_Navy
+(0) ::ne-surf United States Coast Guard ::ne-type military ::wiki United_States_Coast_Guard
+(0) ::ne-surf United States Armed Forces ::ne-type military ::wiki United_States_Armed_Forces
+(0) ::ne-surf US Military ::ne-type military ::wiki United_States_Armed_Forces

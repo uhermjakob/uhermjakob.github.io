@@ -1,0 +1,5 @@
+STEM match for unaligned and :: and :: PROXY_APW_ENG_20080728_0937.16 cjconsensus
+STEM match for unaligned narco :: narcotic :: PROXY_APW_ENG_20080728_0937.26 cjconsensus
+STEM match for unaligned narco :: narcotic :: PROXY_APW_ENG_20080728_0937.26 cjconsensus
+STEM match for unaligned multibillion :: multiple :: PROXY_APW_ENG_20080825_0241.14 cjconsensus
+STEM match for unaligned multibillion :: multiple :: PROXY_APW_ENG_20080825_0241.15 cjconsensus

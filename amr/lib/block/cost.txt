@@ -1,0 +1,12 @@
+TITLE cost-01
+HIGHLIGHT-RED :cost
+HIGHLIGHT-RED cost-01
+HIGHLIGHT-BLUE to cost
+
+The frame cost-01 is not only used for explicit occurrences of to cost, but also implied cost relationships.
+
+EXAMPLE isi_0002.191 The book cost $20.
+
+EXAMPLE isi_0002.190 a $3 meal
+
+The editor offers &nbsp; <i>:cost</i> &nbsp; as a shortcut for &nbsp; <i>:ARG1-of&nbsp; cost-01 :ARG0</i>.

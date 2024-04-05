@@ -1,0 +1,5 @@
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070227_0060.9 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070227_0060.12 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070227_0060.18 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070305_0181.12 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070305_0181.12 cjconsensus

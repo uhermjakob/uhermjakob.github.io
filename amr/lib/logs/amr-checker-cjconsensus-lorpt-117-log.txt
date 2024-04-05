@@ -1,0 +1,10 @@
+STEM match for unaligned NORTHCOM :: Northern :: NW_LTW_ENG_0117_2005_0924.5 cjconsensus
+STEM match for unaligned firsthand :: first-hand :: NW_LTW_ENG_0117_2005_0924.5 cjconsensus
+STEM match for unaligned and :: and :: NW_LTW_ENG_0117_2005_0924.8 cjconsensus
+STEM match for unaligned and :: and :: NW_LTW_ENG_0117_2005_0924.16 cjconsensus
+STEM match for unaligned and :: and :: NW_LTW_ENG_0117_2005_0924.20 cjconsensus
+STEM match for unaligned and :: and :: NW_LTW_ENG_0117_2005_0924.20 cjconsensus
+STEM match for unaligned and :: and :: NW_LTW_ENG_0117_2005_0924.21 cjconsensus
+STEM match for unaligned and :: and :: NW_LTW_ENG_0117_2005_0924.21 cjconsensus
+STEM match for unaligned committeeman :: Committee :: NW_LTW_ENG_0117_2005_0924.24 cjconsensus
+STEM match for unaligned landfall :: land :: NW_LTW_ENG_0117_2005_0924.28 cjconsensus

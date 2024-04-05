@@ -1,0 +1,2 @@
+STEM match for unaligned sugarcane :: sugar-cane :: ENG_NA_020001_20161020_G0023FSW5_0001.6 ldcpreferred
+STEM match for unaligned neighbor :: neighborhood :: ENG_NA_020001_20161020_G0023FSW5_0001.6 ldcpreferred

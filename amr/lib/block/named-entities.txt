@@ -1,0 +1,86 @@
+TITLE Named Entities
+HIGHLIGHT-RED :name
+HIGHLIGHT-RED :op1
+HIGHLIGHT-RED :op2
+HIGHLIGHT-RED :op3
+HIGHLIGHT-RED name
+
+Related pages: <a href="http://www.isi.edu/~ulf/amr/lib/ne-types.html" target="_POPUP">List of NE types</a>,
+<a href="http://www.isi.edu/~ulf/amr/lib/popup/ne-type-selection.html" target="_POPUP">Selecting an NE type</a>.
+<p>
+
+<b>Examples of named entities (NEs):</b> New York, Michael Bloomberg, Manhattan, CIA, Panama Canal, Titanic<br>
+
+EXAMPLE isi_0002.192 France
+
+EXAMPLE isi_0002.165 New York
+
+EXAMPLE isi_0002.209 The poet William Shakespeare was born in Stratford-upon-Avon.
+
+A named entity is expressed by a concept denoting its type (e.g. <i>city</i>),
+followed by role <i>:name</i> and concept <i>name</i>, which in turn has sub-roles such as <i>:op1</i> and <i>:op2</i>.
+This substructure is required, even if the named entity has only a single word as in <i>Russia</i> or <i>Obama</i>.<br>
+Note that we don't split hyphenated compounds (such as Stratford-upon-Avon) or possessive suffixes (such as the 's in People's Mujahedin).
+
+<p>
+
+The AMR is a bit complex, but the AMR Editor facilitates <b>adding a <i>named entity</i> to an AMR</b>, providing you with two choices:
+<ol>
+   <li> <b>Template:</b> click on the blue "add-ne" box and fill in all the blanks.<br>
+	Click on the blue <a href="http://www.isi.edu/~ulf/amr/lib/roles.html" title="Show list of roles (and examples)" target="_BLANK">role:</a> or <a href="http://www.isi.edu/~ulf/amr/lib/ne-types.html" title="Show list of named-entity types" target="_BLANK">NE type:</a> boxes to get help making the right selection.
+   <li> Alternatively, type in a <b>text command</b> such as: &nbsp; <font style="font-family:Courier;color:#007700;">x :location city New York</font><br>
+	where <i>x</i> is the parent variable, <i>:location</i> is the role, <i>city</i> is the type of named entity,
+	and <i>New York</i> is the specific name, with one or more components.
+</ol>
+
+For <b>text input</b>, typically faster in the long run, there are a number of <b>support features</b>
+<ul>
+   <li> If you are not sure about a role, just type &nbsp; <font style="font-family:Courier;color:#007700;">:?</font> &nbsp; instead of a real role.<br>
+	This will summon a popup window, from which you can choose the proper role by clicking.
+   <li> If you are not sure about a named entity type, just type &nbsp; <font style="font-family:Courier;color:#007700;">?</font> &nbsp; instead of a real named entity type.<br>
+	This will summon a popup window, from which you can choose the proper named entity by clicking.
+   <li> If the AMR already contains the named-entity type (e.g. <i>mayor</i>), 
+	you can add a name by type something like &nbsp; <font style="font-family:Courier;color:#007700;">m :nam<nobr>e</nobr> Michael Bloomberg</font>
+</ul>
+
+<hr>
+
+<h3>Examples: How to enter a named entity in the AMR Editor, step by step</h3>
+
+EXAMPLE isi_0002.166 Michael Bloomberg laughed .
+
+<ol>
+   <li> Type &nbsp; <font style="font-family:Courier;color:#007700;">top laugh-<nobr>01</nobr></font>
+   <li> Type &nbsp; <font style="font-family:Courier;color:#007700;">l :arg0 person Michael Bloomberg</font>
+</ol>
+
+EXAMPLE isi_0002.163 New York Mayor Michael Bloomberg lives in Manhattan .
+
+<ol>
+   <li> Type &nbsp; <font style="font-family:Courier;color:#007700;">top live</font>
+   <li> Click on &nbsp; <font style="color:blue;text-decoration:underline;">live</font>
+   <li> In popup-window, click on sense &nbsp; <font style="color:blue;text-decoration:underline;">live.01</font>
+   <li> Type &nbsp; <font style="font-family:Courier;color:#007700;">l :arg0 mayor Michael Bloomberg</font>
+   <li> Let's assume you are not sure about the proper role to relate <i>mayor</i> and <i>New York</i>.<br>
+	Type &nbsp; <font style="font-family:Courier;color:#007700;">m :?</font>
+   <li> In popup-window, click on role &nbsp; <font style="color:blue;text-decoration:underline;">:poss</font>
+   <li> You will now see &nbsp; <font style="font-family:Courier;">m :poss</font>
+   <li> Complete typing &nbsp; <font style="font-family:Courier;">m :poss <font color="#007700"> city New York</font></font>
+   <li> Let's assume you are not sure about the proper exact named-entity type for <i>Manhattan</i>.<br>
+        Type &nbsp; <font style="font-family:Courier;color:#007700;">l :location ?</font>
+   <li> In popup-window, click on entity type &nbsp; <font style="color:blue;text-decoration:underline;">city-district</font>
+   <li> You will now see &nbsp; <font style="font-family:Courier;">l :location city-district</font>
+   <li> Complete typing &nbsp; <font style="font-family:Courier;">l :location city-district <font color="#007700">Manhattan</font></font>
+</ol>
+
+<a name="collapsed">
+<p><hr><p>
+<h3>Mistake to avoid: collapsed :name construction</h3>
+
+<span style="color:#FF5599;">
+<span style="color:red;font-weight:bold;">Incorrect:</span> &nbsp; <span style="font-family:Courier;">(c / country :name "France")</span></span><p>
+
+The <span style="color:#007700;font-weight:bold;">correct</span> way is to use :name name :op1 ... even if the name has only a single component:
+EXAMPLE isi_0002.192 France
+
+<b>Video recommendation:</b> <i>Annotating names in AMR</i> (2 minutes) on the <a href="http://www.isi.edu/~ulf/amr/lib/videos.html">video</a> page.

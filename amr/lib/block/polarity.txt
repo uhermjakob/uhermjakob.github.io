@@ -1,0 +1,12 @@
+TITLE :polarity
+HIGHLIGHT-RED :polarity
+HIGHLIGHT-RED -
+
+Used for negation:
+
+EXAMPLE isi_0001.5 The boy must not go.
+
+EXAMPLE isi_0001.6 There is no possibility that the boy will go.
+
+EXAMPLE isi_0001.13 the comment is inappropriate
+

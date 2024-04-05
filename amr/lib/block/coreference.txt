@@ -1,0 +1,19 @@
+TITLE Coreference
+
+HIGHLIGHT-RED b
+HIGHLIGHT-RED p
+HIGHLIGHT-RED r
+
+Coreference is expressed through shared variables such as the b in:
+
+EXAMPLE isi_0002.205 The boy lost his toy.
+
+EXAMPLE isi_0002.21 The boy wants to eat an apple.
+
+EXAMPLE isi_0002.208 When he opened his eyes, John tried not to look at himself.
+
+Make sure to resolve the pronouns in quoted speech semantically:
+
+EXAMPLE isi_0002.206 The boy said, "I am hungry."
+
+EXAMPLE isi_0002.204 "We are roses," said the roses.

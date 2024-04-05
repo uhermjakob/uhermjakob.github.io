@@ -1,0 +1,14 @@
+STEM match for unaligned sources :: source :: bolt-eng-DF-200-192451-5796411_0128.4 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192451-5796411_0128.9 ldcpreferred
+STEM match for unaligned Semitic :: Semite :: bolt-eng-DF-200-192451-5796411_0128.13 ldcpreferred
+STEM match for unaligned Semitic :: Semite :: bolt-eng-DF-200-192451-5796411_0128.15 ldcpreferred
+STEM match for unaligned Semitic :: Semite :: bolt-eng-DF-200-192451-5796411_0128.15 ldcpreferred
+STEM match for unaligned Semitic :: Semite :: bolt-eng-DF-200-192451-5796411_0128.16 ldcpreferred
+STEM match for unaligned http://israelipalestinian.procon.org... :: http://israelipalestinian.procon.org/view.resource.php?resourceID=000636#chart1 :: bolt-eng-DF-200-192451-5796411_0128.19 ldcpreferred
+STEM match for unaligned european :: Europe :: bolt-eng-DF-200-192451-5796411_0128.21 ldcpreferred
+STEM match for unaligned afterwards :: after :: bolt-eng-DF-200-192451-5796411_0128.23 ldcpreferred
+STEM match for unaligned algerian :: Algeria :: bolt-eng-DF-200-192451-5796411_0128.28 ldcpreferred
+STEM match for unaligned algerians :: Algeria :: bolt-eng-DF-200-192451-5796411_0128.28 ldcpreferred
+STEM match for unaligned compromise :: comprise-01 :: bolt-eng-DF-200-192451-5796411_0128.31 ldcpreferred
+STEM match for unaligned Palestinia :: Palestine :: bolt-eng-DF-200-192451-5796411_0128.36 ldcpreferred
+STEM match for unaligned supposedly :: suppose-01 :: bolt-eng-DF-200-192451-5796411_0129.1 ldcpreferred

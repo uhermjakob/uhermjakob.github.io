@@ -1,0 +1,10 @@
+STEM match for unaligned costly :: cost-01 :: bolt-eng-DF-170-181103-8889674_0012.1 colorado
+STEM match for unaligned supercharged :: super :: bolt-eng-DF-170-181103-8889674_0012.6 colorado
+STEM match for unaligned defict :: deficit :: bolt-eng-DF-170-181103-8889674_0012.6 colorado
+STEM match for unaligned source :: source-of :: bolt-eng-DF-170-181103-8889674_0037.15 colorado
+STEM match for unaligned source :: source-of :: bolt-eng-DF-170-181103-8889674_0037.15 colorado
+STEM match for unaligned critical :: critical thinker :: bolt-eng-DF-170-181103-8889674_0037.19 colorado
+STEM match for unaligned thinker :: thing :: bolt-eng-DF-170-181103-8889674_0037.19 colorado
+STEM match for unaligned claims :: claim-01 :: bolt-eng-DF-170-181103-8889674_0038.22 colorado
+STEM match for unaligned bipartisanship :: bipartisan :: bolt-eng-DF-170-181103-8889674_0058.2 colorado
+STEM match for unaligned Geithner :: Geitner :: bolt-eng-DF-170-181103-8889674_0060.15 colorado

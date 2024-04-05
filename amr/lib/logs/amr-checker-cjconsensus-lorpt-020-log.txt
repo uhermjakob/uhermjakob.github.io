@@ -1,0 +1,3 @@
+STEM match for unaligned paralysed :: paralyze-01 :: NW_AFP_ENG_0020_2004_0619.3 cjconsensus
+STEM match for unaligned Rainwater :: rain-01 :: NW_AFP_ENG_0020_2004_0619.6 cjconsensus
+STEM match for unaligned mountainous :: mountain :: NW_AFP_ENG_0020_2004_0619.8 cjconsensus

@@ -1,0 +1,11 @@
+TITLE up from / down from
+HIGHLIGHT-BLUE up from
+HIGHLIGHT-BLUE down from
+HIGHLIGHT-RED increase-01
+HIGHLIGHT-RED decrease-01
+
+Consider annotating up from as increase-01.<br>
+Similarly, consider annotating down from as decrease-01.
+
+EXAMPLE isi_0002.69 The dollar traded at 0.8012 Euros, up from 0.7943 Euros on Monday .
+

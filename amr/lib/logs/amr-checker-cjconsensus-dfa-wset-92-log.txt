@@ -1,0 +1,12 @@
+STEM match for unaligned lurker :: lurk-01 :: DF-225-196010-966_3137.1 cjconsensus
+STEM match for unaligned and :: and :: DF-225-196010-966_3137.2 cjconsensus
+STEM match for unaligned integrety :: integrity :: DF-225-196010-966_3137.13 cjconsensus
+STEM match for unaligned integrety :: integrity :: DF-225-196010-966_3137.13 cjconsensus
+STEM match for unaligned within :: prep-with :: DF-225-196010-966_3642.3 cjconsensus
+STEM match for unaligned and :: and :: DF-225-196010-966_3642.5 cjconsensus
+STEM match for unaligned lunchtime :: lunch-01 :: DF-225-196010-966_3642.6 cjconsensus
+STEM match for unaligned pressie :: present :: DF-225-196010-966_3642.6 cjconsensus
+STEM match for unaligned Swimming :: swim-01 :: DF-225-196010-966_3642.10 cjconsensus
+STEM match for unaligned Swimming :: swim-01 :: DF-225-196010-966_3642.10 cjconsensus
+STEM match for unaligned thurs :: thursday :: DF-225-196010-966_3642.10 cjconsensus
+STEM match for unaligned and :: and :: DF-225-196010-966_3642.15 cjconsensus

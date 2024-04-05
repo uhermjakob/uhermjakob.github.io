@@ -1,0 +1,8 @@
+STEM match for unaligned M&Ms. :: M&Ms :: web1-eng-DF-241-201695-3621554_0001.4 cjconsensus
+STEM match for unaligned blood :: Blood, :: web1-eng-DF-241-201695-3621554_0003.7 cjconsensus
+STEM match for unaligned Blood :: Blood, :: web1-eng-DF-241-201695-3621554_0005.6 cjconsensus
+STEM match for unaligned fastpaced :: fast-02 :: web1-eng-DF-241-201695-3621554_0005.9 cjconsensus
+STEM match for unaligned Atheiests :: atheist :: web1-eng-DF-241-201695-3621554_0010.1 cjconsensus
+STEM match for unaligned sucha :: such :: web1-eng-DF-241-201695-3621554_0019.1 cjconsensus
+STEM match for unaligned aways :: away :: web1-eng-DF-241-201695-3621554_0019.2 cjconsensus
+STEM match for unaligned moreso :: more :: web1-eng-DF-241-201695-3621554_0020.9 cjconsensus

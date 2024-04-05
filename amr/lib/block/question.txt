@@ -1,0 +1,42 @@
+TITLE question
+HIGHLIGHT-RED :mode
+HIGHLIGHT-RED interrogative
+HIGHLIGHT-RED amr-unknown
+HIGHLIGHT-BLUE what
+HIGHLIGHT-BLUE who
+HIGHLIGHT-BLUE which
+HIGHLIGHT-BLUE how
+HIGHLIGHT-BLUE whose
+HIGHLIGHT-BLUE thing
+
+For <b>yes-no questions</b>, use :mode interrogative 
+
+EXAMPLE isi_0002.26 Did he die?
+
+EXAMPLE isi_0002.160 Are you hungry ?
+
+<hr>
+
+For <b>wh-questions</b>, use amr-unknown to indicate the target of a question:
+
+EXAMPLE isi_0001.14 What did the girl find?
+
+EXAMPLE isi_0002.38 Whose car is this?
+
+EXAMPLE isi_0002.162 How old is your father ?
+
+Do NOT also use :mode interrogative when you already use amr-unknown.<br>
+Do NOT use amr-unknown for anyth<nobr>ing</nobr> other than a question target.
+
+<hr>
+
+Not all sentences containing words such as who or what are questions.<br>
+Sometimes, they are used as a <b>relative pronouns</b> rather
+than interrogative pronouns.
+
+EXAMPLE isi_0001.9 The boy saw the girl who wanted him.
+
+EXAMPLE isi_0002.159 I know what you think .
+
+EXAMPLE isi_0002.161 I don't know which country he is from .
+

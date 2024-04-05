@@ -1,0 +1,16 @@
+TITLE :medium
+HIGHLIGHT-RED :medium
+HIGHLIGHT-BLUE Twitter
+HIGHLIGHT-BLUE web
+HIGHLIGHT-BLUE French
+
+Examples of typical :medium entities include radio, television, newspaper, web, Facebook, Twitter, languages.
+
+EXAMPLE isi_0002.186 The mayor announced his resignation on Twitter .
+
+EXAMPLE isi_0002.187 The new book has been heavily advertised on the web .
+
+EXAMPLE isi_0002.307 She talked to him in French.
+
+<!-- Reification: have-manner-91 -->
+

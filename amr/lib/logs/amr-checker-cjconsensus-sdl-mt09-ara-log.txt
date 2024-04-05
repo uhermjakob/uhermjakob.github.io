@@ -1,0 +1,16 @@
+STEM match for unaligned confidence :: confirm-01 :: sdl_0003.1 cjconsensus
+STEM match for unaligned and :: and :: sdl_0003.4 cjconsensus
+STEM match for unaligned Lebanese :: Lebanon :: sdl_0003.14 cjconsensus
+STEM match for unaligned Gaza :: Gaza :: sdl_0003.16 cjconsensus
+STEM match for unaligned and :: and :: sdl_0003.36 cjconsensus
+STEM match for unaligned and :: and :: sdl_0003.59 cjconsensus
+STEM match for unaligned Islamists :: Islam :: sdl_0003.63 cjconsensus
+STEM match for unaligned Pharaonic :: pharaoh :: sdl_0003.79 cjconsensus
+STEM match for unaligned albeta :: albeta...@yahoo.com :: sdl_0003.80 cjconsensus
+STEM match for unaligned collaborator :: collaborate-01 :: sdl_0003.89 cjconsensus
+STEM match for unaligned Zionist :: Zionism :: sdl_0003.89 cjconsensus
+STEM match for unaligned and :: and :: sdl_0003.92 cjconsensus
+STEM match for unaligned and :: and :: sdl_0003.92 cjconsensus
+STEM match for unaligned alcoholic :: alcohol :: sdl_0003.97 cjconsensus
+STEM match for unaligned and :: and :: sdl_0003.101 cjconsensus
+STEM match for unaligned and :: and :: sdl_0003.101 cjconsensus

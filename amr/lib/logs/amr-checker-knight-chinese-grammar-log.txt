@@ -1,0 +1,17 @@
+STEM match for unaligned excuse :: excuse :: isi_0009.2 knight
+STEM match for unaligned excuse :: excuse :: isi_0009.2 knight
+STEM match for unaligned I :: i :: isi_0009.9 knight
+STEM match for unaligned Chinese :: China :: isi_0009.9 knight
+STEM match for unaligned third :: third :: isi_0009.22 knight
+STEM match for unaligned third :: third :: isi_0009.22 knight
+STEM match for unaligned 40 :: 40 :: isi_0009.25 knight
+STEM match for unaligned 3.69 :: 3.69 :: isi_0009.26 knight
+STEM match for unaligned kilograms :: kilogram :: isi_0009.28 knight
+STEM match for unaligned over :: over :: isi_0009.29 knight
+STEM match for unaligned years :: year :: isi_0009.29 knight
+STEM match for unaligned money :: money :: isi_0009.32 knight
+STEM match for unaligned money :: money :: isi_0009.32 knight
+STEM match for unaligned I :: i :: isi_0009.38 knight
+STEM match for unaligned bit :: bit :: isi_0009.50 knight
+STEM match for unaligned You :: you :: isi_0009.56 knight
+STEM match for unaligned come :: come-01 :: isi_0009.60 knight

@@ -1,0 +1,9 @@
+# political-movement list
+(0) ::ne-surf OWS ::ne-type political-movement ::wiki Occupy_Wall_Street
+(0) ::ne-surf Occupy Wall Street ::ne-type political-movement ::wiki Occupy_Wall_Street
+(0) ::ne-surf Tea Party ::ne-type political-movement ::wiki Tea_Party_movement
+(0) ::ne-surf communism ::ne-type political-movement ::wiki Communism
+(0) ::ne-surf socialism ::ne-type political-movement ::wiki Socialism
+(0) ::ne-surf fascism ::ne-type political-movement ::wiki Fascism
+(0) ::ne-surf Nazism ::ne-type political-movement ::wiki Nazism
+(0) ::ne-surf neo-Nazism ::ne-type political-movement ::wiki Neo-Nazism

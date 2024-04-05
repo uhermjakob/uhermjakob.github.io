@@ -1,0 +1,17 @@
+STEM match for unaligned barbaric :: barbarity :: bolt-eng-DF-199-192783-6838750_0127.3 ldcpreferred
+STEM match for unaligned vengance :: vengeance :: bolt-eng-DF-199-192783-6838750_0127.4 ldcpreferred
+STEM match for unaligned discriminatory :: discriminate-01 :: bolt-eng-DF-199-192783-6838750_0172.2 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6838750_0172.4 ldcpreferred
+STEM match for unaligned commutation :: commute-01 :: bolt-eng-DF-199-192783-6838750_0172.8 ldcpreferred
+STEM match for unaligned credibility :: credible :: bolt-eng-DF-199-192783-6838750_0172.17 ldcpreferred
+STEM match for unaligned Texasexecuted :: Texas :: bolt-eng-DF-199-192783-6838750_0172.19 ldcpreferred
+STEM match for unaligned Texasexecuted :: Texas :: bolt-eng-DF-199-192783-6838750_0172.20 ldcpreferred
+STEM match for unaligned Virginiaexecuted :: Virginia :: bolt-eng-DF-199-192783-6838750_0172.24 ldcpreferred
+STEM match for unaligned strikers :: strike-11 :: bolt-eng-DF-199-192783-6838750_0173.10 ldcpreferred
+STEM match for unaligned strikers :: strike-11 :: bolt-eng-DF-199-192783-6838750_0173.10 ldcpreferred
+STEM match for unaligned deterent :: deter-01 :: bolt-eng-DF-199-192783-6838750_0173.11 ldcpreferred
+STEM match for unaligned Nevadas :: Nevada :: bolt-eng-DF-199-192783-6838750_0173.13 ldcpreferred
+STEM match for unaligned fella :: fellow :: bolt-eng-DF-199-192783-6838750_0177.6 ldcpreferred
+STEM match for unaligned crim :: criminal-03 :: bolt-eng-DF-199-192783-6838750_0177.6 ldcpreferred
+STEM match for unaligned fella :: fellow :: bolt-eng-DF-199-192783-6838750_0177.7 ldcpreferred
+STEM match for unaligned crim :: criminal-03 :: bolt-eng-DF-199-192783-6838750_0177.21 ldcpreferred

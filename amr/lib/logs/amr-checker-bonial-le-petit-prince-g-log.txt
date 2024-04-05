@@ -1,0 +1,8 @@
+STEM match for unaligned rough :: rough :: lpp_1943.1324 bonial
+STEM match for unaligned rough :: rough :: lpp_1943.1324 bonial
+STEM match for unaligned drafts :: draft-01 :: lpp_1943.1324 bonial
+STEM match for unaligned drawings :: draw-01 :: lpp_1943.1324 bonial
+STEM match for unaligned week :: week :: lpp_1943.1344 bonial
+STEM match for unaligned miles :: mile :: lpp_1943.1344 bonial
+STEM match for unaligned back :: back :: lpp_1943.1345 bonial
+STEM match for unaligned Ah :: ah :: lpp_1943.1350 bonial

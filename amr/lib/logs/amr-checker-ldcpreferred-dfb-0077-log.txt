@@ -1,0 +1,9 @@
+STEM match for unaligned favorability :: favor-01 :: bolt-eng-DF-170-181106-8873009_0020.16 ldcpreferred
+STEM match for unaligned Massachusettes :: Massachussets :: bolt-eng-DF-170-181106-8873009_0021.2 ldcpreferred
+STEM match for unaligned Massachusettes :: Massachussets :: bolt-eng-DF-170-181106-8873009_0021.5 ldcpreferred
+STEM match for unaligned underrated :: under :: bolt-eng-DF-170-181106-8873009_0022.1 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181106-8873009_0024.1 ldcpreferred
+STEM match for unaligned favorably :: favor-01 :: bolt-eng-DF-170-181106-8873009_0045.14 ldcpreferred
+STEM match for unaligned plots :: plot :: bolt-eng-DF-170-181106-8873009_0046.16 ldcpreferred
+STEM match for unaligned calling :: call-02 :: bolt-eng-DF-170-181106-8873009_0047.18 ldcpreferred
+STEM match for unaligned appointees :: appoint-01 :: bolt-eng-DF-170-181106-8873009_0048.1 ldcpreferred

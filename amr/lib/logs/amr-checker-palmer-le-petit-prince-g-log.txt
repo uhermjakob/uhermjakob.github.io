@@ -1,0 +1,5 @@
+STEM match for unaligned drawings :: draw-01 :: lpp_1943.1324 palmer
+STEM match for unaligned Oh :: oh :: lpp_1943.1326 palmer
+STEM match for unaligned week :: week :: lpp_1943.1344 palmer
+STEM match for unaligned miles :: mile :: lpp_1943.1344 palmer
+STEM match for unaligned Ah :: ah :: lpp_1943.1350 palmer

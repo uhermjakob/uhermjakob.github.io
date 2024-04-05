@@ -1,0 +1,2 @@
+STEM match for unaligned and :: and :: NW_APW_ENG_0203_2006_0425.15 ldcpreferred
+STEM match for unaligned generators :: generate-01 :: NW_APW_ENG_0203_2006_0425.20 ldcpreferred

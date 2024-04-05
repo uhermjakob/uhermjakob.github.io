@@ -1,0 +1,14 @@
+TITLE mean-01
+HIGHLIGHT-RED :meaning
+HIGHLIGHT-RED mean-01
+
+mean-01 is used when the meaning of a term or phrase is explained to the user, 
+even if the word <i>mean</i> is not explicitly mentioned in the text. 
+Such an explanation can be in the form of a definition. Another example
+is when a legalese term or sentence is then explained in plain English.
+The added meaning does not strictly add information to the sentence.
+
+EXAMPLE isi_0002.230 He replied to her with a flame (a hostile and insulting email).
+
+The editor offers &nbsp; <i>:meaning</i> &nbsp; as a shortcut for &nbsp; <i>:ARG0-of&nbsp; mean-01 :ARG1</i>.
+

@@ -1,0 +1,5 @@
+STEM match for unaligned civil :: civilian :: ENG_NA_020001_20161020_G0023FST2_0001.11 ldcpreferred
+STEM match for unaligned coordinator :: coordinate-01 :: ENG_NA_020001_20161020_G0023FST2_0001.11 ldcpreferred
+STEM match for unaligned consignees :: consign-01 :: ENG_NA_020001_20161020_G0023FST2_0001.13 ldcpreferred
+STEM match for unaligned disruptive :: disrupt-01 :: ENG_NA_020001_20161020_G0023FST2_0001.14 ldcpreferred
+STEM match for unaligned inter :: interagency :: ENG_NA_020001_20161020_G0023FST2_0001.15 ldcpreferred

@@ -1,0 +1,6 @@
+STEM match for unaligned world :: world :: PROXY_APW_ENG_20020611_1419.18 ulf
+STEM match for unaligned world :: world :: PROXY_APW_ENG_20020611_1419.18 ulf
+STEM match for unaligned 4 :: 4 :: PROXY_APW_ENG_20020611_1419.18 ulf
+STEM match for unaligned Brazil :: Brazil :: PROXY_APW_ENG_20020611_1419.18 ulf
+STEM match for unaligned Brazil :: Brazil :: PROXY_APW_ENG_20020611_1419.18 ulf
+STEM match for unaligned exporter :: export-01 :: PROXY_APW_ENG_20020611_1419.18 ulf

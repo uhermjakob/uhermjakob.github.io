@@ -1,0 +1,7 @@
+STEM match for unaligned favour :: favor :: web1-eng-DF-233-195600-1475462_0001.1 cjconsensus
+STEM match for unaligned southwards :: south :: web1-eng-DF-233-195600-1475462_0001.2 cjconsensus
+STEM match for unaligned texted :: text-01 :: web1-eng-DF-233-195600-1475462_0001.3 cjconsensus
+STEM match for unaligned hipforumers :: hipforumer :: web1-eng-DF-233-195600-1475462_0001.3 cjconsensus
+STEM match for unaligned and :: and :: web1-eng-DF-233-195600-1475462_0001.3 cjconsensus
+STEM match for unaligned southwards :: south :: web1-eng-DF-233-195600-1475462_0001.3 cjconsensus
+STEM match for unaligned Thankyou :: thank-01 :: web1-eng-DF-233-195600-1475462_0001.6 cjconsensus

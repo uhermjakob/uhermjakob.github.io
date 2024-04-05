@@ -1,0 +1,18 @@
+TITLE imperative
+HIGHLIGHT-RED :mode
+HIGHLIGHT-RED interrogative
+HIGHLIGHT-RED imperative
+
+
+The role :mode is used for imperatives:
+
+EXAMPLE isi_0002.89 Go home !
+
+EXAMPLE isi_0002.90 Let 's go home .
+
+<hr>
+
+The role :mode is also used for yes-no questions:
+
+EXAMPLE isi_0002.26 Did he die?
+

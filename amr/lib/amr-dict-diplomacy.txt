@@ -1,0 +1,331 @@
+# amr-dict.pl -dip
+SURF: agree-01
+   SEM: agree, accept, consent
+      ENTRY: Germany agreed to make peace with France.
+         PSEUDO: (agree-01 :ARG0 Germany :ARG1 (peace :op1 Germany :op2 France))
+         EXAMPLE: dip_0003.35
+
+SURF: ally-01
+   SEM: alliance, have allies
+      ENTRY: Germany, Austria and Italy are allies against France and Russia.
+	 PSEUDO: (ally-01 :ARG1 (and :op1 Germany :op2 Austria :op3 Italy) :ARG3 (and :op1 France :op2 Russia))
+	 EXAMPLE: dip_0003.1
+      ENTRY: GER -> AUS : We propose an alliance between Germany, Austria and Italy against France and Russia.
+	 PSEUDO: (propose-01 :ARG0 Germany :arg1 (ally-01 :arg1 Germany, Austria and Italy :arg3 France and Russia) :arg3 Austria)
+	 EXAMPLE: dip_0003.27
+
+SURF: AMR Annotation Dictionary
+   LINK: http://www.isi.edu/~ulf/amr/lib/amr-dict.html
+   ENTRY: primary AMR Annotation Dictionary
+
+SURF: and
+   SEM: Conjunction of entities or sentences
+      ENTRY: Germany, Austria and Italy
+	 PSEUDO: (and :op1 Germany :op2 Austria :op3 Italy)
+	 EXAMPLE: dip_0003.1
+      ENTRY: Hold the English army in Liverpool in place and move the English fleet in London to the North Sea.
+	 PSEUDO: (and :op1 hold-17 :op2 move-01)
+	 EXAMPLE: dip_0003.2
+
+SURF: attack-01
+   SEM: attacking a location or power; invade
+      ENTRY: AUS-> GER: I'm worried about Russia attacking me.
+	 PSEUDO: (attack-01 :ARG0 Russia :ARG1 Austria)
+	 EXAMPLE: dip_0003.17
+
+SURF: betray-01
+   ANCHOR: stab
+   ANCHOR: traitor
+   SEM: betray, stab, traitor, treason
+      ENTRY: Russia betrayed Germany by invading Prussia.
+         PSEUDO: (betray-01 :ARG0 Russia :ARG1 Germany :manner attack-01)
+         EXAMPLE: dip_0003.38
+
+SURF: bounce-03
+   SEM: bounce, move blocked
+      ENTRY: The Russian army in Gal and the German army in Tyr bounced in Vienna.
+         PSEUDO: (bounce-03 :ARG1 (and :op1 Russian army in Gal :op2 German army in Tyr) :ARG3 Vienna)
+         EXAMPLE: dip_0003.46
+      ENTRY: The Russian army in Gal was bounced by the Austrians in Vienna.
+         PSEUDO: (bounce-03 :ARG1 Russian army in Gal :ARG2 Austrians :ARG3 Vienna)
+         EXAMPLE: dip_0003.47
+
+SURF: build-01
+   SEM: build an army or fleet
+      ENTRY: Shortcut and DAIDE code: BLD
+      ENTRY: Build a Russian army in Moscow.
+          PSEUDO: (build-01 :ARG0 Russia :ARG1 army :location Moscow)
+          EXAMPLE: dip_0003.6
+
+SURF: date-entity
+   ANCHOR: :time
+   ANCHOR: :season
+   ANCHOR: :year
+   SEM: a season and/or year that is or can be converted to an absolute temporal expression
+      ENTRY: For Diplomacy, we decided to convert relative temporal expressions (e.g. "next spring") to absolute ones (e.g. "spring 1904").
+      ENTRY: Russia attacked Ukraine in spring 1903.
+          PSEUDO: :time (date-entity :year 1903 :season spring)
+          EXAMPLE: dip_0003.30
+      ENTRY: AUS -> TUR (Fall 1902): I will help defend Bulgaria next year.
+          PSEUDO: :time (date-entity :year 1903)
+          EXAMPLE: dip_0003.31
+
+SURF: defend-01
+   ANCHOR: protect
+   SEM: defend or protect a power, province or sea
+      ENTRY: AUS -> GER: Will you help me defend Vienna against the Turks?
+	 PSEUDO: (defend-01 :ARG0 Austria :ARG1 Vienna :ARG3 Turkey)
+	 EXAMPLE: dip_0003.19
+   
+SURF: demilitarize-01
+   SEM: withdraw and keep all military units from a province or sea
+      ENTRY: Shortcut and DAIDE code: DMZ
+      ENTRY: GER -> FRA: We propose to demilitarize Belgium.
+          PSEUDO: (demilitarize-01 :ARG2 Belgium)
+          EXAMPLE: dip_0003.11
+
+SURF: dislodge-01
+   SEM: forcing a unit out of a province or sea by attacking it; knock out, knock off; kick out
+      ENTRY: The French fleet dislodged the English army from Belgium.
+          PSEUDO: (dislodge-01 :ARG0 (fleet :mod France) :ARG1 (army :mod England) :ARG2 Belgium)
+          EXAMPLE: dip_0003.48
+      ENTRY: Italy dislodged Turkey from Albania.
+          PSEUDO: (dislodge-01 :ARG0 (unit :mod Italy) :ARG1 (unit :mod Turkey) :ARG2 Albania)
+          EXAMPLE: dip_0003.49
+   SEM: related topic retreat-01
+   SEM: related topic remove-01
+
+SURF: expect-01
+   ANCHOR: guess
+   ANCHOR: think
+   SEM: expect, guess, think that something will probably happen
+      ENTRY: AUS -> GER: I think Russia will attack Ukraine.
+	 PSEUDO: (think-01 :ARG0 Austria :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine))
+	 EXAMPLE: dip_0003.21
+   
+SURF: fear-01
+   ANCHOR: afraid
+   ANCHOR: worry
+   SEM: be afraid, fear, worry about something
+      ENTRY: AUS-> GER: I'm worried about Russia attacking me.
+	 PSEUDO: (fear-01 :ARG0 Austria :ARG1 attack-01)
+	 EXAMPLE: dip_0003.17
+
+SURF: gain-02
+   SEM: to gain a supply center
+      ENTRY: France will gain two supply centers.
+         PSEUDO: (gain-02 :ARG0 France :ARG1 (supply-center :quant 2))
+         EXAMPLE: dip_0003.50
+      ENTRY: France took Belgium.
+         PSEUDO: (gain-02 :ARG0 France :ARG1 Belgium)
+         EXAMPLE: dip_0003.52
+   SEM: related topic lose-02
+
+SURF: have-03
+   ANCHOR: get
+   SEM: have, control, get, occupy, possess
+      ENTRY: TUR -> RUS: If we get Bulgaria, you can have Romania.
+         PSEUDO: (and :op1 (have-03 :ARG0 Turkey :ARG1 Bulgaria) :op2 (have-03 :ARG0 Russia :ARG1 Romania))
+         EXAMPLE: dip_0003.39
+
+SURF: hold-03
+   SEM: hold on to a province or sea, especially a supply center
+      ENTRY: Germany will hold on to Holland.
+	 PSEUDO: (hold-03 :ARG0 Germany :ARG1 Holland)
+	 EXAMPLE: dip_0003.54
+
+SURF: hold-17
+   SEM: keep an army or fleet in its current location
+      ENTRY: Shortcut and DAIDE code: HLD
+      ENTRY: Hold the English army in Liverpool in place.
+	 PSEUDO: (hold-17 :ARG1 (army :mod England :location Liverpool))
+	 EXAMPLE: dip_0003.14
+   
+SURF: lie-08
+   SEM: telling a falsehood
+      ENTRY: AUS -> GER: Russia is lying to you.
+	 PSEUDO: (lie-08 :ARG0 Russia :ARG2 Germany)
+	 EXAMPLE: dip_0003.18
+   SEM: related topic tell-01
+   
+SURF: lose-02
+   SEM: to lose a supply center
+      ENTRY: Russia lost a home supply center.
+         PSEUDO: (lose-02 :ARG0 Russia :ARG1 (supply-center :mod home))
+         EXAMPLE: dip_0003.51
+      ENTRY: Russia lost Warsaw.
+         PSEUDO: (lose-02 :ARG0 Russia :ARG1 Warsaw)
+         EXAMPLE: dip_0003.53
+   SEM: related topic gain-02
+
+SURF: move-01
+   SEM: move an army or fleet
+      ENTRY: Shortcut and DAIDE code: MTO ("move to")
+      ENTRY: move-01 typically without explicit agent (:ARG0); :ARG1 is army/fleet/unit (unspecified)
+      ENTRY: Move the French fleet on the north coast of Spain to the Mid-Atlantic Ocean.
+	 PSEUDO: (move-01 :arg1 fleet :arg2 sea)
+	 EXAMPLE: dip_0003.3
+      ENTRY: France's move into Belgium
+	 PSEUDO: (move-01 :arg1 (unit :mod France) :arg2 Belgium)
+	 EXAMPLE: dip_0003.24
+   
+SURF: peace
+   SEM: make peace, extend peace
+      ENTRY: Shortcut and DAIDE code: PCE
+      ENTRY: GER -> FRA: Let's make peace with each other.
+	 PSEUDO: (peace :op1 Germany :op2 France)
+	 EXAMPLE: dip_0003.25
+   
+SURF: possible-01
+   ANCHOR: cannot
+   ANCHOR: might
+   SEM: possible, might
+      ENTRY: Russia might attack Ukraine.
+         PSEUDO: (possible-01 :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine))
+         EXAMPLE: dip_0003.32
+   SEM: cannot (not possible)
+      ENTRY: GER -> RUS: I can't support your attack on Ukraine.
+         PSEUDO: (possible-01 :polarity - :ARG1 (support-01 :ARG0 Germany :ARG1 attack-01))
+         EXAMPLE: dip_0003.33
+   SEM: related topic reject-01
+
+SURF: prevent-01
+   SEM: prevent, keep something from happening
+      ENTRY: Austria prevented Russia from attacking Turkey.
+	 PSEUDO: (prevent-01 :ARG0 Austria :ARG1 (attack-01 :ARG0 Russia :ARG1 Turkey))
+	 EXAMPLE: dip_0003.28
+      ENTRY: AUS -> TUR: Let's make sure to keep Russia out of Romania.
+	 PSEUDO: (prevent-01 :ARG0 Austria and Turkey :ARG1 (move-01 :ARG0 Russian unit :ARG2 Romania))
+	 EXAMPLE: dip_0003.22
+   
+SURF: propose-01
+   ANCHOR: request
+   SEM: propose an alliance, peace, attack, move, demilitarization, ...; request
+      ENTRY: Shortcut and DAIDE code: PRP
+      ENTRY: GER -> FRA: We propose to demilitarize Belgium.
+          PSEUDO: (propose-01 :ARG0 Germany :ARG1 (demilitarize-01 :ARG2 Belgium) :ARG3 France)
+          EXAMPLE: dip_0003.11
+
+SURF: reject-01
+   SEM: reject
+      ENTRY: Germany rejected an alliance proposal by Russia.
+         PSEUDO: (reject-01 :ARG0 Germany :ARG1 propose-01)
+         EXAMPLE: dip_0003.41
+
+SURF: remove-01
+   SEM: remove a military unit from the game (lack of supply center support)
+      ENTRY: Shortcut and DAIDE code: REM
+      ENTRY: Remove the Russian army in Ukraine.
+          PSEUDO: (remove-01 :ARG1 (army :mod Russia :location Ukraine))
+          EXAMPLE: dip_0003.13
+   SEM: related topic retreat-01
+   SEM: related topic dislodge-01
+
+SURF: retreat-01
+   SEM: retreat a defeated army or fleet
+      ENTRY: Shortcut and DAIDE code: RTO ("retreat to")
+      ENTRY: Retreat the Italian army from Greece to Albania.
+          PSEUDO: (retreat-01 :ARG1 (army :mod Italy :location Greece) :destination Albania)
+          EXAMPLE: dip_0003.7
+   SEM: related topic remove-01
+   SEM: related topic dislodge-01
+
+SURF: shortcuts
+   SEM: powers
+      ANCHOR: powers
+      ENTRY: Austria (AUS, A), England (ENG, E), France (FRA, F), Germany (GER, G), Italy (ITA, I), Russia (RUS, R), Turkey (TUR, T)
+      ENTRY: Note: 3-letter shortcuts are DAIDE codes, 1-letter shortcuts in compounds such as F A PAR (French army in Paris)
+   SEM: unit types
+      ANCHOR: unit types
+      ENTRY: army (AMY, A), fleet (FLT, F), unit (unspecified military unit, U)
+      ENTRY: Note: 3-letter shortcuts are DAIDE codes, 1-letter shortcuts in compounds such as F A PAR (French army in Paris)
+   SEM: provinces
+      ANCHOR: provinces
+      ENTRY: Albania (ALB), Ankara (ANK), Apulia (APU), Armenia (ARM), Belgium (BEL), Berlin (BER), Bohemia (BOH), Brest (BRE), Budapest (BUD), Bulgaria (BUL), Burgundy (BUR), Clyde (CLY), Constantinople (CON), Denmark (DEN), Edinburgh (EDI), Finland (FIN), Galicia (GAL), Gascony (GAS), Greece (GRE), Holland (HOL), Ireland (IRE), Kiel (KIE), Livonia (LVN), Liverpool (LVP), London (LON), Marseille (MAR), Moscow (MOS), Munich (MUN), North Africa (NAF), Naples (NAP), Norway (NWY), Paris (PAR), Picardy (PIC), Piedmont (PIE), Portugal (POR), Prussia (PRU), Rome (ROM), Ruhr (RUH), Romania (RUM), Serbia (SER), Sevastopol (SEV), Silesia (SIL), Smyrna (SMY), Spain (SPA), St. Petersburg (STP), Sweden (SWE), Switzerland (SWI), Syria (SYR), Trieste (TRI), Tunisia (TUN), Tuscany (TUS), Tyrolia (TYR), Ukraine (UKR), Venice (VEN), Vienna (VIE), Wales (WAL), Warsaw (WAR), Yorkshire (YOR)
+      ENTRY: Note: 3-letter shortcuts are DAIDE codes
+   SEM: seas
+      ANCHOR: seas
+      ENTRY: Adriatic Sea (ADR), Aegean Sea (AEG), Baltic Sea (BAL), Barents Sea (BAR), Black Sea (BLA), Gulf of Bothnia (BOT), Eastern Mediterranean (EAS), English Channel (ECH), Heligoland Bight (HEL), Ionian Sea (ION), Irish Sea (IRI), Gulf of Lyon (LYO), Mid-Atlantic Ocean (MAO), North Atlantic Ocean (NAO), North Sea (NTH), Norwegian Sea (NWG), Skagerrak (SKA), Tyrrhenian Sea (TYS), Western Mediterranean (WES)
+      ENTRY: Note: 3-letter shortcuts are DAIDE codes
+   SEM: coasts
+      ENTRY: north coast (NCS, NC, N), east coast (ECS, EC, E), south coast (SCS, SC, S), west coast (WCS, WC, W)
+      ENTRY: Note: 3-letter shortcuts are DAIDE codes
+      ENTRY: a coast can be added with any level of abbreviation (e.g. NCS, NC or N) before or after the province
+      ENTRY: RUS FLT SCS STP
+	 PSEUDO: (fleet :mod Russia :location (coast :location (south :part-of St.Petersburg)))
+	 EXAMPLE: dip_0003.5
+      ENTRY: R F S STP
+	 PSEUDO: (fleet :mod Russia :location (coast :location (south :part-of St.Petersburg)))
+	 EXAMPLE: dip_0003.5
+   SEM: unit descriptions (power + army/fleet + province/sea/coast sea/sea coast)
+      ENTRY: Full usage example: top ENG FLT LON
+      ENTRY: Full usage example (assuming m is index of move-01): m :arg1 E F LON
+      ENTRY: ENG FLT LON
+	 PSEUDO: (fleet :mod England :location London)
+	 EXAMPLE: dip_0003.4
+      ENTRY: E F LON
+	 PSEUDO: (fleet :mod England :location London)
+	 EXAMPLE: dip_0003.4
+
+SURF: support-01
+   ANCHOR: help
+   SEM: support another military unit defend itself or conquer another location; help
+      ENTRY: Shortcut and DAIDE code: SUP
+      ENTRY: Let the French fleet in the English Channel support the French army in Belgium.
+	 PSEUDO: (support-01 :ARG0 fleet :ARG1 army)
+	 EXAMPLE: dip_0003.15
+      ENTRY: Let the German fleet in the North Sea support the German army's move from Holland to Belgium.
+	 PSEUDO: (support-01 :ARG0 fleet :ARG1 (move-01 :ARG1 army :ARG2 Belgium))
+	 EXAMPLE: dip_0003.16
+   
+SURF: tell-01
+   SEM: tell, inform, say
+      ENTRY: GER -> AUS: France told me that Russian will attack Ukraine.
+         PSEUDO: (tell-01 :ARG0 France :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine) :ARG2 Germany)
+         EXAMPLE: dip_0003.34
+   SEM: related topic lie-08
+
+SURF: threaten-01
+   ANCHOR: aggression
+   SEM: threaten; being aggressive
+      ENTRY: Russia threatened to attack Austria.
+	 PSEUDO: (threaten-01 :ARG0 Russia :ARG2 (attack-01 :arg1 Austria))
+	 EXAMPLE: dip_0003.29
+      ENTRY: France's move into the English Channel is a clear act of aggression against England.
+	 PSEUDO: (threaten-01 :ARG0 move-01 :ARG2 England)
+	 EXAMPLE: dip_0003.23
+   
+SURF: transport-01
+   ANCHOR: convoy
+   SEM: transport an army via one or more seas to a destination by fleet
+      ENTRY: Shortcut and DAIDE code: CTO ("convoy to"), CVY ("convoy")
+      ENTRY: Convoy the English army in Edinburgh to Norway via the North Sea.
+          PSEUDO: (transport-01 :ARG1 (army :mod England :location Edinburgh) :ARG3 Norway :ARG4 North Sea)
+          EXAMPLE: dip_0003.12
+      ENTRY: Let the French fleet transport the French army in Picardy to London.
+          PSEUDO: (transport-01 :ARG0 (fleet :mod France) :ARG1 (army :mod France :location Picardy) :ARG3 London)
+          EXAMPLE: dip_0003.9
+
+SURF: trust-01
+   DATE-ADDED: 2022-06-06
+   SEM: trust
+      ENTRY: ITA -> GER: I don’t really trust Austria.
+         PSEUDO: (trust-01 :polarity - :ARG0 Italy :ARG2 Austria)
+         EXAMPLE: dip_0003.45
+
+SURF: warn-01
+   SEM: warn
+      ENTRY: Germany warned Austria that Russia would invade Ukraine.
+         PSEUDO: (warn-01 :ARG0 Germany :ARG1 (attack-01 :ARG0 Russia :ARG1 Ukraine) :ARG2 Austria)
+         EXAMPLE: dip_0003.42
+      ENTRY: GER -> AUS: You better watch out for Russia.
+         PSEUDO: (warn-01 :ARG0 Germany :ARG1 Russia :ARG2 Austria)
+         EXAMPLE: dip_0003.43
+
+SURF: world-region
+   DATE-ADDED: 2022-06-05
+   SEM: named-entity type world-region
+      ENTRY: Russia proposes to demilitarize Scandinavia and the Balkans.
+         PSEUDO: (and :op1 (world-region :name (name :op1 Scandinavia)) :op2 (world-region :name (name :op1 Balkans)))
+         EXAMPLE: dip_0003.44
+

@@ -1,0 +1,23 @@
+# event list
+(13) ::ne-surf Cold War ::ne-type war ::wiki Cold_War
+(8) ::ne-surf World War II ::ne-type war ::wiki World_War_II
+(3) ::ne-surf Iraq War ::ne-type war ::wiki Iraq_War
+(3) ::ne-surf Vietnam War ::ne-type war ::wiki Vietnam_War
+(1) ::ne-surf World War I ::ne-type war ::wiki World_War_I
+(1) ::ne-surf World War II ::ne-type war ::wiki World_War_II
+(0) ::ne-surf Korean World ::ne-type war ::wiki Korean_War
+
+(6) ::ne-surf World Cup ::ne-type game ::wiki FIFA_World_Cup
+(3) ::ne-surf Asian Cup ::ne-type game ::wiki AFC_Asian_Cup
+(2) ::ne-surf US Open ::ne-type game ::wiki US_Open_(tennis)
+(1) ::ne-surf Olympics ::ne-type game ::wiki Olympic_Games
+(1) ::ne-surf Super Bowl ::ne-type game ::wiki Super_Bowl
+
+(5) ::ne-surf Christmas ::ne-type festival ::wiki Christmas
+(1) ::ne-surf Easter ::ne-type festival ::wiki Easter
+(3) ::ne-surf Halloween ::ne-type festival ::wiki Halloween
+(1) ::ne-surf Thanksgiving ::ne-type festival ::wiki Thanksgiving
+(1) ::ne-surf Yom Kippur ::ne-type festival ::wiki Yom_Kippur
+(1) ::ne-surf Eid al-Fitr ::ne-type festival ::wiki Eid_al-Fitr
+(1) ::ne-surf Eeyore's Birthday Party ::ne-type festival ::wiki Eeyore's_Birthday_Party
+

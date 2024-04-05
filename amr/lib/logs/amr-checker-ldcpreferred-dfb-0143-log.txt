@@ -1,0 +1,9 @@
+STEM match for unaligned knowns :: know-01 :: bolt-eng-DF-199-192783-6845231_0026.5 ldcpreferred
+STEM match for unaligned knowns :: know-01 :: bolt-eng-DF-199-192783-6845231_0026.5 ldcpreferred
+STEM match for unaligned Repubs :: Republican :: bolt-eng-DF-199-192783-6845231_0027.1 ldcpreferred
+STEM match for unaligned Repub :: Republican :: bolt-eng-DF-199-192783-6845231_0027.5 ldcpreferred
+STEM match for unaligned attrack :: attract-01 :: bolt-eng-DF-199-192783-6845231_0027.11 ldcpreferred
+STEM match for unaligned Populists :: Populism :: bolt-eng-DF-199-192783-6845231_0027.12 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6845231_0027.18 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6845231_0027.18 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6845231_0105.17 ldcpreferred

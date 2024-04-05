@@ -1,0 +1,14 @@
+STEM match for unaligned http://www.independent.co.uk/life-st...ts-397449.html :: http://www.independent.co.uk/life-style/health-and-wellbeing/health-news/mental-illness-soars-in-uks-skunk-hotspots-397449.html :: bolt-eng-DF-245-199817-13466599_0031.9 ldcpreferred
+STEM match for unaligned http://www.independent.co.uk/life-st...ts-397449.html :: http://www.independent.co.uk/life-style/health-and-wellbeing/health-news/mental-illness-soars-in-uks-skunk-hotspots-397449.html :: bolt-eng-DF-245-199817-13466599_0031.9 ldcpreferred
+STEM match for unaligned calibre :: caliber :: bolt-eng-DF-245-199817-13466599_0032.3 ldcpreferred
+STEM match for unaligned addictiveness :: addictive-02 :: bolt-eng-DF-245-199817-13466599_0035.3 ldcpreferred
+STEM match for unaligned inherrently :: inherent :: bolt-eng-DF-245-199817-13466599_0035.4 ldcpreferred
+STEM match for unaligned genetic :: gene :: bolt-eng-DF-245-199817-13466599_0035.5 ldcpreferred
+STEM match for unaligned caffiene :: caffeine :: bolt-eng-DF-245-199817-13466599_0035.6 ldcpreferred
+STEM match for unaligned genetically :: gene :: bolt-eng-DF-245-199817-13466599_0035.13 ldcpreferred
+STEM match for unaligned predispositioned :: predispose-01 :: bolt-eng-DF-245-199817-13466599_0035.13 ldcpreferred
+STEM match for unaligned fatals :: fatality :: bolt-eng-DF-245-199817-13466599_0035.18 ldcpreferred
+STEM match for unaligned fatals :: fatal :: bolt-eng-DF-245-199817-13466599_0035.18 ldcpreferred
+STEM match for unaligned fatals :: fatal :: bolt-eng-DF-245-199817-13466599_0035.19 ldcpreferred
+STEM match for unaligned fatals :: fatal :: bolt-eng-DF-245-199817-13466599_0035.19 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-245-199817-13466599_0035.26 ldcpreferred

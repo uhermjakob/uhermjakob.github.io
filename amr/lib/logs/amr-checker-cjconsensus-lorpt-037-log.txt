@@ -1,0 +1,7 @@
+STEM match for unaligned failings :: fail-01 :: NW_AFP_ENG_0040_2010_0731.1 cjconsensus
+STEM match for unaligned failings :: fail-01 :: NW_AFP_ENG_0040_2010_0731.3 cjconsensus
+STEM match for unaligned shakeup :: shake-up-03 :: NW_AFP_ENG_0040_2010_0731.5 cjconsensus
+STEM match for unaligned firefighting :: fire-04 :: NW_AFP_ENG_0040_2010_0731.5 cjconsensus
+STEM match for unaligned rigours :: rigor :: NW_AFP_ENG_0040_2010_0731.7 cjconsensus
+STEM match for unaligned failings :: fail-01 :: NW_AFP_ENG_0040_2010_0731.11 cjconsensus
+STEM match for unaligned Backburning :: back-03 :: NW_AFP_ENG_0040_2010_0731.17 cjconsensus

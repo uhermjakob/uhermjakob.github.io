@@ -1,0 +1,10 @@
+STEM match for unaligned missles :: missile :: DF-212-191695-308_4953.3 cjconsensus
+STEM match for unaligned day :: Six-Day :: DF-212-191695-308_4953.4 cjconsensus
+STEM match for unaligned sometime :: some :: DF-215-192297-405_6538.1 cjconsensus
+STEM match for unaligned and :: and :: DF-215-192297-405_6538.1 cjconsensus
+STEM match for unaligned dropshipping :: drop :: DF-215-192297-405_6538.6 cjconsensus
+STEM match for unaligned dropshippers :: drop :: DF-215-192297-405_6538.9 cjconsensus
+STEM match for unaligned ebay :: eBay :: DF-215-192297-405_6538.17 cjconsensus
+STEM match for unaligned and :: and :: DF-215-192297-405_6538.22 cjconsensus
+STEM match for unaligned dropshipping :: drop :: DF-215-192297-405_6538.22 cjconsensus
+STEM match for unaligned ebay :: eBay :: DF-215-192297-405_7836.8 cjconsensus

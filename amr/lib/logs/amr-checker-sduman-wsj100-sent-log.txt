@@ -1,0 +1,29 @@
+STEM match for unaligned 55 :: 55 :: nw.wsj_0002.1 sduman
+STEM match for unaligned years :: year :: nw.wsj_0002.1 sduman
+STEM match for unaligned filters :: filter :: nw.wsj_0003.1 sduman
+STEM match for unaligned crocidolite :: crociodolite :: nw.wsj_0003.2 sduman
+STEM match for unaligned crocidolite :: crociodilite :: nw.wsj_0003.3 sduman
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.8 sduman
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.8 sduman
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.11 sduman
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.11 sduman
+STEM match for unaligned spokeswoman :: spokeswoman :: nw.wsj_0003.11 sduman
+STEM match for unaligned spokeswoman :: spokeswoman :: nw.wsj_0003.11 sduman
+STEM match for unaligned filters :: filter-02 :: nw.wsj_0003.11 sduman
+STEM match for unaligned filters :: filter-02 :: nw.wsj_0003.11 sduman
+STEM match for unaligned filter :: filter-02 :: nw.wsj_0003.11 sduman
+STEM match for unaligned filter :: filter-02 :: nw.wsj_0003.11 sduman
+STEM match for unaligned filter :: filter-02 :: nw.wsj_0003.11 sduman
+STEM match for unaligned filter :: filter-02 :: nw.wsj_0003.11 sduman
+STEM match for unaligned 1953 :: 1953 :: nw.wsj_0003.12 sduman
+STEM match for unaligned 1955 :: 1955 :: nw.wsj_0003.12 sduman
+STEM match for unaligned filters :: filter-02 :: nw.wsj_0003.12 sduman
+STEM match for unaligned worked :: work-01 die-01 expect-01 :: nw.wsj_0003.13 sduman
+STEM match for unaligned study :: study-01 say-01 :: nw.wsj_0003.16 sduman
+STEM match for unaligned Mass. :: Mass. :: nw.wsj_0003.17 sduman
+STEM match for unaligned Mass. :: Mass. :: nw.wsj_0003.17 sduman
+STEM match for unaligned curly :: curl-01 :: nw.wsj_0003.21 sduman
+STEM match for unaligned 1997 :: 1997 :: nw.wsj_0003.23 sduman
+STEM match for unaligned particularly :: particular :: nw.wsj_0003.25 sduman
+STEM match for unaligned dusty :: dust-01 :: nw.wsj_0003.25 sduman
+STEM match for unaligned events :: event :: nw.wsj_0003.29 sduman

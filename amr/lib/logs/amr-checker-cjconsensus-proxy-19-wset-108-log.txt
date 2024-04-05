@@ -1,0 +1,10 @@
+STEM match for unaligned and :: and :: PROXY_NYT_ENG_20071115_0274.6 cjconsensus
+STEM match for unaligned rotary :: rotate-01 :: PROXY_NYT_ENG_20071115_0274.15 cjconsensus
+STEM match for unaligned Iranian :: Iran :: PROXY_NYT_ENG_20071115_0274.16 cjconsensus
+STEM match for unaligned and :: and :: PROXY_NYT_ENG_20071115_0274.16 cjconsensus
+STEM match for unaligned and :: and :: PROXY_NYT_ENG_20071115_0274.16 cjconsensus
+STEM match for unaligned and :: and :: PROXY_NYT_ENG_20071115_0274.16 cjconsensus
+STEM match for unaligned and :: and :: PROXY_NYT_ENG_20071115_0274.16 cjconsensus
+STEM match for unaligned Caucus :: Caucasus :: PROXY_NYT_ENG_20080808_0162.23 cjconsensus
+STEM match for unaligned caucus :: Caucasus :: PROXY_NYT_ENG_20080808_0162.24 cjconsensus
+STEM match for unaligned and :: and :: PROXY_NYT_ENG_20080808_0162.28 cjconsensus

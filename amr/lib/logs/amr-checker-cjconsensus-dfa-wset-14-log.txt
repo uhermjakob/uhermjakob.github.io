@@ -1,0 +1,10 @@
+STEM match for unaligned european :: Europe :: DF-199-192909-667_1340.4 cjconsensus
+STEM match for unaligned moroccan :: Morocco :: DF-199-192909-667_1340.17 cjconsensus
+STEM match for unaligned tourers :: tour-01 :: DF-199-192909-667_1340.18 cjconsensus
+STEM match for unaligned moroccans :: Morocco :: DF-199-192909-667_1340.18 cjconsensus
+STEM match for unaligned conversation :: converse-01 :: DF-199-192909-667_1340.19 cjconsensus
+STEM match for unaligned hassly :: hassle-02 :: DF-199-192909-667_1340.29 cjconsensus
+STEM match for unaligned undislodgeable :: dislodge-01 :: DF-199-192909-667_1340.30 cjconsensus
+STEM match for unaligned campgrounds :: camp-02 :: DF-199-192930-650_2141.5 cjconsensus
+STEM match for unaligned campsite :: camp-02 :: DF-199-192930-650_2141.5 cjconsensus
+STEM match for unaligned definate :: definite :: DF-199-192930-650_2141.7 cjconsensus

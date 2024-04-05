@@ -1,0 +1,8 @@
+STEM match for unaligned Barak :: Barack :: bolt-eng-DF-170-181106-8871979_0029.1 ldcpreferred
+STEM match for unaligned reporting :: report-01 :: bolt-eng-DF-170-181106-8871979_0031.3 ldcpreferred
+STEM match for unaligned Condoleezza :: Condoleeza :: bolt-eng-DF-170-181106-8871979_0031.5 ldcpreferred
+STEM match for unaligned troops :: troop :: bolt-eng-DF-170-181106-8871979_0031.8 ldcpreferred
+STEM match for unaligned donkeys :: donkey :: bolt-eng-DF-170-181106-8871979_0031.12 ldcpreferred
+STEM match for unaligned survivors :: survive-01 :: bolt-eng-DF-170-181106-8871979_0031.32 ldcpreferred
+STEM match for unaligned looters :: loot-01 :: bolt-eng-DF-170-181106-8871979_0031.32 ldcpreferred
+STEM match for unaligned over :: overuse-01 :: bolt-eng-DF-170-181106-8871979_0032.4 ldcpreferred

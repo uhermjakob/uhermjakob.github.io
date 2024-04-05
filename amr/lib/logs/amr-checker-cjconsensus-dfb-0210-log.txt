@@ -1,0 +1,7 @@
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811584_0016.2 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811584_0016.14 cjconsensus
+STEM match for unaligned pounds :: pound :: bolt-eng-DF-200-192446-3811584_0016.17 cjconsensus
+STEM match for unaligned McCanns :: McCann :: bolt-eng-DF-200-192446-3811584_0016.20 cjconsensus
+STEM match for unaligned McCanns :: McCann :: bolt-eng-DF-200-192446-3811584_0016.20 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811584_0016.20 cjconsensus
+STEM match for unaligned traumatised :: traumatize-01 :: bolt-eng-DF-200-192446-3811584_0016.20 cjconsensus

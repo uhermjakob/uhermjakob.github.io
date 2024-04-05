@@ -1,0 +1,3123 @@
+::s-adj  absent          ::s-prep from       ::t-verb absent       ::t-sense 01 
+::s-adj  absorbed        ::s-prep in         ::t-verb absorb         
+::s-adj  accompanied     ::s-prep by         ::t-verb accompany     
+::s-adj  accused         ::s-prep of         ::t-verb accuse         
+::s-adj  accustomed      ::s-prep to         ::t-verb accustom       
+::s-adj  acquainted      ::s-prep with       ::t-verb acquaint       
+::s-adj  addicted        ::s-prep to         ::t-verb addict         
+::s-adj  adjacent        ::s-prep to         ::t-verb border       ::t-sense 01 
+::s-adj  affectionate    ::s-prep to         ::t-verb like         ::t-sense 01 
+::s-adj  afraid          ::s-prep of         ::t-verb fear         ::t-sense 01 
+::s-adj  akin            ::s-prep to         ::t-verb resemble     ::t-sense 01 
+::s-adj  alarmed         ::s-prep at         ::t-verb alarm          
+::s-adj  alarmed         ::s-prep by         ::t-verb alarm          
+::s-adj  amazed          ::s-prep at         ::t-verb amaze          
+::s-adj  amazed          ::s-prep by         ::t-verb amaze          
+::s-adj  amused          ::s-prep at         ::t-verb amuse          
+::s-adj  amused          ::s-prep with       ::t-verb amuse          
+::s-adj  angry           ::s-prep at         ::t-verb anger        ::t-sense 01 
+::s-adj  angry           ::s-prep with       ::t-verb anger        ::t-sense 01 
+::s-adj  annoyed         ::s-prep about      ::t-verb annoy          
+::s-adj  annoyed         ::s-prep by         ::t-verb annoy          
+::s-adj  annoyed         ::s-prep with       ::t-verb annoy          
+::s-adj  anxious         ::s-prep about      ::t-verb worry        ::t-sense 01 
+::s-adj  anxious         ::s-prep for        ::t-verb worry        ::t-sense 01 
+::s-adj  associated      ::s-prep with       ::t-verb associate      
+::s-adj  astonished      ::s-prep at         ::t-verb astonish       
+::s-adj  astonished      ::s-prep by         ::t-verb astonish       
+::s-adj  attached        ::s-prep to         ::t-verb attach         
+::s-adj  aware           ::s-prep of         ::t-verb realize      ::t-sense 01 
+::s-adj  blind           ::s-prep to         ::t-verb realize      ::t-sense 01  ::t-polarity -
+::s-adj  bored           ::s-prep by         ::t-verb bore           
+::s-adj  bored           ::s-prep with       ::t-verb bore           
+::s-adj  born            ::s-prep in         ::t-verb bear         ::t-sense 02 
+::s-adj  born            ::s-prep of         ::t-verb bear         ::t-sense 02 
+::s-adj  busy            ::s-prep with       ::t-verb occupy       ::t-sense 01 
+::s-adj  careless        ::s-prep about      ::t-verb care         ::t-sense 01  ::t-polarity -
+::s-adj  careless        ::s-prep with       ::t-verb care         ::t-sense 01  ::t-polarity -
+::s-adj  certain         ::s-prep about      ::t-verb know         ::t-sense 01 
+::s-adj  certain         ::s-prep of         ::t-verb know         ::t-sense 01 
+::s-adj  charged         ::s-prep for        ::t-verb charge         
+::s-adj  charged         ::s-prep with       ::t-verb charge         
+::s-adj  combined        ::s-prep with       ::t-verb combine        
+::s-adj  common          ::s-prep to         ::t-verb share        ::t-sense 01 
+::s-adj  concerned       ::s-prep about      ::t-verb concern        
+::s-adj  concerned       ::s-prep for        ::t-verb concern        
+::s-adj  condemned       ::s-prep to         ::t-verb condemn        
+::s-adj  conscious       ::s-prep of         ::t-verb realize      ::t-sense 01 
+::s-adj  content         ::s-prep with       ::t-verb content      ::t-sense 01 
+::s-adj  coupled         ::s-prep with       ::t-verb couple         
+::s-adj  covered         ::s-prep in         ::t-verb cover          
+::s-adj  covered         ::s-prep with       ::t-verb cover          
+::s-adj  crazy           ::s-prep about      ::t-verb craze        ::t-sense 01 
+::s-adj  crazy           ::s-prep for        ::t-verb craze        ::t-sense 01 
+::s-adj  critical        ::s-prep of         ::t-verb criticize    ::t-sense 01 
+::s-adj  crowded         ::s-prep with       ::t-verb crowd          
+::s-adj  cruel           ::s-prep to         ::t-verb mistreat     ::t-sense 01 
+::s-adj  cured           ::s-prep of         ::t-verb cure           
+::s-adj  dear            ::s-prep to         ::t-verb love         ::t-sense 01 
+::s-adj  deficient       ::s-prep in         ::t-verb lack         ::t-sense 01 
+::s-adj  delighted       ::s-prep with       ::t-verb delight        
+::s-adj  dependent       ::s-prep on         ::t-verb depend       ::t-sense 01 
+::s-adj  dependent       ::s-prep upon       ::t-verb depend       ::t-sense 01 
+::s-adj  deprived        ::s-prep of         ::t-verb deprive        
+::s-adj  descended       ::s-prep from       ::t-verb descend        
+::s-adj  desirous        ::s-prep of         ::t-verb desire       ::t-sense 01 
+::s-adj  despairing      ::s-prep of         ::t-verb despair      ::t-sense 01 
+::s-adj  detrimental     ::s-prep to         ::t-verb harm         ::t-sense 01 
+::s-adj  devoid          ::s-prep of         ::t-verb lack         ::t-sense 01 
+::s-adj  different       ::s-prep from       ::t-verb resemble     ::t-sense 01  ::t-polarity -
+::s-adj  different       ::s-prep in         ::t-verb resemble     ::t-sense 01  ::t-polarity -
+::s-adj  different       ::s-prep to         ::t-verb resemble     ::t-sense 01  ::t-polarity -
+::s-adj  disappointed    ::s-prep about      ::t-verb disappoint     
+::s-adj  disappointed    ::s-prep at         ::t-verb disappoint     
+::s-adj  disappointed    ::s-prep by         ::t-verb disappoint     
+::s-adj  disappointed    ::s-prep in         ::t-verb disappoint     
+::s-adj  disappointed    ::s-prep to         ::t-verb disappoint     
+::s-adj  disappointed    ::s-prep with       ::t-verb disappoint     
+::s-adj  discouraged     ::s-prep from       ::t-verb discourage     
+::s-adj  disgusted       ::s-prep at         ::t-verb disgust        
+::s-adj  disgusted       ::s-prep by         ::t-verb disgust        
+::s-adj  disgusted       ::s-prep in         ::t-verb disgust        
+::s-adj  disgusted       ::s-prep with       ::t-verb disgust        
+::s-adj  displeased      ::s-prep with       ::t-verb displease      
+::s-adj  disqualified    ::s-prep from       ::t-verb disqualify     
+::s-adj  doubtful        ::s-prep about      ::t-verb doubt        ::t-sense 01 
+::s-adj  dressed         ::s-prep in         ::t-verb dress          
+::s-adj  eligible        ::s-prep for        ::t-verb qualify      ::t-sense 02 
+::s-adj  envious         ::s-prep of         ::t-verb envy         ::t-sense 01 
+::s-adj  equal           ::s-prep to         ::t-verb equal        ::t-sense 01 
+::s-adj  excellent       ::s-prep at         ::t-verb excel        ::t-sense 01 
+::s-adj  excited         ::s-prep about      ::t-verb excite         
+::s-adj  excited         ::s-prep at         ::t-verb excite         
+::s-adj  excited         ::s-prep by         ::t-verb excite         
+::s-adj  exempt          ::s-prep from       ::t-verb exempt       ::t-sense 01 
+::s-adj  experienced     ::s-prep in         ::t-verb experience     
+::s-adj  exposed         ::s-prep to         ::t-verb expose         
+::s-adj  faithful        ::s-prep to         ::t-verb commit       ::t-sense 01 
+::s-adj  familiar        ::s-prep to         ::t-verb familiarize  ::t-sense 01 
+::s-adj  familiar        ::s-prep with       ::t-verb familiarize  ::t-sense 01 
+::s-adj  famous          ::s-prep as         ::t-verb fame         ::t-sense 01 
+::s-adj  famous          ::s-prep for        ::t-verb fame         ::t-sense 01 
+::s-adj  fatigued        ::s-prep with       ::t-verb fatigue        
+::s-adj  fed up          ::s-prep with       ::t-verb feed         ::t-sense 03 
+::s-adj  fond            ::s-prep of         ::t-verb like         ::t-sense 01 
+::s-adj  frightened      ::s-prep of         ::t-verb frighten       
+::s-adj  full            ::s-prep of         ::t-verb fill         ::t-sense 01 
+::s-adj  furious         ::s-prep about      ::t-verb anger        ::t-sense 01 
+::s-adj  furious         ::s-prep at         ::t-verb anger        ::t-sense 01 
+::s-adj  furious         ::s-prep with       ::t-verb anger        ::t-sense 01 
+::s-adj  gifted          ::s-prep with       ::t-verb gift           
+::s-adj  glad            ::s-prep about      ::t-verb gladden      ::t-sense 01 
+::s-adj  glad            ::s-prep for        ::t-verb gladden      ::t-sense 01 
+::s-adj  grateful        ::s-prep for        ::t-verb appreciate   ::t-sense 02 
+::s-adj  grateful        ::s-prep to         ::t-verb appreciate   ::t-sense 02 
+::s-adj  happy           ::s-prep about      ::t-verb content      ::t-sense 01 
+::s-adj  happy           ::s-prep with       ::t-verb content      ::t-sense 01 
+::s-adj  harmful         ::s-prep to         ::t-verb harm         ::t-sense 01 
+::s-adj  hopeful         ::s-prep of         ::t-verb hope         ::t-sense 01 
+::s-adj  ignorant        ::s-prep about      ::t-verb know         ::t-sense 01  ::t-polarity -
+::s-adj  ignorant        ::s-prep of         ::t-verb know         ::t-sense 01  ::t-polarity -
+::s-adj  ignorant        ::s-prep to         ::t-verb know         ::t-sense 01  ::t-polarity -
+::s-adj  immaterial      ::s-prep to         ::t-verb matter       ::t-sense 01  ::t-polarity -
+::s-adj  immersed        ::s-prep in         ::t-verb immerse        
+::s-adj  impressed       ::s-prep by         ::t-verb impress        
+::s-adj  impressed       ::s-prep with       ::t-verb impress        
+::s-adj  independent     ::s-prep of         ::t-verb depend       ::t-sense 01  ::t-polarity -
+::s-adj  indulgent       ::s-prep to         ::t-verb indulge      ::t-sense 01 
+::s-adj  infected        ::s-prep by         ::t-verb infect         
+::s-adj  infected        ::s-prep with       ::t-verb infect         
+::s-adj  infested        ::s-prep with       ::t-verb infest         
+::s-adj  informed        ::s-prep about      ::t-verb inform         
+::s-adj  intent          ::s-prep on         ::t-verb intend       ::t-sense 01 
+::s-adj  interested      ::s-prep in         ::t-verb interest       
+::s-adj  interested      ::s-prep to         ::t-verb interest       
+::s-adj  involved        ::s-prep in         ::t-verb involve        
+::s-adj  irritated       ::s-prep by         ::t-verb irritate       
+::s-adj  jealous         ::s-prep of         ::t-verb envy         ::t-sense 01 
+::s-adj  locked          ::s-prep in         ::t-verb lock           
+::s-adj  locked          ::s-prep up         ::t-verb lock           
+::s-adj  lost            ::s-prep to         ::t-verb lose         ::t-sense 02 
+::s-adj  mad             ::s-prep with       ::t-verb craze        ::t-sense 01 
+::s-adj  married         ::s-prep to         ::t-verb marry          
+::s-adj  mindful         ::s-prep of         ::t-verb mind         ::t-sense 02 
+::s-adj  moved           ::s-prep by         ::t-verb move           
+::s-adj  moved           ::s-prep to         ::t-verb move           
+::s-adj  necessary       ::s-prep for        ::t-verb need         ::t-sense 01 
+::s-adj  negligent       ::s-prep of         ::t-verb neglect      ::t-sense 01 
+::s-adj  obedient        ::s-prep to         ::t-verb obey         ::t-sense 01 
+::s-adj  obliged         ::s-prep for        ::t-verb oblige         
+::s-adj  obliged         ::s-prep to         ::t-verb oblige         
+::s-adj  occupied        ::s-prep with       ::t-verb occupy         
+::s-adj  overcome        ::s-prep by         ::t-verb overcome     ::t-sense 01 
+::s-adj  overcome        ::s-prep with       ::t-verb overcome     ::t-sense 01 
+::s-adj  overwhelmed     ::s-prep by         ::t-verb overwhelm      
+::s-adj  overwhelmed     ::s-prep with       ::t-verb overwhelm      
+::s-adj  pleased         ::s-prep about      ::t-verb please         
+::s-adj  pleased         ::s-prep at         ::t-verb please         
+::s-adj  pleased         ::s-prep to         ::t-verb please         
+::s-adj  pleased         ::s-prep with       ::t-verb please         
+::s-adj  puzzled         ::s-prep about      ::t-verb puzzle         
+::s-adj  puzzled         ::s-prep at         ::t-verb puzzle         
+::s-adj  puzzled         ::s-prep by         ::t-verb puzzle         
+::s-adj  qualified       ::s-prep for        ::t-verb qualify      ::t-sense 02 
+::s-adj  radiant         ::s-prep with       ::t-verb radiate      ::t-sense 01 
+::s-adj  ready           ::s-prep for        ::t-verb ready        ::t-sense 01 
+::s-adj  reduced         ::s-prep to         ::t-verb reduce         
+::s-adj  related         ::s-prep to         ::t-verb relate         
+::s-adj  requisite       ::s-prep for        ::t-verb require      ::t-sense 01 
+::s-adj  requisite       ::s-prep to         ::t-verb require      ::t-sense 01 
+::s-adj  respected       ::s-prep for        ::t-verb respect        
+::s-adj  respectful      ::s-prep to         ::t-verb respect      ::t-sense 01 
+::s-adj  respectful      ::s-prep towards    ::t-verb respect      ::t-sense 01 
+::s-adj  rich            ::s-prep in         ::t-verb enrich       ::t-sense 01 
+::s-adj  satisfied       ::s-prep by         ::t-verb satisfy        
+::s-adj  satisfied       ::s-prep with       ::t-verb satisfy        
+::s-adj  scared          ::s-prep of         ::t-verb fear         ::t-sense 01 
+::s-adj  shocked         ::s-prep at         ::t-verb shock          
+::s-adj  shocked         ::s-prep by         ::t-verb shock          
+::s-adj  sick            ::s-prep of         ::t-verb tire         ::t-sense 01 
+::s-adj  similar         ::s-prep to         ::t-verb resemble     ::t-sense 01 
+::s-adj  steeped         ::s-prep in         ::t-verb steep          
+::s-adj  subordinate     ::s-prep to         ::t-verb subordinate  ::t-sense 01 
+::s-adj  sufficient      ::s-prep for        ::t-verb suffice      ::t-sense 01 
+::s-adj  sure            ::s-prep about      ::t-verb know         ::t-sense 01 
+::s-adj  sure            ::s-prep of         ::t-verb know         ::t-sense 01 
+::s-adj  surprised       ::s-prep at         ::t-verb surprise       
+::s-adj  surprised       ::s-prep by         ::t-verb surprise       
+::s-adj  surrounded      ::s-prep by         ::t-verb surround       
+::s-adj  suspicious      ::s-prep about      ::t-verb suspect      ::t-sense 01 
+::s-adj  suspicious      ::s-prep of         ::t-verb suspect      ::t-sense 01 
+::s-adj  sympathetic     ::s-prep to         ::t-verb sympathize   ::t-sense 01 
+::s-adj  sympathetic     ::s-prep towards    ::t-verb sympathize   ::t-sense 01 
+::s-adj  terrified       ::s-prep at         ::t-verb terrify        
+::s-adj  terrified       ::s-prep of         ::t-verb terrify        
+::s-adj  thankful        ::s-prep for        ::t-verb thank        ::t-sense 01 
+::s-adj  tired           ::s-prep of         ::t-verb tire         ::t-sense 01 
+::s-adj  tolerant        ::s-prep of         ::t-verb tolerate     ::t-sense 01 
+::s-adj  typical         ::s-prep of         ::t-verb typify       ::t-sense 01 
+::s-adj  unaware         ::s-prep of         ::t-verb realize      ::t-sense 01  ::t-polarity -
+::s-adj  upset           ::s-prep about      ::t-verb upset        ::t-sense 01 
+::s-adj  upset           ::s-prep by         ::t-verb upset        ::t-sense 01 
+::s-adj  upset           ::s-prep over       ::t-verb upset        ::t-sense 01 
+::s-adj  used            ::s-prep to         ::t-verb use          ::t-sense 02 
+::s-adj  veiled          ::s-prep in         ::t-verb veil           
+::s-adj  versed          ::s-prep in         ::t-verb verse          
+::s-adj  worried         ::s-prep about      ::t-verb worry        ::t-sense 01 
+::s-adj  worthy          ::s-prep of         ::t-verb deserve      ::t-sense 01 
+
+::s-adj abbatial         ::t-noun abbey
+::s-adj abdominal        ::t-noun abdomen
+::s-adj abdominovesical  ::t-noun abdomen
+::s-adj abeyant          ::t-noun abeyance
+::s-adj abhorrent        ::t-noun abhorrence
+::s-adj abiogenetic      ::t-noun abiogenesis
+::s-adj abolitionary     ::t-noun abolition
+::s-adj abomasal         ::t-noun abomasum
+::s-adj Aboriginal       ::t-noun Aborigine
+::s-adj absent           ::t-noun absence
+::s-adj absorbent        ::t-noun absorbency
+::s-adj abstinent        ::t-noun abstinence
+::s-adj abundant         ::t-noun abundance
+::s-adj Abyssinian       ::t-noun Abyssinia
+::s-adj academic         ::t-noun academia
+::s-adj accentual        ::t-noun stress
+::s-adj acceptant        ::t-noun acceptance
+::s-adj accessional      ::t-noun accession
+::s-adj accipitrine      ::t-noun Accipiter
+::s-adj acclivitous      ::t-noun acclivity
+::s-adj accommodational  ::t-noun accommodation
+::s-adj accordant        ::t-noun accordance
+::s-adj acculturational  ::t-noun acculturation
+::s-adj accurate         ::t-noun accuracy
+::s-adj accusatorial     ::t-noun accuser
+::s-adj acentric         ::t-noun centromere
+::s-adj acervate         ::t-noun acervulus
+::s-adj acetonic         ::t-noun acetone
+::s-adj acetylenic       ::t-noun acetylene
+::s-adj achenial         ::t-noun achene
+::s-adj achlorhydric     ::t-noun hydrochloric acid
+::s-adj achondritic      ::t-noun achondrite
+::s-adj achondroplastic  ::t-noun achondroplasia
+::s-adj achromatinic     ::t-noun achromatin
+::s-adj aciculate        ::t-noun acicula
+::s-adj acidimetric      ::t-noun acidimetry
+::s-adj acidophilous     ::t-noun acidophile
+::s-adj acidotic         ::t-noun acidosis
+::s-adj acinar           ::t-noun acinus
+::s-adj acneiform        ::t-noun acne
+::s-adj acoustic         ::t-noun acoustics
+::s-adj acquiescent      ::t-noun acquiescence
+::s-adj acrimonious      ::t-noun acrimony
+::s-adj acrocentric      ::t-noun centromere
+::s-adj acrogenic        ::t-noun acrogen
+::s-adj acronymic        ::t-noun acronym
+::s-adj actinometric     ::t-noun actinometry
+::s-adj actinomycetal    ::t-noun actinomycete
+::s-adj actinomycotic    ::t-noun actinomycosis
+::s-adj actuarial        ::t-noun statistician
+::s-adj aculeate         ::t-noun aculeus
+::s-adj adamant          ::t-noun adamance
+::s-adj adamantine       ::t-noun diamond
+::s-adj adenocarcinomatous::t-noun adenocarcinoma
+::s-adj adenoid          ::t-noun pharyngeal tonsil
+::s-adj adenoidal        ::t-noun pharyngeal tonsil
+::s-adj adequate         ::t-noun adequacy
+::s-adj adherent         ::t-noun adherence
+::s-adj adjacent         ::t-noun adjacency
+::s-adj adjectival       ::t-noun adjective
+::s-adj adjudicative     ::t-noun adjudication
+::s-adj administrative   ::t-noun administration
+::s-adj adnexal          ::t-noun adnexa
+::s-adj adolescent       ::t-noun adolescence
+::s-adj adrenal          ::t-noun kidney
+::s-adj adrenergic       ::t-noun epinephrine
+::s-adj adrenocortical   ::t-noun adrenal cortex
+::s-adj adulterous       ::t-noun adultery
+::s-adj advective        ::t-noun advection
+::s-adj adventitial      ::t-noun tunic
+::s-adj adventurous      ::t-noun adventure
+::s-adj adverbial        ::t-noun adverb
+::s-adj advertent        ::t-noun advertence
+::s-adj advertent        ::t-noun advertency
+::s-adj aecial           ::t-noun aecium
+::s-adj Aeolian          ::t-noun Aeolus
+::s-adj aeriferous       ::t-noun air
+::s-adj aerolitic        ::t-noun aerolite
+::s-adj aerological      ::t-noun aerology
+::s-adj aeromechanic     ::t-noun aeromechanics
+::s-adj aeromedical      ::t-noun aeromedicine
+::s-adj aeronautical     ::t-noun aeronautics
+::s-adj aerophilatelic   ::t-noun aerophilately
+::s-adj aesculapian      ::t-noun Aesculapius
+::s-adj aesthetic        ::t-noun aesthetics
+::s-adj affixal          ::t-noun affix
+::s-adj affluent         ::t-noun affluence
+::s-adj Afghan           ::t-noun Afghanistan
+::s-adj Afghanistani     ::t-noun Afghanistan
+::s-adj African          ::t-noun Africa
+::s-adj agential         ::t-noun agent
+::s-adj agonal           ::t-noun agony
+::s-adj agonistic        ::t-noun agon
+::s-adj agricultural     ::t-noun farming
+::s-adj agrobiologic     ::t-noun agrobiology
+::s-adj agrologic        ::t-noun agrology
+::s-adj agronomic        ::t-noun agronomy
+::s-adj agrypnotic       ::t-noun agrypnia
+::s-adj alacritous       ::t-noun alacrity
+::s-adj Albanian         ::t-noun Albania
+::s-adj albitic          ::t-noun albite
+::s-adj albuminous       ::t-noun albumin
+::s-adj albuminuric      ::t-noun albuminuria
+::s-adj alchemic         ::t-noun alchemy
+::s-adj alchemistic      ::t-noun alchemist
+::s-adj aldehydic        ::t-noun aldehyde
+::s-adj aldermanic       ::t-noun alderman
+::s-adj aleuronic        ::t-noun aleurone
+::s-adj Aleutian         ::t-noun Aleut
+::s-adj alexic           ::t-noun visual aphasia
+::s-adj algal            ::t-noun alga
+::s-adj algebraic        ::t-noun algebra
+::s-adj Algerian         ::t-noun Algeria
+::s-adj algoid           ::t-noun alga
+::s-adj algolagnic       ::t-noun algolagnia
+::s-adj algometric       ::t-noun algometry
+::s-adj alimentative     ::t-noun feeding
+::s-adj alkahestic       ::t-noun alkahest
+::s-adj alkaloidal       ::t-noun alkaloid
+::s-adj alkalotic        ::t-noun alkalosis
+::s-adj alkylic          ::t-noun alkyl
+::s-adj allantoic        ::t-noun allantois
+::s-adj allegiant        ::t-noun allegiance
+::s-adj allelic          ::t-noun allele
+::s-adj allergenic       ::t-noun allergen
+::s-adj allergic         ::t-noun allergy
+::s-adj alliaceous       ::t-noun Allium
+::s-adj allogamous       ::t-noun allogamy
+::s-adj allographic      ::t-noun allograph
+::s-adj allometric       ::t-noun allometry
+::s-adj allomorphic      ::t-noun allomorph
+::s-adj allopathic       ::t-noun allopathy
+::s-adj allophonic       ::t-noun allophone
+::s-adj allotropic       ::t-noun allotropy
+::s-adj allylic          ::t-noun allyl
+::s-adj alopecic         ::t-noun alopecia
+::s-adj alphabetic       ::t-noun alphabet
+::s-adj alphanumeric     ::t-noun alphanumerics
+::s-adj alpine           ::t-noun alp
+::s-adj altitudinal      ::t-noun altitude
+::s-adj alular           ::t-noun bastard wing
+::s-adj aluminous        ::t-noun aluminum
+::s-adj alveolar         ::t-noun alveolus
+::s-adj alvine           ::t-noun intestine
+::s-adj amalgamative     ::t-noun amalgamation
+::s-adj amaranthine      ::t-noun amaranth
+::s-adj amaurotic        ::t-noun amaurosis
+::s-adj ambassadorial    ::t-noun ambassador
+::s-adj ambient          ::t-noun ambience
+::s-adj ambiguous        ::t-noun ambiguity
+::s-adj ambivalent       ::t-noun ambivalence
+::s-adj ambivalent       ::t-noun ambivalency
+::s-adj amblyopic        ::t-noun amblyopia
+::s-adj ambulacral       ::t-noun ambulacrum
+::s-adj ambulatory       ::t-noun ambulation
+::s-adj ameboid          ::t-noun ameba
+::s-adj amenorrheic      ::t-noun amenorrhea
+::s-adj American         ::t-noun United States
+::s-adj amethystine      ::t-noun amethyst
+::s-adj amino            ::t-noun amine
+::s-adj amitotic         ::t-noun amitosis
+::s-adj ammino           ::t-noun ammine
+::s-adj ammoniac         ::t-noun ammonia
+::s-adj ammonitic        ::t-noun ammonite
+::s-adj amnestic         ::t-noun amnesia
+::s-adj amniotic         ::t-noun amnion
+::s-adj amoebic          ::t-noun ameba
+::s-adj amoristic        ::t-noun amorist
+::s-adj amphibious       ::t-noun amphibia
+::s-adj amphitheatric    ::t-noun amphitheater
+::s-adj ampullar         ::t-noun ampulla
+::s-adj amygdaline       ::t-noun almond
+::s-adj amylolytic       ::t-noun amylolysis
+::s-adj anabiotic        ::t-noun anabiosis
+::s-adj anaclitic        ::t-noun anaclisis
+::s-adj anacoluthic      ::t-noun anacoluthia
+::s-adj anaesthetic      ::t-noun anesthesia
+::s-adj anaglyphic       ::t-noun anaglyph
+::s-adj anagogic         ::t-noun anagoge
+::s-adj anagrammatic     ::t-noun anagram
+::s-adj anal             ::t-noun anus
+::s-adj analogous        ::t-noun analogy
+::s-adj analphabetic     ::t-noun alphabet
+::s-adj analytic         ::t-noun analysis
+::s-adj anamnestic       ::t-noun remembrance
+::s-adj anapestic        ::t-noun anapest
+::s-adj anaphasic        ::t-noun anaphase
+::s-adj anaphoric        ::t-noun anaphora
+::s-adj anaphylactic     ::t-noun anaphylaxis
+::s-adj anaplastic       ::t-noun anaplasia
+::s-adj anasarcous       ::t-noun anasarca
+::s-adj anastigmatic     ::t-noun anastigmat
+::s-adj anastomotic      ::t-noun anastomosis
+::s-adj anatomic         ::t-noun anatomy
+::s-adj anatomic         ::t-noun human body
+::s-adj ancestral        ::t-noun ancestor
+::s-adj Andorran         ::t-noun Andorra
+::s-adj androgenic       ::t-noun androgen
+::s-adj androgynous      ::t-noun androgyny
+::s-adj androgynous      ::t-noun hermaphrodite
+::s-adj anecdotal        ::t-noun anecdote
+::s-adj anemic           ::t-noun anemia
+::s-adj anemographic     ::t-noun anemography
+::s-adj anemometric      ::t-noun anemometry
+::s-adj anestrous        ::t-noun anestrus
+::s-adj aneurysmal       ::t-noun aneurysm
+::s-adj angelic          ::t-noun angel
+::s-adj angiocarpic      ::t-noun angiocarp
+::s-adj angiomatous      ::t-noun angioma
+::s-adj angiospermous    ::t-noun angiosperm
+::s-adj Angolan          ::t-noun Angola
+::s-adj anguine          ::t-noun snake
+::s-adj angular          ::t-noun angle
+::s-adj anionic          ::t-noun anion
+::s-adj aniseikonic      ::t-noun aniseikonia
+::s-adj anisogametic     ::t-noun anisogamete
+::s-adj anisogamic       ::t-noun anisogamy
+::s-adj anisogamous      ::t-noun anisogamy
+::s-adj anisometropic    ::t-noun anisometropia
+::s-adj ankylotic        ::t-noun ankylosis
+::s-adj annalistic       ::t-noun annals
+::s-adj annelid          ::t-noun Annelida
+::s-adj annexational     ::t-noun annexation
+::s-adj annunciatory     ::t-noun announcement
+::s-adj anodic           ::t-noun anode
+::s-adj anomalous        ::t-noun anomaly
+::s-adj anonymous        ::t-noun anonymity
+::s-adj anoperineal      ::t-noun anus
+::s-adj anopheline       ::t-noun Anopheles
+::s-adj anorthitic       ::t-noun anorthite
+::s-adj anosmic          ::t-noun anosmia
+::s-adj anoxemic         ::t-noun anoxemia
+::s-adj anoxic           ::t-noun anoxia
+::s-adj anserine         ::t-noun Anserinae
+::s-adj antecedent       ::t-noun antecedence
+::s-adj antecedent       ::t-noun antecedency
+::s-adj antennal         ::t-noun antenna
+::s-adj antheridial      ::t-noun antheridium
+::s-adj anthracitic      ::t-noun anthracite
+::s-adj anthropic        ::t-noun homo
+::s-adj anthropogenetic  ::t-noun anthropogenesis
+::s-adj anthropological  ::t-noun anthropology
+::s-adj anthropometric   ::t-noun anthropometry
+::s-adj anthropophagous  ::t-noun cannibal
+::s-adj antiadrenergic   ::t-noun epinephrine
+::s-adj anticlimactic    ::t-noun anticlimax
+::s-adj anticoagulative  ::t-noun anticoagulant
+::s-adj anticyclonic     ::t-noun anticyclone
+::s-adj antidotal        ::t-noun antidote
+::s-adj antigenic        ::t-noun antigen
+::s-adj antimonic        ::t-noun antimony
+::s-adj antipodal        ::t-noun antipodes
+::s-adj antiquarian      ::t-noun antiquary
+::s-adj antiquarian      ::t-noun antique
+::s-adj antistrophic     ::t-noun antistrophe
+::s-adj antitypic        ::t-noun antitype
+::s-adj antonymous       ::t-noun antonymy
+::s-adj anuran           ::t-noun Salientia
+::s-adj anuretic         ::t-noun anuresis
+::s-adj anxiolytic       ::t-noun anxiety
+::s-adj aoristic         ::t-noun aorist
+::s-adj aortal           ::t-noun aorta
+::s-adj aphaeretic       ::t-noun aphaeresis
+::s-adj aphanitic        ::t-noun aphanite
+::s-adj aphasic          ::t-noun aphasia
+::s-adj aphetic          ::t-noun aphesis
+::s-adj apian            ::t-noun bee
+::s-adj apiarian         ::t-noun beekeeper
+::s-adj apicultural      ::t-noun beekeeping
+::s-adj aplitic          ::t-noun aplite
+::s-adj apneic           ::t-noun apnea
+::s-adj apocalyptic      ::t-noun apocalypse
+::s-adj apocynaceous     ::t-noun Apocynaceae
+::s-adj apogamic         ::t-noun apogamy
+::s-adj apogamous        ::t-noun apogamy
+::s-adj apogean          ::t-noun apogee
+::s-adj apomictic        ::t-noun apomict
+::s-adj aponeurotic      ::t-noun aponeurosis
+::s-adj apopemptic       ::t-noun farewell
+::s-adj apophyseal       ::t-noun apophysis
+::s-adj apoplectic       ::t-noun stroke
+::s-adj apoplectiform    ::t-noun stroke
+::s-adj aposiopetic      ::t-noun aposiopesis
+::s-adj apostolic        ::t-noun Apostle
+::s-adj apostrophic      ::t-noun apostrophe
+::s-adj apothecial       ::t-noun apothecium
+::s-adj apparent         ::t-noun apparency
+::s-adj appellate        ::t-noun appeal
+::s-adj appellative      ::t-noun noun
+::s-adj appendicular     ::t-noun extremity
+::s-adj appetent         ::t-noun appetence
+::s-adj appetent         ::t-noun appetency
+::s-adj appetitive       ::t-noun appetite
+::s-adj appointive       ::t-noun appointment
+::s-adj appositional     ::t-noun apposition
+::s-adj appropriative    ::t-noun appropriation
+::s-adj appurtenant      ::t-noun appurtenance
+::s-adj apsidal          ::t-noun apse
+::s-adj aptitudinal      ::t-noun aptitude
+::s-adj aquatic          ::t-noun water
+::s-adj aqueous          ::t-noun water
+::s-adj aquicultural     ::t-noun hydroponics
+::s-adj aquiferous       ::t-noun aquifer
+::s-adj Arabic           ::t-noun Arab
+::s-adj arachnoid        ::t-noun Arachnida
+::s-adj araneidal        ::t-noun Araneae
+::s-adj Arawakan         ::t-noun Arawak
+::s-adj arbitrative      ::t-noun arbitration
+::s-adj arborical        ::t-noun tree
+::s-adj archaeological   ::t-noun archeology
+::s-adj archangelic      ::t-noun archangel
+::s-adj archdiocesan     ::t-noun archdiocese
+::s-adj archducal        ::t-noun archduke
+::s-adj archegonial      ::t-noun archegonium
+::s-adj archesporial     ::t-noun archespore
+::s-adj archidiaconal    ::t-noun archdeacon
+::s-adj archiepiscopal   ::t-noun archbishop
+::s-adj archipelagic     ::t-noun archipelago
+::s-adj architectural    ::t-noun architecture
+::s-adj archival         ::t-noun archive
+::s-adj areal            ::t-noun area
+::s-adj arenicolous      ::t-noun sand
+::s-adj areolar          ::t-noun areola
+::s-adj argentic         ::t-noun silver
+::s-adj Argentine        ::t-noun Argentina
+::s-adj Argentinian      ::t-noun Argentina
+::s-adj argentous        ::t-noun silver
+::s-adj arithmetical     ::t-noun arithmetic
+::s-adj Armenian         ::t-noun Armenia
+::s-adj armillary        ::t-noun bracelet
+::s-adj armorial         ::t-noun coat of arms
+::s-adj aroid            ::t-noun Araceae
+::s-adj arrogant         ::t-noun arrogance
+::s-adj arsenious        ::t-noun arsenic
+::s-adj arterial         ::t-noun artery
+::s-adj arteriolar       ::t-noun arteriole
+::s-adj arteriosclerotic ::t-noun arteriosclerosis
+::s-adj arteriovenous    ::t-noun artery
+::s-adj arteriovenous    ::t-noun vein
+::s-adj arthralgic       ::t-noun arthralgia
+::s-adj arthromeric      ::t-noun arthromere
+::s-adj arthropodal      ::t-noun Arthropoda
+::s-adj arthrosporic     ::t-noun arthrospore
+::s-adj arthrosporous    ::t-noun arthrospore
+::s-adj articular        ::t-noun joint
+::s-adj articulatory     ::t-noun articulation
+::s-adj artifactual      ::t-noun artifact
+::s-adj artiodactyl      ::t-noun Artiodactyla
+::s-adj artistic         ::t-noun artist
+::s-adj Aruban           ::t-noun Aruba
+::s-adj arundinaceous    ::t-noun Arundinaria
+::s-adj ascendant        ::t-noun ascendance
+::s-adj ascendant        ::t-noun ascendancy
+::s-adj ascendent        ::t-noun ascendence
+::s-adj ascendent        ::t-noun ascendency
+::s-adj ascensional      ::t-noun rise
+::s-adj ascetic          ::t-noun abstainer
+::s-adj ascitic          ::t-noun ascites
+::s-adj asclepiadaceous  ::t-noun Asclepiadaceae
+::s-adj ascocarpous      ::t-noun ascocarp
+::s-adj ascomycetous     ::t-noun ascomycete
+::s-adj ascosporic       ::t-noun ascospore
+::s-adj ascosporous      ::t-noun ascospore
+::s-adj Asian            ::t-noun Asia
+::s-adj aspectual        ::t-noun aspect
+::s-adj assiduous        ::t-noun assiduity
+::s-adj assonant         ::t-noun assonance
+::s-adj asteroidal       ::t-noun asteroid
+::s-adj astragalar       ::t-noun anklebone
+::s-adj astringent       ::t-noun astringency
+::s-adj astrocytic       ::t-noun astrocyte
+::s-adj astrological     ::t-noun astrology
+::s-adj astronautic      ::t-noun aeronautics
+::s-adj astronautic      ::t-noun astronaut
+::s-adj astronomic       ::t-noun astronomy
+::s-adj astrophysical    ::t-noun astrophysics
+::s-adj asymptotic       ::t-noun asymptote
+::s-adj asynchronous     ::t-noun asynchrony
+::s-adj ataxic           ::t-noun ataxia
+::s-adj ateleiotic       ::t-noun ateleiosis
+::s-adj Athenian         ::t-noun Athens
+::s-adj atheromatous     ::t-noun atheroma
+::s-adj atherosclerotic  ::t-noun atherosclerosis
+::s-adj athletic         ::t-noun sport
+::s-adj atmospheric      ::t-noun atmosphere
+::s-adj atomic           ::t-noun atom
+::s-adj atonalistic      ::t-noun atonality
+::s-adj atrial           ::t-noun atrium
+::s-adj atrioventricular ::t-noun atrium
+::s-adj atrioventricular ::t-noun ventricle
+::s-adj atrocious        ::t-noun atrocity
+::s-adj atrophic         ::t-noun atrophy
+::s-adj attentional      ::t-noun attention
+::s-adj attitudinal      ::t-noun attitude
+::s-adj attritional      ::t-noun attrition
+::s-adj audacious        ::t-noun audacity
+::s-adj audiometric      ::t-noun audiometry
+::s-adj auditory         ::t-noun hearing
+::s-adj augitic          ::t-noun augite
+::s-adj aural            ::t-noun ear
+::s-adj auricular        ::t-noun auricle
+::s-adj auroral          ::t-noun dawn
+::s-adj aurous           ::t-noun gold
+::s-adj auscultatory     ::t-noun auscultation
+::s-adj austenitic       ::t-noun austenite
+::s-adj Australian       ::t-noun Australia
+::s-adj australopithecine::t-noun genus Australopithecus
+::s-adj Austrian         ::t-noun Austria
+::s-adj autacoidal       ::t-noun autacoid
+::s-adj autarchic        ::t-noun autocracy
+::s-adj authorial        ::t-noun writer
+::s-adj autobiographical ::t-noun autobiographer
+::s-adj autobiographical ::t-noun autobiography
+::s-adj autocatalytic    ::t-noun autocatalysis
+::s-adj autochthonous    ::t-noun autochthony
+::s-adj autodidactic     ::t-noun autodidact
+::s-adj autogamous       ::t-noun autogamy
+::s-adj autogenetic      ::t-noun abiogenesis
+::s-adj autogenous       ::t-noun autogeny
+::s-adj autographic      ::t-noun autograph
+::s-adj autoimmune       ::t-noun immune response
+::s-adj autolytic        ::t-noun autolysis
+::s-adj automotive       ::t-noun car
+::s-adj autonomous       ::t-noun autonomy
+::s-adj autoplastic      ::t-noun autoplasty
+::s-adj autoradiographic ::t-noun autoradiography
+::s-adj autosomal        ::t-noun autosome
+::s-adj autotomic        ::t-noun autotomy
+::s-adj autotrophic      ::t-noun autophyte
+::s-adj autotypic        ::t-noun autotype
+::s-adj auxetic          ::t-noun auxesis
+::s-adj auxinic          ::t-noun auxin
+::s-adj avaricious       ::t-noun avarice
+::s-adj avellan          ::t-noun cobnut
+::s-adj aversive         ::t-noun antipathy
+::s-adj avian            ::t-noun bird
+::s-adj avifaunal        ::t-noun avifauna
+::s-adj avionic          ::t-noun avionics
+::s-adj avitaminotic     ::t-noun avitaminosis
+::s-adj avocational      ::t-noun avocation
+::s-adj avuncular        ::t-noun uncle
+::s-adj axial            ::t-noun axis
+::s-adj axile            ::t-noun axis
+::s-adj axillary         ::t-noun armpit
+::s-adj axillary         ::t-noun axil
+::s-adj axiological      ::t-noun axiology
+::s-adj axiomatic        ::t-noun axiom
+::s-adj axiomatic        ::t-noun maxim
+::s-adj axonal           ::t-noun axon
+::s-adj Azerbaijani      ::t-noun Azerbaijan
+::s-adj azimuthal        ::t-noun azimuth
+::s-adj azotemic         ::t-noun uremia
+::s-adj azotic           ::t-noun azote
+::s-adj azotic           ::t-noun nitrogen
+::s-adj baboonish        ::t-noun baboon
+::s-adj baccate          ::t-noun simple fruit
+::s-adj bacchantic       ::t-noun bacchant
+::s-adj bacillar         ::t-noun bacillus
+::s-adj bacteremic       ::t-noun bacteremia
+::s-adj bacterial        ::t-noun bacteria
+::s-adj bacteriological  ::t-noun bacteriology
+::s-adj bacteriolytic    ::t-noun bacteriolysis
+::s-adj bacteriophagic   ::t-noun bacteriophage
+::s-adj bacteriophagous  ::t-noun bacteriophage
+::s-adj bacteriostatic   ::t-noun bacteriostasis
+::s-adj bacteroidal      ::t-noun bacteria
+::s-adj Bahamian         ::t-noun Bahamas
+::s-adj Bahrainian       ::t-noun Bahrain
+::s-adj balletic         ::t-noun ballet
+::s-adj ballistic        ::t-noun ballistics
+::s-adj balsamic         ::t-noun balsam
+::s-adj Bangladeshi      ::t-noun Bangladesh
+::s-adj barbarous        ::t-noun barbarity
+::s-adj bardic           ::t-noun bard
+::s-adj baric            ::t-noun barium
+::s-adj barographic      ::t-noun barograph
+::s-adj barometric       ::t-noun barometer
+::s-adj baroque          ::t-noun Baroque
+::s-adj barytic          ::t-noun baryta
+::s-adj basaltic         ::t-noun basalt
+::s-adj basidial         ::t-noun basidium
+::s-adj basidiomycetous  ::t-noun basidiomycete
+::s-adj basidiosporous   ::t-noun basidiospore
+::s-adj basilar          ::t-noun base
+::s-adj basilican        ::t-noun basilica
+::s-adj basinal          ::t-noun basin
+::s-adj basophilic       ::t-noun basophilia
+::s-adj Basotho          ::t-noun Lesotho
+::s-adj batholithic      ::t-noun batholith
+::s-adj bathyal          ::t-noun continental slope
+::s-adj bathymetric      ::t-noun bathymetry
+::s-adj bauxitic         ::t-noun bauxite
+::s-adj behavioral       ::t-noun behavior
+::s-adj Belarusian       ::t-noun Belarus
+::s-adj belemnitic       ::t-noun belemnite
+::s-adj Belgian          ::t-noun Belgium
+::s-adj belligerent      ::t-noun belligerence
+::s-adj belligerent      ::t-noun belligerency
+::s-adj benedictory      ::t-noun benediction
+::s-adj beneficent       ::t-noun beneficence
+::s-adj beneficiary      ::t-noun benefice
+::s-adj benevolent       ::t-noun benevolence
+::s-adj benignant        ::t-noun benignancy
+::s-adj benthic          ::t-noun benthos
+::s-adj bentonitic       ::t-noun bentonite
+::s-adj benzenoid        ::t-noun benzene
+::s-adj benzylic         ::t-noun benzyl
+::s-adj biblical         ::t-noun Bible
+::s-adj bibliographic    ::t-noun bibliography
+::s-adj bibliolatrous    ::t-noun bibliolatry
+::s-adj bibliomaniacal   ::t-noun bibliomania
+::s-adj bibliophilic     ::t-noun bibliophile
+::s-adj bibliopolic      ::t-noun bibliopole
+::s-adj bibliothecal     ::t-noun bibliotheca
+::s-adj bibliothecal     ::t-noun librarian
+::s-adj bibliotic        ::t-noun bibliotics
+::s-adj bicipital        ::t-noun biceps
+::s-adj bigamous         ::t-noun bigamy
+::s-adj biliary          ::t-noun gallbladder
+::s-adj bilious          ::t-noun bile
+::s-adj billiard         ::t-noun billiards
+::s-adj bimillenial      ::t-noun bimillennium
+::s-adj biocatalytic     ::t-noun biocatalyst
+::s-adj biochemical      ::t-noun biochemistry
+::s-adj biogenetic       ::t-noun biogenesis
+::s-adj biogenic         ::t-noun biology
+::s-adj biogenous        ::t-noun biogenesis
+::s-adj biogenous        ::t-noun biogeny
+::s-adj biogeographic    ::t-noun biogeography
+::s-adj biographic       ::t-noun biography
+::s-adj biological       ::t-noun biology
+::s-adj bioluminescent   ::t-noun bioluminescence
+::s-adj biomedical       ::t-noun biomedicine
+::s-adj bionic           ::t-noun bionics
+::s-adj biosynthetic     ::t-noun biosynthesis
+::s-adj biosystematic    ::t-noun biosystematics
+::s-adj biotic           ::t-noun life
+::s-adj biotitic         ::t-noun biotite
+::s-adj biotypic         ::t-noun biotype
+::s-adj biquadratic      ::t-noun biquadrate
+::s-adj birefringent     ::t-noun birefringence
+::s-adj birefringent     ::t-noun double refraction
+::s-adj bisectional      ::t-noun bisection
+::s-adj bismuthal        ::t-noun bismuth
+::s-adj bismuthic        ::t-noun bismuth
+::s-adj bisontine        ::t-noun bison
+::s-adj bistroic         ::t-noun bistro
+::s-adj bituminoid       ::t-noun bitumen
+::s-adj bituminous       ::t-noun bitumen
+::s-adj bladdery         ::t-noun bladder
+::s-adj blasphemous      ::t-noun blasphemy
+::s-adj blastemal        ::t-noun blastema
+::s-adj blastocoelic     ::t-noun blastocoel
+::s-adj blastodermatic   ::t-noun blastoderm
+::s-adj blastogenetic    ::t-noun blastogenesis
+::s-adj blastomeric      ::t-noun blastomere
+::s-adj blastomycotic    ::t-noun blastomycosis
+::s-adj blastoporal      ::t-noun blastopore
+::s-adj blastospheric    ::t-noun blastula
+::s-adj bodily           ::t-noun body
+::s-adj Bohemian         ::t-noun Bohemia
+::s-adj Bolivian         ::t-noun Bolivia
+::s-adj bolographic      ::t-noun bologram
+::s-adj bolometric       ::t-noun bolometer
+::s-adj boreal           ::t-noun north
+::s-adj boric            ::t-noun boron
+::s-adj boronic          ::t-noun boron
+::s-adj boskopoid        ::t-noun Boskop man
+::s-adj Bosnian          ::t-noun Bosnia and Herzegovina
+::s-adj botanic          ::t-noun botany
+::s-adj botryoid         ::t-noun grape
+::s-adj botulinal        ::t-noun botulinus
+::s-adj boustrophedonic  ::t-noun boustrophedon
+::s-adj bovine           ::t-noun Bos
+::s-adj brachial         ::t-noun arm
+::s-adj brachiopod       ::t-noun Brachiopoda
+::s-adj brachyurous      ::t-noun Brachyura
+::s-adj bracteal         ::t-noun bract
+::s-adj bracteate        ::t-noun bract
+::s-adj bracteolate      ::t-noun bracteole
+::s-adj brahminic        ::t-noun brahman
+::s-adj branchial        ::t-noun gill
+::s-adj branchiopod      ::t-noun Branchiopoda
+::s-adj brassy           ::t-noun brass
+::s-adj brazen           ::t-noun brass
+::s-adj Brazilian        ::t-noun Brazil
+::s-adj bregmatic        ::t-noun bregma
+::s-adj bridal           ::t-noun bride
+::s-adj bridal           ::t-noun wedding
+::s-adj brilliant        ::t-noun brilliance
+::s-adj brilliant        ::t-noun brilliancy
+::s-adj brimless         ::t-noun brim
+::s-adj brisant          ::t-noun brisance
+::s-adj British          ::t-noun Great Britain
+::s-adj bromic           ::t-noun bromine
+::s-adj bromidic         ::t-noun platitude
+::s-adj bronchial        ::t-noun bronchus
+::s-adj bronchiolar      ::t-noun bronchiole
+::s-adj bronchoscopic    ::t-noun bronchoscope
+::s-adj bryophytic       ::t-noun bryophyte
+::s-adj bubaline         ::t-noun American bison
+::s-adj bubonic          ::t-noun bubo
+::s-adj buccal           ::t-noun cheek
+::s-adj bucolic          ::t-noun sheepherder
+::s-adj budgetary        ::t-noun budget
+::s-adj bulbaceous       ::t-noun bulb
+::s-adj bulbar           ::t-noun medulla oblongata
+::s-adj Bulgarian        ::t-noun Bulgaria
+::s-adj bungaloid        ::t-noun bungalow
+::s-adj buoyant          ::t-noun buoyancy
+::s-adj bureaucratic     ::t-noun bureaucracy
+::s-adj bureaucratic     ::t-noun bureaucrat
+::s-adj burglarious      ::t-noun burglary
+::s-adj burrlike         ::t-noun bur
+::s-adj bursal           ::t-noun bursa
+::s-adj buteonine        ::t-noun Buteo
+::s-adj butyraceous      ::t-noun butterfat
+::s-adj cachectic        ::t-noun cachexia
+::s-adj cacodemonic      ::t-noun cacodemon
+::s-adj cacodylic        ::t-noun cacodyl
+::s-adj cacophonous      ::t-noun cacophony
+::s-adj cadastral        ::t-noun cadaster
+::s-adj cadaverous       ::t-noun cadaver
+::s-adj cadent           ::t-noun cadence
+::s-adj caducean         ::t-noun caduceus
+::s-adj caecilian        ::t-noun Caeciliidae
+::s-adj caesural         ::t-noun caesura
+::s-adj caffeinic        ::t-noun caffeine
+::s-adj calamitous       ::t-noun calamity
+::s-adj calcaneal        ::t-noun heelbone
+::s-adj calceolate       ::t-noun calceus
+::s-adj calcic           ::t-noun calcium
+::s-adj calciferous      ::t-noun calcium
+::s-adj calcitic         ::t-noun calcite
+::s-adj calculous        ::t-noun calculus
+::s-adj calendric        ::t-noun calendar
+::s-adj calisthenic      ::t-noun calisthenics
+::s-adj calligraphic     ::t-noun calligraphy
+::s-adj callithumpian    ::t-noun callithump
+::s-adj caloric          ::t-noun Calorie
+::s-adj calorimetric     ::t-noun calorimetry
+::s-adj calumnious       ::t-noun calumny
+::s-adj calyceal         ::t-noun calyx
+::s-adj calycular        ::t-noun calyculus
+::s-adj calyculate       ::t-noun calyculus
+::s-adj calyptrate       ::t-noun alula
+::s-adj calyptrate       ::t-noun calyptra
+::s-adj cambial          ::t-noun cambium
+::s-adj Cambodian        ::t-noun Cambodia
+::s-adj Cameroonian      ::t-noun Cameroon
+::s-adj campanulate      ::t-noun bell
+::s-adj camphoraceous    ::t-noun camphor
+::s-adj camphoric        ::t-noun camphor
+::s-adj Canadian         ::t-noun Canada
+::s-adj canalicular      ::t-noun canaliculus
+::s-adj canicular        ::t-noun Sirius
+::s-adj cannibalistic    ::t-noun cannibal
+::s-adj canonic          ::t-noun canon
+::s-adj canonist         ::t-noun canon
+::s-adj cantonal         ::t-noun Guangzhou
+::s-adj Cantonese        ::t-noun Canton
+::s-adj capacitive       ::t-noun capacitance
+::s-adj capillary        ::t-noun hair
+::s-adj capitular        ::t-noun chapter
+::s-adj caprine          ::t-noun goat
+::s-adj capsular         ::t-noun capsule
+::s-adj carangid         ::t-noun Carangidae
+::s-adj carbocyclic      ::t-noun carbon
+::s-adj carbonaceous     ::t-noun carbon
+::s-adj carboniferous    ::t-noun Carboniferous
+::s-adj carcinogenic     ::t-noun carcinoma
+::s-adj carcinomatous    ::t-noun carcinoma
+::s-adj cardiac          ::t-noun heart
+::s-adj cardiographic    ::t-noun cardiograph
+::s-adj cardiologic      ::t-noun cardiology
+::s-adj cardiopulmonary  ::t-noun respiration
+::s-adj cardiovascular   ::t-noun blood vessel
+::s-adj carinal          ::t-noun carina
+::s-adj carnal           ::t-noun flesh
+::s-adj carnivorous      ::t-noun carnivore
+::s-adj carpal           ::t-noun wrist
+::s-adj carpellary       ::t-noun carpel
+::s-adj carposporic      ::t-noun carpospore
+::s-adj carposporous     ::t-noun carpospore
+::s-adj carroty          ::t-noun carrot
+::s-adj cartilaginous    ::t-noun cartilage
+::s-adj cartographic     ::t-noun mapmaking
+::s-adj caruncular       ::t-noun caruncle
+::s-adj carunculate      ::t-noun caruncle
+::s-adj casuistic        ::t-noun casuistry
+::s-adj catachrestic     ::t-noun catachresis
+::s-adj catalatic        ::t-noun catalase
+::s-adj cataleptic       ::t-noun catalepsy
+::s-adj catalytic        ::t-noun catalysis
+::s-adj cataplastic      ::t-noun cataplasia
+::s-adj catapultic       ::t-noun catapult
+::s-adj catarrhal        ::t-noun catarrh
+::s-adj catatonic        ::t-noun catatonia
+::s-adj catechetical     ::t-noun catechesis
+::s-adj categorial       ::t-noun category
+::s-adj categorical      ::t-noun class
+::s-adj cathectic        ::t-noun cathexis
+::s-adj cathedral        ::t-noun cathedra
+::s-adj cathodic         ::t-noun cathode
+::s-adj cationic         ::t-noun cation
+::s-adj catkinate        ::t-noun catkin
+::s-adj catoptric        ::t-noun catoptrics
+::s-adj Caucasian        ::t-noun Caucasia
+::s-adj caudal           ::t-noun tail
+::s-adj cecal            ::t-noun cecum
+::s-adj celebratory      ::t-noun celebration
+::s-adj celestial        ::t-noun sky
+::s-adj celibate         ::t-noun celibacy
+::s-adj cellular         ::t-noun cell
+::s-adj cellulosid       ::t-noun cellulose
+::s-adj Celtic           ::t-noun Celt
+::s-adj cementitious     ::t-noun cement
+::s-adj cementitious     ::t-noun cementite
+::s-adj cenobitic        ::t-noun cenobite
+::s-adj cenogenetic      ::t-noun cenogenesis
+::s-adj censorial        ::t-noun censor
+::s-adj centennial       ::t-noun century
+::s-adj centesimal       ::t-noun one-hundredth
+::s-adj Central American ::t-noun Central America
+::s-adj Central European ::t-noun Central Europe
+::s-adj centroidal       ::t-noun centroid
+::s-adj centromeric      ::t-noun centromere
+::s-adj centrosomic      ::t-noun centrosome
+::s-adj cephalic         ::t-noun head
+::s-adj cephalopod       ::t-noun Cephalopoda
+::s-adj cercarial        ::t-noun cercaria
+::s-adj cereal           ::t-noun grain
+::s-adj cerebellar       ::t-noun cerebellum
+::s-adj cerebral         ::t-noun cerebrum
+::s-adj cerebrospinal    ::t-noun spinal cord
+::s-adj cerebrovascular  ::t-noun brain
+::s-adj ceremonious      ::t-noun ceremony
+::s-adj ceric            ::t-noun cerium
+::s-adj cerous           ::t-noun cerium
+::s-adj ceruminous       ::t-noun cerumen
+::s-adj cervical         ::t-noun cervix
+::s-adj cervical         ::t-noun neck
+::s-adj cervine          ::t-noun deer
+::s-adj cetacean         ::t-noun Cetacea
+::s-adj Ceylonese        ::t-noun Ceylon
+::s-adj Chadian          ::t-noun Chad
+::s-adj chaetal          ::t-noun chaeta
+::s-adj chaetognathan    ::t-noun Chaetognatha
+::s-adj chaffy           ::t-noun chaff
+::s-adj chalybeate       ::t-noun iron
+::s-adj chancroidal      ::t-noun chancroid
+::s-adj chancrous        ::t-noun chancre
+::s-adj chaotic          ::t-noun chaos
+::s-adj chartaceous      ::t-noun paper
+::s-adj chauvinistic     ::t-noun chauvinist
+::s-adj chelate          ::t-noun claw
+::s-adj cheliceral       ::t-noun chelicera
+::s-adj chelicerous      ::t-noun chelicera
+::s-adj cheliferous      ::t-noun claw
+::s-adj chelonian        ::t-noun Chelonia
+::s-adj chemical         ::t-noun chemistry
+::s-adj chemiluminescent ::t-noun chemiluminescence
+::s-adj chemoreceptive   ::t-noun chemoreceptor
+::s-adj chemotherapeutic ::t-noun chemotherapy
+::s-adj cherty           ::t-noun chert
+::s-adj chiasmal         ::t-noun chiasma
+::s-adj Chilean          ::t-noun Chile
+::s-adj chimeric         ::t-noun Chimera
+::s-adj Chinese          ::t-noun China
+::s-adj chiromantic      ::t-noun palmistry
+::s-adj chirpy           ::t-noun chirp
+::s-adj chitinous        ::t-noun chitin
+::s-adj chivalrous       ::t-noun chivalry
+::s-adj chlamydial       ::t-noun chlamydia
+::s-adj chlorophyllose   ::t-noun chlorophyll
+::s-adj choleraic        ::t-noun cholera
+::s-adj choragic         ::t-noun choragus
+::s-adj choral           ::t-noun chorus
+::s-adj chordal          ::t-noun chord
+::s-adj choreographic    ::t-noun choreography
+::s-adj choric           ::t-noun chorus
+::s-adj chorionic        ::t-noun chorion
+::s-adj chromatic        ::t-noun color
+::s-adj chromatinic      ::t-noun chromatin
+::s-adj chromatographic  ::t-noun chromatography
+::s-adj chromosomal      ::t-noun chromosome
+::s-adj chronological    ::t-noun chronology
+::s-adj chylaceous       ::t-noun chyle
+::s-adj chyliferous      ::t-noun chyle
+::s-adj chylific         ::t-noun chyle
+::s-adj chylous          ::t-noun chyle
+::s-adj ciliary          ::t-noun cilium
+::s-adj ciliary          ::t-noun eyelash
+::s-adj cinematic        ::t-noun film
+::s-adj cinerary         ::t-noun columbarium
+::s-adj circadian        ::t-noun day
+::s-adj circulative      ::t-noun circulation
+::s-adj citrous          ::t-noun citrus
+::s-adj civic            ::t-noun city
+::s-adj civil            ::t-noun state
+::s-adj clairvoyant      ::t-noun clairvoyance
+::s-adj classical        ::t-noun classics
+::s-adj classificatory   ::t-noun categorization
+::s-adj clausal          ::t-noun clause
+::s-adj clement          ::t-noun clemency
+::s-adj clerical         ::t-noun clergy
+::s-adj clerical         ::t-noun clerk
+::s-adj climatic         ::t-noun climate
+::s-adj clinical         ::t-noun clinic
+::s-adj clitoral         ::t-noun clitoris
+::s-adj clonal           ::t-noun clone
+::s-adj clonic           ::t-noun clonus
+::s-adj closed-circuit   ::t-noun closed circuit
+::s-adj coastal          ::t-noun seashore
+::s-adj coccal           ::t-noun coccus
+::s-adj coccygeal        ::t-noun coccyx
+::s-adj cochlear         ::t-noun cochlea
+::s-adj coeliac          ::t-noun abdominal cavity
+::s-adj coexistent       ::t-noun coexistence
+::s-adj cogent           ::t-noun cogency
+::s-adj cogitative       ::t-noun cogitation
+::s-adj cognitive        ::t-noun cognition
+::s-adj cognizant        ::t-noun cognizance
+::s-adj coherent         ::t-noun coherence
+::s-adj coherent         ::t-noun coherency
+::s-adj coincident       ::t-noun coincidence
+::s-adj coital           ::t-noun sexual intercourse
+::s-adj collagenous      ::t-noun collagen
+::s-adj collarless       ::t-noun collar
+::s-adj collegial        ::t-noun colleague
+::s-adj collegiate       ::t-noun college
+::s-adj colloidal        ::t-noun colloid
+::s-adj Colombian        ::t-noun Colombia
+::s-adj colonial         ::t-noun colony
+::s-adj colonic          ::t-noun colon
+::s-adj colorectal       ::t-noun colon
+::s-adj Columbian        ::t-noun Columbus
+::s-adj comatose         ::t-noun coma
+::s-adj cometary         ::t-noun comet
+::s-adj comic            ::t-noun comedy
+::s-adj commemorative    ::t-noun commemoration
+::s-adj commercial       ::t-noun commerce
+::s-adj communal         ::t-noun commune
+::s-adj communicative    ::t-noun communication
+::s-adj comparative      ::t-noun comparison
+::s-adj competent        ::t-noun competence
+::s-adj competent        ::t-noun competency
+::s-adj complacent       ::t-noun complacence
+::s-adj complacent       ::t-noun complacency
+::s-adj complaisant      ::t-noun complaisance
+::s-adj compliant        ::t-noun compliance
+::s-adj compliant        ::t-noun compliancy
+::s-adj composite        ::t-noun Compositae
+::s-adj computational    ::t-noun calculation
+::s-adj computational    ::t-noun computer
+::s-adj concessive       ::t-noun concession
+::s-adj concomitant      ::t-noun concomitance
+::s-adj concordant       ::t-noun concordance
+::s-adj concurrent       ::t-noun concurrence
+::s-adj confederate      ::t-noun confederacy
+::s-adj confident        ::t-noun confidence
+::s-adj configurational  ::t-noun configuration
+::s-adj confluent        ::t-noun confluence
+::s-adj confrontational  ::t-noun confrontation
+::s-adj congeneric       ::t-noun relative
+::s-adj congestive       ::t-noun congestion
+::s-adj Congolese        ::t-noun Congo
+::s-adj congregational   ::t-noun congregation
+::s-adj congressional    ::t-noun congress
+::s-adj congruent        ::t-noun congruence
+::s-adj congruous        ::t-noun congruity
+::s-adj conic            ::t-noun cone
+::s-adj conjugal         ::t-noun marriage
+::s-adj conjunctival     ::t-noun conjunctiva
+::s-adj consequent       ::t-noun consequence
+::s-adj consistent       ::t-noun consistence
+::s-adj consistent       ::t-noun consistency
+::s-adj consonant        ::t-noun consonance
+::s-adj consonantal      ::t-noun consonant
+::s-adj conspecific      ::t-noun species
+::s-adj conspiratorial   ::t-noun conspiracy
+::s-adj constituent      ::t-noun constituency
+::s-adj constitutional   ::t-noun constitution
+::s-adj consular         ::t-noun consul
+::s-adj consular         ::t-noun consulate
+::s-adj contemporaneous  ::t-noun contemporaneity
+::s-adj contextual       ::t-noun context
+::s-adj contiguous       ::t-noun contiguity
+::s-adj continent        ::t-noun continence
+::s-adj continental      ::t-noun Colony
+::s-adj contingent       ::t-noun contingency
+::s-adj continuous       ::t-noun continuity
+::s-adj contractual      ::t-noun contract
+::s-adj contrapuntal     ::t-noun counterpoint
+::s-adj contrarious      ::t-noun contrary
+::s-adj contumacious     ::t-noun contumacy
+::s-adj contumelious     ::t-noun contumely
+::s-adj convalescent     ::t-noun convalescence
+::s-adj convenient       ::t-noun convenience
+::s-adj convergent       ::t-noun convergence
+::s-adj convergent       ::t-noun convergency
+::s-adj conversant       ::t-noun conversance
+::s-adj conversant       ::t-noun conversancy
+::s-adj Coptic           ::t-noun Copt
+::s-adj copular          ::t-noun copula
+::s-adj cordless         ::t-noun cord
+::s-adj cormous          ::t-noun corm
+::s-adj corneal          ::t-noun cornea
+::s-adj coronary         ::t-noun corona
+::s-adj corpulent        ::t-noun corpulence
+::s-adj correlational    ::t-noun correlation
+::s-adj correspondent    ::t-noun correspondence
+::s-adj cortical         ::t-noun cortex
+::s-adj corvine          ::t-noun crow
+::s-adj corymbose        ::t-noun corymb
+::s-adj cosmic           ::t-noun universe
+::s-adj cosmologic       ::t-noun cosmology
+::s-adj Costa Rican      ::t-noun Costa Rica
+::s-adj costal           ::t-noun rib
+::s-adj counterinsurgent ::t-noun pacification
+::s-adj counterrevolutionary::t-noun counterrevolution
+::s-adj cranial          ::t-noun cranium
+::s-adj crapulent        ::t-noun crapulence
+::s-adj creaseproof      ::t-noun wrinkle
+::s-adj credulous        ::t-noun credulity
+::s-adj creedal          ::t-noun religious doctrine
+::s-adj cretaceous       ::t-noun chalk
+::s-adj criminological   ::t-noun criminology
+::s-adj crinoid          ::t-noun Crinoidea
+::s-adj Croatian         ::t-noun Croatia
+::s-adj croupy           ::t-noun croup
+::s-adj cruciferous      ::t-noun Cruciferae
+::s-adj crustose         ::t-noun crust
+::s-adj cryogenic        ::t-noun cryogen
+::s-adj cryptogamic      ::t-noun cryptogam
+::s-adj ctenoid          ::t-noun comb
+::s-adj ctenoid          ::t-noun ctene
+::s-adj Cuban            ::t-noun Cuba
+::s-adj culinary         ::t-noun cuisine
+::s-adj cultural         ::t-noun culture
+::s-adj cuneiform        ::t-noun tarsal
+::s-adj cupric           ::t-noun copper
+::s-adj curatorial       ::t-noun curator
+::s-adj curricular       ::t-noun course of study
+::s-adj custard-like     ::t-noun custard
+::s-adj cutaneous        ::t-noun skin
+::s-adj cuticular        ::t-noun cuticula
+::s-adj cuticular        ::t-noun epidermis
+::s-adj cyanobacterial   ::t-noun Cyanophyta
+::s-adj cybernetic       ::t-noun cybernetics
+::s-adj cyclic           ::t-noun Carnot cycle
+::s-adj cyclonic         ::t-noun cyclone
+::s-adj cyclopean        ::t-noun Cyclops
+::s-adj cyclothymic      ::t-noun cyclothymia
+::s-adj cyprinid         ::t-noun Cyprinidae
+::s-adj Cypriot          ::t-noun Cyprus
+::s-adj cystic           ::t-noun vesicle
+::s-adj cytological      ::t-noun cytology
+::s-adj cytolytic        ::t-noun cytolysis
+::s-adj cytoplasmic      ::t-noun cytoplasm
+::s-adj czarist          ::t-noun czar
+::s-adj Czech            ::t-noun Czechoslovakia
+::s-adj Czechoslovak     ::t-noun Czechoslovakia
+::s-adj Czechoslovakian  ::t-noun Czechoslovakia
+::s-adj dactylic         ::t-noun dactyl
+::s-adj daisylike        ::t-noun daisy
+::s-adj damascene        ::t-noun Dimash
+::s-adj Danish           ::t-noun Denmark
+::s-adj decadent         ::t-noun decadence
+::s-adj decent           ::t-noun decency
+::s-adj declivitous      ::t-noun declivity
+::s-adj deconstructionist::t-noun deconstruction
+::s-adj deductive        ::t-noun deduction
+::s-adj deferent         ::t-noun deference
+::s-adj defiant          ::t-noun defiance
+::s-adj deficient        ::t-noun deficiency
+::s-adj deformational    ::t-noun deformation
+::s-adj degenerate       ::t-noun degeneracy
+::s-adj dehiscent        ::t-noun dehiscence
+::s-adj deictic          ::t-noun deixis
+::s-adj delicate         ::t-noun delicacy
+::s-adj delinquent       ::t-noun delinquency
+::s-adj demagogic        ::t-noun demagogue
+::s-adj Democratic       ::t-noun democrat
+::s-adj demographic      ::t-noun demography
+::s-adj Demotic          ::t-noun Romaic
+::s-adj dendritic        ::t-noun dendrite
+::s-adj denominational   ::t-noun denomination
+::s-adj dental           ::t-noun tooth
+::s-adj departmental     ::t-noun department
+::s-adj dependant        ::t-noun dependance
+::s-adj dependent        ::t-noun dependence
+::s-adj dependent        ::t-noun dependency
+::s-adj dermal           ::t-noun dermis
+::s-adj dermatologic     ::t-noun dermatology
+::s-adj desirous         ::t-noun desire
+::s-adj despondent       ::t-noun despondence
+::s-adj despondent       ::t-noun despondency
+::s-adj despotic         ::t-noun tyrant
+::s-adj detergent        ::t-noun detergence
+::s-adj detergent        ::t-noun detergency
+::s-adj deterrent        ::t-noun deterrence
+::s-adj developmental    ::t-noun growth
+::s-adj deviant          ::t-noun deviance
+::s-adj dexterous        ::t-noun dexterity
+::s-adj diabetic         ::t-noun diabetes
+::s-adj diagnostic       ::t-noun diagnosis
+::s-adj dialectal        ::t-noun dialect
+::s-adj diamantine       ::t-noun diamond
+::s-adj diametral        ::t-noun diameter
+::s-adj diaphyseal       ::t-noun diaphysis
+::s-adj diastolic        ::t-noun diastole
+::s-adj dichotomous      ::t-noun dichotomy
+::s-adj dichromatic      ::t-noun dichromacy
+::s-adj dictatorial      ::t-noun dictator
+::s-adj dictyopteran     ::t-noun Dictyoptera
+::s-adj dietary          ::t-noun diet
+::s-adj different        ::t-noun difference
+::s-adj diffident        ::t-noun diffidence
+::s-adj digestive        ::t-noun digestion
+::s-adj digital          ::t-noun digit
+::s-adj diligent         ::t-noun diligence
+::s-adj diluvian         ::t-noun downpour
+::s-adj dimensional      ::t-noun dimension
+::s-adj diocesan         ::t-noun diocese
+::s-adj diplomatic       ::t-noun diplomacy
+::s-adj dipolar          ::t-noun dipole
+::s-adj directional      ::t-noun management
+::s-adj disciplinary     ::t-noun discipline
+::s-adj discontinuous    ::t-noun discontinuity
+::s-adj discordant       ::t-noun discordance
+::s-adj discrepant       ::t-noun discrepancy
+::s-adj disharmonious    ::t-noun disharmony
+::s-adj dishonest        ::t-noun dishonesty
+::s-adj disobedient      ::t-noun disobedience
+::s-adj dissident        ::t-noun dissidence
+::s-adj dissonant        ::t-noun dissonance
+::s-adj distant          ::t-noun distance
+::s-adj distributional   ::t-noun distribution
+::s-adj dithyrambic      ::t-noun dithyramb
+::s-adj divergent        ::t-noun divergence
+::s-adj divergent        ::t-noun divergency
+::s-adj divisional       ::t-noun division
+::s-adj doctrinal        ::t-noun doctrine
+::s-adj documentary      ::t-noun document
+::s-adj dogmatic         ::t-noun dogma
+::s-adj dolomitic        ::t-noun dolomite
+::s-adj dominant         ::t-noun dominance
+::s-adj dominical        ::t-noun Sunday
+::s-adj dormant          ::t-noun dormancy
+::s-adj Draconian        ::t-noun Draco
+::s-adj dramatic         ::t-noun play
+::s-adj dramaturgic      ::t-noun dramaturgy
+::s-adj drupaceous       ::t-noun drupe
+::s-adj ducal            ::t-noun duke
+::s-adj ductless         ::t-noun duct
+::s-adj dumpy            ::t-noun dump
+::s-adj duodenal         ::t-noun duodenum
+::s-adj duplicitous      ::t-noun duplicity
+::s-adj Dutch            ::t-noun Netherlands
+::s-adj dyadic           ::t-noun couple
+::s-adj dynamic          ::t-noun dynamics
+::s-adj dynastic         ::t-noun dynasty
+::s-adj dysgenic         ::t-noun dysgenics
+::s-adj dyslexic         ::t-noun dyslexia
+::s-adj dystopian        ::t-noun dystopia
+::s-adj earthen          ::t-noun earth
+::s-adj earthy           ::t-noun earth
+::s-adj East German      ::t-noun East Germany
+::s-adj East Pakistani   ::t-noun East Pakistan
+::s-adj Eastern European ::t-noun Eastern Europe
+::s-adj ebracteate       ::t-noun bract
+::s-adj ebullient        ::t-noun ebullience
+::s-adj ecclesiastical   ::t-noun church
+::s-adj ecological       ::t-noun ecology
+::s-adj econometric      ::t-noun econometrics
+::s-adj economic         ::t-noun economy
+::s-adj ectodermal       ::t-noun ectoderm
+::s-adj Ecuadorian       ::t-noun Ecuador
+::s-adj edacious         ::t-noun edacity
+::s-adj editorial        ::t-noun column
+::s-adj editorial        ::t-noun editor
+::s-adj educational      ::t-noun education
+::s-adj effeminate       ::t-noun effeminacy
+::s-adj effervescent     ::t-noun effervescence
+::s-adj efficacious      ::t-noun efficacy
+::s-adj efficient        ::t-noun efficiency
+::s-adj efflorescent     ::t-noun efflorescence
+::s-adj effluent         ::t-noun effluence
+::s-adj effulgent        ::t-noun effulgence
+::s-adj Egyptian         ::t-noun Egypt
+::s-adj El Salvadoran    ::t-noun El Salvador
+::s-adj electoral        ::t-noun election
+::s-adj electrical       ::t-noun electricity
+::s-adj electrocardiographic::t-noun cardiograph
+::s-adj electrochemical  ::t-noun electrochemistry
+::s-adj electroencephalographic::t-noun electroencephalograph
+::s-adj electrolytic     ::t-noun electrolysis
+::s-adj electromotive    ::t-noun current
+::s-adj electronic       ::t-noun electron
+::s-adj electronic       ::t-noun electronics
+::s-adj electrophoretic  ::t-noun electrophoresis
+::s-adj electrostatic    ::t-noun static electricity
+::s-adj elegant          ::t-noun elegance
+::s-adj elegiac          ::t-noun elegy
+::s-adj elemental        ::t-noun elements
+::s-adj elementary       ::t-noun grade school
+::s-adj elfin            ::t-noun elf
+::s-adj elocutionary     ::t-noun elocution
+::s-adj eloquent         ::t-noun eloquence
+::s-adj elysian          ::t-noun Elysium
+::s-adj embolic          ::t-noun embolus
+::s-adj emergent         ::t-noun emergence
+::s-adj eminent          ::t-noun eminence
+::s-adj emotional        ::t-noun emotion
+::s-adj emphysematous    ::t-noun emphysema
+::s-adj empiric          ::t-noun quackery
+::s-adj empyrean         ::t-noun celestial sphere
+::s-adj endermic         ::t-noun skin
+::s-adj endodontic       ::t-noun endodontics
+::s-adj endogamous       ::t-noun endogamy
+::s-adj endogenous       ::t-noun monocot
+::s-adj endometrial      ::t-noun endometrium
+::s-adj endothelial      ::t-noun endothelium
+::s-adj enormous         ::t-noun enormity
+::s-adj enteric          ::t-noun enteron
+::s-adj entomological    ::t-noun entomology
+::s-adj entozoan         ::t-noun endoparasite
+::s-adj entrepreneurial  ::t-noun entrepreneur
+::s-adj envious          ::t-noun envy
+::s-adj environmental    ::t-noun ecology
+::s-adj environmental    ::t-noun environment
+::s-adj enzymatic        ::t-noun enzyme
+::s-adj eonian           ::t-noun eon
+::s-adj eosinophilic     ::t-noun eosinophil
+::s-adj eparchial        ::t-noun eparchy
+::s-adj epicarpal        ::t-noun epicarp
+::s-adj epicyclic        ::t-noun epicycle
+::s-adj epidemiologic    ::t-noun epidemiology
+::s-adj epileptic        ::t-noun epilepsy
+::s-adj epiphyseal       ::t-noun epiphysis
+::s-adj epiphytic        ::t-noun air plant
+::s-adj episcopal        ::t-noun bishop
+::s-adj epithelial       ::t-noun epithelium
+::s-adj epitheliod       ::t-noun epithelium
+::s-adj epizoan          ::t-noun ectoparasite
+::s-adj eponymous        ::t-noun eponym
+::s-adj equanimous       ::t-noun equanimity
+::s-adj equatorial       ::t-noun equator
+::s-adj Equatorial Guinean::t-noun Equatorial Guinea
+::s-adj equestrian       ::t-noun knight
+::s-adj equestrian       ::t-noun riding
+::s-adj equine           ::t-noun horse
+::s-adj equinoctial      ::t-noun equator
+::s-adj equinoctial      ::t-noun equinox
+::s-adj equivalent       ::t-noun equivalence
+::s-adj eremitic         ::t-noun eremite
+::s-adj ergonomic        ::t-noun biotechnology
+::s-adj ergotic          ::t-noun ergot
+::s-adj Eritrean         ::t-noun Eritrea
+::s-adj eruptive         ::t-noun eruption
+::s-adj erythroid        ::t-noun red blood cell
+::s-adj eschatological   ::t-noun eschatology
+::s-adj essential        ::t-noun essence
+::s-adj Estonian         ::t-noun Estonia
+::s-adj estrogenic       ::t-noun estrogen
+::s-adj estuarine        ::t-noun estuary
+::s-adj esurient         ::t-noun esurience
+::s-adj ethereal         ::t-noun ether
+::s-adj ethical          ::t-noun ethics
+::s-adj Ethiopian        ::t-noun Ethiopia
+::s-adj ethnographic     ::t-noun ethnography
+::s-adj ethnological     ::t-noun ethnology
+::s-adj etiological      ::t-noun etiology
+::s-adj etymological     ::t-noun etymology
+::s-adj euclidian        ::t-noun Euclid
+::s-adj eugenic          ::t-noun eugenics
+::s-adj eukaryotic       ::t-noun eukaryote
+::s-adj euphonic         ::t-noun music
+::s-adj euphonious       ::t-noun euphony
+::s-adj euphonous        ::t-noun euphony
+::s-adj European         ::t-noun Europe
+::s-adj eutherian        ::t-noun Eutheria
+::s-adj evanescent       ::t-noun evanescence
+::s-adj evangelical      ::t-noun Gospel
+::s-adj evaporative      ::t-noun vaporization
+::s-adj evident          ::t-noun evidence
+::s-adj evidentiary      ::t-noun evidence
+::s-adj evolutionary     ::t-noun evolution
+::s-adj excellent        ::t-noun excellence
+::s-adj excrescent       ::t-noun excrescence
+::s-adj excrescent       ::t-noun growth
+::s-adj excretory        ::t-noun elimination
+::s-adj exegetic         ::t-noun exegesis
+::s-adj exigent          ::t-noun exigency
+::s-adj exiguous         ::t-noun exiguity
+::s-adj exilic           ::t-noun exile
+::s-adj existent         ::t-noun existence
+::s-adj existential      ::t-noun being
+::s-adj exodontic        ::t-noun exodontics
+::s-adj exogamous        ::t-noun exogamy
+::s-adj exorbitant       ::t-noun exorbitance
+::s-adj expedient        ::t-noun expedience
+::s-adj expedient        ::t-noun expediency
+::s-adj experiential     ::t-noun experience
+::s-adj experimental     ::t-noun experiment
+::s-adj expiatory        ::t-noun expiation
+::s-adj expiratory       ::t-noun exhalation
+::s-adj exponential      ::t-noun exponent
+::s-adj exteroceptive    ::t-noun exteroception
+::s-adj extravagant      ::t-noun extravagance
+::s-adj exuberant        ::t-noun exuberance
+::s-adj exuvial          ::t-noun exuviae
+::s-adj facial           ::t-noun side
+::s-adj factual          ::t-noun fact
+::s-adj facultative      ::t-noun faculty
+::s-adj faineant         ::t-noun faineance
+::s-adj falconine        ::t-noun falcon
+::s-adj fallacious       ::t-noun fallacy
+::s-adj familial         ::t-noun family
+::s-adj famous           ::t-noun fame
+::s-adj Far Eastern      ::t-noun Far East
+::s-adj Faroese          ::t-noun Faroe Islands
+::s-adj fast             ::t-noun speed
+::s-adj fatuous          ::t-noun fatuity
+::s-adj faucal           ::t-noun fauces
+::s-adj febrile          ::t-noun fever
+::s-adj feline           ::t-noun cat
+::s-adj felonious        ::t-noun felony
+::s-adj femoral          ::t-noun femur
+::s-adj femoral          ::t-noun thigh
+::s-adj fenestral        ::t-noun window
+::s-adj ferial           ::t-noun feria
+::s-adj ferocious        ::t-noun ferocity
+::s-adj ferric           ::t-noun iron
+::s-adj fervent          ::t-noun fervency
+::s-adj fetal            ::t-noun fetus
+::s-adj feudatory        ::t-noun allegiance
+::s-adj fiber-optic      ::t-noun fiber optics
+::s-adj fibrinous        ::t-noun fibrin
+::s-adj fibrous          ::t-noun fibre
+::s-adj fictile          ::t-noun pottery
+::s-adj fictional        ::t-noun fiction
+::s-adj fiducial         ::t-noun standard
+::s-adj fiduciary        ::t-noun trust
+::s-adj Fijian           ::t-noun Fiji
+::s-adj filar            ::t-noun fibril
+::s-adj filarial         ::t-noun filaria
+::s-adj filariid         ::t-noun Filariidae
+::s-adj filial           ::t-noun offspring
+::s-adj Filipino         ::t-noun Philippines
+::s-adj Finnish          ::t-noun Finland
+::s-adj firmamental      ::t-noun celestial sphere
+::s-adj fiscal           ::t-noun finance
+::s-adj fishy            ::t-noun fish
+::s-adj fistulous        ::t-noun fistula
+::s-adj flagellate       ::t-noun flagellum
+::s-adj flagellate       ::t-noun lash
+::s-adj flagellate       ::t-noun whip
+::s-adj flaky            ::t-noun bit
+::s-adj flamboyant       ::t-noun flamboyance
+::s-adj flatulent        ::t-noun flatulence
+::s-adj flatulent        ::t-noun flatulency
+::s-adj fleshy           ::t-noun flesh
+::s-adj flinty           ::t-noun flint
+::s-adj flippant         ::t-noun flippancy
+::s-adj floral           ::t-noun vegetation
+::s-adj flowery          ::t-noun flower
+::s-adj fluent           ::t-noun fluency
+::s-adj fluorescent      ::t-noun fluorescence
+::s-adj fluvial          ::t-noun river
+::s-adj focal            ::t-noun focus
+::s-adj foliaceous       ::t-noun leaf
+::s-adj foliate          ::t-noun leaf
+::s-adj follicular       ::t-noun follicle
+::s-adj forcipate        ::t-noun forceps
+::s-adj formic           ::t-noun ant
+::s-adj formulary        ::t-noun formula
+::s-adj fortuitous       ::t-noun fortuity
+::s-adj fossiliferous    ::t-noun fossil
+::s-adj fragrant         ::t-noun fragrance
+::s-adj Franciscan       ::t-noun Francis of Assisi
+::s-adj fraternal        ::t-noun brotherhood
+::s-adj fraudulent       ::t-noun fraudulence
+::s-adj French           ::t-noun France
+::s-adj frequent         ::t-noun frequence
+::s-adj frequent         ::t-noun frequency
+::s-adj frictionless     ::t-noun friction
+::s-adj frivolous        ::t-noun frivolity
+::s-adj frontal          ::t-noun front
+::s-adj fugal            ::t-noun fugue
+::s-adj functional       ::t-noun function
+::s-adj funerary         ::t-noun funeral
+::s-adj fungal           ::t-noun fungus
+::s-adj fungoid          ::t-noun fungus
+::s-adj funicular        ::t-noun cable
+::s-adj furious          ::t-noun fury
+::s-adj Gabonese         ::t-noun Gabon
+::s-adj galactic         ::t-noun galaxy
+::s-adj Gallic           ::t-noun Gaul
+::s-adj Galwegian        ::t-noun Galloway
+::s-adj Gambian          ::t-noun Gambia
+::s-adj gangrenous       ::t-noun gangrene
+::s-adj garlicky         ::t-noun garlic
+::s-adj garrulous        ::t-noun garrulity
+::s-adj gastric          ::t-noun stomach
+::s-adj gastroduodenal   ::t-noun duodenum
+::s-adj gastroesophageal ::t-noun esophagus
+::s-adj gastronomic      ::t-noun gastronomy
+::s-adj gelatinous       ::t-noun gelatine
+::s-adj gemmiferous      ::t-noun gemma
+::s-adj genealogic       ::t-noun genealogy
+::s-adj generic          ::t-noun genus
+::s-adj genetic          ::t-noun genetics
+::s-adj genetic          ::t-noun origin
+::s-adj genial           ::t-noun mentum
+::s-adj genic            ::t-noun gene
+::s-adj genitourinary    ::t-noun genitalia
+::s-adj genotypical      ::t-noun genotype
+::s-adj geodetic         ::t-noun geodesy
+::s-adj geographic       ::t-noun geography
+::s-adj geological       ::t-noun geology
+::s-adj geometric        ::t-noun geometry
+::s-adj geophysical      ::t-noun geophysics
+::s-adj geophytic        ::t-noun geophyte
+::s-adj geopolitical     ::t-noun geopolitics
+::s-adj Georgian         ::t-noun Georgia
+::s-adj geriatric        ::t-noun aged
+::s-adj geriatric        ::t-noun geriatrics
+::s-adj German           ::t-noun Germany
+::s-adj gerundial        ::t-noun gerund
+::s-adj gestational      ::t-noun pregnancy
+::s-adj Ghanaian         ::t-noun Ghana
+::s-adj gingival         ::t-noun gingiva
+::s-adj glacial          ::t-noun glacier
+::s-adj gladiatorial     ::t-noun gladiator
+::s-adj glandular        ::t-noun gland
+::s-adj glomerular       ::t-noun glomerulus
+::s-adj glorious         ::t-noun glory
+::s-adj glottal          ::t-noun glottis
+::s-adj gluteal          ::t-noun gluteus
+::s-adj gluttonous       ::t-noun gluttony
+::s-adj glycogenic       ::t-noun glycogen
+::s-adj gnomic           ::t-noun gnome
+::s-adj gonadal          ::t-noun gonad
+::s-adj gonadotropic     ::t-noun gonadotropin
+::s-adj Gothic           ::t-noun Goth
+::s-adj gracious         ::t-noun grace
+::s-adj grammatical      ::t-noun grammar
+::s-adj grandiloquent    ::t-noun grandiloquence
+::s-adj granuliferous    ::t-noun granule
+::s-adj granulocytic     ::t-noun granulocyte
+::s-adj grapelike        ::t-noun grape
+::s-adj graphic          ::t-noun graph
+::s-adj graphic          ::t-noun graphics
+::s-adj gratuitous       ::t-noun gratuity
+::s-adj gravitational    ::t-noun gravity
+::s-adj Greek            ::t-noun Greece
+::s-adj green            ::t-noun Green Party
+::s-adj greenside        ::t-noun green
+::s-adj Gregorian        ::t-noun plainsong
+::s-adj grubby           ::t-noun grub
+::s-adj Guatemalan       ::t-noun Guatemala
+::s-adj gubernatorial    ::t-noun governor
+::s-adj guilty           ::t-noun guilt
+::s-adj Guinean          ::t-noun Guinea
+::s-adj gustatory        ::t-noun taste
+::s-adj guttural         ::t-noun throat
+::s-adj Guyanan          ::t-noun Guyana
+::s-adj gymnastic        ::t-noun gymnastics
+::s-adj gymnosophical    ::t-noun gymnosophy
+::s-adj gynecological    ::t-noun gynecology
+::s-adj gyral            ::t-noun gyrus
+::s-adj gyroscopic       ::t-noun gyroscope
+::s-adj hadal            ::t-noun ocean floor
+::s-adj haemophilic      ::t-noun hemophilia
+::s-adj Haitian          ::t-noun Haiti
+::s-adj haptic           ::t-noun touch
+::s-adj harmonic         ::t-noun harmony
+::s-adj harmonious       ::t-noun harmony
+::s-adj Hawaiian         ::t-noun Hawaii
+::s-adj Hebraic          ::t-noun Hebrew
+::s-adj heliacal         ::t-noun sun
+::s-adj hemal            ::t-noun blood vessel
+::s-adj hematologic      ::t-noun hematology
+::s-adj hemic            ::t-noun blood
+::s-adj hemispheric      ::t-noun hemisphere
+::s-adj hemispherical    ::t-noun hemisphere
+::s-adj hemolytic        ::t-noun hemolysis
+::s-adj hemorrhagic      ::t-noun bleeding
+::s-adj hepatic          ::t-noun liver
+::s-adj heraldic         ::t-noun heraldry
+::s-adj herbal           ::t-noun herb
+::s-adj herbivorous      ::t-noun herbivore
+::s-adj hermeneutic      ::t-noun hermeneutics
+::s-adj heroic           ::t-noun hero
+::s-adj hesitant         ::t-noun hesitance
+::s-adj hesitant         ::t-noun hesitancy
+::s-adj heterodyne       ::t-noun beat
+::s-adj heterogeneous    ::t-noun heterogeneity
+::s-adj hexangular       ::t-noun hexagon
+::s-adj hidrotic         ::t-noun perspiration
+::s-adj hieroglyphic     ::t-noun hieroglyph
+::s-adj hilar            ::t-noun hilus
+::s-adj hilarious        ::t-noun hilarity
+::s-adj hiplength        ::t-noun hipline
+::s-adj hircine          ::t-noun goat
+::s-adj Hispanic         ::t-noun Spanish American
+::s-adj histological     ::t-noun histology
+::s-adj historical       ::t-noun history
+::s-adj holographic      ::t-noun manuscript
+::s-adj homeopathic      ::t-noun homeopathy
+::s-adj homiletic        ::t-noun homiletics
+::s-adj homiletic        ::t-noun homily
+::s-adj homogeneous      ::t-noun homogeneity
+::s-adj homologous       ::t-noun homology
+::s-adj homonymic        ::t-noun homonym
+::s-adj homophonous      ::t-noun homophone
+::s-adj homophonous      ::t-noun homophony
+::s-adj Honduran         ::t-noun Honduras
+::s-adj honest           ::t-noun honesty
+::s-adj hooflike         ::t-noun hoof
+::s-adj horary           ::t-noun hour
+::s-adj hormonal         ::t-noun hormone
+::s-adj horse-drawn      ::t-noun horse
+::s-adj horticultural    ::t-noun gardening
+::s-adj humoral          ::t-noun liquid body substance
+::s-adj Hungarian        ::t-noun Hungary
+::s-adj hydraulic        ::t-noun water
+::s-adj hydrodynamic     ::t-noun hydrodynamics
+::s-adj hydrokinetic     ::t-noun hydrodynamics
+::s-adj hydrometric      ::t-noun hydrometry
+::s-adj hydropathic      ::t-noun hydropathy
+::s-adj hydrostatic      ::t-noun hydrostatics
+::s-adj hydroxy          ::t-noun hydroxyl
+::s-adj hymenal          ::t-noun hymen
+::s-adj hyperbolic       ::t-noun hyperbola
+::s-adj hyperemic        ::t-noun hyperemia
+::s-adj hyperthermal     ::t-noun hyperthermia
+::s-adj hypnotic         ::t-noun hypnosis
+::s-adj hypodermal       ::t-noun hypodermis
+::s-adj hypodermic       ::t-noun skin
+::s-adj hypoglycemic     ::t-noun hypoglycemia
+::s-adj hypophyseal      ::t-noun pituitary
+::s-adj hypothalamic     ::t-noun hypothalamus
+::s-adj hypothermic      ::t-noun hypothermia
+::s-adj iambic           ::t-noun iamb
+::s-adj Icelander        ::t-noun Iceland
+::s-adj Icelandic        ::t-noun Iceland
+::s-adj ichorous         ::t-noun pus
+::s-adj iconic           ::t-noun icon
+::s-adj icosahedral      ::t-noun icosahedron
+::s-adj icterogenic      ::t-noun jaundice
+::s-adj ideographic      ::t-noun ideogram
+::s-adj ideological      ::t-noun political orientation
+::s-adj idiomatic        ::t-noun parlance
+::s-adj idolatrous       ::t-noun idolatry
+::s-adj ignominious      ::t-noun ignominy
+::s-adj ignorant         ::t-noun ignorance
+::s-adj iliac            ::t-noun ilium
+::s-adj illegitimate     ::t-noun illegitimacy
+::s-adj illiterate       ::t-noun illiteracy
+::s-adj immanent         ::t-noun immanence
+::s-adj immanent         ::t-noun immanency
+::s-adj immediate        ::t-noun immediacy
+::s-adj imminent         ::t-noun imminence
+::s-adj imminent         ::t-noun imminency
+::s-adj immunochemical   ::t-noun immunochemistry
+::s-adj immunological    ::t-noun immunology
+::s-adj impatient        ::t-noun impatience
+::s-adj impendent        ::t-noun impendence
+::s-adj impendent        ::t-noun impendency
+::s-adj impenitent       ::t-noun impenitence
+::s-adj impenitent       ::t-noun impenitency
+::s-adj imperial         ::t-noun emperor
+::s-adj imperial         ::t-noun empire
+::s-adj impermanent      ::t-noun impermanence
+::s-adj impermanent      ::t-noun impermanency
+::s-adj impertinent      ::t-noun impertinence
+::s-adj impetiginous     ::t-noun impetigo
+::s-adj implicational    ::t-noun implication
+::s-adj important        ::t-noun importance
+::s-adj impressionistic  ::t-noun impression
+::s-adj improvident      ::t-noun improvidence
+::s-adj imprudent        ::t-noun imprudence
+::s-adj impudent         ::t-noun impudence
+::s-adj inaccurate       ::t-noun inaccuracy
+::s-adj inadequate       ::t-noun inadequacy
+::s-adj inadvertent      ::t-noun inadvertence
+::s-adj inadvertent      ::t-noun inadvertency
+::s-adj incandescent     ::t-noun incandescence
+::s-adj incendiary       ::t-noun arson
+::s-adj incessant        ::t-noun incessancy
+::s-adj incestuous       ::t-noun familiarity
+::s-adj incestuous       ::t-noun incest
+::s-adj incident         ::t-noun incidence
+::s-adj inclement        ::t-noun inclemency
+::s-adj incoherent       ::t-noun incoherence
+::s-adj incoherent       ::t-noun incoherency
+::s-adj incompetent      ::t-noun incompetence
+::s-adj incompetent      ::t-noun incompetency
+::s-adj incongruous      ::t-noun incongruity
+::s-adj inconsequent     ::t-noun inconsequence
+::s-adj inconsistent     ::t-noun inconsistency
+::s-adj inconstant       ::t-noun inconstancy
+::s-adj incontinent      ::t-noun incontinence
+::s-adj incontinent      ::t-noun incontinency
+::s-adj inconvenient     ::t-noun inconvenience
+::s-adj incredulous      ::t-noun incredulity
+::s-adj incumbent        ::t-noun incumbency
+::s-adj indecent         ::t-noun indecency
+::s-adj indelicate       ::t-noun indelicacy
+::s-adj independent      ::t-noun independence
+::s-adj independent      ::t-noun independency
+::s-adj indexical        ::t-noun index
+::s-adj indifferent      ::t-noun indifference
+::s-adj indigent         ::t-noun indigence
+::s-adj Indo-European    ::t-noun Aryan
+::s-adj indolent         ::t-noun indolence
+::s-adj Indonesian       ::t-noun Indonesia
+::s-adj inductive        ::t-noun induction
+::s-adj indulgent        ::t-noun indulgence
+::s-adj indusial         ::t-noun indusium
+::s-adj industrial       ::t-noun industry
+::s-adj industrious      ::t-noun industry
+::s-adj inefficacious    ::t-noun inefficacy
+::s-adj inefficient      ::t-noun inefficiency
+::s-adj inelegant        ::t-noun inelegance
+::s-adj inertial         ::t-noun inertia
+::s-adj inexpedient      ::t-noun inexpedience
+::s-adj inexpedient      ::t-noun inexpediency
+::s-adj infamous         ::t-noun infamy
+::s-adj infant           ::t-noun infancy
+::s-adj infantile        ::t-noun infancy
+::s-adj infectious       ::t-noun infection
+::s-adj infelicitous     ::t-noun infelicity
+::s-adj inferential      ::t-noun inference
+::s-adj infernal         ::t-noun conflagration
+::s-adj infernal         ::t-noun hell
+::s-adj infinitival      ::t-noun infinitive
+::s-adj influent         ::t-noun influence
+::s-adj informational    ::t-noun information
+::s-adj infrequent       ::t-noun infrequency
+::s-adj ingenuous        ::t-noun ingenuity
+::s-adj inguinal         ::t-noun groin
+::s-adj inherent         ::t-noun inherence
+::s-adj iniquitous       ::t-noun iniquity
+::s-adj injurious        ::t-noun injury
+::s-adj innocent         ::t-noun innocence
+::s-adj inquisitorial    ::t-noun inquisitor
+::s-adj insalubrious     ::t-noun insalubrity
+::s-adj inscriptive      ::t-noun inscription
+::s-adj insectan         ::t-noun insect
+::s-adj insecticidal     ::t-noun insecticide
+::s-adj insectivorous    ::t-noun insectivore
+::s-adj insentient       ::t-noun insentience
+::s-adj insignificant    ::t-noun insignificance
+::s-adj insistent        ::t-noun insistence
+::s-adj insistent        ::t-noun insistency
+::s-adj insolent         ::t-noun insolence
+::s-adj insolvent        ::t-noun insolvency
+::s-adj insouciant       ::t-noun insouciance
+::s-adj inspiratory      ::t-noun inhalation
+::s-adj institutional    ::t-noun institution
+::s-adj instructional    ::t-noun teaching
+::s-adj instrumental     ::t-noun musical instrument
+::s-adj insufficient     ::t-noun insufficiency
+::s-adj insular          ::t-noun island
+::s-adj insurgent        ::t-noun insurgency
+::s-adj insurrectional   ::t-noun rebellion
+::s-adj integral         ::t-noun integer
+::s-adj integumentary    ::t-noun integument
+::s-adj intelligent      ::t-noun intelligence
+::s-adj interdependent   ::t-noun interdependence
+::s-adj interdependent   ::t-noun interdependency
+::s-adj interfacial      ::t-noun interface
+::s-adj interlocutory    ::t-noun dialogue
+::s-adj intermittent     ::t-noun intermittence
+::s-adj interoceptive    ::t-noun interoception
+::s-adj interstitial     ::t-noun interstice
+::s-adj intestinal       ::t-noun intestine
+::s-adj intimal          ::t-noun intima
+::s-adj intimate         ::t-noun intimacy
+::s-adj intolerant       ::t-noun intolerance
+::s-adj intransigent     ::t-noun intransigence
+::s-adj intransigent     ::t-noun intransigency
+::s-adj intricate        ::t-noun intricacy
+::s-adj invariant        ::t-noun invariance
+::s-adj invitational     ::t-noun invitation
+::s-adj involucrate      ::t-noun involucre
+::s-adj ionic            ::t-noun ion
+::s-adj Iranian          ::t-noun Iran
+::s-adj Iraqi            ::t-noun Iraq
+::s-adj iridescent       ::t-noun iridescence
+::s-adj iridic           ::t-noun iridium
+::s-adj iridic           ::t-noun iris
+::s-adj Irish            ::t-noun Ireland
+::s-adj iritic           ::t-noun iris
+::s-adj irrational       ::t-noun ratio
+::s-adj irrelevant       ::t-noun irrelevance
+::s-adj irrelevant       ::t-noun irrelevancy
+::s-adj irreverent       ::t-noun irreverence
+::s-adj isometric        ::t-noun isometry
+::s-adj isopteran        ::t-noun Isoptera
+::s-adj isothermic       ::t-noun isotherm
+::s-adj isotonic         ::t-noun tone
+::s-adj isotopic         ::t-noun isotope
+::s-adj Israeli          ::t-noun Israel
+::s-adj isthmian         ::t-noun isthmus
+::s-adj Italian          ::t-noun Italy
+::s-adj Jamaican         ::t-noun Jamaica
+::s-adj Japanese         ::t-noun Japan
+::s-adj Jesuitical       ::t-noun Jesuit
+::s-adj Jewish           ::t-noun Jew
+::s-adj jihadi           ::t-noun jihad
+::s-adj jittery          ::t-noun jitter
+::s-adj Jordanian        ::t-noun Jordan
+::s-adj Jovian           ::t-noun Jupiter
+::s-adj jubilant         ::t-noun jubilance
+::s-adj jubilant         ::t-noun jubilancy
+::s-adj Judeo-Christian  ::t-noun Christianity
+::s-adj judicial         ::t-noun justice
+::s-adj jugular          ::t-noun neck
+::s-adj jurisprudential  ::t-noun jurisprudence
+::s-adj juvenile         ::t-noun youth
+::s-adj Kazakh           ::t-noun Kazakhstan
+::s-adj Kazakhstani      ::t-noun Kazakhstan
+::s-adj Kenyian          ::t-noun Kenya
+::s-adj kinesthetic      ::t-noun kinesthesis
+::s-adj kinetic          ::t-noun dynamics
+::s-adj Korean           ::t-noun Korea
+::s-adj Kuwaiti          ::t-noun Kuwait
+::s-adj Kyrgyzstani      ::t-noun Kyrgyzstan
+::s-adj labial           ::t-noun labium
+::s-adj labial           ::t-noun lip
+::s-adj labyrinthine     ::t-noun inner ear
+::s-adj lacrimal         ::t-noun tear
+::s-adj lacrimatory      ::t-noun tear
+::s-adj lacteal          ::t-noun milk
+::s-adj lactic           ::t-noun milk
+::s-adj lacustrine       ::t-noun lake
+::s-adj lambent          ::t-noun lambency
+::s-adj Laotian          ::t-noun Laos
+::s-adj lapidary         ::t-noun gem
+::s-adj large-capitalization::t-noun market capitalization
+::s-adj larval           ::t-noun larva
+::s-adj laryngeal        ::t-noun larynx
+::s-adj laryngopharyngeal::t-noun larynx
+::s-adj latent           ::t-noun latency
+::s-adj lathery          ::t-noun lather
+::s-adj lathery          ::t-noun soapsuds
+::s-adj Latin            ::t-noun Latium
+::s-adj Latin American   ::t-noun Latin America
+::s-adj latinate         ::t-noun Latin
+::s-adj latitudinal      ::t-noun latitude
+::s-adj Latvian          ::t-noun Latvia
+::s-adj leaden           ::t-noun lead
+::s-adj Lebanese         ::t-noun Lebanon
+::s-adj lecherous        ::t-noun lechery
+::s-adj legal            ::t-noun law
+::s-adj legislative      ::t-noun legislature
+::s-adj legitimate       ::t-noun legitimacy
+::s-adj leguminous       ::t-noun legume
+::s-adj lenient          ::t-noun lenience
+::s-adj lenient          ::t-noun leniency
+::s-adj lenten           ::t-noun Lent
+::s-adj leonine          ::t-noun lion
+::s-adj leprous          ::t-noun leprosy
+::s-adj Levantine        ::t-noun Levant
+::s-adj lexical          ::t-noun dictionary
+::s-adj lexical          ::t-noun word
+::s-adj lexicographic    ::t-noun lexicography
+::s-adj Liberian         ::t-noun Liberia
+::s-adj libidinal        ::t-noun libido
+::s-adj Libyan           ::t-noun Libya
+::s-adj licentious       ::t-noun licente
+::s-adj Liechtensteiner  ::t-noun Liechtenstein
+::s-adj limacine         ::t-noun slug
+::s-adj limbic           ::t-noun limbus
+::s-adj limnological     ::t-noun limnology
+::s-adj lingual          ::t-noun tongue
+::s-adj linguistic       ::t-noun linguistics
+::s-adj literate         ::t-noun literacy
+::s-adj lithic           ::t-noun lithium
+::s-adj lithic           ::t-noun rock
+::s-adj lithographic     ::t-noun lithography
+::s-adj lithomantic      ::t-noun lithomancy
+::s-adj lithophytic      ::t-noun lithophyte
+::s-adj Lithuanian       ::t-noun Lithuania
+::s-adj litigious        ::t-noun litigation
+::s-adj liturgical       ::t-noun liturgy
+::s-adj lobar            ::t-noun lobe
+::s-adj lobate           ::t-noun lobe
+::s-adj lobular          ::t-noun lobule
+::s-adj local            ::t-noun vicinity
+::s-adj locomotive       ::t-noun locomotion
+::s-adj logarithmic      ::t-noun logarithm
+::s-adj logistic         ::t-noun logistics
+::s-adj logogrammatic    ::t-noun logogram
+::s-adj long-distance    ::t-noun long distance
+::s-adj longanimous      ::t-noun longanimity
+::s-adj longitudinal     ::t-noun longitude
+::s-adj loopy            ::t-noun loop
+::s-adj loquacious       ::t-noun loquacity
+::s-adj lumbar           ::t-noun loin
+::s-adj luminescent      ::t-noun luminescence
+::s-adj lunar            ::t-noun Moon
+::s-adj lupine           ::t-noun wolf
+::s-adj lustrous         ::t-noun lustre
+::s-adj Luxembourger     ::t-noun Luxembourg
+::s-adj luxuriant        ::t-noun luxuriance
+::s-adj lymphatic        ::t-noun lymph
+::s-adj lymphocytic      ::t-noun lymphocyte
+::s-adj lymphoid         ::t-noun lymph
+::s-adj lyric            ::t-noun opera
+::s-adj lysogenic        ::t-noun lysis
+::s-adj macaronic        ::t-noun Latin
+::s-adj macaronic        ::t-noun vernacular
+::s-adj Macedonian       ::t-noun Macedonia
+::s-adj macerative       ::t-noun maceration
+::s-adj macrobiotic      ::t-noun macrobiotics
+::s-adj macrocephalic    ::t-noun macrocephaly
+::s-adj macrocosmic      ::t-noun universe
+::s-adj macroeconomic    ::t-noun macroeconomics
+::s-adj macromolecular   ::t-noun macromolecule
+::s-adj magisterial      ::t-noun magistrate
+::s-adj magnanimous      ::t-noun magnanimity
+::s-adj magnificent      ::t-noun magnificence
+::s-adj magniloquent     ::t-noun magniloquence
+::s-adj Malagasy         ::t-noun Madagascar
+::s-adj malarial         ::t-noun malaria
+::s-adj Malawian         ::t-noun Malawi
+::s-adj Malaysian        ::t-noun Malaysia
+::s-adj Maldivian        ::t-noun Maldives
+::s-adj maleficent       ::t-noun maleficence
+::s-adj malevolent       ::t-noun malevolence
+::s-adj malevolent       ::t-noun malevolency
+::s-adj Malian           ::t-noun Mali
+::s-adj malicious        ::t-noun malice
+::s-adj malignant        ::t-noun malignance
+::s-adj malignant        ::t-noun malignancy
+::s-adj Maltese          ::t-noun Malta
+::s-adj mammalian        ::t-noun Mammalia
+::s-adj managerial       ::t-noun management
+::s-adj manorial         ::t-noun manor
+::s-adj manual           ::t-noun hand
+::s-adj marine           ::t-noun United States Marine Corps
+::s-adj marital          ::t-noun marriage
+::s-adj marly            ::t-noun marl
+::s-adj marmorean        ::t-noun marble
+::s-adj marsupial        ::t-noun marsupium
+::s-adj Masonic          ::t-noun Freemason
+::s-adj masonic          ::t-noun mason
+::s-adj masonic          ::t-noun masonry
+::s-adj mastoid          ::t-noun nipple
+::s-adj maternal         ::t-noun mother
+::s-adj mathematical     ::t-noun mathematics
+::s-adj maturational     ::t-noun growth
+::s-adj matutinal        ::t-noun morning
+::s-adj Mauritanian      ::t-noun Mauritius
+::s-adj Mauritian        ::t-noun Mauritius
+::s-adj maxillofacial    ::t-noun face
+::s-adj maxillomandibular::t-noun jaw
+::s-adj Mayan            ::t-noun Maya
+::s-adj mayoral          ::t-noun mayor
+::s-adj mealy            ::t-noun meal
+::s-adj mechanical       ::t-noun mechanics
+::s-adj mediate          ::t-noun mediacy
+::s-adj mediatorial      ::t-noun mediator
+::s-adj mediatory        ::t-noun mediation
+::s-adj medical          ::t-noun medicine
+::s-adj medicolegal      ::t-noun medicine
+::s-adj medieval         ::t-noun Middle Ages
+::s-adj medullary        ::t-noun medulla
+::s-adj medusoid         ::t-noun medusa
+::s-adj megakaryocytic   ::t-noun megakaryocyte
+::s-adj megalithic       ::t-noun megalith
+::s-adj meiotic          ::t-noun meiosis
+::s-adj melodic          ::t-noun tune
+::s-adj membranous       ::t-noun membrane
+::s-adj mendacious       ::t-noun mendacity
+::s-adj mendicant        ::t-noun mendicancy
+::s-adj meningeal        ::t-noun meninx
+::s-adj menopausal       ::t-noun menopause
+::s-adj mensal           ::t-noun dining table
+::s-adj mensural         ::t-noun measure
+::s-adj mental           ::t-noun mentum
+::s-adj mental           ::t-noun mind
+::s-adj mercuric         ::t-noun mercury
+::s-adj meretricious     ::t-noun prostitute
+::s-adj meridian         ::t-noun noon
+::s-adj meridional       ::t-noun meridian
+::s-adj meritocratic     ::t-noun meritocracy
+::s-adj mesenteric       ::t-noun mesentery
+::s-adj mesoblastic      ::t-noun mesoderm
+::s-adj mesonic          ::t-noun meson
+::s-adj messianic        ::t-noun messiah
+::s-adj metacarpal       ::t-noun metacarpus
+::s-adj metacentric      ::t-noun metacenter
+::s-adj metallurgical    ::t-noun metallurgy
+::s-adj metaphysical     ::t-noun metaphysics
+::s-adj metastatic       ::t-noun metastasis
+::s-adj metatarsal       ::t-noun metatarsus
+::s-adj meteoric         ::t-noun meteoroid
+::s-adj meteoritic       ::t-noun meteorite
+::s-adj meteorologic     ::t-noun meteorology
+::s-adj methodological   ::t-noun methodology
+::s-adj metric           ::t-noun meter
+::s-adj metropolitan     ::t-noun city
+::s-adj Mexican          ::t-noun Mexico
+::s-adj micaceous        ::t-noun mica
+::s-adj microbial        ::t-noun microbe
+::s-adj microcephalic    ::t-noun microcephaly
+::s-adj microcosmic      ::t-noun microcosm
+::s-adj microelectronic  ::t-noun microelectronics
+::s-adj micrometeoritic  ::t-noun micrometeorite
+::s-adj micropylar       ::t-noun micropyle
+::s-adj microscopic      ::t-noun microscopy
+::s-adj microsomal       ::t-noun microsome
+::s-adj Middle Eastern   ::t-noun Middle East
+::s-adj migrational      ::t-noun migration
+::s-adj milch            ::t-noun milk
+::s-adj militant         ::t-noun militance
+::s-adj militant         ::t-noun militancy
+::s-adj millenarian      ::t-noun millennium
+::s-adj millenary        ::t-noun thousand
+::s-adj millennial       ::t-noun millennium
+::s-adj ministerial      ::t-noun minister
+::s-adj minty            ::t-noun mint
+::s-adj misogynous       ::t-noun misogyny
+::s-adj missionary       ::t-noun mission
+::s-adj mitotic          ::t-noun mitosis
+::s-adj mitral           ::t-noun miter
+::s-adj mnemonic         ::t-noun mnemonics
+::s-adj modal            ::t-noun mode
+::s-adj modal            ::t-noun mood
+::s-adj molal            ::t-noun gram molecule
+::s-adj Moldovan         ::t-noun Moldova
+::s-adj molecular        ::t-noun molecule
+::s-adj Monacan          ::t-noun Monaco
+::s-adj monandrous       ::t-noun monandry
+::s-adj Monegasque       ::t-noun Monaco
+::s-adj moneran          ::t-noun Monera
+::s-adj monetary         ::t-noun money
+::s-adj Mongolian        ::t-noun Mongolia
+::s-adj mongoloid        ::t-noun Mongol
+::s-adj monocarpic       ::t-noun monocarp
+::s-adj monochromatic    ::t-noun monochromacy
+::s-adj monochromatic    ::t-noun monochrome
+::s-adj monogamous       ::t-noun monogamy
+::s-adj monogynous       ::t-noun monogyny
+::s-adj monotonous       ::t-noun monotone
+::s-adj monotonous       ::t-noun monotony
+::s-adj monotypic        ::t-noun monotype
+::s-adj montane          ::t-noun mountain
+::s-adj Montenegrin      ::t-noun Montenegro
+::s-adj monumental       ::t-noun memorial
+::s-adj morbilliform     ::t-noun measles
+::s-adj Moroccan         ::t-noun Morocco
+::s-adj morphemic        ::t-noun morpheme
+::s-adj morphologic      ::t-noun morphology
+::s-adj morphophonemic   ::t-noun morphophonemics
+::s-adj mortuary         ::t-noun funeral
+::s-adj Mosotho          ::t-noun Lesotho
+::s-adj motional         ::t-noun movement
+::s-adj motivational     ::t-noun motivation
+::s-adj mousy            ::t-noun mouse
+::s-adj Mozambican       ::t-noun Mozambique
+::s-adj mucinoid         ::t-noun mucin
+::s-adj mucinous         ::t-noun mucin
+::s-adj mucoid           ::t-noun mucus
+::s-adj mucopurulent     ::t-noun pus
+::s-adj mucous           ::t-noun mucus
+::s-adj multilevel       ::t-noun floor
+::s-adj multiphase       ::t-noun phase
+::s-adj munificent       ::t-noun munificence
+::s-adj mural            ::t-noun wall
+::s-adj murine           ::t-noun Muridae
+::s-adj muscular         ::t-noun muscle
+::s-adj musical          ::t-noun music
+::s-adj Muslim           ::t-noun Islam
+::s-adj mutational       ::t-noun mutation
+::s-adj mutative         ::t-noun mutation
+::s-adj mutinous         ::t-noun mutiny
+::s-adj myalgic          ::t-noun myalgia
+::s-adj myelic           ::t-noun spinal cord
+::s-adj myelinic         ::t-noun myelin
+::s-adj myeloid          ::t-noun marrow
+::s-adj myeloid          ::t-noun spinal cord
+::s-adj myocardial       ::t-noun myocardium
+::s-adj myoid            ::t-noun muscle
+::s-adj myrmecophilous   ::t-noun myrmecophile
+::s-adj myrmecophytic    ::t-noun myrmecophyte
+::s-adj mysterious       ::t-noun mystery
+::s-adj mythic           ::t-noun myth
+::s-adj nacreous         ::t-noun mother-of-pearl
+::s-adj Namibian         ::t-noun Namibia
+::s-adj narial           ::t-noun naris
+::s-adj nascent          ::t-noun nascence
+::s-adj nascent          ::t-noun nascency
+::s-adj nasopharyngeal   ::t-noun nasopharynx
+::s-adj natal            ::t-noun birth
+::s-adj national         ::t-noun nation
+::s-adj national         ::t-noun state
+::s-adj Nauruan          ::t-noun Nauru
+::s-adj nautical         ::t-noun navigation
+::s-adj naval            ::t-noun navy
+::s-adj navigational     ::t-noun navigation
+::s-adj Neanderthal      ::t-noun Neandertal man
+::s-adj nebular          ::t-noun nebula
+::s-adj necessitous      ::t-noun necessity
+::s-adj necromantic      ::t-noun necromancy
+::s-adj necrotic         ::t-noun necrosis
+::s-adj nectar-rich      ::t-noun nectar
+::s-adj nectariferous    ::t-noun nectary
+::s-adj nectarous        ::t-noun nectary
+::s-adj negligent        ::t-noun negligence
+::s-adj neocortical      ::t-noun neopallium
+::s-adj neolithic        ::t-noun Neolithic Age
+::s-adj neonatal         ::t-noun neonate
+::s-adj neoplastic       ::t-noun tumor
+::s-adj Nepalese         ::t-noun Nepal
+::s-adj nephritic        ::t-noun nephritis
+::s-adj nescient         ::t-noun nescience
+::s-adj neural           ::t-noun nerve cell
+::s-adj neuralgic        ::t-noun neuralgia
+::s-adj neurasthenic     ::t-noun neurasthenia
+::s-adj neuroanatomic    ::t-noun neuroanatomy
+::s-adj neuroendocrine   ::t-noun endocrine system
+::s-adj neuroendocrine   ::t-noun nervous system
+::s-adj neurogenic       ::t-noun nervous tissue
+::s-adj neuroglial       ::t-noun neuroglia
+::s-adj neurological     ::t-noun neurology
+::s-adj neuromuscular    ::t-noun muscle
+::s-adj neuromuscular    ::t-noun nerve
+::s-adj neurophysiological::t-noun neurophysiology
+::s-adj neuropsychiatric ::t-noun neuropsychiatry
+::s-adj neuropsychological::t-noun physiological psychology
+::s-adj neurotic         ::t-noun neurosis
+::s-adj New Zealander    ::t-noun New Zealand
+::s-adj Ni-Vanuatu       ::t-noun Vanuatu
+::s-adj Nicaraguan       ::t-noun Nicaragua
+::s-adj Nigeran          ::t-noun Niger
+::s-adj Nilotic          ::t-noun Nile
+::s-adj nilpotent        ::t-noun zero
+::s-adj nitrogenous      ::t-noun nitrogen
+::s-adj nitrous          ::t-noun nitre
+::s-adj nocturnal        ::t-noun night
+::s-adj nodular          ::t-noun nodule
+::s-adj nominal          ::t-noun noun
+::s-adj nonabsorbent     ::t-noun nonabsorbency
+::s-adj nonchalant       ::t-noun nonchalance
+::s-adj noncompliant     ::t-noun noncompliance
+::s-adj nonequivalent    ::t-noun nonequivalence
+::s-adj nonexistent      ::t-noun nonexistence
+::s-adj nonfictional     ::t-noun nonfiction
+::s-adj nonindulgent     ::t-noun nonindulgence
+::s-adj nonobservant     ::t-noun nonobservance
+::s-adj nonviolent       ::t-noun nonviolence
+::s-adj Nordic           ::t-noun Scandinavian
+::s-adj normative        ::t-noun norm
+::s-adj North American   ::t-noun North America
+::s-adj North Korean     ::t-noun North Korea
+::s-adj Northern European::t-noun Northern Europe
+::s-adj Norwegian        ::t-noun Norway
+::s-adj nuclear          ::t-noun nucleus
+::s-adj numeral          ::t-noun number
+::s-adj numerate         ::t-noun numeracy
+::s-adj numinous         ::t-noun numen
+::s-adj nutritional      ::t-noun nutrition
+::s-adj oaten            ::t-noun oat
+::s-adj obdurate         ::t-noun obduracy
+::s-adj obedient         ::t-noun obedience
+::s-adj obligational     ::t-noun obligation
+::s-adj observant        ::t-noun observance
+::s-adj obsolescent      ::t-noun obsolescence
+::s-adj obstetric        ::t-noun obstetrics
+::s-adj obstinate        ::t-noun obstinacy
+::s-adj occipital        ::t-noun occiput
+::s-adj occlusive        ::t-noun occlusion
+::s-adj occupational     ::t-noun occupation
+::s-adj oceanic          ::t-noun ocean
+::s-adj octangular       ::t-noun octagon
+::s-adj ocular           ::t-noun sight
+::s-adj ohmic            ::t-noun ohm
+::s-adj olfactory        ::t-noun smell
+::s-adj oligarchic       ::t-noun oligarchy
+::s-adj Omani            ::t-noun Oman
+::s-adj omissive         ::t-noun omission
+::s-adj omnipotent       ::t-noun omnipotence
+::s-adj omnipresent      ::t-noun omnipresence
+::s-adj omniscient       ::t-noun omniscience
+::s-adj omnivorous       ::t-noun omnivore
+::s-adj on-the-job       ::t-noun occupation
+::s-adj oncological      ::t-noun oncology
+::s-adj oneiric          ::t-noun dream
+::s-adj onomastic        ::t-noun onomastics
+::s-adj onomatopoeic     ::t-noun onomatopoeia
+::s-adj ontogenetic      ::t-noun growth
+::s-adj ontological      ::t-noun ontology
+::s-adj opalescent       ::t-noun opalescence
+::s-adj opaque           ::t-noun opacity
+::s-adj operatic         ::t-noun opera
+::s-adj operational      ::t-noun operation
+::s-adj operculate       ::t-noun operculum
+::s-adj optative         ::t-noun option
+::s-adj optical          ::t-noun optics
+::s-adj opulent          ::t-noun opulence
+::s-adj oracular         ::t-noun oracle
+::s-adj oral             ::t-noun mouth
+::s-adj orbital          ::t-noun eye socket
+::s-adj orbital          ::t-noun orbit
+::s-adj orchestral       ::t-noun orchestra
+::s-adj ordinal          ::t-noun order
+::s-adj organizational   ::t-noun organization
+::s-adj ornithological   ::t-noun ornithology
+::s-adj oropharyngeal    ::t-noun oropharynx
+::s-adj orthodontic      ::t-noun orthodontics
+::s-adj orthographic     ::t-noun orthography
+::s-adj orthopedic       ::t-noun orthopedics
+::s-adj osmotic          ::t-noun osmosis
+::s-adj osseous          ::t-noun bone
+::s-adj ossicular        ::t-noun ossicle
+::s-adj ossiferous       ::t-noun bone
+::s-adj osteal           ::t-noun bone
+::s-adj otic             ::t-noun auricle
+::s-adj otic             ::t-noun ear
+::s-adj outdoor          ::t-noun outdoors
+::s-adj ovarian          ::t-noun ovary
+::s-adj overabundant     ::t-noun overabundance
+::s-adj overconfident    ::t-noun overconfidence
+::s-adj overcredulous    ::t-noun overcredulity
+::s-adj ovular           ::t-noun ovule
+::s-adj ovular           ::t-noun ovum
+::s-adj pachydermatous   ::t-noun pachyderm
+::s-adj Pakistani        ::t-noun Pakistan
+::s-adj palatal          ::t-noun palate
+::s-adj palatial         ::t-noun palace
+::s-adj palatine         ::t-noun palace
+::s-adj Palauan          ::t-noun Palau
+::s-adj paleoanthropological::t-noun paleoanthropology
+::s-adj paleocortical    ::t-noun archipallium
+::s-adj paleolithic      ::t-noun Stone Age
+::s-adj paleontological  ::t-noun paleontology
+::s-adj Palestinian      ::t-noun Palestine
+::s-adj palingenetic     ::t-noun palingenesis
+::s-adj palpatory        ::t-noun palpation
+::s-adj palpebrate       ::t-noun eyelid
+::s-adj Panamanian       ::t-noun Panama
+::s-adj pancreatic       ::t-noun pancreas
+::s-adj paniculate       ::t-noun panicle
+::s-adj papal            ::t-noun pope
+::s-adj papillary        ::t-noun papilla
+::s-adj papilliform      ::t-noun papilla
+::s-adj Papua New Guinean::t-noun Papua New Guinea
+::s-adj parabolic        ::t-noun fable
+::s-adj paradigmatic     ::t-noun paradigm
+::s-adj paradigmatic     ::t-noun prototype
+::s-adj paradigmatic     ::t-noun substitution class
+::s-adj Paraguayan       ::t-noun Paraguay
+::s-adj paralytic        ::t-noun paralysis
+::s-adj paramagnetic     ::t-noun paramagnet
+::s-adj parametric       ::t-noun parameter
+::s-adj paranasal        ::t-noun nasal cavity
+::s-adj parasitic        ::t-noun parasite
+::s-adj parental         ::t-noun parent
+::s-adj parenteral       ::t-noun alimentary canal
+::s-adj parhelic         ::t-noun parhelion
+::s-adj parliamentary    ::t-noun parliament
+::s-adj parochial        ::t-noun parish
+::s-adj parous           ::t-noun parity
+::s-adj paroxysmal       ::t-noun paroxysm
+::s-adj parsimonious     ::t-noun parsimony
+::s-adj participial      ::t-noun participle
+::s-adj partitive        ::t-noun part
+::s-adj parturient       ::t-noun parturiency
+::s-adj parturient       ::t-noun parturition
+::s-adj paschal          ::t-noun Pasch
+::s-adj pastoral         ::t-noun curate
+::s-adj patellar         ::t-noun patella
+::s-adj paternal         ::t-noun father
+::s-adj pathological     ::t-noun pathology
+::s-adj patient          ::t-noun patience
+::s-adj patriarchal      ::t-noun patriarch
+::s-adj patristic        ::t-noun Church Father
+::s-adj peaty            ::t-noun peat
+::s-adj pectic           ::t-noun pectin
+::s-adj pectoral         ::t-noun thorax
+::s-adj pedagogical      ::t-noun teaching
+::s-adj pedal            ::t-noun vertebrate foot
+::s-adj pediatric        ::t-noun pediatrics
+::s-adj pelvic           ::t-noun pelvis
+::s-adj penal            ::t-noun punishment
+::s-adj penicillin-resistant::t-noun penicillin
+::s-adj penile           ::t-noun penis
+::s-adj peninsular       ::t-noun peninsula
+::s-adj penitent         ::t-noun penitence
+::s-adj pentangular      ::t-noun pentagon
+::s-adj pentecostal      ::t-noun Pentecostal religion
+::s-adj penumbral        ::t-noun penumbra
+::s-adj penurious        ::t-noun penury
+::s-adj peptic           ::t-noun digestion
+::s-adj perceptive       ::t-noun sensing
+::s-adj perceptual       ::t-noun sensing
+::s-adj percussive       ::t-noun percussion
+::s-adj perfidious       ::t-noun perfidy
+::s-adj pericardial      ::t-noun pericardium
+::s-adj perigonal        ::t-noun perianth
+::s-adj periodontic      ::t-noun periodontics
+::s-adj peritoneal       ::t-noun peritoneum
+::s-adj permanent        ::t-noun permanence
+::s-adj permanent        ::t-noun permanency
+::s-adj peroneal         ::t-noun fibula
+::s-adj Persian          ::t-noun Persia
+::s-adj persistent       ::t-noun persistence
+::s-adj persistent       ::t-noun persistency
+::s-adj perspicacious    ::t-noun perspicacity
+::s-adj perspicuous      ::t-noun perspicuity
+::s-adj pertinacious     ::t-noun pertinacity
+::s-adj pertinent        ::t-noun pertinence
+::s-adj pertinent        ::t-noun pertinency
+::s-adj Peruvian         ::t-noun Peru
+::s-adj pestilent        ::t-noun pestilence
+::s-adj petaloid         ::t-noun petal
+::s-adj petulant         ::t-noun petulance
+::s-adj phagocytic       ::t-noun phagocyte
+::s-adj phalangeal       ::t-noun phalanx
+::s-adj phallic          ::t-noun penis
+::s-adj Pharaonic        ::t-noun Pharaoh
+::s-adj pharmaceutical   ::t-noun pharmacist
+::s-adj pharmaceutical   ::t-noun pharmacy
+::s-adj pharmacological  ::t-noun pharmacology
+::s-adj pharyngeal       ::t-noun throat
+::s-adj phenomenal       ::t-noun phenomenon
+::s-adj phenotypical     ::t-noun phenotype
+::s-adj philanthropic    ::t-noun philanthropy
+::s-adj philatelic       ::t-noun philately
+::s-adj philharmonic     ::t-noun orchestra
+::s-adj philhellenic     ::t-noun philhellene
+::s-adj Philippine       ::t-noun Philippines
+::s-adj philological     ::t-noun linguistics
+::s-adj philosophic      ::t-noun philosophy
+::s-adj phocine          ::t-noun seal
+::s-adj phonemic         ::t-noun phoneme
+::s-adj phonetic         ::t-noun phonetics
+::s-adj phonic           ::t-noun phonics
+::s-adj phonogramic      ::t-noun phonogram
+::s-adj phonological     ::t-noun phonology
+::s-adj phosphorescent   ::t-noun phosphorescence
+::s-adj phosphorous      ::t-noun phosphorus
+::s-adj photic           ::t-noun light
+::s-adj photochemical    ::t-noun photochemistry
+::s-adj photographic     ::t-noun photography
+::s-adj photosynthetic   ::t-noun photosynthesis
+::s-adj phrasal          ::t-noun phrase
+::s-adj phrenic          ::t-noun diaphragm
+::s-adj phrenological    ::t-noun phrenology
+::s-adj phyllodial       ::t-noun phyllode
+::s-adj phylogenetic     ::t-noun evolution
+::s-adj physical         ::t-noun physics
+::s-adj physiological    ::t-noun physiology
+::s-adj physiotherapeutic::t-noun physical therapy
+::s-adj pianistic        ::t-noun pianist
+::s-adj pianistic        ::t-noun piano
+::s-adj pictographic     ::t-noun pictograph
+::s-adj pictorial        ::t-noun picture
+::s-adj piquant          ::t-noun piquance
+::s-adj piquant          ::t-noun piquancy
+::s-adj piratical        ::t-noun pirate
+::s-adj piscatorial      ::t-noun fishing
+::s-adj piscine          ::t-noun fish
+::s-adj plagioclastic    ::t-noun plagioclase
+::s-adj planetal         ::t-noun planet
+::s-adj planetary        ::t-noun Earth
+::s-adj plangent         ::t-noun plangency
+::s-adj planktonic       ::t-noun plankton
+::s-adj plantal          ::t-noun plant
+::s-adj plantar          ::t-noun sole
+::s-adj pleasant         ::t-noun pleasance
+::s-adj pleural          ::t-noun pleura
+::s-adj pliant           ::t-noun pliancy
+::s-adj plumbic          ::t-noun lead
+::s-adj plutocratic      ::t-noun plutocrat
+::s-adj pneumatic        ::t-noun air
+::s-adj pneumococcal     ::t-noun pneumococcus
+::s-adj pneumogastric    ::t-noun stomach
+::s-adj pneumonic        ::t-noun pneumonia
+::s-adj poetic           ::t-noun poet
+::s-adj poetic           ::t-noun poetry
+::s-adj poignant         ::t-noun poignance
+::s-adj poignant         ::t-noun poignancy
+::s-adj point-of-sale    ::t-noun point
+::s-adj polar            ::t-noun pole
+::s-adj Polish           ::t-noun Poland
+::s-adj political        ::t-noun politics
+::s-adj polyandrous      ::t-noun polyandry
+::s-adj polygamous       ::t-noun polygamy
+::s-adj polygonal        ::t-noun polygon
+::s-adj polygynous       ::t-noun polygyny
+::s-adj polyhedral       ::t-noun polyhedron
+::s-adj polymeric        ::t-noun polymer
+::s-adj polyphonic       ::t-noun polyphone
+::s-adj polyphonic       ::t-noun polyphony
+::s-adj polyphonous      ::t-noun polyphony
+::s-adj polysemous       ::t-noun polysemy
+::s-adj pompous          ::t-noun ceremony
+::s-adj pompous          ::t-noun pomp
+::s-adj poor             ::t-noun poverty
+::s-adj porcine          ::t-noun swine
+::s-adj porous           ::t-noun pore
+::s-adj porphyritic      ::t-noun porphyry
+::s-adj Portuguese       ::t-noun Portugal
+::s-adj positional       ::t-noun position
+::s-adj possessive       ::t-noun genitive
+::s-adj postal           ::t-noun mail
+::s-adj postictal        ::t-noun seizure
+::s-adj postural         ::t-noun carriage
+::s-adj potent           ::t-noun potency
+::s-adj praetorian       ::t-noun praetor
+::s-adj prandial         ::t-noun meal
+::s-adj pre-eminent      ::t-noun pre-eminence
+::s-adj precocious       ::t-noun precocity
+::s-adj predestinarian   ::t-noun predestination
+::s-adj predominant      ::t-noun predominance
+::s-adj preeminent       ::t-noun preeminence
+::s-adj preexistent      ::t-noun preexistence
+::s-adj prefectural      ::t-noun prefecture
+::s-adj pregnant         ::t-noun pregnancy
+::s-adj prehistoric      ::t-noun prehistory
+::s-adj prejudicial      ::t-noun bias
+::s-adj prejudicious     ::t-noun prejudice
+::s-adj prenuptial       ::t-noun wedding
+::s-adj prepositional    ::t-noun preposition
+::s-adj prescient        ::t-noun prescience
+::s-adj presentational   ::t-noun presentation
+::s-adj presidential     ::t-noun president
+::s-adj prestigious      ::t-noun prestige
+::s-adj prevalent        ::t-noun prevalence
+::s-adj private          ::t-noun privacy
+::s-adj procedural       ::t-noun procedure
+::s-adj processional     ::t-noun procession
+::s-adj proconsular      ::t-noun proconsul
+::s-adj prodromal        ::t-noun prodrome
+::s-adj professional     ::t-noun profession
+::s-adj professorial     ::t-noun professor
+::s-adj proficient       ::t-noun proficiency
+::s-adj profligate       ::t-noun profligacy
+::s-adj progestational   ::t-noun progesterone
+::s-adj prokaryotic      ::t-noun prokaryote
+::s-adj prolusory        ::t-noun foreword
+::s-adj prominent        ::t-noun prominence
+::s-adj promiscuous      ::t-noun promiscuity
+::s-adj promissory       ::t-noun promise
+::s-adj promotional      ::t-noun promotion
+::s-adj pronominal       ::t-noun pronoun
+::s-adj proprioceptive   ::t-noun proprioception
+::s-adj propulsive       ::t-noun propulsion
+::s-adj prosodic         ::t-noun prosody
+::s-adj prosperous       ::t-noun prosperity
+::s-adj prosthetic       ::t-noun prosthesis
+::s-adj proteinaceous    ::t-noun protein
+::s-adj proteolytic      ::t-noun proteolysis
+::s-adj protozoal        ::t-noun Protozoa
+::s-adj protuberant      ::t-noun protuberance
+::s-adj proverbial       ::t-noun proverb
+::s-adj providential     ::t-noun providence
+::s-adj provincial       ::t-noun state
+::s-adj prudent          ::t-noun prudence
+::s-adj prurient         ::t-noun prurience
+::s-adj prurient         ::t-noun pruriency
+::s-adj psychiatric      ::t-noun psychiatry
+::s-adj psychoanalytical ::t-noun psychoanalysis
+::s-adj psycholinguistic ::t-noun psycholinguistics
+::s-adj psychological    ::t-noun psychology
+::s-adj psychometric     ::t-noun psychometry
+::s-adj psychopharmacological::t-noun psychopharmacology
+::s-adj psychotherapeutic::t-noun psychotherapy
+::s-adj pubertal         ::t-noun puberty
+::s-adj pubescent        ::t-noun pubescence
+::s-adj pubic            ::t-noun pubis
+::s-adj pudendal         ::t-noun pudendum
+::s-adj puerile          ::t-noun child
+::s-adj puerperal        ::t-noun childbirth
+::s-adj puerperal        ::t-noun puerperium
+::s-adj Puerto Rican     ::t-noun Puerto Rico
+::s-adj pugilistic       ::t-noun boxer
+::s-adj pugilistic       ::t-noun boxing
+::s-adj pugnacious       ::t-noun pugnacity
+::s-adj puissant         ::t-noun puissance
+::s-adj pungent          ::t-noun pungency
+::s-adj pupillary        ::t-noun pupil
+::s-adj purgatorial      ::t-noun purgatory
+::s-adj purgatorial      ::t-noun purge
+::s-adj puritanical      ::t-noun puritan
+::s-adj purulent         ::t-noun purulence
+::s-adj purulent         ::t-noun purulency
+::s-adj pusillanimous    ::t-noun pusillanimity
+::s-adj putrescent       ::t-noun putrescence
+::s-adj pyknotic         ::t-noun pycnosis
+::s-adj pyloric          ::t-noun pylorus
+::s-adj pyogenic         ::t-noun pyorrhea
+::s-adj pyrotechnic      ::t-noun pyrotechnics
+::s-adj pyrrhic          ::t-noun Pyrrhus
+::s-adj Qatari           ::t-noun Qatar
+::s-adj quadrangular     ::t-noun quadrilateral
+::s-adj quadraphonic     ::t-noun quadraphony
+::s-adj quadratic        ::t-noun square
+::s-adj qualitative      ::t-noun chemical analysis
+::s-adj quantal          ::t-noun quantum
+::s-adj quantitative     ::t-noun quantity
+::s-adj quarterly        ::t-noun quarter
+::s-adj quartzose        ::t-noun quartz
+::s-adj Quechuan         ::t-noun Quechua
+::s-adj quiescent        ::t-noun quiescence
+::s-adj quiescent        ::t-noun quiescency
+::s-adj rabbinical       ::t-noun rabbi
+::s-adj rabid            ::t-noun rabies
+::s-adj racial           ::t-noun race
+::s-adj radial           ::t-noun beam
+::s-adj radial           ::t-noun radius
+::s-adj radiant          ::t-noun radiance
+::s-adj radiant          ::t-noun radiancy
+::s-adj radical          ::t-noun root
+::s-adj radiographic     ::t-noun radiography
+::s-adj radiological     ::t-noun radioscopy
+::s-adj radiotelephonic  ::t-noun radiotelephone
+::s-adj rapacious        ::t-noun rapacity
+::s-adj raptorial        ::t-noun bird of prey
+::s-adj rapturous        ::t-noun rapture
+::s-adj rational         ::t-noun ratio
+::s-adj ratty            ::t-noun rat
+::s-adj rayless          ::t-noun ray
+::s-adj real-time        ::t-noun real time
+::s-adj recalcitrant     ::t-noun recalcitrance
+::s-adj recalcitrant     ::t-noun recalcitrancy
+::s-adj recent           ::t-noun recency
+::s-adj recessional      ::t-noun receding
+::s-adj recessionary     ::t-noun recession
+::s-adj recoilless       ::t-noun recoil
+::s-adj recreational     ::t-noun diversion
+::s-adj rectal           ::t-noun rectum
+::s-adj rectosigmoid     ::t-noun rectum
+::s-adj recurrent        ::t-noun recurrence
+::s-adj recusant         ::t-noun recusancy
+::s-adj redemptive       ::t-noun redemption
+::s-adj redolent         ::t-noun redolence
+::s-adj redundant        ::t-noun redundance
+::s-adj redundant        ::t-noun redundancy
+::s-adj refractive       ::t-noun refraction
+::s-adj refulgent        ::t-noun refulgence
+::s-adj refulgent        ::t-noun refulgency
+::s-adj regimental       ::t-noun regiment
+::s-adj regional         ::t-noun region
+::s-adj regulatory       ::t-noun regulation
+::s-adj relativistic     ::t-noun relativity
+::s-adj relevant         ::t-noun relevance
+::s-adj relevant         ::t-noun relevancy
+::s-adj reliant          ::t-noun reliance
+::s-adj reluctant        ::t-noun reluctance
+::s-adj reminiscent      ::t-noun reminiscence
+::s-adj renascent        ::t-noun renascence
+::s-adj rental           ::t-noun lease
+::s-adj rental           ::t-noun rent
+::s-adj repentant        ::t-noun repentance
+::s-adj reptilian        ::t-noun Reptilia
+::s-adj republican       ::t-noun Republican Party
+::s-adj repugnant        ::t-noun repugnance
+::s-adj resident         ::t-noun residence
+::s-adj resident         ::t-noun residency
+::s-adj residential      ::t-noun residency
+::s-adj residual         ::t-noun residue
+::s-adj residuary        ::t-noun remainder
+::s-adj resilient        ::t-noun resilience
+::s-adj resilient        ::t-noun resiliency
+::s-adj resinlike        ::t-noun resin
+::s-adj resistant        ::t-noun resistance
+::s-adj resistive        ::t-noun electric resistance
+::s-adj resonant         ::t-noun resonance
+::s-adj respiratory      ::t-noun respiration
+::s-adj resplendent      ::t-noun resplendence
+::s-adj resplendent      ::t-noun resplendency
+::s-adj responsive       ::t-noun antiphon
+::s-adj responsive       ::t-noun response
+::s-adj resurgent        ::t-noun resurgence
+::s-adj retentive        ::t-noun retention
+::s-adj reticent         ::t-noun reticence
+::s-adj retinal          ::t-noun retina
+::s-adj reverberant      ::t-noun reverberance
+::s-adj reverent         ::t-noun reverence
+::s-adj reversionary     ::t-noun reversion
+::s-adj revolutionary    ::t-noun revolution
+::s-adj Rhenish          ::t-noun Rhine
+::s-adj rheologic        ::t-noun rheology
+::s-adj rhetorical       ::t-noun rhetoric
+::s-adj rhinal           ::t-noun nose
+::s-adj rhizoidal        ::t-noun rhizoid
+::s-adj rhizomatous      ::t-noun rhizome
+::s-adj rhombic          ::t-noun rhombus
+::s-adj rich             ::t-noun wealth
+::s-adj Riemannian       ::t-noun Riemann
+::s-adj riparian         ::t-noun riverbank
+::s-adj ritual           ::t-noun rite
+::s-adj rivalrous        ::t-noun rivalry
+::s-adj robotic          ::t-noun automaton
+::s-adj Romanian         ::t-noun Romania
+::s-adj Romany           ::t-noun Gypsy
+::s-adj ropy             ::t-noun rope
+::s-adj rotational       ::t-noun rotation
+::s-adj rotatory         ::t-noun rotation
+::s-adj royal            ::t-noun sovereign
+::s-adj Ruandan          ::t-noun Ruanda
+::s-adj ruminant         ::t-noun Ruminantia
+::s-adj runic            ::t-noun rune
+::s-adj rupestral        ::t-noun rock
+::s-adj rural            ::t-noun country
+::s-adj Russian          ::t-noun Soviet Union
+::s-adj Rwandan          ::t-noun Rwanda
+::s-adj sacral           ::t-noun sacrum
+::s-adj sacramental      ::t-noun sacrament
+::s-adj sacrificial      ::t-noun sacrifice
+::s-adj sacrilegious     ::t-noun sacrilege
+::s-adj sagacious        ::t-noun sagacity
+::s-adj Sahraouian       ::t-noun Western Sahara
+::s-adj Sahrawi          ::t-noun Western Sahara
+::s-adj Sahrawian        ::t-noun Western Sahara
+::s-adj salamandriform   ::t-noun salamander
+::s-adj salient          ::t-noun salience
+::s-adj salient          ::t-noun saliency
+::s-adj salivary         ::t-noun saliva
+::s-adj salubrious       ::t-noun salubrity
+::s-adj Salvadoran       ::t-noun El Salvador
+::s-adj salvific         ::t-noun redemption
+::s-adj Samoan           ::t-noun Samoa
+::s-adj sanctimonious    ::t-noun sanctimony
+::s-adj sapiens          ::t-noun Homo sapiens
+::s-adj sapient          ::t-noun sapience
+::s-adj saponaceous      ::t-noun soap
+::s-adj sapphirine       ::t-noun sapphire
+::s-adj saprobic         ::t-noun saprobe
+::s-adj saprophytic      ::t-noun saprophyte
+::s-adj sarcolemmal      ::t-noun sarcolemma
+::s-adj sarcolemmic      ::t-noun sarcolemma
+::s-adj sartorial        ::t-noun sartorius
+::s-adj sartorial        ::t-noun tailor
+::s-adj sartorial        ::t-noun tailoring
+::s-adj satyric          ::t-noun satyr
+::s-adj Saudi Arabian    ::t-noun Saudi Arabia
+::s-adj saurian          ::t-noun lizard
+::s-adj saxicolous       ::t-noun rupestral plant
+::s-adj scalar           ::t-noun scale
+::s-adj scalic           ::t-noun scale
+::s-adj Scandinavian     ::t-noun Scandinavia
+::s-adj scant            ::t-noun scanty
+::s-adj scapulohumeral   ::t-noun humerus
+::s-adj scapulohumeral   ::t-noun scapula
+::s-adj scenic           ::t-noun scenery
+::s-adj scholastic       ::t-noun school
+::s-adj sciatic          ::t-noun hip
+::s-adj sciatic          ::t-noun sciatica
+::s-adj sclerotic        ::t-noun sclera
+::s-adj sclerotic        ::t-noun sclerosis
+::s-adj scopal           ::t-noun scope
+::s-adj scorbutic        ::t-noun scurvy
+::s-adj Scottish         ::t-noun Scotland
+::s-adj scriptural       ::t-noun script
+::s-adj scrotal          ::t-noun scrotum
+::s-adj sculptural       ::t-noun sculpture
+::s-adj scurfy           ::t-noun scurf
+::s-adj secretarial      ::t-noun secretary
+::s-adj secretory        ::t-noun secretion
+::s-adj sectarian        ::t-noun faction
+::s-adj sectional        ::t-noun section
+::s-adj sectorial        ::t-noun sector
+::s-adj sedimentary      ::t-noun sediment
+::s-adj sedulous         ::t-noun sedulity
+::s-adj seismological    ::t-noun seismology
+::s-adj self-sufficient  ::t-noun self-sufficiency
+::s-adj semantic         ::t-noun semantics
+::s-adj seminal          ::t-noun semen
+::s-adj seminiferous     ::t-noun semen
+::s-adj semiotic         ::t-noun semiotics
+::s-adj senatorial       ::t-noun senator
+::s-adj Senegalese       ::t-noun Senegal
+::s-adj senescent        ::t-noun senescence
+::s-adj sensational      ::t-noun sensation
+::s-adj sentential       ::t-noun sentence
+::s-adj sentient         ::t-noun sentience
+::s-adj sentient         ::t-noun sentiency
+::s-adj sepaloid         ::t-noun sepal
+::s-adj septal           ::t-noun septum
+::s-adj septic           ::t-noun decomposition
+::s-adj sepulchral       ::t-noun burial chamber
+::s-adj seraphic         ::t-noun seraph
+::s-adj serial           ::t-noun series
+::s-adj sericultural     ::t-noun sericulture
+::s-adj serologic        ::t-noun serology
+::s-adj serous           ::t-noun serum
+::s-adj servomechanical  ::t-noun servo
+::s-adj sexual           ::t-noun sex
+::s-adj Seychellois      ::t-noun Seychelles
+::s-adj shallow-draft    ::t-noun draft
+::s-adj shelflike        ::t-noun shelf
+::s-adj shrubby          ::t-noun shrub
+::s-adj Siamese          ::t-noun Siam
+::s-adj sidearm          ::t-noun pitch
+::s-adj sidereal         ::t-noun constellation
+::s-adj Sierra Leonean   ::t-noun Sierra Leone
+::s-adj sigmoid          ::t-noun curve
+::s-adj significant      ::t-noun significance
+::s-adj silent           ::t-noun silence
+::s-adj siliceous        ::t-noun silica
+::s-adj simian           ::t-noun ape
+::s-adj simultaneous     ::t-noun simultaneity
+::s-adj Singaporean      ::t-noun Singapore
+::s-adj Sinhala          ::t-noun Sinhalese
+::s-adj Sinitic          ::t-noun China
+::s-adj Siouan           ::t-noun Sioux
+::s-adj skinny           ::t-noun skin
+::s-adj Slovak           ::t-noun Slovakia
+::s-adj Slovene          ::t-noun Slovenia
+::s-adj Slovenian        ::t-noun Slovenia
+::s-adj social           ::t-noun society
+::s-adj sociobiologic    ::t-noun sociobiology
+::s-adj sociocultural    ::t-noun acculturation
+::s-adj sociolinguistic  ::t-noun sociolinguistics
+::s-adj sociological     ::t-noun sociology
+::s-adj solar            ::t-noun sun
+::s-adj solvent          ::t-noun solvency
+::s-adj Somali           ::t-noun Somalia
+::s-adj Somalian         ::t-noun Somalia
+::s-adj somnolent        ::t-noun somnolence
+::s-adj sonorous         ::t-noun sonority
+::s-adj sophistic        ::t-noun casuist
+::s-adj sorcerous        ::t-noun sorcery
+::s-adj South African    ::t-noun South Africa
+::s-adj South American   ::t-noun South America
+::s-adj South Korean     ::t-noun South Korea
+::s-adj Southeast Asian  ::t-noun Southeast Asia
+::s-adj Southern European::t-noun Southern Europe
+::s-adj Spanish          ::t-noun Spain
+::s-adj spastic          ::t-noun spasm
+::s-adj spatial          ::t-noun space
+::s-adj spatiotemporal   ::t-noun space-time
+::s-adj specialistic     ::t-noun specialist
+::s-adj specific         ::t-noun species
+::s-adj spectral         ::t-noun spectrum
+::s-adj spectrographic   ::t-noun spectrograph
+::s-adj spectrometric    ::t-noun spectroscopy
+::s-adj spectroscopic    ::t-noun spectroscopy
+::s-adj spermicidal      ::t-noun spermicide
+::s-adj spermous         ::t-noun sperm
+::s-adj spherical        ::t-noun sphere
+::s-adj sphingine        ::t-noun sphinx
+::s-adj spicate          ::t-noun spike
+::s-adj splashy          ::t-noun splash
+::s-adj splenic          ::t-noun spleen
+::s-adj splintery        ::t-noun paring
+::s-adj splintery        ::t-noun splinter
+::s-adj spondaic         ::t-noun spondee
+::s-adj spontaneous      ::t-noun spontaneity
+::s-adj sporogenous      ::t-noun spore
+::s-adj sportive         ::t-noun sport
+::s-adj spousal          ::t-noun spouse
+::s-adj squinty          ::t-noun squint
+::s-adj Sri Lankan       ::t-noun Ceylon
+::s-adj stagflationary   ::t-noun stagflation
+::s-adj stagnant         ::t-noun stagnancy
+::s-adj Stalinist        ::t-noun Stalin
+::s-adj staphylococcal   ::t-noun staphylococcus
+::s-adj statistical      ::t-noun statistics
+::s-adj statuary         ::t-noun statue
+::s-adj statutory        ::t-noun legislative act
+::s-adj stearic          ::t-noun fat
+::s-adj stellar          ::t-noun star
+::s-adj stenographic     ::t-noun shorthand
+::s-adj stereoscopic     ::t-noun stereoscope
+::s-adj sternal          ::t-noun sternum
+::s-adj sternutatory     ::t-noun sternutator
+::s-adj stigmatic        ::t-noun mark
+::s-adj stingless        ::t-noun sting
+::s-adj stipendiary      ::t-noun stipend
+::s-adj stoloniferous    ::t-noun stolon
+::s-adj stomatal         ::t-noun stoma
+::s-adj strategic        ::t-noun scheme
+::s-adj streptococcal    ::t-noun streptococcus
+::s-adj striate          ::t-noun stria
+::s-adj strident         ::t-noun stridence
+::s-adj strident         ::t-noun stridency
+::s-adj stringent        ::t-noun stringency
+::s-adj structural       ::t-noun structure
+::s-adj subsequent       ::t-noun subsequence
+::s-adj subservient      ::t-noun subservience
+::s-adj substantival     ::t-noun substantive
+::s-adj subtropical      ::t-noun subtropics
+::s-adj suburban         ::t-noun suburb
+::s-adj succinic         ::t-noun amber
+::s-adj succulent        ::t-noun succulence
+::s-adj suctorial        ::t-noun sucking
+::s-adj Sudanese         ::t-noun Sudan
+::s-adj sufficient       ::t-noun sufficiency
+::s-adj sulcate          ::t-noun sulcus
+::s-adj sulfurous        ::t-noun sulfur
+::s-adj sulphuric        ::t-noun sulfur
+::s-adj superabundant    ::t-noun superabundance
+::s-adj superficial      ::t-noun surface
+::s-adj superfluous      ::t-noun superfluity
+::s-adj supervisory      ::t-noun supervisor
+::s-adj suppurative      ::t-noun festering
+::s-adj surficial        ::t-noun surface
+::s-adj surgical         ::t-noun surgery
+::s-adj Surinamese       ::t-noun Suriname
+::s-adj sustentacular    ::t-noun sustenance
+::s-adj Swazi            ::t-noun Swaziland
+::s-adj Swedish          ::t-noun Sweden
+::s-adj Swiss            ::t-noun Switzerland
+::s-adj syllabic         ::t-noun syllabary
+::s-adj syllabic         ::t-noun syllable
+::s-adj symphonic        ::t-noun symphony
+::s-adj symphonious      ::t-noun symphony
+::s-adj symptomatic      ::t-noun symptom
+::s-adj synaptic         ::t-noun synapse
+::s-adj synchronous      ::t-noun synchrony
+::s-adj synesthetic      ::t-noun synesthesia
+::s-adj synonymous       ::t-noun synonymity
+::s-adj synonymous       ::t-noun synonymy
+::s-adj synoptic         ::t-noun synopsis
+::s-adj synovial         ::t-noun synovia
+::s-adj syntactic        ::t-noun syntax
+::s-adj syphilitic       ::t-noun syphilis
+::s-adj Syrian           ::t-noun Syria
+::s-adj systolic         ::t-noun systole
+::s-adj tabular          ::t-noun table
+::s-adj tactical         ::t-noun tactic
+::s-adj tactical         ::t-noun tactics
+::s-adj Taiwanese        ::t-noun Taiwan
+::s-adj Tajikistani      ::t-noun Tajikistan
+::s-adj tangential       ::t-noun tangent
+::s-adj tannic           ::t-noun tannin
+::s-adj Tanzanian        ::t-noun Tanzania
+::s-adj tarsal           ::t-noun tarsus
+::s-adj tartaric         ::t-noun cream of tartar
+::s-adj taxonomic        ::t-noun taxonomy
+::s-adj Tchadian         ::t-noun Tchad
+::s-adj technical        ::t-noun technique
+::s-adj tectonic         ::t-noun tectonics
+::s-adj tegular          ::t-noun tile
+::s-adj telegraphic      ::t-noun telegraph
+::s-adj teleological     ::t-noun teleology
+::s-adj telephonic       ::t-noun telephone
+::s-adj telluric         ::t-noun tellurium
+::s-adj temporal         ::t-noun time
+::s-adj tenacious        ::t-noun tenacity
+::s-adj tendencious      ::t-noun tendency
+::s-adj tendinous        ::t-noun tendon
+::s-adj tensile          ::t-noun tension
+::s-adj tensional        ::t-noun tension
+::s-adj tentacular       ::t-noun tentacle
+::s-adj tenuous          ::t-noun tenuity
+::s-adj terminal         ::t-noun terminus
+::s-adj terminological   ::t-noun terminology
+::s-adj tertian          ::t-noun third
+::s-adj testaceous       ::t-noun testa
+::s-adj testamentary     ::t-noun testament
+::s-adj testicular       ::t-noun testis
+::s-adj testimonial      ::t-noun tribute
+::s-adj tetanic          ::t-noun tetanus
+::s-adj Teutonic         ::t-noun Teuton
+::s-adj Texan            ::t-noun Texas
+::s-adj textual          ::t-noun text
+::s-adj Thai             ::t-noun Thailand
+::s-adj thalloid         ::t-noun thallus
+::s-adj thallophytic     ::t-noun thallophyte
+::s-adj theatrical       ::t-noun dramaturgy
+::s-adj thematic         ::t-noun theme
+::s-adj thenal           ::t-noun palm
+::s-adj theocratic       ::t-noun theocracy
+::s-adj theological      ::t-noun theology
+::s-adj theosophical     ::t-noun theosophy
+::s-adj therapeutic      ::t-noun therapy
+::s-adj thermal          ::t-noun heat
+::s-adj thermionic       ::t-noun thermion
+::s-adj thermodynamic    ::t-noun thermodynamics
+::s-adj thermometric     ::t-noun thermometry
+::s-adj thermostatic     ::t-noun thermostat
+::s-adj thespian         ::t-noun play
+::s-adj Tibetan          ::t-noun Tibet
+::s-adj tibial           ::t-noun tibia
+::s-adj tidal            ::t-noun tide
+::s-adj Timorese         ::t-noun Timor
+::s-adj tinny            ::t-noun tin
+::s-adj titular          ::t-noun title
+::s-adj Togolese         ::t-noun Togo
+::s-adj toll-free        ::t-noun toll
+::s-adj tomentose        ::t-noun hair
+::s-adj Tongan           ::t-noun Tonga
+::s-adj tonic            ::t-noun tone
+::s-adj tonsorial        ::t-noun barber
+::s-adj topical          ::t-noun topic
+::s-adj topographical    ::t-noun topography
+::s-adj topological      ::t-noun topology
+::s-adj toroidal         ::t-noun toroid
+::s-adj torrential       ::t-noun torrent
+::s-adj tortious         ::t-noun tort
+::s-adj torturous        ::t-noun torture
+::s-adj toxicological    ::t-noun toxicology
+::s-adj tracheal         ::t-noun trachea
+::s-adj tractive         ::t-noun grip
+::s-adj tragic           ::t-noun tragedy
+::s-adj tragicomic       ::t-noun tragicomedy
+::s-adj transcendent     ::t-noun transcendence
+::s-adj transcendent     ::t-noun transcendency
+::s-adj transient        ::t-noun transience
+::s-adj transient        ::t-noun transiency
+::s-adj transitional     ::t-noun conversion
+::s-adj translational    ::t-noun translation
+::s-adj translucent      ::t-noun translucence
+::s-adj translucent      ::t-noun translucency
+::s-adj transparent      ::t-noun transparence
+::s-adj transparent      ::t-noun transparency
+::s-adj trapezoidal      ::t-noun trapezoid
+::s-adj traumatic        ::t-noun injury
+::s-adj treacherous      ::t-noun treachery
+::s-adj trenchant        ::t-noun trenchancy
+::s-adj triangulate      ::t-noun triangle
+::s-adj tribal           ::t-noun tribe
+::s-adj tricentenary     ::t-noun tercentennial
+::s-adj trigonometric    ::t-noun trigonometry
+::s-adj triumphal        ::t-noun victory
+::s-adj trochaic         ::t-noun trochee
+::s-adj trophic          ::t-noun nutrition
+::s-adj tropical         ::t-noun tropic
+::s-adj troublous        ::t-noun trouble
+::s-adj truant           ::t-noun truancy
+::s-adj truculent        ::t-noun truculence
+::s-adj tubal            ::t-noun tube
+::s-adj tubercular       ::t-noun tubercle
+::s-adj tubercular       ::t-noun tuberosity
+::s-adj tuberculate      ::t-noun nodule
+::s-adj tuberculoid      ::t-noun tuberculosis
+::s-adj tuberous         ::t-noun tuber
+::s-adj tumescent        ::t-noun tumescence
+::s-adj Tunisian         ::t-noun Tunisia
+::s-adj turbulent        ::t-noun turbulence
+::s-adj Turkic           ::t-noun Turki
+::s-adj Turkish          ::t-noun Turkey
+::s-adj Turkmen          ::t-noun Turkmenistan
+::s-adj Tuscan           ::t-noun Tuscany
+::s-adj tutorial         ::t-noun coach
+::s-adj Tuvaluan         ::t-noun Tuvalu
+::s-adj tympanic         ::t-noun eardrum
+::s-adj tympanic         ::t-noun kettle
+::s-adj typographic      ::t-noun typography
+::s-adj tyrannous        ::t-noun tyranny
+::s-adj ubiquitous       ::t-noun ubiquity
+::s-adj Ugandan          ::t-noun Uganda
+::s-adj Ukrainian        ::t-noun Ukraine
+::s-adj ulcerative       ::t-noun ulcer
+::s-adj ulnar            ::t-noun ulna
+::s-adj ultimate         ::t-noun ultimacy
+::s-adj ultramicroscopic ::t-noun ultramicroscope
+::s-adj umbellate        ::t-noun umbel
+::s-adj umbelliferous    ::t-noun Umbelliferae
+::s-adj umbelliform      ::t-noun umbel
+::s-adj umbilical        ::t-noun navel
+::s-adj unambiguous      ::t-noun unambiguity
+::s-adj unanimous        ::t-noun unanimity
+::s-adj ungual           ::t-noun claw
+::s-adj ungual           ::t-noun hoof
+::s-adj ungual           ::t-noun nail
+::s-adj unimportant      ::t-noun unimportance
+::s-adj unitary          ::t-noun integrity
+::s-adj unitary          ::t-noun unit
+::s-adj universalistic   ::t-noun whole
+::s-adj urban            ::t-noun city
+::s-adj urethral         ::t-noun urethra
+::s-adj urgent           ::t-noun urgency
+::s-adj uric             ::t-noun urine
+::s-adj urinary          ::t-noun urine
+::s-adj urinary          ::t-noun urogenital system
+::s-adj ursine           ::t-noun bear
+::s-adj Uruguayan        ::t-noun Uruguay
+::s-adj usurious         ::t-noun usury
+::s-adj uterine          ::t-noun uterus
+::s-adj utopian          ::t-noun Utopia
+::s-adj uvular           ::t-noun uvula
+::s-adj Uzbek            ::t-noun Uzbekistan
+::s-adj Uzbekistani      ::t-noun Uzbekistan
+::s-adj vacant           ::t-noun vacancy
+::s-adj vacuolate        ::t-noun vacuole
+::s-adj vacuous          ::t-noun vacuity
+::s-adj vagal            ::t-noun vagus
+::s-adj vaginal          ::t-noun vagina
+::s-adj vagrant          ::t-noun vagrancy
+::s-adj vainglorious     ::t-noun vainglory
+::s-adj valedictory      ::t-noun valediction
+::s-adj valent           ::t-noun valence
+::s-adj valiant          ::t-noun valiance
+::s-adj valiant          ::t-noun valiancy
+::s-adj valvular         ::t-noun valve
+::s-adj variant          ::t-noun variance
+::s-adj varicelliform    ::t-noun chickenpox
+::s-adj vascular         ::t-noun vessel
+::s-adj vegetative       ::t-noun vegetation
+::s-adj vehement         ::t-noun vehemence
+::s-adj vehicular        ::t-noun vehicle
+::s-adj veinal           ::t-noun vein
+::s-adj velar            ::t-noun soft palate
+::s-adj Venezuelan       ::t-noun Venezuela
+::s-adj venous           ::t-noun vein
+::s-adj ventilatory      ::t-noun ventilation
+::s-adj ventricular      ::t-noun ventricle
+::s-adj venturous        ::t-noun venture
+::s-adj veracious        ::t-noun veracity
+::s-adj verbal           ::t-noun verb
+::s-adj verbal           ::t-noun word
+::s-adj verdant          ::t-noun verdancy
+::s-adj vertebral        ::t-noun vertebra
+::s-adj vesical          ::t-noun bladder
+::s-adj vesicular        ::t-noun vesicle
+::s-adj vestal           ::t-noun Vesta
+::s-adj vestiary         ::t-noun clothing
+::s-adj vestibular       ::t-noun equilibrium
+::s-adj vestmental       ::t-noun vestment
+::s-adj vibrant          ::t-noun vibrancy
+::s-adj vibrational      ::t-noun oscillation
+::s-adj vicarial         ::t-noun vicar
+::s-adj vice-presidential::t-noun vice president
+::s-adj vicennial        ::t-noun twenty
+::s-adj viceregal        ::t-noun viceroy
+::s-adj vicinal          ::t-noun vicinity
+::s-adj vicious          ::t-noun vice
+::s-adj victorious       ::t-noun victory
+::s-adj vigesimal        ::t-noun twenty
+::s-adj vigilant         ::t-noun vigilance
+::s-adj villainous       ::t-noun villainy
+::s-adj vinous           ::t-noun vine
+::s-adj vinous           ::t-noun wine
+::s-adj violent          ::t-noun violence
+::s-adj viral            ::t-noun virus
+::s-adj virginal         ::t-noun virginity
+::s-adj virological      ::t-noun virology
+::s-adj virtuous         ::t-noun virtue
+::s-adj virulent         ::t-noun virulence
+::s-adj visceral         ::t-noun viscera
+::s-adj viscometric      ::t-noun viscometer
+::s-adj vivacious        ::t-noun vivacity
+::s-adj vocal            ::t-noun voice
+::s-adj vocalic          ::t-noun vowel
+::s-adj vocational       ::t-noun career
+::s-adj volcanic         ::t-noun volcano
+::s-adj voltaic          ::t-noun voltage
+::s-adj volumetric       ::t-noun volumeter
+::s-adj voracious        ::t-noun voracity
+::s-adj voyeuristic      ::t-noun voyeur
+::s-adj vulpine          ::t-noun fox
+::s-adj vulturous        ::t-noun vulture
+::s-adj vulvar           ::t-noun vulva
+::s-adj waxen            ::t-noun wax
+::s-adj wealthy          ::t-noun wealth
+::s-adj Welch            ::t-noun Wales
+::s-adj Welsh            ::t-noun Wales
+::s-adj West German      ::t-noun West Germany
+::s-adj West Pakistani   ::t-noun West Pakistan
+::s-adj Western European ::t-noun Western Europe
+::s-adj Western Samoan   ::t-noun Western Samoa
+::s-adj wheaten          ::t-noun wheat
+::s-adj Wilsonian        ::t-noun Wilson
+::s-adj wiry             ::t-noun wire
+::s-adj wolflike         ::t-noun wolf
+::s-adj woolen           ::t-noun wool
+::s-adj WYSIWYG          ::t-noun word processor
+::s-adj xerographic      ::t-noun xerography
+::s-adj yeasty           ::t-noun yeast
+::s-adj Yemeni           ::t-noun Yemen
+::s-adj yogistic         ::t-noun yoga
+::s-adj Yugoslavian      ::t-noun Serbia and Montenegro
+::s-adj Zairian          ::t-noun Zaire
+::s-adj Zambian          ::t-noun Zambia
+::s-adj zenithal         ::t-noun zenith
+::s-adj zero             ::t-noun null set
+::s-adj Zimbabwean       ::t-noun Zimbabwe
+::s-adj zodiacal         ::t-noun zodiac
+::s-adj zoic             ::t-noun animal
+::s-adj zonal            ::t-noun zone
+::s-adj zoological       ::t-noun animal
+::s-adj zoological       ::t-noun zoology
+::s-adj zoonotic         ::t-noun zoonosis
+::s-adj Zoroastrian      ::t-noun Zoroaster
+::s-adj zygotic          ::t-noun zygote
+::s-adj zymoid           ::t-noun enzyme
+::s-adj zymotic          ::t-noun zymosis
+
+::s-adj illegal          ::t-noun law        ::t-polarity -
+
+::s-adj Western                              ::t-name West         ::t-ne-type world-region
+::s-adj like                                 ::t-verb resemble     ::t-sense 01
+
+::s-noun death                               ::t-verb die          ::t-sense 01
+::s-noun morbidity                           ::t-verb die          ::t-sense 01
+::s-noun founder                             ::t-verb found        ::t-sense 01  ::t-entity person  ::t-role :ARG0
+::s-noun researcher                          ::t-verb research     ::t-sense 01  ::t-entity person  ::t-role :ARG0
+::s-noun worker                              ::t-verb work         ::t-sense 01  ::t-entity person  ::t-role :ARG0
+::s-noun finding                             ::t-verb find         ::t-sense 01  ::t-entity thing   ::t-role :ARG1
+::s-noun result                              ::t-verb result       ::t-sense 01  ::t-entity thing   ::t-role :ARG2
+::s-noun filter                              ::t-verb filter       ::t-sense 01  ::t-entity product ::t-role :ARG0
+
+::s-md   can                                 ::t-adj  possible
+::s-md   may                                 ::t-verb permit       ::t-sense 01  ::t-role :ARG1
+::s-md   must                                ::t-verb obligate     ::t-sense 01  ::t-role :ARG2
+::s-md   should                              ::t-verb recommend    ::t-sense 01  ::t-role :ARG1
+
+::s-prep according to                        ::t-verb say
+::s-prep among                               ::t-verb include
+::s-prep including                           ::t-verb include
+

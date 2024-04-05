@@ -1,0 +1,4 @@
+STEM match for unaligned grandma :: grandmother :: wb.eng_0003.58 consensus
+STEM match for unaligned and :: and :: wb.eng_0003.63 consensus
+STEM match for unaligned deman :: demand-01 :: wb.eng_0003.63 consensus
+STEM match for unaligned and :: and :: wb.eng_0003.83 consensus

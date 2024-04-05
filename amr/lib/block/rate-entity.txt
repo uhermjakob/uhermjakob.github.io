@@ -1,0 +1,86 @@
+TITLE rate-entity
+HIGHLIGHT-RED rate-entity-91
+HIGHLIGHT-BLUE :frequency
+HIGHLIGHT-BLUE per
+HIGHLIGHT-BLUE every
+HIGHLIGHT-BLUE once
+HIGHLIGHT-BLUE twice
+HIGHLIGHT-BLUE twice
+HIGHLIGHT-BLUE hourly
+HIGHLIGHT-BLUE daily
+HIGHLIGHT-BLUE weekly
+HIGHLIGHT-BLUE monthly
+HIGHLIGHT-BLUE quarterly
+HIGHLIGHT-BLUE yearly
+HIGHLIGHT-BLUE annual
+HIGHLIGHT-BLUE annually
+HIGHLIGHT-BLUE biweekly
+HIGHLIGHT-BLUE bimonthly
+HIGHLIGHT-BLUE biannual
+HIGHLIGHT-BLUE biannually
+HIGHLIGHT-BLUE semiannual
+HIGHLIGHT-BLUE semiannually
+
+We use rate-entity-91 to express frequencies and other rate entities.
+
+Argument structure:
+<ul>
+   <li> :ARG1 &nbsp; quantity (with an implied default of 1)
+   <li> :ARG2 &nbsp; per quantity
+   <li> :ARG3 &nbsp; regular interval between events 
+   <li> :ARG4 &nbsp; entity on which recurring event happens
+</ul>
+
+:ARG2 and :ARG3 are somewhat similar, but :ARG3 is more specific than :ARG2
+in that it describes a <u>regular</u> interval between events, which :ARG2 does not, 
+or at least not necessarily.<br>
+In the following two examples, <i>twice a year</i> could refer to something
+occurring every Thanksgiving and Christmas, not necessarily every six months.
+<p>
+Note that in the <i>earnings</i> example below, the employee probably never
+gets $42,000 at any one time, but more likely $3,500 every month. The employee
+might not even work for the company for a full year and therefore earn a total
+of less than $42,000. So the $42,000 per year is an earning <i>rate</i> rather 
+than a $42,000 earning event happening once a year. 
+This difference is similar to the difference between a distance and a speed:
+<i>He drove 50 miles.</i> vs. <i>He drove 50 miles per hour.</i> where the
+latter case is about speed and does not say anything about the distance driven.
+So you can think of <i>$42,000 per year</i> as a "monetary speed."
+
+EXAMPLE isi_0002.274 twice a year
+
+EXAMPLE isi_0002.293 I have to renew my car insurance every six months.
+
+EXAMPLE isi_0002.279 He earns $42,000 per year.
+
+EXAMPLE isi_0002.275 $3 per gallon
+
+EXAMPLE isi_0002.276 every other week
+
+EXAMPLE isi_0002.277 every other Wednesday
+
+EXAMPLE isi_0002.278 $2 a person every 5 miles whenever it snows
+
+EXAMPLE isi_0002.280 We recommend an oil change every 3,000 miles.
+
+EXAMPLE isi_0002.281 We play bridge every Wednesday afternoon.
+
+EXAMPLE isi_0002.282 He calls me every day at 8am and 5pm.
+
+EXAMPLE isi_0002.283 The charity sends out an annual newsletter.
+
+EXAMPLE isi_0002.295 We meet several times a month.
+
+Example of <a href="frequency.html">:frequency</a> <u>without</u> rate-entity-91:
+
+EXAMPLE isi_0002.300 We met three times.
+
+EXAMPLE isi_0002.294 We meet often.
+
+Keywords and patterns often associated with rate-entity-91: 
+<ul>
+   <li> once, twice, <i>n</i> times
+   <li> <i>x</i> per <i>y</i> (e.g. $50 per month), <i>x</i> a <i>y</i> (e.g. $10 a person)
+   <li> every day, week, month, year, ...; Monday, Tuesday, ..., Sunday; morning, afternoon, evening, night; mile
+   <li> hourly, daily, weekly, monthly, quarterly, yearly, annual(ly), &nbsp; biweekly, bimonthly, semiannual(ly), biannual(ly)
+</ul>

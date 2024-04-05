@@ -1,0 +1,103 @@
+# organization list
+(93) ::ne-surf UN ::ne-type organization ::wiki United_Nations
+(86) ::ne-surf IAEA ::ne-type organization ::wiki International_Atomic_Energy_Agency
+(67) ::ne-surf European Union ::ne-type organization ::wiki European_Union
+(61) ::ne-surf EU ::ne-type organization ::wiki European_Union
+(56) ::ne-surf United Nations ::ne-type organization ::wiki United_Nations
+(56) ::ne-surf Taliban ::ne-type criminal-organization ::wiki Taliban
+(60) ::ne-surf International Atomic Energy Agency ::ne-type organization ::wiki International_Atomic_Energy_Agency
+(43) ::ne-surf Amnesty International ::ne-type organization ::wiki Amnesty_International
+(39) ::ne-surf ASEAN ::ne-type organization ::wiki Association_of_Southeast_Asian_Nations
+(34) ::ne-surf Security Council ::ne-type organization ::wiki United_Nations_Security_Council
+(27) ::ne-surf UN Security Council ::ne-type organization ::wiki United_Nations_Security_Council
+(20) ::ne-surf OSCE ::ne-type organization ::wiki Organization_for_Security_and_Co-operation_in_Europe
+(19) ::ne-surf United Nations Security Council ::ne-type organization ::wiki United_Nations_Security_Council
+(16) ::ne-surf Congress ::ne-type government-organization ::wiki United_States_Congress ::context United_States
+(13) ::ne-surf Interpol ::ne-type organization ::wiki Interpol
+(13) ::ne-surf SCO ::ne-type organization ::wiki Shanghai_Cooperation_Organisation
+(12) ::ne-surf European Commission ::ne-type organization ::wiki European_Commission
+(12) ::ne-surf Greenpeace ::ne-type organization ::wiki Greenpeace
+(23) ::ne-surf People's Mujahedeen ::ne-type organization ::wiki People's_Mujahedin_of_Iran
+(23) ::ne-surf People's Mujahedin ::ne-type organization ::wiki People's_Mujahedin_of_Iran
+(12) ::ne-surf United States Senate ::ne-type government-organization ::wiki United_States_Senate
+(12) ::ne-surf U.S. Senate ::ne-type government-organization ::wiki United_States_Senate
+(12) ::ne-surf US Senate ::ne-type government-organization ::wiki United_States_Senate
+(12) ::ne-surf U.N. ::ne-type organization ::wiki United_Nations
+(11) ::ne-surf al-Qaida ::ne-type criminal-organization ::wiki Al-Qaeda
+(10) ::ne-surf Association of Southeast Asian Nations ::ne-type organization ::wiki Association_of_Southeast_Asian_Nations
+(10) ::ne-surf United States Department of State ::ne-type government-organization ::wiki United_States_Department_of_State
+(10) ::ne-surf U.S. State Department ::ne-type government-organization ::wiki United_States_Department_of_State
+(10) ::ne-surf US State Department ::ne-type government-organization ::wiki United_States_Department_of_State
+(9) ::ne-surf Hamas ::ne-type organization ::wiki Hamas
+(9) ::ne-surf Kremlin ::ne-type government-organization ::wiki Moscow_Kremlin
+(9) ::ne-surf Al-Qaeda ::ne-type criminal-organization ::wiki Al-Qaeda
+(6) ::ne-surf al-Qaeda ::ne-type criminal-organization ::wiki Al-Qaeda
+(2) ::ne-surf Al Qaeda ::ne-type criminal-organization ::wiki Al-Qaeda
+(2) ::ne-surf Al-Qaida ::ne-type criminal-organization ::wiki Al-Qaeda
+(8) ::ne-surf Organization for Security and Cooperation in Europe ::ne-type organization ::wiki Organization_for_Security_and_Co-operation_in_Europe
+(7) ::ne-surf Anti Narcotics Force ::ne-type government-organization ::wiki Anti-Narcotics_Force
+(7) ::ne-surf Downing Street ::ne-type government-organization ::wiki Downing_Street ::context United_Kingdom
+(7) ::ne-surf FARC ::ne-type criminal-organization ::wiki FARC
+(3) ::ne-surf Revolutionary Armed Forces of Colombia ::ne-type criminal-organization ::wiki FARC
+(7) ::ne-surf Muslim Brotherhood ::ne-type organization ::wiki Muslim_Brotherhood
+(7) ::ne-surf U.N. Security Council ::ne-type organization ::wiki United_Nations_Security_Council
+(7) ::ne-surf UN General Assembly ::ne-type organization ::wiki United_Nations_General_Assembly
+(5) ::ne-surf European Parliament ::ne-type organization ::wiki European_Parliament
+(5) ::ne-surf European Space Agency ::ne-type organization ::wiki European_Space_Agency
+(5) ::ne-surf FAO ::ne-type organization ::wiki Food_and_Agriculture_Organization
+(5) ::ne-surf Shanghai Cooperation Organization ::ne-type organization ::wiki Shanghai_Cooperation_Organisation
+(5) ::ne-surf UN Office on Drugs and Crime ::ne-type organization ::wiki United_Nations_Office_on_Drugs_and_Crime
+(5) ::ne-surf WHO ::ne-type organization ::wiki World_Health_Organization
+(5) ::ne-surf World Health Organization ::ne-type organization ::wiki World_Health_Organization
+(4) ::ne-surf European Space Agency ::ne-type government-organization ::wiki European_Space_Agency
+(4) ::ne-surf Federal Reserve ::ne-type government-organization ::wiki Federal_Reserve_System ::context United_States
+(4) ::ne-surf G-8 ::ne-type organization ::wiki G8
+(4) ::ne-surf House ::ne-type government-organization ::wiki United_States_House_of_Representatives ::context United_States
+(4) ::ne-surf Kurdistan Workers' Party ::ne-type criminal-organization ::wiki Kurdistan_Workers'_Party
+(4) ::ne-surf PKK ::ne-type criminal-organization ::wiki Kurdistan_Workers'_Party
+(4) ::ne-surf Pentagon ::ne-type government-organization ::wiki The_Pentagon
+(4) ::ne-surf World Bank ::ne-type organization ::wiki World_Bank
+(5) ::ne-surf CIA ::ne-type government-organization ::wiki Central_Intelligence_Agency
+(3) ::ne-surf FBI ::ne-type government-organization ::wiki Federal_Bureau_of_Investigation
+(2) ::ne-surf G8 ::ne-type organization ::wiki G8
+(1) ::ne-surf Central Intelligence Agency ::ne-type government-organization ::wiki Central_Intelligence_Agency
+(1) ::ne-surf Group of Eight ::ne-type organization ::wiki G8
+(1) ::ne-surf National Security Agency ::ne-type government-organization ::wiki National_Security_Agency
+(1) ::ne-surf EPA ::ne-type government-organization ::wiki United_States_Environmental_Protection_Agency
+(1) ::ne-surf Environmental Protection Agency ::ne-type government-organization ::wiki United_States_Environmental_Protection_Agency
+(0) ::ne-surf Food and Agriculture Organization ::ne-type organization ::wiki Food_and_Agriculture_Organization
+(0) ::ne-surf Federal Bureau of Investigation ::ne-type government-organization ::wiki Federal_Bureau_of_Investigation
+(0) ::ne-surf NSA ::ne-type government-organization ::wiki National_Security_Agency
+(10) ::ne-surf Nuclear Suppliers Group ::ne-type organization ::wiki Nuclear_Suppliers_Group
+(7) ::ne-surf NSG ::ne-type organization ::wiki Nuclear_Suppliers_Group
+(2) ::ne-surf Red Cross ::ne-type organization ::wiki International_Red_Cross_and_Red_Crescent_Movement
+(0) ::ne-surf Doctors Without Borders ::ne-type organization ::wiki Médecins_Sans_Frontières
+(0) ::ne-surf Médecins Sans Frontières ::ne-type organization ::wiki Médecins_Sans_Frontières
+(0) ::ne-surf Medecins Sans Frontieres ::ne-type organization ::wiki Médecins_Sans_Frontières
+
+(19) ::ne-surf Republican Party ::ne-type political-party ::wiki Republican_Party_(United_States) ::context United_States
+(9) ::ne-surf Chinese Communist Party ::ne-type political-party ::wiki Communist_Party_of_China
+(9) ::ne-surf Communist Party of China ::ne-type political-party ::wiki Communist_Party_of_China
+(9) ::ne-surf GOP ::ne-type political-party ::wiki Republican_Party_(United_States)
+(9) ::ne-surf Republican ::ne-type political-party ::wiki Republican_Party_(United_States) ::context United_States
+(9) ::ne-surf Sandinista ::ne-type political-party ::wiki Sandinista_National_Liberation_Front
+(8) ::ne-surf Democratic Party ::ne-type political-party ::wiki Democratic_Party_(United_States) ::context United_States
+(6) ::ne-surf Awami League ::ne-type political-party ::wiki Bangladesh_Awami_League
+(5) ::ne-surf Conservative Party ::ne-type political-party ::wiki Conservative_Party_(UK) ::context United_Kingdom
+(5) ::ne-surf Democrat ::ne-type political-party ::wiki Democratic_Party_(United_States) ::context United_States
+(5) ::ne-surf Labour Party ::ne-type political-party ::wiki Labour_Party_(UK) ::context United_Kingdom
+(4) ::ne-surf Hezbollah ::ne-type political-party ::wiki Hezbollah
+(3) ::ne-surf Dem ::ne-type political-party ::wiki Democratic_Party_(United_States) ::context United_States
+(3) ::ne-surf FSLN ::ne-type political-party ::wiki Sandinista_National_Liberation_Front
+(3) ::ne-surf Congress ::ne-type political-party ::wiki Indian_National_Congress ::context India
+
+(5) ::ne-surf HKUST ::ne-type university ::wiki Hong_Kong_University_of_Science_and_Technology
+(3) ::ne-surf University of California ::ne-type university ::wiki University_of_California
+(2) ::ne-surf Harvard University ::ne-type university ::wiki Harvard_University
+(1) ::ne-surf Harvard ::ne-type university ::wiki Harvard_University
+(0) ::ne-surf University of Southern California ::ne-type university ::wiki University_of_Southern_California
+
+(20) ::ne-surf State Scientific Center of Applied Microbiology ::ne-type research-institute ::wiki -
+(8) ::ne-surf International Institute for Strategic Studies ::ne-type research-institute ::wiki International_Institute_for_Strategic_Studies
+(1) ::ne-surf ISI ::ne-type research-institute ::wiki Information_Sciences_Institute
+(0) ::ne-surf Information Sciences Institute ::ne-type research-institute ::wiki Information_Sciences_Institute

@@ -1,0 +1,8 @@
+STEM match for unaligned and :: and :: NW_TTR_ENG_0157_2005_0223.9 cjconsensus
+STEM match for unaligned and :: and :: NW_TTR_ENG_0157_2005_0223.9 cjconsensus
+STEM match for unaligned restless :: rest-01 :: NW_TTR_ENG_0157_2005_0223.11 cjconsensus
+STEM match for unaligned and :: and :: NW_TTR_ENG_0157_2005_0223.13 cjconsensus
+STEM match for unaligned and :: and :: NW_TTR_ENG_0157_2005_0223.13 cjconsensus
+STEM match for unaligned griping :: grip-01 :: NW_TTR_ENG_0157_2005_0223.13 cjconsensus
+STEM match for unaligned fulltime :: full-time :: NW_TTR_ENG_0157_2005_0223.17 cjconsensus
+STEM match for unaligned remotes :: remote :: NW_TTR_ENG_0157_2005_0223.17 cjconsensus

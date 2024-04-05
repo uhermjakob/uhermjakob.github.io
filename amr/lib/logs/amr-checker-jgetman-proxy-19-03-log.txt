@@ -1,0 +1,11 @@
+STEM match for unaligned Japanese :: Japan :: PROXY_AFP_ENG_20020406_0538.4 jgetman
+STEM match for unaligned excessive :: excess :: PROXY_AFP_ENG_20020406_0538.4 jgetman
+STEM match for unaligned Japanese :: Japan :: PROXY_AFP_ENG_20020406_0538.5 jgetman
+STEM match for unaligned excessive :: excess :: PROXY_AFP_ENG_20020406_0538.6 jgetman
+STEM match for unaligned Conservative :: conservatism :: PROXY_AFP_ENG_20020406_0538.23 jgetman
+STEM match for unaligned renowned :: renown :: PROXY_AFP_ENG_20020406_0538.26 jgetman
+STEM match for unaligned conservative :: conservatism :: PROXY_AFP_ENG_20020406_0538.27 jgetman
+STEM match for unaligned Terror :: terrorism :: PROXY_AFP_ENG_20020414_0542.14 jgetman
+STEM match for unaligned monstrous :: monster :: PROXY_AFP_ENG_20020414_0542.16 jgetman
+STEM match for unaligned multi :: multiple :: PROXY_AFP_ENG_20020423_0076.6 jgetman
+STEM match for unaligned contractors :: contract-02 :: PROXY_AFP_ENG_20020423_0076.12 jgetman

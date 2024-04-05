@@ -1,0 +1,6 @@
+# facility list
+(11) ::ne-surf Yasukuni Shrine ::ne-type worship-place ::wiki Yasukuni_Shrine
+(11) ::ne-surf Yongbyon ::ne-type facility ::wiki Yongbyon_Nuclear_Scientific_Research_Center
+(2) ::ne-surf Finsbury Park Mosque ::ne-type worship-place ::wiki North_London_Central_Mosque
+(1) ::ne-surf Baikonur Space Center ::ne-type facility ::wiki Baikonur_Cosmodrome
+

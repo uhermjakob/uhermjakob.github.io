@@ -1,0 +1,11 @@
+STEM match for unaligned underway :: under :: NW_APW_ENG_0053_2003_0322.3 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0053_2003_0322.24 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0053_2003_0322.24 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0053_2003_0322.24 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0053_2003_0322.24 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0053_2003_0322.26 colorado
+STEM match for unaligned Iraq :: Iraq :: NW_APW_ENG_0053_2003_0322.33 colorado
+STEM match for unaligned Iraq :: Iraqi :: NW_APW_ENG_0053_2003_0322.33 colorado
+STEM match for unaligned regrettable :: regret-01 :: NW_APW_ENG_0053_2003_0322.34 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0053_2003_0322.39 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0053_2003_0322.39 colorado

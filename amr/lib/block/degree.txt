@@ -1,0 +1,92 @@
+TITLE :degree
+HIGHLIGHT-RED :degree
+HIGHLIGHT-RED most
+HIGHLIGHT-RED more
+HIGHLIGHT-RED so
+HIGHLIGHT-RED what
+HIGHLIGHT-RED how
+HIGHLIGHT-RED very
+HIGHLIGHT-RED too
+HIGHLIGHT-RED enough
+HIGHLIGHT-RED utterly
+HIGHLIGHT-RED utter
+HIGHLIGHT-RED mass
+HIGHLIGHT-RED kind of
+HIGHLIGHT-RED kind-of
+HIGHLIGHT-RED have-degree-91
+HIGHLIGHT-RED have-quant-91
+HIGHLIGHT-RED later
+HIGHLIGHT-RED after
+HIGHLIGHT-BLUE comparatives
+HIGHLIGHT-BLUE superlatives
+HIGHLIGHT-BLUE consequence constructions
+HIGHLIGHT-BLUE intensifiers
+HIGHLIGHT-BLUE downtoners
+HIGHLIGHT-BLUE wh-exclamations
+
+<h2>Overview</h2>
+<ul> 
+   <li> Use have-degree-91 (or have-quant-91) for comparatives and superlatives
+      <ul>
+	 <li> the most expensive dress
+	 <li> the bright<font color="red">est</font> boy
+      </ul>
+   <li> Use have-degree-91 (or have-quant-91) for consequence constructions with too / enough / so
+      <ul>
+	 <li> It is too early to reach any conclusions.
+	 <li> This computer is small enough to fit in your pocket.
+	 <li> He was so tired that he slept for 10 hours.
+      </ul>
+   <li> Use :degree for intensifiers and downtoners.
+      <ul>
+	 <li> The boy sang very beautifully.
+	 <li> He is kind of sad.
+	 <li> Carthage was utterly destroyed.
+      </ul>
+   <li> Use :degree so for wh-exclamations.
+      <ul>
+	 <li> What a great book! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font color="#777777">= so great a book</font>
+	 <li> How beautiful you are. &nbsp; &nbsp; <font color="#777777">= You are so beautiful!</font>
+      </ul>
+</ul>
+
+<h2>Example AMRs</h2>
+
+EXAMPLE isi_0002.203 the most expensive dress
+
+EXAMPLE isi_0001.27 the girl is taller than the boy
+
+EXAMPLE isi_0002.30 the brightest boy
+
+EXAMPLE isi_0002.31 a worse plan
+
+EXAMPLE isi_0002.826 It is too early to reach any conclusions.
+
+EXAMPLE isi_0002.200 The car is much too expensive.
+
+EXAMPLE isi_0002.825 This computer is small enough to fit in your pocket.
+
+EXAMPLE isi_0002.842 He was so tired that he slept for 10 hours.
+
+EXAMPLE isi_0002.35 The boy sang very beautifully.
+
+EXAMPLE isi_0002.199 He is kind of sad.
+
+EXAMPLE isi_0002.201 Carthage was utterly destroyed.
+
+EXAMPLE isi_0002.227 weapons of mass destruction
+
+EXAMPLE isi_0002.193 How beautiful you are.
+
+EXAMPLE isi_0002.194 What a great book!
+
+<hr>
+
+<h2>Counter Examples</h2>
+
+EXAMPLE isi_0002.202 Most students don't like math.
+
+EXAMPLE isi_0002.198 Dad, I need more money.
+
+EXAMPLE isi_0002.843 We entered the cave at noon and left it 2 hours later.
+

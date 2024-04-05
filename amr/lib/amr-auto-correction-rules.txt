@@ -1,0 +1,1650 @@
+CHANGE-ROLE-GOVERNING again TO :mod
+CHANGE-ROLE-GOVERNING always TO :time
+CHANGE-ROLE-GOVERNING eighth FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING ever TO :time
+CHANGE-ROLE-GOVERNING fifth FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING first FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING fourth FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING ninth FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING second FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING seventh FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING sixth FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING tenth FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING third FROM :quant TO :mod
+CHANGE-ROLE-GOVERNING too FROM :mod TO :degree CONSIDER
+CHANGE-ROLE-GOVERNING very FROM :mod TO :degree
+CHANGE-ROLE-UNDER ankle FROM :poss TO :part-of
+CHANGE-ROLE-UNDER beard FROM :poss TO :part-of
+CHANGE-ROLE-UNDER cheek FROM :poss TO :part-of
+CHANGE-ROLE-UNDER ear FROM :poss TO :part-of
+CHANGE-ROLE-UNDER elbow FROM :poss TO :part-of
+CHANGE-ROLE-UNDER eye FROM :poss TO :part-of
+CHANGE-ROLE-UNDER face FROM :poss TO :part-of
+CHANGE-ROLE-UNDER finger FROM :poss TO :part-of
+CHANGE-ROLE-UNDER foot FROM :poss TO :part-of
+CHANGE-ROLE-UNDER forehead FROM :poss TO :part-of
+CHANGE-ROLE-UNDER hair FROM :poss TO :part-of
+CHANGE-ROLE-UNDER hand FROM :poss TO :part-of
+CHANGE-ROLE-UNDER have-degree-92 FROM :ARG3 TO :ARG2
+CHANGE-ROLE-UNDER heart FROM :poss TO :part-of
+CHANGE-ROLE-UNDER head FROM :poss TO :part-of
+CHANGE-ROLE-UNDER kidney FROM :poss TO :part-of
+CHANGE-ROLE-UNDER knee FROM :poss TO :part-of
+CHANGE-ROLE-UNDER leg FROM :poss TO :part-of
+CHANGE-ROLE-UNDER liver FROM :poss TO :part-of
+CHANGE-ROLE-UNDER lung FROM :poss TO :part-of
+CHANGE-ROLE-UNDER mouth FROM :poss TO :part-of
+CHANGE-ROLE-UNDER neck FROM :poss TO :part-of
+CHANGE-ROLE-UNDER nose FROM :poss TO :part-of
+CHANGE-ROLE-UNDER stomach FROM :poss TO :part-of
+CHANGE-ROLE-UNDER tongue FROM :poss TO :part-of
+CHANGE-ROLE-UNDER toe FROM :poss TO :part-of
+CHANGE-ROLE-UNDER tooth FROM :poss TO :part-of
+CHANGE-ROLE-UNDER wrist FROM :poss TO :part-of
+CHANGE-ROLE-UNDER multi-sentence FROM :op1 TO :snt1
+CHANGE-ROLE-UNDER multi-sentence FROM :op2 TO :snt2
+CHANGE-ROLE-UNDER multi-sentence FROM :op3 TO :snt3
+CHANGE-ROLE-UNDER multi-sentence FROM :op4 TO :snt4
+CHANGE-ROLE-UNDER multi-sentence FROM :op5 TO :snt5
+CHANGE-ROLE-UNDER multi-sentence FROM :op6 TO :snt6
+CHANGE-ROLE-UNDER multi-sentence FROM :op7 TO :snt7
+CHANGE-ROLE-UNDER multi-sentence FROM :op8 TO :snt8
+CHANGE-ROLE-UNDER multi-sentence FROM :op9 TO :snt9
+CHANGE-ROLE-UNDER multi-sentence FROM :op10 TO :snt10
+CHANGE-ROLE-UNDER multi-sentence FROM :op11 TO :snt11
+CHANGE-ROLE-UNDER multi-sentence FROM :op12 TO :snt12
+CHANGE-ROLE-UNDER multi-sentence FROM :op13 TO :snt13
+CHANGE-ROLE-UNDER multi-sentence FROM :op14 TO :snt14
+CHANGE-ROLE-UNDER multi-sentence FROM :op15 TO :snt15
+CHANGE-ROLE-UNDER multi-sentence FROM :op16 TO :snt16
+CHANGE-ROLE-UNDER multi-sentence FROM :op17 TO :snt17
+CHANGE-ROLE-UNDER multi-sentence FROM :op18 TO :snt18
+CHANGE-ROLE-UNDER multi-sentence FROM :op19 TO :snt19
+CHANGE-ROLE-UNDER multi-sentence FROM :op20 TO :snt20
+CHANGE-ROLE-UNDER multiple FROM :quant TO :op1
+CHANGE-NE-TYPE Agence France-Presse TO publication
+CHANGE-NE-TYPE AFP FROM company TO publication
+CHANGE-NE-TYPE Asia FROM world-region TO continent
+CHANGE-NE-TYPE Bosnia-Herzegovina FROM world-region TO country
+CHANGE-NE-TYPE Devil FROM god TO person
+CHANGE-NE-TYPE God FROM god TO person
+CHANGE-NE-TYPE Hong Kong TO city
+CHANGE-NE-TYPE Macao FROM country-region TO city
+CHANGE-NE-TYPE Macao FROM district TO city
+CHANGE-NE-TYPE NATO FROM organization TO military
+CHANGE-NE-TYPE Palestine TO country
+CHANGE-NE-TYPE Taiwan FROM country-region TO country
+CHANGE-NE-TYPE Taiwan FROM state TO country
+CHANGE-NE-TYPE Tibet TO province
+CHANGE-NE-TYPE U.S. Army TO military
+CHANGE-NE-TYPE Xinhua FROM company TO publication
+CHANGE-NE-TYPE Xinhua News Agency FROM company TO publication
+CHANGE-TRIPLE constrictor :mod boa TO boa :mod constrictor
+
+ERROR before :time ::comment Consider: before :op1
+ERROR after :time ::comment Consider: after :op1
+ERROR fewer-than :op1 ::comment Consider: less-than :op1
+ERROR less :op1 ::comment Consider: less-than :op1
+ERROR more :op1 ::comment Consider: more-than :op1
+ERROR :quant all
+ERROR :mod always ::comment Consider: :time always
+ERROR :frequency always ::comment Consider: :time always
+ERROR :mod already ::comment Consider: :time already
+ERROR multiple :unit ::comment Consider: multiple :op1 (...-quantity :unit ...)
+ERROR :mod kind-of ::comment Consider changing to (... :degree kind-of) or (... :mod kind)
+ERROR :degree kind ::comment Consider changing to (... :degree kind-of) or (... :mod kind)
+ERROR :mod sort-of ::comment Consider changing to (... :degree sort-of) or (... :mod sort)
+ERROR :degree sort ::comment Consider changing to (... :degree sort-of) or (... :mod sort)
+WARNING value-interval :op1 date-entity ::comment Consider changing to date-interval :op1 date-entity
+WARNING value-interval :op2 date-entity ::comment Consider changing to date-interval :op1 date-entity
+WARNING :mod expressive ::comment Consider: :mode expressive
+WARNING :time during ::comment Is 'during' already covered by ':time'?
+WARNING :time back ::comment Consider using ':time before'
+WARNING :time morning ::comment Consider: date-entity :dayperiod morning
+WARNING :time afternoon ::comment Consider: date-entity :dayperiod afternoon
+WARNING :time evening ::comment Consider: date-entity :dayperiod evening
+WARNING :time night ::comment Consider: date-entity :dayperiod night
+WARNING :time tonight ::comment Consider: date-entity :dayperiod night :mod today
+WARNING :time spring ::comment Consider: date-entity :season spring
+WARNING :time summer ::comment Consider: date-entity :season summer
+WARNING :time fall ::comment Consider: date-entity :season fall
+WARNING :time autumn ::comment Consider: date-entity :season autumn
+WARNING :time winter ::comment Consider: date-entity :season winter
+WARNING :time post :op1 ::comment Consider: :time after :op1
+WARNING keep-01 :ARG1 eye ::comment Consider using just eye-01
+WARNING keep-02 :ARG1 eye ::comment Consider using just eye-01
+WARNING keep-04 :ARG1 eye ::comment Consider using just eye-01
+WARNING keep-02 :ARG1 eye-01 ::comment Consider using just eye-01
+OK decade :mod recent
+OK year :mod recent
+OK month :mod recent
+OK week :mod recent
+OK day :mod recent
+OK season :mod recent
+OK date-entity :mod recent
+OK late :mod recent
+OK :time memory :mod recent
+OK :time past :mod recent
+OK :time period :mod recent
+WARNING year :time
+WARNING month :time
+WARNING week :time
+WARNING day :time
+WARNING :mod recent ::comment Consider: :time recent
+WARNING we :op1
+WARNING you :op1
+WARNING they :op1
+OK :time date-entity :time
+ERROR execute-01 :mod thing :ARG2-of summarize-02 ::comment Consider: execute-01 :manner summary ***
+OK execute-01 :manner summary
+OK curious-04 :degree dead
+OK serious-01 :degree dead
+OK wrong-04 :degree dead
+OK :direction in
+OK :direction or :op1 in
+OK :concession for-all
+OK rocket :ARG0-of carry-01
+ERROR multiple :quant 1
+ERROR proliferate-01 :degree hyper ::comment use hyperproliferate-01
+ERROR :degree more ::comment use have-degree-91 or have-quant-91
+ERROR :degree most ::comment use have-degree-91 or have-quant-91
+ERROR :degree less ::comment use have-degree-91 or have-quant-91
+ERROR :degree least ::comment use have-degree-91 or have-quant-91
+ERROR :degree equal ::comment use have-degree-91 or have-quant-91
+ERROR :degree enough ::comment use have-degree-91 or have-quant-91
+ERROR have-quant-91 :ARG2 more ::comment Shouldn't that be :ARG3 more?
+ERROR have-quant-91 :ARG2 most ::comment Shouldn't that be :ARG3 most?
+ERROR have-quant-91 :ARG2 less ::comment Shouldn't that be :ARG3 less?
+ERROR have-quant-91 :ARG2 least ::comment Shouldn't that be :ARG3 least?
+ERROR have-quant-91 :ARG2 too ::comment Shouldn't that be :ARG3 too?
+ERROR have-quant-91 :ARG2 enough ::comment Shouldn't that be :ARG3 enough?
+ERROR have-quant-91 :ARG2 equal ::comment Shouldn't that be :ARG3 equal?
+ERROR have-degree-91 :ARG2 more ::comment Shouldn't that be :ARG3 more?
+ERROR have-degree-91 :ARG2 most ::comment Shouldn't that be :ARG3 most?
+ERROR have-degree-91 :ARG2 less ::comment Shouldn't that be :ARG3 less?
+ERROR have-degree-91 :ARG2 least ::comment Shouldn't that be :ARG3 least?
+ERROR have-degree-91 :ARG2 too ::comment Shouldn't that be :ARG3 too?
+ERROR have-degree-91 :ARG2 enough ::comment Shouldn't that be :ARG3 enough?
+ERROR have-degree-91 :ARG2 equal ::comment Shouldn't that be :ARG3 equal?
+ERROR less :degree more ::comment See AMR Dict under less/lesser.
+ERROR extent :degree less ::comment See AMR Dict under less/lesser.
+ERROR extent :mod less ::comment See AMR Dict under less/lesser.
+ERROR extent :quant less ::comment See AMR Dict under less/lesser.
+ERROR :extent less ::comment See AMR Dict under less/lesser.
+ERROR :mod ordinal-entity ::comment Should probably be :ord ordinal-entity.
+ERROR ordinal-entity :quant ::comment Should probably be ordinal-entity. :value.
+ERROR ordinal-entity :op1 ::comment Should probably be ordinal-entity. :value.
+ERROR more :extent ::comment Should probably be (more :quant ...).
+ERROR bit :degree quite ::comment Should probably be (much :degree quite).
+ERROR few :degree quite ::comment Should probably be (few :degree quite).
+ERROR :mod mass-quantity ::comment For amounts of substances use :quant; for weight of objects use weigh-01.
+ERROR school :mod middle ::comment Should probably be middle-school.
+ERROR temperature-quantity :unit degree ::comment Drop degree. It's implied.
+ERROR temperature-quantity :quant degree ::comment Drop degree. It's implied.
+ERROR temperature-quantity :scale degree ::comment Drop degree. It's implied. Scale values are celsius/kelvin/fahrenheit.
+ERROR course :mod due ::comment Should probably be in-due-course
+ERROR over :op2 ::comment 'over' only takes :op1.
+ERROR over :mod time ::comment Should probably be over-time
+ERROR time :mod over ::comment Should probably be over-time
+ERROR over :op1 weekend ::comment Proabably just (:time weekend) without 'over'.
+ERROR :degree high ::comment Should probably be :degree high-02
+ERROR :mod no-longer ::comment Should probably be :time no-longer
+ERROR call-01 :mod so ::comment Should probably be :mod so-called
+ERROR call-01 :manner so ::comment Should probably be :mod so-called
+ERROR out :op1 there ::comment Should probably be :location out-there
+ERROR percentage-entity :op1 ::comment Should probably be percentage-entity :value
+ERROR percentage-entity :quant ::comment Should probably be percentage-entity :value
+WARNING after :op1 temporal-quantity ::comment Should probably be :quant (or, more rarely, :duration)
+WARNING before :op1 temporal-quantity ::comment Should probably be :quant (or, more rarely, :duration)
+WARNING after :op1 about ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 about ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 almost ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 almost ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 approximately ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 approximately ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 few ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 few ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 less-than ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 less-than ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 many ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 many ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 more-than ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 more-than ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 multiple ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 multiple ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 nearly ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 nearly ::comment Should probably be :quant (or :duration) for temporal-quantity
+WARNING after :op1 several ::comment Should probably be :quant (or, less often, :duration) for temporal-quantity
+WARNING before :op1 several ::comment Should probably be :quant (or :duration) for temporal-quantity
+ERROR after :op2
+ERROR before :op2
+ERROR :mod as-long-as ::comment See AMR Dict under 'as long as'.
+ERROR :duration as-long-as ::comment See AMR Dict under 'as long as'.
+ERROR :time as-long-as ::comment See AMR Dict under 'as long as'.
+ERROR ever :polarity - ::comment Polarity should probably attach one level higher. See AMR Dict for examples for 'never'.
+WARNING over :op1 top ::comment Should probably be over-the-top
+WARNING like-01 :polarity - ::comment Usually annotated as dislike-01.
+WARNING place :ord ordinal-entity :value 1 ::comment For idiomatic expression "in the first place", consider using in-the-first-place.
+# WARNING :duration time ::comment For 'over time', consider using :mod over-time.
+WARNING time :duration ::comment Consider using last-01.
+WARNING have-quant-91 :ARG2 few ::comment For 'fewer', note that it's the adjective form of 'few', not its comparative; consider (have-quant-91 :ARG3 less). For 'too few', consider annotating as 'not enough' (have-quant-91 :polarity - :ARG3 enough).
+
+OK-NE car-make Volkswagen
+OK-NE country Rome
+OK-NE ethnic-group Jew
+OK-NE family Obama
+OK-NE government-organization ISI
+OK-NE government-organization Washington
+OK-NE market-sector Hollywood
+OK-NE person Victoria
+OK-NE person Washington
+OK-NE province Kabul
+OK-NE region Hong Kong
+OK-NE river Mississippi
+OK-NE small-molecule EPO
+OK-NE state Kashmir
+OK-NE war Vietnam
+
+USE-HAVE-ORG-ROLE-91-ARG2 ambassador
+USE-HAVE-ORG-ROLE-91-ARG2 archbishop
+USE-HAVE-ORG-ROLE-91-ARG2 bishop
+USE-HAVE-ORG-ROLE-91-ARG2 CEO
+USE-HAVE-ORG-ROLE-91-ARG2 chairman
+USE-HAVE-ORG-ROLE-91-ARG2 chancellor
+USE-HAVE-ORG-ROLE-91-ARG2 commissioner
+USE-HAVE-ORG-ROLE-91-ARG2 congressman
+USE-HAVE-ORG-ROLE-91-ARG2 congresswoman
+USE-HAVE-ORG-ROLE-91-ARG2 deputy
+USE-HAVE-ORG-ROLE-91-ARG2 dictator
+USE-HAVE-ORG-ROLE-91-ARG2 director
+USE-HAVE-ORG-ROLE-91-ARG2 director-general
+USE-HAVE-ORG-ROLE-91-ARG2 emperor
+USE-HAVE-ORG-ROLE-91-ARG2 empress
+USE-HAVE-ORG-ROLE-91-ARG2 envoy
+USE-HAVE-ORG-ROLE-91-ARG2 governor
+USE-HAVE-ORG-ROLE-91-ARG2 king
+USE-HAVE-ORG-ROLE-91-ARG2 mayor
+USE-HAVE-ORG-ROLE-91-ARG2 minister
+USE-HAVE-ORG-ROLE-91-ARG2 monarch
+USE-HAVE-ORG-ROLE-91-ARG2 officer
+USE-HAVE-ORG-ROLE-91-ARG2 official
+USE-HAVE-ORG-ROLE-91-ARG2 plenipotentiary
+USE-HAVE-ORG-ROLE-91-ARG2 pope
+USE-HAVE-ORG-ROLE-91-ARG2 premier
+USE-HAVE-ORG-ROLE-91-ARG2 president
+USE-HAVE-ORG-ROLE-91-ARG2 principal
+USE-HAVE-ORG-ROLE-91-ARG2 professor
+USE-HAVE-ORG-ROLE-91-ARG2 queen
+USE-HAVE-ORG-ROLE-91-ARG2 secretary
+USE-HAVE-ORG-ROLE-91-ARG2 secretary-general
+USE-HAVE-ORG-ROLE-91-ARG2 senator
+USE-HAVE-ORG-ROLE-91-ARG2 shah
+USE-HAVE-ORG-ROLE-91-ARG2 spokesman
+USE-HAVE-ORG-ROLE-91-ARG2 spokesperson
+USE-HAVE-ORG-ROLE-91-ARG2 spokeswoman
+USE-HAVE-ORG-ROLE-91-ARG2 treasurer
+USE-HAVE-ORG-ROLE-91-ARG2 undersecretary-general
+
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 activist
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 aide
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 agent
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 attorney
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 authority
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 boss
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 brigadier-general
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 capital
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 captain
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 cardinal
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 center
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 chief
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 citizen
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 clerk
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 colonel
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 colonel-general
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 commander
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 correspondent
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 diplomat
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 editor
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 executive
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 force
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 general
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 lieutenant
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 lieutenant-colonel
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 lieutenant-general
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 major
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 matriarch
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 member
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 militant
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 military
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 nurse
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 patriarch
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 personnel
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 pilot
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 reservist
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 scientist
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 second-in-command
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 soldier
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 center
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 chief
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 citizen
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 clerk
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 colonel
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 commander
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 correspondent
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 diplomat
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 executive
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 general
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 lieutenant
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 lieutenant-colonel
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 lieutenant-general
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 major
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 member
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 militant
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 personnel
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 pilot
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 scientist
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 seaman
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 second-in-command
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 soldier
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 troop
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 veteran
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 wingman
+MAYBE-USE-HAVE-ORG-ROLE-91-ARG2 warrior
+
+USE-HAVE-REL-ROLE-91-ARG2 accomplice
+USE-HAVE-REL-ROLE-91-ARG2 ancestor
+USE-HAVE-REL-ROLE-91-ARG2 aunt
+USE-HAVE-REL-ROLE-91-ARG2 best-man
+USE-HAVE-REL-ROLE-91-ARG2 boss
+USE-HAVE-REL-ROLE-91-ARG2 boyfriend
+USE-HAVE-REL-ROLE-91-ARG2 bro :standard brother
+USE-HAVE-REL-ROLE-91-ARG2 brother
+USE-HAVE-REL-ROLE-91-ARG2 brother-in-law
+USE-HAVE-REL-ROLE-91-ARG2 buddy
+USE-HAVE-REL-ROLE-91-ARG2 child :sense relational-sense-only
+USE-HAVE-REL-ROLE-91-ARG2 client
+USE-HAVE-REL-ROLE-91-ARG2 comrade
+USE-HAVE-REL-ROLE-91-ARG2 cousin
+USE-HAVE-REL-ROLE-91-ARG2 dad :standard father
+USE-HAVE-REL-ROLE-91-ARG2 daddy :standard father
+USE-HAVE-REL-ROLE-91-ARG2 daughter
+USE-HAVE-REL-ROLE-91-ARG2 daughter-in-law
+USE-HAVE-REL-ROLE-91-ARG2 descendant
+USE-HAVE-REL-ROLE-91-ARG2 enemy
+USE-HAVE-REL-ROLE-91-ARG2 father
+USE-HAVE-REL-ROLE-91-ARG2 father-in-law
+USE-HAVE-REL-ROLE-91-ARG2 friend
+USE-HAVE-REL-ROLE-91-ARG2 girlfriend
+USE-HAVE-REL-ROLE-91-ARG2 godchild
+USE-HAVE-REL-ROLE-91-ARG2 goddaughter
+USE-HAVE-REL-ROLE-91-ARG2 godfather
+USE-HAVE-REL-ROLE-91-ARG2 godmother
+USE-HAVE-REL-ROLE-91-ARG2 godparent
+USE-HAVE-REL-ROLE-91-ARG2 godson
+USE-HAVE-REL-ROLE-91-ARG2 grandchild
+USE-HAVE-REL-ROLE-91-ARG2 granddad :standard grandfather
+USE-HAVE-REL-ROLE-91-ARG2 granddaddy :standard grandfather
+USE-HAVE-REL-ROLE-91-ARG2 granddaughter
+USE-HAVE-REL-ROLE-91-ARG2 grandfather
+USE-HAVE-REL-ROLE-91-ARG2 grandma :standard grandmother
+USE-HAVE-REL-ROLE-91-ARG2 grandmother
+USE-HAVE-REL-ROLE-91-ARG2 granny :standard grandmother
+USE-HAVE-REL-ROLE-91-ARG2 grandpa :standard grandfather
+USE-HAVE-REL-ROLE-91-ARG2 grandparent
+USE-HAVE-REL-ROLE-91-ARG2 grandson
+USE-HAVE-REL-ROLE-91-ARG2 housemate
+USE-HAVE-REL-ROLE-91-ARG2 husband
+USE-HAVE-REL-ROLE-91-ARG2 in-law # as in "my in-laws"
+USE-HAVE-REL-ROLE-91-ARG2 kid :standard child :sense relational-sense-only
+USE-HAVE-REL-ROLE-91-ARG2 landlord
+USE-HAVE-REL-ROLE-91-ARG2 maid-of-honor
+USE-HAVE-REL-ROLE-91-ARG2 mate
+USE-HAVE-REL-ROLE-91-ARG2 mom :standard mother
+USE-HAVE-REL-ROLE-91-ARG2 mommy :standard mother
+USE-HAVE-REL-ROLE-91-ARG2 mother
+USE-HAVE-REL-ROLE-91-ARG2 mother-in-law
+USE-HAVE-REL-ROLE-91-ARG2 mum :standard mother
+USE-HAVE-REL-ROLE-91-ARG2 mummy :standard mother
+USE-HAVE-REL-ROLE-91-ARG2 nephew
+USE-HAVE-REL-ROLE-91-ARG2 niece
+USE-HAVE-REL-ROLE-91-ARG2 parent
+USE-HAVE-REL-ROLE-91-ARG2 partner :sense significant-other
+USE-HAVE-REL-ROLE-91-ARG2 patient
+USE-HAVE-REL-ROLE-91-ARG2 peer :sense relational-sense-only
+USE-HAVE-REL-ROLE-91-ARG2 pop :standard father
+USE-HAVE-REL-ROLE-91-ARG2 practitioner # as in general practitioner
+USE-HAVE-REL-ROLE-91-ARG2 relative
+USE-HAVE-REL-ROLE-91-ARG2 roommate
+USE-HAVE-REL-ROLE-91-ARG2 running-mate
+USE-HAVE-REL-ROLE-91-ARG2 shipmate
+USE-HAVE-REL-ROLE-91-ARG2 sibling
+USE-HAVE-REL-ROLE-91-ARG2 sis :standard sister
+USE-HAVE-REL-ROLE-91-ARG2 significant-other
+USE-HAVE-REL-ROLE-91-ARG2 sister
+USE-HAVE-REL-ROLE-91-ARG2 sister-in-law
+USE-HAVE-REL-ROLE-91-ARG2 son
+USE-HAVE-REL-ROLE-91-ARG2 son-in-law
+USE-HAVE-REL-ROLE-91-ARG2 spouse
+USE-HAVE-REL-ROLE-91-ARG2 stepbrother
+USE-HAVE-REL-ROLE-91-ARG2 stepchild
+USE-HAVE-REL-ROLE-91-ARG2 stepdaughter
+USE-HAVE-REL-ROLE-91-ARG2 stepfather
+USE-HAVE-REL-ROLE-91-ARG2 stepmother
+USE-HAVE-REL-ROLE-91-ARG2 stepsister
+USE-HAVE-REL-ROLE-91-ARG2 stepson
+USE-HAVE-REL-ROLE-91-ARG2 tenant
+USE-HAVE-REL-ROLE-91-ARG2 therapist
+USE-HAVE-REL-ROLE-91-ARG2 uncle
+USE-HAVE-REL-ROLE-91-ARG2 wife
+USE-HAVE-REL-ROLE-91-ARG2 sister city
+USE-HAVE-REL-ROLE-91-ARG2 twin town
+MAYBE-USE-HAVE-REL-ROLE-91-ARG2 doctor # as in "my doctor"
+MAYBE-USE-HAVE-REL-ROLE-91-ARG2 lawyer # as in "my lawyer"
+
+DO-NOT-SPLIT businessman TO business man
+DO-NOT-SPLIT businessperson TO business person
+
+DO-NOT-VERBALIZE captor TO person :ARG0-of capture-01
+DO-NOT-VERBALIZE carrier TO ship :ARG0-of carry-01
+DO-NOT-VERBALIZE chairman TO person :ARG0-of chair-01
+DO-NOT-VERBALIZE commander TO person :ARG0-of command-02
+DO-NOT-VERBALIZE container TO product :ARG0-of contain-01
+DO-NOT-VERBALIZE contractor TO person :ARG0-of contract-02
+DO-NOT-VERBALIZE correspondent TO person :ARG0-of correspond-01
+DO-NOT-VERBALIZE dictator TO person :ARG0-of dictate-01
+DO-NOT-VERBALIZE director TO person :ARG0-of direct-01
+# But what about a film director?
+DO-NOT-VERBALIZE editor TO person :ARG0-of edit-01
+DO-NOT-VERBALIZE father TO person :ARG0-of father-01
+DO-NOT-VERBALIZE governor TO person :ARG0-of govern-01
+DO-NOT-VERBALIZE governors TO person :ARG0-of govern-01
+DO-NOT-VERBALIZE helicopter TO aircraft :ARG1-of helicopter-01
+DO-NOT-VERBALIZE information TO thing :ARG2-of inform-01
+DO-NOT-VERBALIZE militant TO person :ARG0-of militate-01
+DO-NOT-VERBALIZE mother TO person :ARG0-of mother-01
+DO-NOT-VERBALIZE predator TO person :ARG0-of predate-02
+DO-NOT-VERBALIZE president TO person :ARG0-of preside-01
+DO-NOT-VERBALIZE professor TO person :ARG0-of profess-01
+DO-NOT-VERBALIZE signatory TO country :ARG0-of sign-01
+# instead, map to sign-02
+DO-NOT-VERBALIZE terrorist TO person :ARG0-of terrorize-01
+DO-NOT-VERBALIZE treasurer TO person :ARG0-of treasure-01
+DO-NOT-VERBALIZE undertaker TO person :ARG0-of undertake-01
+
+DO-NOT-VERBALIZE concept TO conceive-01
+DO-NOT-VERBALIZE conference TO confer-01
+DO-NOT-VERBALIZE confidence TO confide-01
+DO-NOT-VERBALIZE delegation TO delegate-01
+DO-NOT-VERBALIZE dinner TO dine-01
+DO-NOT-VERBALIZE freedom TO free-01
+DO-NOT-VERBALIZE harmony TO harmonize-01
+DO-NOT-VERBALIZE hospital TO hospitalize-01
+DO-NOT-VERBALIZE propaganda TO propagandize-01
+DO-NOT-VERBALIZE revolution TO revolt-01
+DO-NOT-VERBALIZE revolutionary TO revolt-01
+DO-NOT-VERBALIZE stability TO stabilize-01
+DO-NOT-VERBALIZE surveillance TO survey-01
+# instead, use surveil-01
+DO-NOT-VERBALIZE terrorism TO terrorize-01
+DO-NOT-VERBALIZE useful TO use-01
+MAYBE-VERBALIZE relationship TO relate-01
+
+DO-NOT-VERBALIZE active TO act-02
+DO-NOT-VERBALIZE deaf TO deafen-01
+DO-NOT-VERBALIZE deep TO deepen-01
+DO-NOT-VERBALIZE effective TO effect-01
+DO-NOT-VERBALIZE favorable TO favor-01
+DO-NOT-VERBALIZE financial TO finance-01
+DO-NOT-VERBALIZE financial TO finance-02
+DO-NOT-VERBALIZE glad TO gladden-01
+DO-NOT-VERBALIZE hard TO harden-01
+DO-NOT-VERBALIZE hopeful TO hope-01 # provide frame for hopeful
+DO-NOT-VERBALIZE important TO import-01
+DO-NOT-VERBALIZE likable TO like-01
+DO-NOT-VERBALIZE likeable TO like-01
+DO-NOT-VERBALIZE liquid TO liquefy-01
+DO-NOT-VERBALIZE modern TO modernize-01
+DO-NOT-VERBALIZE popular TO popularize-01
+DO-NOT-VERBALIZE ripe TO ripen-01
+DO-NOT-VERBALIZE sad TO sadden-01
+DO-NOT-VERBALIZE scandalous TO scandalize-01
+DO-NOT-VERBALIZE simple TO simplify-01
+DO-NOT-VERBALIZE soft TO soften-01
+DO-NOT-VERBALIZE specific TO specify-01
+DO-NOT-VERBALIZE speedy TO speed-01
+DO-NOT-VERBALIZE stable TO stabilize-01
+DO-NOT-VERBALIZE suspicious TO suspect-01
+DO-NOT-VERBALIZE unprecedented TO precede-01
+DO-NOT-VERBALIZE white TO whiten-01
+DO-NOT-VERBALIZE wide TO widen-01
+
+DO-NOT-VERBALIZE actively TO act-02
+DO-NOT-VERBALIZE effectively TO effect-01
+DO-NOT-VERBALIZE namely TO name-01
+DO-NOT-VERBALIZE specifically TO specify-01
+
+DO-NOT-MAP capitalist TO capital
+DO-NOT-MAP chemical TO chemistry
+DO-NOT-MAP especially TO especial
+DO-NOT-MAP friendly TO friend
+DO-NOT-MAP hardly TO hard
+DO-NOT-MAP imperialist TO imperial
+DO-NOT-MAP imperialistic TO imperial
+DO-NOT-MAP international TO internation
+DO-NOT-MAP lively TO live
+DO-NOT-MAP local TO vicinity
+DO-NOT-MAP military TO militia
+DO-NOT-MAP natural TO nature
+DO-NOT-MAP official TO officer
+DO-NOT-MAP overseas TO oversea
+DO-NOT-MAP personal TO person
+DO-NOT-MAP politics TO politic
+DO-NOT-MAP provisional TO provision
+DO-NOT-MAP socialist TO social
+DO-NOT-MAP timely TO time
+DO-NOT-MAP unfreeze TO freeze-02
+DO-NOT-MAP unfreezes TO freeze-02
+DO-NOT-MAP unfroze TO freeze-02
+DO-NOT-MAP various TO variety
+DO-NOT-MAP worthy TO worth
+
+VERBALIZE abusive TO abuse-01
+VERBALIZE acceptable TO accept-01
+VERBALIZE aching TO ache-01
+VERBALIZE accumulative TO accumulate-01
+VERBALIZE accumulatively TO accumulate-01
+MAYBE-VERBALIZE activity TO act-02
+VERBALIZE administrative TO administrate-01
+VERBALIZE advisory TO advise-01
+VERBALIZE afraid TO fear-01
+VERBALIZE alive TO live-01
+VERBALIZE anti TO oppose-01
+VERBALIZE anti TO counter-01
+VERBALIZE anti TO destroy-01
+VERBALIZE asleep TO sleep-01
+VERBALIZE attractive TO attract-01
+VERBALIZE aware TO realize-01
+VERBALIZE beneficial TO benefit-01
+VERBALIZE beloved TO love-01
+VERBALIZE coercive TO coerce-01
+VERBALIZE commendable TO commend-01
+VERBALIZE comparative TO compare-01
+VERBALIZE comparatively TO compare-01
+VERBALIZE competitive TO compete-01
+VERBALIZE compliant TO comply-01
+VERBALIZE compulsory TO compel-01
+VERBALIZE consensual TO consent-01
+VERBALIZE consequently TO cause-01
+VERBALIZE continual TO continue-01
+VERBALIZE continuous TO continue-01
+VERBALIZE contradictory TO contradict-01
+VERBALIZE cooperative TO cooperate-01
+VERBALIZE correspondence TO correspond-01
+VERBALIZE dead TO die-01
+VERBALIZE dead TO kill-01
+VERBALIZE deadly TO kill-01
+VERBALIZE destructive TO destroy-01
+VERBALIZE detectable TO detect-01
+VERBALIZE detestable TO detest-01
+VERBALIZE different TO differ-02
+VERBALIZE discriminatory TO discriminate-02
+VERBALIZE disgraceful TO disgrace-01
+VERBALIZE disputable TO dispute-01
+VERBALIZE dominant TO dominate-01
+VERBALIZE educational TO educate-01
+VERBALIZE eligible TO qualify-02
+VERBALIZE emphatically TO emphasize-01
+VERBALIZE expectantly TO expect-01
+VERBALIZE exploratory TO explore-01
+VERBALIZE famous TO fame-01
+VERBALIZE fearful TO fear-01
+VERBALIZE forceful TO force-01
+VERBALIZE foreseeable TO foresee-01
+VERBALIZE governmental TO government-organization :ARG0-of govern-01
+VERBALIZE hallucinatory TO hallucinate-01
+VERBALIZE half-life TO have-half-life-01
+VERBALIZE hungry TO hunger-01
+VERBALIZE imaginable TO imagine-01
+VERBALIZE impressive TO impress-01
+VERBALIZE inducible TO induce-01
+VERBALIZE inflammatory TO inflame-01
+VERBALIZE inhibitory TO inhibit-01
+VERBALIZE innovative TO innovate-01
+VERBALIZE intentional TO intend-01
+VERBALIZE intrigueing TO intrigue-01
+VERBALIZE investigative TO investigate-01
+VERBALIZE jobless TO have-03 :polarity - :ARG1 job
+VERBALIZE joblessness TO have-03 :polarity - :ARG1 job
+VERBALIZE justifiable TO justify-01
+VERBALIZE kidnapping TO kidnap-01
+VERBALIZE legislative TO legislate-01
+VERBALIZE measurable TO measure-01
+VERBALIZE metastatic TO metastasize-101
+VERBALIZE meritorious TO merit-01
+VERBALIZE migratory TO migrate-01
+VERBALIZE observational TO observe-01
+VERBALIZE operational TO operate-01
+VERBALIZE painful TO pain-01
+VERBALIZE painfully TO pain-01
+VERBALIZE peacekeeping TO keep-01 :ARG1 peace
+VERBALIZE precursory TO precede-01
+VERBALIZE predictive TO predict-01
+VERBALIZE preferential TO prefer-01
+VERBALIZE preparatory TO prepare-02
+VERBALIZE presumably TO presume-02
+VERBALIZE prevalent TO prevail-02
+MAYBE-VERBALIZE pro TO favor-01
+VERBALIZE proud TO pride-01
+VERBALIZE prosperous TO prosper-01
+VERBALIZE protective TO protect-01
+VERBALIZE provocative TO provoke-01
+VERBALIZE punishable TO punish-01
+VERBALIZE putative TO think-01
+VERBALIZE rebellious TO rebel-01
+VERBALIZE rebuttal TO rebut-01
+VERBALIZE recombinant TO recombine-01
+VERBALIZE regulatory TO regulate-01
+VERBALIZE renewable TO renew-01
+VERBALIZE repeatedly TO repeat-01
+VERBALIZE repressive TO repress-01
+VERBALIZE resentful TO resent-01
+VERBALIZE respectful TO respect-01
+VERBALIZE retaliatory TO retaliate-01
+VERBALIZE rusty TO rust-01
+VERBALIZE seemingly TO seem-01
+VERBALIZE senseless TO sense-02 :polarity -
+VERBALIZE similar TO resemble-01
+VERBALIZE similarity TO resemble-01
+VERBALIZE stagnant TO stagnate-01
+VERBALIZE successful TO succeed-01
+VERBALIZE sufficient TO suffice-01
+VERBALIZE surprisingly TO surprise-01
+VERBALIZE taxable TO tax-01
+VERBALIZE thirsty TO thirst-01
+VERBALIZE traceable TO trace-02
+VERBALIZE transcriptional TO transcribe-01
+VERBALIZE transferrable TO transfer-01
+VERBALIZE unbiased TO bias-01 :polarity -
+VERBALIZE unburdened TO burden-01 :polarity -
+VERBALIZE uncensored TO censor-01 :polarity -
+VERBALIZE unconfirmed TO confirm-01 :polarity -
+VERBALIZE undecided TO decide-01 :polarity -
+VERBALIZE understandable TO understand-01
+VERBALIZE undocumented TO document-01 :polarity -
+VERBALIZE unedited TO edit-01 :polarity -
+VERBALIZE unemployed TO employ-01 :polarity -
+VERBALIZE unexplored TO explore-01 :polarity -
+VERBALIZE unforeseen TO foresee-01 :polarity -
+VERBALIZE unfulfilled TO fulfill-01 :polarity -
+VERBALIZE unhindered TO hinder-01 :polarity -
+VERBALIZE unimpeded TO impede-01 :polarity -
+VERBALIZE unmaintained TO maintain-01 :polarity -
+VERBALIZE unmodified TO modify-01 :polarity -
+VERBALIZE unnamed TO name-01 :polarity -
+VERBALIZE unrealized TO realize-02 :polarity -
+VERBALIZE unrelenting TO relent-01 :polarity -
+VERBALIZE unsolved TO solve-01 :polarity -
+VERBALIZE unspecified TO specify-01 :polarity -
+VERBALIZE unsurpassed TO surpass-01 :polarity -
+VERBALIZE unswayed TO sway-02 :polarity -
+VERBALIZE untreated TO treat-03 :polarity -
+VERBALIZE untreated TO treat-04 :polarity -
+VERBALIZE voluntary TO volunteer-01
+VERBALIZE willing TO will-02
+VERBALIZE wishful TO wish-01
+
+VERBALIZE continually TO continue-01
+VERBALIZE increasingly TO increase-01
+VERBALIZE overwhelmingly TO overwhelm-01
+VERBALIZE reportedly TO report-01
+
+VERBALIZE abduction TO abduct-01
+VERBALIZE abrogation TO abrogate-01
+VERBALIZE absolution TO absolve-01
+VERBALIZE abstentia TO absent-01
+VERBALIZE acetylation TO acetylate-01
+VERBALIZE ad TO advertise-01
+VERBALIZE adherence TO adhere-02
+VERBALIZE adhesion TO adhere-01
+VERBALIZE administration TO administrate-01
+VERBALIZE amination TO aminate-01
+VERBALIZE apparition TO appear-01
+VERBALIZE approval TO approve-01
+VERBALIZE acquittal TO acquit-01
+VERBALIZE annoyance TO annoy-01
+MAYBE-VERBALIZE apparent TO appear-02
+MAYBE-VERBALIZE apprehension TO apprehend-01
+VERBALIZE advocacy TO advocate-01
+VERBALIZE aspiration TO aspire-01
+VERBALIZE attention TO attend-02
+VERBALIZE baptism TO baptize-01
+VERBALIZE behavior TO behave-01
+VERBALIZE bequest TO bequeath-01
+VERBALIZE betrayal TO betray-01
+VERBALIZE blessing TO bless-01
+VERBALIZE blockage TO block-01
+VERBALIZE bombing TO bomb-01
+VERBALIZE breakaway TO break-away-14
+VERBALIZE breakdown TO break-down-11
+VERBALIZE breakdown TO break-down-12
+VERBALIZE breakthrough TO break-through-26
+VERBALIZE breakup TO break-up-08
+VERBALIZE burglary TO burglarize-01
+VERBALIZE coexistence TO coexist-01
+VERBALIZE competition TO compete-01
+VERBALIZE construction TO construct-01
+VERBALIZE conversion TO convert-01
+VERBALIZE cooperation TO cooperate-01
+VERBALIZE crackdown TO crack-down-06
+VERBALIZE creation TO create-01
+VERBALIZE deacetylation TO deacetylate-01
+VERBALIZE deceit TO deceive-01
+VERBALIZE decryption TO decrypt-00
+VERBALIZE defence TO defend-01
+VERBALIZE defense TO defend-01
+VERBALIZE demethylation TO demethylate-01
+VERBALIZE dependence TO depend-01
+VERBALIZE dependency TO depend-01
+VERBALIZE dephosphorylation TO dephosphorylate-01
+VERBALIZE descent TO descend-01
+VERBALIZE desperation TO despair-01
+VERBALIZE destruction TO destroy-01
+VERBALIZE detention TO detain-01
+VERBALIZE devaluation TO devalue-01
+VERBALIZE development TO develop-01
+VERBALIZE development TO develop-02
+VERBALIZE dimerization TO dimerize-01
+VERBALIZE disarmament TO disarm-01
+VERBALIZE dissatisfation TO dissatisfy-01
+VERBALIZE dominance TO dominate-01
+VERBALIZE downregulation TO downregulate-01
+VERBALIZE dysregulation TO dysregulate-01
+VERBALIZE dysregulation TO regulate-01
+VERBALIZE exclamation TO exclaim-01
+VERBALIZE election TO elect-01
+VERBALIZE elimination TO eliminate-01
+VERBALIZE encryption TO encrypt-01
+VERBALIZE espionage TO spy-01
+VERBALIZE expectation TO expect-01
+VERBALIZE failure TO fail-01
+MAYBE-VERBALIZE familiar TO familiarize-01
+VERBALIZE flight TO fly-01
+VERBALIZE flight TO flee-01
+VERBALIZE forgiveness TO forgive-01
+VERBALIZE fraud TO defraud-01
+VERBALIZE globalization TO globalize-01
+VERBALIZE habitation TO inhabit-01
+VERBALIZE hesitancy TO hesitate-01
+VERBALIZE heterodimerization TO heterodimerize-01
+VERBALIZE hijacking TO hijack-01
+VERBALIZE homodimerization TO homodimerize-01
+VERBALIZE hydrolysis TO hydrolyze-01
+VERBALIZE hypomethylation TO methylate-01
+VERBALIZE infection TO infect-01
+VERBALIZE intention TO intend-01
+VERBALIZE invitation TO invite-01
+VERBALIZE isomerization TO isomerize-01
+VERBALIZE launching TO launch-01
+VERBALIZE lawsuit TO sue-02
+VERBALIZE layoff TO lay-off-02
+VERBALIZE liberation TO liberate-01
+VERBALIZE meeting TO meet-03
+VERBALIZE methylation TO methylate-01
+VERBALIZE misunderstanding TO misunderstand-01
+VERBALIZE negligence TO neglect-01
+VERBALIZE opposition TO oppose-01
+VERBALIZE ouster TO oust-01
+VERBALIZE overexpression TO overexpress-01
+VERBALIZE perseverance TO persevere-01
+VERBALIZE phosphorylation TO phosphorylate-01
+VERBALIZE prayer TO pray-01
+VERBALIZE pretense TO pretend-01
+VERBALIZE prosecution TO prosecute-01
+VERBALIZE prosperity TO prosper-01
+VERBALIZE radiance TO radiate-01
+VERBALIZE radiation TO radiate-01
+VERBALIZE reactivation TO reactivate-01
+VERBALIZE reconciliation TO reconcile-01
+VERBALIZE reconstruction TO reconstruct-01
+VERBALIZE reelection TO reelect-01
+VERBALIZE regulation TO regulate-01
+VERBALIZE reintegration TO reintegrate-01
+VERBALIZE repression TO repress-01
+VERBALIZE reunification TO re-unify-01
+VERBALIZE reverence TO revere-01
+VERBALIZE robbery TO rob-01
+VERBALIZE starvation TO starve-01
+VERBALIZE subjugation TO subjugate-01
+VERBALIZE subversion TO subvert-01
+VERBALIZE suppression TO suppress-01
+VERBALIZE surveillance TO surveil-01
+VERBALIZE synthesis TO synthesize-01
+VERBALIZE takeoff TO take-off-19
+VERBALIZE takeover TO take-over-12
+VERBALIZE theft TO steal-01
+VERBALIZE transaction TO transact-01
+VERBALIZE transcription TO transcribe-01
+VERBALIZE transfection TO transfect-01
+VERBALIZE translocation TO translocate-01
+VERBALIZE ubiquitination TO ubiquitinate-01
+VERBALIZE uprising TO rise-up-00
+VERBALIZE upregulation TO upregulate-01
+VERBALIZE weaponization TO weaponize-01
+VERBALIZE warmongering TO warmonger-01
+VERBALIZE viewing TO view-01
+VERBALIZE victory TO win-01
+VERBALIZE vision TO see-01
+VERBALIZE vision TO envision-01
+VERBALIZE visit TO visit-01
+
+VERBALIZE abuser TO person :ARG0-of abuse-01
+VERBALIZE activator TO thing :ARG0-of activate-01
+VERBALIZE actor TO person :ARG0-of act-01
+VERBALIZE actress TO person :ARG0-of act-01
+VERBALIZE administration TO government-organization :ARG0-of administrate-01
+VERBALIZE administration TO organization :ARG0-of administrate-01
+VERBALIZE administrator TO person :ARG0-of administer-01
+VERBALIZE administrator TO person :ARG0-of administrate-01
+VERBALIZE admirer TO person :ARG0-of admire-01
+VERBALIZE advertiser TO company :ARG0-of advertise-01
+VERBALIZE advertiser TO person :ARG0-of advertise-01
+VERBALIZE adviser TO person :ARG0-of advise-01
+VERBALIZE advisor TO person :ARG0-of advise-01
+VERBALIZE analyst TO person :ARG0-of analyze-01
+VERBALIZE announcer TO person :ARG0-of announce-01
+VERBALIZE applicant TO person :ARG0-of apply-01
+VERBALIZE arbitrator TO person :ARG0-of arbitrate-01
+VERBALIZE assailant TO person :ARG0-of assail-01
+VERBALIZE assassin TO person :ARG0-of assassinate-01
+VERBALIZE assistant TO person :ARG0-of assist-01
+VERBALIZE attacker TO person :ARG0-of attack-01
+VERBALIZE attendee TO person :ARG0-of attend-01
+VERBALIZE auditor TO person :ARG0-of audit-01
+VERBALIZE author TO person :ARG0-of author-01
+VERBALIZE baker TO person :ARG0-of bake-01
+VERBALIZE beggar TO person :ARG0-of beg-01
+VERBALIZE believer TO person :ARG0-of believe-01
+VERBALIZE bidder TO person :ARG0-of bid-01
+VERBALIZE blogger TO person :ARG0-of blog-01
+VERBALIZE bomber TO aircraft :ARG0-of bomb-01
+VERBALIZE booster TO person :ARG0-of boost-01
+VERBALIZE broadcaster TO company :ARG0-of broadcast-01
+VERBALIZE buyer TO person :ARG0-of buy-01
+VERBALIZE campaigner TO person :ARG0-of campaign-01
+VERBALIZE capitulator TO person :ARG0-of capitulate-01
+VERBALIZE coach TO person :ARG0-of coach-01
+VERBALIZE combatant TO person :ARG0-of combat-01
+VERBALIZE competitor TO person :ARG0-of compete-01
+VERBALIZE competitor TO person :ARG0-of compete-02
+VERBALIZE composer TO person :ARG0-of compose-02
+VERBALIZE commuter TO person :ARG0-of commute-01
+VERBALIZE consultant TO person :ARG0-of consult-01
+VERBALIZE consumer TO person :ARG0-of consume-01
+VERBALIZE contributor TO person :ARG0-of contribute-01
+VERBALIZE controller TO person :ARG0-of control-01
+VERBALIZE creator TO person :ARG0-of create-01
+VERBALIZE critic TO person :ARG0-of criticize-01
+VERBALIZE critic TO person :ARG0-of criticism-04
+VERBALIZE dealer TO person :ARG0-of deal-01
+VERBALIZE dealer TO person :ARG0-of deal-02
+VERBALIZE dancer TO person :ARG0-of dance-01
+VERBALIZE defender TO person :ARG0-of defend-01
+VERBALIZE demonstrator TO person :ARG0-of demonstrate-01
+VERBALIZE designer TO person :ARG0-of design-01
+VERBALIZE deterrent TO thing :ARG0-of deter-01
+VERBALIZE detector TO product :ARG0-of detect-01
+VERBALIZE developer TO person :ARG0-of develop-02
+VERBALIZE devotee TO person :ARG0-of devote-01
+VERBALIZE digger TO person :ARG0-of dig-01
+VERBALIZE distributor TO person :ARG0-of distribute-01
+VERBALIZE donor TO person :ARG0-of donate-01
+VERBALIZE drafter TO person :ARG0-of draft-01
+VERBALIZE drinker TO person :ARG0-of drink-01
+VERBALIZE driver TO person :ARG0-of drive-01
+VERBALIZE eater TO person :ARG0-of eat-01
+VERBALIZE embalmer TO person :ARG0-of embalm-01
+VERBALIZE employer TO organization :ARG0-of employ-01
+VERBALIZE employer TO company :ARG0-of employ-01
+VERBALIZE employer TO person :ARG0-of employ-01
+VERBALIZE enabler TO person :ARG0-of enable-01
+VERBALIZE entertainer TO person :ARG0-of entertain-01
+VERBALIZE evaluator TO person :ARG0-of evaluate-01
+VERBALIZE explorer TO person :ARG0-of explore-01
+VERBALIZE exporter TO person :ARG0-of export-01
+VERBALIZE exporter TO company :ARG0-of export-01
+VERBALIZE extortionist TO person :ARG0-of extort-01
+VERBALIZE farmer TO person :ARG0-of farm-01
+VERBALIZE fertiliser TO thing :ARG0-of fertilize-01
+VERBALIZE fertilizer TO thing :ARG0-of fertilize-01
+VERBALIZE fighter TO aircraft :ARG0-of fight-01
+VERBALIZE fighter TO person :ARG0-of fight-01
+VERBALIZE filter TO product :ARG0-of filter-01
+VERBALIZE financer TO person :ARG0-of finance-01
+VERBALIZE financier TO person :ARG0-of finance-01
+VERBALIZE fisherman TO person :ARG0-of fish-01
+VERBALIZE follower TO person :ARG0-of follow-02
+VERBALIZE founder TO person :ARG0-of found-01
+VERBALIZE government TO government-organization :ARG0-of govern-01
+VERBALIZE hacker TO person :ARG0-of hack-04
+VERBALIZE hater TO person :ARG0-of hate-01
+VERBALIZE helper TO person :ARG0-of help-01
+VERBALIZE hijacker TO person :ARG0-of hijack-01
+VERBALIZE hitter TO person :ARG0-of hit-01
+VERBALIZE holder TO person :ARG0-of hold-01
+VERBALIZE hugger TO person :ARG0-of hug-01
+VERBALIZE hunter TO person :ARG0-of hunt-01
+VERBALIZE immigrant TO person :ARG0-of immigrate-01
+VERBALIZE incentive TO thing :ARG0-of incentivize-01
+VERBALIZE incinerator TO facility :ARG0-of incinerate-01
+VERBALIZE indicator TO thing :ARG0-of indicate-01
+VERBALIZE infiltrator TO person :ARG0-of infiltrate-01
+VERBALIZE inhabitant TO person :ARG0-of inhabit-01
+VERBALIZE inhibitor TO thing :ARG0-of inhibit-01
+VERBALIZE inspector TO person :ARG0-of inspect-01
+VERBALIZE insurer TO person :ARG0-of insure-02
+VERBALIZE interpreter TO person :ARG0-of interpret-01
+VERBALIZE interrogator TO person :ARG0-of interrogate-01
+VERBALIZE inventor TO person :ARG0-of invent-01
+VERBALIZE investigator TO person :ARG0-of investigate-01
+VERBALIZE investor TO person :ARG0-of invest-01
+VERBALIZE jogger TO person :ARG0-of jog-01
+VERBALIZE judge TO person :ARG0-of judge-01
+VERBALIZE kidnapper TO person :ARG0-of kidnap-01
+VERBALIZE killer TO person :ARG0-of kill-01
+VERBALIZE laborer TO person :ARG0-of labor-01
+VERBALIZE launcher TO product :ARG0-of launch-01
+VERBALIZE lawmaker TO person :ARG0-of legislate-01
+VERBALIZE leader TO person :ARG0-of lead-01
+VERBALIZE leader TO person :ARG0-of lead-02
+VERBALIZE leaker TO person :ARG0-of leak-01
+VERBALIZE legislator TO person :ARG0-of legislate-01
+VERBALIZE legislature TO government-organization :ARG0-of legislate-01
+VERBALIZE lender TO person :ARG0-of lend-01
+VERBALIZE lender TO company :ARG0-of lend-01
+VERBALIZE liar TO person :ARG0-of lie-08
+VERBALIZE lobbyist TO person :ARG0-of lobby-01
+VERBALIZE loser TO person :ARG0-of lose-03
+VERBALIZE maker TO company :ARG0-of make-01
+VERBALIZE maker TO person :ARG0-of make-01
+VERBALIZE manager TO person :ARG0-of manage-01
+VERBALIZE manufacturer TO company :ARG0-of manufacture-01
+VERBALIZE mediator TO person :ARG0-of mediate-01
+VERBALIZE merchant TO person :ARG0-of merchandise-01
+VERBALIZE migrant TO person :ARG0-of migrate-01
+VERBALIZE miner TO person :ARG0-of mine-01
+VERBALIZE murderer TO person :ARG0-of murder-01
+VERBALIZE negotiator TO person :ARG0-of negotiate-01
+VERBALIZE observer TO person :ARG0-of observe-01
+VERBALIZE occupant TO person :ARG0-of occupy-01
+VERBALIZE offender TO person :ARG0-of offend-01
+VERBALIZE operator TO person :ARG0-of operate-01
+VERBALIZE opponent TO person :ARG0-of oppose-01
+VERBALIZE organiser TO person :ARG0-of organize-01
+VERBALIZE organizer TO person :ARG0-of organize-01
+VERBALIZE owner TO person :ARG0-of own-01
+VERBALIZE painter TO person :ARG0-of paint-01
+VERBALIZE painter TO person :ARG0-of paint-02
+VERBALIZE participant TO person :ARG0-of participate-01
+VERBALIZE passerby TO person :ARG0-of pass-by-17
+VERBALIZE payer TO person :ARG0-of pay-01
+VERBALIZE performer TO person :ARG0-of perform-01
+VERBALIZE perpetrator TO person :ARG0-of perpetrate-01
+VERBALIZE pilot TO person :ARG0-of pilot-01
+VERBALIZE planner TO person :ARG0-of plan-01
+VERBALIZE player TO person :ARG0-of play-01
+VERBALIZE preacher TO person :ARG0-of preach-01
+VERBALIZE producer TO person :ARG0-of produce-01
+VERBALIZE promoter TO molecular-physical-entity :ARG0-of promote-01
+VERBALIZE prosecutor TO person :ARG0-of prosecute-01
+VERBALIZE protester TO person :ARG0-of protest-01
+VERBALIZE provider TO company :ARG0-of provide-01
+VERBALIZE refinery TO facility :ARG0-of refine-01
+VERBALIZE reformer TO person :ARG0-of reform-01
+VERBALIZE publisher TO company :ARG0-of publish-01
+VERBALIZE rapist TO person :ARG0-of rape-01
+VERBALIZE rapper TO person :ARG0-of rap-02
+VERBALIZE reader TO person :ARG0-of read-01
+VERBALIZE recipient TO thing :ARG0-of receive-01
+VERBALIZE regulator TO organization :ARG0-of regulate-01
+VERBALIZE regulator TO person :ARG0-of regulate-01
+VERBALIZE reporter TO person :ARG0-of report-01
+VERBALIZE representative TO person :ARG0-of represent-01
+VERBALIZE repressor TO protein :ARG0-of repress-01
+VERBALIZE researcher TO person :ARG0-of research-01
+VERBALIZE resident TO person :ARG0-of reside-01
+VERBALIZE reviewer TO person :ARG0-of review-02
+VERBALIZE retiree TO person :ARG0-of retire-01
+VERBALIZE robber TO person :ARG0-of rob-01
+VERBALIZE runner TO person :ARG0-of run-02
+VERBALIZE sailor TO person :ARG0-of sail-01
+VERBALIZE seeker TO person :ARG0-of seek-01
+VERBALIZE seller TO person :ARG0-of sell-01
+VERBALIZE servant TO person :ARG0-of serve-01
+VERBALIZE servant TO person :ARG0-of serve-02
+VERBALIZE settler TO person :ARG0-of settle-03
+VERBALIZE shooter TO person :ARG0-of shoot-02
+VERBALIZE signatory TO country :ARG0-of sign-02
+VERBALIZE singer TO person :ARG0-of sing-01
+VERBALIZE smoker TO person :ARG0-of smoke-02
+VERBALIZE smuggler TO person :ARG0-of smuggle-01
+MAYBE-VERBALIZE speaker TO person :ARG0-of speak-01
+VERBALIZE specialist TO person :ARG0-of specialize-01
+VERBALIZE speculator TO person :ARG0-of speculate-01
+VERBALIZE spy TO person :ARG0-of spy-01
+VERBALIZE squatter TO person :ARG0-of squat-02
+VERBALIZE strategist TO person :ARG0-of strategize-01
+VERBALIZE striker TO person :ARG0-of strike-01
+VERBALIZE striker TO person :ARG0-of strike-02
+VERBALIZE student TO person :ARG0-of study-01
+VERBALIZE subscriber TO person :ARG0-of subscribe-01
+VERBALIZE sufferer TO person :ARG0-of suffer-01
+VERBALIZE supervisor TO person :ARG0-of supervise-01
+VERBALIZE supplier TO country :ARG0-of supply-01
+VERBALIZE supplier TO company :ARG0-of supply-01
+VERBALIZE supporter TO person :ARG0-of support-01
+VERBALIZE surgeon TO person :ARG0-of surgery-01
+VERBALIZE survivor TO person :ARG0-of survive-01
+VERBALIZE survivor TO person :ARG0-of survive-02
+VERBALIZE sympathizer TO person :ARG0-of sympathize-01
+VERBALIZE teacher TO person :ARG0-of teach-01
+VERBALIZE thief TO person :ARG0-of steal-01
+VERBALIZE tippler TO person :ARG0-of tipple-01
+VERBALIZE thrower TO person :ARG0-of throw-01
+VERBALIZE tourist TO person :ARG0-of tour-01
+VERBALIZE trader TO person :ARG0-of trade-01
+VERBALIZE trader TO company :ARG0-of trade-01
+VERBALIZE traitor TO person :ARG0-of betray-01
+VERBALIZE trafficker TO person :ARG0-of traffic-01
+VERBALIZE transferor TO person :ARG0-of transfer-01
+VERBALIZE translator TO person :ARG0-of translate-01
+VERBALIZE traveler TO person :ARG0-of travel-01
+VERBALIZE traveller TO person :ARG0-of travel-01
+VERBALIZE user TO person :ARG0-of use-01
+VERBALIZE vendor TO company :ARG0-of vend-01
+VERBALIZE vendor TO person :ARG0-of vend-01
+VERBALIZE victor TO person :ARG0-of win-01
+VERBALIZE visitor TO person :ARG0-of visit-01
+VERBALIZE voter TO person :ARG0-of vote-01
+VERBALIZE waiver TO thing :ARG0-of waive-01
+VERBALIZE winner TO person :ARG0-of win-01
+VERBALIZE wiper TO thing :ARG0-of wipe-01
+VERBALIZE worker TO person :ARG0-of work-01
+VERBALIZE writer TO person :ARG0-of write-01
+
+VERBALIZE beekeeper TO person :ARG0-of keep-01 :ARG1 bee
+VERBALIZE filmmaker TO person :ARG0-of make-01 :ARG1 film
+VERBALIZE firefighter TO person :ARG0-of fight-01 :ARG1 fire
+VERBALIZE gravedigger TO person :ARG0-of dig-01 :ARG1 grave
+VERBALIZE lamplighter TO person :ARG0-of light-04 :ARG1 lamp
+VERBALIZE landowner TO person :ARG0-of own-01 :ARG1 land
+VERBALIZE peacekeeper TO person :ARG0-of keep-01 :ARG1 peace
+VERBALIZE playwright TO person :ARG0-of write-01 :ARG1 play
+VERBALIZE songwriter TO person :ARG0-of write-01 :ARG1 song
+VERBALIZE taxpayer TO person :ARG0-of pay-01 :ARG1 tax
+VERBALIZE watchmaker TO person :ARG0-of make-01 :ARG1 watch
+# musicians
+VERBALIZE bassist TO person :ARG0-of play-11 :ARG2 bass
+VERBALIZE bassoonist TO person :ARG0-of play-11 :ARG2 bassoon
+VERBALIZE cellist TO person :ARG0-of play-11 :ARG2 cello
+VERBALIZE clarinetist TO person :ARG0-of play-11 :ARG2 clarinet
+VERBALIZE drummer TO person :ARG0-of play-11 :ARG2 drum
+VERBALIZE flautist TO person :ARG0-of play-11 :ARG2 flute
+VERBALIZE flutist TO person :ARG0-of play-11 :ARG2 flute
+VERBALIZE hornist TO person :ARG0-of play-11 :ARG2 horn
+VERBALIZE oboist TO person :ARG0-of play-11 :ARG2 oboe
+VERBALIZE organist TO person :ARG0-of play-11 :ARG2 organ
+VERBALIZE percussionist TO person :ARG0-of play-11 :ARG2 percussion
+VERBALIZE pianist TO person :ARG0-of play-11 :ARG2 piano
+VERBALIZE trombonist TO person :ARG0-of play-11 :ARG2 trombone
+VERBALIZE trumpeter TO person :ARG0-of play-11 :ARG2 trumpet
+VERBALIZE violinist TO person :ARG0-of play-11 :ARG2 violin
+VERBALIZE violist TO person :ARG0-of play-11 :ARG2 viola
+
+# :ARG1 (object of an action):
+MAYBE-VERBALIZE defendant TO person :ARG1-of defend-01
+VERBALIZE deportee TO person :ARG1-of deport-01
+VERBALIZE drawing TO picture :ARG1-of draw-01
+VERBALIZE employee TO person :ARG1-of employ-01
+VERBALIZE expenditure TO thing :ARG1-of expend-01
+VERBALIZE expense TO thing :ARG1-of expend-01
+VERBALIZE hypotheses TO thing :ARG1-of hypothesize-01
+VERBALIZE hypothesis TO thing :ARG1-of hypothesize-01
+VERBALIZE intent TO thing :ARG1-of intend-01
+VERBALIZE nominee TO thing :ARG1-of nominate-01
+VERBALIZE opinion TO thing :ARG1-of opine-01
+VERBALIZE painting TO picture :ARG1-of paint-02
+VERBALIZE prisoner TO person :ARG1-of imprison-01
+VERBALIZE suggestion TO thing :ARG1-of suggest-01
+VERBALIZE surrounding TO location :ARG1-of surround-01
+VERBALIZE symbol TO thing :ARG1-of symbolize-01
+VERBALIZE transferee TO person :ARG1-of transfer-01
+MAYBE-VERBALIZE victim TO person :ARG1-of victimize-01
+VERBALIZE yield TO thing :ARG1-of yield-03
+
+# :ARG2 (complement of an action):
+VERBALIZE blessing TO thing :ARG2-of bless-01
+VERBALIZE evacuee TO person :ARG2-of evacuate-01
+VERBALIZE justification TO thing :ARG2-of justify-01
+VERBALIZE summary TO thing :ARG2-of summarize-01
+MAYBE-VERBALIZE medicine TO thing :ARG2-of medicate-01
+
+# The following terms are ambiguous, to be verbalized in some contexts only.
+MAYBE-VERBALIZE product TO thing :ARG1-of produce-01 
+# product is also an NE type
+MAYBE-VERBALIZE ruler TO person :ARG0-of rule-03
+# ruler can also be a product
+MAYBE-VERBALIZE starter TO person :ARG0-of start-01
+# starter is also used in expressions such as "for starters"
+
+MAP DVD TO digital versatile disk
+MAP extramarital TO outside :op1 marry-01
+MAP foreigner TO foreign
+MAP foreigners TO foreign
+MAP global TO globe
+MAP hearted TO heart
+MAP imho TO opine-01
+MAP imo TO opine-01 :ARG0 i
+MAP info TO information
+MAP Kirghizia TO Kyrgyzstan
+MAP Kirghizian TO Kyrgyzstan
+MAP maybe TO possible
+MAP moonlight TO light-04 :ARG0 moon
+MAP municipal TO city
+MAP mutant TO mutate-01
+MAP national TO nation
+MAP necessary TO need-01
+MAP inhibitory TO inhibit-01
+MAP nuclear TO nucleus
+MAP recreational TO recreation-02
+MAP reunify TO re-unify
+MAP schoolchildren TO child :mod school
+MAP tumorigenesis TO create-01 :ARG1 tumor
+MAP unprecedented TO precedent :polarity -
+
+VERBALIZE capability TO capable-01
+VERBALIZE freedom TO free-04
+VERBALIZE illness TO ill-01
+MAP poverty TO poor
+VERBALIZE responsibility TO responsible-01
+VERBALIZE safety TO safe-01
+VERBALIZE shortage TO short-06
+VERBALIZE strength TO strong-02
+VERBALIZE sweetness TO sweet-04
+VERBALIZE sweetness TO sweet-05
+
+MAP actually TO actual
+MAP apparently TO apparent
+MAP basically TO basic
+MAP clearly TO clear
+MAP currently TO current
+MAP definitely TO definite
+MAP finally TO final
+MAP largely TO large
+MAP necessarily TO need-01
+MAP obviously TO obvious
+MAP partly TO part
+MAP probably TO probable
+MAP simply TO simple
+MAP surely TO sure
+MAP truly TO true
+MAP utterly TO utter
+
+ELIMINATE-SUPPORT-VERB achieve success TO succeed-01
+ELIMINATE-SUPPORT-VERB attach importance TO important-01
+ELIMINATE-SUPPORT-VERB attach important TO important-01
+ELIMINATE-SUPPORT-VERB bear similarity TO resemble-01
+ELIMINATE-SUPPORT-VERB bring charge TO charge-05
+ELIMINATE-SUPPORT-VERB carry out crackdown TO crack-down-06
+ELIMINATE-SUPPORT-VERB commit murder TO murder-01
+ELIMINATE-SUPPORT-VERB conduct operation TO operate-01
+ELIMINATE-SUPPORT-VERB conduct test TO test-01
+ELIMINATE-SUPPORT-VERB confer grant TO grant-01
+ELIMINATE-SUPPORT-VERB do deal TO deal-01
+ELIMINATE-SUPPORT-VERB do harm TO harm-01
+ELIMINATE-SUPPORT-VERB do reproduction TO reproduce-01
+ELIMINATE-SUPPORT-VERB do study TO study-01
+ELIMINATE-SUPPORT-VERB do trade TO trade-01
+ELIMINATE-SUPPORT-VERB do work TO work-01
+ELIMINATE-SUPPORT-VERB give answer TO answer-01
+ELIMINATE-SUPPORT-VERB give approval TO approve-01
+ELIMINATE-SUPPORT-VERB give birth TO bear-02
+ELIMINATE-SUPPORT-VERB give demonstration TO demonstrate-01
+ELIMINATE-SUPPORT-VERB give guarantee TO guarantee-01
+ELIMINATE-SUPPORT-VERB give glance TO glance-01
+ELIMINATE-SUPPORT-VERB give importance TO important-01
+ELIMINATE-SUPPORT-VERB give important TO important-01
+ELIMINATE-SUPPORT-VERB give name TO name-01
+ELIMINATE-SUPPORT-VERB give order TO order-01
+ELIMINATE-SUPPORT-VERB give penalty TO penalize-01
+ELIMINATE-SUPPORT-VERB give permission TO permit-01
+ELIMINATE-SUPPORT-VERB give sentence TO sentence-01
+ELIMINATE-SUPPORT-VERB give shelter TO shelter-01
+ELIMINATE-SUPPORT-VERB give suggestion TO suggest-01
+ELIMINATE-SUPPORT-VERB give support TO support-01
+ELIMINATE-SUPPORT-VERB give testimony TO testify-01
+ELIMINATE-SUPPORT-VERB harbor admiration TO admire-01
+ELIMINATE-SUPPORT-VERB harbor disdain TO disdain-01
+ELIMINATE-SUPPORT-VERB harbor resentment TO resent-01
+ELIMINATE-SUPPORT-VERB harbor reverence TO revere-01
+ELIMINATE-SUPPORT-VERB have admiration TO admire-01
+ELIMINATE-SUPPORT-VERB have argument TO argue-02
+ELIMINATE-SUPPORT-VERB have bearing TO bear-06
+ELIMINATE-SUPPORT-VERB have control TO control-01
+ELIMINATE-SUPPORT-VERB have debate TO debate-01
+ELIMINATE-SUPPORT-VERB have desire TO desire-01
+ELIMINATE-SUPPORT-VERB have discussion TO discuss-01
+ELIMINATE-SUPPORT-VERB have disdain TO disdain-01
+ELIMINATE-SUPPORT-VERB have dislike TO dislike-01
+ELIMINATE-SUPPORT-VERB have doubt TO doubt-01
+ELIMINATE-SUPPORT-VERB have effect TO effect-01
+ELIMINATE-SUPPORT-VERB have encounter TO encounter-01
+ELIMINATE-SUPPORT-VERB have experience TO experience-01
+ELIMINATE-SUPPORT-VERB have fear TO fear-01
+ELIMINATE-SUPPORT-VERB have feeling TO feel-01
+ELIMINATE-SUPPORT-VERB have hope TO hope-01
+ELIMINATE-SUPPORT-VERB have horror TO abhor-01
+ELIMINATE-SUPPORT-VERB have impact TO impact-01
+ELIMINATE-SUPPORT-VERB have importance TO (be) important
+ELIMINATE-SUPPORT-VERB have influence TO influence-01
+ELIMINATE-SUPPORT-VERB have intention TO intend-01
+ELIMINATE-SUPPORT-VERB have look TO look-01
+ELIMINATE-SUPPORT-VERB have meeting TO meet-03
+ELIMINATE-SUPPORT-VERB have party TO party-01
+ELIMINATE-SUPPORT-VERB have rest TO rest-01
+ELIMINATE-SUPPORT-VERB have regret TO regret-01
+ELIMINATE-SUPPORT-VERB have right TO entitle-01
+ELIMINATE-SUPPORT-VERB have patience TO patient-41
+ELIMINATE-SUPPORT-VERB have success TO succeed-01
+ELIMINATE-SUPPORT-VERB have suffering TO suffer-01
+ELIMINATE-SUPPORT-VERB have thought TO think-01
+ELIMINATE-SUPPORT-VERB hold admiration TO admire-01
+ELIMINATE-SUPPORT-VERB hold demonstration TO demonstrate-01
+ELIMINATE-SUPPORT-VERB hold discussion TO discuss-01
+ELIMINATE-SUPPORT-VERB hold disdain TO disdain-01
+ELIMINATE-SUPPORT-VERB hold protest TO protest-01
+ELIMINATE-SUPPORT-VERB hold strike TO strike-02
+ELIMINATE-SUPPORT-VERB issue alert TO alert-01
+ELIMINATE-SUPPORT-VERB issue pardon TO pardon-01
+ELIMINATE-SUPPORT-VERB issue penalty TO penalize-01
+ELIMINATE-SUPPORT-VERB issue warning TO warn-01
+ELIMINATE-SUPPORT-VERB keep pace TO keep-05
+ELIMINATE-SUPPORT-VERB launch attack TO attack-01
+ELIMINATE-SUPPORT-VERB make accusation TO accuse-01
+ELIMINATE-SUPPORT-VERB make achievement TO achieve-01
+ELIMINATE-SUPPORT-VERB make acquisition TO acquire-01
+ELIMINATE-SUPPORT-VERB make adjustment TO adjust-01
+ELIMINATE-SUPPORT-VERB make acquaintance TO acquaint-01
+ELIMINATE-SUPPORT-VERB make advance TO advance-01
+ELIMINATE-SUPPORT-VERB make agreement TO agree-01
+ELIMINATE-SUPPORT-VERB make announcement TO announce-01
+ELIMINATE-SUPPORT-VERB make answer TO answer-01
+ELIMINATE-SUPPORT-VERB make apology TO apologize-01
+ELIMINATE-SUPPORT-VERB make appearance TO appear-01
+ELIMINATE-SUPPORT-VERB make appointment TO appoint-01
+ELIMINATE-SUPPORT-VERB make argument TO argue-01
+ELIMINATE-SUPPORT-VERB make arrangement TO arrange-01
+ELIMINATE-SUPPORT-VERB make assertion TO assert-03
+ELIMINATE-SUPPORT-VERB make assessment TO assess-01
+ELIMINATE-SUPPORT-VERB make assumption TO assume-02
+ELIMINATE-SUPPORT-VERB make attack TO attack-01
+ELIMINATE-SUPPORT-VERB make attempt TO attempt-01
+ELIMINATE-SUPPORT-VERB make bet TO bet-01
+ELIMINATE-SUPPORT-VERB make bid TO bid-01
+ELIMINATE-SUPPORT-VERB make call TO call-02
+ELIMINATE-SUPPORT-VERB make call TO call-03
+ELIMINATE-SUPPORT-VERB make calculation TO calculate-01
+ELIMINATE-SUPPORT-VERB make change TO change-01
+ELIMINATE-SUPPORT-VERB make charge TO charge-02
+ELIMINATE-SUPPORT-VERB make charge TO charge-04
+ELIMINATE-SUPPORT-VERB make charge TO charge-06
+ELIMINATE-SUPPORT-VERB make claim TO claim-01
+ELIMINATE-SUPPORT-VERB make choice TO choose-01
+ELIMINATE-SUPPORT-VERB make collection TO collect-01
+ELIMINATE-SUPPORT-VERB make comment TO comment-01
+ELIMINATE-SUPPORT-VERB make comment TO comment-02
+ELIMINATE-SUPPORT-VERB make commitment TO commit-01
+ELIMINATE-SUPPORT-VERB make complaint TO complain-01
+ELIMINATE-SUPPORT-VERB make compromise TO compromise-01
+ELIMINATE-SUPPORT-VERB make concession TO concede-01
+ELIMINATE-SUPPORT-VERB make contribution TO contribute-01
+ELIMINATE-SUPPORT-VERB make cut TO cut-02
+ELIMINATE-SUPPORT-VERB make deal TO deal-01
+ELIMINATE-SUPPORT-VERB make debut TO debut-01
+ELIMINATE-SUPPORT-VERB make decision TO decide-01
+ELIMINATE-SUPPORT-VERB make declaration TO declare-02
+ELIMINATE-SUPPORT-VERB make demand TO demand-01
+ELIMINATE-SUPPORT-VERB make disclosure TO disclose-01
+ELIMINATE-SUPPORT-VERB make discovery TO discover-01
+ELIMINATE-SUPPORT-VERB make donation TO donate-01
+ELIMINATE-SUPPORT-VERB make drawing TO draw-01
+ELIMINATE-SUPPORT-VERB make effort TO try-01
+ELIMINATE-SUPPORT-VERB make error TO err-01
+ELIMINATE-SUPPORT-VERB make estimate TO estimate-01
+ELIMINATE-SUPPORT-VERB make filing TO file-01
+ELIMINATE-SUPPORT-VERB make filing TO file-02
+ELIMINATE-SUPPORT-VERB make gesture TO gesture-01
+ELIMINATE-SUPPORT-VERB make guess TO guess-01
+ELIMINATE-SUPPORT-VERB make inquiry TO inquire-01
+ELIMINATE-SUPPORT-VERB make investment TO invest-01
+ELIMINATE-SUPPORT-VERB make judgment TO judge-01
+ELIMINATE-SUPPORT-VERB make leap TO leap-03
+ELIMINATE-SUPPORT-VERB make loan TO loan-01
+# ELIMINATE-SUPPORT-VERB make mistake TO err-01
+ELIMINATE-SUPPORT-VERB make modification TO modify-01
+ELIMINATE-SUPPORT-VERB make move TO move-01
+ELIMINATE-SUPPORT-VERB make move TO move-04
+ELIMINATE-SUPPORT-VERB make note TO note-01
+ELIMINATE-SUPPORT-VERB make offer TO offer-01
+ELIMINATE-SUPPORT-VERB make offering TO offer-01
+ELIMINATE-SUPPORT-VERB make payment TO pay-01
+ELIMINATE-SUPPORT-VERB make pitch TO pitch-04
+ELIMINATE-SUPPORT-VERB make plan TO plan-01
+ELIMINATE-SUPPORT-VERB make plea TO plead-01
+ELIMINATE-SUPPORT-VERB make plea TO plead-02
+ELIMINATE-SUPPORT-VERB make preparation TO prepare-01
+ELIMINATE-SUPPORT-VERB make progress TO progress-01
+ELIMINATE-SUPPORT-VERB make projection TO project-02
+ELIMINATE-SUPPORT-VERB make proposal TO propose-01
+ELIMINATE-SUPPORT-VERB make promise TO promise-01
+ELIMINATE-SUPPORT-VERB make public TO publicize-01
+ELIMINATE-SUPPORT-VERB make purchase TO purchase-01
+ELIMINATE-SUPPORT-VERB make recommendation TO recommend-01
+ELIMINATE-SUPPORT-VERB make recovery TO recover-01
+ELIMINATE-SUPPORT-VERB make remark TO remark-01
+ELIMINATE-SUPPORT-VERB make reply TO reply-01
+ELIMINATE-SUPPORT-VERB make report TO report-01
+ELIMINATE-SUPPORT-VERB make request TO request-01
+ELIMINATE-SUPPORT-VERB make response TO respond-01
+ELIMINATE-SUPPORT-VERB make return TO return-01
+ELIMINATE-SUPPORT-VERB make sacrifice TO sacrifice-01
+ELIMINATE-SUPPORT-VERB make sale TO sell-01
+ELIMINATE-SUPPORT-VERB make sense TO sense-02
+ELIMINATE-SUPPORT-VERB make statement TO state-01
+ELIMINATE-SUPPORT-VERB make substitution TO substitute-01
+ELIMINATE-SUPPORT-VERB make suggestion TO suggest-01
+ELIMINATE-SUPPORT-VERB make switch TO switch-01
+ELIMINATE-SUPPORT-VERB make tour TO tour-01
+ELIMINATE-SUPPORT-VERB make trade TO trade-01
+ELIMINATE-SUPPORT-VERB make transition TO transition-01
+ELIMINATE-SUPPORT-VERB make trip TO travel-01
+ELIMINATE-SUPPORT-VERB make use TO use-01
+ELIMINATE-SUPPORT-VERB make visit TO visit-01
+ELIMINATE-SUPPORT-VERB make vow TO vow-01
+ELIMINATE-SUPPORT-VERB make war TO war-01
+ELIMINATE-SUPPORT-VERB pay compensation TO compensate-01
+ELIMINATE-SUPPORT-VERB perform test TO test-01
+ELIMINATE-SUPPORT-VERB perform inspection TO inspect-01
+ELIMINATE-SUPPORT-VERB place order TO order-02
+ELIMINATE-SUPPORT-VERB place importance TO important-01
+ELIMINATE-SUPPORT-VERB place important TO important-01
+ELIMINATE-SUPPORT-VERB pose danger TO endanger-01
+ELIMINATE-SUPPORT-VERB pose threat TO threaten-01
+ELIMINATE-SUPPORT-VERB provide relief TO relieve-01
+ELIMINATE-SUPPORT-VERB put emphasis TO emphasize-01
+ELIMINATE-SUPPORT-VERB put importance TO important-01
+ELIMINATE-SUPPORT-VERB put important TO important-01
+ELIMINATE-SUPPORT-VERB receive sentence TO sentence-01
+ELIMINATE-SUPPORT-VERB run risk TO risk-01
+ELIMINATE-SUPPORT-VERB take action TO act-02
+ELIMINATE-SUPPORT-VERB take bath TO bathe-01
+ELIMINATE-SUPPORT-VERB take care TO care-01
+ELIMINATE-SUPPORT-VERB take decision TO decide-01
+ELIMINATE-SUPPORT-VERB take fall TO fall-01
+ELIMINATE-SUPPORT-VERB take look TO look-01
+ELIMINATE-SUPPORT-VERB take leadership TO lead-02
+ELIMINATE-SUPPORT-VERB take measurement TO measure-01
+ELIMINATE-SUPPORT-VERB take nap TO nap-01
+ELIMINATE-SUPPORT-VERB take part TO participate-01
+ELIMINATE-SUPPORT-VERB take pleasure TO please-01
+ELIMINATE-SUPPORT-VERB take retirement TO retire-01
+ELIMINATE-SUPPORT-VERB take risk TO risk-01
+ELIMINATE-SUPPORT-VERB take seat TO sit-02
+ELIMINATE-SUPPORT-VERB take shelter TO shelter-01
+ELIMINATE-SUPPORT-VERB take shower TO shower-01
+ELIMINATE-SUPPORT-VERB take trip TO travel-01
+ELIMINATE-SUPPORT-VERB take vacation TO vacation-01
+ELIMINATE-SUPPORT-VERB take walk TO walk-01
+ELIMINATE-SUPPORT-VERB tell lie TO lie-08
+
+MAP-VERB-ADJ become/make black TO blacken-01
+MAP-VERB-ADJ become/make hard TO harden-01
+MAP-VERB-ADJ become/make legal TO legalize-01
+MAP-VERB-ADJ become/make liquid TO liquefy-01
+MAP-VERB-ADJ        make popular TO popularize-01
+MAP-VERB-ADJ become/make ripe TO ripen-01
+MAP-VERB-ADJ become/make sad TO sadden-01
+MAP-VERB-ADJ        make simple TO simplify-01
+MAP-VERB-ADJ become/make soft TO soften-01
+MAP-VERB-ADJ become/make stable TO stabilize-01
+MAP-VERB-ADJ become/make white TO whiten-01
+
+MAP-VERB-ADJ become/make more bad TO worsen-01
+MAP-VERB-ADJ become/make more deep TO deepen-01
+MAP-VERB-ADJ become/make more wide TO whiden-01
+
+MULTIPLE-ARGS-OK :ARG1 UNDER attach-01
+MULTIPLE-ARGS-OK :ARG4 UNDER bind-01
+MULTIPLE-ARGS-OK :ARG0 UNDER coincide-01
+MULTIPLE-ARGS-OK :ARG0 UNDER compete-01
+MULTIPLE-ARGS-OK :ARG1 UNDER compete-01
+MULTIPLE-ARGS-OK :ARG1 UNDER connect-01
+MULTIPLE-ARGS-OK :ARG1 UNDER differ-02
+MULTIPLE-ARGS-OK :ARG1 UNDER fit-01
+MULTIPLE-ARGS-OK :ARG1 UNDER link-01
+MULTIPLE-ARGS-OK :ARG1 UNDER match-01
+MULTIPLE-ARGS-OK :ARG1 UNDER neighbor-01
+MULTIPLE-ARGS-OK :ARG1 UNDER tie-01
+
+ROLE-PREP accuse-01 :ARG1 against
+ROLE-PREP accuse-01 :ARG2 of
+ROLE-PREP agree-01 :ARG0 between :ARG2 and
+ROLE-PREP agree-01 :ARG2 with
+ROLE-PREP attack-01 :ARG1 against
+ROLE-PREP attack-01 :ARG2 as
+ROLE-PREP break-02 :ARG1 into
+ROLE-PREP call-05 :ARG1 on
+ROLE-PREP call-05 :ARG1 upon
+ROLE-PREP change-01 :ARG2 into
+ROLE-PREP change-01 :ARG3 from
+ROLE-PREP charge-05 :ARG1 against
+ROLE-PREP collaborate-01 :ARG0 among
+ROLE-PREP come-01 :ARG3 from
+ROLE-PREP come-01 :ARG4 into
+ROLE-PREP come-01 :ARG4 to
+ROLE-PREP compete-01 :ARG0 between :ARG1 and
+ROLE-PREP compete-01 :ARG1 against
+ROLE-PREP conflict-01 :ARG0 between :ARG1 and
+ROLE-PREP conflict-01 :topic of
+ROLE-PREP convert-01 :ARG2 into
+ROLE-PREP cooperate-01 :ARG0 between :ARG1 and
+ROLE-PREP criticize-01 :ARG2 over
+ROLE-PREP disagree-01 :ARG1 with
+ROLE-PREP disagree-01 :ARG2 about
+ROLE-PREP disagree-01 :ARG2 over
+ROLE-PREP dispute-01 :ARG0 among
+ROLE-PREP dispute-01 :ARG2 over
+ROLE-PREP dump-01 :destination into
+ROLE-PREP drool-01 :ARG1 over
+ROLE-PREP embarrass-01 :ARG0 over
+ROLE-PREP fall-07 :ARG2 into
+ROLE-PREP fight-01 :ARG1 against
+ROLE-PREP fight-01 :ARG2 over
+ROLE-PREP go-02 :ARG3 out+of
+ROLE-PREP go-02 :ARG4 into
+ROLE-PREP go-02 :ARG4 to
+ROLE-PREP go-02 :ARG4 up+to
+ROLE-PREP hack-04 :ARG1 into
+ROLE-PREP indict-01 :ARG1 against
+ROLE-PREP insist-01 :ARG1 on
+ROLE-PREP insist-01 :ARG1 upon
+ROLE-PREP investigate-01 :ARG1 into
+ROLE-PREP link-01 :ARG1 between
+ROLE-PREP link-01 :ARG1 and
+ROLE-PREP look-01 :ARG1 at
+ROLE-PREP look-01 :ARG1 into
+ROLE-PREP look-02 :ARG1 like
+ROLE-PREP meet-03 :ARG0 between :ARG1 and
+ROLE-PREP meet-03 :ARG1 with
+ROLE-PREP move-01 :ARG2 into
+ROLE-PREP move-01 :ARG2 to
+ROLE-PREP name-02 :ARG2 after
+ROLE-PREP negotiate-01 :ARG0 between :ARG1 and
+ROLE-PREP negotiate-01 :ARG1 with
+ROLE-PREP ponder-01 :ARG1 over
+ROLE-PREP pour-01 :ARG3 into
+ROLE-PREP protect-01 :ARG2 against
+ROLE-PREP protect-01 :ARG2 from
+ROLE-PREP protest-01 :ARG1 against
+ROLE-PREP protest-01 :ARG1 anti
+ROLE-PREP rule-03 :ARG1 over
+ROLE-PREP sanction-02 :ARG1 against
+ROLE-PREP see-01 :instrument through
+ROLE-PREP set-11 :location over
+ROLE-PREP seat-01 :ARG2 on
+ROLE-PREP seat-01 :ARG2 upon
+ROLE-PREP send-03 :ARG4 into
+ROLE-PREP sink-01 :ARG4 into
+ROLE-PREP smuggle-01 :ARG3 into
+ROLE-PREP split-01 :ARG2 into
+ROLE-PREP spread-01 :ARG2 over
+ROLE-PREP strike-02 :ARG1 against
+ROLE-PREP tie-01 :ARG1 between :ARG1 and
+ROLE-PREP throw-01 :ARG2 into
+ROLE-PREP trade-01 :ARG0 between
+ROLE-PREP trade-01 :ARG2 and
+ROLE-PREP transform-01 :ARG2 into
+ROLE-PREP turn-02 :ARG2 into
+ROLE-PREP upset-01 :ARG0 over
+ROLE-PREP walk-01 :destination up+to
+ROLE-PREP war-01 :ARG0 between :ARG1 and
+ROLE-PREP war-01 :ARG1 against
+ROLE-PREP win-01 :ARG3 against
+ROLE-PREP work-01 :ARG1 on
+ROLE-PREP work-01 :ARG1 over
+
+ROLE-PREP book :topic about
+ROLE-PREP case :topic about
+ROLE-PREP case :topic of
+ROLE-PREP essay :topic on
+ROLE-PREP information :topic regarding
+ROLE-PREP idea :topic about
+ROLE-PREP idea :topic of
+ROLE-PREP idea :topic that
+ROLE-PREP image :topic of
+ROLE-PREP issue :topic of
+ROLE-PREP news :topic about
+ROLE-PREP news :topic of
+ROLE-PREP picture :topic of
+ROLE-PREP policy :topic on
+ROLE-PREP problem :topic with
+ROLE-PREP problem :topic of
+ROLE-PREP procedure :topic for
+ROLE-PREP procedure :topic to
+ROLE-PREP program :topic to
+ROLE-PREP project :topic to
+ROLE-PREP stand :topic on
+ROLE-PREP story :topic about
+ROLE-PREP tale :topic about
+ROLE-PREP theory :topic of
+
+MAP more :degree bit          TO more :quant bit
+MAP more :degree considerable TO more :quant considerable
+MAP more :degree far          TO more :quant far
+MAP more :degree little       TO more :quant little
+MAP more :degree lot          TO more :quant lot
+MAP more :degree much         TO more :quant much
+MAP more :degree product-of   TO more :quant product-of
+MAP more :degree slight       TO more :quant slight
+MAP more :degree somewhat     TO more :quant somewhat
+MAP more :degree vast         TO more :quant vast
+MAP more :degree way          TO more :quant way
+MAP more :mod bit             TO more :quant bit
+MAP more :mod far             TO more :quant far
+MAP more :mod little          TO more :quant little
+MAP more :mod lot             TO more :quant lot
+MAP more :mod much            TO more :quant much
+MAP more :mod way             TO more :quant way
+MAP less :degree far          TO less :quant far
+MAP less :degree lot          TO less :quant lot
+MAP less :degree much         TO less :quant much
+MAP less :degree slight       TO less :quant slight
+MAP less :mod lot             TO less :quant lot
+MAP less :mod much            TO less :quant much
+MAP less :mod slight          TO less :quant slight
+
+MAP person :mod gay           TO person :ARG1-of gay-01
+MAP couple :mod gay           TO couple :ARG1-of gay-01
+MAP friend :mod gay           TO friend :ARG1-of gay-01
+MAP i :mod gay                TO i :ARG1-of gay-01
+MAP you :mod gay              TO you :ARG1-of gay-01
+MAP he :mod gay               TO he :ARG1-of gay-01
+MAP they :mod gay             TO they :ARG1-of gay-01
+MAP man :mod gay              TO man :ARG1-of gay-01
+MAP soldier :mod gay          TO soldier :ARG1-of gay-01
+MAP marry-01 :ARG1 gay        TO marry-01 :mod gay-01
+MAP marry-01 :mod gay         TO marry-01 :mod gay-01
+MAP gay :domain person        TO gay-01 :ARG1 person
+MAP gay :domain i             TO gay-01 :ARG1 i
+MAP gay :domain he            TO gay-01 :ARG1 he
+
+MAP :mod important            TO :ARG1-of important-01
+MAP :manner important         TO :ARG1-of important-01
+MAP important :domain         TO important-01 :ARG1
+MAP important :beneficiary    TO important :ARG2
+MAP important-01 :beneficiary TO important-01 :ARG2
+MAP :manner simultaneous      TO :mod simultaneous
+MAP :time simultaneous      TO :mod simultaneous
+
+MAP :degree almost            TO :mod almost
+
+MAP :degree bare              TO :degree barely
+MAP :degree complete          TO :ARG1-of complete-02
+MAP :degree complete-02       TO :ARG1-of complete-02
+MAP :degree extremely         TO :degree extreme
+MAP :degree fair              TO :ARG1-of fair-04
+MAP :degree fair-04           TO :ARG1-of fair-04
+MAP :degree hard              TO :degree hardly
+MAP :degree intense           TO :ARG1-of intense-02
+MAP :degree intense-02        TO :ARG1-of intense-02
+MAP :degree largely           TO :degree large
+MAP :degree mildly            TO :degree mild
+MAP :degree over              TO :ARG1-of over-03
+MAP :degree over-03           TO :ARG1-of over-03
+MAP :degree relative          TO :ARG2-of relative-05
+MAP :degree relative-05       TO :ARG2-of relative-05
+MAP :degree severely          TO :degree severe
+MAP :degree slightly          TO :degree slight
+MAP :degree strong            TO :ARG1-of strong-02
+MAP :degree strong-02         TO :ARG1-of strong-02
+MAP :degree utter             TO :ARG1-of utter-02
+MAP :degree utter-02          TO :ARG1-of utter-02
+
+MAP destroy-01 :mod mass TO destroy-01 :degree mass
+MAP destroy-01 :manner mass TO destroy-01 :degree mass
+MAP mass-quantity :unit bushel TO volume-quantity :unit bushel
+MAP mass-quantity :unit peck TO volume-quantity :unit peck
+MAP person :mod left-wing TO person :ARG1-of left-19
+MAP propaganda :mod left-wing TO propaganda :ARG1-of left-19
+MAP person :mod right-wing TO person :ARG1-of right-08
+
+MAP disaster :ARG1-of natural-03       TO natural-disaster
+MAP disaster :mod natural              TO natural-disaster
+MAP organization :ARG2-of criminal-03  TO criminal-organization
+MAP engine :mod search-01              TO search-engine
+MAP general :mod lieutenant            TO lieutenant-general
+MAP much :degree pretty                TO pretty-much
+MAP much :mod pretty                   TO pretty-much
+MAP pretty :mod much                   TO pretty-much
+MAP pretty :quant much                 TO pretty-much
+MAP scale :mod large                   TO large-scale
+MAP scale :mod small                   TO small-scale
+MAP time :mod full                     TO full-time
+MAP time :ARG1-of full-09              TO full-time
+MAP sex :ARG1-of same-01               TO same-sex
+MAP sex :ARG3-of same-01               TO same-sex
+
+MAP firsthand TO first-hand
+MAP grownup TO grown-up
+MAP midterm TO mid-term
+MAP pothead TO pot-head
+

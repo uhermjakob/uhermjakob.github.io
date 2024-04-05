@@ -1,0 +1,12 @@
+STEM match for unaligned abortionists :: abort-01 :: NW_WSJ_ENG_0173_2006_0331.2 cjconsensus
+STEM match for unaligned recognizable :: recognize-01 :: NW_WSJ_ENG_0173_2006_0331.3 cjconsensus
+STEM match for unaligned souled :: soul :: NW_WSJ_ENG_0173_2006_0331.4 cjconsensus
+STEM match for unaligned and :: and :: NW_WSJ_ENG_0173_2006_0331.6 cjconsensus
+STEM match for unaligned Indians :: India :: NW_WSJ_ENG_0173_2006_0331.6 cjconsensus
+STEM match for unaligned assemblages :: assemble-02 :: NW_WSJ_ENG_0173_2006_0331.14 cjconsensus
+STEM match for unaligned accusatory :: accuse-01 :: NW_WSJ_ENG_0173_2006_0331.18 cjconsensus
+STEM match for unaligned careless :: care-04 :: NW_WSJ_ENG_0173_2006_0331.30 cjconsensus
+STEM match for unaligned and :: and :: NW_WSJ_ENG_0173_2006_0331.47 cjconsensus
+STEM match for unaligned and :: and :: NW_WSJ_ENG_0173_2006_0331.47 cjconsensus
+STEM match for unaligned and :: and :: NW_WSJ_ENG_0173_2006_0331.47 cjconsensus
+STEM match for unaligned evaders :: evade-01 :: NW_WSJ_ENG_0173_2006_0331.50 cjconsensus

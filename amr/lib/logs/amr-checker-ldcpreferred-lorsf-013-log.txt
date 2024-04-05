@@ -1,0 +1,2 @@
+STEM match for unaligned and :: and :: ENG_NA_020001_20161020_G0023FST3_0001.6 ldcpreferred
+STEM match for unaligned ARC :: ARC :: ENG_NA_020001_20161020_G0023FST3_0001.8 ldcpreferred

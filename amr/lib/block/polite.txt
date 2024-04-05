@@ -1,0 +1,25 @@
+TITLE :polite
+HIGHLIGHT-RED :polite
+HIGHLIGHT-RED \+
+HIGHLIGHT-BLUE please
+HIGHLIGHT-BLUE Could you tell me
+HIGHLIGHT-BLUE Could you
+HIGHLIGHT-BLUE Would you kindly
+HIGHLIGHT-BLUE kindly
+
+Used for expressions of politeness:
+
+EXAMPLE isi_0002.296 Please close the door.
+
+EXAMPLE isi_0002.297 Could you close the door?
+
+EXAMPLE isi_0002.298 Would you kindly close the door?
+
+EXAMPLE isi_0002.301 Could you tell me what time it is?
+
+However, :polite + is <b>not</b> used for any sentence just because it is polite:
+<ul>
+  <li> You are a wonderful cook. &nbsp; <i>Do <b>not</b> use :polite + for mere compliments.</i>
+  <li> It was not the most accessible textbook I have read. (= It was incredibly confusing.) &nbsp; <i>Do <b>not</b> use :polite + for euphemisms.</i>
+</ul>
+

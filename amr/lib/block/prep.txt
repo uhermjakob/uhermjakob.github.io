@@ -1,0 +1,16 @@
+TITLE prep roles
+HIGHLIGHT-RED :prep-as
+HIGHLIGHT-RED :prep-by
+HIGHLIGHT-RED :prep-on-behalf-of
+HIGHLIGHT-RED :prep-such-as
+
+Examples for prep roles:
+
+EXAMPLE nw.wsj_0001.1 Pierre Vinken , 61 years old , will join the board as a nonexecutive director Nov. 29 .
+
+EXAMPLE isi_0002.51 A brief was filed on behalf of the government .
+
+EXAMPLE isi_0002.53 By law , the council includes at least 5 members .
+
+Note: Please use prepositional roles such as these only if no other semantic roles fits.
+

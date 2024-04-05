@@ -1,0 +1,10 @@
+STEM match for unaligned palpable :: palpate-00 :: DF-199-193268-677_6258.6 cjconsensus
+STEM match for unaligned bandying :: bandy-around-02 :: DF-199-193268-677_6258.9 cjconsensus
+STEM match for unaligned and :: and :: DF-199-193268-677_6258.9 cjconsensus
+STEM match for unaligned organised :: organization :: DF-199-193409-648_7525.4 cjconsensus
+STEM match for unaligned Ever :: every :: DF-199-193409-648_7525.12 cjconsensus
+STEM match for unaligned plebecite :: plebiscite :: DF-199-193409-648_7525.12 cjconsensus
+STEM match for unaligned and :: and :: DF-199-193488-664_4828.3 cjconsensus
+STEM match for unaligned qualifiers :: qualify-01 :: DF-199-193488-664_4828.25 cjconsensus
+STEM match for unaligned half :: halfway :: DF-199-193488-664_4828.35 cjconsensus
+STEM match for unaligned screwup :: screw-up-01 :: DF-199-193488-664_4828.45 cjconsensus

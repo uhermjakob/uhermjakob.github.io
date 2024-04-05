@@ -1,0 +1,13 @@
+STEM match for unaligned patients :: patient-yy :: bolt-eng-DF-240-198184-11118496_0030.13 ldcpreferred
+STEM match for unaligned supposedly :: suppose-02 :: bolt-eng-DF-240-198184-11118496_0030.13 ldcpreferred
+STEM match for unaligned firebombed :: fire :: bolt-eng-DF-240-198184-11118496_0030.16 ldcpreferred
+STEM match for unaligned someones :: someone :: bolt-eng-DF-240-198184-11118496_0030.22 ldcpreferred
+STEM match for unaligned stated :: state-01 :: bolt-eng-DF-240-198184-11118496_0138.3 ldcpreferred
+STEM match for unaligned retards :: retard :: bolt-eng-DF-240-198184-11118496_0138.3 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-240-198184-11118496_0138.4 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-240-198184-11118496_0138.14 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-240-198184-11118496_0138.14 ldcpreferred
+STEM match for unaligned step :: stepfather :: bolt-eng-DF-240-198184-11118496_0138.19 ldcpreferred
+STEM match for unaligned supposedly :: suppose-02 :: bolt-eng-DF-240-198184-11118496_0138.23 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-240-198184-11118496_0138.36 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-240-198184-11118496_0138.43 ldcpreferred

@@ -1,0 +1,16 @@
+STEM match for unaligned AUSTRALIAN :: Australia :: DF-199-192958-588_4966.1 cjconsensus
+STEM match for unaligned there :: thereabouts :: DF-199-192958-588_4966.7 cjconsensus
+STEM match for unaligned Amazingly :: amaze-01 :: DF-199-192958-588_5425.6 cjconsensus
+STEM match for unaligned soverienty :: sovereignty :: DF-199-192958-588_5425.6 cjconsensus
+STEM match for unaligned bench :: benchmark :: DF-199-192958-588_5425.9 cjconsensus
+STEM match for unaligned repeatadly :: repeat-01 :: DF-199-192958-588_5425.10 cjconsensus
+STEM match for unaligned populous :: populate-01 :: DF-199-192958-588_5425.13 cjconsensus
+STEM match for unaligned estimation :: estimate-01 :: DF-199-192958-588_5425.18 cjconsensus
+STEM match for unaligned and :: and :: DF-199-192958-588_5425.19 cjconsensus
+STEM match for unaligned and :: and :: DF-199-192958-588_5425.19 cjconsensus
+STEM match for unaligned and :: and :: DF-199-193234-649_0046.7 cjconsensus
+STEM match for unaligned murmor :: murmur-01 :: DF-199-193234-649_0046.7 cjconsensus
+STEM match for unaligned undigestible :: digest-01 :: DF-199-193260-656_8105.5 cjconsensus
+STEM match for unaligned fould :: foul :: DF-199-193260-656_8105.7 cjconsensus
+STEM match for unaligned lookin :: look-01 :: DF-199-193260-656_8105.8 cjconsensus
+STEM match for unaligned thingie :: thing :: DF-199-193260-656_8105.14 cjconsensus

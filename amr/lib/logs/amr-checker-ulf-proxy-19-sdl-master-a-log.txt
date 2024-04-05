@@ -1,0 +1,6 @@
+STEM match for unaligned 2003 :: 2003 :: PROXY_AFP_ENG_20030624_0449.1 ulf
+STEM match for unaligned 24 :: 24 :: PROXY_AFP_ENG_20030624_0449.1 ulf
+STEM match for unaligned France :: France :: PROXY_AFP_ENG_20030624_0449.2 ulf
+STEM match for unaligned France :: France :: PROXY_AFP_ENG_20030624_0449.2 ulf
+STEM match for unaligned Iran :: Iran :: PROXY_AFP_ENG_20030624_0449.2 ulf
+STEM match for unaligned Iran :: Iran :: PROXY_AFP_ENG_20070906_0312.16 ulf

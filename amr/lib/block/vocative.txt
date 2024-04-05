@@ -1,0 +1,8 @@
+TITLE vocative
+HIGHLIGHT-RED say-01
+
+In vocative constructions, we add a top concept say-01
+in order to connect the person that is being addressed to what is being said.
+
+EXAMPLE isi_0002.198 Dad, I need more money.
+

@@ -1,0 +1,14 @@
+STEM match for unaligned Filtering :: Filter :: PROXY_AFP_ENG_20021203_0751.4 kirchman
+STEM match for unaligned objectionable :: object-01 :: PROXY_AFP_ENG_20021203_0751.28 kirchman
+STEM match for unaligned effective :: effect :: PROXY_AFP_ENG_20021203_0751.29 kirchman
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20021210_0370.10 kirchman
+STEM match for unaligned Monitoring :: Monitoring, :: PROXY_AFP_ENG_20021210_0370.14 kirchman
+STEM match for unaligned regrettable :: regret-01 :: PROXY_AFP_ENG_20021221_0466.10 kirchman
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20021223_0340.11 kirchman
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20021223_0340.11 kirchman
+STEM match for unaligned regrettable :: regret-01 :: PROXY_AFP_ENG_20021223_0340.22 kirchman
+STEM match for unaligned North :: North :: PROXY_AFP_ENG_20021223_0340.26 kirchman
+STEM match for unaligned North :: North :: PROXY_AFP_ENG_20021223_0340.26 kirchman
+STEM match for unaligned Korean :: Korea :: PROXY_AFP_ENG_20021223_0340.26 kirchman
+STEM match for unaligned critical :: criticize-01 :: PROXY_AFP_ENG_20021226_0132.32 kirchman
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20021226_0152.18 kirchman

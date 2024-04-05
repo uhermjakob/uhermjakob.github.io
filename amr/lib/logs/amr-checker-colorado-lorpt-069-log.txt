@@ -1,0 +1,3 @@
+STEM match for unaligned and :: and :: NW_APW_ENG_0071_2003_1219.1 colorado
+STEM match for unaligned and :: and :: NW_APW_ENG_0071_2003_1219.3 colorado
+STEM match for unaligned coordinator :: coordinate-01 :: NW_APW_ENG_0071_2003_1219.7 colorado

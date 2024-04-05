@@ -1,0 +1,14 @@
+STEM match for unaligned and :: and :: ENG_DF_000170_20050903_C00020J0V_0001.6 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20050903_C00020J0V_0001.6 cjconsensus
+STEM match for unaligned overloaded :: over-03 :: ENG_DF_000170_20050903_C00020J0V_0001.7 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20050903_C00020J0V_0001.23 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20050903_C00020J0V_0001.31 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20050903_C00020J0V_0001.31 cjconsensus
+STEM match for unaligned clothing :: cloth :: ENG_DF_000170_20050903_C00020J0V_0001.45 cjconsensus
+STEM match for unaligned clothing :: cloth :: ENG_DF_000170_20050903_C00020J0V_0001.45 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20050903_C00020J0V_0001.45 cjconsensus
+STEM match for unaligned night :: nigh :: ENG_DF_000170_20050903_C00020J0V_0001.52 cjconsensus
+STEM match for unaligned spiritual :: spirit :: ENG_DF_000170_20050903_C00020J0V_0001.57 cjconsensus
+STEM match for unaligned Interfaith :: intersect-01 :: ENG_DF_000170_20050903_C00020J0V_0001.58 cjconsensus
+STEM match for unaligned Trinity :: Trinity :: ENG_DF_000170_20050903_C00020J0V_0001.58 cjconsensus
+STEM match for unaligned Trinity :: Trinity :: ENG_DF_000170_20050903_C00020J0V_0001.58 cjconsensus

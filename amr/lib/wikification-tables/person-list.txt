@@ -1,0 +1,77 @@
+# person list
+(47) ::ne-surf Wen ::ne-type person ::wiki Wen_Jiabao
+(44) ::ne-surf Obama ::ne-type person ::wiki Barack_Obama
+(33) ::ne-surf Chavez ::ne-type person ::wiki Hugo_Chávez
+(29) ::ne-surf Sarkozy ::ne-type person ::wiki Nicolas_Sarkozy
+(29) ::ne-surf Peng Li ::ne-type person ::wiki Li_Peng
+(29) ::ne-surf Li Peng ::ne-type person ::wiki Li_Peng
+(25) ::ne-surf ElBaradei ::ne-type person ::wiki Mohamed_ElBaradei
+(25) ::ne-surf Kim Myong-Chol ::ne-type person ::wiki Kim_Myong-chol
+(23) ::ne-surf Ichiro Ozawa ::ne-type person ::wiki Ichirō_Ozawa
+(21) ::ne-surf Dmitry Medvedev ::ne-type person ::wiki Dmitry_Medvedev
+(21) ::ne-surf Vladimir Putin ::ne-type person ::wiki Vladimir_Putin
+(20) ::ne-surf Putin ::ne-type person ::wiki Vladimir_Putin
+(16) ::ne-surf Mao Zedong ::ne-type person ::wiki Mao_Zedong
+(15) ::ne-surf Kadhafi ::ne-type person ::wiki Muammar_Gaddafi
+(15) ::ne-surf Saddam ::ne-type person ::wiki Saddam_Hussein
+(13) ::ne-surf Gerhard Schroeder ::ne-type person ::wiki Gerhard_Schröder
+(13) ::ne-surf Tony Blair ::ne-type person ::wiki Tony_Blair
+(12) ::ne-surf Chirac ::ne-type person ::wiki Jacques_Chirac
+(12) ::ne-surf Hans Blix ::ne-type person ::wiki Hans_Blix
+(12) ::ne-surf Zawahiri ::ne-type person ::wiki Ayman_al-Zawahiri
+(11) ::ne-surf Ahmadinejad ::ne-type person ::wiki Mahmoud_Ahmadinejad
+(11) ::ne-surf Koizumi ::ne-type person ::wiki Junichiro_Koizumi
+(11) ::ne-surf Michele Alliot-Marie ::ne-type person ::wiki Michèle_Alliot-Marie
+(11) ::ne-surf Roh Moo-hyun ::ne-type person ::wiki Roh_Moo-hyun
+(10) ::ne-surf Francisco Santos ::ne-type person ::wiki Francisco_Santos_Calderón
+(9) ::ne-surf Blair ::ne-type person ::wiki Tony_Blair
+(9) ::ne-surf Javier Solana ::ne-type person ::wiki Javier_Solana
+(9) ::ne-surf Joseph Wu ::ne-type person ::wiki Joseph_Wu
+(9) ::ne-surf Mohammed ElBaradei ::ne-type person ::wiki Mohamed_ElBaradei
+(9) ::ne-surf Nicolas Sarkozy ::ne-type person ::wiki Nicolas_Sarkozy
+(9) ::ne-surf Osama bin Laden ::ne-type person ::wiki Osama_bin_Laden
+(9) ::ne-surf Pervez Musharraf ::ne-type person ::wiki Pervez_Musharraf
+(9) ::ne-surf Romney ::ne-type person ::wiki Mitt_Romney
+(9) ::ne-surf Ron Paul ::ne-type person ::wiki Ron_Paul
+(9) ::ne-surf Schroeder ::ne-type person ::wiki Gerhard_Schröder
+(8) ::ne-surf George W. Bush ::ne-type person ::wiki George_W._Bush
+(8) ::ne-surf Jiang Yu ::ne-type person ::wiki Jiang_Yu
+(8) ::ne-surf Medvedev ::ne-type person ::wiki Dmitry_Medvedev
+(8) ::ne-surf Mohamed ElBaradei ::ne-type person ::wiki Mohamed_ElBaradei
+(8) ::ne-surf Palin ::ne-type person ::wiki Sarah_Palin
+(8) ::ne-surf Saddam Hussein ::ne-type person ::wiki Saddam_Hussein
+(8) ::ne-surf Shivraj Patil ::ne-type person ::wiki Shivraj_Patil
+(7) ::ne-surf Hamid Karzai ::ne-type person ::wiki Hamid_Karzai
+(7) ::ne-surf Musharraf ::ne-type person ::wiki Pervez_Musharraf
+(7) ::ne-surf Sergei Lavrov ::ne-type person ::wiki Sergey_Lavrov
+(7) ::ne-surf Thabo Mbeki ::ne-type person ::wiki Thabo_Mbeki
+(7) ::ne-surf bin Laden ::ne-type person ::wiki Osama_bin_Laden
+(6) ::ne-surf Abdullah II ::ne-type person ::wiki Abdullah_II_of_Jordan
+(6) ::ne-surf Barack Obama ::ne-type person ::wiki Barack_Obama
+(6) ::ne-surf Ingo Kober ::ne-type person ::wiki Ingo_Kober
+(6) ::ne-surf McCain ::ne-type person ::wiki John_McCain
+(6) ::ne-surf Santorum ::ne-type person ::wiki Rick_Santorum
+(6) ::ne-surf Sergei Ivanov ::ne-type person ::wiki Sergei_Ivanov
+(5) ::ne-surf Dalai Lama ::ne-type person ::wiki Dalai_Lama
+(5) ::ne-surf David Miliband ::ne-type person ::wiki David_Miliband
+(5) ::ne-surf Frank-Walter Steinmeier ::ne-type person ::wiki Frank-Walter_Steinmeier
+(5) ::ne-surf Jacques Chirac ::ne-type person ::wiki Jacques_Chirac
+(5) ::ne-surf Mahmoud Ahmadinejad ::ne-type person ::wiki Mahmoud_Ahmadinejad
+(5) ::ne-surf Pelosi ::ne-type person ::wiki Nancy_Pelosi
+(4) ::ne-surf Angela Merkel ::ne-type person ::wiki Angela_Merkel
+(4) ::ne-surf Dominique de Villepin ::ne-type person ::wiki Dominique_de_Villepin
+(4) ::ne-surf Junichiro Koizumi ::ne-type person ::wiki Junichiro_Koizumi
+(4) ::ne-surf Kim Jong-Il ::ne-type person ::wiki Kim_Jong-il
+(4) ::ne-surf Moamer Kadhafi ::ne-type person ::wiki Muammar_Gaddafi
+(4) ::ne-surf Wen Jiabao ::ne-type person ::wiki Wen_Jiabao
+(2) ::ne-surf Ayman al-Zawahiri ::ne-type person ::wiki Ayman_al-Zawahiri
+(2) ::ne-surf Hugo Chavez ::ne-type person ::wiki Hugo_Chávez
+(2) ::ne-surf Muammar Kadhafi ::ne-type person ::wiki Muammar_Gaddafi
+(1) ::ne-surf Mitt Romney ::ne-type person ::wiki Mitt_Romney
+(1) ::ne-surf Nancy Pelosi ::ne-type person ::wiki Nancy_Pelosi
+(0) ::ne-surf Sarah Palin ::ne-type person ::wiki Sarah_Palin
+(0) ::ne-surf John McCain ::ne-type person ::wiki John_McCain
+(0) ::ne-surf Rick Santorum ::ne-type person ::wiki Rick_Santorum
+(0) ::ne-surf al-Zawahiri ::ne-type person ::wiki Ayman_al-Zawahiri
+(0) ::ne-surf George Washington ::ne-type person ::wiki George_Washington
+(0) ::ne-surf Abraham Lincoln ::ne-type person ::wiki Abraham_Lincoln

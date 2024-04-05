@@ -1,0 +1,13 @@
+STEM match for unaligned egyptians :: Egypt :: DF-200-192451-579_9042.1 cjconsensus
+STEM match for unaligned rights :: right-05 :: DF-200-192451-579_9042.2 cjconsensus
+STEM match for unaligned leaderless :: lead-02 :: DF-200-192451-579_9042.11 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192451-579_9676.2 cjconsensus
+STEM match for unaligned Brits :: Britain :: DF-200-192451-579_9676.3 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192451-579_9676.4 cjconsensus
+STEM match for unaligned Uyghurs :: Uyghur :: DF-200-192451-579_9676.12 cjconsensus
+STEM match for unaligned sterliseation :: sterilize-01 :: DF-200-192451-579_9676.14 cjconsensus
+STEM match for unaligned criticise :: criticize-01 :: DF-200-192451-579_9676.15 cjconsensus
+STEM match for unaligned demonoising :: demonize-01 :: DF-200-192451-579_9676.17 cjconsensus
+STEM match for unaligned demonoising :: demonize-01 :: DF-200-192451-579_9676.17 cjconsensus
+STEM match for unaligned demonises :: demonize-01 :: DF-200-192451-579_9676.17 cjconsensus
+STEM match for unaligned demonises :: demonize-01 :: DF-200-192451-579_9676.17 cjconsensus

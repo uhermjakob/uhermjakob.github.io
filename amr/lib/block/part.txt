@@ -1,0 +1,32 @@
+TITLE :part
+HIGHLIGHT-RED :part
+HIGHLIGHT-RED :part-of
+HIGHLIGHT-BLUE :poss
+HIGHLIGHT-BLUE :consist-of
+HIGHLIGHT-BLUE have-org-role-91
+HIGHLIGHT-BLUE south
+HIGHLIGHT-BLUE mainland
+
+The role :part is used for physical parts of physical objects.
+
+EXAMPLE isi_0002.37 the roof of the house
+
+EXAMPLE isi_0002.78 my hands
+
+It's also used to specify parts of countries and other geopolitical entities,
+such as the south of France, or mainland China.
+
+EXAMPLE isi_0002.242 They live in the south of France.
+
+Reifications: have-part-91
+
+<hr>
+
+Do <b>not</b> use :part for membership and cases such as
+
+EXAMPLE isi_0002.80 CEO of IBM
+
+EXAMPLE isi_0002.79 a ring of gold
+
+EXAMPLE isi_0002.244 They live in Northern Ireland.
+

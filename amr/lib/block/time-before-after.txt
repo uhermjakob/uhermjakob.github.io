@@ -1,0 +1,39 @@
+TITLE :time before and after
+HIGHLIGHT-RED after
+HIGHLIGHT-RED before
+HIGHLIGHT-BLUE in
+HIGHLIGHT-BLUE ago
+HIGHLIGHT-BLUE last
+HIGHLIGHT-BLUE next
+HIGHLIGHT-BLUE :op1
+HIGHLIGHT-BLUE :quant
+HIGHLIGHT-BLUE :duration
+
+We express many temporal expressions with before and after:
+<ul>
+   <li> The nation defaulted after the war.
+   <li> I will leave in 20 minutes. &nbsp; (= 20 minutes after now)
+   <li> He retired more than five years ago . &nbsp; (= 5 years before now)
+   <li> We have visited Paris twice in the last three years. &nbsp; (= during the 3 years before now)
+   <li> Inflation is expected to rise during the next 2 years. &nbsp; (= during the 2 years after now)
+</ul>
+
+<b>Argument structure:</b>
+<ul>
+   <li> after / before
+      <ul> 
+	 <li> :op1 &lt;reference point&gt; &nbsp; (after/b<nobr>e</nobr>fore when?)
+	 <li> :quant &lt;temporal-quantity&gt; &nbsp; (how much after/b<nobr>e</nobr>fore?)
+	 <li> :duration &lt;temporal-quantity&gt; &nbsp; (for how long?)
+      </ul>
+</ul>
+
+EXAMPLE isi_0001.20 The nation defaulted after the war.
+EXAMPLE isi_0002.94  He retired more than five years ago .
+EXAMPLE isi_0002.303 I will leave in 20 minutes.
+EXAMPLE isi_0002.304 The police interviewed more than 100 witnesses in the 2 months after the murder.
+EXAMPLE isi_0002.305 The police identified the murderer 2 months after the murder.
+EXAMPLE isi_0002.311 They will get married two weeks from tomorrow.
+EXAMPLE isi_0002.306 We have visited Paris twice in the last three years.
+EXAMPLE isi_0002.312 Inflation is expected to rise during the next 2 years.
+ 

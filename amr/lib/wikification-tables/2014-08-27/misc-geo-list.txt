@@ -1,0 +1,61 @@
+# misc geo list
+(24) ::ne-surf Earth ::ne-type planet ::wiki Earth
+(7) ::ne-surf Jupiter ::ne-type planet ::wiki Jupiter
+(1) ::ne-surf Mars ::ne-type planet ::wiki Mars
+(1) ::ne-surf Venus ::ne-type planet ::wiki Venus
+(0) ::ne-surf Saturn ::ne-type planet ::wiki Saturn
+(0) ::ne-surf Mercury ::ne-type planet ::wiki Mercury_(planet)
+(0) ::ne-surf Uranus ::ne-type planet ::wiki Uranus
+(0) ::ne-surf Neptune ::ne-type planet ::wiki Neptune
+
+(10) ::ne-surf Yongbyon ::ne-type county ::wiki Nyongbyon_County
+(0) ::ne-surf Los Angeles County ::ne-type county ::wiki Los_Angeles_County,_California
+
+(19) ::ne-surf Senkaku Islands ::ne-type island ::wiki Senkaku_Islands
+(19) ::ne-surf Diaoyu Islands ::ne-type island ::wiki Senkaku_Islands
+(19) ::ne-surf Diaoyu ::ne-type island ::wiki Senkaku_Islands
+(11) ::ne-surf Bali ::ne-type island ::wiki Bali
+(1) ::ne-surf Easter Island ::ne-type island ::wiki Easter_Island
+(1) ::ne-surf Mindanao ::ne-type island ::wiki Mindanao
+(1) ::ne-surf Nias ::ne-type island ::wiki Nias
+(1) ::ne-surf Nias island ::ne-type island ::wiki Nias
+(1) ::ne-surf Sumatra Island ::ne-type island ::wiki Sumatra
+(1) ::ne-surf Ireland ::ne-type island ::wiki Ireland
+(0) ::ne-surf Sumatra ::ne-type island ::wiki Sumatra
+(0) ::ne-surf Helgoland ::ne-type island ::wiki Heligoland
+(0) ::ne-surf Heligoland ::ne-type island ::wiki Heligoland
+(0) ::ne-surf Oahu ::ne-type island ::wiki Oahu
+(0) ::ne-surf O'ahu ::ne-type island ::wiki Oahu
+(0) ::ne-surf Maui ::ne-type island ::wiki Maui
+
+(4) ::ne-surf Indian Ocean ::ne-type ocean ::wiki Indian_Ocean
+(4) ::ne-surf Pacific Ocean ::ne-type ocean ::wiki Pacific_Ocean
+(3) ::ne-surf Pacific ::ne-type ocean ::wiki Pacific_Ocean
+(1) ::ne-surf Atlantic Ocean ::ne-type ocean ::wiki Atlantic_Ocean
+(0) ::ne-surf Atlantic ::ne-type ocean ::wiki Atlantic_Ocean
+
+(7) ::ne-surf Caspian Sea ::ne-type sea ::wiki Caspian_Sea
+(3) ::ne-surf Mediterranean ::ne-type sea ::wiki Mediterranean_Sea
+(1) ::ne-surf Baltic ::ne-type sea ::wiki Baltic_Sea
+(1) ::ne-surf Barents Sea ::ne-type sea ::wiki Barents_Sea
+(1) ::ne-surf Black Sea ::ne-type sea ::wiki Black_Sea
+(1) ::ne-surf East China Sea ::ne-type sea ::wiki East_China_Sea
+(1) ::ne-surf Mediterranean Sea ::ne-type sea ::wiki Mediterranean_Sea
+(1) ::ne-surf Sea of Japan ::ne-type sea ::wiki Sea_of_Japan
+(1) ::ne-surf Sea of Okhotsk ::ne-type sea ::wiki Sea_of_Okhotsk
+(1) ::ne-surf Yellow Sea ::ne-type sea ::wiki Yellow_Sea
+(1) ::ne-surf North Sea ::ne-type sea ::wiki North_Sea
+
+(1) ::ne-surf Pennsylvania Ave ::ne-type road ::wiki Pennsylvania_Avenue_(Washington,_D.C.) ::context Washington,_D.C.
+(1) ::ne-surf Downing Street ::ne-type road ::wiki Downing_Street ::context London
+
+(4) ::ne-surf Kamchatka Peninsula ::ne-type peninsula ::wiki Kamchatka_Peninsula
+(5) ::ne-surf Kamchatka ::ne-type peninsula ::wiki Kamchatka_Peninsula
+(2) ::ne-surf Korean Peninsula ::ne-type peninsula ::wiki Korean_Peninsula
+(2) ::ne-surf Korea ::ne-type peninsula ::wiki Korean_Peninsula
+(1) ::ne-surf Jiaodong Peninsula ::ne-type peninsula ::wiki Shandong_Peninsula
+(1) ::ne-surf Shandong Peninsula ::ne-type peninsula ::wiki Shandong_Peninsula
+(1) ::ne-surf Liaodong Peninsula ::ne-type peninsula ::wiki Liaodong_Peninsula
+(1) ::ne-surf Crimean Peninsula ::ne-type peninsula ::wiki Crimea
+(1) ::ne-surf Crimea ::ne-type peninsula ::wiki Crimea
+

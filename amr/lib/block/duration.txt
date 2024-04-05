@@ -1,0 +1,10 @@
+TITLE :duration
+HIGHLIGHT-RED :duration
+
+Example of :duration:
+
+EXAMPLE isi_0002.41 He worked for two hours .
+
+EXAMPLE isi_0002.42 a brief exposure to radiation
+
+Reification: last-01

@@ -1,0 +1,17 @@
+STEM match for unaligned suckered :: suck-01 :: bolt-eng-DF-199-192783-6850984_0035.3 ldcpreferred
+STEM match for unaligned conjuction :: conjunction :: bolt-eng-DF-199-192783-6850984_0035.6 ldcpreferred
+STEM match for unaligned examples :: example :: bolt-eng-DF-199-192783-6850984_0035.34 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6850984_0035.39 ldcpreferred
+STEM match for unaligned defintion :: define-01 :: bolt-eng-DF-199-192783-6850984_0035.46 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6850984_0037.2 ldcpreferred
+STEM match for unaligned indiviual :: individual :: bolt-eng-DF-199-192783-6850984_0038.5 ldcpreferred
+STEM match for unaligned indiviual :: individual :: bolt-eng-DF-199-192783-6850984_0038.5 ldcpreferred
+STEM match for unaligned supposedly :: suppose-01 :: bolt-eng-DF-199-192783-6850984_0039.2 ldcpreferred
+STEM match for unaligned supposedly :: suppose-01 :: bolt-eng-DF-199-192783-6850984_0040.3 ldcpreferred
+STEM match for unaligned pharamaceutical :: pharmaceutical :: bolt-eng-DF-199-192783-6850984_0043.5 ldcpreferred
+STEM match for unaligned blasphemous :: blaspheme-01 :: bolt-eng-DF-199-192783-6850984_0070.2 ldcpreferred
+STEM match for unaligned http://www.momoto.info/z/PIG :: http://www.momoto.info/z/PIG to Global Warming - 01.mp3 :: bolt-eng-DF-199-192783-6850984_0071.5 ldcpreferred
+STEM match for unaligned http://www.momoto.info/z/PIG :: http://www.momoto.info/z/PIG to Global Warming - 02.mp3 :: bolt-eng-DF-199-192783-6850984_0071.6 ldcpreferred
+STEM match for unaligned FRIG'N :: frigging :: bolt-eng-DF-199-192783-6850984_0072.8 ldcpreferred
+STEM match for unaligned frig'n :: frigging :: bolt-eng-DF-199-192783-6850984_0073.5 ldcpreferred
+STEM match for unaligned AND :: and :: bolt-eng-DF-199-192783-6850984_0073.5 ldcpreferred

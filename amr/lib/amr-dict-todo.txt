@@ -1,0 +1,47 @@
+elaborate :topic
+   with respect to (:topic or :ARGx)
+   in regards to
+   concerning
+
+de
+  - de-baathification
+  - de-nazification
+  - name particle
+form
+  - a form of asbestos
+  - in the form of ice
+  - in the form of a seed
+several
+  - several million dollars
+    ("fuzzy goes on top")
+what
+  - amr-unknown
+  - nominalization
+
+fuzzy quantities
+  - multi-million dollar home
+  - AMR Checker rule
+
+AMR Checker:
+   :li (x / 1) but no other numbers as concepts
+   :value must be <string> (not concept). Exception: ordinal-entity :value value-interval
+   join-02 = "join up" check for "up"
+   variable anchor duplicates e.g. (i / insist-01 :arg0 (i / intern))
+   :wiki string must not contain spaces "North Korea" -> "North_Korea"
+   :wiki string not non-existant/redirected/disambiguation page
+   name :opx should not contain string (e.g. :op1 "United States")
+   BAD: :duration since etc.
+  DONE:
+    bad :age 74
+    bad it/this/that :domain ...  (and most other roles)
+    AMR cycles (special :purpose :manner)
+    county :mod south -> south :part-of country
+    country :mod continent -> country :location continent
+
+Green rules: last/next/past/previous 10 years
+
+Training: result vs. result-01, partner vs. partner-01
+Training: :domain extraposition
+
+have-rel-role-91 list: mummy, shipmate
+

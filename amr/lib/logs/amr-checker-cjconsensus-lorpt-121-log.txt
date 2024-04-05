@@ -1,0 +1,4 @@
+STEM match for unaligned expendable :: expend-01 :: NW_MAR_ENG_0121_2005_0127.4 cjconsensus
+STEM match for unaligned mobility :: mobile-02 :: NW_MAR_ENG_0121_2005_0127.7 cjconsensus
+STEM match for unaligned perforance :: perform-02 :: NW_MAR_ENG_0121_2005_0127.11 cjconsensus
+STEM match for unaligned http://finance.yahoo.com/q/bc?s :: http://finance.yahoo.com/q/bc?s=^SSEC&t=5y :: NW_MAR_ENG_0121_2005_0127.19 cjconsensus

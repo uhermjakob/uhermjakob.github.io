@@ -1,0 +1,7 @@
+STEM match for unaligned democraps :: democrap :: bolt-eng-DF-199-192783-6850989_0060.7 ldcpreferred
+STEM match for unaligned repugs :: repug :: bolt-eng-DF-199-192783-6850989_0060.9 ldcpreferred
+STEM match for unaligned democraps :: democrap :: bolt-eng-DF-199-192783-6850989_0060.12 ldcpreferred
+STEM match for unaligned faith :: faithful :: bolt-eng-DF-199-192783-6850989_0060.23 ldcpreferred
+STEM match for unaligned repugs :: repug :: bolt-eng-DF-199-192783-6850989_0060.25 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6850989_0070.9 ldcpreferred
+STEM match for unaligned ideals :: ideal :: bolt-eng-DF-199-192783-6850989_0071.4 ldcpreferred

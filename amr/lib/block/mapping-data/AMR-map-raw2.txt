@@ -1,0 +1,70 @@
+absorbed in
+accompanied by
+accused of
+accustomed to
+acquainted with
+addicted to
+alarmed at/by
+amazed at/by
+amused at/with
+annoyed about/by/with
+associated with
+astonished at/by
+attached to
+bored by/with
+charged for/with
+combined with
+concerned about/for  
+condemned to
+coupled with
+covered in/with
+crowded with
+cured of
+delighted with
+deprived of
+descended from
+disappointed about/at/by/in/to/with
+discouraged from
+disgusted at/by/in/with
+displeased with
+disqualified from
+dressed in
+excited about/at/by
+experienced in
+exposed to
+fatigued with
+frightened of
+gifted with
+immersed in
+impressed by/with
+infected by/with
+infested with
+informed about
+interested in/to
+involved in
+irritated by
+locked in/up
+married to
+moved by/to
+obliged for/to
+occupied with
+overwhelmed by/with
+pleased about/at/to/with
+puzzled about/at/by
+reduced to
+related to
+respected for
+satisfied by/with
+shocked at/by
+steeped in
+surprised at/by
+surrounded by
+terrified at/of
+veiled in 
+versed in
+fed up (with)		FEED.03
+qualified for		QUALIFY.02
+scared of		FEAR.01
+tired of		TIRE.01            
+used to			USE.02
+worried about		WORRY.01

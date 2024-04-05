@@ -1,0 +1,22 @@
+TITLE :op1 :op2 ...
+HIGHLIGHT-RED :op1
+HIGHLIGHT-RED :op2
+
+The operators :op1, :op2 are used in coordinating conjunctions (such as "and" and "or"):
+
+EXAMPLE isi_0001.24 The boy came and left.
+
+They are also used to list, in order, the components of a name:
+
+EXAMPLE isi_0002.22 Steven Spielberg lives in Los Angeles.
+
+They are further used under certain entities, prepositions, postpositions, adverbs:
+
+EXAMPLE isi_0002.56 In the soccer World Cup final in 1974, Germany beat the Netherlands 2-1.
+
+EXAMPLE isi_0001.33 between four and five thousand boys
+
+EXAMPLE isi_0001.35 about 10 miles
+
+EXAMPLE isi_0002.10 America was discovered several hundred years ago.
+

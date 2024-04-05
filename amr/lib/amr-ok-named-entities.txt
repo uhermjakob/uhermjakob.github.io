@@ -1,0 +1,129 @@
+# amrPM->read_acceptable_named_entities_in_amr($filename, *ht)
+amino-acid: alanine
+amino-acid: arginine
+amino-acid: aspargine
+amino-acid: aspartate
+amino-acid: aspartic acid
+amino-acid: cysteine
+amino-acid: glutamate
+amino-acid: glutamic acid
+amino-acid: glutamine
+amino-acid: glycine
+amino-acid: histidine
+amino-acid: hydroxyproline
+amino-acid: isoleucine
+amino-acid: leucine
+amino-acid: lysine
+amino-acid: methionine
+amino-acid: phenylalanine
+amino-acid: proline
+amino-acid: serine
+amino-acid: threonine
+amino-acid: tryptophan
+amino-acid: tyrosine
+amino-acid: valine
+cell: hepatocyte
+cell: keratinocyte
+city: den Haag
+city: 's-Gravenhage
+company: eBay
+country-region: inland China
+disease: *
+drug: *
+enzyme: p16INK4a
+enzyme: p38
+enzyme: trypsin
+event: Indianapolis 500
+gang: Bali 9
+gang: la Familia
+incident: 9/11
+jet: ERJ 190/195
+law: 1947 Constitution
+movie: Mad Max 2: Road Warrior
+molecular-physical-entity: deoxyribonucleic acid
+music-key: A major
+music-key: A minor
+music-key: A-flat major
+music-key: A-flat minor
+music-key: B major
+music-key: B minor
+music-key: B-flat major
+music-key: B-flat minor
+music-key: C major
+music-key: C minor
+music-key: D major
+music-key: D minor
+music-key: D-flat major
+music-key: D-flat minor
+music-key: E major
+music-key: E minor
+music-key: E-flat major
+music-key: E-flat minor
+music-key: F major
+music-key: F minor
+music-key: G major
+music-key: G minor
+nucleic-acid: cDNA
+nucleic-acid: complementary DNA
+nucleic-acid: DNA
+nucleic-acid: deoxyribonucleic acid
+nucleic-acid: mRNA
+nucleic-acid: messenger RNA
+nucleic-acid: shRNA
+nucleic-acid: short hairpin RNA
+nucleic-acid: small hairpin RNA
+nucleic-acid: siRNA
+nucleic-acid: small interfering RNA
+organization: Sortir du nucleaire
+pathway: citric acid cycle
+pathway: Krebs cycle
+person: el-Sisi
+political-movement: communism
+political-movement: neo-Nazism
+political-movement: socialism
+product: iPhone
+product: iPod
+protein: actin
+protein: alpha-catenin
+protein: α-catenin
+protein: beta-catenin
+protein: β-catenin
+protein: gp130
+protein: interleukin 6
+protein: interleukin-6
+protein: myoglobin
+protein: p21
+protein: p53
+protein: pRb
+protein: serpinE2
+protein: ubiquitin
+protein-family: 14-3-3
+show: 18 Styles of Martial Arts
+small-molecule: carbon dioxide
+small-molecule: cetuximab
+small-molecule: carbon disulfide
+small-molecule: chloraniline
+small-molecule: chlororganic
+small-molecule: gefitinib
+small-molecule: growth factor
+small-molecule: H2SO4
+small-molecule: hydrogen chloride
+small-molecule: hydrogen sulfide
+small-molecule: hypochlorite
+small-molecule: selumetinib
+small-molecule: sodium carbonate
+small-molecule: sodium hydroxide
+small-molecule: sodium hypochlorite
+small-molecule: sulfuric acid
+small-molecule: titanium oxide
+small-molecule: vemurafenib
+small-molecule: vitamin A
+small-molecule: vitamin B
+small-molecule: vitamin C
+small-molecule: vitamin D
+small-molecule: vitamin E
+small-molecule: vitamin K
+virus: *
+world-region: Baltic countries
+world-region: Baltic nations
+*: Fortune 500

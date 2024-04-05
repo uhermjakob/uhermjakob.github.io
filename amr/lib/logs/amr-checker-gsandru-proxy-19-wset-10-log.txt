@@ -1,0 +1,7 @@
+STEM match for unaligned reportedly :: report :: PROXY_AFP_ENG_20040305_0056.6 gsandru
+STEM match for unaligned commanders :: command-02 :: PROXY_AFP_ENG_20040305_0056.9 gsandru
+STEM match for unaligned deadly :: dead :: PROXY_AFP_ENG_20040305_0056.16 gsandru
+STEM match for unaligned starvation :: starvate :: PROXY_AFP_ENG_20040305_0056.26 gsandru
+STEM match for unaligned Republic :: Republic of :: PROXY_AFP_ENG_20040329_0408.2 gsandru
+STEM match for unaligned partnerships :: partner-01 :: PROXY_AFP_ENG_20040329_0408.18 gsandru
+STEM match for unaligned southwest :: south :: PROXY_AFP_ENG_20040329_0408.24 gsandru

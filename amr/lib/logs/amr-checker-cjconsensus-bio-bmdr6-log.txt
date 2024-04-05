@@ -1,0 +1,8 @@
+STEM match for unaligned GTPases :: GTPase :: bmtr_0006.2 cjconsensus
+STEM match for unaligned and :: and :: bmtr_0006.4 cjconsensus
+STEM match for unaligned GTPases :: GTPase :: bmtr_0006.9 cjconsensus
+STEM match for unaligned phosphoserine :: phosphorylate-01 :: bmtr_0007.2 cjconsensus
+STEM match for unaligned phosphospecific :: phosphorylate-01 :: bmtr_0007.6 cjconsensus
+STEM match for unaligned phosphospecific :: phosphorylate-01 :: bmtr_0007.6 cjconsensus
+STEM match for unaligned knockdown :: knock-down-02 :: bmtr_0007.11 cjconsensus
+STEM match for unaligned and :: and :: bmtr_0007.12 cjconsensus

@@ -1,0 +1,26 @@
+TITLE :era
+HIGHLIGHT-RED :era
+HIGHLIGHT-BLUE BC
+HIGHLIGHT-BLUE AD
+HIGHLIGHT-BLUE Heisei
+
+The role :era is used for calendar eras, including regnal eras.
+<p>
+Western calendar: BC, AD.
+<p>
+In the Japanese calendar, eras correspond to the reigns of Japanese emperors: Meiji (1868-1912), Taisho (1912-1926), Showa (1926-1989), Heisei (since 1989)
+
+EXAMPLE isi_0002.167 Caesar was murdered in 44 BC .
+
+EXAMPLE isi_0002.168 Three Roman legions were annihilated in the Battle of the Teutoburg Forest in 9 AD .
+
+EXAMPLE isi_0002.181 Augustus lived from 63 BCE to 14 CE.
+
+EXAMPLE isi_0002.169 The 9.3 Tohoku earthquake occured in the year Heisei 23 .
+
+Note: The Japanese year Heisei 23 corresponds to the year 2011 in the Western calendar.
+<p>
+<b>DO NOT</b> use :era for geological eras (such as the Mesozoic Era) or colloquial eras (such as the Victorian Era).
+<p>
+See also general examples for <a href="http://www.isi.edu/~ulf/amr/lib/popup/date.html">date entities</a>.
+

@@ -1,0 +1,21 @@
+TITLE must (modal)
+HIGHLIGHT-RED obligate-01
+HIGHLIGHT-RED infer-01
+HIGHLIGHT-BLUE must
+HIGHLIGHT-BLUE has to
+HIGHLIGHT-BLUE inference
+
+The modal must is generally annotated as obligate-01, with a <i>:domain</i> complement:
+
+EXAMPLE isi_0002.59 The boy must go.
+
+EXAMPLE isi_0001.5 The boy must not go.
+
+EXAMPLE isi_0002.60 The boy has to go.
+
+<hr>
+
+In some cases, however, it conveys an inference ("epistemic" must):
+
+EXAMPLE isi_0002.218 John isn't here, he must be sick.
+

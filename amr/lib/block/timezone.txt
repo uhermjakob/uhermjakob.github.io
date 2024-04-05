@@ -1,0 +1,22 @@
+TITLE :timezone
+HIGHLIGHT-RED :timezone
+HIGHLIGHT-BLUE PST
+HIGHLIGHT-BLUE UTC
+HIGHLIGHT-BLUE local
+HIGHLIGHT-BLUE California
+
+Official timezones are annotated as strings:
+
+EXAMPLE isi_0002.180 10:00 UTC
+
+EXAMPLE isi_0002.7 Wednesday, February 29, 2012, at 4:30pm PST
+
+Local and inofficial timezones are annotated using concepts:
+
+EXAMPLE isi_0002.178 eight o'clock in the morning local time
+
+EXAMPLE isi_0002.179 10am California time
+
+<p>
+See also general examples for <a href="http://www.isi.edu/~ulf/amr/lib/popup/date.html">date entities</a>.
+

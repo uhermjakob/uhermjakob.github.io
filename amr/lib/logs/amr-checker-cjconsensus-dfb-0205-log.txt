@@ -1,0 +1,14 @@
+STEM match for unaligned rioters :: riot-01 :: bolt-eng-DF-200-192446-3809858_0001.6 cjconsensus
+STEM match for unaligned rioters :: riot-01 :: bolt-eng-DF-200-192446-3809858_0001.6 cjconsensus
+STEM match for unaligned gooders :: good-02 :: bolt-eng-DF-200-192446-3809858_0003.1 cjconsensus
+STEM match for unaligned austrailia :: Australia :: bolt-eng-DF-200-192446-3809858_0003.4 cjconsensus
+STEM match for unaligned scroungers :: scrounge-01 :: bolt-eng-DF-200-192446-3809858_0003.4 cjconsensus
+STEM match for unaligned scroungers :: scrounge-01 :: bolt-eng-DF-200-192446-3809858_0003.4 cjconsensus
+STEM match for unaligned tension :: tense-01 :: bolt-eng-DF-200-192446-3809858_0012.7 cjconsensus
+STEM match for unaligned rumours :: rumor-01 :: bolt-eng-DF-200-192446-3809858_0012.7 cjconsensus
+STEM match for unaligned rioters :: riot-01 :: bolt-eng-DF-200-192446-3809858_0012.14 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3809858_0012.15 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3809858_0012.15 cjconsensus
+STEM match for unaligned rioters :: riot-01 :: bolt-eng-DF-200-192446-3809858_0012.19 cjconsensus
+STEM match for unaligned conformity :: conform-01 :: bolt-eng-DF-200-192446-3809858_0012.25 cjconsensus
+STEM match for unaligned rioters :: riot-01 :: bolt-eng-DF-200-192446-3809858_0016.2 cjconsensus

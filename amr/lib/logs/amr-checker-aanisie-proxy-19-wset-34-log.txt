@@ -1,0 +1,6 @@
+STEM match for unaligned Telecom :: telecommunication :: PROXY_AFP_ENG_20070607_0366.3 aanisie
+STEM match for unaligned mandatory :: mandate-01 :: PROXY_AFP_ENG_20070612_0075.11 aanisie
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070612_0180.13 aanisie
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070612_0180.13 aanisie
+STEM match for unaligned buildup :: build-05 :: PROXY_AFP_ENG_20070612_0180.14 aanisie
+STEM match for unaligned separatist :: separatism :: PROXY_AFP_ENG_20070612_0180.19 aanisie

@@ -1,0 +1,6 @@
+STEM match for unaligned http://chicago.cbslocal.com/2012/01/...ampaign=232470 :: http://chicago.cbslocal.com/2012/01/16/man-arrested-for-soliciting-undercover-cop-posing-as-14-year-old-girl/?utm_medium=VPH&utm_source=topvph_news&utm_campaign=232470 :: bolt-eng-DF-200-192446-3807981_0001.1 ldcpreferred
+STEM match for unaligned thing :: think-01 :: bolt-eng-DF-200-192446-3807981_0038.3 ldcpreferred
+STEM match for unaligned crimes :: crime-02 :: bolt-eng-DF-200-192446-3807981_0041.4 ldcpreferred
+STEM match for unaligned criminals :: crime-02 :: bolt-eng-DF-200-192446-3807981_0044.5 ldcpreferred
+STEM match for unaligned under :: undercover :: bolt-eng-DF-200-192446-3807981_0166.18 ldcpreferred
+STEM match for unaligned Howsers :: Howser :: bolt-eng-DF-200-192446-3807981_0167.6 ldcpreferred

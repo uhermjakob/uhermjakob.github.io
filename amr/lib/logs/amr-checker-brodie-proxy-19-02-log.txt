@@ -1,0 +1,14 @@
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20020210_0074.9 brodie
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20020210_0074.9 brodie
+STEM match for unaligned overflights :: over :: PROXY_AFP_ENG_20020210_0074.11 brodie
+STEM match for unaligned Tajik :: Tajik :: PROXY_AFP_ENG_20020210_0074.15 brodie
+STEM match for unaligned Tajik :: Tajikistan :: PROXY_AFP_ENG_20020210_0074.15 brodie
+STEM match for unaligned Tajik :: Tajik :: PROXY_AFP_ENG_20020210_0074.15 brodie
+STEM match for unaligned Tajik :: Tajikistan :: PROXY_AFP_ENG_20020210_0074.25 brodie
+STEM match for unaligned contenders :: contend-02 :: PROXY_AFP_ENG_20020304_0028.7 brodie
+STEM match for unaligned favoritism :: favor-01 :: PROXY_AFP_ENG_20020304_0028.16 brodie
+STEM match for unaligned favoritism :: favor-01 :: PROXY_AFP_ENG_20020304_0028.16 brodie
+STEM match for unaligned reliability :: reliable :: PROXY_AFP_ENG_20020304_0028.21 brodie
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20020304_0028.22 brodie
+STEM match for unaligned reliability :: reliable :: PROXY_AFP_ENG_20020304_0028.22 brodie
+STEM match for unaligned critics :: criticize-01 :: PROXY_AFP_ENG_20020304_0028.29 brodie

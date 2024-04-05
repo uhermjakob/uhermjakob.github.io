@@ -1,0 +1,7 @@
+STEM match for unaligned apologetics :: apologize-01 :: bolt-eng-DF-200-192448-6191778_0047.10 ldcpreferred
+STEM match for unaligned contanimation :: contaminate-01 :: bolt-eng-DF-200-192448-6191778_0047.11 ldcpreferred
+STEM match for unaligned wild :: wildlife :: bolt-eng-DF-200-192448-6191778_0047.11 ldcpreferred
+STEM match for unaligned apologist :: apologize-01 :: bolt-eng-DF-200-192448-6191778_0047.19 ldcpreferred
+STEM match for unaligned workers :: work-01 :: bolt-eng-DF-200-192448-6191778_0048.2 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191778_0048.7 ldcpreferred
+STEM match for unaligned pharmaceutics :: pharmaceutical :: bolt-eng-DF-200-192448-6191778_0049.3 ldcpreferred

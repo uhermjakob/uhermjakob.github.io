@@ -1,0 +1,12 @@
+STEM match for unaligned 61 :: 61 :: nw.wsj_0001.1 adkatz
+STEM match for unaligned years :: year :: nw.wsj_0001.1 adkatz
+STEM match for unaligned 29 :: 29 :: nw.wsj_0001.1 adkatz
+STEM match for unaligned 55 :: 55 :: nw.wsj_0002.1 adkatz
+STEM match for unaligned years :: year :: nw.wsj_0002.1 adkatz
+STEM match for unaligned 30 :: 30 :: nw.wsj_0003.1 adkatz
+STEM match for unaligned years :: year :: nw.wsj_0003.1 adkatz
+STEM match for unaligned decades :: decade :: nw.wsj_0003.2 adkatz
+STEM match for unaligned 1953 :: 1953 :: nw.wsj_0003.12 adkatz
+STEM match for unaligned 1955 :: 1955 :: nw.wsj_0003.12 adkatz
+STEM match for unaligned filters :: filter-02 :: nw.wsj_0003.12 adkatz
+STEM match for unaligned crocidolite :: crocidloite :: nw.wsj_0003.19 adkatz

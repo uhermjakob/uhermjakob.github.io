@@ -1,0 +1,8 @@
+STEM match for unaligned judgeships :: judge-01 :: nyt_eng_20131029_0228.3 cjconsensus
+STEM match for unaligned and :: and :: nyt_eng_20131029_0228.5 cjconsensus
+STEM match for unaligned and :: and :: nyt_eng_20131029_0228.9 cjconsensus
+STEM match for unaligned team’' :: team :: nyt_eng_20131029_0228.15 cjconsensus
+STEM match for unaligned constitution’' :: constitution :: nyt_eng_20131029_0228.18 cjconsensus
+STEM match for unaligned Bar :: Bar :: nyt_eng_20131029_0228.19 cjconsensus
+STEM match for unaligned and :: and :: nyt_eng_20131029_0228.27 cjconsensus
+STEM match for unaligned and :: and :: nyt_eng_20131029_0228.27 cjconsensus

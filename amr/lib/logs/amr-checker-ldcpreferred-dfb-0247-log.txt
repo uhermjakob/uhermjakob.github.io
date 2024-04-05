@@ -1,0 +1,7 @@
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192451-5796135_0083.10 ldcpreferred
+STEM match for unaligned context :: contextualize-01 :: bolt-eng-DF-200-192451-5796135_0083.14 ldcpreferred
+STEM match for unaligned popularised :: popularize-01 :: bolt-eng-DF-200-192451-5796135_0085.9 ldcpreferred
+STEM match for unaligned lover :: love-01 :: bolt-eng-DF-200-192451-5796135_0085.13 ldcpreferred
+STEM match for unaligned criticising :: criticize-01 :: bolt-eng-DF-200-192451-5796135_0085.16 ldcpreferred
+STEM match for unaligned context :: contrast-01 :: bolt-eng-DF-200-192451-5796135_0085.20 ldcpreferred
+STEM match for unaligned context :: contextualize-01 :: bolt-eng-DF-200-192451-5796135_0085.20 ldcpreferred

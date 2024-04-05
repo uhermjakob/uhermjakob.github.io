@@ -1,0 +1,100 @@
+# province/state list
+(12) ::ne-surf Helmand ::ne-type province ::wiki Helmand_Province
+(10) ::ne-surf Liaoning ::ne-type province ::wiki Liaoning
+(10) ::ne-surf Papua ::ne-type province ::wiki Papua_(province)
+(10) ::ne-surf Papua ::ne-type country-region ::wiki Western_New_Guinea
+(6) ::ne-surf Tibet ::ne-type province ::wiki Tibet
+(5) ::ne-surf Baluchistan ::ne-type province ::wiki Balochistan,_Pakistan
+(4) ::ne-surf Aceh ::ne-type province ::wiki Aceh
+(4) ::ne-surf Kandahar ::ne-type province ::wiki Kandahar_Province
+(3) ::ne-surf Qom Province ::ne-type province ::wiki Qom_Province
+(3) ::ne-surf Qom ::ne-type province ::wiki Qom_Province
+(3) ::ne-surf Sistan-Baluchestan ::ne-type province ::wiki Sistan_and_Baluchestan_Province
+(3) ::ne-surf Sistan-Baluchestan Province ::ne-type province ::wiki Sistan_and_Baluchestan_Province
+(3) ::ne-surf Son La ::ne-type province ::wiki Sơn_La_Province
+(3) ::ne-surf West Papua ::ne-type province ::wiki West_Papua_(province)
+(2) ::ne-surf Bali ::ne-type province ::wiki Bali
+(2) ::ne-surf Guangdong ::ne-type province ::wiki Guangdong
+(2) ::ne-surf Sichuan ::ne-type province ::wiki Sichuan
+(1) ::ne-surf Chechnya ::ne-type province ::wiki Chechnya
+(1) ::ne-surf Fujian ::ne-type province ::wiki Fujian
+(1) ::ne-surf Gansu ::ne-type province ::wiki Gansu
+(1) ::ne-surf Herat ::ne-type province ::wiki Herat_Province
+(0) ::ne-surf Balochistan ::ne-type province ::wiki Balochistan,_Pakistan
+(0) ::ne-surf Jiangsu ::ne-type province ::wiki Jiangsu
+(0) ::ne-surf Hubei ::ne-type province ::wiki Hubei
+(1) ::ne-surf Inner Mongolia ::ne-type province ::wiki Inner_Mongolia
+
+(4) ::ne-surf California ::ne-type state ::wiki California
+(4) ::ne-surf Calif. ::ne-type state ::wiki California
+(4) ::ne-surf Massachusetts ::ne-type state ::wiki Massachusetts
+(4) ::ne-surf Mass. ::ne-type state ::wiki Massachusetts
+(4) ::ne-surf Minnesota ::ne-type state ::wiki Minnesota
+(3) ::ne-surf Florida ::ne-type state ::wiki Florida
+(3) ::ne-surf Hawaii ::ne-type state ::wiki Hawaii
+(3) ::ne-surf NY ::ne-type state ::wiki New_York
+(2) ::ne-surf CA ::ne-type state ::wiki California
+(2) ::ne-surf Hesse ::ne-type state ::wiki Hesse
+(2) ::ne-surf NC ::ne-type state ::wiki North_Carolina
+(2) ::ne-surf Ohio ::ne-type state ::wiki Ohio
+(2) ::ne-surf Pennsylvania ::ne-type state ::wiki Pennsylvania
+(2) ::ne-surf Virginia ::ne-type state ::wiki Virginia
+(1) ::ne-surf Alaska ::ne-type state ::wiki Alaska
+(1) ::ne-surf Arizona ::ne-type state ::wiki Arizona
+(1) ::ne-surf Georgia ::ne-type state ::wiki Georgia_(U.S._state)
+(1) ::ne-surf Illinois ::ne-type state ::wiki Illinois
+(1) ::ne-surf Indiana ::ne-type state ::wiki Indiana
+(1) ::ne-surf Iowa ::ne-type state ::wiki Iowa
+(1) ::ne-surf Jammu-Kashmir ::ne-type state ::wiki Jammu_and_Kashmir
+(1) ::ne-surf Jammu and Kashmir ::ne-type state ::wiki Jammu_and_Kashmir
+(1) ::ne-surf Kansas ::ne-type state ::wiki Kansas
+(1) ::ne-surf Kentucky ::ne-type state ::wiki Kentucky
+(1) ::ne-surf MI ::ne-type state ::wiki Michigan
+(1) ::ne-surf Maine ::ne-type state ::wiki Maine
+(1) ::ne-surf Maryland ::ne-type state ::wiki Maryland
+(1) ::ne-surf Missouri ::ne-type state ::wiki Missouri
+(1) ::ne-surf New South Wales ::ne-type state ::wiki New_South_Wales
+(1) ::ne-surf New York ::ne-type state ::wiki New_York
+(1) ::ne-surf North Dakota ::ne-type state ::wiki North_Dakota
+(1) ::ne-surf Texas ::ne-type state ::wiki Texas
+(1) ::ne-surf Victoria ::ne-type state ::wiki Victoria_(Australia)
+(1) ::ne-surf Wisconsin ::ne-type state ::wiki Wisconsin
+(1) ::ne-surf Rio de Janeiro ::ne-type state ::wiki Rio_de_Janeiro_(state)
+(0) ::ne-surf North Carolina ::ne-type state ::wiki North_Carolina
+(0) ::ne-surf Michigan ::ne-type state ::wiki Michigan
+(0) ::ne-surf Bavaria ::ne-type state ::wiki Bavaria
+(0) ::ne-surf South Carolina ::ne-type state ::wiki South_Carolina
+(0) ::ne-surf South Dakota ::ne-type state ::wiki South_Dakota
+(0) ::ne-surf Oregon ::ne-type state ::wiki Oregon
+(0) ::ne-surf Vermont ::ne-type state ::wiki Vermont
+(0) ::ne-surf Utah ::ne-type state ::wiki Utah
+(0) ::ne-surf Colorado ::ne-type state ::wiki Colorado
+(0) ::ne-surf Wyoming ::ne-type state ::wiki Wyoming
+(0) ::ne-surf Montana ::ne-type state ::wiki Montana
+(0) ::ne-surf Idaho ::ne-type state ::wiki Idaho
+(0) ::ne-surf New Hampshire ::ne-type state ::wiki New_Hampshire
+(0) ::ne-surf New Mexico ::ne-type state ::wiki New_Mexico
+(0) ::ne-surf Arkansas ::ne-type state ::wiki Arkansas
+(0) ::ne-surf Oklahoma ::ne-type state ::wiki Oklahoma
+(0) ::ne-surf Louisiana ::ne-type state ::wiki Louisiana
+(0) ::ne-surf Mississippi ::ne-type state ::wiki Mississippi
+(0) ::ne-surf Alabama ::ne-type state ::wiki Alabama
+(0) ::ne-surf Delaware ::ne-type state ::wiki Delaware
+(0) ::ne-surf Tennessee ::ne-type state ::wiki Tennessee
+(0) ::ne-surf Kentucky ::ne-type state ::wiki Kentucky
+(0) ::ne-surf Nebraska ::ne-type state ::wiki Nebraska
+(0) ::ne-surf Connecticut ::ne-type state ::wiki Connecticut
+(0) ::ne-surf Nevada ::ne-type state ::wiki Nevada
+(0) ::ne-surf New Jersey ::ne-type state ::wiki New_Jersey
+(0) ::ne-surf Rhode Island ::ne-type state ::wiki Rhode_Island
+(0) ::ne-surf Washington ::ne-type state ::wiki Washington_(state)
+(0) ::ne-surf West Virginia ::ne-type state ::wiki West_Virginia
+(0) ::ne-surf North Rhine-Westphalia ::ne-type state ::wiki North_Rhine-Westphalia
+(0) ::ne-surf Lower Saxony ::ne-type state ::wiki Lower_Saxony
+(0) ::ne-surf Saxony ::ne-type state ::wiki Saxony
+(0) ::ne-surf Schleswig-Holstein ::ne-type state ::wiki Schleswig-Holstein
+(0) ::ne-surf Saarland ::ne-type state ::wiki Saarland
+
+
+(0) ::ne-surf Gibraltar ::ne-type territory ::wiki Gibraltar
+

@@ -1,0 +1,14 @@
+TITLE may (modal)
+HIGHLIGHT-RED permit-01
+HIGHLIGHT-RED possible
+HIGHLIGHT-BLUE may
+HIGHLIGHT-BLUE permitted
+
+The modal may is annotated as <i>permit-01</i> or <i>possible</i>:
+
+EXAMPLE isi_0002.61 The boy may go.
+
+EXAMPLE isi_0002.62 The boy is permitted to go.
+
+EXAMPLE isi_0002.68 It may rain .
+

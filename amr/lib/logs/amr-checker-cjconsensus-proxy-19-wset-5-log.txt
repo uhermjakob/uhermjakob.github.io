@@ -1,0 +1,5 @@
+STEM match for unaligned Iranian :: Iran :: PROXY_AFP_ENG_20031129_0137.5 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031202_0313.8 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031202_0313.12 cjconsensus
+STEM match for unaligned environmentalist :: environmentalism :: PROXY_AFP_ENG_20031202_0313.13 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20031202_0313.35 cjconsensus

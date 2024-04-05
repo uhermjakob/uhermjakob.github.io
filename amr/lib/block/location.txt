@@ -1,0 +1,13 @@
+TITLE :location
+HIGHLIGHT-RED :location
+
+Examples of :location:
+
+EXAMPLE isi_0002.22 Steven Spielberg lives in Los Angeles .
+
+EXAMPLE isi_0002.1 The plane crash occurred 50 miles east of Moscow.
+
+EXAMPLE isi_0002.16 26 of the 44 countries in Europe are members of NATO.
+
+Reification: be-located-at-91
+

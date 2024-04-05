@@ -1,0 +1,43 @@
+TITLE Selecting a Named Entity Type
+HIGHLIGHT-RED publication
+HIGHLIGHT-RED news
+HIGHLIGHT-RED agency
+HIGHLIGHT-RED poet
+HIGHLIGHT-RED company
+HIGHLIGHT-RED bank
+HIGHLIGHT-RED group
+HIGHLIGHT-RED country-region
+HIGHLIGHT-RED region
+HIGHLIGHT-RED spacecraft
+HIGHLIGHT-RED spaceship
+HIGHLIGHT-BLUE Mr.
+HIGHLIGHT-BLUE N.V.
+
+We normally select the named entity type from
+<a href="http://www.isi.edu/~ulf/amr/lib/ne-types.html" title="Show list of named-entity types" target="_BLANK"><b>this</b></a> 
+list of NE types.
+<br>
+However, if there is a more specific type explicitly mentioned <b>outside</b> the name, we use that concept as a type.
+
+EXAMPLE isi_0002.316 He works for AFP.
+
+EXAMPLE isi_0002.317 He works for the news agency AFP.
+
+EXAMPLE isi_0002.247 He works for Bank of America.
+
+EXAMPLE isi_0002.249 She works for UBS, a big Swiss bank.
+
+EXAMPLE isi_0002.209 The poet William Shakespeare was born in Stratford-upon-Avon.
+
+EXAMPLE nw.wsj_0001.2 Mr. Vinken is chairman of Elsevier N.V. , the Dutch publishing group.
+
+Note: Mr., Mrs., Ms., Miss etc. are considered to be part of the name.
+<p>
+In the following two examples, we select the standard NE types country-region and spaceship ,
+because region is actually <u>less</u> specific than country-region and spacecraft and
+spaceship are synonymns (equally specific).
+
+EXAMPLE isi_0002.318 They come from Sudan's Darfur region.
+
+EXAMPLE isi_0002.319 China launched the Shenzhou spacecraft.
+

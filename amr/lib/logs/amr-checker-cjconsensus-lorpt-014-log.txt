@@ -1,0 +1,4 @@
+STEM match for unaligned famed :: fame-01 :: NW_AFP_ENG_0014_2003_0502.7 cjconsensus
+STEM match for unaligned Universal :: Univeral :: NW_AFP_ENG_0014_2003_0502.8 cjconsensus
+STEM match for unaligned Universal :: Univeral :: NW_AFP_ENG_0014_2003_0502.8 cjconsensus
+STEM match for unaligned under :: underway :: NW_AFP_ENG_0014_2003_0502.8 cjconsensus

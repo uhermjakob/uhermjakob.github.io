@@ -1,0 +1,16 @@
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6849434_0100.4 ldcpreferred
+STEM match for unaligned supposedly :: suppose-01 :: bolt-eng-DF-199-192783-6849434_0100.6 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6849434_0100.15 ldcpreferred
+STEM match for unaligned invasion :: invade-01 :: bolt-eng-DF-199-192783-6849434_0101.3 ldcpreferred
+STEM match for unaligned world :: world :: bolt-eng-DF-199-192783-6849434_0101.5 ldcpreferred
+STEM match for unaligned world :: World :: bolt-eng-DF-199-192783-6849434_0101.5 ldcpreferred
+STEM match for unaligned world :: world :: bolt-eng-DF-199-192783-6849434_0101.5 ldcpreferred
+STEM match for unaligned world :: World :: bolt-eng-DF-199-192783-6849434_0101.5 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6849434_0101.7 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192783-6849434_0101.7 ldcpreferred
+STEM match for unaligned contra :: Iran-Contra :: bolt-eng-DF-199-192783-6849434_0211.28 ldcpreferred
+STEM match for unaligned limits :: limit-01 :: bolt-eng-DF-199-192783-6849434_0211.37 ldcpreferred
+STEM match for unaligned commutation :: commute-02 :: bolt-eng-DF-199-192783-6849434_0212.1 ldcpreferred
+STEM match for unaligned precedence :: precedent :: bolt-eng-DF-199-192783-6849434_0212.1 ldcpreferred
+STEM match for unaligned enforcer :: enforce-01 :: bolt-eng-DF-199-192783-6849434_0212.2 ldcpreferred
+STEM match for unaligned prosecturor :: prosecute-01 :: bolt-eng-DF-199-192783-6849434_0213.8 ldcpreferred

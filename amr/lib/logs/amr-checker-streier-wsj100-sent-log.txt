@@ -1,0 +1,10 @@
+STEM match for unaligned 29 :: 29 :: nw.wsj_0001.1 streier
+STEM match for unaligned 55 :: 55 :: nw.wsj_0002.1 streier
+STEM match for unaligned years :: years :: nw.wsj_0002.1 streier
+STEM match for unaligned years :: years :: nw.wsj_0002.1 streier
+STEM match for unaligned filters :: filter-02 :: nw.wsj_0003.1 streier
+STEM match for unaligned decades :: decade :: nw.wsj_0003.2 streier
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.8 streier
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.8 streier
+STEM match for unaligned 1953 :: 1953 :: nw.wsj_0003.12 streier
+STEM match for unaligned 1955 :: 1955 :: nw.wsj_0003.12 streier

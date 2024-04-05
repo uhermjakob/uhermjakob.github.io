@@ -1,0 +1,8 @@
+STEM match for unaligned prioritise :: prioritize-01 :: bolt-eng-DF-200-192448-6189810_0001.5 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6189810_0007.1 cjconsensus
+STEM match for unaligned personally :: person :: bolt-eng-DF-200-192448-6189810_0007.1 cjconsensus
+STEM match for unaligned mindset :: mind :: bolt-eng-DF-200-192448-6189810_0008.1 cjconsensus
+STEM match for unaligned importnat :: important-01 :: bolt-eng-DF-200-192448-6189810_0023.1 cjconsensus
+STEM match for unaligned importnat :: important-01 :: bolt-eng-DF-200-192448-6189810_0023.1 cjconsensus
+STEM match for unaligned influanced :: influence-01 :: bolt-eng-DF-200-192448-6189810_0023.1 cjconsensus
+STEM match for unaligned enviromental :: environment :: bolt-eng-DF-200-192448-6189810_0023.1 cjconsensus

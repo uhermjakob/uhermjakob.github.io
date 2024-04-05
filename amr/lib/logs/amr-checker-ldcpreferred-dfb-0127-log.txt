@@ -1,0 +1,9 @@
+STEM match for unaligned hope :: hopeless-01 :: bolt-eng-DF-199-192772-6810984_0005.2 ldcpreferred
+STEM match for unaligned adaptability :: adapt-01 :: bolt-eng-DF-199-192772-6810984_0005.6 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810984_0005.6 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810984_0005.6 ldcpreferred
+STEM match for unaligned addition :: additional :: bolt-eng-DF-199-192772-6810984_0006.2 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810984_0006.4 ldcpreferred
+STEM match for unaligned unfortnuate :: fortunate-01 :: bolt-eng-DF-199-192772-6810984_0007.7 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810984_0007.10 ldcpreferred
+STEM match for unaligned physcially :: physical :: bolt-eng-DF-199-192772-6810984_0007.11 ldcpreferred

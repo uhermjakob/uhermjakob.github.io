@@ -1,0 +1,5 @@
+STEM match for unaligned reformist :: reform-01 :: NW_WSJ_ENG_0186_2006_0331.1 cjconsensus
+STEM match for unaligned and :: and :: NW_WSJ_ENG_0186_2006_0331.5 cjconsensus
+STEM match for unaligned reformist :: reform-01 :: NW_WSJ_ENG_0186_2006_0331.10 cjconsensus
+STEM match for unaligned speaker :: speak-out-03 :: NW_WSJ_ENG_0186_2006_0331.18 cjconsensus
+STEM match for unaligned speculative :: speculate-01 :: NW_WSJ_ENG_0186_2006_0331.28 cjconsensus

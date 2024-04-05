@@ -1,0 +1,23 @@
+TITLE :poss
+HIGHLIGHT-RED :poss
+
+The role :poss (&quot;possessed by&quot;) is a very general form of possession.
+Often used with possessive pronouns, as well as <i>of</i> and <i>'s</i>.
+
+EXAMPLE isi_0002.205 The boy lost his toy.
+
+EXAMPLE isi_0002.38 Whose car is this ?
+
+EXAMPLE isi_0002.368 But that's not his fault.
+
+Reifications: own-01, have-03
+
+<hr>
+
+Do <b>not</b> use :poss in cases such as
+
+EXAMPLE isi_0002.37 the roof of the house
+
+EXAMPLE isi_0002.79 a ring of gold
+
+EXAMPLE isi_0002.24 My cousin is a lawyer .

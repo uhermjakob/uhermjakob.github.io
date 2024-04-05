@@ -1,0 +1,17 @@
+STEM match for unaligned Infact :: in-fact :: DF-200-192448-618_9512.16 cjconsensus
+STEM match for unaligned demo :: demonstrate-01 :: DF-200-192448-618_9512.19 cjconsensus
+STEM match for unaligned demo :: demonstrate-01 :: DF-200-192448-618_9512.19 cjconsensus
+STEM match for unaligned loutish :: lout :: DF-200-192448-618_9512.22 cjconsensus
+STEM match for unaligned vandalism :: vandalize-01 :: DF-200-192448-618_9512.24 cjconsensus
+STEM match for unaligned And :: and :: DF-200-192448-618_9512.26 cjconsensus
+STEM match for unaligned And :: and :: DF-200-192448-618_9512.26 cjconsensus
+STEM match for unaligned And :: and :: DF-200-192448-618_9512.26 cjconsensus
+STEM match for unaligned And :: and :: DF-200-192448-618_9512.26 cjconsensus
+STEM match for unaligned BNP :: BNP :: DF-200-192448-618_9512.26 cjconsensus
+STEM match for unaligned Conservatives :: Conservative :: DF-200-192448-618_9563.5 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192448-618_9563.5 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192448-618_9563.5 cjconsensus
+STEM match for unaligned imagen :: imagine-01 :: DF-200-192448-618_9563.8 cjconsensus
+STEM match for unaligned majorly :: major-02 :: DF-200-192448-618_9563.8 cjconsensus
+STEM match for unaligned sympathise :: sympathize-01 :: DF-200-192448-618_9563.18 cjconsensus
+STEM match for unaligned loose :: loosen-01 :: DF-200-192448-618_9563.20 cjconsensus

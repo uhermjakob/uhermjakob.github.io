@@ -1,0 +1,10 @@
+STEM match for unaligned accustomed :: accustom-01 :: bolt-eng-DF-203-185940-353667_0019.1 ldcpreferred
+STEM match for unaligned breadwinning :: bread :: bolt-eng-DF-203-185940-353667_0019.1 ldcpreferred
+STEM match for unaligned growth :: grow-01 :: bolt-eng-DF-203-185940-353667_0019.2 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-203-185940-353667_0019.6 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-203-185940-353667_0019.6 ldcpreferred
+STEM match for unaligned undergrads :: undergraduate :: bolt-eng-DF-203-185940-353667_0020.1 ldcpreferred
+STEM match for unaligned undergrads :: undergraduate :: bolt-eng-DF-203-185940-353667_0020.1 ldcpreferred
+STEM match for unaligned rearing :: rear-01 :: bolt-eng-DF-203-185940-353667_0021.4 ldcpreferred
+STEM match for unaligned cooking :: cook-01 :: bolt-eng-DF-203-185940-353667_0021.4 ldcpreferred
+STEM match for unaligned cleaning :: clean-01 :: bolt-eng-DF-203-185940-353667_0021.4 ldcpreferred

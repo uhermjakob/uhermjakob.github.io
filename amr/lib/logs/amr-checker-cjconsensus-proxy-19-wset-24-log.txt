@@ -1,0 +1,10 @@
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070206_0144.7 cjconsensus
+STEM match for unaligned gibraltan :: Gibraltar :: PROXY_AFP_ENG_20070208_0432.10 cjconsensus
+STEM match for unaligned gibraltan :: Gibraltar :: PROXY_AFP_ENG_20070208_0432.11 cjconsensus
+STEM match for unaligned applicable :: apply-02 :: PROXY_AFP_ENG_20070208_0432.17 cjconsensus
+STEM match for unaligned applicable :: apply-02 :: PROXY_AFP_ENG_20070208_0432.17 cjconsensus
+STEM match for unaligned Iranian :: Iran :: PROXY_AFP_ENG_20070208_0432.18 cjconsensus
+STEM match for unaligned Gibraltarians :: Gibraltar :: PROXY_AFP_ENG_20070208_0432.20 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070208_0432.20 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070208_0432.20 cjconsensus
+STEM match for unaligned Gibralta :: Gibraltar :: PROXY_AFP_ENG_20070208_0432.21 cjconsensus

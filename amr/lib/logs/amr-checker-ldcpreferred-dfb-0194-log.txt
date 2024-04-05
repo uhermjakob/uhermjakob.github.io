@@ -1,0 +1,10 @@
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3807752_0051.6 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3807752_0051.6 ldcpreferred
+STEM match for unaligned what :: whatever :: bolt-eng-DF-200-192446-3807752_0051.9 ldcpreferred
+STEM match for unaligned rules :: rule :: bolt-eng-DF-200-192446-3807752_0051.15 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3807752_0051.20 ldcpreferred
+STEM match for unaligned fulfil :: fulfill-01 :: bolt-eng-DF-200-192446-3807752_0051.20 ldcpreferred
+STEM match for unaligned complaints :: complain-01 :: bolt-eng-DF-200-192446-3807752_0053.9 ldcpreferred
+STEM match for unaligned sackings :: sack-01 :: bolt-eng-DF-200-192446-3807752_0053.9 ldcpreferred
+STEM match for unaligned guardians :: guard-01 :: bolt-eng-DF-200-192446-3807752_0053.21 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3807752_0053.22 ldcpreferred

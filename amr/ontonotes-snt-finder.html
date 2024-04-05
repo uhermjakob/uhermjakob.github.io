@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>ON snt finder</title>
+  </head>
+  <body bgcolor="#FFFFEE">
+  <table width="100%" border="0" cellpadding="3" cellspacing="0"><tr bgcolor="#BBCCFF"><td>&nbsp; <b><font class="large1" size="+1">OntoNotes 4.0 Sentence Finder</font></b><br>&nbsp; <font class="small1" size="-1" color="#888888">Written by Ulf Hermjakob &nbsp; &nbsp; April 13, 2012</font></td></tr></table>
+
+  <p>
+  &nbsp;<i>Result can be used to create new workset for AMR Editor.</i>
+  <p>
+  <form name="main" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/onto-snt-finder.cgi" method="post">
+    <table><tr><td>
+    <b>Search for sentences that match <style="text-decoration:underline";>all</style> of the following criteria:</b>
+    <p>
+    Includes text:
+    <input type="text" id="snt-substring-1" name="snt-substring-1" value="" size="50" />
+    <input type="checkbox" id="case-sensitive-1" name="case-sensitive-1"> case sensitive
+    <input type="checkbox" id="entire-tokens-only-1" name="entire-tokens-only-1"> entire words only<br>
+    Includes text:
+    <input type="text" id="snt-substring-2" name="snt-substring-2" value="" size="50" />
+    <input type="checkbox" id="case-sensitive-2" name="case-sensitive-2"> case sensitive
+    <input type="checkbox" id="entire-tokens-only-2" name="entire-tokens-only-2"> entire words only<br>
+    Includes text:
+    <input type="text" id="snt-substring-3" name="snt-substring-3" value="" size="50" />
+    <input type="checkbox" id="case-sensitive-3" name="case-sensitive-3"> case sensitive
+    <input type="checkbox" id="entire-tokens-only-3" name="entire-tokens-only-3"> entire words only
+    </td></tr></table>
+    <p>
+    <table><tr>
+      <td>Sentence includes a word with sense:</td>
+      <td><input type="text" id="sense" name="sense" value="" size="20" />
+      &nbsp; <font color="#999999">(e.g. take-v.02 &nbsp;<i>or</i>&nbsp; take 2)</font> &nbsp; &nbsp; <a target="_SENSE_FINDER" title="OntoNotes 4.0 Frames Interface" href="https://www.isi.edu/~ulf/amr/ontonotes-frames.html"><font color="#999999">ON sense finder</font></td>
+      </tr><tr>
+      <td>Sentence includes an entity of type:</td>
+      <td>
+      <select id="entity-type" name="entity-type">
+        <option value="" selected></option>
+        <option value="PERSON">PERSON</option>
+        <option value="ORG">ORGANIZATION</option>
+        <option value="GPE">GPE</option>
+        <option value="LOC">LOCATION</option>
+        <option value="FAC">FACILITY</option>
+        <option value="EVENT">EVENT</option>
+        <option value="WORK_OF_ART">WORK OF ART</option>
+        <option value="LANGUAGE">LANGUAGE</option>
+        <option value="LAW">LAW</option>
+        <option value="NORP">NORP</option>
+        <option value="DATE">DATE</option>
+        <option value="TIME">TIME</option>
+        <option value="PERCENT">PERCENT</option>
+        <option value="MONEY">MONEY</option>
+        <option value="QUANTITY">QUANTITY</option>
+        <option value="ORDINAL">ORDINAL</option>
+        <option value="CARDINAL">CARDINAL</option>
+      </select>
+    </td></tr></table>
+    <p>
+    <table><tr><td>
+    Genre:
+    </td><td>
+    <select id="genre" name="genre">
+       <option title="any genre (95,470 sentences)" value="" selected>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+       <option title="125 segments / 16,107 sentences" value="bc">Broadcast Conversation (bc)</option>
+       <option title="1051 segments / 13,287 sentences" value="bn">Broadcast News (bn)</option>
+       <option title="78 segments / 8333 sentences" value="mz">Magazine (mz)</option>
+       <option title="2187 segments / 42,640 sentences" value="nw">Newswire (nw)</option>
+       <option title="3911 segments / 18,780 sentences" value="wb">Weblogs (wb)</option>
+    </select>
+    </td></tr><tr><td>
+    Source: 
+    </td><td>
+    <select id="source" name="source">
+       <option title="any source (95,470 sentences)" value="" selected>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+       <option title="34 segments / 2688 sentences" value="abc">ABC - USA (abc)</option>
+       <option title="6 segments / 2321 sentences" value="cctv">China Central Television (cctv)</option>
+       <option title="446 segments / 11,099 sentences" value="cnn">CNN - USA (cnn)</option>
+       <option title="8 segments / 5457 sentences" value="msnbc">MSNBC - USA (msnbc)</option>
+       <option title="39 segments / 641 sentences" value="nbc">NBC - USA (nbc)</option>
+       <option title="4 segments / 1293 sentences" value="phoenix">Phoenix Television - China (phoenix)</option>
+       <option title="112 segments / 2049 sentences" value="pri">Public Radio International - USA (pri)</option>
+       <option title="78 segments / 8333 sentences" value="sinorama">Sinorama Magazine - Taiwan (sinorama)</option>
+       <option title="265 segments / 1897 sentences" value="voa">Voice of America (voa)</option>
+       <option title="1728 segments / 37,015 sentences" value="wsj">Wall Street Journal - USA (wsj)</option>
+       <option title="325 segments / 4454 sentences" value="xinhua">Xinhua New Agency - China (xinhua)</option>
+       <option title="25 segments / 637 sentences" value="mnb">American broadcast news (mnb)</option>
+       <option title="175 segments / 1943 sentences" value="p2.5_a2e">Arabic news (p2.5_a2e)</option>
+       <option title="34 segments / 2688 sentences" value="a2e">Arabic weblogs (a2e)</option>
+       <option title="294 segments / 3645 sentences" value="p2.5_c2e">Chinese news (p2.5_c2e)</option>
+       <option title="70 segments / 3501 sentences" value="c2e">Chinese weblogs (c2e)</option>
+       <option title="18 segments / 3677 sentences" value="eng">English weblogs (eng)</option>
+       <option title="3655 segments / 3655 sentences" value="sel">Weblogs (sel)</option>
+    </select>
+    </td></tr>
+    <tr title="List of sentence IDs (comma-and/or-space-separated). Area can be enlarged.">
+	<td valign="top">Sentence IDs:</td>
+        <td><textarea rows="1" cols="31" id="id-list" name="id-list"
+                   autocapitalize="off" autocorrect="off" spellcheck="false"
+	           style="height:20px;overflow:none;"></textarea></td>
+    </tr><tr><td colspan="2">
+    Sentence ID substring:
+    <input type="text" id="id-substring" name="id-substring" value="" size="12" autocapitalize="off" />
+    &nbsp; <font color="#999999">(e.g. ectb)</font>
+    </td></tr></table>
+    <p>
+    <table>
+      <tr>
+	<td>Minimum number of tokens in a sentence:</td>
+        <td><input type="text" id="min-tok-in-snt" name="min-tok-in-snt" value="" size="3" /></td>
+      </tr><tr>
+	<td>Maximum number of tokens in a sentence:</td>
+        <td><input type="text" id="max-tok-in-snt" name="max-tok-in-snt" value="" size="3" /></td>
+      </tr><tr>
+        <td>Maximum number of sentences to be shown:</td>
+        <td><input type="text" id=max-n-snt" name="max-n-snt" value="100" size="3" /></td>
+      </tr></table>
+    <p>
+    <table>
+      <tr>
+        <td><input type="checkbox" id="show-empty-cats" name="show-empty-cats">
+	    Show empty categories, e.g. <i>*, *T*, *PRO*, *ICH*, *EXP*, 0.</td>
+      </tr><tr>
+        <td><input type="checkbox" id="count-all" name="count-all">
+	    Keep counting matching sentences, even after display limit is reached.</td>
+      </tr><tr>
+	<td>Show only sentences 
+            <input type="checkbox" id="with-amr" name="with-amr"> with AMRs &nbsp;
+            <input type="checkbox" id="without-amr" name="without-amr"> without AMRs &nbsp;
+	    by user <input type="text" id="username" name="username" value="" size="15" /></td>
+      </tr>
+    </table>
+    <p>
+    <input type="submit" value="Show sentences" /> &nbsp; <font color="#999999">Depending on your choices, this might take a few seconds.</font>
+  </form>
+  </body>
+</html>

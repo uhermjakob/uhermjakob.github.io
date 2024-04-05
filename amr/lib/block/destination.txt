@@ -1,0 +1,11 @@
+TITLE :destination
+HIGHLIGHT-RED :destination
+
+Examples for :destination:
+
+EXAMPLE isi_0002.47 He drove west, from Houston to Austin . 
+
+EXAMPLE isi_0002.33 She heated the oven to 250 degrees Celsius .
+
+Reification: be-destined-for-91
+

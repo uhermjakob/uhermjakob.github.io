@@ -1,0 +1,11 @@
+STEM match for unaligned banglalore :: Bangalore :: PROXY_AFP_ENG_20020404_0305.5 brodie
+STEM match for unaligned finalised :: finalize-01 :: PROXY_AFP_ENG_20020404_0305.7 brodie
+STEM match for unaligned licence :: license-01 :: PROXY_AFP_ENG_20020404_0305.17 brodie
+STEM match for unaligned trainer :: train-01 :: PROXY_AFP_ENG_20020404_0305.25 brodie
+STEM match for unaligned excessive :: excess :: PROXY_AFP_ENG_20020406_0538.6 brodie
+STEM match for unaligned hysterical :: hysteria :: PROXY_AFP_ENG_20020408_0307.10 brodie
+STEM match for unaligned Brazilian :: Brazil :: PROXY_AFP_ENG_20020408_0348.12 brodie
+STEM match for unaligned Southeast :: Southeast :: PROXY_AFP_ENG_20020422_0296.4 brodie
+STEM match for unaligned Southeast :: Southeast :: PROXY_AFP_ENG_20020422_0296.4 brodie
+STEM match for unaligned Asian :: Asia :: PROXY_AFP_ENG_20020422_0296.4 brodie
+STEM match for unaligned expertise :: expert-41 :: PROXY_AFP_ENG_20020422_0296.20 brodie

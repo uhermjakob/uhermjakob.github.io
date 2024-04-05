@@ -1,0 +1,3 @@
+STEM match for unaligned knows :: know-01 :: lpp_1943.279 testuser
+STEM match for unaligned France :: France :: lpp_1943.279 testuser
+STEM match for unaligned France :: France :: lpp_1943.279 testuser

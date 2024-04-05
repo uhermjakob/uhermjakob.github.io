@@ -1,0 +1,33 @@
+FUNCTION-WORD PRONOUN I
+FUNCTION-WORD PRONOUN me
+FUNCTION-WORD PRONOUN us
+FUNCTION-WORD PRONOUN we
+FUNCTION-WORD PRONOUN you
+FUNCTION-WORD PREPOSITION against
+FUNCTION-WORD PREPOSITION between
+FUNCTION-WORD PREPOSITION into
+FUNCTION-WORD PREPOSITION via
+FUNCTION-WORD VERB let
+
+Turk Turkey
+
+accept agree-03
+aggression threaten-01
+aggressive threaten-01
+convoy transport-01
+get have-03
+guess expect-01
+help support-01
+hold+in+place hold-03
+in+place hold-03
+inform tell-01
+invade attack-01
+keep+out prevent-01
+say tell-01
+stab betray-01
+think expect-01
+traitor betray-01
+treason betray-01
+watch+out warn-01
+worry fear-01
+

@@ -1,0 +1,9 @@
+STEM match for unaligned and :: and :: PROXY_LTW_ENG_20070831_0072.17 cjconsensus
+STEM match for unaligned and :: and :: PROXY_LTW_ENG_20070831_0072.17 cjconsensus
+STEM match for unaligned and :: and :: PROXY_LTW_ENG_20070831_0072.17 cjconsensus
+STEM match for unaligned and :: and :: PROXY_LTW_ENG_20070831_0072.17 cjconsensus
+STEM match for unaligned path :: path :: PROXY_LTW_ENG_20070831_0072.20 cjconsensus
+STEM match for unaligned and :: and :: PROXY_LTW_ENG_20070831_0072.27 cjconsensus
+STEM match for unaligned nonpaper :: paper :: PROXY_LTW_ENG_20070930_0021.9 cjconsensus
+STEM match for unaligned nonpaper :: paper :: PROXY_LTW_ENG_20070930_0021.9 cjconsensus
+STEM match for unaligned tiered :: tier :: PROXY_LTW_ENG_20070930_0021.31 cjconsensus

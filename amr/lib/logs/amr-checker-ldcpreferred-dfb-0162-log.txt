@@ -1,0 +1,10 @@
+STEM match for unaligned revolutionaries :: revolt-01 :: bolt-eng-DF-199-192821-6702728_0229.16 ldcpreferred
+STEM match for unaligned befitting :: befit-01 :: bolt-eng-DF-199-192821-6702728_0229.28 ldcpreferred
+STEM match for unaligned Nazis :: Nazism :: bolt-eng-DF-199-192821-6702728_0229.47 ldcpreferred
+STEM match for unaligned codebreaking :: code :: bolt-eng-DF-199-192821-6702728_0229.51 ldcpreferred
+STEM match for unaligned Pressganging :: pressgang-01 :: bolt-eng-DF-199-192821-6702728_0231.5 ldcpreferred
+STEM match for unaligned overhyped :: over-03 :: bolt-eng-DF-199-192821-6702728_0233.2 ldcpreferred
+STEM match for unaligned editors :: edit-01 :: bolt-eng-DF-199-192821-6702728_0233.2 ldcpreferred
+STEM match for unaligned centric :: center-01 :: bolt-eng-DF-199-192821-6702728_0233.4 ldcpreferred
+STEM match for unaligned Franco :: France :: bolt-eng-DF-199-192821-6702728_0234.3 ldcpreferred
+STEM match for unaligned amazing :: amaze-01 :: bolt-eng-DF-199-192821-6702728_0234.4 ldcpreferred

@@ -1,0 +1,34 @@
+TITLE :mode
+HIGHLIGHT-RED :mode
+HIGHLIGHT-RED interrogative
+HIGHLIGHT-RED imperative
+HIGHLIGHT-RED expressive
+HIGHLIGHT-RED amr-unknown
+
+Use :mode interrogative to mark a yes-no question.
+
+EXAMPLE isi_0002.26 Did he die?
+
+The role :mode is also used for imperatives:
+
+EXAMPLE isi_0002.89 Go home !
+
+EXAMPLE isi_0002.90 Let 's go home .
+
+Finally, the role :mode is used to express some emotions, which do not
+have the primary function of conveying information, ask a question 
+(:mode interrogative) or order (:mode imperative).
+
+EXAMPLE isi_0002.197 Yippee!
+
+Note that "Yes." as a normal answer to a question is not marked with
+any :mode, as it plainly conveys information based on the preceding
+question. But a celebratory "Yes!!!" after your favorite sports team
+scores an imporant point should be marked up using :mode expressive.
+
+<hr>
+
+Use amr-unknown as a concept to indicate the target of a question.
+
+EXAMPLE isi_0001.14 What did the girl find?
+

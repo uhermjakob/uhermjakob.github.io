@@ -1,0 +1,8 @@
+STEM match for unaligned weaponry :: weapon :: bolt-eng-DF-200-192446-3811687_0001.15 cjconsensus
+STEM match for unaligned governmetns :: government-organization :: bolt-eng-DF-200-192446-3811687_0001.27 cjconsensus
+STEM match for unaligned governmetns :: govern-01 :: bolt-eng-DF-200-192446-3811687_0001.27 cjconsensus
+STEM match for unaligned befitting :: befit-01 :: bolt-eng-DF-200-192446-3811687_0001.29 cjconsensus
+STEM match for unaligned victims :: victimize-01 :: bolt-eng-DF-200-192446-3811687_0001.32 cjconsensus
+STEM match for unaligned qaida :: al-Qaida :: bolt-eng-DF-200-192446-3811687_0002.6 cjconsensus
+STEM match for unaligned americans :: America :: bolt-eng-DF-200-192446-3811687_0002.11 cjconsensus
+STEM match for unaligned qaida :: al-Qaida :: bolt-eng-DF-200-192446-3811687_0002.11 cjconsensus

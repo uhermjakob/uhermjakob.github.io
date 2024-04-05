@@ -1,0 +1,8 @@
+TITLE afraid
+HIGHLIGHT-RED fear-01
+HIGHLIGHT-BLUE afraid
+
+The adjective afraid is annotated using fear-01.
+
+EXAMPLE isi_0002.19 He was afraid of retaliation.
+

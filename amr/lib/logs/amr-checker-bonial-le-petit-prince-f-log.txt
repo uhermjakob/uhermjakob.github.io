@@ -1,0 +1,10 @@
+STEM match for unaligned snow :: snow-01 :: lpp_1943.1025 bonial
+STEM match for unaligned you :: you :: lpp_1943.1076 bonial
+STEM match for unaligned you :: you :: lpp_1943.1079 bonial
+STEM match for unaligned flower :: flower :: lpp_1943.1081 bonial
+STEM match for unaligned flower :: flower :: lpp_1943.1081 bonial
+STEM match for unaligned Yes :: yes :: lpp_1943.1088 bonial
+STEM match for unaligned No :: no :: lpp_1943.1090 bonial
+STEM match for unaligned No :: no :: lpp_1943.1093 bonial
+STEM match for unaligned burrow :: burrow :: lpp_1943.1103 bonial
+STEM match for unaligned burrow :: burrow :: lpp_1943.1103 bonial

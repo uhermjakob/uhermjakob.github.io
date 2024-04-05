@@ -1,0 +1,11 @@
+STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.4 amorari
+STEM match for unaligned all :: all :: wb.eng_0003.9 amorari
+STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.9 amorari
+STEM match for unaligned years :: year :: wb.eng_0003.19 amorari
+STEM match for unaligned years :: year :: wb.eng_0003.19 amorari
+STEM match for unaligned transportation :: transport-01 :: wb.eng_0003.50 amorari
+STEM match for unaligned related :: relate-01 :: wb.eng_0003.50 amorari
+STEM match for unaligned expenditures :: expediture :: wb.eng_0003.50 amorari
+STEM match for unaligned recognize :: recognise :: wb.eng_0003.60 amorari
+STEM match for unaligned recognize :: recommend-01 :: wb.eng_0003.60 amorari
+STEM match for unaligned primaarily :: primaar :: wb.eng_0003.60 amorari

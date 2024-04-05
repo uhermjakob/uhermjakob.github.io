@@ -1,0 +1,18 @@
+TITLE :example
+HIGHLIGHT-RED :example
+HIGHLIGHT-BLUE like
+HIGHLIGHT-BLUE such as
+HIGHLIGHT-BLUE resemble-01
+
+EXAMPLE isi_0002.52 animals such as giraffes
+
+EXAMPLE isi_0002.87 high tech companies like IBM and Google
+
+Reifications: exemplify-01
+
+<hr>
+
+Examples where <b>not</b> to use :example
+
+EXAMPLE isi_0002.88 Blaming futures is like blaming the messenger .
+

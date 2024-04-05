@@ -1,0 +1,14 @@
+STEM match for unaligned behest :: behest :: wb.eng_0003.12 hyter
+STEM match for unaligned behest :: behest :: wb.eng_0003.12 hyter
+STEM match for unaligned friggin :: frig-00 :: wb.eng_0003.12 hyter
+STEM match for unaligned Moreover :: more :: wb.eng_0003.49 hyter
+STEM match for unaligned TMT :: TMT :: wb.eng_0003.55 hyter
+STEM match for unaligned sunday :: sunday :: wb.eng_0003.58 hyter
+STEM match for unaligned sunday :: sunday :: wb.eng_0003.58 hyter
+STEM match for unaligned grandma :: grandma :: wb.eng_0003.58 hyter
+STEM match for unaligned grandma :: grandma :: wb.eng_0003.58 hyter
+STEM match for unaligned domestic :: domestic :: wb.eng_0003.59 hyter
+STEM match for unaligned domestic :: domestic :: wb.eng_0003.59 hyter
+STEM match for unaligned travel :: travel-01 :: wb.eng_0003.63 hyter
+STEM match for unaligned travel :: travel-01 :: wb.eng_0003.63 hyter
+STEM match for unaligned deman :: demand-01 :: wb.eng_0003.63 hyter

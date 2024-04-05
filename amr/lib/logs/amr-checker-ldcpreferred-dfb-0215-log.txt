@@ -1,0 +1,12 @@
+STEM match for unaligned neighbours :: neighbor-01 :: bolt-eng-DF-200-192446-3812122_0068.1 ldcpreferred
+STEM match for unaligned economically :: economics :: bolt-eng-DF-200-192446-3812122_0068.10 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3812122_0068.16 ldcpreferred
+STEM match for unaligned arabs :: Arab :: bolt-eng-DF-200-192446-3812122_0069.1 ldcpreferred
+STEM match for unaligned europeans :: Europe :: bolt-eng-DF-200-192446-3812122_0069.1 ldcpreferred
+STEM match for unaligned christians :: Christian :: bolt-eng-DF-200-192446-3812122_0069.2 ldcpreferred
+STEM match for unaligned arabs :: Arab :: bolt-eng-DF-200-192446-3812122_0069.2 ldcpreferred
+STEM match for unaligned arabs :: Arab :: bolt-eng-DF-200-192446-3812122_0069.3 ldcpreferred
+STEM match for unaligned arabs :: Arab :: bolt-eng-DF-200-192446-3812122_0069.4 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3812122_0069.12 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3812122_0069.12 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3812122_0072.16 ldcpreferred

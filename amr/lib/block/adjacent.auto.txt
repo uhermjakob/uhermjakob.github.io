@@ -1,0 +1,12 @@
+TITLE adjacent
+HIGHLIGHT-RED fear-01
+Consider annotating the adjective <font color="blue">adjacent (to)</font> with verb frame <font color="red">border-01</font>, in analogy to the adjective <font color="blue">afraid</font> below:
+<p>
+<hr>
+<p>
+HIGHLIGHT-BLUE afraid
+
+The adjective afraid is annotated using fear-01.
+
+EXAMPLE isi_0002.19 He was afraid of retaliation.
+

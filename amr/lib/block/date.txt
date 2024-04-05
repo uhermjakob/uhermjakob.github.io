@@ -1,0 +1,30 @@
+TITLE date-entity roles
+HIGHLIGHT-RED :day
+HIGHLIGHT-RED :month
+HIGHLIGHT-RED :year
+HIGHLIGHT-RED :time
+HIGHLIGHT-RED :timezone
+HIGHLIGHT-RED :weekday
+HIGHLIGHT-RED :year2
+HIGHLIGHT-RED :season
+HIGHLIGHT-RED :decade
+HIGHLIGHT-RED :mod
+HIGHLIGHT-RED :dayperiod
+
+Examples for roles in a date-entity:
+
+EXAMPLE isi_0002.7 Wednesday, February 29, 2012, at 4:30pm PST
+
+EXAMPLE isi_0002.8 in the early 1950s
+
+EXAMPLE isi_0002.14 winter 2011-2012
+
+EXAMPLE isi_0002.77 this Wednesday afternoon
+
+EXAMPLE isi_0002.181 Augustus lived from 63 BCE to 14 CE.
+
+See also more specific examples for 
+<a href="http://www.isi.edu/~ulf/amr/lib/popup/calendar.html">:calendar</a>,
+<a href="http://www.isi.edu/~ulf/amr/lib/popup/era.html">:era</a> and
+<a href="http://www.isi.edu/~ulf/amr/lib/popup/timezone.html">:timezon<nobr>e</nobr></a>.
+

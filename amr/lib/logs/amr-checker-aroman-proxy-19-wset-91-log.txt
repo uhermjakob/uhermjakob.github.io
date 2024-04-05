@@ -1,0 +1,17 @@
+STEM match for unaligned 2008 :: 2008 :: PROXY_APW_ENG_20080903_0510.1 aroman
+STEM match for unaligned Europe :: Europe :: PROXY_APW_ENG_20080903_0510.2 aroman
+STEM match for unaligned Europe :: Europe :: PROXY_APW_ENG_20080903_0510.2 aroman
+STEM match for unaligned International :: international :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned International :: international :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned International :: international :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned International :: international :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned money :: money :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned money :: money :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned terrorism :: terrorism :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned terrorism :: terrorism :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned crime :: crime :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned crime :: crime :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned business :: business :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned business :: business :: PROXY_APW_ENG_20080903_0510.3 aroman
+STEM match for unaligned 3 :: 3 :: PROXY_APW_ENG_20080903_0510.4 aroman
+STEM match for unaligned 2008 :: 2008 :: PROXY_APW_ENG_20080903_0510.4 aroman

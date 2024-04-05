@@ -1,0 +1,16 @@
+STEM match for unaligned 61 :: 61 :: nw.wsj_0001.1 annsz
+STEM match for unaligned years :: year :: nw.wsj_0001.1 annsz
+STEM match for unaligned 29 :: 29 :: nw.wsj_0001.1 annsz
+STEM match for unaligned 55 :: 55 :: nw.wsj_0002.1 annsz
+STEM match for unaligned years :: year :: nw.wsj_0002.1 annsz
+STEM match for unaligned reported :: report-01 :: nw.wsj_0003.1 annsz
+STEM match for unaligned decades :: decade :: nw.wsj_0003.2 annsz
+STEM match for unaligned year :: year :: nw.wsj_0003.4 annsz
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.8 annsz
+STEM match for unaligned Lorillard :: Lorillard :: nw.wsj_0003.8 annsz
+STEM match for unaligned 1953 :: 1953 :: nw.wsj_0003.12 annsz
+STEM match for unaligned 1955 :: 1955 :: nw.wsj_0003.12 annsz
+STEM match for unaligned filters :: filter-02 :: nw.wsj_0003.12 annsz
+STEM match for unaligned day :: day :: nw.wsj_0004.2 annsz
+STEM match for unaligned Tuesday :: tuesday :: nw.wsj_0004.2 annsz
+STEM match for unaligned Tuesday :: tuesday :: nw.wsj_0004.2 annsz

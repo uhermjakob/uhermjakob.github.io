@@ -1,0 +1,7 @@
+STEM match for unaligned indissociable :: dissociate-01 :: PROXY_AFP_ENG_20070726_0219.9 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070726_0219.12 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070726_0219.12 cjconsensus
+STEM match for unaligned amply :: ample :: PROXY_AFP_ENG_20070726_0219.12 cjconsensus
+STEM match for unaligned Libyan :: Libya :: PROXY_AFP_ENG_20070726_0219.14 cjconsensus
+STEM match for unaligned boundless :: bound-09 :: PROXY_AFP_ENG_20070726_0219.23 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20070726_0219.34 cjconsensus

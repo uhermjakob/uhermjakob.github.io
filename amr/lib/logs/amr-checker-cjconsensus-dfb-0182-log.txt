@@ -1,0 +1,9 @@
+STEM match for unaligned saver :: save-01 :: bolt-eng-DF-199-194215-6530419_0452.18 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-199-194215-6530419_0452.20 cjconsensus
+STEM match for unaligned dumb :: dumbbell :: bolt-eng-DF-199-194215-6530419_0452.24 cjconsensus
+STEM match for unaligned dumb :: dumbbell :: bolt-eng-DF-199-194215-6530419_0452.24 cjconsensus
+STEM match for unaligned smileys :: smile-01 :: bolt-eng-DF-199-194215-6530419_0454.3 cjconsensus
+STEM match for unaligned smilies :: smile-01 :: bolt-eng-DF-199-194215-6530419_0455.2 cjconsensus
+STEM match for unaligned colonoscopied :: colonoscopy :: bolt-eng-DF-199-194215-6530419_0458.2 cjconsensus
+STEM match for unaligned swigging :: swig-01 :: bolt-eng-DF-199-194215-6530419_0460.4 cjconsensus
+STEM match for unaligned Posivibes :: positive :: bolt-eng-DF-199-194215-6530419_0461.7 cjconsensus

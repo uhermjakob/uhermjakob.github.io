@@ -1,0 +1,31 @@
+# biomed list
+(7) ::ne-surf AIDS ::ne-type disease ::wiki HIV/AIDS
+(5) ::ne-surf HIV ::ne-type disease ::wiki HIV/AIDS
+(1) ::ne-surf HIV/AIDS ::ne-type disease ::wiki HIV/AIDS
+(2) ::ne-surf hepatitis B ::ne-type disease ::wiki Hepatitis_B
+(2) ::ne-surf meningitis ::ne-type disease ::wiki Meningitis
+(1) ::ne-surf Alzheimer's disease ::ne-type disease ::wiki Alzheimer's_disease
+(1) ::ne-surf Alzheimers disease ::ne-type disease ::wiki Alzheimer's_disease
+(1) ::ne-surf Alzheimer disease ::ne-type disease ::wiki Alzheimer's_disease
+(1) ::ne-surf Alzheimer's ::ne-type disease ::wiki Alzheimer's_disease
+(1) ::ne-surf Alzheimers ::ne-type disease ::wiki Alzheimer's_disease
+(1) ::ne-surf Alzheimer ::ne-type disease ::wiki Alzheimer's_disease
+(1) ::ne-surf leukemia ::ne-type disease ::wiki Leukemia
+(1) ::ne-surf type 2 diabetes ::ne-type disease ::wiki Diabetes_mellitus_type_2
+(1) ::ne-surf cancer ::ne-type disease ::wiki Cancer
+(1) ::ne-surf lung cancer ::ne-type disease ::wiki Lung_cancer
+(1) ::ne-surf tubercolosis ::ne-type disease ::wiki Tuberculosis
+(1) ::ne-surf tuberculosis ::ne-type disease ::wiki Tuberculosis
+(1) ::ne-surf Parkinson's disease ::ne-type disease ::wiki Parkinson's_disease
+(1) ::ne-surf Parkinsons disease ::ne-type disease ::wiki Parkinson's_disease
+(1) ::ne-surf Parkinson disease ::ne-type disease ::wiki Parkinson's_disease
+(1) ::ne-surf Parkinson's ::ne-type disease ::wiki Parkinson's_disease
+(1) ::ne-surf Parkinsons ::ne-type disease ::wiki Parkinson's_disease
+(1) ::ne-surf Parkinson ::ne-type disease ::wiki Parkinson's_disease
+
+(1) ::ne-surf citric acid cycle ::ne-type pathway ::wiki Citric_acid_cycle
+(1) ::ne-surf Krebs cycle ::ne-type pathway ::wiki Citric_acid_cycle
+
+(1) ::ne-surf myoglobin ::ne-type protein ::wiki Myoglobin
+(7) ::ne-surf EPO ::ne-type protein ::wiki Erythropoietin
+

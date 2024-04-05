@@ -1,0 +1,10 @@
+STEM match for unaligned 12 :: 12 :: wb.eng_0003.9 mduma
+STEM match for unaligned three :: three :: wb.eng_0003.19 mduma
+STEM match for unaligned three :: three :: wb.eng_0003.19 mduma
+STEM match for unaligned four :: four :: wb.eng_0003.19 mduma
+STEM match for unaligned transportation :: transportation :: wb.eng_0003.50 mduma
+STEM match for unaligned transportation :: transportation :: wb.eng_0003.50 mduma
+STEM match for unaligned related :: relate-01 :: wb.eng_0003.50 mduma
+STEM match for unaligned maximum :: maximum :: wb.eng_0003.76 mduma
+STEM match for unaligned maximum :: maximum :: wb.eng_0003.76 mduma
+STEM match for unaligned Robious :: Robinson :: wb.eng_0003.83 mduma

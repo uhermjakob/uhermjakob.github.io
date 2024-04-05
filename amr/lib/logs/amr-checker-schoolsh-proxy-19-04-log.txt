@@ -1,0 +1,6 @@
+STEM match for unaligned accessible :: access-01 :: PROXY_AFP_ENG_20020423_0133.11 schoolsh
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20020518_0107.10 schoolsh
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20020518_0107.10 schoolsh
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20020518_0107.10 schoolsh
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20020518_0107.23 schoolsh
+STEM match for unaligned reemerged :: reemerge-00 :: PROXY_AFP_ENG_20020518_0107.27 schoolsh

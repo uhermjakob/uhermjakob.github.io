@@ -1,0 +1,11 @@
+TITLE :unit
+HIGHLIGHT-RED :unit
+
+Used for units in a quantity.
+
+EXAMPLE isi_0002.2 The woman bought two gallons of milk.
+
+EXAMPLE isi_0002.1 The plane crash occurred 50 miles east of Moscow.
+
+EXAMPLE isi_0002.5 20 Canadian dollars
+

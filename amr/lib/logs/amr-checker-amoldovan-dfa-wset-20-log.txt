@@ -1,0 +1,13 @@
+STEM match for unaligned overextended :: overextend-00 :: DF-199-193571-649_0934.2 amoldovan
+STEM match for unaligned restaint :: restrain-01 :: DF-199-193571-649_0934.6 amoldovan
+STEM match for unaligned restaint :: restrain-01 :: DF-199-193571-649_0934.6 amoldovan
+STEM match for unaligned Unfettered :: fetter-01 :: DF-199-193571-649_0934.10 amoldovan
+STEM match for unaligned meaningless :: mean-01 :: DF-199-193571-649_0934.19 amoldovan
+STEM match for unaligned sombreros :: sombrero :: DF-199-193600-660_5903.4 amoldovan
+STEM match for unaligned derogatory :: derogate-00 :: DF-199-193600-660_5903.9 amoldovan
+STEM match for unaligned races/cultures :: race :: DF-199-193600-660_5903.16 amoldovan
+STEM match for unaligned over :: overall :: DF-199-193600-660_5903.17 amoldovan
+STEM match for unaligned make :: makeup :: DF-199-193600-660_5903.18 amoldovan
+STEM match for unaligned obsessions :: obsess-01 :: DF-199-193600-660_5903.27 amoldovan
+STEM match for unaligned costumes.. :: costume :: DF-199-193600-660_5903.32 amoldovan
+STEM match for unaligned drippy :: drip-02 :: DF-199-193600-660_5903.44 amoldovan

@@ -1,0 +1,17 @@
+STEM match for unaligned and :: and :: DF-170-181110-876_7587.1 ldcpreferred
+STEM match for unaligned firsthand :: first-hand :: DF-170-181110-876_7587.3 ldcpreferred
+STEM match for unaligned crisi :: crisis :: DF-170-181110-876_7587.4 ldcpreferred
+STEM match for unaligned and :: and :: DF-170-181110-876_7587.15 ldcpreferred
+STEM match for unaligned temps :: temperature :: DF-170-181110-876_8413.7 ldcpreferred
+STEM match for unaligned differant :: differ-02 :: DF-170-181110-876_8413.8 ldcpreferred
+STEM match for unaligned approx :: approximate :: DF-170-181113-874_7974.8 ldcpreferred
+STEM match for unaligned subjecive :: subjective-03 :: DF-170-181113-874_7974.30 ldcpreferred
+STEM match for unaligned and :: and :: DF-170-181113-874_7974.52 ldcpreferred
+STEM match for unaligned and :: and :: DF-170-181113-874_7974.52 ldcpreferred
+STEM match for unaligned and :: and :: DF-170-181113-874_7974.52 ldcpreferred
+STEM match for unaligned rates :: rate :: DF-170-181113-874_7974.55 ldcpreferred
+STEM match for unaligned ratios :: ratio :: DF-170-181113-874_7974.55 ldcpreferred
+STEM match for unaligned percentages :: percentage :: DF-170-181113-874_7974.55 ldcpreferred
+STEM match for unaligned down.2 :: down :: DF-170-181113-874_7974.70 ldcpreferred
+STEM match for unaligned and :: and :: DF-170-181113-874_7974.80 ldcpreferred
+STEM match for unaligned reasons :: reason :: DF-170-181113-874_7974.90 ldcpreferred

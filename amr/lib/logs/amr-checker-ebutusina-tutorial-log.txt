@@ -1,0 +1,9 @@
+STEM match for unaligned Yankees :: Yankee :: isi_0001.12 ebutusina
+STEM match for unaligned atoms :: atom :: isi_0001.31 ebutusina
+STEM match for unaligned miles :: mile :: isi_0001.34 ebutusina
+STEM match for unaligned 29 :: 29 :: isi_0001.36 ebutusina
+STEM match for unaligned 2012 :: 2012 :: isi_0001.36 ebutusina
+STEM match for unaligned Summer :: summer :: isi_0001.38 ebutusina
+STEM match for unaligned Summer :: summer :: isi_0001.38 ebutusina
+STEM match for unaligned 2011 :: 2011 :: isi_0001.38 ebutusina
+STEM match for unaligned 25 :: 25 :: isi_0001.39 ebutusina

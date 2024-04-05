@@ -1,0 +1,15 @@
+STEM match for unaligned Austral :: Australasia :: bolt-eng-DF-200-192446-3808114_0123.1 cjconsensus
+STEM match for unaligned asian :: Asia :: bolt-eng-DF-200-192446-3808114_0123.1 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3808114_0123.1 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3808114_0123.1 cjconsensus
+STEM match for unaligned Indians :: India :: bolt-eng-DF-200-192446-3808114_0124.12 cjconsensus
+STEM match for unaligned British :: Britain :: bolt-eng-DF-200-192446-3808114_0124.14 cjconsensus
+STEM match for unaligned demonise :: demonize-01 :: bolt-eng-DF-200-192446-3808114_0124.21 cjconsensus
+STEM match for unaligned Brits :: Britain :: bolt-eng-DF-200-192446-3808114_0124.25 cjconsensus
+STEM match for unaligned models :: model-01 :: bolt-eng-DF-200-192446-3808114_0126.2 cjconsensus
+STEM match for unaligned lived :: live-01 :: bolt-eng-DF-200-192446-3808114_0306.5 cjconsensus
+STEM match for unaligned inter :: interrace :: bolt-eng-DF-200-192446-3808114_0306.15 cjconsensus
+STEM match for unaligned Britons :: Britain :: bolt-eng-DF-200-192446-3808114_0310.4 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3808114_0312.3 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3808114_0312.3 cjconsensus
+STEM match for unaligned generalisations :: generalize-01 :: bolt-eng-DF-200-192446-3808114_0312.10 cjconsensus

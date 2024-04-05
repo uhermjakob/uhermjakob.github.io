@@ -1,0 +1,36 @@
+SURF: quantity
+   LINK: http://www.isi.edu/~ulf/amr/lib/popup/quantities.html
+   ANCHOR: :quant
+   SEM: :quant
+      ENTRY: Structures in AMR: 
+	 PSEUDO: (<i>entity</i> :quant <i>quantity</i>) (<i>quantity-type</i> :quant ... :unit ...)
+   SEM: examples
+      ENTRY: <b>40,000</b> boys
+	 PSEUDO: (boy :quant 40000)
+	 EXAMPLE: isi_0001.30
+      ENTRY: <b>ten miles</b>
+	 PSEUDO: (distance-quantity :quant 10 :unit mile)
+	 EXAMPLE: isi_0001.34
+      ENTRY: America was discovered <b>several hundred years</b> ago.
+	 PSEUDO: (several :op1 (temporal-quantity :quant 100 :unit year))
+	 EXAMPLE: isi_0002.10
+   SEM: Precise (Scientific) Quantities
+      LINK: http://www.isi.edu/~ulf/amr/lib/popup/quantities.html#general-quantities
+      NOTE: 10 miles
+   SEM: Non-Exact Quantities
+      LINK: http://www.isi.edu/~ulf/amr/lib/popup/quantities.html#non-exact-quantities
+      NOTE: nearly 10 miles
+   SEM: Numerical Quantities
+      LINK: http://www.isi.edu/~ulf/amr/lib/popup/quantities.html#numerical-quantities
+      NOTE: 10 boys
+   SEM: List of standard quantity types
+      LINK: http://www.isi.edu/~ulf/amr/lib/popup/quantity-types.html
+      NOTE: monetary-quantity, distance-quantity, seismic-quantity etc.
+   SEM: related topic rate-entity-91
+   SEM: related topic degree
+   SEM: Comparative, superlative constructions with have-quant-91
+      ENTRY: <b>Note</> that have-quant-91 is the reification of :quant. 
+      ENTRY: He sold <b>as many cars as</b> his competitor. 
+      PSEUDO: (sell-01 :ARG0 he :ARG1 (car :ARG1-of have-quant-91 :ARG2 quantity :ARG3 equal :ARG4 cars sold by his competitor))	  
+	  ENTRY: He sold <b>the most cars of</b> his competitors. 
+	  PSEUDO: (sell-01 :ARG0 he :ARG1 (car :ARG1-of have-quant-91 :ARG2 quantity :ARG3 most :ARG5 cars sold by his competitor))

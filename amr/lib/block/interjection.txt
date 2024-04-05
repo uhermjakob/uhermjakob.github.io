@@ -1,0 +1,16 @@
+TITLE Interjections
+HIGHLIGHT-RED no
+HIGHLIGHT-RED uh
+HIGHLIGHT-RED Goodbye
+HIGHLIGHT-RED goodbye
+HIGHLIGHT-RED Yippee
+HIGHLIGHT-RED yippee
+
+Interjections and fillers are not annotated unless they add meaning to the sentence.
+
+EXAMPLE isi_0002.231 I uh don't remember.
+EXAMPLE isi_0002.113 No, I don't kn&#8203;ow .
+EXAMPLE isi_0002.112 No .
+EXAMPLE isi_0002.232 Goodbye !
+EXAMPLE isi_0002.197 Yippee !
+

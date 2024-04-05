@@ -1,0 +1,9 @@
+STEM match for unaligned Kurdish :: Kurd :: NW_AFP_ENG_0008_2003_0327.2 cjconsensus
+STEM match for unaligned Sandstorms :: sand :: NW_AFP_ENG_0008_2003_0327.6 cjconsensus
+STEM match for unaligned sandstorms :: sand :: NW_AFP_ENG_0008_2003_0327.8 cjconsensus
+STEM match for unaligned intelligence :: Intelligence :: NW_AFP_ENG_0008_2003_0327.9 cjconsensus
+STEM match for unaligned intelligence :: Intelligence :: NW_AFP_ENG_0008_2003_0327.9 cjconsensus
+STEM match for unaligned intelligence :: Intelligence :: NW_AFP_ENG_0008_2003_0327.9 cjconsensus
+STEM match for unaligned intelligence :: Intelligence :: NW_AFP_ENG_0008_2003_0327.9 cjconsensus
+STEM match for unaligned willing :: will-01 :: NW_AFP_ENG_0008_2003_0327.23 cjconsensus
+STEM match for unaligned sync :: synchronize-01 :: NW_AFP_ENG_0008_2003_0327.27 cjconsensus

@@ -1,0 +1,6 @@
+STEM match for unaligned Taiwanese :: Taiwan :: PROXY_CNA_ENG_20040212_0013.4 cjconsensus
+STEM match for unaligned Taiwanese :: Taiwan :: PROXY_CNA_ENG_20040212_0013.5 cjconsensus
+STEM match for unaligned and :: and :: PROXY_CNA_ENG_20040212_0013.7 cjconsensus
+STEM match for unaligned Corp. :: Corp :: PROXY_CNA_ENG_20040628_0015.8 cjconsensus
+STEM match for unaligned class :: Kidd-Class :: PROXY_CNA_ENG_20040628_0015.22 cjconsensus
+STEM match for unaligned weaponry :: weapon :: PROXY_CNA_ENG_20070304_0025.13 cjconsensus

@@ -1,0 +1,38 @@
+TITLE contrast-01
+HIGHLIGHT-RED contrast-01
+HIGHLIGHT-BLUE but
+HIGHLIGHT-BLUE while
+HIGHLIGHT-BLUE whereas
+HIGHLIGHT-BLUE however
+HIGHLIGHT-BLUE by contrast
+HIGHLIGHT-BLUE in contrast to
+HIGHLIGHT-BLUE on the one hand
+HIGHLIGHT-BLUE on the other hand
+HIGHLIGHT-BLUE contrasts
+
+Contrastive conjunctions such as but, while, whereas, 
+prepositions such as <font color="blue">in c&#8203;ontrast to</font>
+and the adverbials such as however, on the other hand
+are rendered using the concept contrast-01:
+
+EXAMPLE isi_0002.103 I like classical music, but John likes jazz .
+
+The example above also captures the sentences
+<ul>
+   <li> I like classical music, whereas John likes jazz .
+   <li> While I like classical music, John likes jazz .
+   <li> I like classical music, <font color="blue">in c&#8203;ontrast to</font> John who likes jazz .
+   <li> I like classical music. John, however, likes jazz .
+   <li> On the one hand, I like classical music. On the other hand, John likes jazz .
+   <li> My liking of classical music contrasts with John's liking of jazz .
+</ul>
+
+contrast-01 is symmetric, i.e. the arguments of contrast-01 can typically be swapped
+without changing the meaning:<br>
+<i>I like classical music, whereas John likes jazz.</i>
+&nbsp; = &nbsp; <i>John likes jazz, whereas I like classical music.</i>
+<p>
+Note that in some cases such as in ``<i>It started to rain, but the game continued anyway.</i>''
+but signals a <a href="http://www.isi.edu/~ulf/amr/lib/popup/concession.html">:concession</a>
+rather than a contrast-01.
+ 

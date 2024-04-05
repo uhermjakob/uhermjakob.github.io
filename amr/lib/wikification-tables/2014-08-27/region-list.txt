@@ -1,0 +1,65 @@
+# region list
+(59) ::ne-surf West ::ne-type world-region ::wiki Western_world
+(38) ::ne-surf Kashmir ::ne-type world-region ::wiki Kashmir
+(29) ::ne-surf Middle East ::ne-type world-region ::wiki Middle_East
+(28) ::ne-surf Southeast Asia ::ne-type world-region ::wiki Southeast_Asia
+(15) ::ne-surf Latin America ::ne-type world-region ::wiki Latin_America
+(10) ::ne-surf Himalayas ::ne-type world-region ::wiki Himalayas
+(9) ::ne-surf Central Asia ::ne-type world-region ::wiki Central_Asia
+(9) ::ne-surf Golden Triangle ::ne-type world-region ::wiki Golden_Triangle_(Southeast_Asia)
+(8) ::ne-surf North Africa ::ne-type world-region ::wiki North_Africa
+(7) ::ne-surf Central Europe ::ne-type world-region ::wiki Central_Europe
+(7) ::ne-surf Eastern Europe ::ne-type world-region ::wiki Eastern_Europe
+(7) ::ne-surf South Ossetia ::ne-type country-region ::wiki South_Ossetia
+(4) ::ne-surf Asia-Pacific ::ne-type world-region ::wiki Asia-Pacific
+(4) ::ne-surf Asia Pacific ::ne-type world-region ::wiki Asia-Pacific
+(4) ::ne-surf Balkans ::ne-type world-region ::wiki Balkans
+(4) ::ne-surf Siberia ::ne-type country-region ::wiki Siberia
+(4) ::ne-surf South Asia ::ne-type world-region ::wiki South_Asia
+(3) ::ne-surf Baltic ::ne-type world-region ::wiki Baltic_states
+(3) ::ne-surf Korean Peninsula ::ne-type world-region ::wiki Korean_Peninsula
+(3) ::ne-surf West Africa ::ne-type world-region ::wiki West_Africa
+(3) ::ne-surf East Africa ::ne-type world-region ::wiki East_Africa
+(3) ::ne-surf Amazon ::ne-type world-region ::wiki Amazon_basin
+(2) ::ne-surf Balkan ::ne-type world-region ::wiki Balkans
+(2) ::ne-surf Balkans ::ne-type world-region ::wiki Balkans
+(2) ::ne-surf Caucasus ::ne-type world-region ::wiki Caucasus
+(2) ::ne-surf Darfur ::ne-type country-region ::wiki Darfur
+(2) ::ne-surf East Asia ::ne-type world-region ::wiki East_Asia
+(2) ::ne-surf Eastern Asia ::ne-type world-region ::wiki East_Asia
+(2) ::ne-surf Horn of Africa ::ne-type world-region ::wiki Horn_of_Africa
+(2) ::ne-surf Western Europe ::ne-type world-region ::wiki Western_Europe
+(1) ::ne-surf Caribbean ::ne-type world-region ::wiki Caribbean
+(1) ::ne-surf Central Europe ::ne-type world-region ::wiki Central_Europe
+(1) ::ne-surf East Asia ::ne-type world-region ::wiki East_Asia
+(1) ::ne-surf Far East ::ne-type world-region ::wiki Far_East
+(1) ::ne-surf Gaza Strip ::ne-type country-region ::wiki Gaza_Strip
+(1) ::ne-surf Indies ::ne-type world-region ::wiki Indies
+(1) ::ne-surf Maghreb ::ne-type world-region ::wiki Maghreb
+(1) ::ne-surf Mideast ::ne-type world-region ::wiki Middle_East
+(1) ::ne-surf North Pole ::ne-type world-region ::wiki North_Pole
+(1) ::ne-surf Pearl River Delta ::ne-type country-region ::wiki Pearl_River_Delta
+(1) ::ne-surf Sahel ::ne-type world-region ::wiki Sahel
+(1) ::ne-surf Scandinavia ::ne-type world-region ::wiki Scandinavia
+(1) ::ne-surf South East Asia ::ne-type world-region ::wiki Southeast_Asia
+(1) ::ne-surf South Pole ::ne-type world-region ::wiki South_Pole
+(1) ::ne-surf Southern Europe ::ne-type world-region ::wiki Southern_Europe
+(1) ::ne-surf Southwest Asia ::ne-type world-region ::wiki Western_Asia
+(1) ::ne-surf Southwestern Asia ::ne-type world-region ::wiki Western_Asia
+(1) ::ne-surf West Asia ::ne-type world-region ::wiki Western_Asia
+(1) ::ne-surf Western Asia ::ne-type world-region ::wiki Western_Asia
+(1) ::ne-surf Sub-Saharan Africa ::ne-type world-region ::wiki Sub-Saharan_Africa
+(1) ::ne-surf sub-Saharan Africa ::ne-type world-region ::wiki Sub-Saharan_Africa
+(1) ::ne-surf West Bank ::ne-type country-region ::wiki West_Bank
+(1) ::ne-surf Western Hemisphere ::ne-type world-region ::wiki Western_Hemisphere
+(1) ::ne-surf Central Asia ::ne-type world-region ::wiki Central_Asia
+(1) ::ne-surf Midwest ::ne-type country-region ::wiki Midwestern_United_States
+(1) ::ne-surf Baluchistan ::ne-type world-region ::wiki Balochistan
+(0) ::ne-surf Balochistan ::ne-type world-region ::wiki Balochistan
+(1) ::ne-surf Indochina ::ne-type world-region ::wiki Indochina
+(0) ::ne-surf East Indies ::ne-type world-region ::wiki Indies
+(0) ::ne-surf Balkan Peninsula ::ne-type world-region ::wiki Balkans
+(0) ::ne-surf Baltics ::ne-type world-region ::wiki Baltic_states
+(0) ::ne-surf Baltic countries ::ne-type world-region ::wiki Baltic_states
+(0) ::ne-surf Baltic nations ::ne-type world-region ::wiki Baltic_states
+(0) ::ne-surf Central America ::ne-type world-region ::wiki Central_America

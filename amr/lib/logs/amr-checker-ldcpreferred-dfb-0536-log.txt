@@ -1,0 +1,3 @@
+STEM match for unaligned texted :: text-01 :: web1-eng-DF-225-195993-2084137_0001.5 ldcpreferred
+STEM match for unaligned and :: and :: web1-eng-DF-225-195993-2084137_0001.5 ldcpreferred
+STEM match for unaligned and :: and :: web1-eng-DF-225-195993-2084137_0001.5 ldcpreferred

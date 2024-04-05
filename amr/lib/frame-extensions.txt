@@ -1,0 +1,11 @@
+
+Additional verbs:
+
+except-01
+relaunch
+
+Additional arguments:
+
+defend -- against enemy [cf. nombank's defense frame]
+penalize -- penalty [cf. nombank's penalty frame]
+

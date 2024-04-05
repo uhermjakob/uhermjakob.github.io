@@ -1,0 +1,3 @@
+STEM match for unaligned and :: and :: NW_PRI_ENG_0148_2000_1102.19 cjconsensus
+STEM match for unaligned and :: and :: NW_PRI_ENG_0148_2000_1102.37 cjconsensus
+STEM match for unaligned and :: and :: NW_PRI_ENG_0148_2000_1102.37 cjconsensus

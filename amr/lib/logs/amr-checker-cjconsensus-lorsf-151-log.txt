@@ -1,0 +1,2 @@
+STEM match for unaligned perishable :: perish-01 :: ENG_NW_000050_19950617_B00003ALB_0001.14 cjconsensus
+STEM match for unaligned neighbouring :: neighbor-01 :: ENG_NW_000050_19950617_B00003ALB_0001.22 cjconsensus

@@ -1,0 +1,3 @@
+STEM match for unaligned very :: very :: bn.pri_0001.6 pkoehn
+STEM match for unaligned critical :: critize-01 :: bn.pri_0001.6 pkoehn
+STEM match for unaligned indecisive :: decide-01 :: bn.pri_0001.7 pkoehn

@@ -1,0 +1,62 @@
+TITLE to be
+HIGHLIGHT-RED be-01
+HIGHLIGHT-RED be-02
+HIGHLIGHT-RED :domain
+HIGHLIGHT-BLUE to be
+HIGHLIGHT-BLUE be
+HIGHLIGHT-BLUE is
+HIGHLIGHT-BLUE am
+HIGHLIGHT-BLUE are
+HIGHLIGHT-BLUE was
+HIGHLIGHT-BLUE there
+HIGHLIGHT-BLUE :mod
+
+The English verb to be <nobr>i&#8203;s</nobr> annotated in a number of ways:
+
+<hr>
+"X is Y" constructions <nobr>ar&#8203;e</nobr> generally annotated as "Y :domain X"
+
+EXAMPLE isi_0002.24 My cousin is a lawyer.
+
+EXAMPLE isi_0001.7 The girl is sad.
+
+EXAMPLE isi_0001.25 The boy is a hard worker.
+
+Note: NEVER use be-01 in AMRs.<br>
+Note: The inverse of :domain i<nobr>s</nobr> :mod.
+
+<hr>
+However, when to be <nobr>i&#8203;s</nobr> used to <nobr>describ&#8203;e</nobr> an attribute for which <nobr>ther&#8203;e</nobr> <nobr>i&#8203;s</nobr> a suitable AMR role such as <b>location, time, age</b>, we use that role:
+
+EXAMPLE isi_0002.154 The knife is in the drawer .
+
+EXAMPLE isi_0002.156 My grandmother is 85 .
+
+EXAMPLE isi_0002.155 Our next meeting will be on Friday at 11<nobr>a&#8203;m</nobr> .
+
+<hr>
+<i>There is / there are X</i> constructions ar&#8203;e simply annotated as <i>X</i>:
+
+EXAMPLE isi_0002.158 There is a knife in the drawer .
+
+EXAMPLE isi_0002.153 There was a big explosion .
+
+EXAMPLE nw.wsj_0003.7 There is no asbestos in our products now .
+
+<hr>
+Do NOT include an <b>auxiliary</b> to be in an AMR,
+for example when it <nobr>i&#8203;s</nobr> used to express continuous tense or passive:
+
+EXAMPLE isi_0002.152 They are sleeping .
+
+EXAMPLE isi_0002.62 The boy is permitted to go.
+
+<hr>
+Use be-02 for the <b>existential</b> be (but not for <i>there is</i> etc.). <nobr>Thi&#8203;s</nobr> sense <nobr>i&#8203;s</nobr> relatively <nobr>rar&#8203;e</nobr>.
+
+EXAMPLE isi_0002.157 I think, therefore I am .
+
+EXAMPLE isi_0002.151 To be or not to be : that is the question . 
+
+<hr>
+<b>Video recommendation:</b> <i>Annotating "to be" in AMR</i> (5 minutes) on the <a href="http://www.isi.edu/~ulf/amr/lib/videos.html">video</a> page.

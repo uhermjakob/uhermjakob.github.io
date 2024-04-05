@@ -1,0 +1,26 @@
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8889117_0037.5 colorado
+STEM match for unaligned politcal :: politics :: bolt-eng-DF-170-181103-8889117_0039.5 colorado
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8889117_0041.1 colorado
+STEM match for unaligned everyones :: everyone :: bolt-eng-DF-170-181103-8889117_0041.5 colorado
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8889117_0043.1 colorado
+STEM match for unaligned rightwingnut :: right-08 :: bolt-eng-DF-170-181103-8889117_0051.1 colorado
+STEM match for unaligned audiance :: audience :: bolt-eng-DF-170-181103-8889117_0051.1 colorado
+STEM match for unaligned caller :: call-02 :: bolt-eng-DF-170-181103-8889117_0052.12 colorado
+STEM match for unaligned liner :: line :: bolt-eng-DF-170-181103-8889117_0053.18 colorado
+STEM match for unaligned rightwingnuts :: right-08 :: bolt-eng-DF-170-181103-8889117_0058.2 colorado
+STEM match for unaligned part :: particular :: bolt-eng-DF-170-181103-8889117_0061.13 colorado
+STEM match for unaligned consequences :: consequence-03 :: bolt-eng-DF-170-181103-8889117_0061.20 colorado
+STEM match for unaligned abuses :: abuse-01 :: bolt-eng-DF-170-181103-8889117_0061.21 colorado
+STEM match for unaligned VICTUM :: victim :: bolt-eng-DF-170-181103-8889117_0063.3 colorado
+STEM match for unaligned morals :: moral-02 :: bolt-eng-DF-170-181103-8889117_0063.13 colorado
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8889117_0076.15 colorado
+STEM match for unaligned panels :: panel :: bolt-eng-DF-170-181103-8889117_0076.29 colorado
+STEM match for unaligned sneakiness :: sneaky-03 :: bolt-eng-DF-170-181103-8889117_0076.41 colorado
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8889117_0076.53 colorado
+STEM match for unaligned someones :: someone :: bolt-eng-DF-170-181103-8889117_0077.3 colorado
+STEM match for unaligned opinon :: opine-01 :: bolt-eng-DF-170-181103-8889117_0077.12 colorado
+STEM match for unaligned Every :: everything :: bolt-eng-DF-170-181103-8889117_0078.55 colorado
+STEM match for unaligned Sarah :: Sarah Palin Health Care Decisions Day :: bolt-eng-DF-170-181103-8889117_0078.57 colorado
+STEM match for unaligned editted :: edit-01 :: bolt-eng-DF-170-181103-8889117_0082.35 colorado
+STEM match for unaligned Breibart :: Breitbart :: bolt-eng-DF-170-181103-8889117_0084.3 colorado
+STEM match for unaligned wireless :: wire :: bolt-eng-DF-170-181103-8889117_0085.8 colorado

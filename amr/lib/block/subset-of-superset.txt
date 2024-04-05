@@ -1,0 +1,10 @@
+TITLE subset of superset
+HIGHLIGHT-RED include-91
+
+Constructions such as <font color="blue">10% of X</font>, which involve
+a subset and a superset, are annotated using include-91.
+
+EXAMPLE isi_0002.17 10% of smokers die of lung cancer.
+
+<b>Shortcut:</b> Annotators may use pseudo-roles :subset/:subset-of as a shortcut for include-91.
+

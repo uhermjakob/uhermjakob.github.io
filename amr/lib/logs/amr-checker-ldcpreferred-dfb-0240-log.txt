@@ -1,0 +1,8 @@
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6194147_0044.1 ldcpreferred
+STEM match for unaligned earnt :: earn-01 :: bolt-eng-DF-200-192448-6194147_0044.2 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6194147_0044.6 ldcpreferred
+STEM match for unaligned gains :: gain-01 :: bolt-eng-DF-200-192448-6194147_0044.11 ldcpreferred
+STEM match for unaligned less :: lessen-01 :: bolt-eng-DF-200-192448-6194147_0049.4 ldcpreferred
+STEM match for unaligned competion :: compete-01 :: bolt-eng-DF-200-192448-6194147_0049.4 ldcpreferred
+STEM match for unaligned less :: lessen-01 :: bolt-eng-DF-200-192448-6194147_0051.1 ldcpreferred
+STEM match for unaligned competion :: compete-01 :: bolt-eng-DF-200-192448-6194147_0051.1 ldcpreferred

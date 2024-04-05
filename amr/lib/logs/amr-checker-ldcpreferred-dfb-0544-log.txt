@@ -1,0 +1,7 @@
+STEM match for unaligned Comments327 :: comment-01 :: web1-eng-DF-233-195474-1207335_0001.4 ldcpreferred
+STEM match for unaligned Recommend86 :: recommend-01 :: web1-eng-DF-233-195474-1207335_0001.4 ldcpreferred
+STEM match for unaligned and :: and :: web1-eng-DF-233-195474-1207335_0001.10 ldcpreferred
+STEM match for unaligned foreseeably :: foresee-01 :: web1-eng-DF-233-195474-1207335_0001.20 ldcpreferred
+STEM match for unaligned and :: and :: web1-eng-DF-233-195474-1207335_0001.22 ldcpreferred
+STEM match for unaligned and :: and :: web1-eng-DF-233-195474-1207335_0001.22 ldcpreferred
+STEM match for unaligned spits :: spit-01 :: web1-eng-DF-233-195474-1207335_0002.5 ldcpreferred

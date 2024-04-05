@@ -1,0 +1,37 @@
+TITLE Verbalization
+HIGHLIGHT-RED destruction
+HIGHLIGHT-RED teacher
+HIGHLIGHT-RED governor
+HIGHLIGHT-BLUE destroy-01
+HIGHLIGHT-BLUE teach-01
+
+<b>Background:</b> <a href="https://github.com/kevincrawfordknight/amr-guidelines/blob/master/amr.md#nouns-that-invoke-predicates">AMR Guidelines: Nouns that invoke predicates</a>
+<p>
+Here are two <b>lists</b> that might help you whether or not to verbalize
+<ul style="margin-top:0px;margin-bottom:0px">
+   <li> <a href="http://www.isi.edu/~ulf/amr/lib/verbalize.txt" target="_verbalize">Common cases when to verbalize</a>
+   <li> <a href="http://www.isi.edu/~ulf/amr/lib/do-not-verbalize.txt" target="_noverbalize">Common cases when <b>not</b> to verbalize</a>
+</ul>
+<p>
+We map many nouns to their verbal forms:
+
+EXAMPLE isi_0001.15 The boy's destruction of the room.
+EXAMPLE isi_0002.261 I met his math teacher.
+
+But we don't map all nouns that have a related verb sense:
+
+EXAMPLE isi_0002.262 California governor Jerry Brown
+
+A <i>governor</i> is not just a person who governs. It's a specific rank.
+Governors govern, but not all who govern are governors, including
+presidents, mayors, and other members of the executive branch.
+<br>
+Similarly: chairman, contractor, correspondent, director, editor, president, treasurer
+<p>
+We also don't verbalize adjectives such as <i>white</i> to <i>whiten</i>, because <i>whiten</i>
+means <i>to make white</i> rather than <i>to be white</i>. Something can be white
+without ever having been whitened: it might have been white from the beginning of its existence.
+For the same reasons, we don't map from <i>familiar</i> to <i>familiarize</i>.
+<br>
+Similarly: deaf, deep, glad, hard, legal, liquid, modern, popular, ripe, sad, simple, soft, stable, wide
+

@@ -1,0 +1,14 @@
+# product list
+(1) ::ne-surf Shenzhou ::ne-type spaceship ::wiki Shenzhou_(spacecraft)
+(1) ::ne-surf Shenzhou I ::ne-type spaceship ::wiki Shenzhou_1
+(1) ::ne-surf Shenzhou II ::ne-type spaceship ::wiki Shenzhou_2
+(1) ::ne-surf Shenzhou III ::ne-type spaceship ::wiki Shenzhou_3
+(8) ::ne-surf Shenzhou IV ::ne-type spaceship ::wiki Shenzhou_4
+(7) ::ne-surf Rafale ::ne-type aircraft-type ::wiki Dassault_Rafale
+(6) ::ne-surf F-15 k ::ne-type aircraft-type ::wiki McDonnell_Douglas_F-15E_Strike_Eagle#F-15K
+
+(7) ::ne-surf Topol-M ::ne-type product ::wiki RT-2UTTKh_Topol-M
+(7) ::ne-surf Scorpene ::ne-type product ::wiki Scorpène-class_submarine
+(5) ::ne-surf RS-24 ::ne-type product ::wiki RS-24_Yars
+(5) ::ne-surf Soyuz ::ne-type product ::wiki Soyuz_(rocket)
+(5) ::ne-surf Soyuz ::ne-type spaceship ::wiki Soyuz_(spacecraft)

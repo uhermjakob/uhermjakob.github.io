@@ -1,0 +1,14 @@
+STEM match for unaligned sick :: sicken-01 :: bolt-eng-DF-200-192448-6191965_0049.6 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0049.8 ldcpreferred
+STEM match for unaligned succesful :: succeed-01 :: bolt-eng-DF-200-192448-6191965_0051.7 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0055.1 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0055.6 ldcpreferred
+STEM match for unaligned access :: Access :: bolt-eng-DF-200-192448-6191965_0055.14 ldcpreferred
+STEM match for unaligned access :: Access :: bolt-eng-DF-200-192448-6191965_0055.14 ldcpreferred
+STEM match for unaligned priviledge :: privilege-01 :: bolt-eng-DF-200-192448-6191965_0064.2 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0146.20 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0146.20 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0146.22 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0146.36 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0146.36 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6191965_0146.36 ldcpreferred

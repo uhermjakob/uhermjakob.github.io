@@ -1,0 +1,20 @@
+TITLE :condition
+HIGHLIGHT-RED :condition
+HIGHLIGHT-BLUE if
+HIGHLIGHT-BLUE unless
+HIGHLIGHT-BLUE lest
+HIGHLIGHT-BLUE in case of
+HIGHLIGHT-BLUE in the case of
+
+The role :condition is used for if, unless, and in case of.
+
+EXAMPLE isi_0002.81 The game will be canceled if it rains .
+
+EXAMPLE isi_0002.82 In the case of rain, the game will be canceled . 
+
+For negative conditionals such as unless, include :polarity -
+
+EXAMPLE isi_0002.83 The game will be canceled unless the rain stops .
+
+Reifications: have-condition-91
+

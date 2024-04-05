@@ -1,0 +1,211 @@
+﻿
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>alignment guidelines</title>
+    <link rel="stylesheet" type="text/css" href="http://www.isi.edu/~ulf/css/handheld/default.css" media="handheld"/>
+    <link rel="stylesheet" type="text/css" href="http://www.isi.edu/~ulf/css/handheld/default.css" media="only screen and (max-device-width:480px)"/>
+    <link rel="shortcut icon" href="http://www.isi.edu/~ulf/amr/images/AMR-favicon.ico">
+  </head>
+  <body bgcolor="#FFFFEE">
+<table width="100%" border="0" cellpadding="3" cellspacing="0"><tr bgcolor="#BBCCFF"><td>&nbsp; <b><font class="large2" size="+2">AMR-English Gold Alignment Guidelines &nbsp; &nbsp; &nbsp; <span style="color:#007700;"></span></font></b><br>&nbsp; <font class="small1" size="-1" color="#888888">Ulf Hermjakob &nbsp; &nbsp; version as of Nov. 23, 2015</font></td></tr></table>
+    <p>
+    <b>Sections:</b>   <a href="#align">What to Align</a>
+       &nbsp; - &nbsp; <a href="#not-align">What <u>Not</u> to Align</a>
+       &nbsp; - &nbsp; <a href="#mwe">Decomposed Words and Multi Word Expressions</a>
+       &nbsp; - &nbsp; <a href="#names">Names</a>
+       &nbsp; - &nbsp; <a href="#anaphora">Anaphora</a>
+       &nbsp; - &nbsp; <a href="#parentheticals">Parentheticals</a>
+       &nbsp; - &nbsp; <a href="#miscellaneous">Miscellaneous</a>
+    <p>
+    <a name="align">
+    <h2>What to Align</h2>
+    <ul>
+       <li> <b>Content words</b> (e.g. "eat", "large", "donut")
+       <li> <b>Names</b> (e.g. "The Hague", "Stratford-upon-Avon") with all parts of a name, even articles and punctuation
+       <li> <b>Pronouns</b> (e.g. "I", "your", "himself", "ours", "that", "who")
+       <li> <b>Prepositions</b> (e.g. "of", "for", "instead of")
+       <li> <b>Conjunctions</b> (e.g. "and", "or", "because", "if", "that")
+       <li> <b>Possessive particles</b> (e.g. "'s")
+       <li> <b>Copula</b> (e.g. "is" as in <i>The girl is happy.</i>)
+       <li> <b>Modals</b> (e.g. "may" as in <i>The children may leave.</i>)
+       <li> <b>Support verbs</b> (e.g. "have" as in <i>to have a meeting</i>, "take" as in <i>to take a bath</i>)
+       <li> <b>Verb particles</b> (e.g. "in" as in <i>to give in</i>, "off" as in <i>to take off</i>)
+    </ul>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(d / destroy-01 <font color="#FF0000">:location</font> ... Rome ...)</td>
+		   <td>the destruction <font color="#FF0000">in</font> Rome</td></tr>
+	       <tr><td>(d / destroy-01 <font color="#FF0000">:ARG0</font> ... Rome ...)</td>
+		   <td>the destruction <font color="#FF0000">by</font> Rome</td></tr>
+	       <tr><td>(d / destroy-01 <font color="#FF0000">:ARG1</font> ... Rome ...)</td>
+		   <td>the destruction <font color="#FF0000">of</font> Rome</td></tr>
+	       <tr><td>(c / car <font color="#FF0000">:poss</font> ... John ...)</td>
+		   <td>John <font color="#FF0000">'s</font> car</td></tr>
+	       <tr><td>(a / <font color="#FF0000">and</font> :op1 ... John ... :op2 ... Mary ...)</td>
+		   <td>John <font color="#FF0000">and</font> Mary</td></tr>
+	       <tr><td><font color="#FF0000">:condition</font> (r / rain-01)</td>
+		   <td><font color="#FF0000">if</font> it rains</td></tr>
+	       <tr><td>(s / say-01 :ARG0 (h / he) <font color="#FF0000">:ARG1</font> (r / rain-01))</td>
+		   <td>He said <font color="#FF0000">that</font> it will rain .</td></tr>
+	       <tr><td>(f / find-01 :ARG0 (g / girl) :ARG1 (a / <font color="#FF0000">amr-unknown</font>))</td>
+		   <td><font color="#FF0000">What</font> did the girl find ?</td></tr>
+	       <tr><td>(h / happy <font color="#FF0000">:domain</font> (g / girl))</td>
+		   <td>The girl <font color="#FF0000">is</font> happy.</td></tr>
+	       <tr><td>(s / sad-02 <font color="#FF0000">:ARG1</font> (g / girl))</td>
+		   <td>The girl <font color="#FF0000">is</font> sad.</td></tr>
+	       <tr><td>(p / <font color="#FF0000">permit-01</font> :ARG1 (l / leave-11 :ARG0 (c / child)))</td>
+		   <td>The children <font color="#FF0000">may</font> leave.</td></tr>
+	       <tr><td>(b / <font color="#FF0000">bathe-01</font> :ARG0 (h / he))</td>
+		   <td>He <font color="#FF0000">took</font> a <font color="#FF0000">bath</font> .</td></tr>
+	       <tr><td>(t / <font color="#FF0000">take-off-19</font> :ARG1 (p / plane))</td>
+		   <td>The plane <font color="#FF0000">took off</font> .</td></tr>
+	    </table>
+    <p>
+    <h3>Exceptions</h3> 
+    <ul> 
+       <li> Do not co-align the infinitival "to" with the verb that follows.<br>
+	    But it's ok to align it to <i>:purpose</i> etc.
+    </ul>
+    <p>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(w / <font color="#007700">want-01</font> :ARG0 (d / <font color="#0000FF">dolphin</font>) :ARG1 (b / <font color="#AA00FF">breathe</font> :ARG0 <span title="unaligned" style="border-bottom:1px dotted;">d</span>))</td>
+		   <td>The <font color="#0000FF">dolphin</font> <font color="#007700">wanted</font> <span title="to: unaligned (infinitival particle)" style="border-bottom:1px dotted;">to</span> <font color="#AA00FF">breathe</font> .</td></tr>
+	       <tr><td>(s / <font color="#007700">surface-01</font> :ARG1 (d / <font color="#0000FF">dolphin</font>) <font color="#FF0000">:purpose</font> (b / <font color="#AA00FF">breathe-01</font> :ARG0 <span title="unaligned" style="border-bottom:1px dotted;">d</span>))</td>
+		   <td>The <font color="#0000FF">dolphin</font> <font color="#007700">surfaced</font> <font color="#FF0000">to</font> <font color="#AA00FF">breathe</font> .</td></tr>
+	    </table>
+    <a name="not-align">
+    <h2>What <u>Not</u> to Align</h2>
+    <ul>
+       <li> <b>Articles</b> (e.g. "a", "the")
+       <li> <b>Auxiliary verbs</b> (e.g. "to be", "to have", "to do", "will") as used in the contruction of perfect, pluperfect and future tenses, passives, and continuous forms
+       <li> <b>Dummy pronouns</b>, also called <i>pleonastic</i> pronouns (such as the <i>it</i> in <i>It rains.</i>)
+       <li> <b>Relative pronouns</b> (e.g. "who", "that")
+       <li> <b>Existential <i>there is</i></b>
+       <li> <b>Punctuation</b>
+    </ul>
+    <b>Examples:</b><p>
+    <p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(r / <font color="#FF0000">rain-01</font>)</td>
+		   <td><span title="It: unaligned (dummy pronoun)" style="border-bottom:1px dotted;">It</span> <span title="is: unaligned (auxiliary verb)" style="border-bottom:1px dotted;">is</span> <font color="#FF0000">raining</font> <span title=".: unaligned (punctuation)" style="border-bottom:1px dotted;">.</span></td></tr>
+	       <tr><td>(e / <font color="#FF0000">explode-01</font>)</td>
+		   <td><span title="There was: unaligned (existential there is)" style="border-bottom:1px dotted;">There was</span> <span title="an: unaligned (article)" style="border-bottom:1px dotted;">an</span> <font color="#FF0000">explosion</font> <span title=".: unaligned (punctuation)" style="border-bottom:1px dotted;">.</span></td></tr>
+	    </table>
+    <h3>Exceptions</h3> 
+    <ul> 
+       <li> Align tokens that are part of a name under <i>:name (n / name :opx ...)</i>.
+       <li> Align question marks with any <i>:mode interrogative</i> (in yes/no questions).
+       <li> Align any punctuation that stands for a word (e.g. 20-30 apples = 20 to 30 apples).
+       <li> Align any indefinite article ("a"/"an") to the corresponding "1" in any ":quant 1" annotation.
+    </ul> 
+    <p>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(c / city :wiki "The_Hague" :name (n / name :op1 <font color="#FF0000">"The"</font> :op2 "Hague"))</td>
+		   <td><font color="#FF0000">The</font> Hague</td></tr>
+	       <tr><td>(s / smoke-02 :ARG0 (y / you) <font color="#FF0000">:mode interrogative</font>)</td>
+		   <td>You smoke <font color="#FF0000">?</font></td></tr>
+	       <tr><td>(a / apple :quant (b / <font color="#FF0000">between</font> :op1 20 :op2 30))</td>
+		   <td>20 <font color="#FF0000">-</font> 30 apples</td></tr>
+	       <tr><td>(b / before :op1 (n / now) :quant (t / temporal-quantity :quant <font color="#FF0000">1</font> :unit (y / year)))</td>
+		   <td><font color="#FF0000">a</font> year ago</td></tr>
+	    </table>
+    <p>
+    <a name="mwe">
+    <h2>Decomposed Words and Multi Word Expressions</h2>
+    For words that are decomposed in AMR (e.g. teacher = person who teaches), align with all components.<br>
+    Similarly, align all parts of a multi-word expression.
+    <p>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(p / <font color="#FF0000">person :ARG0-of</font> (t / <font color="#FF0000">teach-01</font>))</td>
+		   <td><font color="#FF0000">teacher</font></td></tr>
+	       <tr><td>(t / <font color="#FF0000">thing :ARG1-of</font> (s / <font color="#FF0000">suggest-01</font>))</td>
+		   <td><font color="#FF0000">suggestion</font></td></tr>
+	       <tr><td>(p / <font color="#FF0000">polite :polarity -</font>)</td>
+		   <td><font color="#FF0000">impolite</font></td></tr>
+	       <tr><td>(p / planet <font color="#FF0000">:ord</font> (o / <font color="#FF0000">ordinal-entity :value 2</font>))</td>
+		   <td>the <font color="#FF0000">second</font> planet</td></tr>
+	       <tr><td>(m / <font color="#FF0000">more-than</font> :op1 10)</td>
+		   <td><font color="#FF0000">more than</font> ten</td></tr>
+	       <tr><td>(c / come-01 :ARG1 (h / he) <font color="#FF0000">:concession</font> (r / rain-01))</td>
+		   <td>He came <font color="#FF0000">in spite of</font> the rain .</td></tr>
+	    </table>
+    <a name="names">
+    <h2>Names</h2>
+    <p>
+    Align names low (i.e. do not align with entity type such as "country" or <i>name</i>).<br>
+    Do not align a name to <i>:wiki</i> or the wikification value that follows <i>:wiki</i>.<br>
+    Align all parts of a name, even articles and punctuation.
+    <p>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(c / country :wiki "United_States" :name (n / name :op1 <font color="#FF0000">"US"</font>))</td>
+		   <td><font color="#FF0000">US</font></td></tr>
+	       <tr><td>(c / country :wiki "North_Korea" :name (n / name :op1 <font color="#FF0000">"North"</font> :op2 <font color="#0000FF">"Korea"</font>))</td>
+		   <td><font color="#FF0000">North</font> <font color="#0000FF">Korea</font></td></tr>
+	       <tr><td>(c / city :wiki "The_Hague" :name (n / name :op1 <font color="#FF0000">"The"</font> :op2 <font color="#0000FF">"Hague"</font>))</td>
+		   <td><font color="#FF0000">The</font> <font color="#0000FF">Hague</font></td></tr>
+	       <tr><td>(c / city :wiki "Stratford-upon-Avon" :name (n / name :op1 <font color="#FF0000">"Stratford-upon-Avon"</font>))</td>
+		   <td><font color="#FF0000">Stratford @-@ upon @-@ Avon</font></td></tr>
+	    </table>
+    <a name="anaphora">
+    <h2>Anaphora</h2>
+    When an entity plays multiple roles, align any non-anchor anaphora with their respective reentrancy variables.
+    <p>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(l / like-01 :ARG0 (b / <font color="#0000FF">boy</font>) :ARG1 (d / dog :poss <font color="#FF0000">b</font>))</td>
+		   <td>The <font color="#0000FF">boy</font> likes <font color="#FF0000">his</font> dog .</td></tr>
+	       <tr><td>(a / and :op1 (d / <font color="#0000FF">doctor</font>) :op2 (p / person :ARG0-of (h / have-rel-role-91 :ARG1 <font color="#FF0000">d</font> :ARG2 (w / wife))))</td>
+		   <td>The <font color="#0000FF">doctor</font> and the <font color="#FF0000">doctor</font> 's wife .</td></tr>
+	       <tr><td>(l / like-01 :ARG0 (i / i) :ARG1 (a / and :op1 (c / country :wiki "China" :name (n / name <font color="#0000FF">"China"</font>)) :op2 (f / food :mod <font color="#FF0000">c</font>)))</td>
+		   <td>I like <font color="#0000FF">China</font> and <font color="#FF0000">Chinese</font> food .</td></tr>
+	    </table>
+    <a name="parentheticals">
+    <h2>Parentheticals</h2>
+    Do <u>not</u> align semantically redundant parenthetical expressions such as abbreviations and quantity/entity conversions.
+    <p>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(c / country "New_Zealand" :name (n / name :op1 <font color="#007700">"New"</font> :op2 <font color="#0000FF">"Zealand"</font>))</td>
+		   <td><font color="#007700">New</font> <font color="#0000FF">Zealand</font> (<span title="NZ: unaligned (parenthetical abbreviation)" style="border-bottom:1px dotted;">NZ</span>)</td></tr>
+	       <tr><td>(d / distance-quantity :quant <font color="#007700">80</font> :unit (k / <font color="#0000FF">kilometer</font>))</td>
+		   <td><font color="#007700">80</font> <font color="#0000FF">km</font> (<span title="50 miles: unaligned (parenthetical quantity conversion)" style="border-bottom:1px dotted;">50 miles</span>)</td></tr>
+	    </table>
+    <a name="miscellaneous">
+    <h2>Miscellaneous</h2>
+    <ul>
+       <li> Align a possessive pronoun (e.g. "my", "their") with any role <i>:poss</i> (or other role that <i>'s</i> would also be aligned to).
+       <li> Align words with a comparative or superlative suffix (-er -est) with any <i>:degree (m / more)</i> etc.
+       <li> Align negation words (e.g. "no", "not") with both <i>:polarity</i> and <i>-</i>.
+       <li> Align <i>:manner</i> with any corresponding adverb (often with <i>-ly</i> ending) or preposition (such as <i>by</i>).
+       <li> Align words with typos, e.g. align <i>undrestood</i> with <i>understand-01</i>.
+       <li> Align both <i>if</i> and <i>then</i> to any corresponding <i>:condition</i>.
+       <li> Align both <i>even</i> and <i>if</i> to both <i>:concession</i> and <i>even-if</i>.
+       <li> Align a month's name to both <i>:month</i> and its number value, but years and days only to their number values.
+    </ul>
+    <p>
+    <b>Examples:</b><p>
+	    <table border="1" cellpadding="3">
+	       <tr><td>(c / cat <font color="#FF0000">:poss</font> (i / <font color="#FF0000">i</font>))</td>
+		   <td><font color="#FF0000">my</font> cat</td></tr>
+	       <tr><td>(s / <font color="#FF0000">smart :degree</font> (m / <font color="#FF0000">more</font>))</td>
+		   <td><font color="#FF0000">smarter</font></td></tr>
+	       <tr><td>(i / <font color="#0000FF">intelligent</font> <font color="#FF0000">:degree</font> (m / <font color="#FF0000">more</font>))</td>
+		   <td><font color="#FF0000">more</font> <font color="#0000FF">intelligent</font></td></tr>
+	       <tr><td>(r / rain-01 <font color="#FF0000">:polarity -</font>)</td>
+		   <td>It did <font color="#FF0000">not</font> rain.</td></tr>
+	       <tr><td>(s / sing-01 :ARG0 (b / boy) <font color="#FF0000">:manner</font> (b2 / <font color="#FF0000">beautiful</font>))</td>
+		   <td>The boy sang  <font color="#FF0000">beautifully</font> .</td></tr>
+	       <tr><td>(s / survive-01 :ARG0 (h / he) <font color="#FF0000">:manner</font> (f / fish-01 :ARG0 h))</td>
+		   <td>He survived <font color="#FF0000">by</font> fishing .</td></tr>
+	       <tr><td>(d / date-entity :year <font color="#0000FF">2015</font> <font color="#FF0000">:month 8</font> :day <font color="#00AA00">31</font>)</td>
+		   <td><font color="#FF0000">August</font> <font color="#00AA00">31</font>, <font color="#0000FF">2015</font></td></tr>
+	    </table>
+    <p>
+   </body>
+</html>
+

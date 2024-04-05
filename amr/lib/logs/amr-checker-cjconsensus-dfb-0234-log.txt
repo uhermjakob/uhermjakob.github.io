@@ -1,0 +1,8 @@
+STEM match for unaligned English :: England :: bolt-eng-DF-200-192448-6192036_0071.3 cjconsensus
+STEM match for unaligned devolution :: devolve-01 :: bolt-eng-DF-200-192448-6192036_0074.2 cjconsensus
+STEM match for unaligned scottish :: Scotland :: bolt-eng-DF-200-192448-6192036_0074.9 cjconsensus
+STEM match for unaligned frequently :: frequency :: bolt-eng-DF-200-192448-6192036_0075.10 cjconsensus
+STEM match for unaligned xenophobes :: xenophobe :: bolt-eng-DF-200-192448-6192036_0075.16 cjconsensus
+STEM match for unaligned xenophobes :: xenophobe :: bolt-eng-DF-200-192448-6192036_0075.16 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192448-6192036_0075.16 cjconsensus
+STEM match for unaligned North :: northeast :: bolt-eng-DF-200-192448-6192036_0075.17 cjconsensus

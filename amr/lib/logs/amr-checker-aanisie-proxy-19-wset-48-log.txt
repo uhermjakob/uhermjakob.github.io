@@ -1,0 +1,14 @@
+STEM match for unaligned offences :: offense :: PROXY_AFP_ENG_20071027_0228.12 aanisie
+STEM match for unaligned Telecom :: telecommunication :: PROXY_AFP_ENG_20071030_0116.3 aanisie
+STEM match for unaligned nationals :: nationality :: PROXY_AFP_ENG_20071030_0116.4 aanisie
+STEM match for unaligned Ukrainian :: Ukraine :: PROXY_AFP_ENG_20071030_0116.12 aanisie
+STEM match for unaligned Ukrainian :: Ukraine :: PROXY_AFP_ENG_20071030_0116.12 aanisie
+STEM match for unaligned purportedly :: purport-01 :: PROXY_AFP_ENG_20071030_0313.13 aanisie
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20071030_0313.15 aanisie
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20071030_0313.15 aanisie
+STEM match for unaligned Kurdish :: Kurd :: PROXY_AFP_ENG_20071107_0030.9 aanisie
+STEM match for unaligned fraudulently :: fraud :: PROXY_AFP_ENG_20071107_0030.10 aanisie
+STEM match for unaligned Kurdish :: Kurd :: PROXY_AFP_ENG_20071107_0030.12 aanisie
+STEM match for unaligned transcript :: transcribe-01 :: PROXY_AFP_ENG_20071107_0030.13 aanisie
+STEM match for unaligned Kurdish :: Kurd :: PROXY_AFP_ENG_20071107_0030.14 aanisie
+STEM match for unaligned lovers :: love-01 :: PROXY_AFP_ENG_20071107_0030.25 aanisie

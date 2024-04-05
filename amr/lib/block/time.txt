@@ -1,0 +1,41 @@
+TITLE :time
+HIGHLIGHT-RED :time
+
+AMR dict: <a href="http://www.isi.edu/~ulf/amr/lib/amr-dict.html#time">:time</a>
+<p>
+The role :time is used for two purposes:
+<ol>
+   <li> for a general event, to capture <b>when</b> the event happened (or will happen)
+   <li> within the context of a date-entity, the specific time in 24-hour notation such as "<b>18:00</b>"
+</ol>
+
+EXAMPLE isi_0001.4 The killing took place yesterday .
+
+EXAMPLE isi_0001.20 The nation defaulted after the war .
+
+EXAMPLE isi_0001.26 the earlier plan
+
+EXAMPLE isi_0002.7 Wednesday, February 29, 2012, at 4:30pm PST
+
+EXAMPLE isi_0002.10 America was discovered several hundred years ago.
+
+Click <a href="http://www.isi.edu/~ulf/amr/lib/popup/time-before-after.html">here</a> for more examples such as
+<ul>
+   <li> 100 years ago &nbsp; (= 100 years before now)
+   <li> in 20 minutes &nbsp; (= 20 minutes after now)
+   <li> in the last three years &nbsp; (= during the 3 years after now)
+   <li> during the next two years &nbsp; (= during the 2 years before now)
+   <li> in the two months after the murder (= during the 2 years after the murder)
+</ul>
+
+Reification: be-temporally-at-91
+
+<h2><span style="text-decoration:underline;">Not</span> :time</h2>
+
+Do <b>not</b> use :time in the following cases:
+<ul>
+   <li> <b>:duration</b> &nbsp; forever, for two minutes (how long?)
+   <li> <b>:frequency</b> &nbsp; twice, 100 times (how often?)
+   <li> <b>:mod</b> &nbsp; again, for the first time
+</ul>
+

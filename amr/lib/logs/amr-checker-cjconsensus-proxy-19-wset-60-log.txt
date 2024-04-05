@@ -1,0 +1,15 @@
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080303_0135.7 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080303_0135.7 cjconsensus
+STEM match for unaligned ELBarade :: ELBaradei :: PROXY_AFP_ENG_20080303_0135.8 cjconsensus
+STEM match for unaligned government :: Governors :: PROXY_AFP_ENG_20080303_0135.12 cjconsensus
+STEM match for unaligned government :: governor :: PROXY_AFP_ENG_20080303_0135.12 cjconsensus
+STEM match for unaligned weaponisation :: weaponize-01 :: PROXY_AFP_ENG_20080303_0135.14 cjconsensus
+STEM match for unaligned United :: United :: PROXY_AFP_ENG_20080303_0135.16 cjconsensus
+STEM match for unaligned United :: United :: PROXY_AFP_ENG_20080303_0135.16 cjconsensus
+STEM match for unaligned United :: United :: PROXY_AFP_ENG_20080303_0135.16 cjconsensus
+STEM match for unaligned Nations :: Nations :: PROXY_AFP_ENG_20080303_0135.16 cjconsensus
+STEM match for unaligned Nations :: Nations :: PROXY_AFP_ENG_20080303_0135.16 cjconsensus
+STEM match for unaligned regrettable :: regret-01 :: PROXY_AFP_ENG_20080303_0135.29 cjconsensus
+STEM match for unaligned Nation :: Nations :: PROXY_AFP_ENG_20080303_0135.33 cjconsensus
+STEM match for unaligned Organisation :: organization :: PROXY_AFP_ENG_20080303_0135.37 cjconsensus
+STEM match for unaligned Organisation :: Organization :: PROXY_AFP_ENG_20080303_0135.37 cjconsensus

@@ -1,0 +1,17 @@
+STEM match for unaligned Rhythmic :: rhythm :: DF-199-192833-693_9971.3 cjconsensus
+STEM match for unaligned amazing :: amaze-01 :: DF-199-192833-693_9971.3 cjconsensus
+STEM match for unaligned rhythmic :: rhythm :: DF-199-192833-693_9971.13 cjconsensus
+STEM match for unaligned roomate :: roommate :: DF-199-192833-694_1052.1 cjconsensus
+STEM match for unaligned golfer :: golf :: DF-199-192833-694_1052.2 cjconsensus
+STEM match for unaligned golfer :: golf-01 :: DF-199-192833-694_1052.2 cjconsensus
+STEM match for unaligned games :: game :: DF-199-192833-694_1052.2 cjconsensus
+STEM match for unaligned games :: game :: DF-199-192833-694_1052.2 cjconsensus
+STEM match for unaligned and :: and :: DF-199-192833-694_1052.2 cjconsensus
+STEM match for unaligned and :: and :: DF-199-192833-694_1052.2 cjconsensus
+STEM match for unaligned golfers :: golf-01 :: DF-199-192833-694_1052.3 cjconsensus
+STEM match for unaligned And :: and :: DF-199-192833-694_1052.15 cjconsensus
+STEM match for unaligned golfers :: golf-01 :: DF-199-192833-694_1052.16 cjconsensus
+STEM match for unaligned golfers :: golf :: DF-199-192833-694_1052.16 cjconsensus
+STEM match for unaligned depedning :: depend-01 :: DF-199-192834-659_0640.3 cjconsensus
+STEM match for unaligned painlessly :: pain-01 :: DF-199-192834-659_0767.3 cjconsensus
+STEM match for unaligned competititive :: compete-01 :: DF-199-192834-659_0767.21 cjconsensus

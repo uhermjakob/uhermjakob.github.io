@@ -1,0 +1,10 @@
+# continent list
+(148) ::ne-surf Europe ::ne-type continent ::wiki Europe
+(55) ::ne-surf Asia ::ne-type continent ::wiki Asia
+(26) ::ne-surf Africa ::ne-type continent ::wiki Africa
+(6) ::ne-surf South America ::ne-type continent ::wiki South_America
+(5) ::ne-surf North America ::ne-type continent ::wiki North_America
+(4) ::ne-surf Australia ::ne-type continent ::wiki Australia_(continent)
+(4) ::ne-surf America ::ne-type continent ::wiki Americas
+(3) ::ne-surf Antarctica ::ne-type continent ::wiki Antarctica
+(0) ::ne-surf Americas ::ne-type continent ::wiki Americas

@@ -1,0 +1,33 @@
+::dont-map      ::s-adj questionable	::t-verb question
+::dont-map      ::s-noun buckle		::t-verb buckle
+
+announcer = person who announces
+driver = person who drives
+founder = person who founds
+investor = person who invests
+manager = person who manages
+owner = person who owns
+researcher = person who researches
+smoker = person who smokes
+user = person who uses
+visitor = person who visits
+worker = person who works
+
+advertiser = company or person who advertises
+maker = company or person who makes
+sponsor = company or person who sponsors
+
+filter = thing that filters
+finding = thing that is found
+
+# result = thing that
+# yield
+# crew
+
+president != person who presides
+governor != person who governs # A governor holds a specific office. Other government officials such as presidents and mayors also govern, but they are not governors.
+editor != person who edits
+director != person who directs
+pianist != person who plays piano
+
+

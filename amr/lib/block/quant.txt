@@ -1,0 +1,11 @@
+TITLE :quant
+HIGHLIGHT-RED :quant
+
+Use for numbers and quantities:
+
+EXAMPLE isi_0001.34 ten miles
+
+EXAMPLE isi_0001.30 40,000 boys
+
+EXAMPLE isi_0002.29 She drank a lot of tea.
+

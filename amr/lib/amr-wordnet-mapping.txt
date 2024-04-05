@@ -1,0 +1,24 @@
+i    person 00007846 noun 100
+you  person 00007846 noun 100
+he   person 00007846 noun 100
+she  person 00007846 noun 100
+we   person 00007846 noun 100
+
+city                    city         08626283 noun 100
+company                 company      08058098 noun 100
+country                 country      08544813 noun 100
+government-organization organization 08008335 noun 100
+military                organization 08008335 noun 100
+organization            organization 08008335 noun 100
+political-party         organization 08008335 noun 100
+
+north compass-point 13830305 noun 100
+east  compass-point 13830305 noun 100
+south compass-point 13830305 noun 100
+west  compass-point 13830305 noun 100
+
+amino-acid     molecule 14682133 100
+small-molecule molecule 14682133 100
+protein        molecule 14682133 100
+macromolecule  molecule 14682133 100
+molecular-physical-entity  molecule 14682133 100

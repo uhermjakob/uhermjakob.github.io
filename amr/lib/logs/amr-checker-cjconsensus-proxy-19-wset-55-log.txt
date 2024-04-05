@@ -1,0 +1,3 @@
+STEM match for unaligned mountainous :: mountain :: PROXY_AFP_ENG_20071228_0415.13 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20071228_0415.16 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20071228_0415.16 cjconsensus

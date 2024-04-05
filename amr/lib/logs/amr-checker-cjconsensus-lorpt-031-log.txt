@@ -1,0 +1,5 @@
+STEM match for unaligned trauma :: traumatize-01 :: NW_AFP_ENG_0032_2009_1218.3 cjconsensus
+STEM match for unaligned windy :: wind :: NW_AFP_ENG_0032_2009_1218.4 cjconsensus
+STEM match for unaligned windy :: wind-01 :: NW_AFP_ENG_0032_2009_1218.5 cjconsensus
+STEM match for unaligned preemptively :: preempt-01 :: NW_AFP_ENG_0032_2009_1218.15 cjconsensus
+STEM match for unaligned and :: and :: NW_AFP_ENG_0032_2009_1218.17 cjconsensus

@@ -1,0 +1,12 @@
+STEM match for unaligned mottos :: motto :: bolt-eng-DF-245-199817-13463941_0026.7 ldcpreferred
+STEM match for unaligned attacks :: attack-01 :: bolt-eng-DF-245-199817-13463941_0026.11 ldcpreferred
+STEM match for unaligned http://www.facebook.com/media/set/?s...1&l=2e56741d9f :: http://www.facebook.com/media/set/?set=a.10100229278541028.2548594.26701563&type=1&l=2e56741d9f :: bolt-eng-DF-245-199817-13463941_0026.27 ldcpreferred
+STEM match for unaligned joked :: joke-01 :: bolt-eng-DF-245-199817-13463941_0027.4 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-245-199817-13463941_0027.5 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-245-199817-13463941_0027.5 ldcpreferred
+STEM match for unaligned cladding :: clad-01 :: bolt-eng-DF-245-199817-13463941_0029.2 ldcpreferred
+STEM match for unaligned http://en.wikipedia.org/wiki/Ryugyon...uction_resumes :: http://en.wikipedia.org/wiki/Ryugyong_Hotel#Construction_resumes :: bolt-eng-DF-245-199817-13463941_0029.4 ldcpreferred
+STEM match for unaligned dictorship :: dictatorship :: bolt-eng-DF-245-199817-13463941_0031.1 ldcpreferred
+STEM match for unaligned http://www.facebook.com/photo.php?fb...3&l=2e56741d9f :: http://www.facebook.com/photo.php?fbid=10100229283725638&set=a.10100229278541028.2548594.26701563&type=3&l=2e56741d9f :: bolt-eng-DF-245-199817-13463941_0032.8 ldcpreferred
+STEM match for unaligned buddism :: Buddhism :: bolt-eng-DF-245-199817-13463941_0034.10 ldcpreferred
+STEM match for unaligned tibetan :: Tibet :: bolt-eng-DF-245-199817-13463941_0034.10 ldcpreferred

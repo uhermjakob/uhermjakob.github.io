@@ -1,0 +1,14 @@
+TITLE :value
+HIGHLIGHT-RED :value
+
+Used in entities such as percentage-entity, email-address-entity, url-entity, phone-number-entity,
+where it fully describes the entity of a given type:
+
+EXAMPLE isi_0001.39 25%
+
+EXAMPLE isi_0002.11 president@whitehouse.gov
+ 
+EXAMPLE  isi_0002.12 www.whitehouse.gov
+
+EXAMPLE isi_0002.13 1-800-555-1212
+

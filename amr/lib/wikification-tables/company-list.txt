@@ -1,0 +1,105 @@
+# company list
+(30) ::ne-surf AFP ::ne-type publication ::wiki Agence_France-Presse
+(30) ::ne-surf AFP ::ne-type agency ::wiki Agence_France-Presse
+(18) ::ne-surf Xinhua News Agency ::ne-type publication ::wiki Xinhua_News_Agency
+(8) ::ne-surf IRNA ::ne-type publication ::wiki Islamic_Republic_News_Agency
+(8) ::ne-surf IRNA ::ne-type agency ::wiki Islamic_Republic_News_Agency
+(7) ::ne-surf YouTube ::ne-type publication ::wiki YouTube
+(6) ::ne-surf Associated Press ::ne-type publication ::wiki Associated_Press
+(5) ::ne-surf Interfax ::ne-type publication ::wiki Interfax
+(5) ::ne-surf Interfax ::ne-type agency ::wiki Interfax
+(4) ::ne-surf Agence France-Presse ::ne-type publication ::wiki Agence_France-Presse
+(3) ::ne-surf ITAR-TASS ::ne-type publication ::wiki Information_Telegraph_Agency_of_Russia
+(3) ::ne-surf ITAR-TASS ::ne-type agency ::wiki Information_Telegraph_Agency_of_Russia
+(1) ::ne-surf Itar-Tass ::ne-type publication ::wiki Information_Telegraph_Agency_of_Russia
+(5) ::ne-surf Fars News Agency ::ne-type publication ::wiki Fars_News_Agency
+(0) ::ne-surf News Agency Fars ::ne-type publication ::wiki Fars_News_Agency
+(2) ::ne-surf Reuters ::ne-type publication ::wiki Reuters
+(2) ::ne-surf Reuters ::ne-type agency ::wiki Reuters
+(2) ::ne-surf Xinhua ::ne-type publication ::wiki Xinhua_News_Agency
+(1) ::ne-surf Fars ::ne-type publication ::wiki Fars_News_Agency
+(1) ::ne-surf A.F.P. ::ne-type publication ::wiki Agence_France-Presse
+(1) ::ne-surf A. F. P. ::ne-type publication ::wiki Agence_France-Presse
+(1) ::ne-surf AP ::ne-type publication ::wiki Associated_Press
+(1) ::ne-surf Agence France Presse ::ne-type publication ::wiki Agence_France-Presse
+
+(14) ::ne-surf Hindustan Aeronautics Limited ::ne-type company ::wiki Hindustan_Aeronautics_Limited
+(13) ::ne-surf Alstom ::ne-type company ::wiki Alstom
+(13) ::ne-surf Siemens ::ne-type company ::wiki Siemens
+(11) ::ne-surf Areva ::ne-type company ::wiki Areva
+(11) ::ne-surf Embraer ::ne-type company ::wiki Embraer
+(10) ::ne-surf Boeing ::ne-type company ::wiki Boeing
+(9) ::ne-surf SAIC ::ne-type company ::wiki SAIC_Motor
+(9) ::ne-surf UMC ::ne-type company ::wiki United_Microelectronics_Corporation
+(8) ::ne-surf Boeing Corporation ::ne-type company ::wiki Boeing
+(7) ::ne-surf Hynix ::ne-type company ::wiki SK_Hynix
+(6) ::ne-surf Abbott ::ne-type company ::wiki Abbott_Laboratories
+(6) ::ne-surf Volkswagen ::ne-type company ::wiki Volkswagen
+(4) ::ne-surf Bell Canada ::ne-type company ::wiki Bell_Canada
+(4) ::ne-surf Google ::ne-type company ::wiki Google
+(4) ::ne-surf Lorillard ::ne-type company ::wiki Lorillard_Tobacco_Company
+(3) ::ne-surf BP ::ne-type company ::wiki BP
+(3) ::ne-surf IBM ::ne-type company ::wiki IBM
+(3) ::ne-surf Microsoft ::ne-type company ::wiki Microsoft
+(2) ::ne-surf Volkswagen AG ::ne-type company ::wiki Volkswagen
+(1) ::ne-surf Du Pont ::ne-type company ::wiki DuPont
+(1) ::ne-surf General Motors ::ne-type company ::wiki General_Motors
+(1) ::ne-surf Goldman Sachs ::ne-type company ::wiki Goldman_Sachs
+(1) ::ne-surf Microsoft Corp. ::ne-type company ::wiki Microsoft
+(6) ::ne-surf Bank of China ::ne-type company ::wiki Bank_of_China
+
+(0) ::ne-surf Agricultural Bank of China ::ne-type company ::wiki Agricultural_Bank_of_China
+(0) ::ne-surf Bank of America ::ne-type company ::wiki Bank_of_America
+(0) ::ne-surf Berkshire Hathaway ::ne-type company ::wiki Berkshire_Hathaway
+(0) ::ne-surf BNP Paribas ::ne-type company ::wiki BNP_Paribas
+(0) ::ne-surf Chevron ::ne-type company ::wiki Chevron_Corporation
+(0) ::ne-surf Chevron Corporation ::ne-type company ::wiki Chevron_Corporation
+(0) ::ne-surf China Construction Bank ::ne-type company ::wiki China_Construction_Bank
+(0) ::ne-surf Chrysler ::ne-type company ::wiki Chrysler
+(0) ::ne-surf Citigroup ::ne-type company ::wiki Citigroup
+(0) ::ne-surf Commerzbank ::ne-type company ::wiki Commerzbank
+(0) ::ne-surf Credit Suisse ::ne-type company ::wiki Credit_Suisse
+(0) ::ne-surf Deutsche Bank ::ne-type company ::wiki Deutsche_Bank
+(0) ::ne-surf Dresdner Bank ::ne-type company ::wiki Dresdner_Bank
+(0) ::ne-surf DuPont ::ne-type company ::wiki DuPont
+(0) ::ne-surf Exxon Mobil ::ne-type company ::wiki ExxonMobil
+(0) ::ne-surf ExxonMobil ::ne-type company ::wiki ExxonMobil
+(0) ::ne-surf Exxon Mobile ::ne-type company ::wiki ExxonMobil
+(0) ::ne-surf ExxonMobile ::ne-type company ::wiki ExxonMobil
+(0) ::ne-surf Gazprom ::ne-type company ::wiki Gazprom
+(0) ::ne-surf General Electric ::ne-type company ::wiki General_Electric
+(0) ::ne-surf ICBC ::ne-type company ::wiki Industrial_and_Commercial_Bank_of_China
+(0) ::ne-surf Industrial and Commercial Bank of China ::ne-type company ::wiki Industrial_and_Commercial_Bank_of_China
+(0) ::ne-surf JPMorgan Chase ::ne-type company ::wiki JPMorgan_Chase
+(0) ::ne-surf Mazda ::ne-type company ::wiki Mazda
+(0) ::ne-surf Nissan ::ne-type company ::wiki Nissan
+(0) ::ne-surf Paribas ::ne-type company ::wiki Paribas
+(0) ::ne-surf Petro China ::ne-type company ::wiki PetroChina
+(0) ::ne-surf PetroChina ::ne-type company ::wiki PetroChina
+(0) ::ne-surf Royal Dutch Shell ::ne-type company ::wiki Royal_Dutch_Shell
+(0) ::ne-surf Sony ::ne-type company ::wiki Sony
+(0) ::ne-surf Toyota ::ne-type company ::wiki Toyota
+(0) ::ne-surf Wells Fargo ::ne-type company ::wiki Wells_Fargo
+
+
+(6) ::ne-surf The Financial Times ::ne-type newspaper ::wiki Financial_Times
+(4) ::ne-surf The Wall Street Journal ::ne-type newspaper ::wiki The_Wall_Street_Journal
+(4) ::ne-surf Wall Street Journal ::ne-type newspaper ::wiki The_Wall_Street_Journal
+(4) ::ne-surf WSJ ::ne-type newspaper ::wiki The_Wall_Street_Journal
+(4) ::ne-surf Guardian ::ne-type newspaper ::wiki The_Guardian
+(3) ::ne-surf Los Angeles Times ::ne-type newspaper ::wiki Los_Angeles_Times
+(3) ::ne-surf L.A. Times ::ne-type newspaper ::wiki Los_Angeles_Times
+(3) ::ne-surf LA Times ::ne-type newspaper ::wiki Los_Angeles_Times
+(3) ::ne-surf The Daily Telegraph ::ne-type newspaper ::wiki The_Daily_Telegraph
+(2) ::ne-surf New York Times ::ne-type newspaper ::wiki The_New_York_Times
+(2) ::ne-surf NY Times ::ne-type newspaper ::wiki The_New_York_Times
+(2) ::ne-surf NYT ::ne-type newspaper ::wiki The_New_York_Times
+(2) ::ne-surf The New York Times ::ne-type newspaper ::wiki The_New_York_Times
+(0) ::ne-surf The Guardian ::ne-type newspaper ::wiki The_Guardian
+
+(0) ::ne-surf Der Spiegel ::ne-type magazine ::wiki Der_Spiegel
+(0) ::ne-surf L'Express ::ne-type magazine ::wiki L'Express_(France)
+(0) ::ne-surf Newsweek ::ne-type magazine ::wiki Newsweek
+(0) ::ne-surf The Economist ::ne-type magazine ::wiki The_Economist
+(0) ::ne-surf The New Yorker ::ne-type magazine ::wiki The_New_Yorker
+

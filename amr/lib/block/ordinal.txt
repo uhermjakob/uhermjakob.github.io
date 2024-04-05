@@ -1,0 +1,90 @@
+TITLE Ordinals and :ord
+HIGHLIGHT-RED :ord
+HIGHLIGHT-RED ordinal-entity
+HIGHLIGHT-RED :value
+HIGHLIGHT-RED :range
+HIGHLIGHT-RED value-interval
+HIGHLIGHT-BLUE first
+HIGHLIGHT-BLUE second
+HIGHLIGHT-BLUE third
+HIGHLIGHT-BLUE fourth
+HIGHLIGHT-BLUE 3 and higher
+HIGHLIGHT-BLUE preantepenultimate
+HIGHLIGHT-BLUE previous
+HIGHLIGHT-BLUE last
+HIGHLIGHT-BLUE one of the largest
+HIGHLIGHT-BLUE among the largest
+<b>Topic menu</b> &nbsp;
+  <ul>
+    <li> <nobr><a href="#basic">Basic Ordinals ("second")</a></nobr>
+    <li> <nobr><a href="#range">Ordinals with :range ("second in 10 years")</a></nobr>
+    <li> <nobr><a href="#interval">Interval of Ordinals ("second to fourth")</a></nobr>
+    <li> <nobr><a href="#negative"><i>Last</i> Ordinals ("second to last")</a></nobr>
+    <li> <nobr><a href="#superlative">Ordinals and Superlatives ("second largest")</a></nobr>
+    <li> <nobr><a href="#fuzzy">"Fuzzy Ordinals ("one of the largest")</a></nobr>
+    <li> <nobr><a href="#counter">When <b>Not</b> to Use :ord for first or last</a></nobr>
+  </ul>
+<p>
+
+An ordinal number defines a thing's position in a series, e.g. first, second, or third.
+We use the role :ord and the corresponding cardinal number (1, 2, 3) to express an ordinal.
+Ordinals can be qualified (e.g. first in 10 years), so we include a concept ordinal-entity
+to accommodate both the primary value as well as any qualifications.
+
+<a name="basic">
+<h2>Basic Ordinals</h2>
+EXAMPLE isi_0002.237 the second planet
+
+<b>Note:</b> In the <font color="#007700">AMR Editor</font>, you can just type in &nbsp; <font style="font-family:Courier;color:#007700;">p :o<nobr>r</nobr>d 2</font> &nbsp; 
+as a &nbsp;<b>shortcut</b>&nbsp; for &nbsp; <nobr><font style="font-family:Courier;color:#007700;">p :o<nobr>r</nobr>d ordinal-value</font></nobr> &nbsp; and &nbsp; <nobr><font style="font-family:Courier;color:#007700;">o :v<nobr>a</nobr>lue 2</font></nobr>
+
+EXAMPLE isi_0002.259 He was the first to do this.
+
+EXAMPLE isi_0002.260 When I met her for the first time, Mary still worked for Goldman Sachs.
+
+<a name="range">
+<h2>Ordinals with :range</h2>
+EXAMPLE isi_0002.238 our first visit in 10 years
+
+EXAMPLE isi_0002.252 first victory in 12 games
+
+<a name="interval">
+<h2>Intervals of Ordinals</h2>
+As an alternative to a simple value, AMR also also offers a <b>value-interval</b>, including an open interval:
+
+EXAMPLE isi_0002.253 second to fourth week
+
+EXAMPLE isi_0002.254 floors 3 and higher
+
+<a name="negative">
+<h2><i>Last</i> Ordinals</h2>
+For expressions such as "second to last", AMR uses a <b>negative ordinal</b> value:
+
+EXAMPLE isi_0002.255 the second to last episode
+
+EXAMPLE isi_0002.239 We sat in the preantepenultimate pew.
+
+<a name="superlative">
+<h2>Ordinals and Superlatives</h2>
+Example combining an <b>ordinal and a superlative</b>
+
+EXAMPLE isi_0002.256 Texas is the second largest state in the U.S.
+
+However, we don't use ordinals for plain superlatives, i.e. is <i>:ord (o / ordinal-entity :value 1)</i> is understood as a default.
+
+EXAMPLE isi_0002.30 the brightest boy
+
+<a name="fuzzy">
+<h2>"Fuzzy Ordinals"</h2>
+<b>But</b> don't use :ord for "fuzzy ordinals" such as:
+
+EXAMPLE isi_0002.257 Canada is one of the largest countries in the world.
+
+EXAMPLE isi_0002.258 Canada and the U.S. are among the largest countries in the world.
+
+<a name="counter">
+<h2>When <b>not</b> to use :ord</h2>
+But do <b>not</b> use :ord for <i>last</i> in the sense of <i>previous</i>
+as in "I bought a new car <i>last week</i>." or for <i>first</i> in the
+sense of <i>initially</i> as in "I <i>first</i> had to get used to it."
+

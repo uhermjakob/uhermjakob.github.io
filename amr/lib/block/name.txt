@@ -1,0 +1,11 @@
+TITLE :name
+HIGHLIGHT-RED :name
+
+The role :name is used for named entities:
+
+EXAMPLE isi_0002.22 Steven Spielberg lives in Los Angeles .
+
+EXAMPLE isi_0002.50 The USS Iowa passed under the Golden Gate Bridge .
+
+More on <a href="http://www.isi.edu/~ulf/amr/lib/popup/named-entities.html">named entities</a>.
+

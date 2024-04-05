@@ -1,0 +1,9 @@
+STEM match for unaligned regretable :: regret-01 :: DF-200-192446-380_7795.13 cjconsensus
+STEM match for unaligned infact :: in-fact :: DF-200-192446-380_7795.14 cjconsensus
+STEM match for unaligned journo :: journalist :: DF-200-192446-380_7834.1 cjconsensus
+STEM match for unaligned journo :: journalist :: DF-200-192446-380_7834.1 cjconsensus
+STEM match for unaligned arrested :: arrest-01 :: DF-200-192446-380_7834.1 cjconsensus
+STEM match for unaligned precsisely :: precise :: DF-200-192446-380_7834.4 cjconsensus
+STEM match for unaligned slagging :: slag-00 :: DF-200-192446-380_7834.6 cjconsensus
+STEM match for unaligned mercilessly :: mercy :: DF-200-192446-380_7834.6 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192446-380_7888.1 cjconsensus

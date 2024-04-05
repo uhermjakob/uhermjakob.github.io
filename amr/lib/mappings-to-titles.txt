@@ -1,0 +1,362 @@
+3D No such concept. Replace by: (d / dimension :quant 3)
+a-ha No such concept. Replace by: aha
+a-lot No such concept. Replace by: lot
+academic No such concept. Replace by: academia
+activity No such concept. Select a sense.
+advertize-00 No such concept. Replace by: advertise-01
+after  :op1 (reference event or time)  :quant (how much after reference event or time)  :duration (duration of time)
+again-and-again No such concept. Replace by: time-and-again
+age-quantity No such concept. Replace by: temporal-quantity
+ago No such concept. Replace by: (b / before :op1 (n / now) :quant (t / temporal-quantity ...))
+ah-well No such concept. Replace by: oh-well
+airstrike No such concept. Replace by: (strike-01 :via air)
+albeit No such concept. Use :concession concession.html
+alien No such concept. Select a sense.
+allright No such concept. Replace by: all-right
+alright No such concept. Replace by: all-right
+although No such concept. Use :concession concession.html
+amr-annotation-incomplete  No such concept. Annotation of this sentence is incomplete.
+amr-unintelligible  Even in context and best efforts, meaning can't be determined for part of a sentence. amr-unintelligible.html
+amr-unknown question.html
+and-so-on No such concept. Replace by: et-cetera
+annual No such concept. Replace by: (r / rate-entity-91 ...)
+annually No such concept. Replace by: (r / rate-entity-91 ...)
+any-longer No such concept. Replace by: no-longer
+arch-rival No such concept. Replace by: archrival
+as-well-as No such concept. Replace by: and
+at-once No such concept. Select a sense: at-once-01 (immediately) or at-once-02 (simultaneously)
+bacteria No such concept. Replace by: bacterium (singular form)
+bad No such concept. Select a sense.
+bd No such concept. Replace by: (disc :mod blu-ray)
+be-01 No such concept in AMR. Click for help. be.html
+be-compared-to-91 No such concept. Replace by: have-degree-91 or have-quant-91
+before  :op1 (reference event or time)  :quant (how long before reference event or time)  :duration (duration of time)  (ago = before :op1 now :quant temporal-quantity)
+best No such concept. Replace by: good :ARG2-of have-degree-91 :ARG3 most
+better No such concept. Replace by: good :ARG2-of have-degree-91 :ARG3 more
+biannual No such concept. Replace by: (r / rate-entity-91 ...)
+biannually No such concept. Replace by: (r / rate-entity-91 ...)
+bimonthly No such concept. Replace by: (r / rate-entity-91 ...)
+bi-partisan No such concept. Replace by: bipartisan
+birth-01 No such concept. Replace by: bear-02
+biweekly No such concept. Replace by: (r / rate-entity-91 ...)
+black No such concept. Select a sense.
+blackmail No such concept. Select a sense.
+bla-bla No such concept. Replace by: blah-blah-blah
+bla-bla-bla No such concept. Replace by: blah-blah-blah
+blah-blah No such concept. Replace by: blah-blah-blah
+blow-job No such concept. Replace by: blow-03
+blowjob No such concept. Replace by: blow-03
+burka No such concept. Replace by: burqa
+burkha No such concept. Replace by: burqa
+but No such concept. Replace by contrast-01 or :concession contrast.html
+by-itself No such concept. Replace by: by-oneself
+cd No such concept. Replace by: (disc :mod compact)
+centrist No such concept. Replace by: center-02 or (person :mod center-02)
+centre No such concept. Replace by: center
+CEO No such concept. Replace by: (officer :mod chief :mod executive)
+ceo No such concept. Replace by: (officer :mod chief :mod executive)
+characteristic No such concept. Select a sense.
+children No such concept. Replace by child
+city  Examples: Miami, Berlin, Hong Kong, Washington, D.C.
+city-region No such concept. Replace by: city-district
+close No such concept. Select a sense.
+co-efficient No such concept. Replace by: coefficient
+colour No such concept. Replace by: color
+communist No such concept. Replace by: communism or (person :mod communism)
+consistent No such concept. Select a sense.
+continent incl. Africa, America, Antarctica, Asia, Australia, Europe  North/Central/South America are world-region.
+continent-region No such concept. Replace by: world-region
+continental-region No such concept. Replace by: world-region
+counter-productive No such concept. Replace by: counterproductive
+country  Examples: Saudi Arabia, England, European Union,    Kosovo, Palestine, Soviet Union, Taiwan
+country-region across two or more states/provinces  Examples: Midwest, Holland, Siberia, Transylvania  Regions inside a state are: local-region
+date-entity  :year 1776  :month 7  :day 4  :weekday (t/ thursday)  :time "16:00"  :dayperiod (a / afternoon)  :season (s / summer)  :era "AD" date.html
+date-quantity No such concept. Replace by: date-entity
+daily No such concept. Replace by: (r / rate-entity-91 ...)
+demand No such concept. Select a sense.
+demi-god No such concept. Replace by: demigod
+despite No such concept. Use :concession concession.html
+distance-entity No such concept. Replace by: distance-quantity
+dozen No such concept. Replace by: 12 (have a dozen = 6)
+dummy-element No such concept.  For temporary annotator support only.
+dvd No such concept. Replace by: (disc :mod digital :mod versatile)
+earlier No such concept. See AMR Dict for examples.
+earthquake-00 No such concept. Replace by: earthquake
+easy No such concept. Select a sense.
+effective No such concept. Select a sense.
+e-mail No such concept. Replace by: email
+email-address-quantity No such concept. Replace by: email-address-entity
+enthusiastic No such concept. Select a sense.
+er No such concept. It's probably a speech disfluency that should be dropped from AMR.
+etc No such concept. Replace by: et-cetera
+except No such concept. Select a sense.
+exclamation No such concept.  Drop or consider :mode expressive
+exclamatory No such concept.  Drop or consider :mode expressive
+fascist No such concept. Replace by: fascism or (person :mod fascism)
+feet No such concept. Replace by foot
+fibre No such concept. Replace by: fiber
+fight No such concept. Select a sense.
+figure-head No such concept. Replace by: figurehead
+financial-quantity No such concept. Replace by: monetary-quantity
+fit No such concept. Select a sense.
+flu No such concept. Replace by: (disease :name (name :op1 "influenza"))
+flea-bag No such concept. Replace by: fleabag
+fly No such concept. Select a sense.
+foreign-minister No such concept. Decompose.
+free No such concept. Select a sense.
+gay No such concept. Replace by: gay-01 or other sense
+generous No such concept. Select a sense.
+general-secretary No such concept. Replace by: (secretary :mod general)
+good No such concept. Select a sense.
+government No such concept.  Replace by: (government-organization :ARG0-of govern-01)
+government-entity No such concept.  Replace by: government-organization
+government-organisation No such concept. Replace by: government-organization (with a "z")
+government-organization executive, legislative, judicial  Excludes military and international organizations (UN)
+governor-elect No such concept. Decompose.
+grassroot No such concept. Replace by: grass-roots
+grassroots No such concept. Replace by: grass-roots
+grass-root No such concept. Replace by: grass-roots
+greater-than No such concept. Replace by: more-than
+grey No such concept. Replace by: gray
+guilty No such concept. Select a sense.
+gummint No such concept. Probably a variation of 'government'.
+hoo-haa No such concept. Replace by: hoo-ha
+hot-link No such concept. Replace by: hotlink
+hot-spot No such concept. Replace by: hotspot
+I No such concept. Replace by: i (lower case i for the pronoun for first person singular)
+IED No such concept. Replace by: (device :ARG1-of improvise-01 :ARG1-of (explode-01 :ARG1-of possible-01))
+ied No such concept. Replace by: (device :ARG1-of improvise-01 :ARG1-of (explode-01 :ARG1-of possible-01))
+if No such concept. Use :condition or :conj-as-if condition.html
+ill No such concept. Select a sense.
+importance No such concept. Replace by: important-01
+important No such concept. Replace by: important-01
+influenza No such concept. Replace by: (disease :name (name :op1 "influenza"))
+intelligent No such concept. Select a sense.
+happen-01 No such concept. Eliminate "to take place/happen/occur"
+hard-headed No such concept. Replace by: hardheaded
+headquarter No such concept. Replace by: headquarters-yy (common) or headquarter-01 (rare).
+her No such concept. Replace by: she
+herself No such concept. Replace by: she
+hi-tech No such concept. Replace by: high-technology
+high-off-the-hog No such concept. Replace by: high-on-the-hog
+high-tech No such concept. Replace by: high-technology
+him No such concept. Replace by: he
+himself No such concept. Replace by: he
+his No such concept. Replace by: he
+how No such concept. Subsumed by :manner (and other roles), thing and/or amr-unknown
+however No such concept. Replace by :concession or contrast-01. Click for help. concession.html#contrast
+in No such concept. Replace by: (a / after :op1 (n / now) :quant (t / temporal-quantity ...)) for cases such as 'in 20 minutes'.
+inevitable No such concept. Replace by: (possible-01 :polarity - :ARG1 (avoid-01 :ARG1 ...))
+interrogative question.html
+invisible No such concept. Replace by: visible :polarity -
+itself No such concept. Replace by: it
+kill No such concept. Select a sense.
+kilo No such concept. Replace by: kilogram etc.
+kilometre No such concept. Replace by: kilometer
+kind No such concept. Select a sense.
+kinda No such concept. Replace by: kind-of
+labour No such concept. Replace by: labor
+later No such concept. See AMR Dict for examples.
+launch No such concept. Select a sense.
+lead No such concept. Select a sense.
+leftist No such concept. Replace by: left-19 or (person :ARG1-of left-19)
+left-wing No such concept. Replace by: left-19 or (person :ARG1-of left-19)
+leftwing No such concept. Replace by: left-19
+leftwinger No such concept. Replace by: person :ARG1-of left-19
+leftwing-00 No such concept. Replace by: left-19
+legal No such concept. Replace by: law
+length-quantity No such concept. Replace by: distance-quantity
+less-and-less No such concept. Replace by: decrease-01. See AMR Dict.
+libtard No such concept. Replace by: (person :ARG1-of liberal-02 :ARG1-of retard-01)
+licence No such concept. Replace by: license (U.S. spelling for both noun and verb)
+licit No such concept. Replace by: law
+lie No such concept. Select a sense.
+likeable No such concept. Replace by: likable
+litre No such concept. Replace by: liter
+lol No such concept. Replace by: :ARG2-of (laugh-01 :ARG0 i :manner loud)
+low-tech No such concept. Replace by: low-technology
+math No such concept. Replace by: mathematics
+maths No such concept. Replace by: mathematics
+me No such concept. Replace by: i
+mean No such concept. Select a sense.
+men No such concept. Replace by man
+metre No such concept. Replace by: meter
+micro-organism No such concept. Replace by: microorganism
+micron No such concept. Replace by: micrometer
+mid-air No such concept. Replace by: midair
+military  Examples: Royal Air Force, 101st Airborne Division
+military-organization No such concept. Replace by: military
+miss No such concept. Select a sense.
+multi-nation No such concept. Replace by: multinational
+monetary-entity No such concept. Replace by: monetary-quantity
+money-quantity No such concept. Replace by: monetary-quantity
+monthly No such concept. Replace by: (r / rate-entity-91 ...)
+more-and-more No such concept. Replace by: increase-01. See AMR Dict.
+multi-sentence multi-sentence.html
+my No such concept. Replace by: i
+myself No such concept. Replace by: i
+nazi No such concept. Replace by: nazism or (person :mod nazism)
+necessary No such concept. Replace by: need-01
+neighbour No such concept. Replace by: neighbor
+neo-conservative No such concept. Replace by: (person :mod neoconservative) or neoconservative
+neocon No such concept. Replace by: (person :mod neoconservative) or neoconservative
+neoconservatism No such concept. Replace by: neoconservative
+neo-nazi No such concept. Replace by: neo-nazism or (person :mod neo-nazism)
+nervous No such concept. Select a sense.
+never No such concept. Replace by: :time ever :polarity -
+nevertheless No such concept. Use :concession concession.html
+new No such concept. Select a sense.
+news-agency No such concept. Use publication
+nice No such concept. Select a sense.
+non-profit No such concept. Replace by: profit-01 :polarity -
+nonetheless No such concept. Use :concession concession.html
+nonprofit No such concept. Replace by: profit-01 :polarity -
+not No such concept. Replace by: :polarity - (or in some tricky cases by: have-polarity-91 :ARG2 -)
+nuclear No such concept. Replace by: nucleus
+nucleic-acid includes DNA and RNA
+number-quantity No such concept. Replace by: numerical-quantity
+obligatory No such concept. Replace by: obligate-01
+occur-01 No such concept. Eliminate "to take place/happen/occur"
+off-spring No such concept. Replace by: offspring
+oh-oh No such concept. Replace by: uh-oh
+on-line No such concept. Replace by: online
+on-one-hand No such concept. Replace by: contrast-01
+on-other-hand No such concept. Replace by: contrast-01
+on-the-one-hand No such concept. Replace by: contrast-01
+on-the-other-hand No such concept. Replace by: contrast-01
+opinion No such concept. Verbalize using opine-01
+or-so No such concept. Replace by: (about :op1 ...)
+ordinal-entity  :value 2  :range (t / temporal-quantity :quant 16 :unit (y / year))  Example for: "second" visit "in 16 years"
+organisation No such concept. Replace by: organization (with a "z")
+organization  includes international organizations (United Nations)  includes NGOs (American Red Cross)
+otherwise No such concept. See AMR Dict for examples.
+our No such concept. Replace by: we
+ourselves No such concept. Replace by: we
+out-right No such concept. Replace by: outright
+over-night No such concept. Replace by: overnight
+pair-wise No such concept. Replace by: pairwise
+partial No such concept. Select a sense.
+patient No such concept. Select a sense.
+percentage-entity :value 100
+percentage-interval No such concept. Replace by: between
+percentage-quantity No such concept. Replace by: percentage-entity
+people (only in the sense of a racial or national group)  Example: The Kurds are a people without a country.  Example: the peoples of Europe  Otherwise, replace by: person
+petro-chemical No such concept. Replace by: petrochemical
+play No such concept. Select a sense.
+poor-00 No such concept. Replace by: poor
+possible  :domain ...
+pre No such concept. Replace by: before
+pre-empt No such concept. Replace by: preempt-01 or pre-empt-01
+pre-emptive No such concept. Replace by: preempt-01
+president-elect No such concept. Decompose.
+prime-minister No such concept. Replace by: minister :mod prime
+programme No such concept. Replace by: program
+proliferate No such concept. Select a sense.
+prostitute No such concept. Select a sense.
+province  incl. Japanese prefectures  incl. French departments such as Seine Maritime  incl. Chinese autonommous regions such as Tibet
+publication    incl. new media such as blogs, YouTube videos    incl. news agencies such as Xinhua News Agency  use type 'publication' for publishing companies    if there is at least some sense of publication
+quarterly No such concept. Replace by: (r / rate-entity-91 ...)
+quiet No such concept. Select a sense.
+railway-line  Examples: Trans-Siberian Railway, Picadilly line, Orient Express
+rain No such concept. Select a sense.
+ratio-entity No such concept.
+real No such concept. Replace by: :degree really or :ARG-01 real-04 etc.
+relative No such concept. Select a sense.
+relative-location No such concept. Replace by: relative-position
+relative-position (e.g. 20km east of Rome)  :op1 location  :direction direction  :quant distance-quantity
+respective No such concept. See AMR Dict for examples.
+respectively No such concept. See AMR Dict for examples.
+rich-00 No such concept. Replace by: rich
+riffraff No such concept. Replace by: riff-raff
+right No such concept. Select a sense.
+right-wing No such concept. Replace by: right-08
+rightwing No such concept. Replace by: right-08
+rightwinger No such concept. Replace by: person :ARG1-of right-08
+rightwing-00 No such concept. Replace by: right-08
+same No such concept. Select a sense.
+sci-fi No such concept. Replace by: science-fiction
+score-quantity No such concept. Replace by: score-entity
+screw No such concept. Select a sense.
+secretary-general No such concept. Replace by: (secretary :mod general)
+seismic-quantity  :quant 7.9  :scale (r / richter)
+semiannual No such concept. Replace by: (r / rate-entity-91 ...)
+semiannually No such concept. Replace by: (r / rate-entity-91 ...)
+serious No such concept. Select a sense.
+serve No such concept. Select a sense.
+shoe-in No such concept. Replace by: shoo-in
+short No such concept. Select a sense.
+skin-head No such concept. Replace by: skinhead
+slow No such concept. Select a sense.
+so-forth No such concept. Replace by: et-cetera
+so-on No such concept. Replace by: et-cetera
+socialist No such concept. Replace by: socialism or (person :mod socialism)
+sorry No such concept. Select a sense.
+space-craft No such concept. Replace by: spacecraft
+speaker No such concept. Replace by: (person :ARG0-of speak-01) or speaker-yy (for the position of 'speaker' in parliament etc.)
+state (in a federal country)  Examples: California, Bavaria
+state-region No such concept. Replace by: local-region
+string-entity includes letters, words, phrases, symbols
+super-power No such concept. Replace by: superpower
+superior No such concept. Select a sense.
+take-14 No such concept. Eliminate "to take place/happen/occur"
+that-is-it-00 No such concept. For "That's what it is,", consider (have-mod-91 :ARG1 it :ARG2 that).
+the No such concept. Drop articles.
+their No such concept. Replace by: they
+them No such concept. Replace by: they
+themselves No such concept. Replace by: they
+these No such concept. Replace by: this
+those No such concept. Replace by: that
+though No such concept. Use :concession concession.html
+temporal-entity No such concept. Replace by: temporal-quantity
+time-and-time-again No such concept. Replace by: time-and-again
+time-entity No such concept. Replace by: date-entity
+time-interval No such concept. Replace by: date-interval
+time-quantity No such concept. Replace by: temporal-quantity
+tiny-weeny No such concept. Replace by: teeny-weeny
+to-all-intents-and-purposes No such concept. Replace by: for-all-intents-and-purposes
+tonne No such concept. Replace by: ton
+too  in the sense of 'also', annotate as :mod too  in the sense of 'too much', annotate with have-degree-91 or have-quant-91
+tongue-and-cheek No such concept. Replace by: tongue-in-cheek
+true No such concept. Select a sense.
+truth-value :polarity-of ...
+tumorigenesis No such concept. Replace by: create-01 :ARG1 tumor
+tumorigenic No such concept. Replace by: possible-01 :ARG1 (create-01 :ARG1 tumor)
+tumour No such concept. Replace by: tumor
+tut-tut-tut No such concept. Replace by: tut-tut
+TV No such concept. Replace by: television
+tv No such concept. Replace by: television
+ultra-violet No such concept. Replace by: ultraviolet
+undersecretary-general No such concept. Replace by: (undersecretary :mod general)
+unfair No such concept. Replace by: fair :polarity -
+unique No such concept. Replace by: unique-01
+url-entity :value http://www.isi.edu
+url-quantity No such concept. Replace by: url-entity
+us No such concept. Replace by: we
+use No such concept. Select a sense.
+vicepresident No such concept. Replace by: president :mod vice
+vice-president No such concept. Replace by: president :mod vice
+week-end No such concept. Replace by: weekend
+weekly No such concept. Replace by: (r / rate-entity-91 ...)
+y'all No such concept. Replace by: you-all
+yearly No such concept. Replace by: (r / rate-entity-91 ...)
+your No such concept. Replace by: you
+yourself No such concept. Replace by: you
+weak No such concept. Select a sense.
+weight-quantity No such concept. Replace by: mass-quantity
+well-being No such concept. Replace by: well-09
+what No such concept. Subsumed by :ARGx and/or amr-unknown
+what-not No such concept. Replace by: et-cetera
+when No such concept. Subsumed by :time and/or amr-unknown
+where No such concept. Subsumed by :location and/or amr-unknown
+which No such concept. Subsumed by :ARGx (and other roles) and/or amr-unknown
+white No such concept. Select a sense.
+who No such concept. Subsumed by :ARGx and/or amr-unknown
+whoop-t-do No such concept. Replace by: whoop-de-do
+why No such concept. Subsumed by :cause/:purpose and/or amr-unknown
+WMD No such concept. Replace by: (weapon :ARG2-of (destroy-01 :degree mass))
+wmd No such concept. Replace by: (weapon :ARG2-of (destroy-01 :degree mass))
+women No such concept. Replace by woman
+world-region includes regions across multiple countries.  Examples: Middle East, Balkans, North America
+worse No such concept. Replace by: bad :ARG2-of have-degree-91 :ARG3 more
+worst No such concept. Replace by: bad :ARG2-of have-degree-91 :ARG3 most
+wrong No such concept. Select a sense.

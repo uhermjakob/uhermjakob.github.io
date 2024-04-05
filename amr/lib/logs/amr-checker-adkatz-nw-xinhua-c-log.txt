@@ -1,0 +1,7 @@
+STEM match for unaligned Tianjin :: Tianjin :: nw.chtb_0156.1 adkatz
+STEM match for unaligned Tianjin :: Tianjin :: nw.chtb_0156.1 adkatz
+STEM match for unaligned London :: London :: nw.chtb_0177.7 adkatz
+STEM match for unaligned London :: London :: nw.chtb_0177.7 adkatz
+STEM match for unaligned 13 :: 13 :: nw.chtb_0177.7 adkatz
+STEM match for unaligned 1962 :: 1962 :: nw.chtb_0208.10 adkatz
+STEM match for unaligned End :: end-01 :: nw.chtb_0210.7 adkatz

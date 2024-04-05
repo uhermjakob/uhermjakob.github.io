@@ -1,0 +1,12 @@
+STEM match for unaligned overcaustiousness :: overcautious :: DF-212-191673-310_8893.4 cjconsensus
+STEM match for unaligned thisway :: this :: DF-212-191673-310_8893.6 cjconsensus
+STEM match for unaligned unconsious :: conscious :: DF-212-191673-310_8893.8 cjconsensus
+STEM match for unaligned bonkers :: bonker :: DF-212-191673-310_8893.11 cjconsensus
+STEM match for unaligned Yanks :: yankee :: DF-212-191678-308_5230.1 cjconsensus
+STEM match for unaligned sunnis :: Sunni :: DF-212-191678-308_5230.1 cjconsensus
+STEM match for unaligned Sadrists :: Sadrist :: DF-212-191678-308_5230.8 cjconsensus
+STEM match for unaligned and :: and :: DF-212-191678-308_5230.9 cjconsensus
+STEM match for unaligned interviened :: intervene-01 :: DF-212-191678-308_5230.10 cjconsensus
+STEM match for unaligned interviened :: intervene-01 :: DF-212-191678-308_5230.10 cjconsensus
+STEM match for unaligned boundries :: boundary :: DF-212-191678-308_5230.12 cjconsensus
+STEM match for unaligned and :: and :: DF-212-191678-308_5230.12 cjconsensus

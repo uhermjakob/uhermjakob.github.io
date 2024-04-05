@@ -1,0 +1,4 @@
+STEM match for unaligned Indian :: India :: NW_AFP_ENG_0017_2003_0607.2 cjconsensus
+STEM match for unaligned shastras :: shastra :: NW_AFP_ENG_0017_2003_0607.4 cjconsensus
+STEM match for unaligned and :: and :: NW_AFP_ENG_0017_2003_0607.4 cjconsensus
+STEM match for unaligned and :: and :: NW_AFP_ENG_0017_2003_0607.4 cjconsensus

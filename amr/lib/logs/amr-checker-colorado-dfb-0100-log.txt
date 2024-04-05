@@ -1,0 +1,15 @@
+STEM match for unaligned attendence :: attend-01 :: bolt-eng-DF-170-181122-8786585_0017.4 colorado
+STEM match for unaligned sensationalizing :: sensationalize-00 :: bolt-eng-DF-170-181122-8786585_0021.2 colorado
+STEM match for unaligned http://www.youtube.com/watch?v=EPCdgD4ygvI :: http://www.youtube.com/watch.?v=EPCdgD4ygI :: bolt-eng-DF-170-181122-8786585_0021.6 colorado
+STEM match for unaligned embarrassments :: embarrass-01 :: bolt-eng-DF-170-181122-8786585_0021.7 colorado
+STEM match for unaligned emplyees :: employ-01 :: bolt-eng-DF-170-181122-8786585_0022.8 colorado
+STEM match for unaligned emplyees :: employ-01 :: bolt-eng-DF-170-181122-8786585_0022.8 colorado
+STEM match for unaligned intruder :: intrude-01 :: bolt-eng-DF-170-181122-8786585_0025.12 colorado
+STEM match for unaligned intruder :: intrude-01 :: bolt-eng-DF-170-181122-8786585_0025.12 colorado
+STEM match for unaligned Tasering :: tase-00 :: bolt-eng-DF-170-181122-8786585_0025.14 colorado
+STEM match for unaligned Taseded :: tase-00 :: bolt-eng-DF-170-181122-8786585_0025.24 colorado
+STEM match for unaligned forces :: force-02 :: bolt-eng-DF-170-181122-8786585_0025.29 colorado
+STEM match for unaligned forces :: force :: bolt-eng-DF-170-181122-8786585_0025.29 colorado
+STEM match for unaligned forces :: force-02 :: bolt-eng-DF-170-181122-8786585_0025.29 colorado
+STEM match for unaligned stair :: stairwell :: bolt-eng-DF-170-181122-8786585_0025.31 colorado
+STEM match for unaligned educated :: educate-01 :: bolt-eng-DF-170-181122-8786585_0025.40 colorado

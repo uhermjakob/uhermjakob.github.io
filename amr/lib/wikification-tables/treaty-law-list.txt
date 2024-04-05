@@ -1,0 +1,17 @@
+# treaty/law list
+(24) ::ne-surf NPT ::ne-type treaty ::wiki Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons
+(22) ::ne-surf CFE ::ne-type treaty ::wiki Treaty_on_Conventional_Armed_Forces_in_Europe
+(8) ::ne-surf Conventional Forces in Europe Treaty ::ne-type treaty ::wiki Treaty_on_Conventional_Armed_Forces_in_Europe
+(5) ::ne-surf ABM ::ne-type treaty ::wiki Anti-Ballistic_Missile_Treaty
+(4) ::ne-surf Conventional Forces in Europe Treaty ::ne-type treaty ::wiki Treaty_on_Conventional_Armed_Forces_in_Europe
+(4) ::ne-surf Nuclear Nonproliferation Treaty ::ne-type treaty ::wiki Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons
+(3) ::ne-surf CFE Treaty ::ne-type treaty ::wiki Treaty_on_Conventional_Armed_Forces_in_Europe
+(3) ::ne-surf Non-Proliferation Treaty ::ne-type treaty ::wiki Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons
+(3) ::ne-surf Nuclear Non-Proliferation Treaty ::ne-type treaty ::wiki Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons
+(3) ::ne-surf Treaty on Conventional Armed Forces in Europe ::ne-type treaty ::wiki Treaty_on_Conventional_Armed_Forces_in_Europe
+(3) ::ne-surf Treaty on Conventional Forces in Europe ::ne-type treaty ::wiki Treaty_on_Conventional_Armed_Forces_in_Europe
+(2) ::ne-surf Anti-Ballistic Missile Treaty ::ne-type treaty ::wiki Anti-Ballistic_Missile_Treaty
+(2) ::ne-surf Nuclear Non-Proliferation Treaty ::ne-type treaty ::wiki Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons
+(1) ::ne-surf ABM Treaty ::ne-type treaty ::wiki Anti-Ballistic_Missile_Treaty
+(1) ::ne-surf Dayton Accord ::ne-type treaty ::wiki Dayton_Agreement
+(1) ::ne-surf START-II ::ne-type treaty ::wiki START_II

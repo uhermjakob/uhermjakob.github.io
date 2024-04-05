@@ -1,0 +1,16 @@
+TITLE multi-sentence
+HIGHLIGHT-RED multi-sentence
+HIGHLIGHT-BLUE :snt1
+HIGHLIGHT-BLUE :snt2
+HIGHLIGHT-BLUE :snt3
+
+When a sentence is really multiple sentences, use multi-sentence as a top,
+and :snt1, :snt2 etc. as roles.
+
+EXAMPLE isi_0002.109 I came. I saw. I conquered.
+
+Please note that in AMR 1.1 the individual (sub-) sentences are still annotated
+independently, i.e. without sharing co-reference variables. In the example
+above, for example, the "I" does not have a shared co-reference variable, 
+even though all three instances of "I" refer to the same person (Julius Caesar).
+

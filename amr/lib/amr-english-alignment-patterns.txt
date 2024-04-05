@@ -1,0 +1,51 @@
+# ::pattern decades
+(m / multiple~e.0
+  :op1~e.0 (t / temporal-quantity~e.0
+	 :quant~e.0 1~e.0
+	 :unit~e.0 (d / decade~e.0)))
+
+# ::pattern years
+(m / multiple~e.0
+  :op1~e.0 (t / temporal-quantity~e.0
+	 :quant~e.0 1~e.0
+	 :unit~e.0 (y / year~e.0)))
+
+# ::pattern person-v (as|is|was) role-v (of|at|for) organization-v
+(h / have-org-role-91~e.1,3
+  :ARG0 (p / person-v~e.0)
+  :ARG1 (o / organization-v~e.4)
+  :ARG2 (r / role-v~e.2))
+
+# ::pattern \$ number-v
+(m / monetary-quantity
+  :quant "number-v"~e.1
+  :unit (d / dollar~e.0))
+
+# ::pattern from quant1-v to quant2-v
+(d / date-interval
+  :op1~e.0 (f / quant1-v~e.1)
+  :op2~e.2 (t / quant2-v~e.3))
+
+# ::pattern because of
+(c / cause-01~e.0,1)
+
+# ::pattern (is|are) at risk
+(e / endanger-01~e.0,1,2)
+
+# ::pattern death from cause-v
+(d / die-01~e.0
+  :ARG1-of (c / cause-01~e.1
+             :ARG0 (c2 / cause-v~e.2)))
+
+# ::pattern senators?
+(p / person
+  :ARG0-of (h / have-org-role-91
+	     :ARG1 (g / government-organization)
+		     :name (n / name :op1 "Senate")))
+
+# ::pattern thanks
+(t / thank-01~e.0
+  :ARG0~e.0 (i / i~e.0)
+  :ARG1~e.0 (y / you~e.0))
+
+# ::end

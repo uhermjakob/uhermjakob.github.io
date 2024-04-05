@@ -1,0 +1,4 @@
+STEM match for unaligned gunboats :: gunboat :: bolt-eng-DF-183-195681-7949028_0001.2 colorado
+STEM match for unaligned http://www.reuters.com/article/2012/03/01/us-texas-mexico-gunboat-idUSTRE8202FU20120301?rpc=401&feedType=RSS&feedName=domesticNews&rpc=401 :: http://www.reuters.com/article/us-texas-mexico-gunboat-idUSTRE8202FU20120301?rpc=401%20&%20feedType=RSS%20&%20feedName=domesticNews%20&%20rpc=401 :: bolt-eng-DF-183-195681-7949028_0001.8 colorado
+STEM match for unaligned dollars :: dollar :: bolt-eng-DF-183-195681-7949028_0010.1 colorado
+STEM match for unaligned gravytrain :: gravy :: bolt-eng-DF-183-195681-7949028_0013.7 colorado

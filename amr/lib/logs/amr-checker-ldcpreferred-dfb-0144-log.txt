@@ -1,0 +1,5 @@
+STEM match for unaligned postage :: post-04 :: bolt-eng-DF-199-192783-6845999_0012.3 ldcpreferred
+STEM match for unaligned Drop.5 :: drop-01 :: bolt-eng-DF-199-192783-6845999_0013.1 ldcpreferred
+STEM match for unaligned nonfarm :: farm :: bolt-eng-DF-199-192783-6845999_0013.4 ldcpreferred
+STEM match for unaligned Foreclosure :: foreclose-01 :: bolt-eng-DF-199-192783-6845999_0013.29 ldcpreferred
+STEM match for unaligned takeing :: take-out-11 :: bolt-eng-DF-199-192783-6845999_0014.2 ldcpreferred

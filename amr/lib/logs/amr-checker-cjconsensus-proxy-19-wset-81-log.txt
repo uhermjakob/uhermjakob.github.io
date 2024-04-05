@@ -1,0 +1,5 @@
+STEM match for unaligned catalog :: catalogue-01 :: PROXY_APW_ENG_20080306_0007.15 cjconsensus
+STEM match for unaligned Solano :: Solana :: PROXY_APW_ENG_20080306_0007.21 cjconsensus
+STEM match for unaligned Viet :: Vietnam :: PROXY_APW_ENG_20080319_0386.2 cjconsensus
+STEM match for unaligned Vietnamese :: Vietnam :: PROXY_APW_ENG_20080404_0310.6 cjconsensus
+STEM match for unaligned Vietnamese :: Vietnam :: PROXY_APW_ENG_20080404_0310.7 cjconsensus

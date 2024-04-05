@@ -1,0 +1,13 @@
+STEM match for unaligned prancer :: prance-01 :: DF-212-191667-307_3266.3 cjconsensus
+STEM match for unaligned honour :: honor-01 :: DF-212-191667-307_3266.7 cjconsensus
+STEM match for unaligned and :: and :: DF-212-191667-307_3266.7 cjconsensus
+STEM match for unaligned and :: and :: DF-212-191667-307_3266.7 cjconsensus
+STEM match for unaligned and :: and :: DF-212-191667-307_3266.7 cjconsensus
+STEM match for unaligned politicise :: politicize-01 :: DF-212-191667-307_3266.9 cjconsensus
+STEM match for unaligned politicise :: politics :: DF-212-191667-307_3266.9 cjconsensus
+STEM match for unaligned honour :: honor-01 :: DF-212-191667-307_3266.9 cjconsensus
+STEM match for unaligned organise :: organize-01 :: DF-212-191667-307_3266.10 cjconsensus
+STEM match for unaligned restraunt :: restaurant :: DF-212-191669-311_5831.1 cjconsensus
+STEM match for unaligned works :: work-09 :: DF-212-191669-311_5831.4 cjconsensus
+STEM match for unaligned cookbook :: cook :: DF-212-191669-311_5831.9 cjconsensus
+STEM match for unaligned fearless :: fear :: DF-212-191673-310_4072.4 cjconsensus

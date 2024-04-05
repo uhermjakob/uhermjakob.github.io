@@ -1,0 +1,8 @@
+STEM match for unaligned Helloo000 :: hello :: bolt-eng-DF-170-181103-8890510_0030.14 colorado
+STEM match for unaligned Cannibalist :: cannibal :: bolt-eng-DF-170-181103-8890510_0030.15 colorado
+STEM match for unaligned fraudulant :: fraudulent :: bolt-eng-DF-170-181103-8890510_0030.15 colorado
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8890510_0030.17 colorado
+STEM match for unaligned analytical :: analyze-01 :: bolt-eng-DF-170-181103-8890510_0030.20 colorado
+STEM match for unaligned And :: and :: bolt-eng-DF-170-181103-8890510_0030.21 colorado
+STEM match for unaligned analytical :: analyze-01 :: bolt-eng-DF-170-181103-8890510_0030.21 colorado
+STEM match for unaligned personel :: personnel :: bolt-eng-DF-170-181103-8890510_0034.3 colorado

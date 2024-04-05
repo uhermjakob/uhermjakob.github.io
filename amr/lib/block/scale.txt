@@ -1,0 +1,20 @@
+TITLE :scale
+HIGHLIGHT-RED :scale
+HIGHLIGHT-BLUE seismic-quantity
+HIGHLIGHT-BLUE temperature-quantity
+
+:scale is used in certain quantities such as temperature-quantity, seismic-quantity,
+where a :quant 0 does not represent a 0-quantity.<br>
+:scale takes the place of the :unit role that we find in normal quantities.
+
+EXAMPLE isi_0002.6 7.9 on the Richter scale
+
+EXAMPLE isi_0002.176 an earthquake of intensity XII on the Modified Mercalli scale
+
+EXAMPLE isi_0002.177 a quake of magnitude 6.9 on the Moment scale
+
+EXAMPLE isi_0002.33 She heated the oven to 250 degrees Celsius.
+
+<b>DO NOT</b> use :scale for earthquakes when no scale is provided.
+
+EXAMPLE isi_0002.169 The 9.3 Tohoku earthquake occured in the year Heisei 23 .

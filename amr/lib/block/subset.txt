@@ -1,0 +1,22 @@
+TITLE include-91
+HIGHLIGHT-RED :subset
+HIGHLIGHT-RED include-91
+HIGHLIGHT-BLUE subset/superset
+HIGHLIGHT-BLUE to include
+
+The frame include-91 describes a subset/superset relationship. include-91 is often
+used without any occurrence or the verb to include in the sentence.
+<p>
+include-91<br>
+ &nbsp; &nbsp; :ARG1&nbsp; <i>subset</i><br>
+ &nbsp; &nbsp; :ARG2&nbsp; <i>superset</i><br>
+ &nbsp; &nbsp; :ARG3&nbsp; <i>relative size</i>
+
+EXAMPLE isi_0002.17 10% of smokers die of lung cancer.
+
+EXAMPLE isi_0002.18 Thomas is one of the few boys in Kentucky who speak Latin .
+
+EXAMPLE isi_0002.16 26 of the 44 countries in Europe are members of NATO.
+
+The AMR Editor offers &nbsp; <i>:subset</i> &nbsp; as a shortcut for &nbsp; <i>:ARG2-of&nbsp; include-91 :ARG1</i>.
+

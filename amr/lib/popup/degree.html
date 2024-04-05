@@ -1,0 +1,391 @@
+﻿
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="max-age=3600" />
+    <title>degree</title>
+   <link rel="shortcut icon" href="https://www.isi.edu/~ulf/amr/images/AMR-favicon.ico">
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+       if ((s = document.getElementById(id)) != null) {
+          if (s.style.display == 'none') {
+             s.style.display = 'inline';
+          } else {
+             s.style.display = 'none';
+          }
+       }
+    }
+
+    function toggle_group(group_id, url, new_search_help_id) {
+       if (((s = document.getElementById('new_search_on_next_click_p')) == null) || (s.value == 0)) {          
+          i = 1;         
+          id = group_id + '_' + i;
+          while ((s = document.getElementById(id)) != null) {
+             if (s.style.display == 'none') {
+                s.style.display = 'inline';
+             } else {
+                s.style.display = 'none';
+             }
+             i = i + 1;
+             id = group_id + '_' + i;
+          }
+       }
+
+       if ((s = document.getElementById('new_search_on_next_click_p')) != null) {
+          new_search_value = s.value;
+          s.value = 0;
+          if ((new_search_help_id != 0) && ((s2 = document.getElementById(new_search_help_id)) != null)) {
+             s2.style.display = 'none';
+          }
+          if ((new_search_value == 1) && (url != 0)) {
+             popUpBottom(url,750,400);
+          }
+       }
+    }
+
+    function set_group_display(group_id, value) {
+       i = 1;         
+       id = group_id + '_' + i;
+       while ((s = document.getElementById(id)) != null) {
+          s.style.display = value;
+          i = i + 1;
+          id = group_id + '_' + i;
+       }
+    }
+
+    function popUpBottom(URL,width,height) {
+       day = new Date();
+       id = day.getTime();
+       eval("myWindow = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=" + width + ",height=" + height + "');");
+    }
+
+    function popUpWarning(warning) {
+       newwindow=window.open('','Warning','height=160,width=400,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
+       var tmp = newwindow.document;
+       tmp.write('<html>\n');
+       tmp.write('  <head><title>AMR Editor Warning</title></head>\n');
+       tmp.write('  <body' + ' style="background-color:#FFFFEE;">\n');
+       tmp.write('    <h3>Warning</h3>\n');
+       tmp.write('    ' + warning + '\n');
+       tmp.write('    <p>\n');
+       tmp.write('    <input type="submit" title="Close this window." value="OK" onclick="self.close();">\n');
+       tmp.write('  </body>\n');
+       tmp.write('</html>\n');
+       tmp.close();
+    }
+
+    function new_search_on_next_click(new_search_help_id) {
+       if ((s = document.getElementById(new_search_help_id)) != null) {
+          s.style.display = 'inline';
+       }
+       if ((s = document.getElementById('new_search_on_next_click_p')) != null) {
+          s.value = 1;
+       }
+    }
+
+    function set(id, value) {
+       if ((s = document.getElementById(id)) != null) {
+	  s.value = value;
+       }
+    }
+
+    function set_group_pairwise(snt_id, odd_value, even_value) {
+       gi = 0;
+       group_id = snt_id + '_' + gi;
+       i = 1;
+       id = group_id + '_' + i;
+       while (((s = document.getElementById(id)) != null) || (gi == 0)) {
+          while ((s = document.getElementById(id)) != null) {
+	     s.style.display = odd_value;
+             i = i + 1;
+	     id = group_id + '_' + i;
+	     if ((s = document.getElementById(id)) != null) {
+	        s.style.display = even_value;
+	     }
+             i = i + 1;
+	     id = group_id + '_' + i;
+          }
+          gi = gi + 1;
+          group_id = snt_id + '_' + gi;
+          i = 1;
+          id = group_id + '_' + i;
+       }
+    }
+
+    function clear(id) {
+       if (s = document.getElementById(id)) {
+          s.value = '';
+       }
+    }
+
+    function goto_page_loc(hash, id, y) {
+       var s ;
+       var page_dynamically_created_p = 0;
+       if (page_dynamically_created_p) {
+          if ((s = document.getElementById(id)) != null) {
+             s.checked = "true";
+             s.focus();
+             if (document.body.scrollTop > 0) {
+               document.body.scrollTop += y;
+             } else {
+               // document.body.scrollTop = document.body.scrollHeight;
+               // s.focus();
+             }
+          } 
+       } else {
+          window.location.hash = hash;
+          if ((s = document.getElementById(id)) != null) {
+             s.checked = "true";
+          }
+       }
+    }
+
+    function redirect(url) {
+       window.location = url;
+    }
+
+    function initialize() {
+    }
+
+    
+    -->
+    </script>
+  </head>
+  <body bgcolor="#FFFFEE">
+<table width="100%" border="0" cellpadding="3" cellspacing="0"><tr bgcolor="#BBCCFF"><td>&nbsp; <font size="+1"><b>:degree</b> &nbsp; (AMR annotation guidance)</font></td></tr></table>
+<br />
+
+<h2>Overview</h2>
+<ul> 
+   <li> Use <a href="http://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/have-degree-v.html" target="_ONFRAMES"><font color="red">have-degree-91</font></a> (or <font color="red">have-quant-91</font>) for <font color="blue">comparatives</font> and <font color="blue">superlatives</font>
+      <ul>
+	 <li> the <font color="red">most</font> expensive dress
+	 <li> the bright<font color="red">est</font> boy
+      </ul>
+   <li> Use <a href="http://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/have-degree-v.html" target="_ONFRAMES"><font color="red">have-degree-91</font></a> (or <font color="red">have-quant-91</font>) for <font color="blue">consequence constructions</font> with <font color="red">too</font> / <font color="red">enough</font> / <font color="red">so</font>
+      <ul>
+	 <li> It is <font color="red">too</font> early to reach any conclusions.
+	 <li> This computer is small <font color="red">enough</font> to fit in your pocket.
+	 <li> He was <font color="red">so</font> tired that he slept for 10 hours.
+      </ul>
+   <li> Use <font color="red">:degree</font> for <font color="blue">intensifiers</font> and <font color="blue">downtoners</font>.
+      <ul>
+	 <li> The boy sang <font color="red">very</font> beautifully.
+	 <li> He is <font color="red">kind of</font> sad.
+	 <li> Carthage was <font color="red">utterly</font> destroyed.
+      </ul>
+   <li> Use <font color="red">:degree</font> <font color="red">so</font> for <font color="blue">wh-exclamations</font>.
+      <ul>
+	 <li> <font color="red">What</font> a great book! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font color="#777777">= <font color="red">so</font> great a book</font>
+	 <li> <font color="red">How</font> beautiful you are. &nbsp; &nbsp; <font color="#777777">= You are <font color="red">so</font> beautiful!</font>
+      </ul>
+</ul>
+
+<h2>Example AMRs</h2>
+
+<p>
+<b>Example:</b>&nbsp; the <font color="red">most</font> expensive dress<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(d&nbsp;/&nbsp;dress<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(e&nbsp;/&nbsp;expensive)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(m&nbsp;/&nbsp;<font color="red">most</font>)))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; "the girl is taller than the boy"<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(g&nbsp;/&nbsp;girl)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t&nbsp;/&nbsp;tall)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(m&nbsp;/&nbsp;<font color="red">more</font>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG4&nbsp;(b&nbsp;/&nbsp;boy))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; "the brightest boy"<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b&nbsp;/&nbsp;boy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(b2&nbsp;/&nbsp;bright-03<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;b)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(m&nbsp;/&nbsp;<font color="red">most</font>)))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; "a worse plan"<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(p&nbsp;/&nbsp;plan<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(b&nbsp;/&nbsp;bad-07<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;p)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(m&nbsp;/&nbsp;<font color="red">more</font>)))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; It is <font color="red">too</font> early to reach any conclusions.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(n&nbsp;/&nbsp;now)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(e&nbsp;/&nbsp;early)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(t&nbsp;/&nbsp;<font color="red">too</font>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG6&nbsp;(c&nbsp;/&nbsp;conclude-01))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; The car is much <font color="red">too</font> expensive.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(c&nbsp;/&nbsp;car)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(e&nbsp;/&nbsp;expensive)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(t&nbsp;/&nbsp;<font color="red">too</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:quant&nbsp;(m&nbsp;/&nbsp;much)))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; This computer is small <font color="red">enough</font> to fit in your pocket.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(c&nbsp;/&nbsp;computer<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t&nbsp;/&nbsp;this))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(s&nbsp;/&nbsp;small)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(e&nbsp;/&nbsp;<font color="red">enough</font>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG6&nbsp;(f&nbsp;/&nbsp;fit-06<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;c<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(p&nbsp;/&nbsp;pocket<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;(y&nbsp;/&nbsp;you))))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; He was <font color="red">so</font> tired that he slept for 10 hours.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(h&nbsp;/&nbsp;<font color="red">have-degree-91</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(h2&nbsp;/&nbsp;he)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t&nbsp;/&nbsp;tire-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;h2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(s&nbsp;/&nbsp;<font color="red">so</font>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG6&nbsp;(s2&nbsp;/&nbsp;sleep-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;h2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:duration&nbsp;(t2&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;10<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(h3&nbsp;/&nbsp;hour))))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; The boy sang <font color="red">very</font> beautifully.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(s&nbsp;/&nbsp;sing-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(b&nbsp;/&nbsp;boy)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(b2&nbsp;/&nbsp;beautiful-02<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">:degree</font>&nbsp;(v&nbsp;/&nbsp;<font color="red">very</font>)))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; He is <font color="red">kind of</font> sad.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(s&nbsp;/&nbsp;sad-02<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(h&nbsp;/&nbsp;he)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">:degree</font>&nbsp;(k&nbsp;/&nbsp;<font color="red">kind-of</font>))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; Carthage was <font color="red">utterly</font> destroyed.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(d&nbsp;/&nbsp;destroy-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(c&nbsp;/&nbsp;city&nbsp;:wiki&nbsp;"Carthage"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name&nbsp;(n&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"Carthage"))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(u&nbsp;/&nbsp;utter-02))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; weapons of <font color="red">mass</font> destruction<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(w&nbsp;/&nbsp;weapon<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2-of&nbsp;(d&nbsp;/&nbsp;destroy-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">:degree</font>&nbsp;(m&nbsp;/&nbsp;<font color="red">mass</font>)))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; <font color="red">How</font> beautiful you are.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b&nbsp;/&nbsp;beautiful-02<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(y&nbsp;/&nbsp;you)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">:degree</font>&nbsp;(s&nbsp;/&nbsp;<font color="red">so</font>))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; <font color="red">What</font> a great book!<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b&nbsp;/&nbsp;book<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(g&nbsp;/&nbsp;great<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">:degree</font>&nbsp;(s&nbsp;/&nbsp;<font color="red">so</font>)))<br>
+</span>
+<p>
+
+<hr>
+
+<h2>Counter Examples</h2>
+
+<p>
+<b>Example:</b>&nbsp; <font color="red">Most</font> students don't like math.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(d&nbsp;/&nbsp;dislike-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;person<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(s&nbsp;/&nbsp;study-01)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(m2&nbsp;/&nbsp;<font color="red">most</font>))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m&nbsp;/&nbsp;mathematics))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; Dad, I need <font color="red">more</font> money.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(s&nbsp;/&nbsp;say-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(n&nbsp;/&nbsp;need-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m&nbsp;/&nbsp;money<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(m2&nbsp;/&nbsp;<font color="red">more</font>)))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(p&nbsp;/&nbsp;person<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(h&nbsp;/&nbsp;have-rel-role-91<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;i<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(f&nbsp;/&nbsp;father))))<br>
+</span>
+<p>
+
+<p>
+<b>Example:</b>&nbsp; We entered the cave at noon and left it 2 hours <font color="red">later</font>.<br>
+<span style="font-family:Courier;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(a&nbsp;/&nbsp;and<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(e&nbsp;/&nbsp;enter-01<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(w&nbsp;/&nbsp;we)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(c&nbsp;/&nbsp;cave)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(d&nbsp;/&nbsp;date-entity<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:dayperiod&nbsp;(n&nbsp;/&nbsp;noon)))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(l&nbsp;/&nbsp;leave-11<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;w<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;c<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a2&nbsp;/&nbsp;<font color="red">after</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;e<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:quant&nbsp;(t&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(h&nbsp;/&nbsp;hour)))))<br>
+</span>
+<p>
+
+<p>
+<a onclick="window.close();"><span style="color:#999999;text-decoration:underline">close this window</span></a>
+  </body>
+</html>

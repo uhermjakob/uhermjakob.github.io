@@ -1,0 +1,15 @@
+TITLE :consist-of
+HIGHLIGHT-RED :consist-of
+
+The role :consist-of is used to describe what substance or which members something is made of:
+
+EXAMPLE isi_0002.79 a ring of gold
+
+EXAMPLE isi_0002.27 I saw a cloud of dust .
+
+Similarly: a puddle of water, a loaf of bread
+
+EXAMPLE isi_0002.28 A team of researchers made a discovery .
+
+Similarly: a flock of birds, a convoy of trucks
+

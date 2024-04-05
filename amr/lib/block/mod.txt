@@ -1,0 +1,9 @@
+TITLE :mod
+HIGHLIGHT-RED :mod
+
+:mod stands for an unspecified modifier, often when modifying a noun:
+
+EXAMPLE isi_0001.16 British investor
+
+EXAMPLE isi_0002.36 The old man died of lung cancer .
+

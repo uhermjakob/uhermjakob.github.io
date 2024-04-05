@@ -1,0 +1,7 @@
+STEM match for unaligned Telecom :: telecommunication :: PROXY_AFP_ENG_20050601_0389.3 ebutusina
+STEM match for unaligned weakness :: weaken-01 :: PROXY_AFP_ENG_20050601_0389.16 ebutusina
+STEM match for unaligned public :: publish-01 :: PROXY_AFP_ENG_20050603_0056.12 ebutusina
+STEM match for unaligned technical :: technique :: PROXY_AFP_ENG_20050603_0056.27 ebutusina
+STEM match for unaligned political :: politic :: PROXY_AFP_ENG_20050604_0444.8 ebutusina
+STEM match for unaligned critics :: criticize-01 :: PROXY_AFP_ENG_20050604_0444.18 ebutusina
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050604_0444.19 ebutusina

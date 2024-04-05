@@ -1,0 +1,2 @@
+STEM match for unaligned trans :: transatlantic :: NW_FLO_ENG_0111_2005_0101.18 cjconsensus
+STEM match for unaligned continentals :: continent :: NW_FLO_ENG_0111_2005_0101.24 cjconsensus

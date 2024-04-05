@@ -1,0 +1,119 @@
+TITLE have-org-role
+HIGHLIGHT-RED have-org-role-91
+HIGHLIGHT-BLUE president
+HIGHLIGHT-BLUE minister
+HIGHLIGHT-BLUE member
+HIGHLIGHT-BLUE official
+HIGHLIGHT-BLUE professor
+HIGHLIGHT-BLUE director
+HIGHLIGHT-BLUE general
+HIGHLIGHT-BLUE major-general
+HIGHLIGHT-BLUE head-01
+HIGHLIGHT-BLUE Senate
+HIGHLIGHT-BLUE Republican
+HIGHLIGHT-BLUE Republicans
+HIGHLIGHT-BLUE foreign
+HIGHLIGHT-BLUE :ARG3
+<b>Specific topics:</b>
+    &nbsp;          &nbsp; <nobr><a href="#memb-off">Member, Official</a></nobr>
+    &nbsp; &middot; &nbsp; <nobr><a href="#military-rank">Military Ranks</a></nobr>
+    &nbsp; &middot; &nbsp; <nobr><a href="#political-party">Political Parties, Legislative Bodies</a></nobr>
+    &nbsp; &middot; &nbsp; <nobr><a href="#counter">When <b>Not</b> to Use h<nobr>a</nobr>ve-org-role-91</a></nobr>
+    &nbsp; &middot; &nbsp; <nobr><a href="#shortcut">AMR Editor shortcut :role</a></nobr>
+    &nbsp; &middot; &nbsp; <nobr><a href="#begin-end">Interaction between h<nobr>a</nobr>ve-org-role-91 and start/end verbs (e.g. elect, resign)</a></nobr>
+    &nbsp; &middot; &nbsp; <nobr><a href="#arg2-arg3">:ARG2 [office held, job title] vs. :A<nobr>R</nobr>G3 [description of responsibility]</a></nobr>
+<p>
+
+<a name="basic">
+
+The frame have-org-role-91 is used to express an organizational role relation when no verb frame is available.
+
+EXAMPLE isi_0002.284 French Foreign Minister Laurent Fabius
+
+EXAMPLE isi_0002.291 USC Associate Professor for Mathematics Jay Bartroff
+
+EXAMPLE isi_0002.285 Iraqi Interior Ministry operations director Major General Abdel Karim Khalaf
+
+The frame have-org-role-91 is used even if neither the name of the office holder nor the organization is specified:
+
+EXAMPLE isi_0002.289 The president returned to Washington.
+
+<a name="shortcut">
+<b>AMR Editor Shortcut:</b><br>
+In the example above, the easiest way to add &nbsp; 
+<nobr><font style="color:#007700;">:ARG0-of (h / have-org-<nobr>role</nobr>-91 :ARG2 (p2 / pre<nobr>s</nobr>ident))</font></nobr>  
+&nbsp; to <i>(p / person)</i> is to type: &nbsp; 
+<nobr><font style="font-family:Courier;color:#007700;">p :role pre<nobr>s</nobr>ident</font></nobr>
+
+<p>
+Words like <i>teacher</i> are still decomposed into <i>person who teaches</i> and do not by themselves
+trigger the use of have-org-role. However, have-org-role-91 is used when an organization is specified:
+
+EXAMPLE isi_0002.290 Venice High School history teacher Craig Brandau
+
+<a name="memb-off">
+
+have-org-role-91 is also used for the role <i>member</i> as well as for somewhat underspecified roles such as 
+<i>official</i>. The following example also illustrates that the office holder can be something other than a person:
+
+EXAMPLE isi_0002.236 Spain is a member of NATO.
+
+EXAMPLE isi_0001.28 naval officials
+
+<a name="military-rank">
+
+We use have-org-role-91 for military ranks.
+
+EXAMPLE isi_0002.286 U.S. Army General George Patton
+
+<a name="political-party">
+
+We use have-org-role-91 for membership in political parties and legislative bodies:
+
+EXAMPLE isi_0002.288 Senate Republicans killed the bill.
+
+<a name="counter">
+<h2>When <b>Not</b> to Use have-org-role-91</h2>
+
+We do <b>not</b> use have-org-role-91 if there is another verb frame available,
+such as <i> head-01, lead-02, employ-01, serve-01 </i>.
+
+EXAMPLE isi_0002.287 the head of the National Intelligence Service of Peru Vladimiro Montesinos
+
+We also do <b>not</b> use have-org-role-91 for occupations and skills that by themselves are
+independent of an organization.
+
+EXAMPLE isi_0002.292 history teacher Craig Brandau
+
+<a name="begin-end">
+<h2>have-org-role-91 and Start/End Verbs</h2>
+
+have-org-role-91 sometimes "competes" with frames of verbs describing the start or end of an org-role relationships,
+such as <i>become, join, nominate, appoint, elect; resign, fire</i>.
+
+In these cases, we use the frames of both have-org-role-91 and the start/end verb, and we fill all slots,
+even if some entities are annotated in both frames.
+
+EXAMPLE isi_0002.302 Barack Obama was elected president of the United States in 2008.
+
+<a name="arg2-arg3">
+<h2>:ARG2 vs. :A<nobr>R</nobr>G3</h2>
+
+The :ARG2 of have-org-role-91 is the office held or job title. &nbsp; <i>"What is he?"</i>
+
+EXAMPLE isi_0002.308 He is the school janitor. 
+
+The :ARG3 of have-org-role-91 provides a description, typically using verb frames &nbsp; <i>"What does he do?"</i>
+
+EXAMPLE isi_0002.309 He cleans bathrooms and empties the trash for the school.
+
+In the following example, McDonough's job title is not "Chief", it is "Chief of Staff":
+
+EXAMPLE isi_0002.310 Denis McDonough is the White House Chief of Staff.
+
+Similarly, Fabius' job title is not "Minister", it is "Foreign Minister":
+
+EXAMPLE isi_0002.284 French Foreign Minister Laurent Fabius
+
+Generally, :ARG2 is used much more often than :ARG3.
+

@@ -1,0 +1,29 @@
+TITLE :instrument
+HIGHLIGHT-RED :instrument
+HIGHLIGHT-RED with
+HIGHLIGHT-RED :ARGx
+HIGHLIGHT-BLUE fork
+HIGHLIGHT-BLUE stick
+HIGHLIGHT-BLUE finger
+HIGHLIGHT-BLUE fingers
+HIGHLIGHT-BLUE missile
+HIGHLIGHT-BLUE net
+
+:instrument describes the physical object used in an action, typically a tool, device, weapon, or a body part such as a finger or fist.
+<br>
+If you want to more generally describe how or in what way something is done, then consider using <a href="http://www.isi.edu/~ulf/amr/lib/popup/manner.html">:manner</a> instead.
+
+EXAMPLE isi_0002.46 I ate pasta with a fork .
+
+EXAMPLE isi_0002.332 Iraq launched a missile attack.
+
+EXAMPLE isi_0002.338 He ate the pizza with his fingers.
+
+EXAMPLE isi_0002.339 He recovered the frisbee with a long stick.
+
+Make sure you use any core role :ARGx designated for instruments, if available:
+
+EXAMPLE isi_0002.337 He caught the fish with a net.
+
+Reification: have-instrument-91
+

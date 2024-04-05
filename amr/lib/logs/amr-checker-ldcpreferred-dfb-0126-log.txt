@@ -1,0 +1,12 @@
+STEM match for unaligned opener :: open-01 :: bolt-eng-DF-199-192772-6810873_0015.3 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0016.5 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0016.7 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0016.7 ldcpreferred
+STEM match for unaligned stepkids :: stepkid :: bolt-eng-DF-199-192772-6810873_0023.16 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0023.16 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0023.16 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0023.16 ldcpreferred
+STEM match for unaligned bearable :: bear-01 :: bolt-eng-DF-199-192772-6810873_0024.2 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0027.11 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6810873_0027.11 ldcpreferred
+STEM match for unaligned dimished :: diminish-01 :: bolt-eng-DF-199-192772-6810873_0027.23 ldcpreferred

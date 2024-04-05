@@ -1,0 +1,7 @@
+STEM match for unaligned this :: this :: lpp_1943.458 adkatz
+STEM match for unaligned quiet :: quiet :: lpp_1943.458 adkatz
+STEM match for unaligned quiet :: quiet :: lpp_1943.458 adkatz
+STEM match for unaligned sweetness :: sweet :: lpp_1943.458 adkatz
+STEM match for unaligned contrary :: contradict-01 :: lpp_1943.493 adkatz
+STEM match for unaligned etiquette :: etiquette :: lpp_1943.493 adkatz
+STEM match for unaligned etiquette :: etiquette :: lpp_1943.493 adkatz

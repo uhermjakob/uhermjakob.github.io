@@ -1,0 +1,15 @@
+TITLE :path
+HIGHLIGHT-RED :path
+
+We use the role :path for paths as well places on a path on which an object moves,
+including rivers, roads and tunnels; towns (driven through) and facilities (passed by).
+
+EXAMPLE isi_0002.121 I drove to Indianapolis on I-65.
+EXAMPLE isi_0002.123 I drove through the tunnel.
+EXAMPLE isi_0002.126 The plane flew above us.
+ 
+EXAMPLE isi_0002.138 I went to Pisa via Paris.
+EXAMPLE isi_0002.134 I threw the stone across the river.
+
+Related roles: <a href="source.html">:source</a> (from starting point), <a href="destination.html">:destination</a> (to end point), <a href="direction.html">:direction</a> (north, up, left, towards)
+

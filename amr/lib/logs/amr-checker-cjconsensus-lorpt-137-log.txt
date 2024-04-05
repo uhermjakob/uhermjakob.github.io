@@ -1,0 +1,4 @@
+STEM match for unaligned and :: and :: NW_NYT_ENG_0208_2008_0517.3 cjconsensus
+STEM match for unaligned inordinate :: ordinate :: NW_NYT_ENG_0208_2008_0517.5 cjconsensus
+STEM match for unaligned inordinate :: ordinate :: NW_NYT_ENG_0208_2008_0517.5 cjconsensus
+STEM match for unaligned and :: and :: NW_NYT_ENG_0208_2008_0517.35 cjconsensus

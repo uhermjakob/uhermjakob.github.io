@@ -1,0 +1,13 @@
+STEM match for unaligned practise :: practice-01 :: bolt-eng-DF-199-192772-6818574_0010.4 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6818574_0010.7 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6818574_0010.7 ldcpreferred
+STEM match for unaligned Californians :: California :: bolt-eng-DF-199-192772-6818574_0011.1 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192772-6818574_0012.9 ldcpreferred
+STEM match for unaligned Californian :: California :: bolt-eng-DF-199-192772-6818574_0013.1 ldcpreferred
+STEM match for unaligned Californians :: California :: bolt-eng-DF-199-192772-6818574_0013.3 ldcpreferred
+STEM match for unaligned transplantable :: transplant-01 :: bolt-eng-DF-199-192772-6818574_0013.5 ldcpreferred
+STEM match for unaligned blastocysts :: blastocyst :: bolt-eng-DF-199-192772-6818574_0013.6 ldcpreferred
+STEM match for unaligned Californias :: California :: bolt-eng-DF-199-192772-6818574_0014.3 ldcpreferred
+STEM match for unaligned my :: My :: bolt-eng-DF-199-192772-6818574_0014.8 ldcpreferred
+STEM match for unaligned Reagans :: Reagan :: bolt-eng-DF-199-192772-6818574_0084.8 ldcpreferred
+STEM match for unaligned lense :: lens :: bolt-eng-DF-199-192772-6818574_0084.8 ldcpreferred

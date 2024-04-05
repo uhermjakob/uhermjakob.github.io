@@ -1,0 +1,756 @@
+::TYPE QUANTITY
+acceleration-quantity ::units meter-per-second-squared
+acidity-quantity ::scales ph
+angle-quantity ::units degree radian minute second
+area-quantity ::units acre hectare square-angstrom square-centimeter square-foot square-inch square-yard square-kilometer square-meter square-mile square-millimeter
+catalytic-activity-quantity ::units enzyme-unit katal microkatal millikatal nanokatal
+charge-quantity ::units coulomb
+concentration-quantity ::units gram-per-milliliter kilogram-per-cubic-meter microgram-per-gram microgram-per-milliliter microgram-per-square-centimeter micromolar milligram-per-kilogram milligram-per-milliliter milligram-per-square-meter millimolar milliunit-per-milliliter molar molecule-per-femtoliter nanogram-per-milliliter nanomolar parts-per-million parts-per-million-by-volume picogram-per-milliliter picomolar unit-per-milliliter
+distance-quantity ::units base-pair block centimeter decimeter hand foot inch kilo-base-pair kilometer light-year meter micrometer mile millimeter nanometer step street yard
+energy-quantity ::units btu calorie electron-volt joule kilowatt-hour kilocalorie kilojoule kilojoule-per-mole megajoule
+force-quantity ::units newton
+frequency-quantity ::units hertz gigahertz kilohertz megahertz terahertz number-per-second
+fuel-consumption-quantity ::units liter-per-100-kilometer mile-per-gallon
+inductance-quantity ::units henry
+information-quantity ::units bit byte exabyte gigabyte kilobyte megabyte nibble petabyte terabyte yottabyte zettabyte
+magnetic-field-quantity ::units gauss tessla
+magnetic-flux-quantity ::units maxwell weber
+mass-quantity ::units atomic-mass-unit carat dalton firkin gram kilodalton kilogram microgram milligram nanogram ounce picogram pound stone ton
+monetary-quantity ::units baht cent diram dollar euro euro-cent franc gourde krona mark penny pound renminbi ruble rupee rupiah somoni taka won yen yuan
+numerical-quantity ::units micromole millimole mole nanomole picomole centimeter-per-angstrom
+potential-quantity ::units kilovolt megavolt millivolt volt
+power-quantity ::units gigawatt horsepower kilowatt megawatt watt
+pressure-quantity ::units atmosphere bar centibar decibar gigapascal hectopascal kilobar kilopascal megabar megapascal millibar pascal psi torr
+radiation-quantity ::units becquerel curie gray microsievert millirem millisievert rad rem sievert
+reaction-quantity ::units per-molar-per-second
+resistance-quantity ::units kilo-ohm mega-ohm ohm
+second-order-association-rate-quantity number-per-molar-per-second
+seismic-quantity ::scales mercalli mercalli-intensity moment richter
+speed-quantity ::units kilometer-per-hour meter-per-second mile-per-hour
+temperature-quantity ::scales celsius degree fahrenheit kelvin
+temporal-quantity ::units century day decade hour microsecond millennium millisecond minute month nanosecond quarter second week year
+volume-quantity ::units barrel bottle bushel butt case cubic-centimeter cubic-foot cubic-inch cubic-kilometer cubic-meter cubic-mile cubic-millimeter cubic-yard cup firkin fluid-ounce gallon glass hogshead kilderkin liter microliter milliliter peck pint quart tablespoon teaspoon
+
+::TYPE UNIT
+base-pair
+cubic-centimeter
+cubic-foot ::comment hand-checked
+cubic-inch
+cubic-kilometer
+cubic-meter
+cubic-mile
+cubic-millimeter
+cubic-yard
+fluid-ounce
+gram-per-milliliter
+kilo-base-pair
+kilo-ohm
+kilogram-per-cubic-meter
+kilometer-per-hour
+kilowatt-hour
+light-year
+mega-ohm
+meter-per-second 
+mile-per-gallon
+mile-per-hour
+microgram-per-gram 
+microgram-per-milliliter
+microgram-per-square-centimeter
+microgram-per-square-meter
+milligram-per-kilogram
+milligram-per-milliliter
+milligram-per-square-centimeter
+milligram-per-square-meter
+milliunit-per-milliliter
+molecule-per-femtoliter
+nanogram-per-milliliter
+parts-per-million
+parts-per-million-by-volume
+picogram-per-milliliter
+rotation-per-minute
+square-angstrom
+square-foot ::comment hand-checked
+square-inch
+square-kilometer
+square-meter
+square-centimeter
+square-millimeter
+square-mile ::comment hand-checked
+square-yard ::comment hand-checked
+square-yard
+unit-per-milliliter
+
+::TYPE ENTITY
+date-entity
+email-address-entity
+ordinal-entity
+percentage-entity
+phone-number-entity
+publication-91
+rate-entity-91
+score-entity
+string-entity
+truth-value
+url-entity
+variable
+
+::TYPE INTERVAL
+date-interval
+value-interval
+
+::TYPE NE_TYPE
+aircraft
+aircraft-type
+airport
+amino-acid
+amusement-park
+animal
+award
+bay
+building
+book
+bridge
+broadcast-program
+canal
+canyon
+car-make
+cell
+cell-line
+city
+city-district
+company
+conference
+constellation
+continent
+country
+county
+country-region
+criminal-organization
+desert
+disease
+dna-sequence
+earthquake
+enzyme
+ethnic-group
+event
+facility
+family
+festival
+food-dish
+forest
+game
+gene
+government-organization
+gulf
+hotel
+incident
+island
+journal
+lake
+language
+law
+league
+local-region
+location
+macro-molecular-complex
+magazine
+market
+market-sector
+medical-condition
+military
+molecular-physical-entity
+moon
+mountain
+museum
+music
+music-key
+musical-note
+nationality
+natural-disaster
+natural-object
+newspaper
+nucleic-acid
+ocean
+organization
+palace
+park
+pathway
+peninsula
+person
+picture
+planet
+political-movement
+port
+product
+protein
+protein-family
+protein-segment
+province
+political-party
+publication
+railway-line
+regional-group
+religious-group
+research-institute
+river
+road
+school
+sea
+ship
+show
+small-molecule
+spaceship
+species
+sports-facility
+star
+state
+station
+strait
+taxon
+team
+territory
+theater
+thing
+treaty
+tunnel
+university
+valley
+vehicle
+volcano
+war
+work-of-art
+world-region
+worship-place
+zoo
+
+::TYPE MILITARY-RANK
+commander-in-chief ::comment hand-checked
+lieutenant-colonel
+brigadier-general
+colonel-general
+major-general
+lieutenant-general
+senior-commander
+
+::TYPE GENERAL
+name
+xref
+more
+most
+less
+least
+and
+or
+and-or
+amr-choice
+amr-empty
+amr-unintelligible
+amr-unknown
+multi-sentence
+multi-index-card
+relative-position
+smr-empty
+
+add-modification-00
+age-01
+be-destined-to-91
+be-from-91
+be-located-at-91
+be-temporally-at-91
+benefit-01
+binding-affinity-91
+byline-91
+cause-01
+concern-02
+contrast-01
+correlate-91
+cost-01
+course-91
+describe-01
+emoticon
+encode-01
+equal-01
+exemplify-01
+have-03
+have-concession-91
+have-condition-91
+have-degree-91
+have-degree-92
+have-degree-of-resemblance-91
+have-frequency-91
+have-instrument-91
+have-li-91
+have-manner-91
+have-mod-91
+have-mode-91
+have-name-91
+have-org-role-91
+have-part-91
+have-polarity-91
+have-purpose-91
+have-rel-role-91
+have-quant-91
+have-subevent-91
+hyperlink-91
+include-91
+infer-01
+instead-of-91
+last-01
+manner
+mean-01
+multiple
+number
+opine-01
+own-01
+receive-01
+say-01
+score-on-scale-91
+statistical-test-91
+street-address-91
+time
+year
+you
+
+brother-in-law
+daughter-in-law
+father-in-law
+mother-in-law
+sister-in-law
+son-in-law
+significant-other
+
+at-least
+at-most ::comment hand-checked
+close-to ::alt-concept close-10 ::comment hand-checked This sense is limited to quantity modifiers, e.g. close to $10.
+difference-of ::comment This sense is limited to math.
+in-front-of ::comment hand-checked
+less-than ::comment hand-checked This sense is limited to quantity modifiers, e.g. less than $10.
+logarithm-of
+more-than ::alt-concept no-more-than ::comment hand-checked This sense is limited to quantity modifiers, e.g. more than $10.
+next-to ::comment hand-checked
+no-more-than ::comment hand-checked This sense is limited to quantity modifiers, e.g. no more than $10.
+power-of ::comment hand-checked This sense is limited to math, e.g. two to the power of ten (= 1024).
+product-of ::comment hand-checked This sense is limited to math.
+quotient-of ::comment This sense is limited to math.
+ratio-of ::comment This sense is limited to math.
+root-of ::comment hand-checked This sense is limited to math.
+sum-of ::comment hand-checked This sense is limited to math.
+up-to ::comment hand-checked This sense is limited to quantity modifiers, e.g. up to $10.
+mathematical-constant-e
+mathematical-constant-pi
+mathematical-imaginary-unit-i
+
+acid-dissociation-constant
+association-rate
+affinity-constant
+catalytic-constant
+dissociation-constant
+dissociation-rate
+inhibitor-constant
+michaelis-constant
+power-of-dissociation-constant
+power-of-inhibitor-constant
+
+hat-trick
+running-back
+tight-end
+wide-receiver
+
+a-priori
+able-bodied
+about-to ::comment hand-checked
+absent-minded
+ad-hoc
+ad-hominem
+ad-nauseam
+affirmative-action
+after-all ::exclude after all these; after all those; after all that ::comment hand-checked
+after-hours
+age-old
+air-conditioning
+all-along
+all-around ::comment hand-checked
+all-but ::alt-concept except-01 ::exclude at all but; not all but; all but one
+all-in-all
+all-out ::comment hand-checked
+all-over ::comment hand-checked
+all-right ::exclude all rights ::comment hand-checked
+all-the-way ::exclude all the ways
+alma-mater
+alternating-current
+around-the-clock
+as-a-matter-of-fact
+as-far-as ::comment hand-checked
+as-hell
+as-is ::comment hand-checked
+as-long-as ::comment hand-checked
+as-many-as ::comment hand-checked
+as-much-as ::comment hand-checked
+as-of      ::comment hand-checked
+as-soon-as ::comment hand-checked
+as-such ::comment hand-checked
+as-usual ::comment hand-checked
+as-well ::exclude as well as; might as well ::comment hand-checked This sense is limited to 'also', e.g. I am sick as well.22
+as-yet
+ass-off
+at-a-time
+at-all ::exclude at all cost; at all concentrations; at all doses; at all levels; at all times; at all time points; at all timepoints; at all the ::comment This sense is limited to 'in any way/to any degree', e.g.: I'm not tired at all.
+at-all-cost
+at-best
+at-first ::exclude at first glance; at first sight; at First Baptist Church
+at-large
+at-last ::exclude at last (week|month|year|night|minute|count)
+at-once ::alt-concept at-once-01; at-once-02
+at-times ::exclude at times like this
+at-will
+at-worst
+attorney-at-law
+au-naturel
+au-pair
+bad-ass
+bald-faced ::comment Sense of 'shameless'. E.g.: (lie-08 :mod bald-faced)
+bam
+bang-up
+bank-teller
+beside-the-point
+best-man ::comment hand-checked This sense is limited to the "best man" at a wedding.
+beyond-the-pale
+big-time
+bit-by-bit
+black-and-white ::comment hand-checked This sense is limited to the figurative 'unnuanced', e.g. The real world isn't so black and white.
+blah-blah-blah ::include blah-blah; bla-bla
+blu-ray
+blue-collar
+bona-fide
+boo-hoo
+by-all-means ::comment hand-checked
+by-and-large
+by-heart
+by-no-means ::alt-concept by-all-means ::include by-any-means ::comment hand-checked (not by-any-means = by-no-means); but by-any-means sometimes means by-all-means.
+by-oneself ::include by-myself; by-yourself; by-himself; by-herself; by-itself; by-ourselves; by-yourselves; by-themselves; for-myself; for-yourself; for-himself; for-herself; for-itself; for-ourselves; for-yourselves; for-themselves ::exclude take a week for yourself; goals for yourself ::comment hand-checked
+by-the-way
+case-by-case
+cavum-articulare
+charge-d-affaires
+clear-cut
+coffee-shop
+comb-over
+concentration-camp
+country-by-country
+court-decision
+cutting-edge
+dab-hand
+data-bank
+day-by-day
+de-facto
+dead-on ::exclude dead on arrival; Dead on Time ::comment hand-checked
+deep-down
+dial-up
+die-hard
+direct-current
+dot-com ::comment hand-checked
+down-to-earth
+drive-by
+drive-through ::comment hand-checked
+due-process
+end-all
+et-cetera
+euro-cent
+even-as ::comment hand-checked
+even-if ::comment See AMR Dict under :concession, section "even if, even when, even as"
+even-when ::comment See AMR Dict under :concession, section "even if, even when, even as"
+ex-vivo
+exclamation-mark
+eye-to-eye
+face-to-face ::comment hand-checked
+fail-safe
+far-and-away
+far-fetched
+fender-bender
+five-prime-end
+first-hand
+first-of-all
+flash-bang
+flat-out
+for-all ::comment hand-checked
+for-all-intents-and-purposes
+for-once ::comment hand-checked
+full-gear
+full-on
+full-scale
+full-time
+g-string
+get-go
+grade-point-average
+grass-roots
+great-grandchild
+great-granddaughter
+great-grandfather
+great-grandmother
+great-grandparent
+great-grandson
+grown-up ::alt-concept grow-up-04 ::comment Sense of 'adult (person)'
+growth-factor ::comment hand-checked
+guinea-pig
+half-baked
+hand-in-hand
+har-har ::alt-concept hardy-har-har
+hardy-har-har
+head-of-state
+head-to-head
+heads-up ::comment hand-checked
+heart-attack
+heavy-duty
+heavy-set
+heck-of
+heh-heh
+herp-derp
+high-end
+high-heaven
+high-on-the-hog
+high-school
+high-technology
+hip-hop
+hit-and-run
+hmm
+ho-hum
+hoi-polloi
+honky-tonk
+hoo-ha
+hook-line-and-sinker
+hot-dog
+humbug
+ice-cream
+in-a-row
+in-all ::exclude in all the world ::comment hand-checked
+in-concert
+in-depth
+in-due-course
+in-excess-of ::alt-concept exceed-01
+in-fact ::exclude in facts ::comment hand-checked
+in-name
+in-order ::alt-concept order-03 ::exclude in order to ::comment hand-checked This sense is limited to 'OK' e.g. His papers are in order.
+in-own-right
+in-place ::exclude in place of; in places; Place Canape Vert; end the war in place ::comment This sense is limited to 'ready to work', e.g. The program is fully in place now.
+in-principle
+in-reality ::comment hand-checked
+in-respect ::include in-this-respect; in-that-respect ::exclude in respect due
+in-short ::exclude in short order; in short supply; in short sleeves; in short-term; in short - term
+in-situ
+in-specie
+in-the-bag ::comment hand-checked
+in-the-first-place
+in-time ::exclude in times; point in time; in Time Magazine; in time\s*-\s*control; in space and in time; difference in time; go back in time; in time to come; a slice in time; lost in time
+in-turn
+in-vitro
+in-vivo
+in-waiting ::exclude Angels in Waiting
+inside-out
+jack-shit
+just-so ::comment hand-checked
+kind-of ::include kinda ::alt-concept kind-yy ::exclude (a|some) kind of; what kind of ::comment This sense is limited to downtoners, e.g. She is kind of sad. (sad-02 :degree kind-of)
+know-how ::exclude know how ::comment This sense is limited to cases such as: He has the know-how to perform the task..
+large-scale
+last-ditch
+lata-sententia ::include latae-sententiae
+left-handed
+let-alone
+line-item ::comment hand-checked
+little-by-little
+low-key
+low-life
+low-technology
+lump-sum
+matter-of-fact ::alt-concept as-a-matter-of-fact
+mercalli-intensity ::comment hand-checked
+mid-term
+middle-school
+mock-up
+modern-day
+modus-operandi
+molecular-mass
+mom-and-pop
+month-by-month
+more-or-less ::comment hand-checked
+mountain-range
+narrow-minded
+neo-keynesian
+new-age
+no-brainer
+no-longer ::exclude no longer than
+no-one ::alt-concept anyone ::comment hand-checked
+nom-de-guerre
+non-sequitur
+nothing-but ::comment hand-checked
+now-and-then
+nth-in-command
+of-course ::exclude of courses
+off-the-cuff
+off-the-shelf
+off-topic
+oh-gosh
+oh-my-god
+oh-no
+oh-well
+oh-yeah
+on-and-on ::alt-concept et-cetera; go-on-15; go-on-25
+on-par
+on-point
+on-schedule
+on-site ::exclude on sites
+on-the-fly
+on-the-money ::comment hand-checked
+on-the-spot ::comment hand-checked
+on-the-whole ::comment hand-checked
+on-time ::comment hand-checked
+on-topic
+once-and-for-all
+once-upon-a-time ::comment hand-checked
+one-after-another
+one-after-one
+one-by-one
+one-night-stand
+one-of-a-kind
+one-on-one
+one-sided
+one-way ::exclude one way or the other; one way or another ::comment hand-checked
+ooh-rah
+op-ed
+open-air
+order-of-magnitude
+out-of ::alt-concept out-03; out-05; out-06; out-of-hand-10; run-out-05 ::comment hand-checked This sense is limited to :direction out of, e.g. He drove out of the city. Do not use if there is a suitable frame argument.
+out-there ::comment hand-checked
+over-and-over
+over-the-top
+over-time ::exclude working overtime ::comment hand-checked This sense is limited to 'as time passes', e.g. It will get better over time. By contrast, use 'overtime' for 'to work overtime'.
+part-time
+pepper-spray
+per-se
+pfft
+play-by-play
+political-action-committee ::include PAC ::exclude Patriot PAC
+pom-pom
+post-scriptum
+pot-head
+powers-that-be
+pretty-much
+private-first-class
+prolyl-isomerase
+rank-and-file
+real-estate
+real-time
+riff-raff
+right-away
+right-handed
+right-off ::include right-off-the-bat
+rock-n-roll
+role-model
+roller-coaster
+rough-and-ready
+round-table
+round-trip
+runner-up
+running-mate
+same-sex ::comment hand-checked
+science-fiction
+scot-free ::include scott-free
+screen-saver
+sea-lion
+search-engine
+self-righteous
+shoo-in
+side-by-side
+single-handed
+small-scale
+smart-ass
+so-called
+so-far ::comment hand-checked This sense is limited to cases such as: I haven't talked to him so-far. (:time so-far)
+so-to-speak
+solar-hijri
+son-of-a-bitch
+sort-of ::exclude (a|some) sort of; sort of thing ::comment hand-checked This sense is limited to downtoners, e.g. Swedish and Norwedish are sort of mutually intelligible.
+spot-on
+stand-alone ::comment hand-checked
+standard-deviation
+standard-error-of-the-mean
+state-of-the-art
+status-quo
+step-by-step
+stir-fry
+stock-in-trade
+sub-judice
+sub-par
+sub-prime
+sugar-cane
+sure-fire
+sweetie-pie
+t-shirt
+talk-show
+teeny-weeny
+think-tank
+third-party ::comment hand-checked This sense is limited to 'other than two primary sides', e.g. third-party provider. Do not use for a third political-party.
+three-prime-end
+through-and-through
+thus-far
+tight-knit
+time-and-again
+time-to-time
+tit-for-tat
+to-be-sure ::comment hand-checked
+to-date ::exclude up-to-date; to date him
+to-the-point ::comment hand-checked
+to-the-teeth
+to-wit
+tongue-in-cheek
+top-flight
+top-of-the-line
+tour-de-force
+trade-off
+tut-tut
+two-way
+uh-huh
+uh-oh
+under-the-table
+up-to-speed
+voice-over
+weapons-grade
+week-by-week
+white-collar
+whoop-de-do
+win-win
+walk-of-life
+wall-to-wall
+wishy-washy
+wild-type
+wind-farm
+world-class
+year-after-year
+year-by-year
+year-on-year ::comment hand-checked
+yo-yo
+yoo-hoo
+zeitgeber-time
+
+fly-yy
+fork-yy
+good-yy
+headquarters-yy
+independent-yy
+intelligence-yy
+kind-yy
+lead-yy
+mean-yy
+means-yy
+miss-yy
+patient-yy
+point-yy
+poo-poo-yy
+relative-yy
+right-yy
+safe-yy
+screw-yy
+speaker-yy
+superior-yy
+suspicion-yy
+union-yy
+well-yy

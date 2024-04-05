@@ -1,0 +1,13 @@
+STEM match for unaligned scandanavian :: Scandinavia :: DF-200-192451-579_6851.2 cjconsensus
+STEM match for unaligned european :: Europe :: DF-200-192451-579_6851.12 cjconsensus
+STEM match for unaligned americans :: America :: DF-200-192451-579_6851.14 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192451-579_6851.16 cjconsensus
+STEM match for unaligned minimise :: minimize-01 :: DF-200-192451-579_7073.2 cjconsensus
+STEM match for unaligned strangers :: stranger :: DF-200-192451-579_7073.12 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192451-579_7144.5 cjconsensus
+STEM match for unaligned libyans :: Libya :: DF-200-192451-579_7144.10 cjconsensus
+STEM match for unaligned crushingly :: crush-01 :: DF-200-192451-579_7144.25 cjconsensus
+STEM match for unaligned Sahelian :: Sahel :: DF-200-192451-579_7144.27 cjconsensus
+STEM match for unaligned press :: pressgang-01 :: DF-200-192451-579_7144.27 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192451-579_7144.30 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192451-579_7144.31 cjconsensus

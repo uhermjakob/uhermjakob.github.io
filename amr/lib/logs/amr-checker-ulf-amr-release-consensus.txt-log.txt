@@ -1,0 +1,8 @@
+STEM match for unaligned and :: and :: nw.wsj_0003.21 ulf
+STEM match for unaligned and :: and :: nw.wsj_0009.1 ulf
+STEM match for unaligned knowns :: know-01 :: nw.wsj_0010.6 ulf
+STEM match for unaligned friggin :: friggin' :: wb.eng_0003.12 ulf
+STEM match for unaligned Moreover :: more :: wb.eng_0003.49 ulf
+STEM match for unaligned and :: and :: wb.eng_0003.63 ulf
+STEM match for unaligned deman :: demand-01 :: wb.eng_0003.63 ulf
+STEM match for unaligned and :: and :: wb.eng_0003.83 ulf

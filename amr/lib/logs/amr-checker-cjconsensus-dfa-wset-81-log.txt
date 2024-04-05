@@ -1,0 +1,11 @@
+STEM match for unaligned sink :: sinkex-02 :: DF-212-191673-310_6362.8 cjconsensus
+STEM match for unaligned proccessed :: process-01 :: DF-212-191673-310_6362.9 cjconsensus
+STEM match for unaligned shipbuilding :: ship :: DF-212-191673-310_6362.15 cjconsensus
+STEM match for unaligned dryers :: dryer :: DF-212-191673-310_6362.25 cjconsensus
+STEM match for unaligned INdian :: India :: DF-212-191673-310_8652.17 cjconsensus
+STEM match for unaligned indiginously :: indigenous :: DF-212-191673-310_8652.19 cjconsensus
+STEM match for unaligned HUMANETARIAN :: humanitarian :: DF-212-191673-310_8652.25 cjconsensus
+STEM match for unaligned ASIAN :: Asia :: DF-212-191673-310_8652.25 cjconsensus
+STEM match for unaligned MAGARS :: Magar :: DF-212-191673-310_8652.27 cjconsensus
+STEM match for unaligned HUMANETERIAN :: humanitarian :: DF-212-191673-310_8652.28 cjconsensus
+STEM match for unaligned AMERICANS :: America :: DF-212-191673-310_8652.30 cjconsensus

@@ -1,0 +1,14 @@
+STEM match for unaligned 61 :: 61 :: nw.wsj_0001.1 aanisie
+STEM match for unaligned years :: year :: nw.wsj_0001.1 aanisie
+STEM match for unaligned 29 :: 29 :: nw.wsj_0001.1 aanisie
+STEM match for unaligned 55 :: 55 :: nw.wsj_0002.1 aanisie
+STEM match for unaligned years :: year :: nw.wsj_0002.1 aanisie
+STEM match for unaligned filters :: filter :: nw.wsj_0003.1 aanisie
+STEM match for unaligned workers :: work :: nw.wsj_0003.1 aanisie
+STEM match for unaligned years :: year :: nw.wsj_0003.1 aanisie
+STEM match for unaligned decades :: decade :: nw.wsj_0003.2 aanisie
+STEM match for unaligned yields :: yield-03 :: nw.wsj_0004.10 aanisie
+STEM match for unaligned investors :: invest-01 :: nw.wsj_0004.10 aanisie
+STEM match for unaligned investors :: invest-01 :: nw.wsj_0004.10 aanisie
+STEM match for unaligned comparable :: comparable :: nw.wsj_0004.12 aanisie
+STEM match for unaligned comparable :: comparable :: nw.wsj_0004.12 aanisie

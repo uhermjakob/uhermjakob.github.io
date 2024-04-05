@@ -1,0 +1,16 @@
+TITLE :domain
+HIGHLIGHT-RED :domain
+
+This role is used in constructions such as <i>... is &lt;noun&gt;</i> and <i>... is &lt;adjective&gt;</i>:
+
+EXAMPLE isi_0002.24 My cousin is a lawyer.
+
+EXAMPLE isi_0001.7 The girl is sad.
+
+If there is a specific frame for an adjective, such as for <i>possible</i>, use that frame and its :ARGx instead.
+
+The role :domain is also used under modal concepts such as <i>likely</i>:
+
+EXAMPLE isi_0001.10 The boy is likely to go.
+
+

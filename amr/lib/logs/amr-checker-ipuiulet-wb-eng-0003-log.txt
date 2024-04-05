@@ -1,0 +1,7 @@
+STEM match for unaligned late :: late :: wb.eng_0003.4 ipuiulet
+STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.4 ipuiulet
+STEM match for unaligned years :: year :: wb.eng_0003.19 ipuiulet
+STEM match for unaligned years :: year :: wb.eng_0003.19 ipuiulet
+STEM match for unaligned Thanks :: thank-01 :: wb.eng_0003.25 ipuiulet
+STEM match for unaligned 30 :: 30 :: wb.eng_0003.34 ipuiulet
+STEM match for unaligned EMR :: EMR :: wb.eng_0003.65 ipuiulet

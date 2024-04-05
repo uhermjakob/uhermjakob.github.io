@@ -1,0 +1,4 @@
+STEM match for unaligned Chapter :: chapter :: lpp_1943.1024 timjogorman
+STEM match for unaligned Chapter :: chapter :: lpp_1943.1024 timjogorman
+STEM match for unaligned obliged :: obligate-01 :: lpp_1943.1038 timjogorman
+STEM match for unaligned Ah :: ah :: lpp_1943.1053 timjogorman

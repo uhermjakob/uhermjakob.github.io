@@ -1,0 +1,6 @@
+STEM match for unaligned and :: and :: DF-200-192448-618_9494.2 cjconsensus
+STEM match for unaligned differentiated :: differ-02 :: DF-200-192448-618_9494.18 cjconsensus
+STEM match for unaligned Reposting :: repost-01 :: DF-200-192448-618_9503.1 cjconsensus
+STEM match for unaligned legitimise :: legitimize-01 :: DF-200-192448-618_9503.12 cjconsensus
+STEM match for unaligned ostracising :: ostracize-01 :: DF-200-192448-618_9503.12 cjconsensus
+STEM match for unaligned neutralises :: neutralize-01 :: DF-200-192448-618_9503.22 cjconsensus

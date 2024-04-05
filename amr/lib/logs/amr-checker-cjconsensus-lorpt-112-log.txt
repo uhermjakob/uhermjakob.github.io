@@ -1,0 +1,12 @@
+STEM match for unaligned Colo. :: Colorado :: NW_FLO_ENG_0110_2004_1230.5 cjconsensus
+STEM match for unaligned Colo. :: Colorado :: NW_FLO_ENG_0110_2004_1230.5 cjconsensus
+STEM match for unaligned and :: and :: NW_FLO_ENG_0110_2004_1230.5 cjconsensus
+STEM match for unaligned and :: and :: NW_FLO_ENG_0110_2004_1230.5 cjconsensus
+STEM match for unaligned worrisome :: worry-01 :: NW_FLO_ENG_0110_2004_1230.10 cjconsensus
+STEM match for unaligned and :: and :: NW_FLO_ENG_0110_2004_1230.13 cjconsensus
+STEM match for unaligned scary :: scare-01 :: NW_FLO_ENG_0110_2004_1230.20 cjconsensus
+STEM match for unaligned missle :: missile :: NW_FLO_ENG_0110_2004_1230.25 cjconsensus
+STEM match for unaligned missle :: missile :: NW_FLO_ENG_0110_2004_1230.25 cjconsensus
+STEM match for unaligned precursor :: precede-01 :: NW_FLO_ENG_0110_2004_1230.25 cjconsensus
+STEM match for unaligned and :: and :: NW_FLO_ENG_0110_2004_1230.31 cjconsensus
+STEM match for unaligned suitability :: suitable-04 :: NW_FLO_ENG_0110_2004_1230.34 cjconsensus

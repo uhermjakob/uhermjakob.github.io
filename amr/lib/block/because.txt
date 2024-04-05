@@ -1,0 +1,15 @@
+TITLE because
+HIGHLIGHT-RED cause-01
+HIGHLIGHT-BLUE because of
+HIGHLIGHT-BLUE because
+
+because and because of are annotated using cause-01.
+
+EXAMPLE nw.wsj_0790.54 Cars can't move because of overflowing sewers.
+
+Shortcut :cause available, e.g. &quot;m :cause overflow&quot;.
+<p>
+This also applies for implied causes such as:
+
+EXAMPLE isi_0002.17 10% of smokers die of lung cancer.
+

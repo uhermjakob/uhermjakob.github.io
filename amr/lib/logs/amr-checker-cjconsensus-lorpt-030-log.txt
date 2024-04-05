@@ -1,0 +1,4 @@
+STEM match for unaligned firetrucks :: fire :: NW_AFP_ENG_0031_2009_1217.4 cjconsensus
+STEM match for unaligned firetrucks :: firetruck :: NW_AFP_ENG_0031_2009_1217.4 cjconsensus
+STEM match for unaligned neighbouring :: neighbor-01 :: NW_AFP_ENG_0031_2009_1217.11 cjconsensus
+STEM match for unaligned and :: and :: NW_AFP_ENG_0031_2009_1217.13 cjconsensus

@@ -1,0 +1,7 @@
+STEM match for unaligned and :: and :: DF-200-192434-451_7650.5 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192434-451_7881.1 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192434-451_7881.1 cjconsensus
+STEM match for unaligned imperfections :: perfect-02 :: DF-200-192434-451_7881.1 cjconsensus
+STEM match for unaligned i :: i :: DF-200-192434-451_7881.7 cjconsensus
+STEM match for unaligned sickness :: sick-02 :: DF-200-192434-451_7881.7 cjconsensus
+STEM match for unaligned kinda :: kind-yy :: DF-200-192434-451_7881.13 cjconsensus

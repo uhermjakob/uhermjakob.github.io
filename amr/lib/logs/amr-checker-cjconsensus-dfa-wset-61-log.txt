@@ -1,0 +1,7 @@
+STEM match for unaligned Transferable :: transfer-01 :: DF-200-192448-619_1289.1 cjconsensus
+STEM match for unaligned localised :: localize-01 :: DF-200-192448-619_1289.7 cjconsensus
+STEM match for unaligned disproportionalities :: disproportionality :: DF-200-192448-619_1289.8 cjconsensus
+STEM match for unaligned invaluable :: value-01 :: DF-200-192448-619_1297.6 cjconsensus
+STEM match for unaligned invaluable :: invade-01 :: DF-200-192448-619_1297.6 cjconsensus
+STEM match for unaligned financing :: finance-01 :: DF-200-192448-619_1297.6 cjconsensus
+STEM match for unaligned extremeists :: extremist :: DF-200-192448-619_1297.10 cjconsensus

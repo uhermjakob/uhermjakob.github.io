@@ -1,0 +1,41 @@
+TITLE pertainymns
+HIGHLIGHT-RED microbe
+HIGHLIGHT-RED Canada
+HIGHLIGHT-RED Germany
+HIGHLIGHT-RED governor
+HIGHLIGHT-RED Netherlands
+HIGHLIGHT-BLUE microbial
+HIGHLIGHT-BLUE Canadian
+HIGHLIGHT-BLUE Dutch
+HIGHLIGHT-BLUE German
+HIGHLIGHT-BLUE gubernatorial
+
+Some adjectives can be mapped to a nominal form, e.g. microbial &rarr; microbe.<br>
+(But don't follow the suggestions blindly, because many of them were generated 
+automatically using external resources.)
+<ul>
+   <li> Canadian &rarr; Canada
+   <li> gubernatorial &rarr; governor
+   <li> microbial &rarr; microbe
+</ul>
+
+Generally, annotating an adjective in its nominal form should result in a shorter word,
+but there are exceptions:
+<ul>
+   <li> German &rarr; Germany 
+   <li> Dutch &rarr; Netherlands
+</ul>
+
+EXAMPLE isi_0002.74 microbial virus
+
+EXAMPLE isi_0002.5 20 Canadian dollars
+
+EXAMPLE isi_0002.73 A special gubernatorial election will take place next Tuesday .
+
+<h2>Examples where <span style="text-decoration:underline;">not</span> to nominalize</h2>
+
+<ul>
+   <li> simple (not simplicity)
+   <li> executive (not execution)
+   <li> recent (not recency)
+</ul>

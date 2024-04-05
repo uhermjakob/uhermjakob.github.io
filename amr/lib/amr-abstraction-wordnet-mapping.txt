@@ -1,0 +1,72 @@
+act 00030358 noun
+administrative-body 08077292 noun
+animal 00015388 noun
+artefact 00021939 noun
+beverage 07881800 noun
+body-of-water 09225146 noun
+building 02913152 noun
+causal-agency 00007347 noun
+celestial-body 09239740 noun
+city 08540903 noun # organization
+city 08626283 noun # municipality
+city 08226699 noun # village
+color 04959672 noun
+company 08058098 noun
+compass-point 13830305 noun
+competition 07456188 noun # event with winners and loosers
+country 08544813 noun # land
+country 08168978 noun # organization
+decision-maker 09770949 noun
+disease 14070360 noun
+earthquake 07428954 noun
+educational-institution 08276342 noun
+entity 00001740 noun
+enzyme 14732946 noun
+establishment 03297735 noun
+event 00029378 noun
+facility 03315023 noun
+food 07555863 noun
+forest 09284015 noun
+gene 05436752 noun
+geological-phenomenon 11417672 noun
+instrument 03574816 noun # tool
+island 09316454 noun
+knowledge 00023271 noun
+language 06282651 noun
+law 06532330 noun
+liquid 14940386 noun
+location 00027167 noun
+macromolecule 14944888 noun
+molecule 14682133 noun
+motion 00279835 noun # changing location
+organization 08008335 noun
+perception 05708432 noun
+person 00007846 noun
+physical-object 00002684 noun
+plant 00017222 noun # bio
+political-party 08256968 noun
+product 04007894 noun
+professional-person 10480253 noun
+protein 14728724 noun
+province 08654360 noun
+publication 06589574 noun # a copy of a printed work offered for distribution
+region 08630985 noun
+relative 10235549 noun
+road 04096066 noun
+skilled-worker 10605985 noun
+social-group 07950920 noun
+statement 06722453 noun
+substance 00019613 noun
+vehicle 04524313 noun
+
+acquire 02210855 verb
+act 02367363 verb
+change 00109660 verb
+communicate 00740577 verb
+die 00358431 verb
+express 00940384 verb
+know 00594621 verb
+move 01835496 verb
+perceive 02106506 verb
+think 00689344 verb
+transfer 02220461 verb

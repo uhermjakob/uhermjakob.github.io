@@ -1,0 +1,259 @@
+﻿
+﻿
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="max-age=3600" />
+    <title>check ulf</title>
+    <link rel="stylesheet" type="text/css" href="http://www.isi.edu/~ulf/css/handheld/default.css" media="handheld"/>
+    <link rel="stylesheet" type="text/css" href="http://www.isi.edu/~ulf/css/handheld/default.css" media="only screen and (max-device-width:480px)"/>
+   <link rel="shortcut icon" href="http://www.isi.edu/~ulf/amr/images/AMR-favicon.ico">
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+       if ((s = document.getElementById(id)) != null) {
+          if (s.style.display == 'none') {
+             s.style.display = 'inline';
+          } else {
+             s.style.display = 'none';
+          }
+       }
+    }
+
+    function toggle_group(group_id, url, new_search_help_id) {
+       if (((s = document.getElementById('new_search_on_next_click_p')) == null) || (s.value == 0)) {          
+          i = 1;         
+          id = group_id + '_' + i;
+          while ((s = document.getElementById(id)) != null) {
+             if (s.style.display == 'none') {
+                s.style.display = 'inline';
+             } else {
+                s.style.display = 'none';
+             }
+             i = i + 1;
+             id = group_id + '_' + i;
+          }
+       }
+
+       if ((s = document.getElementById('new_search_on_next_click_p')) != null) {
+          new_search_value = s.value;
+          s.value = 0;
+          if ((new_search_help_id != 0) && ((s2 = document.getElementById(new_search_help_id)) != null)) {
+             s2.style.display = 'none';
+          }
+          if ((new_search_value == 1) && (url != 0)) {
+             popUpBottom(url,750,400);
+          }
+       }
+    }
+
+    function popUpBottom(URL,width,height) {
+       day = new Date();
+       id = day.getTime();
+       eval("myWindow = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=" + width + ",height=" + height + "');");
+    }
+
+    function popUpWarning(warning) {
+       newwindow=window.open('','Warning','height=160,width=400,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
+       var tmp = newwindow.document;
+       tmp.write('<html>\n');
+       tmp.write('  <head><title>AMR Editor Warning</title></head>\n');
+       tmp.write('  <body' + ' style="background-color:#FFFFEE;">\n');
+       tmp.write('    <h3>Warning</h3>\n');
+       tmp.write('    ' + warning + '\n');
+       tmp.write('    <p>\n');
+       tmp.write('    <input type="submit" title="Close this window." value="OK" onclick="self.close();">\n');
+       tmp.write('  </body>\n');
+       tmp.write('</html>\n');
+       tmp.close();
+    }
+
+    function new_search_on_next_click(new_search_help_id) {
+       if ((s = document.getElementById(new_search_help_id)) != null) {
+          s.style.display = 'inline';
+       }
+       if ((s = document.getElementById('new_search_on_next_click_p')) != null) {
+          s.value = 1;
+       }
+    }
+
+    function set(id, value) {
+       if ((s = document.getElementById(id)) != null) {
+	  s.value = value;
+       }
+    }
+
+    function set_group_pairwise(snt_id, odd_value, even_value) {
+       gi = 0;
+       group_id = snt_id + '_' + gi;
+       i = 1;
+       id = group_id + '_' + i;
+       while (((s = document.getElementById(id)) != null) || (gi == 0)) {
+          while ((s = document.getElementById(id)) != null) {
+	     s.style.display = odd_value;
+             i = i + 1;
+	     id = group_id + '_' + i;
+	     if ((s = document.getElementById(id)) != null) {
+	        s.style.display = even_value;
+	     }
+             i = i + 1;
+	     id = group_id + '_' + i;
+          }
+          gi = gi + 1;
+          group_id = snt_id + '_' + gi;
+          i = 1;
+          id = group_id + '_' + i;
+       }
+    }
+
+    function clear(id) {
+       if (s = document.getElementById(id)) {
+          s.value = '';
+       }
+    }
+
+    function goto_page_loc(hash, id, y) {
+       var s ;
+       var page_dynamically_created_p = 0;
+       if (page_dynamically_created_p) {
+          if ((s = document.getElementById(id)) != null) {
+             s.checked = "true";
+             s.focus();
+             if (document.body.scrollTop > 0) {
+               document.body.scrollTop += y;
+             } else {
+               // document.body.scrollTop = document.body.scrollHeight;
+               // s.focus();
+             }
+          } 
+       } else {
+          window.location.hash = hash;
+          if ((s = document.getElementById(id)) != null) {
+             s.checked = "true";
+          }
+       }
+    }
+
+    function redirect(url) {
+       window.location = url;
+    }
+
+    
+   function highlight_elems(group_id, value) {
+      if (group_id != '') {
+         i = 1;
+         id = group_id + '-' + i;
+         while ((s = document.getElementById(id)) != null) {
+	    if (! s.origColor) {
+	       if (s.style.color) {
+	          s.origColor = s.style.color;
+	       } else {
+	          s.origColor = '#000000';
+	       }
+	    }
+	    if (value == '1') {
+	       s.style.color = '#0000FF';
+	       if (s.innerHTML == '-') {
+		  s.style.innerHtml = s.innerHTML;
+		  s.innerHTML = '- &nbsp; &#x2190; <i>here</i>';
+	          s.style.fontWeight = 900;
+	       } else {
+	          s.style.fontWeight = 'bold';
+	       }
+	    } else {
+	       s.style.fontWeight = 'normal';
+	       s.style.color = s.origColor;
+	       if (s.style.innerHtml != null) {
+	          s.innerHTML = s.style.innerHtml;
+	       }
+	    }
+	    i = i + 1;
+	    id = group_id + '-' + i;
+         }
+      }
+   }
+
+    function popUpBottom(URL,width,height) {
+       day = new Date();
+       id = day.getTime();
+       eval("myWindow = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=" + width + ",height=" + height + "');");
+    }
+
+    function posteditAMR(snt_id,username,workset_name,button_tr_id) {
+       if ((s = document.getElementById(button_tr_id)) != null) {
+	  s.style.backgroundColor = "#7799FF";
+	  var logsid = get_logsid();
+	  if ((logsid == '') && ((s2 = document.getElementById('logsid')) != null)) {
+	     logsid = s2.value;
+	  }
+	  var newWindow=window.open('','postedit');
+	  newWindow.focus();
+	  var tmp = newWindow.document;
+	  tmp.write('<html>\n  <head><title>postedit</title></head>\n');
+	  tmp.write('  <body style="background-color:#FFFFEE;" onload="document.getElementById(\'postedit-amr\').submit();">\n');
+	  tmp.write('    <form name="postedit-amr" id="postedit-amr" enctype="multipart/form-data" action="http://www.isi.edu/cgi-bin/div3/mt/amr-editor/load-amr.cgi" method="post">\n');
+	  tmp.write('      <input type="hidden" id="workset-p"     name="workset-p"     value="1">\n');
+	  tmp.write('      <input type="hidden" id="logsid"        name="logsid"        value="' + logsid       + '">\n');
+	  tmp.write('      <input type="hidden" id="load-username" name="load-username" value="' + username     + '">\n');
+	  tmp.write('      <input type="hidden" id="workset-name3" name="workset-name3" value="' + workset_name + '">\n');
+	  tmp.write('      <input type="hidden" id="current-workset-snt-id" name="current-workset-snt-id" value="' + snt_id + '">\n');
+	  tmp.write('      <input type="hidden" id="amr-editor-load-command" name="amr-editor-load-command" value="Load AMR at ISI for post-editing">\n');
+	  tmp.write('      <input type="hidden" id="load-amr-editor-file" name="load-amr-editor-file" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c.html">\n');
+	  tmp.write('    </form>\n');
+	  tmp.write('  </body>\n');
+	  tmp.write('</html>\n');
+	  tmp.close();
+       }
+    }
+
+    function get_logsid () {
+       var cookies = document.cookie.split(";");
+       for (var i=0;i<cookies.length;i++) {
+          var cookie = cookies[i];
+          if (cookie.match(/AMR_editor_login=/)) {
+             return cookie.replace(/^\s*AMR_editor_login=(.*)$/, "$1");
+          }
+       }
+       return '';
+    }
+
+   function set_style_for_ids(style,id_list) {
+      var ids = id_list.split(/\s+/);
+      var len = ids.length;
+      var s;
+      for (var i=0; i<len; i++) {
+	 var id = ids[i];
+	 if ((s = document.getElementById(id)) != null) {
+	    s.setAttribute("style", style);
+	    s.style.cssText = style;
+	 }
+      }
+   }
+
+   function reset_style_for_ids(default_style,id_list) {
+      var ids = id_list.split(/\s+/);
+      var len = ids.length;
+      var s;
+      for (var i=0; i<len; i++) {
+	 var id = ids[i];
+	 if ((s = document.getElementById(id)) != null) {
+	    var ostyle = default_style;
+	    if (s.hasAttribute("ostyle")) {
+	       ostyle = s.getAttribute("ostyle");
+	    }
+	    s.setAttribute("style", ostyle);
+	    s.style.cssText = ostyle;
+	 }
+      }
+   }
+
+    -->
+    </script>
+  </head>
+  <body bgcolor="#FFFFEE">
+<table width="100%" border="0" cellpadding="3" cellspacing="0"><tr bgcolor="#BBCCFF"><td>&nbsp; <b><font class="large1" size="+1">AMR Checker</font></b> &nbsp; &nbsp; le-petit-prince-b &nbsp; &nbsp; <span style="color:#777777;">for annotator</span>&nbsp; ulf &nbsp; &nbsp; <span style="color:#777777;">Sat May 25, 2013 at 12:27:44</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#summary" title="Jump to the summary at the bottom of this page." style="color:#777777;">summary</a></td></tr></table>
+<a name="summary">
+<p><b>Congratulations!</b> &nbsp; No errors detected in 224 sentences examined by the AMR Checker
+ &nbsp; &nbsp; <span style="color:#777777;">(lpp_1943.208, lpp_1943.209, lpp_1943.210, lpp_1943.211, lpp_1943.212, lpp_1943.213, lpp_1943.214, lpp_1943.215, lpp_1943.216, lpp_1943.217, lpp_1943.218, lpp_1943.219, lpp_1943.220, lpp_1943.221, lpp_1943.222, lpp_1943.223, lpp_1943.224, lpp_1943.225, lpp_1943.226, lpp_1943.227, lpp_1943.228, lpp_1943.229, lpp_1943.230, lpp_1943.231, lpp_1943.232, lpp_1943.233, lpp_1943.234, lpp_1943.235, lpp_1943.236, lpp_1943.237, lpp_1943.238, lpp_1943.239, lpp_1943.240, lpp_1943.241, lpp_1943.242, lpp_1943.243, lpp_1943.244, lpp_1943.245, lpp_1943.246, lpp_1943.247, lpp_1943.248, lpp_1943.249, lpp_1943.250, lpp_1943.251, lpp_1943.252, lpp_1943.253, lpp_1943.254, lpp_1943.255, lpp_1943.256, lpp_1943.257, lpp_1943.258, lpp_1943.259, lpp_1943.260, lpp_1943.261, lpp_1943.262, lpp_1943.263, lpp_1943.264, lpp_1943.265, lpp_1943.266, lpp_1943.267, lpp_1943.268, lpp_1943.269, lpp_1943.270, lpp_1943.271, lpp_1943.272, lpp_1943.273, lpp_1943.274, lpp_1943.275, lpp_1943.276, lpp_1943.277, lpp_1943.278, lpp_1943.279, lpp_1943.280, lpp_1943.281, lpp_1943.282, lpp_1943.283, lpp_1943.284, lpp_1943.285, lpp_1943.286, lpp_1943.287, lpp_1943.288, lpp_1943.289, lpp_1943.290, lpp_1943.291, lpp_1943.292, lpp_1943.293, lpp_1943.294, lpp_1943.295, lpp_1943.296, lpp_1943.297, lpp_1943.298, lpp_1943.299, lpp_1943.300, lpp_1943.301, lpp_1943.302, lpp_1943.303, lpp_1943.304, lpp_1943.305, lpp_1943.306, lpp_1943.307, lpp_1943.308, lpp_1943.309, lpp_1943.310, lpp_1943.311, lpp_1943.312, lpp_1943.313, lpp_1943.314, lpp_1943.315, lpp_1943.316, lpp_1943.317, lpp_1943.318, lpp_1943.319, lpp_1943.320, lpp_1943.321, lpp_1943.322, lpp_1943.323, lpp_1943.324, lpp_1943.325, lpp_1943.326, lpp_1943.327, lpp_1943.328, lpp_1943.329, lpp_1943.330, lpp_1943.331, lpp_1943.332, lpp_1943.333, lpp_1943.334, lpp_1943.335, lpp_1943.336, lpp_1943.337, lpp_1943.338, lpp_1943.339, lpp_1943.340, lpp_1943.341, lpp_1943.342, lpp_1943.343, lpp_1943.344, lpp_1943.345, lpp_1943.346, lpp_1943.347, lpp_1943.348, lpp_1943.349, lpp_1943.350, lpp_1943.351, lpp_1943.352, lpp_1943.353, lpp_1943.354, lpp_1943.355, lpp_1943.356, lpp_1943.357, lpp_1943.358, lpp_1943.359, lpp_1943.360, lpp_1943.361, lpp_1943.362, lpp_1943.363, lpp_1943.364, lpp_1943.365, lpp_1943.366, lpp_1943.367, lpp_1943.368, lpp_1943.369, lpp_1943.370, lpp_1943.371, lpp_1943.372, lpp_1943.373, lpp_1943.374, lpp_1943.375, lpp_1943.376, lpp_1943.377, lpp_1943.378, lpp_1943.379, lpp_1943.380, lpp_1943.381, lpp_1943.382, lpp_1943.383, lpp_1943.384, lpp_1943.385, lpp_1943.386, lpp_1943.387, lpp_1943.388, lpp_1943.389, lpp_1943.390, lpp_1943.391, lpp_1943.392, lpp_1943.393, lpp_1943.394, lpp_1943.395, lpp_1943.396, lpp_1943.397, lpp_1943.398, lpp_1943.399, lpp_1943.400, lpp_1943.401, lpp_1943.402, lpp_1943.403, lpp_1943.404, lpp_1943.405, lpp_1943.406, lpp_1943.407, lpp_1943.408, lpp_1943.409, lpp_1943.410, lpp_1943.411, lpp_1943.412, lpp_1943.413, lpp_1943.414, lpp_1943.415, lpp_1943.416, lpp_1943.417, lpp_1943.418, lpp_1943.419, lpp_1943.420, lpp_1943.421, lpp_1943.422, lpp_1943.423, lpp_1943.424, lpp_1943.425, lpp_1943.426, lpp_1943.427, lpp_1943.428, lpp_1943.429, lpp_1943.430, lpp_1943.431)</span>
+   </body>
+</html>

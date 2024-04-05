@@ -1,0 +1,10 @@
+STEM match for unaligned diarrhoea :: diarrhea :: NW_AFP_ENG_0025_2007_0811.5 cjconsensus
+STEM match for unaligned diarrhoea :: diarrhea :: NW_AFP_ENG_0025_2007_0811.7 cjconsensus
+STEM match for unaligned diarrhoea :: diarrhea :: NW_AFP_ENG_0025_2007_0811.9 cjconsensus
+STEM match for unaligned diarrhoea :: diarrhea :: NW_AFP_ENG_0025_2007_0811.11 cjconsensus
+STEM match for unaligned Coordinator :: coordinate-01 :: NW_AFP_ENG_0025_2007_0811.13 cjconsensus
+STEM match for unaligned diarrhoea :: diarrhea :: NW_AFP_ENG_0025_2007_0811.22 cjconsensus
+STEM match for unaligned remotest :: remote :: NW_AFP_ENG_0025_2007_0811.23 cjconsensus
+STEM match for unaligned Under :: undernourished-00 :: NW_AFP_ENG_0025_2007_0811.24 cjconsensus
+STEM match for unaligned downpours :: down :: NW_AFP_ENG_0025_2007_0811.25 cjconsensus
+STEM match for unaligned neighbouring :: neighbor-01 :: NW_AFP_ENG_0025_2007_0811.28 cjconsensus

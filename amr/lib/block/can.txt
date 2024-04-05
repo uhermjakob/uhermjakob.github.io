@@ -1,0 +1,14 @@
+TITLE can (modal)
+HIGHLIGHT-RED possible
+HIGHLIGHT-BLUE can
+HIGHLIGHT-BLUE ca
+HIGHLIGHT-BLUE is able to
+
+The modal can is annotated as <i>possible</i>, with a <i>:ARG1</i> complement:
+
+EXAMPLE isi_0002.57 The boy can go.
+
+EXAMPLE nw.wsj_0790.54 Cars ca n't move because of overflowing sewers.
+
+EXAMPLE isi_0002.58 The boy is able to go.
+

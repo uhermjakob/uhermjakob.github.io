@@ -1,0 +1,51 @@
+TITLE :calendar
+HIGHLIGHT-RED :calendar
+HIGHLIGHT-BLUE academic
+HIGHLIGHT-BLUE fiscal
+HIGHLIGHT-BLUE Islamic
+HIGHLIGHT-BLUE Islam
+HIGHLIGHT-BLUE Hebrew
+HIGHLIGHT-BLUE Julian
+HIGHLIGHT-BLUE Japanese
+HIGHLIGHT-BLUE Japan
+HIGHLIGHT-BLUE Gregorian
+HIGHLIGHT-BLUE academia
+HIGHLIGHT-BLUE academic
+HIGHLIGHT-BLUE finance
+HIGHLIGHT-BLUE fiscal
+HIGHLIGHT-BLUE year
+
+The role :calendar is used for the calendars of various cultures:
+<ul>
+   <li> Gregorian calendar (modern Western, de facto international standard)
+   <li> Julian calendar (old Western, differs from Gregorian calendar in which years are leap <nobr>y</nobr>ears)
+   <li> Islamic calendar (lunar calendar; 1 AH = 622 AD, 1434 AH = Nov. 14, 2012 to Nov. 4, 2013)
+   <li> Hebrew calendar (lunisolar calendar = lunar calendar with leap months; 5773 AM = Sept. 16, 2012 - Sept. 4, 2013)
+   <li> Japanese calendar (regnal solar calendar)
+</ul>
+
+The role :calendar is also used for <nobr>y</nobr>ears that differ from the standard calendar <nobr>y</nobr>ear.
+In these cases, the concept year is included:
+<ul>
+   <li> academic years
+   <li> fiscal years
+</ul>
+<p>
+<p>
+EXAMPLE isi_0002.169 The 9.3 Tohoku earthquake occured in the year Heisei 23 .
+
+EXAMPLE isi_0002.172 Muharram 1434 AH
+
+EXAMPLE isi_0002.173 Adar II 5771
+
+EXAMPLE isi_0002.174 The Bolshevik revolution started on October 25, 1917.
+
+EXAMPLE isi_0002.175 The Bolshevik revolution started on Novmber 7, 1917.
+
+EXAMPLE isi_0002.170 academic year 2011-2012
+
+EXAMPLE isi_0002.171 United States government fiscal year 2012
+
+<p>
+See also general examples for <a href="http://www.isi.edu/~ulf/amr/lib/popup/date.html">date entities</a>.
+

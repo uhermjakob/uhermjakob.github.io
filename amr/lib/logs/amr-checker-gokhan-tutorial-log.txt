@@ -1,0 +1,2 @@
+STEM match for unaligned wants :: want :: isi_0001.1 gokhan
+STEM match for unaligned adjusted :: adjust :: isi_0001.3 gokhan

@@ -1,0 +1,8 @@
+STEM match for unaligned innovators :: innovate-01 :: NW_FLO_ENG_0104_2004_1113.9 cjconsensus
+STEM match for unaligned innovators :: innovate-01 :: NW_FLO_ENG_0104_2004_1113.9 cjconsensus
+STEM match for unaligned short :: shorten-04 :: NW_FLO_ENG_0104_2004_1113.9 cjconsensus
+STEM match for unaligned palestinians :: Palestine :: NW_FLO_ENG_0104_2004_1113.10 cjconsensus
+STEM match for unaligned embezzelled :: embezzle-01 :: NW_FLO_ENG_0104_2004_1113.11 cjconsensus
+STEM match for unaligned Palestinian :: Palestine :: NW_FLO_ENG_0104_2004_1113.16 cjconsensus
+STEM match for unaligned Palestinian :: Palestine :: NW_FLO_ENG_0104_2004_1113.16 cjconsensus
+STEM match for unaligned Palestinians :: Palestinian :: NW_FLO_ENG_0104_2004_1113.20 cjconsensus

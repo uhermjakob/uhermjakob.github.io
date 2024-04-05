@@ -1,0 +1,6 @@
+STEM match for unaligned FloodingBrisbane :: flood-01 :: ENG_DF_000288_20110110_C0001ODGI_0001.1 cjconsensus
+STEM match for unaligned brissy :: Brisbane :: ENG_DF_000288_20110110_C0001ODGI_0001.3 cjconsensus
+STEM match for unaligned evac'ed :: evacuate-01 :: ENG_DF_000288_20110110_C0001ODGI_0001.4 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000288_20110110_C0001ODGI_0001.22 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000288_20110110_C0001ODGI_0001.22 cjconsensus
+STEM match for unaligned http://www.youtube.com/watch?v=kYUpkPTcqPY&feature=player_embedded# :: http://www.youtube.com/watch?v=kYUpkPTcqPY&feature=player_embedded#! :: ENG_DF_000288_20110110_C0001ODGI_0001.51 cjconsensus

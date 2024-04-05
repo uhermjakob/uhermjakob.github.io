@@ -1,0 +1,16 @@
+STEM match for unaligned tacoma :: Tacoma :: microsoft_1002.2 ulf
+STEM match for unaligned tacoma :: Tacoma :: microsoft_1002.2 ulf
+STEM match for unaligned after :: afternoon :: microsoft_1002.57 ulf
+STEM match for unaligned next :: next :: microsoft_1002.57 ulf
+STEM match for unaligned saturday :: saturday :: microsoft_1002.57 ulf
+STEM match for unaligned saturday :: saturday :: microsoft_1002.57 ulf
+STEM match for unaligned next :: next :: microsoft_1002.61 ulf
+STEM match for unaligned tuesday :: tuesday :: microsoft_1002.61 ulf
+STEM match for unaligned tuesday :: tuesday :: microsoft_1002.61 ulf
+STEM match for unaligned day :: day :: microsoft_1002.61 ulf
+STEM match for unaligned morning :: morning :: microsoft_1002.101 ulf
+STEM match for unaligned morning :: morning :: microsoft_1002.101 ulf
+STEM match for unaligned detroit :: Detroit :: microsoft_1002.104 ulf
+STEM match for unaligned detroit :: Detroit :: microsoft_1002.104 ulf
+STEM match for unaligned downtown :: downtown :: microsoft_1002.194 ulf
+STEM match for unaligned downtown :: downtown :: microsoft_1002.194 ulf

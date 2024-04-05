@@ -1,0 +1,8 @@
+TITLE according to
+HIGHLIGHT-RED say-01
+HIGHLIGHT-BLUE according to
+
+The preposition according to is annotated using say-01.
+
+EXAMPLE isi_0001.23 According to government sources, the killing happened yesterday.
+

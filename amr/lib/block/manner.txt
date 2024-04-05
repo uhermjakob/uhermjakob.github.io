@@ -1,0 +1,23 @@
+TITLE :manner
+HIGHLIGHT-RED :manner
+
+:manner describes <b>how</b> something is done,
+including methods to do something (or "means") and modes of transportation.
+<br>
+However, use the more specific roles
+<a href="http://www.isi.edu/~ulf/amr/lib/popup/instrument.html">:instrument</a> or
+<a href="http://www.isi.edu/~ulf/amr/lib/popup/medium.html">:medium</a> if any of those apply.
+
+EXAMPLE isi_0001.25 The boy is a hard worker.
+
+EXAMPLE isi_0002.331 He decorated the room in a creative way.
+
+EXAMPLE isi_0002.340 The company obtained the permit through bribery.
+
+EXAMPLE isi_0002.144 The mayor proposed to lower crime by hiring more police officers.
+
+EXAMPLE isi_0002.333 Nicole went to England by train.
+
+EXAMPLE isi_0002.323 Lindbergh crossed the Atlantic in the Spirit of St. Louis. 
+
+Reification: have-manner-91 

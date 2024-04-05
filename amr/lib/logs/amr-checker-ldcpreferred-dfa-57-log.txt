@@ -1,0 +1,16 @@
+STEM match for unaligned permissible :: permit-01 :: DF-201-185511-35_0532.9 ldcpreferred
+STEM match for unaligned delightfully :: delight-01 :: DF-201-185511-35_0532.10 ldcpreferred
+STEM match for unaligned Campbell :: Campbell :: DF-201-185511-38_8794.2 ldcpreferred
+STEM match for unaligned Campbell :: Campbell :: DF-201-185511-38_8794.2 ldcpreferred
+STEM match for unaligned conclusive :: conclude-01 :: DF-201-185511-38_8794.14 ldcpreferred
+STEM match for unaligned and :: and :: DF-201-185511-38_8794.15 ldcpreferred
+STEM match for unaligned conclusive :: conclude-01 :: DF-201-185511-38_8794.16 ldcpreferred
+STEM match for unaligned and :: and :: DF-201-185511-38_8794.21 ldcpreferred
+STEM match for unaligned demonstrably :: demonstrate-01 :: DF-201-185511-38_8794.32 ldcpreferred
+STEM match for unaligned NSAIDs :: NSAID :: DF-201-185511-38_8794.33 ldcpreferred
+STEM match for unaligned micro :: microorganism :: DF-201-185511-38_8904.4 ldcpreferred
+STEM match for unaligned smokers :: smoke-01 :: DF-201-185511-38_8904.4 ldcpreferred
+STEM match for unaligned antarctic :: Antarctica :: DF-201-185511-38_8904.9 ldcpreferred
+STEM match for unaligned ensued :: ensue-01 :: DF-201-185511-38_8904.11 ldcpreferred
+STEM match for unaligned and :: and :: DF-201-185511-38_8914.14 ldcpreferred
+STEM match for unaligned Euro :: Eurozone :: DF-201-185516-35_3189.5 ldcpreferred

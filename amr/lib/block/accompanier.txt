@@ -1,0 +1,10 @@
+TITLE :accompanier
+HIGHLIGHT-RED :accompanier
+
+Examples of :accompanier:
+
+EXAMPLE isi_0002.45 I ate pasta with tomato sauce .
+
+EXAMPLE isi_0002.44 The mayor arrived with a police escort .
+
+Reification: accompany-01

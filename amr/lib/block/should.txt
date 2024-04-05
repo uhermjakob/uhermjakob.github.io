@@ -1,0 +1,8 @@
+TITLE should (modal)
+HIGHLIGHT-RED recommend-01
+HIGHLIGHT-BLUE should
+
+The modal should is annotated as recommend-01, with an <i>:ARG1</i> complement:
+
+EXAMPLE isi_0002.63 The boy should go. 
+

@@ -1,0 +1,7 @@
+TITLE likely (modal)
+HIGHLIGHT-RED likely
+
+When used modally, likely is annotated as likely raised up, with a <i>:domain</i> complement:
+
+EXAMPLE isi_0001.10 The boy is likely to go.
+

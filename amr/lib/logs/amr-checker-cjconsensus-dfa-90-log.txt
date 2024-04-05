@@ -1,0 +1,17 @@
+STEM match for unaligned bazillions :: bazillion :: DF-228-194844-712_4955.19 cjconsensus
+STEM match for unaligned temp :: temperature-quantity :: DF-228-194844-712_5001.11 cjconsensus
+STEM match for unaligned temp :: temperature-quantity :: DF-228-194844-712_5001.11 cjconsensus
+STEM match for unaligned temp :: temperature-quantity :: DF-228-194844-712_5001.11 cjconsensus
+STEM match for unaligned critters :: critter :: DF-228-194844-712_5001.17 cjconsensus
+STEM match for unaligned Sundays :: sunday :: DF-228-194844-717_8786.1 cjconsensus
+STEM match for unaligned offence :: offense-02 :: DF-231-195128-750_0051.7 cjconsensus
+STEM match for unaligned and :: and :: DF-231-195128-750_0051.9 cjconsensus
+STEM match for unaligned crumple :: crumble-01 :: DF-231-195128-750_0051.12 cjconsensus
+STEM match for unaligned and :: and :: DF-231-195128-750_0051.17 cjconsensus
+STEM match for unaligned stoppage :: stop-01 :: DF-231-195128-750_0053.4 cjconsensus
+STEM match for unaligned and :: and :: DF-231-195128-750_0053.5 cjconsensus
+STEM match for unaligned gameplan :: game :: DF-231-195128-750_0053.13 cjconsensus
+STEM match for unaligned intro :: introduce-02 :: DF-231-195128-750_0053.18 cjconsensus
+STEM match for unaligned and :: and :: DF-231-195128-750_0053.20 cjconsensus
+STEM match for unaligned champ :: champion :: DF-231-195128-750_0053.24 cjconsensus
+STEM match for unaligned showboating :: showboat-00 :: DF-231-195128-750_0053.26 cjconsensus

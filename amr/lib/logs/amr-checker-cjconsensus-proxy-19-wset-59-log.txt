@@ -1,0 +1,11 @@
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080204_0672.4 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080204_0672.4 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080204_0672.6 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080204_0672.6 cjconsensus
+STEM match for unaligned counternarcotics :: counter-01 :: PROXY_AFP_ENG_20080204_0672.16 cjconsensus
+STEM match for unaligned counternarcotics :: country :: PROXY_AFP_ENG_20080204_0672.16 cjconsensus
+STEM match for unaligned Karzai :: Karzai :: PROXY_AFP_ENG_20080204_0672.16 cjconsensus
+STEM match for unaligned Karzai :: Karzai :: PROXY_AFP_ENG_20080204_0672.16 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080204_0672.25 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080204_0672.25 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20080212_0514.9 cjconsensus

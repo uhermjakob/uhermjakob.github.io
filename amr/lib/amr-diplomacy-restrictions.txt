@@ -1,0 +1,62 @@
+::slot-restriction build-01 :ARG1 army|fleet|unit|amr-unknown ::slot-required true
+::slot-restriction hold-03 :ARG1 province|sea|world-region ::slot-required true
+::slot-restriction hold-17 :ARG1 army|fleet|unit ::slot-required true
+::slot-restriction move-01 :ARG1 army|fleet|unit ::slot-required true
+::slot-restriction move-02 :ARG2 province|sea|country|world-region|north|east|south|west|amr-unknown
+::slot-restriction remove-01 :ARG1 army|fleet|unit ::slot-required true
+::slot-restriction retreat-01 :ARG1 army|fleet|unit|country ::slot-required true
+::slot-restriction support-01 :ARG1 army|fleet|unit|province|sea|country|amr-unknown|attack-01|build-01|defend-01|dislodge-01|gain-02|have-03|hold-03|hold-17|move-01|transport-01
+# slot-restriction support-01 :ARG1 ... ::slot-required true # too strict, about 5% legit excpetions, maybe turn to warning
+::slot-restriction transport-01 :ARG0 fleet
+::slot-restriction transport-01 :ARG1 army|unit ::slot-required true
+::slot-restriction demilitarize-01 :ARG1 country
+::slot-restriction demilitarize-01 :ARG2 province|sea|world-region
+::slot-restriction expect-01 :ARG0 country
+::slot-restriction UNIT :mod country
+::slot-restriction UNIT :location province|sea|coast|country|world-region
+::slot-restriction coast :location north|east|south|west ::slot-required true
+# restrict further as coast :location north :part-of province ... with ::slot-required true
+::slot-restriction north :part-of province
+::slot-restriction east :part-of province
+::slot-restriction south :part-of province
+::slot-restriction west :part-of province
+::slot-restriction attack-01 :ARG1 country|province|sea|world-region|amr-unknown|army|fleet|unit
+::slot-restriction defend-01 :ARG1 country|province|sea|world-region|amr-unknown
+::slot-restriction dislodge-01 :ARG0 army|fleet|unit|amr-unknown
+::slot-restriction dislodge-01 :ARG1 army|fleet|unit|amr-unknown ::slot-required true
+::slot-restriction dislodge-01 :ARG2 province|sea|coast|country|world-region|amr-unknown
+::slot-restriction gain-02 :ARG0 country|amr-unknown
+::slot-restriction gain-02 :ARG1 supply-center|province
+::slot-restriction lose-02 :ARG0 country|amr-unknown
+::slot-restriction lose-02 :ARG1 supply-center|province
+
+::slot-restriction country :name name ::slot-required true
+::slot-restriction unit :mod country
+::slot-restriction unit :location province|world-region
+::slot-restriction army :mod country
+::slot-restriction army :location province|world-region
+::slot-restriction fleet :mod country
+::slot-restriction fleet :location province|sea|world-region|coast
+
+::slot-move build-01 :ARG1 UNIT :mod country ::destination build-01 :ARG0 country
+::slot-move build-01 :ARG1 UNIT :location province ::destination build-01 :location province
+::slot-move hold-17 :ARG0 country ::destination hold-17 :ARG1 UNIT :mod country
+::slot-move move-01 :ARG0 country ::destination move-01 :ARG1 UNIT :mod country
+::slot-move remove-01 :ARG0 country ::destination remove-01 :ARG1 UNIT :mod country
+::slot-move retreat-01 :ARG0 country ::destination retreat-01 :ARG1 UNIT :mod country
+::slot-move transport-01 :ARG2 province ::destination transport-01 :ARG1 UNIT :location province
+::slot-move transport-01 :ARG2 sea ::destination transport-01 :ARG1 UNIT :location sea
+::slot-move retreat-01 :ARG1 country ::destination retreat-01 :ARG1 UNIT :mod country
+::slot-move demilitarize-01 :ARG0 country ::destination demilitarize-01 :ARG1 country
+
+# ::invalid-slot ally-01 :ARG2 ::comment Consider using ally-01 :ARG1 (and :op1 ... :op2 ...) or :ARG3 [for ennemies]
+
+::invalid-concept armies ::comment Please use singular form.
+::invalid-concept fleets ::comment Please use singular form.
+::invalid-concept units ::comment Please use singular form.
+::invalid-concept disband-01 ::comment Please use remove-01.
+
+# ::invalid-concept i ::comment Please replace the personal pronoun by the country that it refers to.
+# ::invalid-concept we ::comment Please replace the personal pronoun by the country or countries that it refers to.
+# ::invalid-concept you ::comment Please replace the personal pronoun by the country that it refers to.
+

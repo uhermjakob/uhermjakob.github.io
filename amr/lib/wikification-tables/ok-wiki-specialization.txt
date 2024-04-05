@@ -1,0 +1,12 @@
+::OK_SPECIALIZATION ::gen aircraft-type ::spec jet
+::OK_SPECIALIZATION ::gen aircraft-type ::spec plane
+::OK_SPECIALIZATION ::gen city ::spec capital
+::OK_SPECIALIZATION ::gen company ::spec group
+::OK_SPECIALIZATION ::gen country ::spec republic
+::OK_SPECIALIZATION ::gen facility ::spec building
+::OK_SPECIALIZATION ::gen facility ::spec plant
+::OK_SPECIALIZATION ::gen facility ::spec reactor
+::OK_SPECIALIZATION ::gen product ::spec missile
+::OK_SPECIALIZATION ::gen product ::spec rocket
+::OK_SPECIALIZATION ::gen product ::spec submarine
+::OK_SPECIALIZATION ::gen publication ::spec agency

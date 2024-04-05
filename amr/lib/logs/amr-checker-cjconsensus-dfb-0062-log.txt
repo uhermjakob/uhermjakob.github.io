@@ -1,0 +1,7 @@
+STEM match for unaligned wingers :: wing :: bolt-eng-DF-170-181104-8737186_0007.5 cjconsensus
+STEM match for unaligned foregn :: foreign :: bolt-eng-DF-170-181104-8737186_0008.2 cjconsensus
+STEM match for unaligned troops :: troop :: bolt-eng-DF-170-181104-8737186_0010.4 cjconsensus
+STEM match for unaligned funnies :: funny :: bolt-eng-DF-170-181104-8737186_0011.3 cjconsensus
+STEM match for unaligned funnies :: funny :: bolt-eng-DF-170-181104-8737186_0011.3 cjconsensus
+STEM match for unaligned what :: whatever :: bolt-eng-DF-170-181104-8737186_0011.8 cjconsensus
+STEM match for unaligned Viet :: Vietnam :: bolt-eng-DF-170-181104-8737186_0011.12 cjconsensus

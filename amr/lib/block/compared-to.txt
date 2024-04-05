@@ -1,0 +1,12 @@
+TITLE :compared-to
+HIGHLIGHT-RED :compared-to
+HIGHLIGHT-RED obsolete
+
+Obsolete
+<br>
+Formerly used in comparatives, superlatives. Replaced by have-degree-91 and have-quant-91 .
+
+EXAMPLE isi_0001.27 the girl is taller than the boy
+
+EXAMPLE isi_0002.34 She is the tallest girl on the team .
+

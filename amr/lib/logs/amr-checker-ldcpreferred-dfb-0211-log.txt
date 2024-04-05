@@ -1,0 +1,6 @@
+STEM match for unaligned Labour :: Labour :: bolt-eng-DF-200-192446-3811676_0094.3 ldcpreferred
+STEM match for unaligned Labour :: Labour :: bolt-eng-DF-200-192446-3811676_0094.3 ldcpreferred
+STEM match for unaligned electorate :: elect-01 :: bolt-eng-DF-200-192446-3811676_0094.6 ldcpreferred
+STEM match for unaligned South :: Southeast :: bolt-eng-DF-200-192446-3811676_0094.17 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811676_0095.10 ldcpreferred
+STEM match for unaligned and :: and :: bolt-eng-DF-200-192446-3811676_0095.27 ldcpreferred

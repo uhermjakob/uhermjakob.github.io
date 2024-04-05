@@ -1,0 +1,9 @@
+TITLE :purpose
+HIGHLIGHT-RED :purpose
+HIGHLIGHT-BLUE :cause
+
+Use :purpose only when :cause is not appropriate.
+
+EXAMPLE isi_0002.40 He went to the store to buy wood for a new fence .
+
+Reification: have-purpose-91

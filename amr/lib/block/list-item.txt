@@ -1,0 +1,36 @@
+TITLE list item
+HIGHLIGHT-RED :li
+HIGHLIGHT-BLUE first
+HIGHLIGHT-BLUE second
+HIGHLIGHT-BLUE third
+HIGHLIGHT-BLUE fourth
+
+The role :li (for <font color="red">l</font>ist <font color="red">i</font>tem) is used to mark numbers or letters in <b>lists</b> such as:
+<ul>
+   <li> <font color="blue">(1)</font> Germany <font color="blue">(2)</font> Brazil <font color="blue">(3)</font> Italy <font color="blue">(4)</font> Argentina
+   <li> <font color="blue">(A)</font> Jimmy Carter <font color="blue">(B)</font> Ronald Reagan <font color="blue">(C)</font> George Bush <font color="blue">(D)</font> Bill Clinton
+</ul>
+It is also used for ordinals such as first, second etc. in multi-sentence lists as in:
+<ul>
+   <li> The political candidate promises all of the following.
+	First, to create 2 million new jobs.
+        Second, to cut income tax rates by 10%. 
+	Third, to significantly improve education. 
+	Fourth, to hire 100,000 more police officers.
+	(But not necessarily in that order.)
+</ul>
+
+EXAMPLE isi_0002.114 (a) Background
+EXAMPLE bolt12_6453_3271.7 First, what is the biggest puzzle between China and the US?
+EXAMPLE isi_0002.115 Group A: (1) Germany (2) Brazil (3) Italy (4) Argentina
+
+<h2>When <font color="red">not</font> to use :li</h2>
+
+EXAMPLE isi_0002.189 Chapter 1
+
+Similarly: row 7, bus 20, group A, appendix B
+
+EXAMPLE isi_0002.267 her second child
+
+EXAMPLE isi_0002.268 At first, he refused.
+

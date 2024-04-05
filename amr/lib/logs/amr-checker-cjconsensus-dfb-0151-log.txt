@@ -1,0 +1,10 @@
+STEM match for unaligned PENALTY :: Penalty: :: bolt-eng-DF-199-192784-5873990_0006.8 cjconsensus
+STEM match for unaligned FLORIDA :: Florida's :: bolt-eng-DF-199-192784-5873990_0006.8 cjconsensus
+STEM match for unaligned REPRESENTATION :: Representation, :: bolt-eng-DF-199-192784-5873990_0006.8 cjconsensus
+STEM match for unaligned sightings :: sight-01 :: bolt-eng-DF-199-192784-5873990_0011.2 cjconsensus
+STEM match for unaligned absentee :: absent-01 :: bolt-eng-DF-199-192784-5873990_0015.15 cjconsensus
+STEM match for unaligned battleground :: battle-01 :: bolt-eng-DF-199-192784-5873990_0015.31 cjconsensus
+STEM match for unaligned and :: and :: bolt-eng-DF-199-192784-5873990_0015.31 cjconsensus
+STEM match for unaligned restrictive :: restrict-01 :: bolt-eng-DF-199-192784-5873990_0015.31 cjconsensus
+STEM match for unaligned restrictive :: restrict-01 :: bolt-eng-DF-199-192784-5873990_0015.31 cjconsensus
+STEM match for unaligned roundup :: round-up-02 :: bolt-eng-DF-199-192784-5873990_0015.34 cjconsensus

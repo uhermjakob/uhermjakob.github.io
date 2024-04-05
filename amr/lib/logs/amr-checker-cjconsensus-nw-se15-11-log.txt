@@ -1,0 +1,4 @@
+STEM match for unaligned AFRICAN :: Africa :: nyt_eng_20130613_0153.1 cjconsensus
+STEM match for unaligned Mandela :: Mandela :: nyt_eng_20130613_0153.8 cjconsensus
+STEM match for unaligned Mandela :: Mandla :: nyt_eng_20130613_0153.8 cjconsensus
+STEM match for unaligned Mandela :: Mandela :: nyt_eng_20130613_0153.8 cjconsensus

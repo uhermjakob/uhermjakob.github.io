@@ -1,0 +1,11 @@
+STEM match for unaligned particularly :: particular :: wb.eng_0009.30 neilkus
+STEM match for unaligned SPECTRA :: SPECTRA :: wb.eng_0009.31 neilkus
+STEM match for unaligned SPECTRA :: SPECTRA :: wb.eng_0009.31 neilkus
+STEM match for unaligned contactee :: contact-01 :: wb.eng_0009.31 neilkus
+STEM match for unaligned channeller :: channel-01 :: wb.eng_0009.31 neilkus
+STEM match for unaligned Nine :: Nine :: wb.eng_0009.31 neilkus
+STEM match for unaligned 2001 :: 2001 :: wb.eng_0009.32 neilkus
+STEM match for unaligned Jeff :: Jeff :: wb.eng_0009.44 neilkus
+STEM match for unaligned also :: also :: wb.eng_0009.69 neilkus
+STEM match for unaligned Hold :: hold-05 :: wb.eng_0009.90 neilkus
+STEM match for unaligned 15 :: 15 :: wb.eng_0009.106 neilkus

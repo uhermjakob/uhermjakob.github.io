@@ -1,0 +1,13 @@
+STEM match for unaligned All :: all :: challenge_0001.1 ulf
+STEM match for unaligned all :: all :: challenge_0001.1 ulf
+STEM match for unaligned go :: go-02 :: challenge_0001.8 ulf
+STEM match for unaligned Some :: some :: challenge_0001.20 ulf
+STEM match for unaligned loves :: love-01 :: challenge_0001.24 ulf
+STEM match for unaligned loves :: love-01 :: challenge_0001.24 ulf
+STEM match for unaligned 20 :: 20 :: challenge_0002.05 ulf
+STEM match for unaligned All :: all :: challenge_0002.07 ulf
+STEM match for unaligned Some :: some :: challenge_0002.08 ulf
+STEM match for unaligned Some :: some :: challenge_0002.09 ulf
+STEM match for unaligned All :: all :: challenge_0002.14 ulf
+STEM match for unaligned All :: all :: challenge_0002.15 ulf
+STEM match for unaligned like :: like-01 :: challenge_0002.16 ulf

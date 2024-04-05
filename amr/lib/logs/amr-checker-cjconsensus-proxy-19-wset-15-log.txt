@@ -1,0 +1,4 @@
+STEM match for unaligned quarter :: quarter :: PROXY_AFP_ENG_20041104_0053.10 cjconsensus
+STEM match for unaligned quarter :: quarter :: PROXY_AFP_ENG_20041104_0053.10 cjconsensus
+STEM match for unaligned proprietary :: proprietor :: PROXY_AFP_ENG_20041104_0053.15 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050222_0430.7 cjconsensus

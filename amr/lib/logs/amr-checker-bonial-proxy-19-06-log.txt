@@ -1,0 +1,12 @@
+STEM match for unaligned objectionable :: object-01 :: PROXY_AFP_ENG_20021203_0751.28 bonial
+STEM match for unaligned Monitoring :: Monitoring, :: PROXY_AFP_ENG_20021210_0370.14 bonial
+STEM match for unaligned ballistic :: ballist :: PROXY_AFP_ENG_20021210_0370.14 bonial
+STEM match for unaligned regrettable :: regret-01 :: PROXY_AFP_ENG_20021221_0466.10 bonial
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20021223_0340.11 bonial
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20021223_0340.11 bonial
+STEM match for unaligned regrettable :: regret-01 :: PROXY_AFP_ENG_20021223_0340.22 bonial
+STEM match for unaligned North :: North :: PROXY_AFP_ENG_20021223_0340.26 bonial
+STEM match for unaligned North :: North :: PROXY_AFP_ENG_20021223_0340.26 bonial
+STEM match for unaligned Korean :: Korea :: PROXY_AFP_ENG_20021223_0340.26 bonial
+STEM match for unaligned critical :: criticize-01 :: PROXY_AFP_ENG_20021226_0132.32 bonial
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20021226_0152.18 bonial

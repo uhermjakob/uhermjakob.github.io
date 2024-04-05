@@ -1,0 +1,5 @@
+STEM match for unaligned wakeup :: wake-up-02 :: bolt-eng-DF-200-192403-6253769_0152.2 cjconsensus
+STEM match for unaligned responsibe :: responsible-02 :: bolt-eng-DF-200-192403-6253769_0152.6 cjconsensus
+STEM match for unaligned scraping :: scrap-01 :: bolt-eng-DF-200-192403-6253769_0152.17 cjconsensus
+STEM match for unaligned retarded :: retard-01 :: bolt-eng-DF-200-192403-6253769_0155.5 cjconsensus
+STEM match for unaligned Spoilsport :: spoil-01 :: bolt-eng-DF-200-192403-6253769_0159.3 cjconsensus

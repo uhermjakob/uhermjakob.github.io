@@ -1,0 +1,14 @@
+TITLE :employed-by
+HIGHLIGHT-RED :employed-by
+HIGHLIGHT-RED have-org-role-91
+HIGHLIGHT-RED :role
+
+The old role :employed-by is now superceded by have-org-role-91.<br>
+For explicit mentions of <i>employ</i>, we continue to use the frames employ-01
+and employ-02.
+<p>
+<b>Shortcut:</b> :employed-by and :role can be used as shortcuts for have-org-role-91,
+   filling in :ARG1 or :ARG2 respectively.
+
+EXAMPLE nw.wsj_0003.5 A Lorillard spokewoman said , `` This is an old story .
+

@@ -1,0 +1,7 @@
+STEM match for unaligned Nepalese :: Nepal :: NW_APW_ENG_0075_2005_1103.1 cjconsensus
+STEM match for unaligned sherpas :: Sherpa :: NW_APW_ENG_0075_2005_1103.4 cjconsensus
+STEM match for unaligned Mount :: mountain :: NW_APW_ENG_0075_2005_1103.4 cjconsensus
+STEM match for unaligned climbers :: climb-01 :: NW_APW_ENG_0075_2005_1103.4 cjconsensus
+STEM match for unaligned climbers :: climb-01 :: NW_APW_ENG_0075_2005_1103.4 cjconsensus
+STEM match for unaligned climbers :: climb-01 :: NW_APW_ENG_0075_2005_1103.5 cjconsensus
+STEM match for unaligned meter- :: meter :: NW_APW_ENG_0075_2005_1103.8 cjconsensus

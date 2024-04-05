@@ -1,0 +1,77 @@
+full of			FILL.01
+doubtful about		DOUBT.01
+faithful to		COMMIT.01
+grateful for/to		APPRECIATE.02
+harmful to		HARM.01
+hopeful of		HOPE.01
+mindful of		MIND.02
+respectful to/towards	RESPECT.01
+thankful for		THANK.01
+absent from		ABSENT.01
+adjacent to		BORDER.01
+affectionate to		LIKE.01
+afraid of		FEAR.01
+akin to			RESEMBLE.01
+angry at/with		ANGER.01
+anxious about/for	WORRY.01
+aware of		REALIZE.01
+blind to		REALIZE.01 , polarity -
+born in/of		BEAR.02
+busy with		OCCUPY.01
+careless about/with	CARE.01 , polarity -
+certain about/of	KNOW.01
+common to		SHARE.01
+conscious of		REALIZE.01
+content with		CONTENT.01
+crazy about/for		CRAZE.01
+critical of		CRITICIZE.01
+cruel to		MISTREAT.01
+dear to			LOVE.01
+deficient in		LACK.01
+dependent on/upon	DEPEND.01
+desirous of		DESIRE.01
+despairing of		DESPAIR.01
+detrimental to		HARM.01
+devoid of		LACK.01
+different from/in/to	RESEMBLE.01 , polarity -
+eligible for		QUALIFY.02
+envious of		ENVY.01
+equal to		EQUAL.01
+excellent at		EXCEL.01
+exempt from		EXEMPT.01
+familiar to/with	FAMILIARIZE.01
+famous as/for		FAME.01
+fond of			LIKE.01
+furious about/at/with	ANGER.01
+glad about/for		GLADDEN.01
+happy about/with	CONTENT.01
+ignorant about/of/to	KNOW.01 , polarity -
+immaterial to		MATTER.01 , polarity -
+independent of		DEPEND.01 , polarity -
+indulgent to		INDULGE.01
+intent on		INTEND.01
+jealous of		ENVY.01
+lost to			LOSE.02
+mad with		CRAZE.01
+necessary for		NEED.01
+negligent of		NEGLECT.01
+obedient to		OBEY.01
+overcome by/with	OVERCOME.01
+radiant with		RADIATE.01
+ready for		READY.01
+requisite for/to	REQUIRE.01
+rich in			ENRICH.01
+sad about		SADDEN.01
+sick of			TIRE.01
+similar to		RESEMBLE.01
+subordinate to		SUBORDINATE.01
+sufficient for		SUFFICE.01
+sure about/of		KNOW.01
+suspicious about/of	SUSPECT.01
+sympathetic to/towards	SYMPATHIZE.01
+tolerant of		TOLERATE.01
+typical of		TYPIFY.01
+unaware of		REALIZE.01 , polarity -
+upset about/by/over	UPSET.01
+worthy of		DESERVE.01
+

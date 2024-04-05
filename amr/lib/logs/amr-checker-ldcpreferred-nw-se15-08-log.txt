@@ -1,0 +1,6 @@
+STEM match for unaligned BELGIAN :: Belgium :: nyt_eng_20130509_0160.1 ldcpreferred
+STEM match for unaligned and :: and :: nyt_eng_20130509_0160.3 ldcpreferred
+STEM match for unaligned and :: and :: nyt_eng_20130509_0160.3 ldcpreferred
+STEM match for unaligned and :: and :: nyt_eng_20130509_0160.3 ldcpreferred
+STEM match for unaligned and :: and :: nyt_eng_20130509_0160.3 ldcpreferred
+STEM match for unaligned and :: and :: nyt_eng_20130509_0160.4 ldcpreferred

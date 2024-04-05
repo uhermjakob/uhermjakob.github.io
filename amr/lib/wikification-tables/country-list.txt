@@ -1,0 +1,299 @@
+# country list
+(554) ::ne-surf Iran ::ne-type country ::wiki Iran
+(491) ::ne-surf China ::ne-type country ::wiki China
+(350) ::ne-surf United States ::ne-type country ::wiki United_States
+(328) ::ne-surf North Korea ::ne-type country ::wiki North_Korea
+(324) ::ne-surf India ::ne-type country ::wiki India
+(290) ::ne-surf Afghanistan ::ne-type country ::wiki Afghanistan
+(241) ::ne-surf Russia ::ne-type country ::wiki Russia
+(217) ::ne-surf France ::ne-type country ::wiki France
+(216) ::ne-surf Pakistan ::ne-type country ::wiki Pakistan
+(194) ::ne-surf US ::ne-type country ::wiki United_States
+(183) ::ne-surf Japan ::ne-type country ::wiki Japan
+(162) ::ne-surf Myanmar ::ne-type country ::wiki Burma
+(154) ::ne-surf Iraq ::ne-type country ::wiki Iraq
+(149) ::ne-surf U.S. ::ne-type country ::wiki United_States
+(136) ::ne-surf Taiwan ::ne-type country ::wiki Taiwan
+(133) ::ne-surf Vietnam ::ne-type country ::wiki Vietnam
+(126) ::ne-surf Australia ::ne-type country ::wiki Australia
+(117) ::ne-surf South Korea ::ne-type country ::wiki South_Korea
+(105) ::ne-surf Germany ::ne-type country ::wiki Germany
+(99) ::ne-surf Libya ::ne-type country ::wiki Libya
+(95) ::ne-surf Britain ::ne-type country ::wiki United_Kingdom
+(95) ::ne-surf Israel ::ne-type country ::wiki Israel
+(92) ::ne-surf South Africa ::ne-type country ::wiki South_Africa
+(90) ::ne-surf Brazil ::ne-type country ::wiki Brazil
+(86) ::ne-surf Thailand ::ne-type country ::wiki Thailand
+(82) ::ne-surf Indonesia ::ne-type country ::wiki Indonesia
+(76) ::ne-surf Estonia ::ne-type country ::wiki Estonia
+(76) ::ne-surf Saudi Arabia ::ne-type country ::wiki Saudi_Arabia
+(68) ::ne-surf Georgia ::ne-type country ::wiki Georgia_(country)
+(66) ::ne-surf Singapore ::ne-type country ::wiki Singapore
+(59) ::ne-surf Soviet Union ::ne-type country ::wiki Soviet_Union
+(53) ::ne-surf Laos ::ne-type country ::wiki Laos
+(51) ::ne-surf Malaysia ::ne-type country ::wiki Malaysia
+(50) ::ne-surf Russian Federation ::ne-type country ::wiki Russia
+(49) ::ne-surf Philippines ::ne-type country ::wiki Philippines
+(47) ::ne-surf Kazakhstan ::ne-type country ::wiki Kazakhstan
+(47) ::ne-surf Zimbabwe ::ne-type country ::wiki Zimbabwe
+(46) ::ne-surf Egypt ::ne-type country ::wiki Egypt
+(43) ::ne-surf Jordan ::ne-type country ::wiki Jordan
+(42) ::ne-surf United Kingdom ::ne-type country ::wiki United_Kingdom
+(41) ::ne-surf Italy ::ne-type country ::wiki Italy
+(41) ::ne-surf Spain ::ne-type country ::wiki Spain
+(38) ::ne-surf Tajikistan ::ne-type country ::wiki Tajikistan
+(37) ::ne-surf Republic of Korea ::ne-type country ::wiki South_Korea
+(37) ::ne-surf Ukraine ::ne-type country ::wiki Ukraine
+(36) ::ne-surf Syria ::ne-type country ::wiki Syria
+(35) ::ne-surf Canada ::ne-type country ::wiki Canada
+(35) ::ne-surf Colombia ::ne-type country ::wiki Colombia
+(33) ::ne-surf Algeria ::ne-type country ::wiki Algeria
+(33) ::ne-surf Cambodia ::ne-type country ::wiki Cambodia
+(2) ::ne-surf Kingdom of Cambodia ::ne-type country ::wiki Cambodia
+(33) ::ne-surf Venezuela ::ne-type country ::wiki Venezuela
+(32) ::ne-surf America ::ne-type country ::wiki United_States
+(31) ::ne-surf Albania ::ne-type country ::wiki Albania
+(30) ::ne-surf Sweden ::ne-type country ::wiki Sweden
+(29) ::ne-surf Switzerland ::ne-type country ::wiki Switzerland
+(28) ::ne-surf Turkey ::ne-type country ::wiki Turkey
+(27) ::ne-surf Kenya ::ne-type country ::wiki Kenya
+(26) ::ne-surf Great Britain ::ne-type country ::wiki United_Kingdom
+(25) ::ne-surf Mexico ::ne-type country ::wiki Mexico
+(23) ::ne-surf Democratic People's Republic of Korea ::ne-type country ::wiki North_Korea
+(22) ::ne-surf Cuba ::ne-type country ::wiki Cuba
+(22) ::ne-surf Nepal ::ne-type country ::wiki Nepal
+(19) ::ne-surf Bulgaria ::ne-type country ::wiki Bulgaria
+(19) ::ne-surf Kyrgyzstan ::ne-type country ::wiki Kyrgyzstan
+(19) ::ne-surf Korea ::ne-type country ::wiki Korea
+(17) ::ne-surf Morocco ::ne-type country ::wiki Morocco
+(16) ::ne-surf Somalia ::ne-type country ::wiki Somalia
+(16) ::ne-surf Yemen ::ne-type country ::wiki Yemen
+(15) ::ne-surf Peru ::ne-type country ::wiki Peru
+(14) ::ne-surf Greece ::ne-type country ::wiki Greece
+(14) ::ne-surf Netherlands ::ne-type country ::wiki Netherlands
+(13) ::ne-surf Costa Rica ::ne-type country ::wiki Costa_Rica
+(13) ::ne-surf Islamic Republic of Iran ::ne-type country ::wiki Iran
+(13) ::ne-surf Nicaragua ::ne-type country ::wiki Nicaragua
+(13) ::ne-surf Nigeria ::ne-type country ::wiki Nigeria
+(12) ::ne-surf Austria ::ne-type country ::wiki Austria
+(12) ::ne-surf Lebanon ::ne-type country ::wiki Lebanon
+(12) ::ne-surf UK ::ne-type country ::wiki United_Kingdom
+(12) ::ne-surf Uzbekistan ::ne-type country ::wiki Uzbekistan
+(11) ::ne-surf Belarus ::ne-type country ::wiki Belarus
+(10) ::ne-surf Belgium ::ne-type country ::wiki Belgium
+(10) ::ne-surf Norway ::ne-type country ::wiki Norway
+(10) ::ne-surf Poland ::ne-type country ::wiki Poland
+(10) ::ne-surf Qatar ::ne-type country ::wiki Qatar
+(9) ::ne-surf Denmark ::ne-type country ::wiki Denmark
+(9) ::ne-surf Finland ::ne-type country ::wiki Finland
+(9) ::ne-surf Mauritania ::ne-type country ::wiki Mauritania
+(8) ::ne-surf Croatia ::ne-type country ::wiki Croatia
+(7) ::ne-surf PRC ::ne-type country ::wiki China
+(7) ::ne-surf Serbia ::ne-type country ::wiki Serbia
+(7) ::ne-surf Serbia and Montenegro ::ne-type country ::wiki Serbia_and_Montenegro
+(7) ::ne-surf United Arab Emirates ::ne-type country ::wiki United_Arab_Emirates
+(7) ::ne-surf United States of America ::ne-type country ::wiki United_States
+(6) ::ne-surf Cape Verde ::ne-type country ::wiki Cape_Verde
+(6) ::ne-surf China ::ne-type country ::wiki China
+(6) ::ne-surf Czech Republic ::ne-type country ::wiki Czech_Republic
+(6) ::ne-surf Libyan Arab Jamahiriya ::ne-type country ::wiki Libya
+(6) ::ne-surf Slovakia ::ne-type country ::wiki Slovakia
+(5) ::ne-surf Argentina ::ne-type country ::wiki Argentina
+(5) ::ne-surf Bangladesh ::ne-type country ::wiki Bangladesh
+(5) ::ne-surf Chile ::ne-type country ::wiki Chile
+(5) ::ne-surf Ecuador ::ne-type country ::wiki Ecuador
+(5) ::ne-surf England ::ne-type country ::wiki England
+(5) ::ne-surf Great Britain ::ne-type country ::wiki United_Kingdom
+(5) ::ne-surf Honduras ::ne-type country ::wiki Honduras
+(5) ::ne-surf Lao People's Democratic Republic ::ne-type country ::wiki Laos
+(5) ::ne-surf Macedonia ::ne-type country ::wiki Republic_of_Macedonia
+(0) ::ne-surf Republic of Macedonia ::ne-type country ::wiki Republic_of_Macedonia
+(0) ::ne-surf former Yugoslav Republic of Macedonia ::ne-type country ::wiki Republic_of_Macedonia
+(0) ::ne-surf Former Yugoslav Republic of Macedonia ::ne-type country ::wiki Republic_of_Macedonia
+(0) ::ne-surf FYROM ::ne-type country ::wiki Republic_of_Macedonia
+(5) ::ne-surf Yugoslavia ::ne-type country ::wiki Yugoslavia
+(4) ::ne-surf Bosnia-Herzegovina ::ne-type country ::wiki Bosnia_and_Herzegovina
+(1) ::ne-surf Bosnia Herzegovina ::ne-type country ::wiki Bosnia_and_Herzegovina
+(4) ::ne-surf Brunei ::ne-type country ::wiki Brunei
+(4) ::ne-surf Kosovo ::ne-type country ::wiki Kosovo
+(4) ::ne-surf Lithuania ::ne-type country ::wiki Lithuania
+(4) ::ne-surf Palestine ::ne-type country ::wiki State_of_Palestine
+(4) ::ne-surf Romania ::ne-type country ::wiki Romania
+(4) ::ne-surf Tanzania ::ne-type country ::wiki Tanzania
+(0) ::ne-surf United Republic of Tanzania ::ne-type country ::wiki Tanzania
+(1) ::ne-surf Tanzania United Republic ::ne-type country ::wiki Tanzania
+(4) ::ne-surf Tunisia ::ne-type country ::wiki Tunisia
+(4) ::ne-surf Turkmenistan ::ne-type country ::wiki Turkmenistan
+(3) ::ne-surf Moldova ::ne-type country ::wiki Moldova
+(3) ::ne-surf Monaco ::ne-type country ::wiki Monaco
+(3) ::ne-surf Palestine ::ne-type country ::wiki State_of_Palestine
+(3) ::ne-surf People's Republic of China ::ne-type country ::wiki China
+(3) ::ne-surf Scotland ::ne-type country ::wiki Scotland
+(3) ::ne-surf Sudan ::ne-type country ::wiki Sudan
+(3) ::ne-surf Syrian Arab Republic ::ne-type country ::wiki Syria
+(3) ::ne-surf UAE ::ne-type country ::wiki United_Arab_Emirates
+(3) ::ne-surf USA ::ne-type country ::wiki United_States
+(2) ::ne-surf Armenia ::ne-type country ::wiki Armenia
+(2) ::ne-surf Bahrain ::ne-type country ::wiki Bahrain
+(2) ::ne-surf Burma ::ne-type country ::wiki Burma
+(2) ::ne-surf Democratic People's Republic Of Korea ::ne-type country ::wiki North_Korea
+(2) ::ne-surf Ghana ::ne-type country ::wiki Ghana
+(2) ::ne-surf Hungary ::ne-type country ::wiki Hungary
+(2) ::ne-surf Hungary Republic ::ne-type country ::wiki Hungary
+(2) ::ne-surf Hungarian Republic ::ne-type country ::wiki Hungary
+(2) ::ne-surf Ireland ::ne-type country ::wiki Republic_of_Ireland
+(2) ::ne-surf Kuwait ::ne-type country ::wiki Kuwait
+(2) ::ne-surf Malta ::ne-type country ::wiki Malta
+(2) ::ne-surf Mozambique ::ne-type country ::wiki Mozambique
+(2) ::ne-surf New Zealand ::ne-type country ::wiki New_Zealand
+(2) ::ne-surf Niger ::ne-type country ::wiki Niger
+(2) ::ne-surf Oman ::ne-type country ::wiki Oman
+(2) ::ne-surf Phillipines ::ne-type country ::wiki Philippines
+(2) ::ne-surf Russia Federation ::ne-type country ::wiki Russia
+(2) ::ne-surf South Sudan ::ne-type country ::wiki South_Sudan
+(2) ::ne-surf Southern Sudan ::ne-type country ::wiki South_Sudan
+(2) ::ne-surf Sri Lanka ::ne-type country ::wiki Sri_Lanka
+(2) ::ne-surf USSR ::ne-type country ::wiki Soviet_Union
+(1) ::ne-surf Afganistan ::ne-type country ::wiki Afghanistan
+(1) ::ne-surf Azerbaijan ::ne-type country ::wiki Azerbaijan
+(1) ::ne-surf Bolivia ::ne-type country ::wiki Bolivia
+(1) ::ne-surf Botswana ::ne-type country ::wiki Botswana
+(1) ::ne-surf Burundi ::ne-type country ::wiki Burundi
+(1) ::ne-surf Chad ::ne-type country ::wiki Chad
+(1) ::ne-surf DPRK ::ne-type country ::wiki North_Korea
+(1) ::ne-surf Democratic Korea ::ne-type country ::wiki North_Korea
+(1) ::ne-surf Democratic Republic of Korea ::ne-type country ::wiki North_Korea
+(1) ::ne-surf Ethiopia ::ne-type country ::wiki Ethiopia
+(1) ::ne-surf European Union ::ne-type country ::wiki European_Union
+(1) ::ne-surf French Republic ::ne-type country ::wiki France
+(1) ::ne-surf Guatemala ::ne-type country ::wiki Guatemala
+(1) ::ne-surf Haiti ::ne-type country ::wiki Haiti
+(1) ::ne-surf Ivory Coast ::ne-type country ::wiki Ivory_Coast
+(1) ::ne-surf Libya Arab Jamahiriya ::ne-type country ::wiki Libya
+(1) ::ne-surf Madagascar ::ne-type country ::wiki Madagascar
+(1) ::ne-surf Mali ::ne-type country ::wiki Mali
+(1) ::ne-surf Northern Ireland ::ne-type country ::wiki Northern_Ireland
+(1) ::ne-surf Panama ::ne-type country ::wiki Panama
+(1) ::ne-surf People's Democratic Republic of Korea ::ne-type country ::wiki North_Korea
+(1) ::ne-surf Phillippines ::ne-type country ::wiki Philippines
+(1) ::ne-surf Portugal ::ne-type country ::wiki Portugal
+(1) ::ne-surf Senegal ::ne-type country ::wiki Senegal
+(1) ::ne-surf Slovenia ::ne-type country ::wiki Slovenia
+(1) ::ne-surf Soviet ::ne-type country ::wiki Soviet_Union
+(1) ::ne-surf Suriname ::ne-type country ::wiki Suriname
+(1) ::ne-surf The US ::ne-type country ::wiki United_States
+(1) ::ne-surf U.K. ::ne-type country ::wiki United_Kingdom
+(1) ::ne-surf U.S ::ne-type country ::wiki United_States
+(1) ::ne-surf Uganda ::ne-type country ::wiki Uganda
+(1) ::ne-surf Uruguay ::ne-type country ::wiki Uruguay
+(1) ::ne-surf Viet Nam ::ne-type country ::wiki Vietnam
+(1) ::ne-surf Zambia ::ne-type country ::wiki Zambia
+(0) ::ne-surf Andorra ::ne-type country ::wiki Andorra
+(0) ::ne-surf Angola ::ne-type country ::wiki Angola
+(0) ::ne-surf Antigua and Barbuda ::ne-type country ::wiki Antigua_and_Barbuda
+(0) ::ne-surf Bahamas ::ne-type country ::wiki The_Bahamas
+(0) ::ne-surf The Bahamas ::ne-type country ::wiki The_Bahamas
+(0) ::ne-surf Barbados ::ne-type country ::wiki Barbados
+(0) ::ne-surf Belize ::ne-type country ::wiki Belize
+(0) ::ne-surf Benin ::ne-type country ::wiki Benin
+(0) ::ne-surf Bhutan ::ne-type country ::wiki Bhutan
+(0) ::ne-surf Bosnia ::ne-type country ::wiki Bosnia_and_Herzegovina
+(0) ::ne-surf Bosnia and Herzegovina ::ne-type country ::wiki Bosnia_and_Herzegovina
+(0) ::ne-surf Bosnia and Herzegowina ::ne-type country ::wiki Bosnia_and_Herzegovina
+(0) ::ne-surf Burkina Faso ::ne-type country ::wiki Burkina_Faso
+(0) ::ne-surf Cameroon ::ne-type country ::wiki Cameroon
+(0) ::ne-surf Central African Republic ::ne-type country ::wiki Central_African_Republic
+(0) ::ne-surf Comoros ::ne-type country ::wiki Comoros
+(0) ::ne-surf Democratic Republic of Congo ::ne-type country ::wiki Democratic_Republic_of_the_Congo
+(0) ::ne-surf Democratic Republic of the Congo ::ne-type country ::wiki Democratic_Republic_of_the_Congo
+(0) ::ne-surf Congo-Kinshasa ::ne-type country ::wiki Democratic_Republic_of_the_Congo
+(0) ::ne-surf Zaire ::ne-type country ::wiki Democratic_Republic_of_the_Congo
+(0) ::ne-surf Republic of Congo ::ne-type country ::wiki Republic_of_the_Congo
+(0) ::ne-surf Republic of the Congo ::ne-type country ::wiki Republic_of_the_Congo
+(0) ::ne-surf Congo Republic ::ne-type country ::wiki Republic_of_the_Congo
+(0) ::ne-surf Congo-Brazzaville ::ne-type country ::wiki Republic_of_the_Congo
+(0) ::ne-surf Cote d'Ivoire ::ne-type country ::wiki Ivory_Coast
+(0) ::ne-surf Cyprus ::ne-type country ::wiki Cyprus
+(0) ::ne-surf Djibouti ::ne-type country ::wiki Djibouti
+(0) ::ne-surf Dominica ::ne-type country ::wiki Dominica
+(0) ::ne-surf Dominican Republic ::ne-type country ::wiki Dominican_Republic
+(0) ::ne-surf East Timor ::ne-type country ::wiki East_Timor
+(0) ::ne-surf El Salvador ::ne-type country ::wiki El_Salvador
+(0) ::ne-surf Equatorial Guinea ::ne-type country ::wiki Equatorial_Guinea
+(0) ::ne-surf Eritrea ::ne-type country ::wiki Eritrea
+(0) ::ne-surf Fiji ::ne-type country ::wiki Fiji
+(0) ::ne-surf Gabon ::ne-type country ::wiki Gabon
+(0) ::ne-surf Gabonese Republic ::ne-type country ::wiki Gabon
+(0) ::ne-surf Gabon Republic ::ne-type country ::wiki Gabon
+(0) ::ne-surf Gambia ::ne-type country ::wiki The_Gambia
+(0) ::ne-surf The Gambia ::ne-type country ::wiki The_Gambia
+(0) ::ne-surf Grenada ::ne-type country ::wiki Grenada
+(0) ::ne-surf Guinea ::ne-type country ::wiki Guinea
+(0) ::ne-surf Guinea-Bissau ::ne-type country ::wiki Guinea-Bissau
+(0) ::ne-surf Guinea Bissau ::ne-type country ::wiki Guinea-Bissau
+(0) ::ne-surf Guyana ::ne-type country ::wiki Guyana
+(0) ::ne-surf Republic of Ireland ::ne-type country ::wiki Republic_of_Ireland
+(0) ::ne-surf Irish Republic ::ne-type country ::wiki Republic_of_Ireland
+(0) ::ne-surf Jamaica ::ne-type country ::wiki Jamaica
+(0) ::ne-surf Kiribati ::ne-type country ::wiki Kiribati
+(0) ::ne-surf Kirghizia ::ne-type country ::wiki Kyrgyzstan
+(0) ::ne-surf Latvia ::ne-type country ::wiki Latvia
+(0) ::ne-surf Latvian Republic ::ne-type country ::wiki Latvia
+(0) ::ne-surf Republic of Latvia ::ne-type country ::wiki Latvia
+(0) ::ne-surf Lesotho ::ne-type country ::wiki Lesotho
+(0) ::ne-surf Liberia ::ne-type country ::wiki Liberia
+(0) ::ne-surf Liechtenstein ::ne-type country ::wiki Liechtenstein
+(0) ::ne-surf Lithuania ::ne-type country ::wiki Lithuania
+(0) ::ne-surf Luxembourg ::ne-type country ::wiki Luxembourg
+(0) ::ne-surf Malawi ::ne-type country ::wiki Malawi
+(0) ::ne-surf Maldives ::ne-type country ::wiki Maldives
+(0) ::ne-surf Marshall Islands ::ne-type country ::wiki Marshall_Islands
+(0) ::ne-surf Mauritius ::ne-type country ::wiki Mauritius
+(0) ::ne-surf Mongolia ::ne-type country ::wiki Mongolia
+(0) ::ne-surf Montenegro ::ne-type country ::wiki Montenegro
+(0) ::ne-surf Namibia ::ne-type country ::wiki Namibia
+(0) ::ne-surf Nauru ::ne-type country ::wiki Nauru
+(0) ::ne-surf Palau ::ne-type country ::wiki Palau
+(0) ::ne-surf Papua New Guinea ::ne-type country ::wiki Papua_New_Guinea
+(0) ::ne-surf Paraguay ::ne-type country ::wiki Paraguay
+(0) ::ne-surf Rwanda ::ne-type country ::wiki Rwanda
+(0) ::ne-surf Saint Kitts and Nevis ::ne-type country ::wiki Saint_Kitts_and_Nevis
+(0) ::ne-surf Saint Lucia ::ne-type country ::wiki Saint_Lucia
+(0) ::ne-surf Saint Vincent and the Grenadines ::ne-type country ::wiki Saint_Vincent_and_the_Grenadines
+(0) ::ne-surf Samoa ::ne-type country ::wiki Samoa
+(0) ::ne-surf San Marino ::ne-type country ::wiki San_Marino
+(0) ::ne-surf Sao Tome and Principe ::ne-type country ::wiki São_Tomé_and_Príncipe
+(0) ::ne-surf São Tomé and Príncipe ::ne-type country ::wiki São_Tomé_and_Príncipe
+(0) ::ne-surf Seychelles ::ne-type country ::wiki Seychelles
+(0) ::ne-surf Sierra Leone ::ne-type country ::wiki Sierra_Leone
+(0) ::ne-surf Solomon Islands ::ne-type country ::wiki Solomon_Islands
+(0) ::ne-surf Swaziland ::ne-type country ::wiki Swaziland
+(0) ::ne-surf Togo ::ne-type country ::wiki Togo
+(1) ::ne-surf Togo ::ne-type person ::wiki Shigenori_Tōgō
+(0) ::ne-surf Tonga ::ne-type country ::wiki Tonga
+(0) ::ne-surf Trinidad and Tobago ::ne-type country ::wiki Trinidad_and_Tobago
+(0) ::ne-surf Tuvalu ::ne-type country ::wiki Tuvalu
+(0) ::ne-surf Vanuatu ::ne-type country ::wiki Vanuatu
+(0) ::ne-surf Vatican ::ne-type country ::wiki Vatican_City
+(0) ::ne-surf Vatican City ::ne-type country ::wiki Vatican_City
+(0) ::ne-surf Wales ::ne-type country ::wiki Wales
+(0) ::ne-surf West Samoa ::ne-type country ::wiki Samoa
+(0) ::ne-surf Western Samoa ::ne-type country ::wiki Samoa
+(0) ::ne-surf Kurdistan ::ne-type country ::wiki Kurdistan
+(6) ::ne-surf Polar Bear ::ne-type country ::wiki Russia
+(1) ::ne-surf Roman Empire ::ne-type country ::wiki Roman_Empire
+
+(6) ::ne-surf English ::ne-type language ::wiki English_language
+(5) ::ne-surf Arabic ::ne-type language ::wiki Arabic_language
+(2) ::ne-surf Chinese ::ne-type language ::wiki Chinese_language
+(2) ::ne-surf French ::ne-type language ::wiki French_language
+(1) ::ne-surf Latin ::ne-type language ::wiki Latin
+(1) ::ne-surf Mandarin ::ne-type language ::wiki Mandarin_Chinese
+(1) ::ne-surf Russian ::ne-type language ::wiki Russian_language
+(1) ::ne-surf Italian ::ne-type language ::wiki Italian_language
+(1) ::ne-surf Korean ::ne-type language ::wiki Korean_language
+(0) ::ne-surf German ::ne-type language ::wiki German_language
+(0) ::ne-surf Japanese ::ne-type language ::wiki Japanese_language
+(0) ::ne-surf Swedish ::ne-type language ::wiki Swedish_language
+(0) ::ne-surf Spanish ::ne-type language ::wiki Spanish_language
+(0) ::ne-surf NZ ::ne-type country ::wiki New_Zealand

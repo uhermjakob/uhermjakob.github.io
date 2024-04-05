@@ -1,0 +1,13 @@
+STEM match for unaligned weeks :: week :: DF-183-195681-794_9333.5 colorado
+STEM match for unaligned counter :: counterbalance-01 :: DF-183-195681-795_0154.1 colorado
+STEM match for unaligned counter :: counterbalance-01 :: DF-183-195681-795_0154.3 colorado
+STEM match for unaligned preferable :: prefer-01 :: DF-183-195681-795_0154.6 colorado
+STEM match for unaligned Univisions :: Univision :: DF-183-195681-795_0154.7 colorado
+STEM match for unaligned Univisions :: Univision :: DF-183-195681-795_0154.7 colorado
+STEM match for unaligned Blackled :: blackle-00 :: DF-199-192769-667_8409.3 colorado
+STEM match for unaligned Blackled :: black-04 :: DF-199-192769-667_8409.3 colorado
+STEM match for unaligned differrence :: differ-02 :: DF-199-192769-667_8409.5 colorado
+STEM match for unaligned fulfilment :: fulfill-01 :: DF-199-192772-680_8771.2 colorado
+STEM match for unaligned some :: something :: DF-199-192772-681_0232.17 colorado
+STEM match for unaligned praiseworthy :: praise-01 :: DF-199-192772-681_0232.19 colorado
+STEM match for unaligned experiencially :: experience-01 :: DF-199-192772-681_0232.22 colorado

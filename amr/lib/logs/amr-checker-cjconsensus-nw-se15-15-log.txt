@@ -1,0 +1,4 @@
+STEM match for unaligned and :: and :: nyt_eng_20130709_0087.5 cjconsensus
+STEM match for unaligned dental :: dentist :: nyt_eng_20130709_0087.7 cjconsensus
+STEM match for unaligned and :: and :: nyt_eng_20130709_0087.16 cjconsensus
+STEM match for unaligned Dickensian :: Dickens :: nyt_eng_20130709_0087.23 cjconsensus

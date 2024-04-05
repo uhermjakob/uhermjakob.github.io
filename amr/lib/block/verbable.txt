@@ -1,0 +1,31 @@
+TITLE X-able
+HIGHLIGHT-RED predict-01
+HIGHLIGHT-RED tax-01
+HIGHLIGHT-RED comparable-03
+HIGHLIGHT-RED adjusted
+HIGHLIGHT-RED predicted
+HIGHLIGHT-BLUE adjustable
+HIGHLIGHT-BLUE comparable
+HIGHLIGHT-BLUE predictable
+HIGHLIGHT-BLUE taxable
+
+Be careful with verb+able adjectives.
+Some of them can be decomposed:
+<ul>
+   <li> His behavior is predictable. &nbsp; = &nbsp; His behavior can be predicted.</i>
+   <li> The mortgage rate is adjustable. &nbsp; = &nbsp; The mortgage rate can be adjusted.</i>
+   <li> Similarly: acceptable, reliable, understandable
+</ul>
+But there are many cases where this is not the case:
+<ul>
+   <li> &quot;taxable&quot; doesn't mean that the tax is optional.
+   <li> Gandhi and Hitler are not comparable (i.e. not similar) even though they can be compared.
+   <li> Similarly: reasonable, remarkable
+</ul>
+
+EXAMPLE isi_0002.70 His behavior is predictable .
+
+EXAMPLE isi_0002.71 His income is taxable .
+
+EXAMPLE isi_0002.72 These are comparable books .
+

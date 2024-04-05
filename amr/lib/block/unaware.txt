@@ -1,0 +1,8 @@
+TITLE unaware
+HIGHLIGHT-RED realize-01
+HIGHLIGHT-BLUE unaware
+
+The adjective unaware is annotated using realize-01.
+
+EXAMPLE isi_0002.54 He was unaware of the problems.
+

@@ -1,0 +1,7 @@
+STEM match for unaligned celebs :: celebrity :: DF-200-192403-625_1270.1 cjconsensus
+STEM match for unaligned occassionally :: occasional :: DF-200-192403-625_1270.2 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192403-625_1270.3 cjconsensus
+STEM match for unaligned counsellor :: counselor :: DF-200-192403-625_1270.13 cjconsensus
+STEM match for unaligned friends :: friend :: DF-200-192403-625_1504.2 cjconsensus
+STEM match for unaligned and :: and :: DF-200-192403-625_1504.9 cjconsensus
+STEM match for unaligned elses :: else :: DF-200-192403-625_1504.16 cjconsensus

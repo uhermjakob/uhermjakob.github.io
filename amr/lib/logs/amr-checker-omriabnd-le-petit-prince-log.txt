@@ -1,0 +1,8 @@
+STEM match for unaligned years :: year :: lpp_1943.2 omriabnd
+STEM match for unaligned drawing :: draw-01 :: lpp_1943.4 omriabnd
+STEM match for unaligned months :: month :: lpp_1943.6 omriabnd
+STEM match for unaligned first :: first :: lpp_1943.8 omriabnd
+STEM match for unaligned first :: first :: lpp_1943.8 omriabnd
+STEM match for unaligned drawing :: draw-01 :: lpp_1943.10 omriabnd
+STEM match for unaligned hat :: hat :: lpp_1943.13 omriabnd
+STEM match for unaligned true :: true :: lpp_1943.22 omriabnd

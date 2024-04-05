@@ -1,0 +1,17 @@
+STEM match for unaligned overextended :: overextend-00 :: DF-199-193571-649_0934.2 nnistor
+STEM match for unaligned problematic :: problem :: DF-199-193571-649_0934.5 nnistor
+STEM match for unaligned restaint :: restrain-01 :: DF-199-193571-649_0934.6 nnistor
+STEM match for unaligned restaint :: restrain-01 :: DF-199-193571-649_0934.6 nnistor
+STEM match for unaligned Unfettered :: unfetter-00 :: DF-199-193571-649_0934.10 nnistor
+STEM match for unaligned Unfettered :: unfetter-00 :: DF-199-193571-649_0934.10 nnistor
+STEM match for unaligned meaningless :: mean-01 :: DF-199-193571-649_0934.19 nnistor
+STEM match for unaligned sombreros :: sombrero :: DF-199-193600-660_5903.4 nnistor
+STEM match for unaligned races/cultures :: race :: DF-199-193600-660_5903.16 nnistor
+STEM match for unaligned over :: overalls :: DF-199-193600-660_5903.17 nnistor
+STEM match for unaligned black :: blacken-01 :: DF-199-193600-660_5903.17 nnistor
+STEM match for unaligned make :: makeup :: DF-199-193600-660_5903.18 nnistor
+STEM match for unaligned obsessions :: obsess-01 :: DF-199-193600-660_5903.27 nnistor
+STEM match for unaligned ridiculous :: ridicule-01 :: DF-199-193600-660_5903.28 nnistor
+STEM match for unaligned racist :: racism :: DF-199-193600-660_5903.29 nnistor
+STEM match for unaligned costumes.. :: costume-01 :: DF-199-193600-660_5903.32 nnistor
+STEM match for unaligned drippy :: drip-02 :: DF-199-193600-660_5903.44 nnistor

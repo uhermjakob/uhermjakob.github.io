@@ -1,0 +1,140 @@
+TITLE Quantity types
+HIGHLIGHT-RED :scale
+HIGHLIGHT-RED percentage-entity
+HIGHLIGHT-RED score-entity
+HIGHLIGHT-RED date-entity
+
+EXAMPLE isi_0002.55 3,794,100 square miles
+
+<h3>List of quantities and common units</h3>
+
+<table border="1" cellpadding="1" cellspacing="0">
+  <tr bgcolor="#BBCCFF">
+    <td align="center"><b>Quantity</b></td>
+    <td align="center"><b>Common units and scales</b></td>
+  </tr>
+  <tr>
+    <td>&nbsp;monetary-quantity</td>
+    <td>&nbsp;<b>:unit</b> dollar, euro, pound, yen, yuan</td>
+  </tr>
+  <tr>
+    <td>&nbsp;distance-quantity</td>
+    <td>&nbsp;<b>:unit</b> meter, kilometer, inch, foot, yard, mile, light-year, kilo-base-pair</td>
+  </tr>
+  <tr>
+    <td>&nbsp;area-quantity</td>
+    <td>&nbsp;<b>:unit</b> square-meter, square-kilometer, square-foot, acre, square-mile</td>
+  </tr>
+  <tr>
+    <td>&nbsp;volume-quantity</td>
+    <td>&nbsp;<b>:unit</b> liter, cubic-meter, fluid-ounce, pint, gallon, cubic-mile</td>
+  </tr>
+  <tr>
+    <td>&nbsp;temporal-quantity</td>
+    <td>&nbsp;<b>:unit</b> second, minute, hour, day, week, month, year, decade, century&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;frequency-quantity</td>
+    <td>&nbsp;<b>:unit</b> hertz</td>
+  </tr>
+  <tr>
+    <td>&nbsp;speed-quantity</td>
+    <td>&nbsp;<b>:unit</b> meter-per-second, mile-per-hour</td>
+  </tr>
+  <tr>
+    <td>&nbsp;acceleration-quantity</td>
+    <td>&nbsp;<b>:unit</b> meter-per-second-squared</td>
+  </tr>
+  <tr>
+    <td>&nbsp;mass-quantity</td>
+    <td>&nbsp;<b>:unit</b> kilogram, ounce, pound, ton, atomic-mass-unit, kilodalton</td>
+  </tr>
+  <tr>
+    <td>&nbsp;force-quantity</td>
+    <td>&nbsp;<b>:unit</b> newton</td>
+  </tr>
+  <tr>
+    <td>&nbsp;pressure-quantity</td>
+    <td>&nbsp;<b>:unit</b> pascal, bar, psi, atmosphere, torr</td>
+  </tr>
+  <tr>
+    <td>&nbsp;energy-quantity</td>
+    <td>&nbsp;<b>:unit</b> joule, calorie, kilowatt-hour, btu, electron-volt</td>
+  </tr>
+  <tr>
+    <td>&nbsp;power-quantity</td>
+    <td>&nbsp;<b>:unit</b> watt, horsepower</td>
+  </tr>
+  <tr>
+    <td>&nbsp;charge-quantity</td>
+    <td>&nbsp;<b>:unit</b> coulomb</td>
+  </tr>
+  <tr>
+    <td>&nbsp;potential-quantity</td>
+    <td>&nbsp;<b>:unit</b> volt</td>
+  </tr>
+  <tr>
+    <td>&nbsp;resistance-quantity</td>
+    <td>&nbsp;<b>:unit</b> ohm</td>
+  </tr>
+  <tr>
+    <td>&nbsp;inductance-quantity</td>
+    <td>&nbsp;<b>:unit</b> henry</td>
+  </tr>
+  <tr>
+    <td>&nbsp;magnetic-field-quantity</td>
+    <td>&nbsp;<b>:unit</b> tesla, gauss</td>
+  </tr>
+  <tr>
+    <td>&nbsp;magnetic-flux-quantity</td>
+    <td>&nbsp;<b>:unit</b> maxwell, weber</td>
+  </tr>
+  <tr>
+    <td>&nbsp;radiation-quantity</td>
+    <td>&nbsp;<b>:unit</b> becquerel, curie, sievert, rem, gray, rad</td>
+  </tr>
+  <tr>
+    <td>&nbsp;fuel-consumption-quantity&nbsp;</td>
+    <td>&nbsp;<b>:unit</b> liter-per-100-kilometer, mile-per-gallon</td>
+  </tr>
+  <tr>
+    <td>&nbsp;numerical-quantity</td>
+    <td>&nbsp;<b>:unit</b> point, mole</td>
+  </tr>
+  <tr>
+    <td>&nbsp;information-quantity</td>
+    <td>&nbsp;<b>:unit</b> bit, byte, kilobyte, megabyte, terabyte, petabyte, exabyte, zettabyte, yottabyte, nibble</td>
+  </tr>
+  <tr>
+    <td>&nbsp;concentration-quantity</td>
+    <td>&nbsp;<b>:unit</b> molar (1M = 1 molar = 1 mole/liter), micromolar (μM), kilogram-per-cubic-meter, parts-per-million &nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;catalytic-activity-quantity</td>
+    <td>&nbsp;<b>:unit</b> katal (kat), microkatal, nanokatal, enzyme-unit (U) &nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;acidity-quantity</td>
+    <td>&nbsp;<b>:scale</b> ph</td>
+  </tr>
+  <tr>
+    <td>&nbsp;seismic-quantity</td>
+    <td>&nbsp;<b>:scale</b> richter</td>
+  </tr>
+  <tr>
+    <td>&nbsp;temperature-quantity</td>
+    <td>&nbsp;<b>:scale</b> celsius, kelvin, fahrenheit</td>
+  </tr>
+</table>
+
+<p>
+<hr>
+
+<h3><span style="text-decoration:underline;">Not</span> quantities: percentages, scores, dates</h3>
+
+EXAMPLE isi_0001.39 25%
+
+EXAMPLE isi_0002.56 In the 1974 soccer World Cup final, Germany beat the Netherlands 2-1.
+
+EXAMPLE isi_0001.36 February 29, 2012
+

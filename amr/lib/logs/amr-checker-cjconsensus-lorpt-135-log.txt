@@ -1,0 +1,9 @@
+STEM match for unaligned executive :: execute-02 :: NW_NYT_ENG_0137_2006_0323.7 cjconsensus
+STEM match for unaligned disastrous :: disaster :: NW_NYT_ENG_0137_2006_0323.9 cjconsensus
+STEM match for unaligned and :: and :: NW_NYT_ENG_0137_2006_0323.9 cjconsensus
+STEM match for unaligned and :: and :: NW_NYT_ENG_0137_2006_0323.9 cjconsensus
+STEM match for unaligned and :: and :: NW_NYT_ENG_0137_2006_0323.9 cjconsensus
+STEM match for unaligned and :: and :: NW_NYT_ENG_0137_2006_0323.9 cjconsensus
+STEM match for unaligned and :: and :: NW_NYT_ENG_0137_2006_0323.9 cjconsensus
+STEM match for unaligned and :: and :: NW_NYT_ENG_0137_2006_0323.9 cjconsensus
+STEM match for unaligned nonprofits :: profit-01 :: NW_NYT_ENG_0137_2006_0323.27 cjconsensus

@@ -1,0 +1,113 @@
+TITLE Quantities
+HIGHLIGHT-RED :unit
+HIGHLIGHT-RED :scale
+HIGHLIGHT-RED :quant
+HIGHLIGHT-BLUE milk
+HIGHLIGHT-BLUE about
+HIGHLIGHT-BLUE between
+HIGHLIGHT-BLUE multiple
+HIGHLIGHT-BLUE plural
+HIGHLIGHT-BLUE plurals
+HIGHLIGHT-BLUE several
+HIGHLIGHT-BLUE more than
+HIGHLIGHT-BLUE more-than
+
+<h2>Index</h2>
+<ul>
+<li> <a href="#general-quantities">Precise (Scientific) Quantities</a> (10 miles)
+<li> <a href="#non-exact-quantities">Non-Exact Quantities</a> (nearly 10 miles)
+<li> <a href="#numerical-quantities">Numerical Quantities</a> (10 boys)
+</ul>
+
+<a name="general-quantities">
+<h2>Precise (Scientific) Quantities</h2>
+
+Precise scientific quantities typically have two arguments, :unit and :quant :
+
+EXAMPLE isi_0001.34 ten miles
+
+EXAMPLE isi_0002.55 3,794,100 square miles
+
+EXAMPLE isi_0002.5 20 Canadian dollars
+
+EXAMPLE isi_0002.1 The plane crash occurred 50 miles east of Moscow.
+
+EXAMPLE isi_0002.2 The woman bought two gallons of milk.
+
+Note that milk is the (semantic) head of &nbsp;<i>two gallons of milk</i>.
+
+EXAMPLE isi_0002.6 7.9 on the Richter scale
+
+Note that :scale is used (instead of :unit) in quantities where a :quant 0 value does not represent a 0-quantity.
+<p>
+Note that we use &nbsp;<i>weight-quantity</i>, <i>volume-quantity</i> etc. only for &quot;scientific&quot; quantities, but not in cases such as the two examples below:
+
+EXAMPLE isi_0002.99 He carried a sack of rice .
+
+EXAMPLE isi_0002.100 He drank a lot of beer .
+
+<p>
+Here is a complete <a href="quantity-types.html" target="quantity types">list of quantity types</a> (monetary-quantity, distance-quantity, ...).
+
+<hr>
+
+<a name="non-exact-quantities">
+<h2>Non-Exact Quantities</h2>
+
+EXAMPLE isi_0002.95 The performance will take between 45 minutes and an hour.
+
+Note that the non-exact concept heads the precise quantities. One reason for that is
+because such a concept can take more than one argument, as in the case of &nbsp;<i>between</i>.
+The concept operates over quantities (45 minutes, 1 hour) rather than numbers
+(45, 1), because the units of the quantities can differ.
+
+EXAMPLE isi_0002.97 more than $10
+
+It can also be argued that &quot;modifiers&quot; such as &nbsp;<i>more than</i>&nbsp; don't make
+an entity more specific in the way that &nbsp;<i>blue ball</i>&nbsp; is more
+specific than &nbsp;<i>ball</i>&nbsp; or in that &nbsp;<i>He ate an apple</i>&nbsp;
+is more specific than &nbsp;<i>eat</i> .
+<p>
+<i>more than $10</i> is not more specific than &nbsp;<i>$10</i>. &nbsp; Rather, it is
+a non-exact quantity being compared to &nbsp;<i>$10</i>&nbsp; as a reference,
+which, in our notation, is taken as an argument.
+<p>
+This is somewhat similar to syntactic modals such as &nbsp;<i>can</i> being
+raised to semantically govern their erstwhile syntactic heads as &nbsp;<i>possible</i>.
+<p>
+The <b>list of fuzzy operator</b> concepts that can go on top of precise quantities includes: <font color="blue">about, above, almost, approximately, around, at-least, at-most, below, between</font> (with roles :op1 and :op2), <font color="blue">close-to, couple, few, less-than, lot, many, more-than, multiple, nearly, no-more-than, number, over, roughly, several, some, under, up-to</font>
+
+EXAMPLE isi_0002.94 He retired more than five years ago .
+
+EXAMPLE isi_0001.35 about 10 miles
+
+Modifiers such as &nbsp;<i>several</i> and even &nbsp;<i>plurals</i> are
+handled in a similar way as &nbsp;<i>more than</i> and &nbsp;<i>about</i>.
+
+EXAMPLE isi_0002.92 He is likely to serve on the court for several decades .
+
+EXAMPLE isi_0002.10 America was discovered several hundred years ago.
+
+EXAMPLE isi_0002.93 He retired years ago .
+
+EXAMPLE isi_0002.91 The symptoms showed up decades later .
+
+<hr>
+
+<a name="numerical-quantities">
+<h2>Numerical Quantities</h2>
+
+EXAMPLE isi_0001.30 40,000 boys
+
+EXAMPLE isi_0001.31 a billion and half atoms
+
+EXAMPLE isi_0001.33 between four and five thousand boys
+
+EXAMPLE isi_0001.32 several hundred boys
+
+EXAMPLE isi_0002.96 hundreds of boys
+
+Note that in simple numerical quantities, we do not annotate for plurals:
+
+EXAMPLE isi_0002.98 The boys ran away .
+

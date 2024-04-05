@@ -1,0 +1,12 @@
+TITLE independent
+HIGHLIGHT-RED realize-01
+Consider annotating the adjective <font color="blue">independent (of)</font> with verb frame <font color="red">depend-01</font> (with :polarity -), in analogy to the adjective <font color="blue">unaware</font> below:
+<p>
+<hr>
+<p>
+HIGHLIGHT-BLUE unaware
+
+The adjective unaware is annotated using realize-01.
+
+EXAMPLE isi_0002.54 He was unaware of the problems.
+

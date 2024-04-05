@@ -1,0 +1,173 @@
+﻿
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AMR roles</title>
+    <link rel="stylesheet" type="text/css" href="http://www.isi.edu/~ulf/css/handheld/default.css" media="handheld"/>
+    <link rel="stylesheet" type="text/css" href="http://www.isi.edu/~ulf/css/handheld/default.css" media="only screen and (max-device-width:480px)"/>
+
+    <script type="text/javascript">
+    <!--
+
+    function select(role) {
+       var s;
+       if ((s = document.getElementById('pre-role')) != null) {
+	  s.style.display = 'inline';
+       }
+       if ((s = document.getElementById('role')) != null) {
+	  s.innerHTML = role;
+       }
+       window.opener.select_role(role);
+       self.close();
+    }
+
+    function popup(url,title) {
+       var newWindow=window.open(url,title,'height=600,width=700,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
+    }
+    HERE
+    
+    -->
+    </script>
+
+  </head>
+  <body bgcolor="#FFFFEE">
+<table width="100%" border="0" cellpadding="3" cellspacing="0"><tr bgcolor="#BBCCFF"><td>&nbsp; <b><font class="large2" size="+2">AMR Roles</font></b><br>&nbsp; <font class="small1" size="-1" color="#888888">as of June 2, 2012</font></td></tr></table>
+    <p>
+    You may select one of the following roles by clicking on the blue links:
+    <ul>
+       <li> <b>Frame args:</b> &nbsp;
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":ARG0" onclick="select(':ARG0');">:ARG0</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":ARG1" onclick="select(':ARG1');">:ARG1</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":ARG2" onclick="select(':ARG2');">:ARG2</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":ARG3" onclick="select(':ARG3');">:ARG3</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":ARG4" onclick="select(':ARG4');">:ARG4</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":ARG5" onclick="select(':ARG5');">:ARG5</a> &nbsp;</nobr>
+	    (following OntoNotes conventions)
+       <li> <b>Ops:</b> &nbsp;
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op1" onclick="select(':op1');">:op1</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op2" onclick="select(':op2');">:op2</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op3" onclick="select(':op3');">:op3</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op4" onclick="select(':op4');">:op4</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op5" onclick="select(':op5');">:op5</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op6" onclick="select(':op6');">:op6</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op7" onclick="select(':op7');">:op7</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op8" onclick="select(':op8');">:op8</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op9" onclick="select(':op9');">:op9</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":op10" onclick="select(':op10');">:op10</a> &nbsp;</nobr>
+	    <a onclick="popup('http://www.isi.edu/~ulf/amr/lib/popup/op.html',':op1');" title="Click for examples of :op1 etc." target="_GUIDANCE"><span style="color:#009900;text-decoration:underline;">examples</style></a>
+       <li> <b>General semantic roles:</b> &nbsp;
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":accompanier" onclick="select(':accompanier');">:accompanier</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":age" onclick="select(':age');">:age</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":beneficiary" onclick="select(':beneficiary');">:beneficiary</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":cause" onclick="select(':cause');">:cause</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Used for comparatives." onclick="select(':compared-to');">:compared-to</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/compared-to.html" title="Click for examples of :compared-to" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":concession" onclick="select(':concession');">:concession</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Used in &quot;cloud of dust&quot; and &quot;team of researchers&quot;" onclick="select(':consist-of');">:consist-of</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/consist-of.html" title="Click for examples of :consist-of" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Used for comparatives, superlatives. Typical values: more, most. Also used for &quot;very&quot; etc." onclick="select(':degree');">:degree</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/degree.html" title="Click for examples of :degree" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":destination" onclick="select(':destination');">:destination</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":direction" onclick="select(':direction');">:direction</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Used for &quot;... is &lt;adj/noun&gt;&quot; and under modal concepts such as &quot;obligatory&quot;" onclick="select(':domain');">:domain</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/domain.html" title="Click for examples of :domain" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":duration" onclick="select(':duration');">:duration</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":effect" onclick="select(':effect');">:effect</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":instrument" onclick="select(':instrument');">:instrument</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":location" onclick="select(':location');">:location</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":manner" onclick="select(':manner');">:manner</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":mod" onclick="select(':mod');">:mod</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Used for yes-no questions. Typical value: interrogative" onclick="select(':mode');">:mode</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/question.html" title="Click for an example of :mode interrogative" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":name" onclick="select(':name');">:name</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Used for negation. Typical value: -" onclick="select(':polarity');">:polarity</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/polarity.html" title="Click for examples of :polarity" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":poss" onclick="select(':poss');">:poss</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":purpose" onclick="select(':purpose');">:purpose</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":quant" onclick="select(':quant');">:quant</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/quant.html" title="Click for examples of :quant" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="For reification (probably soon to be obsolete)" onclick="select(':range');">:range</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":reason" onclick="select(':reason');">:reason</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":recipient" onclick="select(':recipient');">:recipient</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Used in certain quantities. Typical value: Celsius/Fahrenheit/Richter" onclick="select(':scale');">:scale</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/scale.html" title="Click for examples of :scale" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":source" onclick="select(':source');">:source</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":subset-of" onclick="select(':subset-of');">:subset-of</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":time" onclick="select(':time');">:time</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":topic" onclick="select(':topic');">:topic</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="In quantities, e.g. hour, mile, volt" onclick="select(':unit');">:unit</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/unit.html" title="Click for examples of :unit" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":value" onclick="select(':value');">:value</a>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/value.html" title="Click for examples of :value" target="_GUIDANCE"><font color=#009900">ex</font></a>  &nbsp;</nobr>
+       <!-- <nobr><a style="color:#0000FF;text-decoration:underline;" title=":XXX" onclick="select(':XXX');">:XXX</a> &nbsp;</nobr> -->
+       <li> <b>In date-entity:</b> &nbsp;
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Day of the month, e.g. 31" onclick="select(':day');">:day</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="Month of the Year, e.g. 12 (for December)" onclick="select(':month');">:month</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. 2012" onclick="select(':year');">:year</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. monday" onclick="select(':weekday');">:weekday</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. 15:00" onclick="select(':time');">:time</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. PST (for Pacific Standard Time)" onclick="select(':timezone');">:timezone</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. 4 (for 4th quarter of a year)" onclick="select(':quarter');">:quarter</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. summer" onclick="select(':season');">:season</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. 2012 (for the 2012 in winter 2011/2012)" onclick="select(':year2');">:year2</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. 90 (for '90s), 1920 (for 1920s)" onclick="select(':decade');">:decade</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. 19 (for 19th century), 1800 (for 1800s)" onclick="select(':century');">:century</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="to specify Gregorian/Julian/Hebrew/Islamic/Japanese/academic calendar" onclick="select(':calendar');">:calendar</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. BC/AD/Heisei (Japanese era)" onclick="select(':era');">:era</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title="E.g. to specify &quot;next&quot; in &quot;next Monday&quot;" onclick="select(':mod');">:mod</a> &nbsp;</nobr>
+	    <a href="http://www.isi.edu/~ulf/amr/lib/popup/date.html" title="Click for examples of date-entity roles" target="_GUIDANCE"><font color=#009900">examples</font></a>
+       <li> <b>Prepositions:</b> &nbsp;
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-against" onclick="select(':prep-against');">:prep-against</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-along-with" onclick="select(':prep-along-with');">:prep-along-with</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-amid" onclick="select(':prep-amid');">:prep-amid</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-among" onclick="select(':prep-among');">:prep-among</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-as" onclick="select(':prep-as');">:prep-as</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-at" onclick="select(':prep-at');">:prep-at</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-by" onclick="select(':prep-by');">:prep-by</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-concerning" onclick="select(':prep-concerning');">:prep-concerning</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-considering" onclick="select(':prep-considering');">:prep-considering</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-despite" onclick="select(':prep-despite');">:prep-despite</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-even-though" onclick="select(':prep-even-though');">:prep-even-though</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-except" onclick="select(':prep-except');">:prep-except</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-excluding" onclick="select(':prep-excluding');">:prep-excluding</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-following" onclick="select(':prep-following');">:prep-following</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-for" onclick="select(':prep-for');">:prep-for</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-from" onclick="select(':prep-from');">:prep-from</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-in" onclick="select(':prep-in');">:prep-in</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-in-addition-to" onclick="select(':prep-in-addition-to');">:prep-in-addition-to</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-in-spite-of" onclick="select(':prep-in-spite-of');">:prep-in-spite-of</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-instead-of" onclick="select(':prep-instead-of');">:prep-instead-of</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-into" onclick="select(':prep-into');">:prep-into</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-like" onclick="select(':prep-like');">:prep-like</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-on" onclick="select(':prep-on');">:prep-on</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-on-behalf-of" onclick="select(':prep-on-behalf-of');">:prep-on-behalf-of</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-opposite" onclick="select(':prep-opposite');">:prep-opposite</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-out-of" onclick="select(':prep-out-of');">:prep-out-of</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-per" onclick="select(':prep-per');">:prep-per</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-regarding" onclick="select(':prep-regarding');">:prep-regarding</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-save" onclick="select(':prep-save');">:prep-save</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-such-as" onclick="select(':prep-such-as');">:prep-such-as</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-through" onclick="select(':prep-through');">:prep-through</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-to" onclick="select(':prep-to');">:prep-to</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-toward" onclick="select(':prep-toward');">:prep-toward</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-under" onclick="select(':prep-under');">:prep-under</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-unlike" onclick="select(':prep-unlike');">:prep-unlike</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-versus" onclick="select(':prep-versus');">:prep-versus</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-with" onclick="select(':prep-with');">:prep-with</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-within" onclick="select(':prep-within');">:prep-within</a> &nbsp;</nobr>
+            <nobr><a style="color:#0000FF;text-decoration:underline;" title=":prep-without" onclick="select(':prep-without');">:prep-without</a> &nbsp;</nobr>
+       <li> <b>Conjunctions:</b> &nbsp;
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":conj-although" onclick="select(':conj-although');">:conj-although</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":conj-as-if" onclick="select(':conj-as-if');">:conj-as-if</a> &nbsp;</nobr>
+	    <nobr><a style="color:#0000FF;text-decoration:underline;" title=":conj-even-though" onclick="select(':conj-even-though');">:conj-even-though</a> &nbsp;</nobr>
+    </ul>
+    <p>
+    <b>Notes:</b> 
+       <ul> 
+	  <li> Please use prepositional and conjunctional roles such as <i><b>:prep-against</b></i> only if no other semantic role fits.
+	  <li> For each role <i><b>:role</b></i>, there is an inverse role <i><b>:role-of</b></i>. The inverse of roles such as <i><b>:consist-of</b></i> is <i><b>:consist</b></i> etc.
+       </ul>
+    <p>
+    <span id="pre-role" style="display:block;">Role selected:</span> &nbsp; <b><span id="role"></span></b>
+   </body>
+</html>

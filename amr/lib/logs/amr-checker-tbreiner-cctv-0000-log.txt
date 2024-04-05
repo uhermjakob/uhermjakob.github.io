@@ -1,0 +1,8 @@
+STEM match for unaligned several :: several :: bc.cctv_0000.5 tbreiner
+STEM match for unaligned several :: several :: bc.cctv_0000.5 tbreiner
+STEM match for unaligned years :: year :: bc.cctv_0000.5 tbreiner
+STEM match for unaligned years :: year :: bc.cctv_0000.31 tbreiner
+STEM match for unaligned 2004 :: 2004 :: bc.cctv_0000.74 tbreiner
+STEM match for unaligned 100 :: 100 :: bc.cctv_0000.74 tbreiner
+STEM match for unaligned year :: year :: bc.cctv_0000.74 tbreiner
+STEM match for unaligned year :: year :: bc.cctv_0000.74 tbreiner

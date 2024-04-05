@@ -1,0 +1,11 @@
+STEM match for unaligned Philippine :: Phillipine :: events_0037.10 kirchman
+STEM match for unaligned and :: and :: events_0037.10 kirchman
+STEM match for unaligned earthquakes :: earth :: events_0037.11 kirchman
+STEM match for unaligned aftermath :: after :: events_0037.17 kirchman
+STEM match for unaligned aftermath :: after :: events_0037.17 kirchman
+STEM match for unaligned and :: and :: events_0037.20 kirchman
+STEM match for unaligned and :: and :: events_0037.27 kirchman
+STEM match for unaligned hospitalised :: hospitalize-01 :: events_0037.43 kirchman
+STEM match for unaligned possible :: poss :: events_0037.57 kirchman
+STEM match for unaligned Meteorology :: Meterology :: events_0037.82 kirchman
+STEM match for unaligned Comr :: Comr. :: events_0037.86 kirchman

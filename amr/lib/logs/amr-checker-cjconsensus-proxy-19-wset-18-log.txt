@@ -1,0 +1,11 @@
+STEM match for unaligned agreeable :: agree-01 :: PROXY_AFP_ENG_20050708_0783.21 cjconsensus
+STEM match for unaligned Pakistani :: Pakistan :: PROXY_AFP_ENG_20050715_0227.4 cjconsensus
+STEM match for unaligned Pakistani :: Pakistan :: PROXY_AFP_ENG_20050715_0227.5 cjconsensus
+STEM match for unaligned Commision :: Commission :: PROXY_AFP_ENG_20050715_0227.10 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050715_0227.11 cjconsensus
+STEM match for unaligned burqas :: burqa :: PROXY_AFP_ENG_20050715_0227.12 cjconsensus
+STEM match for unaligned Pakistani :: Pakistan :: PROXY_AFP_ENG_20050715_0227.13 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050715_0227.16 cjconsensus
+STEM match for unaligned Koranic :: Koran :: PROXY_AFP_ENG_20050715_0227.30 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050715_0227.30 cjconsensus
+STEM match for unaligned and :: and :: PROXY_AFP_ENG_20050715_0227.30 cjconsensus

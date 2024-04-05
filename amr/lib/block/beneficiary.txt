@@ -1,0 +1,8 @@
+TITLE :beneficiary
+HIGHLIGHT-RED :beneficiary
+
+Example for :beneficiary:
+
+EXAMPLE isi_0002.49 My friend recorded a song for me .
+
+Reification: benefit-01

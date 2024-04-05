@@ -1,0 +1,11 @@
+STEM match for unaligned late :: late :: wb.eng_0003.4 ebutusina
+STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.4 ebutusina
+STEM match for unaligned 2004 :: 2004 :: wb.eng_0003.9 ebutusina
+STEM match for unaligned local :: locality :: wb.eng_0003.15 ebutusina
+STEM match for unaligned local :: location :: wb.eng_0003.15 ebutusina
+STEM match for unaligned local :: location :: wb.eng_0003.15 ebutusina
+STEM match for unaligned local :: location :: wb.eng_0003.15 ebutusina
+STEM match for unaligned years :: year :: wb.eng_0003.19 ebutusina
+STEM match for unaligned years :: year :: wb.eng_0003.19 ebutusina
+STEM match for unaligned Come :: come-01 :: wb.eng_0003.54 ebutusina
+STEM match for unaligned folks :: folk :: wb.eng_0003.54 ebutusina

@@ -1,0 +1,13 @@
+STEM match for unaligned hairless :: hair :: qmul-short_0001.2 cjconsensus
+STEM match for unaligned dearest :: dear :: qmul-short_0001.4 cjconsensus
+STEM match for unaligned and :: and :: qmul-short_0004.2 cjconsensus
+STEM match for unaligned and :: and :: qmul-short_0004.2 cjconsensus
+STEM match for unaligned tilemaker :: tile :: qmul-short_0004.4 cjconsensus
+STEM match for unaligned and :: and :: qmul-short_0004.4 cjconsensus
+STEM match for unaligned and :: and :: qmul-short_0004.4 cjconsensus
+STEM match for unaligned glossy :: gloss-02 :: qmul-short_0005.4 cjconsensus
+STEM match for unaligned flatterers :: flatter-01 :: qmul-short_0005.9 cjconsensus
+STEM match for unaligned Good :: goodbye :: qmul-short_0006.7 cjconsensus
+STEM match for unaligned relations :: related-04 :: qmul-short_0008.1 cjconsensus
+STEM match for unaligned passers :: pass-by-17 :: qmul-short_0009.1 cjconsensus
+STEM match for unaligned grievous :: grieve-01 :: qmul-short_0010.4 cjconsensus

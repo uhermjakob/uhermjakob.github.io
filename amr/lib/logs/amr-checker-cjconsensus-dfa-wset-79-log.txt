@@ -1,0 +1,15 @@
+STEM match for unaligned ethnics :: ethnic :: DF-212-191667-307_1958.3 cjconsensus
+STEM match for unaligned Brits :: Britain :: DF-212-191667-307_1958.3 cjconsensus
+STEM match for unaligned Mannn :: Mann :: DF-212-191667-307_2829.3 cjconsensus
+STEM match for unaligned fatcats :: fatcat :: DF-212-191667-307_2829.4 cjconsensus
+STEM match for unaligned fatcats :: fatcat :: DF-212-191667-307_2829.4 cjconsensus
+STEM match for unaligned germans :: Germany :: DF-212-191667-307_3059.2 cjconsensus
+STEM match for unaligned tibetan :: Tibet :: DF-212-191667-307_3059.8 cjconsensus
+STEM match for unaligned tibetan :: Tibet :: DF-212-191667-307_3059.9 cjconsensus
+STEM match for unaligned Rumour :: rumor-01 :: DF-212-191667-307_3059.11 cjconsensus
+STEM match for unaligned Olympics :: Olympic :: DF-212-191667-307_3059.11 cjconsensus
+STEM match for unaligned legitmize :: legitimize-01 :: DF-212-191667-307_3059.20 cjconsensus
+STEM match for unaligned under :: understand-01 :: DF-212-191667-307_3059.21 cjconsensus
+STEM match for unaligned and :: and :: DF-212-191667-307_3059.23 cjconsensus
+STEM match for unaligned testament :: testify-01 :: DF-212-191667-307_3059.28 cjconsensus
+STEM match for unaligned grades :: grade :: DF-212-191667-307_3059.31 cjconsensus

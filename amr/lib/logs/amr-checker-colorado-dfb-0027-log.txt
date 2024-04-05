@@ -1,0 +1,7 @@
+STEM match for unaligned collage :: college :: bolt-eng-DF-170-181103-8887442_0021.16 colorado
+STEM match for unaligned and :: and :: bolt-eng-DF-170-181103-8887442_0021.35 colorado
+STEM match for unaligned whackos :: whacko :: bolt-eng-DF-170-181103-8887442_0021.36 colorado
+STEM match for unaligned constituents :: constitute-01 :: bolt-eng-DF-170-181103-8887442_0021.44 colorado
+STEM match for unaligned quarter :: quarter :: bolt-eng-DF-170-181103-8887442_0023.8 colorado
+STEM match for unaligned quarter :: quarter :: bolt-eng-DF-170-181103-8887442_0023.8 colorado
+STEM match for unaligned Sick :: sicken-01 :: bolt-eng-DF-170-181103-8887442_0023.11 colorado

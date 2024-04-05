@@ -1,0 +1,3398 @@
+FUNCTION-WORD ARTICLE a
+FUNCTION-WORD ARTICLE an
+FUNCTION-WORD ARTICLE the
+FUNCTION-WORD PREPOSITION about
+FUNCTION-WORD PREPOSITION as
+FUNCTION-WORD PREPOSITION at
+FUNCTION-WORD PREPOSITION by
+FUNCTION-WORD PREPOSITION for
+FUNCTION-WORD PREPOSITION from
+FUNCTION-WORD PREPOSITION in
+FUNCTION-WORD PREPOSITION of
+FUNCTION-WORD PREPOSITION on
+FUNCTION-WORD PREPOSITION to
+FUNCTION-WORD PREPOSITION with
+FUNCTION-WORD AUXILIARY/MODAL be
+FUNCTION-WORD AUXILIARY/MODAL 'd
+FUNCTION-WORD AUXILIARY/MODAL do
+FUNCTION-WORD AUXILIARY/MODAL have
+FUNCTION-WORD AUXILIARY/MODAL 'll
+FUNCTION-WORD AUXILIARY/MODAL 'm
+FUNCTION-WORD AUXILIARY/MODAL 're
+FUNCTION-WORD AUXILIARY/MODAL 's
+FUNCTION-WORD AUXILIARY/MODAL shall
+FUNCTION-WORD AUXILIARY/MODAL 've
+FUNCTION-WORD AUXILIARY/MODAL will
+FUNCTION-WORD AUXILIARY/MODAL would
+FUNCTION-WORD AUXILIARY/MODAL ’d
+FUNCTION-WORD AUXILIARY/MODAL ’ll
+FUNCTION-WORD AUXILIARY/MODAL ’m
+FUNCTION-WORD AUXILIARY/MODAL ’re
+FUNCTION-WORD AUXILIARY/MODAL ’s
+FUNCTION-WORD AUXILIARY/MODAL ’ve
+FUNCTION-WORD PRONOUN any
+FUNCTION-WORD PRONOUN he
+FUNCTION-WORD PRONOUN she
+FUNCTION-WORD PRONOUN it
+FUNCTION-WORD PRONOUN 's
+FUNCTION-WORD PRONOUN they
+FUNCTION-WORD PRONOUN thereof
+FUNCTION-WORD PRONOUN ’s
+FUNCTION-WORD POSSESSIVE 's
+FUNCTION-WORD POSSESSIVE ’s
+FUNCTION-WORD RELATIVE-PRONOUN that
+FUNCTION-WORD RELATIVE-PRONOUN which
+FUNCTION-WORD RELATIVE-PRONOUN who
+FUNCTION-WORD RELATIVE-PRONOUN whom
+FUNCTION-WORD VERB happen
+FUNCTION-WORD VERB occur
+FUNCTION-WORD DISFLUENCY uh
+
+01 1
+02 2
+03 3
+04 4
+05 5
+06 6
+07 7
+08 8
+09 9
+
+1+st ordinal-entity first 
+2+nd ordinal-entity second 
+3+rd ordinal-entity third
+4+th ordinal-entity fourth
+5+th ordinal-entity fifth
+6+th ordinal-entity sixth
+7+th ordinal-entity seventh
+8+th ordinal-entity eighth
+9+th ordinal-entity ninth
+10+th ordinal-entity tenth
+11+th ordinal-entity eleventh
+12+th ordinal-entity twelfth
+13+th ordinal-entity thirteenth
+14+th ordinal-entity fourteenth
+15+th ordinal-entity fifteenth
+
+1st ordinal-entity 1 first
+2nd ordinal-entity 2 second
+3rd ordinal-entity 3 third
+4th ordinal-entity 4 fourth
+5th ordinal-entity 5 fifth
+6th ordinal-entity 6 sixth
+7th ordinal-entity 7 seventh
+8th ordinal-entity 8 eighth
+9th ordinal-entity 9 ninth
+10th ordinal-entity 10 tenth
+11th ordinal-entity 11 eleventh
+12th ordinal-entity 12 twelfth
+13th ordinal-entity 13 thirteenth
+14th ordinal-entity 14 fourteenth
+15th ordinal-entity 15 fifteenth
+16th ordinal-entity 16 sixteenth
+17th ordinal-entity 17 seventeenth
+18th ordinal-entity 18 eighteenth
+19th ordinal-entity 19 nineteenth
+20th ordinal-entity 20 twentieth
+52nd ordinal-entity 52
+53rd ordinal-entity 53
+96th ordinal-entity 96
+
+10+s multiple :op1 10
+100+s multiple :op1 100
+1000+s multiple :op1 1000
+1000000+s multiple :op1 1000000
+
+1950s date-entity :decade 1950
+1960s date-entity :decade 1960
+1970s date-entity :decade 1970
+1980s date-entity :decade 1980
+1990s date-entity :decade 1990
+
+50s date-entity :decade 50
+60s date-entity :decade 60
+70s date-entity :decade 70
+80s date-entity :decade 80
+90s date-entity :decade 90
+
+2D dimension :quant 2
+3D dimension :quant 3
+32P 32 phosphorus
+
+°C celsius
+°F fahrenheit
+> more-than
+< less-than
+≤ at-most
+⩽ at-most
+≥ at-least
+⩾ at-least
+~ approximately
+nℳ nanomolar
+μg microgram
+μl microliter
+μM micromolar
+μℳ micromolar
+μm micrometer
+
+AAM missile :source air :destination air
+ability able capable-01
+ability possible-01
+able possible-01
+about :topic
+absentia absent-01
+abstinence abstain-01
+accessible access-01
+according say
+according+to say
+according+to conform-01
+accountability accountable-02
+action act
+active activity-06
+active activate-01
+actively activity-06
+additionally and
+additional add-02
+additive add-02
+admin administrate-01
+adulteress woman commit-02 adultery
+adulterer man commit-02 adultery
+affordable afford-01 possible-01
+against counter-01 destroy-01 oppose-01
+age :age
+ago before now
+AGW anthropogenic globe warm-01
+ah ah :mode expressive
+AH :calendar islam
+ain't :polarity -
+airstrike strike-01 :path air
+al other
+al. other
+allegedly allege-01
+along+the+lines resemble-01
+along+with along-with :accompanier
+alot lot
+alright all-right
+alternative alternate-01
+although :concession have-concession-91
+american America
+American United States
+among include-91
+and between
+and+a+half 1.5
+and+so cause-01
+angry anger-01
+annual rate-entity-91 temporal-quantity 1 year
+annually rate-entity-91 temporal-quantity 1 year
+antitumor counter-01 tumor
+antipenultimate :ord ordinal-entity :value -3
+antiproliferative counter-01 proliferate-01
+antiproliferative oppose-01 proliferate-01
+anti counter-01 destroy-01 oppose-01
+any+body anybody
+any+how anyhow
+any+more anymore
+any+one anyone
+any+thing anything
+any+way anyway
+any+where anywhere
+anyway :concession have-concession-91
+anyways anyway
+APC armor-01 personnel carrier
+APCs armor-01 personnel carrier
+apart except-01
+apparent appear-01
+apparent appear-02
+apparently appear-02
+appreciable appreciate-02 possible-01
+Apr :month 4
+april :month 4
+April :month 4
+are be
+armament arm-01
+as :time equal
+as+a+consequence cause-01
+as+if as-if
+as+if resemble-01
+as+many equal
+as+much equal
+as+opposed+to instead-of-91
+as+soon+as+possible :time soon :ARG2-of have-degree-91 :ARG3 equal :ARG4 possible-01
+as+well+as and
+ASAP :time soon :ARG2-of have-degree-91 :ARG3 equal :ARG4 possible-01
+ashamed shame-02
+aside except-01
+ask+question ask-01
+at+all at-all
+at+once at-once
+at+once immediate
+at+once simultaneous
+at+risk endanger-01
+at+the+expense+of compromise-02
+expense+of compromise-02
+ATM automate-01 bank-teller machine
+ATMs automate-01 bank-teller machine
+Aug :month 8
+August :month 8
+august :month 8
+authoritarian authority
+authority authorize-01
+autophosphorylation phosphorylate-01
+awaken wake-01
+aware realize-01
+awhile while
+back before
+back return-01
+backward backwards
+backwards backward
+Balkan Balkans
+BAL bronchus alveolus lavage
+BALF bronchus alveolus lavage fluid
+baseless base-02 :polarity -
+basis base
+based base-01
+BCE BC
+be :domain be-located-at-91
+because cause-01
+behaviorally behave-01
+behind+bars imprison-01
+besides except-01
+biannual rate-entity-91 2 temporal-quantity 1 year
+biannually rate-entity-91 2 temporal-quantity 1 year
+bigoted bigot
+billion 1000000000
+billions multiple 1000000000
+blow+job blow-03
+blowjob blow-03
+british Great Britain
+British Great Britain
+BS bullshit-01
+btw by-the-way
+bucks dollar
+buildup build-up-05
+busily busy
+but contrast :concession have-concession-91 :prep-except except-01
+by+myself by-oneself
+by+yourself by-oneself
+by+himself by-oneself
+by+herself by-oneself
+by+itself by-oneself
+by+oneself by-oneself
+by+ourselves by-oneself
+by+yourselves by-oneself
+by+themselves by-oneself
+Ca2+ calcium ionize-01 :value 2+
+Calif. California
+called :name
+can capable-01
+can possible-01
+cannot possible-01 :polarity -
+cant possible-01 :polarity -
+capacity capable-01
+careful care-04
+case+of :condition have-condition-91 have-relevance-91
+Catholic Catholicism
+Catholics Catholicism
+CBO Congressional Budget Office
+CCTV close-01 circuit television
+CD compact disc
+CDs compact disc
+CE AD
+century :century
+CEO chief executive officer
+CEOs chief executive officer
+chairmanship chairman
+chinese China
+choice choose
+CI counter-01 intelligence confident-01 interval
+CI confidence interval
+cleanup clean-up-02
+clear clarify-10
+click kilometer
+co+-+author coauthor-01
+co+@-@+author coauthor-01
+co+-+culture coculture-01
+co+@-@+culture coculture-01
+codons codon
+coherent cohere-01
+colonist colonize-01
+colonists colonize-01
+coming come
+come+from :source
+c'mon come-on-25
+comitting commit-02
+commentary comment-01
+common share-01
+communist communism
+comparable possible-01 compare-01
+compare :compared-to
+comprehension comprehend-01
+concerning :topic
+condition :condition have-condition-91
+conditional condition-01
+cons conservative
+consequence cause-01
+consequence consequential-01
+consequently cause-01
+conservative Conservative Party
+conservatives Conservative Party
+consist :consist-of :part
+consultancy consult-01
+content contain-01
+contrary contrast
+co+-+operation cooperate-01
+could possible-01 :polite +
+covert cover-01
+CPU central process-01 unit
+CPUs central process-01 unit
+critical criticism-04
+critical criticize-01
+cyberattack cyber attack-01
+cyberattacks cyber attack-01
+D Democratic Party
+d'oh doh
+dad father
+daily rate-entity-91 temporal-quantity 1 day
+DD1 dear daughter 1
+DD2 dear daughter 2
+Dec :month 12
+December :month 12
+december :month 12
+deduction deduct-01
+deductions deduct-01
+deficient mutate-01 -/-
+deficient lack-01
+degree :degree
+degree+Celsius celsius
+degree+Fahrenheit fahrenheit
+degrees+Celsius celsius
+degrees+Fahrenheit fahrenheit
+Dem Democratic Party
+Dems Democratic Party
+democrat Democratic Party
+democrats Democratic Party
+desperate despair-01
+despite :concession have-concession-91
+detainees detain-01
+di :quant 2
+diagnosis diagnose-01
+diagnostic diagnose-01
+different resemble-01 :polarity -
+dinner dine-01
+direction :direction
+disagree agree-01 :polarity -
+distance distant-02
+distinction distinguish-01
+divers dive-01
+divided quotient-of
+divisive divide-02
+dont :polarity -
+down decrease-01
+down+-+regulation downregulate-01
+down+-+regulate downregulate-01
+down+-+regulated downregulate-01
+down+@-@+regulation downregulate-01
+down+@-@+regulate downregulate-01
+down+@-@+regulated downregulate-01
+dowregulation downregulate-01
+dozen 12
+dozens multiple 12
+Dr. doctor
+driver drive-02
+due+to cause-01
+dunno know-01
+during :time
+Dutchman Netherlands
+Dutchmen Netherlands
+DVD digital versatile disc
+DVDs digital versatile disc
+e.g. :example
+earlier before
+earlier before :op1 now
+earners earn-01
+ease easy
+easily easy
+easternmost east most
+effect affect-01
+eight 8
+eighth 8 ordinal-entity
+eighteen 18
+eighteenth 18 ordinal-entity
+eighty 80
+eldest old
+eleven 11
+eleventh 11 ordinal-entity
+else else :condition have-condition-91
+e+mail email
+e+mail email-01
+e+-+mail email
+e+-+mail email-01
+e+@-@+mail email
+e+@-@+mail email-01
+em they
+'em they
+embarrassing embarrass-01
+embarrassingly embarrass-01
+endless end-01
+enough suffice-01
+enviable envy
+envious envy
+enzyme protein
+equivalent equal-01
+er er :mode expressive
+et and
+etc et-cetera
+etc. et-cetera
+ethnicity ethnic-group
+Euro euro
+example exemplify :example
+execs executive
+explosive explode-01
+extent :extent
+extinct die-out-03
+extramarital outside :op1 marry-01
+extremist extremism
+extremists extremism
+even+as even-as
+even+if even-if
+even+when even-when
+even+though :concession have-concession-91
+every rate-entity-91
+every+body everybody
+every+one everyone
+every+thing everything
+fairly fair
+Falklands Falkland
+fascist fascism
+fall short-06
+familiar familiarize-01
+famous fame
+favorite favor-01
+favor favor-01
+favour favor-01
+Feb :month 2
+Febr :month 2
+February :month 2
+february :month 2
+feet foot
+fewer+and+fewer decrease-01
+fifteen 15
+fifteenth 15 ordinal-entity
+fifth 5 ordinal-entity
+fifty 50
+Fig figure
+Figure figure
+finally :li -1
+first :li 1 ordinal-entity
+firstly :li 1
+five 5
+fold product-of
+fold times
+follow after
+following after
+fond like-01
+for+example :example exemplify-01
+for+instance :example exemplify-01
+for+the+sake+of :beneficiary
+foreigner foreign person
+four 4
+fourth 4 ordinal-entity
+fourteen 14
+fourteenth 14 ordinal-entity
+forty 40
+friend befriend-01
+friends befriend-01
+friggin frigging
+friggin' frigging
+from :source
+fourteen 14
+fuck fuck :mode expressive
+fucking fucking :mode expressive
+full fill-01
+fundraiser fundraise-04
+further far
+furthermore and
+GDP gross domestic product
+geese goose
+Gen. general
+get+it understand-01
+get+rid eliminate
+Gov governor
+Gov. governor
+GP general practitioner
+gotta obligate-01
+goverment govern-01
+gov't government-organization govern-01
+govt government-organization govern-01
+grass+root grass-roots
+grass+roots grass-roots
+grassroot grass-roots
+grassroots grass-roots
+grateful appreciate-02
+Greenwhich+Mean+Time GMT
+grey gray
+GW globe warm-01
+half 1/2
+handout hand-out-03
+happy content-01
+hard+time difficult
+had+to obligate-01
+happy content-01
+has+to obligate-01
+hateful hate-01
+have+to obligate-01
+head+of+state head-of-state
+heads+of+state head-of-state
+health+care healthcare
+hearted heart
+hell hell :mode expressive
+helpful help-01
+hence cause-01 infer-01
+her she
+hers she
+herself she
+hey hey :mode expressive
+him he
+Himalayan Himalaya
+Himalayan Himalayas
+himself he
+his he
+hm hmm :mode expressive
+hmm hmm :mode expressive
+hmmm hmm :mode expressive
+hmmmm hmm :mode expressive
+hmmmmm hmm :mode expressive
+hmmmmmm hmm :mode expressive
+homeless home
+hope hopeful-03
+hopeful hope-01
+hopefully hope-01
+hopeless hopeful-03
+hopelessly hopeful-03
+hopes hopeful-03
+hourly rate-entity-91 temporal-quantity 1 hour
+how amr-unknown :manner so have-manner-91
+how+many :quant amr-unknown
+how+much :quant amr-unknown
+however contrast :concession have-concession-91
+HR hazard ratio-of
+hundred 100
+hundreds multiple 100
+hundreds+of+thousands several 100000
+hundreds+of+millions several 100000000
+hundreds+of+billions several 100000000000
+hungry hunger-01
+hyperproliferate proliferate-01 :degree hyper
+hyperproliferated proliferate-01 :degree hyper
+hyperproliferates proliferate-01 :degree hyper
+hyperproliferation proliferate-01 :degree hyper
+hyperproliferative proliferate-01 :degree hyper
+hypersensitive sensitive-03 :degree hyper
+IC have-percentage-maximal-inhibitory-concentration-01
+IC50 have-percentage-maximal-inhibitory-concentration-01
+ICBM intercontinental ballistic missile
+ICBMs intercontinental ballistic missile
+ID identity document-01
+idiotic idiot
+idol idolize-01
+IDK know-01 :polarity - :arg0 i
+IED improvise-01 explode-01 possible-01 device
+IEDs improvise-01 explode-01 possible-01 device
+if :condition have-condition-91 have-relevance-91
+im i
+imho i opine-01 humble humble-01
+imo i opine-01
+immunoprecipitation immunoprecipitate-01
+imperialist imperialism
+imperialists imperialism
+# in after now
+in+addition and
+in+addition+to in-addition-to
+in+case :condition have-condition-91 have-relevance-91
+in+case+of :condition have-condition-91 have-relevance-91
+in+lieu+of instead-of-91
+in+order+that :purpose have-purpose-91
+in+order+to :purpose have-purpose-91
+in+part :degree part
+in+place+of instead-of-91
+in+reference+to refer-01
+in+spite+of :concession have-concession-91
+indicative indicate-01
+inevitable possible-01 :polarity - avoid-01
+inevitably possible-01 :polarity - avoid-01
+info information
+initiative initiate-01
+instead+of instead-of-91
+intel intelligence
+intracellular cell
+into :destination
+IQ intelligent-01 quotient
+IR ionize-01 radiate-01
+irregardless regardless-91
+irrespective regardless-91
+is be
+Islamist Islamism
+islamic Islam
+Islander Island
+Islanders Island
+isnt :polarity -
+its it
+itself it
+jail imprison-01
+january :month 1
+Jan :month 1
+January :month 1
+joint join-01
+June :month 6
+june :month 6
+July :month 7
+july :month 7
+just+the+same :concession have-concession-91
+just+like resemble
+KD knock-down-02
+Kcat catalytic-constant
+K catalytic-constant
+cat catalytic-constant
+Kd dissociation-constant
+K dissociation-constant
+d dissociation-constant
+kDa kilodalton
+keep+an+eye eye-01
+keep+in+mind remember-01
+Ki inhibitor-constant
+K inhibitor-constant
+i inhibitor-constant
+kilo kilogram
+kinda kind-of
+kindly :polite +
+klick kilometer
+Km michaelis-constant
+K michaelis-constant
+m michaelis-constant
+knowledgeable know-01
+known+as :name
+KO knock-out-12
+Kurds Kurd
+Labour Labour Party
+laden load-01
+large size
+last :duration
+last before now
+last :ord ordinal-entity :value -1
+lastly :li -1
+later after
+later after :op1 now
+latest last
+lawful legal-02
+leftist left-19
+legal law
+less+and+less decrease-01
+less+than less-than
+let allow :mode imperative
+let+'s :mode imperative we
+let+’s :mode imperative we
+let+us :mode imperative we
+liberty free-04
+libtard liberal-02 retard-01 person
+libtards liberal-02 retard-01 person
+like example :example resemble exemplify-01 have-degree-of-resemblance-91
+like resemble-01
+lol laugh-01 :manner loud :mode expressive
+LPS lipopolysaccharide
+jobless have-03 :polarity - :ARG1 job
+joblessness have-03 :polarity - :ARG1 job
+location :location
+localization be-located-at-91
+long last-01 :duration
+lost lose
+Lt. lieutenant
+lys lysine
+made make
+madrassas madrassa
+magnitude :quant
+make+up makeup
+manner :manner
+March :month 3
+march :month 3
+math mathematics
+maximum at-most
+may permit possible-01
+May :month 5
+may :month 5
+may wish-01
+maybe possible-01
+MDSCs MDSC
+meaningless mean-01 :polarity -
+me i
+MEFs MEF
+membership member
+men man
+metastases metastasize-101
+metastasis metastasize-101
+mice mouse
+midnight 00:00
+might possible-01
+million 1000000
+millions multiple 1000000
+mine i
+minimum at-least
+minus difference-of
+ml milliliter
+mM millimolar
+mm3 cubic-millimeter
+mo month
+mockery mock-01
+moisturiser moisturize-01
+moisturizer moisturize-01
+mono :quant 1
+monoubiquitinated ubiquitinate-01 :quant 1
+monoubiquitination ubiquitinate-01 :quant 1
+monthly rate-entity-91 temporal-quantity 1 month
+moonlight light-04 :ARG0 moon
+morbidity die-01
+more+and+more increase-01
+more+and+more increase-01 :ARG1 number :quant-of
+more+than more-than
+moreover and
+motif protein-segment
+MP person have-org-role-91 parliament member
+MPs person have-org-role-91 parliament member
+multi multiple
+muslim Islam
+muslims Islam
+muslims Muslim
+must obligate infer-01
+mutant mutate-01
+ms millisecond
+msec millisecond
+my i
+myself i
+naïve naive
+naïvely naive
+namely :example
+namely mean-01
+nazi nazism
+nearby near-02
+necessary need-01
+need+to obligate
+neg negative-03
+negative+regulation downregulate-01
+negative+regulator downregulate-01
+negative+regulators downregulate-01
+negative+regulatory downregulate-01
+negatively+regulate downregulate-01
+negatively+regulates downregulate-01
+neocon person :mod neoconservative
+neoplastic tumor
+neoplastic neoplasm
+neither :polarity -
+neither+nor or :polarity -
+next after now
+never ever :polarity -
+nevertheless :concession have-concession-91
+NGO organization government-organization :polarity -
+NGOs organization government-organization :polarity -
+nine 9
+ninth 9 ordinal-entity
+nineteen 19
+nineteenth 19 ordinal-entity
+ninety 90
+n't :polarity -
+n’t :polarity -
+nM nanomolar
+nm nanometer
+nobody anybody :polarity -
+no :polarity -
+no. no
+no+matter regardless-91
+no+matter+whether regardless-91
+no+sooner after :quant immediate
+No. :mod
+non :polarity -
+nonetheless :concession have-concession-91
+nonprofit profit-01 :polarity -
+nonproliferation proliferate-01 :polarity -
+noon 12:00
+nor or :polarity -
+northernmost north most
+not :polarity - have-polarity-91
+not+but instead-of-91
+not+but+instead instead-of-91
+not+necessarily possible-01 :polarity -
+dont+like dislike-01
+don't+like dislike-01
+not+like dislike-01
+n't+like dislike-01
+nothing anything :polarity -
+Nov :month 11
+November :month 11
+november :month 11
+nowhere anywhere :polarity -
+no+where nowhere
+north+-+east northeast
+north+-+eastern northeast
+north+-+west northwest
+north+-+western northwest
+nuke weapon :mod nucleus
+null mutate-01 -/-
+number+one :ord ordinal-entity :value 1
+number+-+one :ord ordinal-entity :value 1
+o'clock :time
+o’clock :time
+Obamas Obama
+obsession obsess-01
+Oct :month 10
+October :month 10
+october :month 10
+odds+are likely-01
+offence offend-03
+offences offend-03
+offensive offense-02
+oh oh :mode expressive
+okay ok
+ok okay-01
+ok okay-03
+ok okay-04
+old :age age-01
+ole old
+on+behalf+of on-behalf-of
+on+my+own by-oneself
+on+the+one+hand contrast-01
+on+the+other+hand contrast-01
+on+your+own by-oneself
+on+his+own by-oneself
+on+her+own by-oneself
+on+its+own by-oneself
+on+our+own by-oneself
+on+their+own by-oneself
+on+the+other+hand contrast-01
+once :frequency 1
+once have-frequency-91 1
+once :time
+once :time once
+once+more again :frequency 1
+oncogenic cause-01 cancer
+one 1
+ongoing go-on-15
+OP original post-01 person
+operation cooperate-01
+operational operation
+oppression oppress-01
+or amr-choice
+or+less at-most
+or+more at-least
+or+so about
+origin originate-01
+other+than except-01
+otherwise except-01
+otherwise else
+ought recommend
+ought+to recommend
+our we
+ours we
+ourself we
+ourselves we
+out+of out-of
+over+expressed overexpress-01
+over+-+expressed overexpress-01
+over+expressing overexpress-01
+over+-+expressing overexpress-01
+over+expression overexpress-01
+over+-+expression overexpress-01
+oxen ox
+p phosphorylate-01
+p statistical-test-91
+p= statistical-test-91
+paid pay
+pAkt phosphorylate-01 Akt
+pAKT phosphorylate-01 AKT
+palestinian Palestine
+paradoxical paradox
+part :part
+partial :degree part
+partially :degree part
+partly :degree part
+partnership partner-01
+past before now
+PC personal-02 computer political correct-02
+PCs personal-02 computer
+PCR polymerase chain-01 react-01
+penalty penalize-01 sentence-01
+penultimate :ord ordinal-entity :value -2
+people person
+peptide protein-segment
+per rate-entity-91
+per-capita rate-entity :ARG2 person
+per+capita rate-entity :ARG2 person
+pERK1 phosphorylate-01
+percent percentage-entity
+per+cent percentage-entity
+perhaps possible-01
+pERK phosphorylate-01 ERK
+perjury perjure-01
+phospho phosphorylate-01
+photo photograph-01
+place location
+player play-08
+player play-11
+please :polite +
+plus and
+plus at-least
+plus more-than
+pM picomolar
+PM prime minister
+pMAPK phosphorylate-01 MAPK
+point :purpose have-purpose-91
+pointless point-03
+poly :quant several
+post after
+postnatal after :op1 bear-02
+posttranslational after :op1 translate-02
+potential possible-01
+POTUS president
+POW person imprison-01 war-01 war
+POWs person imprison-01 war-01 war
+pRaf phosphorylate-01 Raf
+pre before
+preantipenultimate :ord ordinal-entity :value -4
+precondition :condition have-condition-91
+pregnant impregnate-01
+pregnancy impregnate-01
+preparedness prepare-02
+Pres. president
+presidency president
+presumably presume-01
+preventive prevent-01
+prewar before war war-01
+priority prioritize-01
+prison imprison-01
+pro favor-01
+probably likely-01
+product produce-01
+Prof. professor
+progressive progress-01
+proinflammatory favor-01 inflame-01
+proliferative proliferate-01
+protein-segment motif site
+proteins protein-family
+province state
+pRSK phosphorylate-01 RSK
+PS post-scriptum
+pulmonary lung
+purpose :purpose have-purpose-91
+quantity :quant
+quarter 1/4
+quite+a+few many :degree quite
+quite+a+bit much :degree quite
+R Republican Party
+racist racism
+rather contrast-01
+rather instead-of-91
+rather+than instead-of-91
+rather prefer-01
+rebellion rebel-01
+recognised recognize-02
+re again
+re+elect reelect-01
+re+-+elect reelect-01
+re+@-@+elect reelect-01
+re+elected reelect-01
+re+-+elected reelect-01
+re+@-@+elected reelect-01
+re+election reelect-01
+re+-+election reelect-01
+re+@-@+election reelect-01
+re+enter reenter-01
+re+-+enter reenter-01
+re+@-@+enter reenter-01
+re+entry reenter-01
+re+-+entry reenter-01
+re+@-@+entry reenter-01
+re+organize reorganize-01
+re+-+organize reorganize-01
+re+@-@+organize reorganize-01
+re+do redo-01
+re+-+do redo-01
+re+@-@+do redo-01
+re+impose reimpose-01
+re+-+impose reimpose-01
+re+@-@+impose reimpose-01
+re+write rewrite-01
+re+-+write rewrite-01
+re+@-@+write rewrite-01
+re+activate reactivate-01
+re+-+activate reactivate-01
+re+@-@+activate reactivate-01
+re+post repost-01
+re+-+post repost-01
+re+@-@+post repost-01
+re+examine reexamine-01
+re+-+examine reexamine-01
+re+@-@+examine reexamine-01
+re+export reexport-01
+re+-+export reexport-01
+re+@-@+export reexport-01
+re+read reread-01
+re+-+read reread-01
+re+@-@+read reread-01
+re+enact reenact-01
+re+-+enact reenact-01
+re+@-@+enact reenact-01
+reference refer-01
+reformists reform-01
+relationship relation-03
+relationships relation-03
+reliable rely-01 possible-01
+renowned renown-01
+Rep Republican Party
+republican Republican Party
+republicans Republican Party
+reputable repute-01
+real realty
+real really
+reality real-04
+reason cause-01
+regarding :topic
+regardless :concession
+religious religion
+Rep. represent-01
+rescuers rescue-01
+respondents respond-01
+responsiveness responsive-02
+responsibilities responsible-01
+responsibilities responsible-02
+responsibilities responsible-03
+responsibility responsible-01
+responsibility responsible-02
+responsibility responsible-03
+reusable reuse-01 possible-01
+Rev. reverend
+rich enrich-01
+right+-+wing right-08
+rightwing right-08
+RPG rocket propel-01 grenade
+RPGs rocket propel-01 grenade
+RxT radiotherapy
+s :decade
+said say
+sale sell
+Saudi Saudi Arabia
+savings save-01
+scale :scale
+SCC squamous cell carcinoma
+schoolchildren child :mod school
+Scot Scotland
+Scots Scotland
+Scottish Scotland
+second ordinal-entity 2
+second+to+last :ord ordinal-entity :value -2
+secretary+of+state secretary :topic foreign
+selective select-01
+sell+at+action auction-01
+semiannual rate-entity-91 2 temporal-quantity 1 year
+semiannually rate-entity-91 2 temporal-quantity 1 year
+Sen. person have-org-role-91 :ARG2 senator
+Sens. person have-org-role-91 :ARG2 senator
+sensible sense-02
+senator person have-org-role-91 :ARG2 senator
+seperate separate-02
+Sept :month 9
+September :month 9
+september :month 9
+Ser serine
+seven 7
+seventh 7 ordinal-entity
+seventeen 17
+seventeenth 17 ordinal-entity
+seventy 70
+should recommend
+shutdown shut-down-05
+sign signal-07
+significance signify-01
+sighted see-01
+since cause-01 :purpose have-purpose-91
+since before
+Sino China
+site protein-segment
+six 6
+sixth 6 ordinal-entity
+sixteen 16
+sixteenth 16 ordinal-entity
+sixty 60
+skilled skill
+snowfall snow fall-01
+SO significant-other
+so cause-01
+so+as+to :purpose
+so+far so-far
+so+forth et-cetera
+so+that :purpose have-purpose-91
+so+then cause-01
+sob son-of-a-bitch
+social society
+socialist socialism
+socialist Socialist Party
+socialists Socialist Party
+socialistic socialism
+socio society
+some+one someone
+somewhere location :location be-located-at-91
+sonofabitch son-of-a-bitch
+sonofabitches son-of-a-bitch
+sonsofabitch son-of-a-bitch
+sooner soon
+sooner+or+later eventual
+source be-from-91
+south+-+east southeast
+south+-+eastern southeast
+south+-+west southwest
+south+-+western southwest
+southernmost south most
+Soviet Soviet Union
+space+craft spacecraft
+Spaniard Spain
+speech speak-01
+stance stand-11
+state+department department :topic foreign
+statistical-test-91 p
+stimulus stimulate-01
+str8 straight-05
+strategic strategy
+strikingly strike-04
+stymying stymie-01
+sub+-+Saharan Sub-Saharan
+subsequent :time after
+successive succeed-03
+successor succeed-02
+such so
+such+as :example
+such+as resemble-01
+suppressor suppress-01
+sustainable sustain-01
+sympathetic sympathize-01
+sympathy sympathize-01
+takeover take-over-12
+target :destination
+TB tuberculosis
+TB bear-01 :ARG1 tumor
+tbh honest-01
+tech technology
+telecom telecommunication
+ten 10
+tenth 10 ordinal-entity
+tens+of+thousands several 10000
+tens+of+millions several 10000000
+tens+of+billions several 10000000000
+term :duration
+terror terrorize-01
+terrorist terrorism
+th ordinal-entry
+than have-degree-91 have-quant-91 have-degree-of-resemblance-91
+thankfully thankful-02
+thats that
+their they
+theirs they
+them they
+themself they
+themselves they
+then have-condition-91
+thereby :manner
+therefore cause-01 infer-01
+these this
+theft steal
+thief steal
+thieve steal
+third 3 ordinal-entity
+third 1/3
+thirteen 13
+thirteenth 13 ordinal-entity
+thirty 30
+thirty+first 31 ordinal-entity
+thirtieth 30 ordinal-entity
+last+night date-entity :dayperiod night :mod yesterday
+this+morning date-entity :dayperiod morning :mod today
+this+afternoon date-entity :dayperiod afternoon :mod today
+this+evening date-entity :dayperiod evening :mod today
+tolerance tolerate-01
+tonight date-entity :dayperiod night :mod today
+those that
+thousand 1000
+thousands multiple 1000
+three 3
+thus cause-01
+till until
+time :time
+times product-of :frequency
+though :concession have-concession-91
+through :path
+to :destination
+together sum-of
+too also
+topic :topic
+tories Tory Party
+tory Tory Party
+toward :direction
+towards :direction
+transcript transcribe-01
+transformant transform-01 cell
+transformants transform-01 cell
+transgression transgress-01
+transgressions transgress-01
+trillion 1000000000000
+truly true
+truth true-01 26.13
+trustee trust-01
+tumour tumor
+tumorigenesis create-01 tumor
+tumorigenic possible-01 create-01 tumor
+tumourigenesis create-01 tumor
+tumourigenic possible-01 create-01 tumor
+turnout turn-out-17
+tv television
+twelve 12
+twelfth 12 ordinal-entity
+twenty 20
+twenty+first 21 ordinal-entity
+twenty+second 22 ordinal-entity
+twenty+third 23 ordinal-entity
+twenty+fourth 24 ordinal-entity
+twenty+fifth 25 ordinal-entity
+twenty+sixth 26 ordinal-entity
+twenty+seventh 27 ordinal-entity
+twenty+eighth 28 ordinal-entity
+twenty+ninth 29 ordinal-entity
+twentieth 20 ordinal-entity
+twice :frequency 2
+two 2
+Tyr tyrosine
+u you
+ultimate :ord ordinal-entity :value -1
+UM uveal melanoma
+under accord-02
+undersea under sea
+unidentified identify-01 :polarity -
+unit :unit
+unless :condition :polarity - have-condition-91
+unmanned man-01 :polarity -
+unprecedented precedent :polarity -
+up increase-01
+up+regulate upregulate-01
+up+-+regulate upregulate-01
+up+-+regulation upregulate-01
+up+@-@+regulated upregulate-01
+up+@-@+regulation upregulate-01
+up+to depend-01
+uprising rise-up-03
+upsurge surge-01
+us we
+usage use
+use :purpose have-purpose-91
+used use
+useful use
+user use
+using use
+v versus
+v. versus
+valuable value-01
+valuable value-02
+variable vary-01
+variant mutate-01
+various veriety
+various vary-01
+verifiable verify-01 possible-01
+vet veteran
+vets veteran
+via :path
+VP vice president
+vs versus
+vs. compare-01
+vs. :compared-to
+vs. contrast-01
+vs. versus
+wanna want-01
+wasnt :polarity -
+way :manner go-02
+weekly rate-entity-91 1 week
+well good
+westerner person :mod world-region :name West
+western+blot immunoblot-01
+western+blots immunoblot-01
+western+blotting immunoblot-01
+Western+blot immunoblot-01
+Western+blots immunoblot-01
+Western+blotting immunoblot-01
+westernisation westernize-01
+westernmost west most
+what amr-unknown thing so
+what+not et-cetera
+when amr-unknown :time
+whenever :time :mod any
+where amr-unknown :location
+whereas contrast-01
+wherever location :location
+wherever location :mod any
+whether truth-value :polarity-of
+whether regardless-91
+whether+or+not regardless-91
+which amr-unknown
+while :time contrast-01
+whilst :time
+who amr-unknown
+whoever person :mod any
+wholly whole
+whom amr-unknown
+whose amr-unknown
+why :purpose amr-unknown cause-01
+why+not suggest-01
+widespread spread-02 wide-02
+wildtype wild-type
+with :accompanier :instrument
+with+the+help+of :instrument
+within after :quant up-to
+without :polarity -
+without+regard regardless-91
+without accompany-01 :polarity -
+without accompany-01 :polarity amr-unknown
+WMD weapon :ARG2-of destroy-01 :degree mass
+WMDs weapon :ARG2-of destroy-01 :degree mass
+won't :polarity -
+wont :polarity -
+won’t :polarity -
+women woman
+word string-entity
+worth value-01
+worthy deserve-01
+wouldnt :polarity -
+wow wow wow-01 :mode expressive
+wtf fuck
+wrongdoing wrong-01
+WTF amr-unknown fuck :mode expressive
+y'all you all
+yeah yeah :mode expressive
+year :year
+yearly rate-entity-91 1 year
+your you
+yours you
+yourself you
+yourselves you you-all
+zero 0
+DONT-MAP week weeks month months year years TO rate-entity-91 1
+
+are+n't+they+? request-confirmation-91
+are+n't+you+? request-confirmation-91
+are+they+? request-confirmation-91
+are+you+? request-confirmation-91
+can+n't+they+? request-confirmation-91
+can+n't+we+? request-confirmation-91
+correct+? request-confirmation-91
+could+n't+they+? request-confirmation-91
+could+n't+we+? request-confirmation-91
+did+n't+he+? request-confirmation-91
+did+n't+she+? request-confirmation-91
+did+n't+they+? request-confirmation-91
+did+n't+you+? request-confirmation-91
+did+he+? request-confirmation-91
+did+it+? request-confirmation-91
+did+she+? request-confirmation-91
+did+they+? request-confirmation-91
+did+you+? request-confirmation-91
+does+he+? request-confirmation-91
+does+it+? request-confirmation-91
+does+she+? request-confirmation-91
+does+it+not+? request-confirmation-91
+does+n't+it+? request-confirmation-91
+do+n't+they+? request-confirmation-91
+do+n't+you+? request-confirmation-91
+do+n't+we+? request-confirmation-91
+do+they+? request-confirmation-91
+do+you+? request-confirmation-91
+do+we+? request-confirmation-91
+eh+? request-confirmation-91
+have+n't+they+? request-confirmation-91
+have+n't+you+? request-confirmation-91
+have+they+? request-confirmation-91
+have+you+? request-confirmation-91
+huh+? request-confirmation-91
+is+it+? request-confirmation-91
+is+n't+he+? request-confirmation-91
+is+n't+it+? request-confirmation-91
+right request-confirmation-91
+shall+we+? request-confirmation-91
+was+he+? request-confirmation-91
+was+it+? request-confirmation-91
+was+n't+he+? request-confirmation-91
+was+n't+it+? request-confirmation-91
+was+n't+she+? request-confirmation-91
+was+she+? request-confirmation-91
+were+n't+they+? request-confirmation-91
+were+n't+you+? request-confirmation-91
+were+they+? request-confirmation-91
+were+you+? request-confirmation-91
+will+they+? request-confirmation-91
+will+you+? request-confirmation-91
+would+he+? request-confirmation-91
+would+i+? request-confirmation-91
+would+it+? request-confirmation-91
+would+n't+he+? request-confirmation-91
+would+n't+i+? request-confirmation-91
+would+n't+it+? request-confirmation-91
+would+n't+she+? request-confirmation-91
+would+n't+they+? request-confirmation-91
+would+n't+you+? request-confirmation-91
+would+n't+we+? request-confirmation-91
+would+she+? request-confirmation-91
+would+they+? request-confirmation-91
+would+you+? request-confirmation-91
+would+we+? request-confirmation-91
+n't request-confirmation-91
+not request-confirmation-91
+ain't request-confirmation-91
+isnt request-confirmation-91
+
+% percentage-entity
+$ dollar
+? :polarity amr-unknown
+! :mode expressive
+! :mode imperative
+& and
+/ slash
++ and
++ sum-of
+
+I 1
+II 2
+III 3
+IV 4
+V 5
+VI 6
+VII 7
+VIII 8
+IX 9
+X 10
+XI 11
+XII 12
+XIII 13
+XIV 14
+XV 15
+XVI 16
+XVII 17
+XVIII 18
+XIX 19
+XX 20
+XXX 30
+XL 40
+L 50
+LI 60
+LII 70
+LIII 80
+XC 90
+C 100
+CC 200
+CCC 300
+CD 400
+D 500
+DC 600
+DCC 700
+DCCC 800
+CM 900
+M 1000
+MM 2000
+
+in+danger endanger-01
+be+present witness-01
+come+to+understand understand-01
+get+lost lose-02
+get+ready ready-01
+get+stuck stick-01
+go+after go-03
+grow+tired tire-01
+make+ashamed shame-01
+make+sure ensure-01
+make+worse worsen-01
+take+apart disassemble-01
+
+asphalt+over asphalt-02
+auction+off auction-01
+balance+out balance-02
+bandy+about bandy-01
+bank+up bank-03
+bark+up+the+wrong+tree bark-02
+bat+in bat-03
+be+like be-04
+bead+up bead_up-03
+bear+up bear-04
+bear+out bear-05
+beat+out beat-04
+beat+up beat-05
+bed+down bed-01
+beef+up beef-01
+belch+out belch-02
+belly+up belly-01
+belt+out belt-05
+bind+up bind-04
+black+out black-01
+black+out black-02
+blast+away blast-03
+blast+off blast-06
+bleed+off bleed-04
+block+up block-02
+blot+out blot-01
+blow+up blow-05
+blow+up blow-06
+blow+out blow-07
+blurt+out blurt-01
+bog+down bog-01
+boil+over boil-02
+bone+up bone-02
+book+up book-02
+boom+out boom-03
+boot+up boot-03
+boss+around boss-02
+bottle+up bottle-02
+bottom+out bottom-01
+bounce+back bounce-02
+bow+down bow-04
+bow+out bow-06
+bowl+over bowl-02
+branch+out branch-02
+brazen+out brazen-01
+break+away break-14
+break+down break-11
+break+down break-12
+break+in break-05
+break+in break-17
+break+off break-03
+break+off break-04
+break+out break-06
+break+out break-07
+break+out break-10
+break+up break-08
+break+even break-09
+brick+over brick-02
+bring+up bring-02
+bring+down bring-03
+bring+along bring-04
+bring+about bring-05
+brush+off brush-02
+brush+up brush-03
+brush+up brush-05
+buckle+up buckle-02
+buckle+down buckle-03
+build+up build-05
+bump+up bump-03
+bump+off bump-04
+bunch+up bunch-02
+bundle+up bundle-03
+buoy+up buoy-02
+burn+up burn-02
+burn+out burn-03
+burn+out burn-04
+burst+out burst-04
+bust+out bust-03
+bust+up bust-04
+butt+in butt-01
+buzz+off buzz-03
+call+up call-08
+call+up call-09
+call+in call-04
+call+on call-05
+call+off call-06
+call+upon call-12
+calm+down calm-02
+camp+out camp-01
+carry+on carry-02
+carry+out carry-03
+carry+over carry-04
+carry+off carry-05
+cart+off cart-02
+carve+out carve-03
+cash+in cash-02
+cash+in cash-03
+catch+up catch-04
+catch+up catch-07
+catch+on catch-05
+catch+on catch-06
+cave+in cave-02
+chalk+up chalk-01
+charge+off charge-07
+chart+out chart-02
+chatter+away chatter-02
+check+in check-04
+check+out check-05
+check+up check-06
+cheer+up cheer-03
+cheer+on cheer-04
+chew+up chew-02
+chicken+out chicken-01
+chip+in chip-02
+choke+off choke-03
+choke+up choke-04
+chop+down chop-02
+chop+up chop-03
+clean+up clean-02
+clean+out clean-03
+clear+up clear-04
+clip+off clip-02
+clog+up clog-03
+close+down close-04
+close+off close-05
+close+in close-07
+close+over close-08
+clown+around clown-02
+clutch+on clutch-02
+coil+up coil-02
+come+about come-06
+come+in come-07
+come+on come-08
+come+on come-25
+come+out come-09
+come+out come-10
+come+up come-11
+come+up come-13
+come+across come-15
+come+across come-21
+come+through come-17
+come+through come-18
+come+along come-19
+come+by come-20
+come+down come-22
+come+down come-23
+come+off come-24
+concrete+over concrete-01
+cone+down cone_down-101
+conjure+up conjure-01
+contract+out contract-03
+cook+up cook-03
+cool+down cool-02
+cool+off cool-03
+coop+up coop-02
+copy+out copy-02
+core+out core-03
+cough+up cough-03
+cover+up cover-04
+cover+over cover-05
+crack+up crack-03
+crack+up crack-04
+crack+down crack-06
+crank+up crank-01
+crank+out crank-02
+crash+out crash-03
+creep+up creep-02
+crisp+up crisp-02
+crop+up crop-02
+cross+out cross-03
+cry+out cry-03
+cry+down(e) cry-04
+curl+up curl-02
+cut+off cut-04
+cut+back cut-05
+cut+out cut-06
+cut+out cut-09
+cut+loose cut-07
+cut+up cut-08
+cut+up cut-10
+dash+off dash-03
+deck+out deck-02
+die+down die-02
+die+out die-03
+die+off die-04
+dig+up dig-02
+dig+out dig-03
+din+out din-02
+dine+out dine-02
+dish+out dish-02
+dish+up dish-03
+divide+up divide-03
+divvy+up divvy-01
+do+in do-03
+do+away do-05
+dole+out dole-01
+doll+up doll-02
+doze+off doze-02
+drag+on drag-02
+draw+up draw-03
+draw+up draw-04
+dream+up dream-02
+dream+on dream-03
+dredge+up dredge-02
+dress+up dress-02
+dress+down dress-03
+drink+up drink-03
+drop+by drop-02
+drop+off drop-03
+drop+out drop-04
+drown+out drown-03
+drum+up drum-01
+dry+up dry-01
+dry+out dry-03
+dust+off dust-03
+ease+up ease-04
+eat+up eat-02
+eat+away eat-03
+edge+out edge-02
+end+up end-03
+even+out even-01
+face+off face-02
+fall+back fall-08
+fall+off fall-02
+fall+out fall-03
+fall+through fall-06
+fall+apart fall-09
+farm+out farm-02
+fatten+up fatten-02
+fax+in fax-01
+feed+up feed-03
+fence+off fence-01
+fend+off fend-02
+ferret+out ferret-01
+fess+up fess-01
+fight+back fight-04
+fight+off fight-02
+fight+on fight-03
+figure+out figure-05
+fill+up fill-02
+fill+out fill-03
+fill+out fill-04
+fill+in fill-05
+fill+in fill-07
+find+out find-03
+finish+up finish-04
+finish+off finish-05
+firm+up firm-02
+fit+in fit-02
+fix+up fix-04
+flake+out flake-03
+flare+up flare-01
+flash+back flash-03
+flatten+out flatten-02
+flesh+out flesh-01
+flush+out flush-02
+fold+up fold-05
+follow+suit follow-06
+follow+through follow-07
+follow+up follow-03
+fool+around fool-02
+fork+over fork-01
+fork+out fork-02
+fort+up fort-01
+freak+out freak-02
+free+up free-02
+freshen+up freshen-02
+frighten+off frighten-02
+frighten+away frighten-03
+fritter+away fritter-01
+frost+up frost_up-03
+frost+over frost_over-04
+fuck+up fuck-02
+fuck+off fuck-03
+fudge+over fudge-02
+gas+up gas-02
+gear+up gear-02
+get+out get-07
+get+away get-08
+get+back get-09
+get+back get-10
+get+back get-19
+get+off get-11
+get+off get-23
+get+through get-12
+get+through get-13
+get+along get-18
+get+by get-17
+get+down get-15
+get+even get-16
+get+together get-14
+get+on get-20
+get+on get-21
+give+away give-02
+give+back give-03
+give+off give-04
+give+out give-05
+give+out give-06
+give+up give-07
+give+up give-08
+give+in give-09
+give+rise+to give-10
+give+birth give-11
+give+vent give-12
+give+over give-13
+glass+over glass-03
+glaze+over glaze-02
+gloss+over gloss-01
+go+on go-15
+go+on go-25
+go+off go-16
+go+out go-17
+go+out go-18
+go+back go-19
+go+through go-20
+gobble+up gobble-03
+grind+up grind-02
+grow+up grow-04
+gubmint govern-01
+gulp+down gulp-02
+gum+up gum-03
+gun+down gun-01
+hack+away hack-02
+hail+down hail-03
+ham+up ham-01
+hammer+out hammer-04
+hammer+away hammer-05
+hand+over hand-02
+hand+out hand-03
+hang+on hang-04
+hang+on hang-05
+hang+up hang-03
+hang+out hang-06
+hash+out hash-01
+haul+in haul-02
+haul+out haul-03
+head+off head-03
+head+up head-04
+heat+up heat-02
+help+out help-03
+hem+in hem-02
+hide+out hide-02
+hit+on hit-04
+hit+up hit-05
+hold+on hold-05
+hold+on hold-06
+hold+back hold-07
+hold+off hold-08
+hold+out hold-09
+hold+out hold-15
+hold+up hold-10
+hold+up hold-11
+hole+up hole-01
+hollow+out hollow-01
+hook+up hook-02
+hum+along hum-01
+iron+out iron-01
+jack+up jack-01
+jet+off jet-01
+join+in join-05
+join+up join-02
+joke+around joke-02
+jot+down jot-02
+jump+in jump-04
+jump+up jump-05
+jut+out jut-02
+keep+up keep-05
+keep+up keep-10
+keep+on keep-08
+kick+in kick-02
+kick+in kick-03
+kick+off kick-04
+kill+off kill-02
+knock+back knock-07
+knock+down knock-02
+knock+out knock-03
+knock+off knock-05
+knock+off knock-06
+knock+over knock-08
+knock+up knock-09
+knock+up knock-10
+lam+out lam-02
+lash+out lash-02
+latch+on latch-02
+lay+on lay-03
+lay+off lay-02
+lead+up lead-05
+lead+off lead-04
+lead+up lead-05
+leave+out leave-03
+leave+off leave-07
+leave+over leave-08
+let+on let-02
+let+up let-03
+let+down let-04
+level+off level-02
+lick+up lick-02
+lie+down lie-03
+light+up light-02
+lighten+up lighten-02
+lighten+up lighten-03
+limber+up limber-01
+line+up line-02
+link+up link-02
+live+down live-06
+live+on live-03
+live+up live-04
+live+out live-05
+liven+up liven-01
+load+up load-02
+loan+out loan-02
+lock+in lock-02
+lock+up lock-03
+lock+up lock-04
+lock+out lock-05
+lock+down lock-06
+log+on log-02
+look+forward look-03
+look+up look-05
+look+over look-06
+look+after look-07
+look+out look-08
+loosen+up loosen-02
+lose+out lose-06
+louse+up louse-02
+make+up make-07
+make+up make-08
+make+up make-09
+make+up make-10
+make+up make-11
+make+up make-16
+make+out make-12
+make+out make-13
+make+out make-15
+make+it make-14
+make+off make-17
+mark+up mark-03
+mark+up mark-04
+mark+down mark-05
+match+up match-02
+meet+up meet-04
+mess+up mess-02
+mic+up mic-02
+miss+out miss-03
+mist+up mist_up-04
+mist+over mist_over-05
+mix+up mix-02
+monkey+around monkey-01
+muck+up muck-01
+muck+up muck-02
+nail+down nail-02
+neaten+up neaten-02
+net+out net-01
+nod+off nod-02
+oil+up oil-02
+own+up own-02
+pack+up pack-02
+pair+up pair-02
+palm+off palm-01
+pan+out pan-02
+parcel+out parcel-01
+pare+down pare-03
+pare+down pare-04
+pass+by pass-17
+pass+off pass-18
+pass+on pass-09
+pass+on pass-19
+pass+out pass-10
+pass+out pass-11
+pass+over pass-12
+pass+up pass-13
+pass+on pass-14
+pass+on pass-15
+pass+away pass-16
+patch+up patch-02
+pay+off pay-02
+pay+off pay-05
+pay+out pay-03
+pay+down pay-06
+pay+up pay-07
+peel+off peel-02
+perk+up perk-01
+phase+out phase-01
+phase+in phase-02
+pick+on pick-02
+pick+on pick-07
+pick+on pick-09
+pick+out pick-03
+pick+up pick-04
+pick+up pick-05
+pick+up pick-06
+pick+off pick-08
+pile+up pile-02
+pile+on pile-04
+pin+down pin-02
+pine+away pine-02
+pipe+up pipe-02
+pipe+down pipe-03
+pitch+in pitch-03
+play+out play-03
+play+up play-04
+play+down play-07
+play+off play-05
+play+to play-06
+play+on play-09
+plot+out plot-02
+plug+up plug-01
+plug+in plug-03
+point+out point-02
+poke+around poke-02
+polish+off polish-02
+polish+up polish-03
+pop+up pop-03
+pound+out pound-01
+prick+up prick-02
+prop+up prop-01
+pucker+up pucker-02
+puff+up puff-03
+puff+up puff-04
+puke+up puke-02
+pull+out pull-02
+pull+through pull-04
+pull+off pull-03
+pull+over pull-05
+pump+out pump-03
+put+in put-05
+put+off put-06
+put+off put-07
+put+on put-08
+put+out put-09
+put+out put-10
+put+up put-11
+put+up put-12
+put+up put-13
+hard+put put-04
+quiet+down quiet-02
+quieten+down quieten-02
+rack+up rack-01
+rake+in rake-02
+ramp+up ramp-01
+ratchet+up ratchet-01
+ration+out ration-02
+rattle+on rattle-03
+rattle+off rattle-04
+reel+off reel-02
+rein+in rein-01
+rent+out rent-03
+rent+out rent-04
+rev+up rev-02
+ride+out ride-02
+rig+up rig-02
+ring+up ring-03
+rip+out rip-03
+rip+off rip-04
+rip+up rip-05
+roll+out roll-02
+roll+up roll-03
+root+out root-01
+rough+up rough-01
+round+out round-01
+round+up round-02
+rule+out rule-02
+run+out run-05
+run+up run-06
+salt+away salt-02
+save+up save-04
+saw+up saw-03
+scent+out scent_out-03
+scoop+up scoop-02
+scout+out scout-01
+scratch+out scratch-01
+scratch+out scratch-03
+scrawl+out scrawl-02
+screen+out screen-02
+screw+up screw-01
+scrub+up scrub-02
+scrunch+up scrunch-01
+seek+out seek-02
+seize+up seize-02
+sell+out sell-02
+sell+out sell-03
+sell+off sell-04
+send+out send-04
+serve+up serve-03
+set+off set-04
+set+off set-05
+set+off set-13
+set+about set-12
+set+out set-06
+set+out set-07
+set+up set-03
+set+down set-09
+set+upon set-10
+settle+down settle-04
+sew+up sew-03
+shack+up shack-01
+shake+off shake-02
+shake+up shake-03
+shape+up shape-02
+shape+up shape-03
+share+out share-02
+shell+out shell-03
+shine+through shine-02
+ship+out ship-02
+shoot+off shoot-04
+shoot+down shoot-05
+shoot+back shoot-07
+shore+up shore-01
+shout+down shout-02
+shout+out shout-03
+show+up show-02
+show+off show-03
+shrug+off shrug-02
+shuffle+off shuffle-04
+shut+out shut-02
+shut+off shut-03
+shut+off shut-04
+shut+down shut-05
+shut+up shut-06
+shuttle+off shuttle-02
+shy+away shy-01
+sign+up sign-03
+sign+on sign-04
+silt+up silt-01
+single+out single-01
+siphon+off siphon-02
+sit+down sit-02
+sit+up sit-03
+sit+out sit-04
+sit+in sit-05
+size+up size-02
+sketch+out sketch-02
+skim+off skim-03
+skip+off skip-03
+slack+off slack-01
+sleep+away sleep-03
+sleep+off sleep-04
+sleep+over sleep-05
+slice+up slice-02
+slim+down slim-01
+slip+in slip-04
+slow+down slow-03
+slug+out slug-03
+sluice+down sluice-01
+sluice+down sluice-02
+smarten+up smarten-02
+smooth+out smooth-02
+smooth+over smooth-03
+snap+off snap-06
+snap+up snap-08
+snatch+away snatch-02
+sniff+out sniff-03
+soak+up soak-02
+sober+up sober-02
+sock+away sock-02
+sort+out sort-02
+sound+off sound-03
+speak+up speak-02
+speak+out speak-03
+speed+up speed-02
+spell+out spell-03
+spill+over spill-02
+spill+out spill-03
+spin+off spin-02
+splash+out splash-02
+split+up split-03
+spring+up spring-02
+spruce+up spruce-01
+square+off square-03
+squeez+out squeeze-04
+stack+up stack-02
+stack+up stack-03
+stake+out stake-02
+stall+out stall-02
+stall+off stall-03
+rubber+stamp stamp-03
+stamp+out stamp-05
+stand+by stand-05
+stand+out stand-06
+stand+up stand-07
+stare+down stare-02
+start+off start-02
+start+up start-04
+start+out start-05
+stash+away stash-02
+stave+off stave-01
+stay+on stay-02
+steer+clear steer-02
+step+in step-02
+step+up step-03
+step+down step-04
+step+aside step-05
+stick+out stick-02
+stick+around stick-03
+stick+up stick-04
+stir+up stir-04
+stock+up stock-02
+stop+by stop-02
+stop+up stop-04
+store+up store-02
+straighten+out straighten-02
+stretch+out stretch-02
+strike+out strike-06
+strike+out strike-07
+strike+down strike-08
+strike+up strike-09
+strip+away strip-02
+study+up study-02
+suck+up suck-02
+suit+up suit-03
+sum+up sum-01
+summon+forth summon-02
+swear+off swear-03
+swear+in swear-06
+sweat+out sweat-02
+sweat+off sweat-03
+sweep+up sweep-03
+sweep+up sweep-04
+switch+over switch-02
+swoop+up swoop-02
+tack+down tack-04
+tack+on tack-03
+take+away take-05
+take+in take-06
+take+in take-23
+take+off take-07
+take+off take-08
+take+off take-19
+take+off take-18
+take+on take-09
+take+on take-21
+take+out take-11
+take+over take-12
+take+up take-13
+take+aback take-20
+take+down take-22
+take+hold take-24
+tamp+down tamp-01
+tangle+up tangle-02
+taper+off taper-01
+tax+away tax-02
+team+up team-02
+tear+up tear-04
+tear+down tear-05
+tease+out tease-04
+tee+off tee-01
+tell+on tell-03
+thaw+out thaw-02
+thin+out thin-02
+thrash+out thrash-02
+throw+away throw-07
+throw+in throw-02
+throw+out throw-04
+throw+out throw-06
+throw+up throw-05
+tick+off tick-02
+tick+off tick-03
+tidy+up tidy-01
+tie+in tie-02
+tie+up tie-04
+tie+up tie-05
+tie+down tie-06
+tighten+up tighten-02
+tip+over tip-03
+tip+off tip-04
+tire+out tire-02
+tone+down tone-01
+tool+up tool_up-04
+top+off top-03
+toss+out toss-02
+toss+out toss-03
+total+up total-03
+tote+up tote-02
+totter+around totter-02
+touch+off touch-02
+touch+off touch-06
+touch+up touch-03
+touch+on touch-04
+touch+upon touch-05
+track+down track-02
+trail+off trail-02
+trigger+off trigger-02
+trim+down trim-04
+trot+out trot-02
+try+out try-03
+tuck+away tuck-02
+tuck+in tuck-03
+tune+in tune-02
+tune+out tune-03
+turn+away turn-04
+turn+down turn-05
+turn+in turn-06
+turn+on turn-13
+turn+off turn-07
+turn+off turn-08
+turn+out turn-09
+turn+out turn-10
+turn+out turn-11
+turn+out turn-17
+turn+over turn-12
+turn+up turn-15
+type+up type-02
+use+to use-03
+use+to use-02
+use+up use-04
+usher+in usher-01
+vamp+up vamp_up-01
+vomit+up vomit-02
+vote+down vote-03
+wait+out wait-03
+wake+up wake-02
+wall+off wall-01
+ward+off ward-01
+warfare war
+warm+up warm-02
+warm+over warm-04
+wash+up wash-03
+watch+out watch-02
+watch+over watch-03
+water+down water-02
+wear+off wear-02
+wear+out wear-03
+wear+on wear-04
+wear+down wear-05
+weasel+out weasel-01
+weigh+in weigh-03
+whack+off whack-02
+while+away while-01
+whip+out whip-02
+whip+up whip-03
+whittle+down whittle-02
+win+over win-02
+wind+up wind-02
+wind+up wind-03
+wind+up wind-05
+wind+down wind-04
+wipe+out wipe-02
+wipe+off wipe-03
+wipe+up wipe-04
+wolf+down wolf-01
+work+out work-02
+work+out work-03
+work+out work-05
+work+up work-04
+work+up work-101
+wrap+up wrap-02
+wring+out wring-03
+write+off write-02
+write+down write-03
+write+down write-04
+write+in write-05
+write+out write-06
+write+up write-07
+yammer+away yammer-02
+yammer+on yammer-03
+yield+up yield-04
+zero+in zero-01
+zero+out zero-02
+zip+up zip-02
+
+#  morphological gaps
+
+abodes abode
+amphobiles amphobile
+analysed analyze-01
+backstreets backstreet
+brainiacs brainiac
+byproducts byproduct
+capitulators capitulator
+cargos cargo
+chemokines chemokine
+cleavage cleave-01
+coimmunoprecipitation coimmunoprecipitate-01
+cotransfected cotransfect-01
+cotransfection cotransfect-01
+cotransfects cotransfect-01
+cyberattacks cyberattack
+cytokines cytokine
+dependently depend-01
+dephosphorylated dephosphorylate
+dephosphorylation dephosphorylate
+dirams diram
+downregulated downregulate-01
+downregulates downregulate-01
+downregulating downregulate-01
+effectors effector
+GEFs GEF
+harboured harbor-01
+harbouring harbor-01
+hepatocytes hepatocyte
+IECs IEC
+immunoblotting immunoblot-01
+immunofluorescence immunofluoresce-01
+immunoprecipitated immunoprecipitate-01
+immunoprecipitates immunoprecipitate-01
+immunostaining immunostain-01
+inflammation inflame-01
+integrins integrin
+interferons interferon
+invasive invade-01
+isoforms isoform
+JAKs JAK
+jihadists jihadist
+keratinocytes keratinocyte
+knockdown knock-down-02
+knockout knock-out-03
+ligation ligate-01
+littermates littermate
+lysates lysate
+mammalian mammal
+melanocytes melanocyte
+melanospheres melanosphere
+mesenchymal mesenchyme
+methamphetamines methamphetamine
+mRNAs mRNA
+mSAs mSA
+oligonucleotides oligonucleotide
+oncoproteins oncoprotein
+over+eat overeat-01
+over+express overexpress-01
+over+-+express overexpress-01
+over+@-@+express overexpress-01
+over+expressed overexpress-01
+over+-+expressed overexpress-01
+over+@-@+expressed overexpress-01
+over+expressing overexpress-01
+over+-+expressing overexpress-01
+over+@-@+expressing overexpress-01
+over+expression overexpress-01
+over+-+expression overexpress-01
+over+@-@+expression overexpress-01
+over+night overnight
+over+reach overreach-01
+over+react overreact-01
+over+ride override-01
+over+rule overrule-01
+over+see oversee-01
+over+use overuse-01
+overcrowded over-03 crowd-01
+overcrowded over-03 crowd-02
+overexpressed overexpress-01
+overexpressing overexpress-01
+overexpression overexpress-01
+overexpressions overexpress-01
+oxidative oxidize-01
+potentiates potentiate
+predominantly predominate-01
+pretreatment pretreat-01
+RasGEFs RasGEF
+receptors receptor
+scumbags scumbag
+serrated serrate-01
+shRNAs shRNA
+somonis somoni
+splenocytes splenocyte
+strategems strategem
+supplementary supplement-01
+synergistic synergize-01
+synergistical synergize-01
+synergistically synergize-01
+synergy synergize-01
+transfectant transfect-01
+transfectants transfect-01
+transfected transfect
+transfected transfect-01
+translocated translocate-01
+translocates translocate-01
+ubiquitinated ubiquitinate
+ubiquitinates ubiquitinate
+upregulated upregulate-01
+upregulates upregulate-01
+upregulating upregulate-01
+upregulation upregulate-01
+xenografts xenograft
+
+Buddhas Buddha
+
+coquettish coquet
+
+disarrange arrange
+foretold foretell
+welled well
+
+behaviour behavior
+centre center
+colour color
+gramme gram
+grammes grams
+hospitalise hospitalize
+hospitalised hospitalized
+kilogramme kilogram
+kilogrammes kilograms
+kilometre kilometer
+labour labor
+recognise recognize
+realise realize
+theatre theater
+blest bless-01
+Kirghizia Kirghistan
+
+best have-degree-91 :ARG2 good :ARG3 most
+biggest have-degree-91 :ARG2 big :ARG3 most
+bitterest have-degree-91 :ARG2 bitter :ARG3 most
+blackest have-degree-91 :ARG2 black :ARG3 most
+boldest have-degree-91 :ARG2 bold :ARG3 most
+bravest have-degree-91 :ARG2 brave :ARG3 most
+brightest have-degree-91 :ARG2 bright :ARG3 most
+broadest have-degree-91 :ARG2 broad :ARG3 most
+busiest have-degree-91 :ARG2 busy :ARG3 most
+cheapest have-degree-91 :ARG2 cheap :ARG3 most
+closest have-degree-91 :ARG2 close :ARG3 most
+coldest have-degree-91 :ARG2 cold :ARG3 most
+creepiest have-degree-91 :ARG2 creepy :ARG3 most
+deadliest have-degree-91 :ARG2 deadly :ARG3 most
+deepest have-degree-91 :ARG2 deep :ARG3 most
+dinkiest have-degree-91 :ARG2 dinky :ARG3 most
+dullest have-degree-91 :ARG2 dull :ARG3 most
+dumbest have-degree-91 :ARG2 dumb :ARG3 most
+earliest have-degree-91 :ARG2 early :ARG3 most
+easiest have-degree-91 :ARG2 easy :ARG3 most
+faintest have-degree-91 :ARG2 faint :ARG3 most
+farthest have-degree-91 :ARG2 far :ARG3 most
+fastest have-degree-91 :ARG2 fast :ARG3 most
+fewest have-degree-91 :ARG2 few :ARG3 most
+finest have-degree-91 :ARG2 fine :ARG3 most
+fittest have-degree-91 :ARG2 fit :ARG3 most
+fondest have-degree-91 :ARG2 fond :ARG3 most
+fullest have-degree-91 :ARG2 full :ARG3 most
+gravest have-degree-91 :ARG2 grave :ARG3 most
+greatest have-degree-91 :ARG2 great :ARG3 most
+handsomest have-degree-91 :ARG2 handsome :ARG3 most
+hardest have-degree-91 :ARG2 hard :ARG3 most
+heaviest have-degree-91 :ARG2 heavy :ARG3 most
+highest have-degree-91 :ARG2 high :ARG3 most
+holiest have-degree-91 :ARG2 holy :ARG3 most
+hottest have-degree-91 :ARG2 hot :ARG3 most
+largest have-degree-91 :ARG2 large :ARG3 most
+lastest have-degree-91 :ARG2 last :ARG3 most
+latest have-degree-91 :ARG2 late :ARG3 most
+lightest have-degree-91 :ARG2 light :ARG3 most
+liveliest have-degree-91 :ARG2 lively :ARG3 most
+longest have-degree-91 :ARG2 long :ARG3 most
+loudest have-degree-91 :ARG2 loud :ARG3 most
+loveliest have-degree-91 :ARG2 lovely :ARG3 most
+lowest have-degree-91 :ARG2 low :ARG3 most
+meanest have-degree-91 :ARG2 mean :ARG3 most
+narrowest have-degree-91 :ARG2 narrow :ARG3 most
+nastiest have-degree-91 :ARG2 nasty :ARG3 most
+nearest have-degree-91 :ARG2 near :ARG3 most
+newest have-degree-91 :ARG2 new :ARG3 most
+oldest have-degree-91 :ARG2 old :ARG3 most
+pithiest have-degree-91 :ARG2 pithy :ARG3 most
+poorest have-degree-91 :ARG2 poor :ARG3 most
+quickest have-degree-91 :ARG2 quick :ARG3 most
+richest have-degree-91 :ARG2 rich :ARG3 most
+riskiest have-degree-91 :ARG2 risky :ARG3 most
+safest have-degree-91 :ARG2 safe :ARG3 most
+savviest have-degree-91 :ARG2 savvy :ARG3 most
+sharpest have-degree-91 :ARG2 sharp :ARG3 most
+shortest have-degree-91 :ARG2 short :ARG3 most
+simplest have-degree-91 :ARG2 simple :ARG3 most
+sketchiest have-degree-91 :ARG2 sketchy :ARG3 most
+slightest have-degree-91 :ARG2 slight :ARG3 most
+slowest have-degree-91 :ARG2 slow :ARG3 most
+smallest have-degree-91 :ARG2 small :ARG3 most
+smartest have-degree-91 :ARG2 smart :ARG3 most
+smoothest have-degree-91 :ARG2 smooth :ARG3 most
+spookiest have-degree-91 :ARG2 spooky :ARG3 most
+staunchest have-degree-91 :ARG2 staunch :ARG3 most
+stiffest have-degree-91 :ARG2 stiff :ARG3 most
+strongest have-degree-91 :ARG2 strong :ARG3 most
+stupidest have-degree-91 :ARG2 stupid :ARG3 most
+surest have-degree-91 :ARG2 sure :ARG3 most
+tallest have-degree-91 :ARG2 tall :ARG3 most
+thinnest have-degree-91 :ARG2 thin :ARG3 most
+tiniest have-degree-91 :ARG2 tiny :ARG3 most
+toughest have-degree-91 :ARG2 tough :ARG3 most
+vaguest have-degree-91 :ARG2 vague :ARG3 most
+warmest have-degree-91 :ARG2 warm :ARG3 most
+weakest have-degree-91 :ARG2 weak :ARG3 most
+wealthiest have-degree-91 :ARG2 wealthy :ARG3 most
+widest have-degree-91 :ARG2 wide :ARG3 most
+worst have-degree-91 :ARG2 bad :ARG3 most
+youngest have-degree-91 :ARG2 young :ARG3 most
+barest have-degree-91 :ARG2 bare :ARG3 most
+bleakest have-degree-91 :ARG2 bleak :ARG3 most
+bloodiest have-degree-91 :ARG2 bloody :ARG3 most
+cleanest have-degree-91 :ARG2 clean :ARG3 most
+coolest have-degree-91 :ARG2 cool :ARG3 most
+craziest have-degree-91 :ARG2 crazy :ARG3 most
+crudest have-degree-91 :ARG2 crude :ARG3 most
+fattest have-degree-91 :ARG2 fat :ARG3 most
+fiercest have-degree-91 :ARG2 fierce :ARG3 most
+freest have-degree-91 :ARG2 free :ARG3 most
+funniest have-degree-91 :ARG2 funny :ARG3 most
+gentlest have-degree-91 :ARG2 gentle :ARG3 most
+grimmest have-degree-91 :ARG2 grim :ARG3 most
+happiest have-degree-91 :ARG2 happy :ARG3 most
+harshest have-degree-91 :ARG2 harsh :ARG3 most
+healthiest have-degree-91 :ARG2 healthy :ARG3 most
+idlest have-degree-91 :ARG2 idle :ARG3 most
+littlest have-degree-91 :ARG2 little :ARG3 most
+nicest have-degree-91 :ARG2 nice :ARG3 most
+oddest have-degree-91 :ARG2 odd :ARG3 most
+prettiest have-degree-91 :ARG2 pretty :ARG3 most
+proudest have-degree-91 :ARG2 proud :ARG3 most
+purest have-degree-91 :ARG2 pure :ARG3 most
+saddest have-degree-91 :ARG2 sad :ARG3 most
+scariest have-degree-91 :ARG2 scary :ARG3 most
+sickest have-degree-91 :ARG2 sick :ARG3 most
+softest have-degree-91 :ARG2 soft :ARG3 most
+squeakiest have-degree-91 :ARG2 squeaky :ARG3 most
+straightest have-degree-91 :ARG2 straight :ARG3 most
+strangest have-degree-91 :ARG2 strange :ARG3 most
+strictest have-degree-91 :ARG2 strict :ARG3 most
+sunniest have-degree-91 :ARG2 sunny :ARG3 most
+sweetest have-degree-91 :ARG2 sweet :ARG3 most
+tightest have-degree-91 :ARG2 tight :ARG3 most
+truest have-degree-91 :ARG2 true :ARG3 most
+warmest have-degree-91 :ARG2 warm :ARG3 most
+weirdest have-degree-91 :ARG2 weird :ARG3 most
+wildest have-degree-91 :ARG2 wild :ARG3 most
+
+better have-degree-91 :ARG2 good :ARG3 more
+better have-degree-91 :ARG2 well :ARG3 more
+bigger have-degree-91 :ARG2 big :ARG3 more
+bolder have-degree-91 :ARG2 bold :ARG3 more
+breezier have-degree-91 :ARG2 breezy :ARG3 more
+brisker have-degree-91 :ARG2 brisk :ARG3 more
+broader have-degree-91 :ARG2 broad :ARG3 more
+busier have-degree-91 :ARG2 busy :ARG3 more
+calmer have-degree-91 :ARG2 calm :ARG3 more
+cheaper have-degree-91 :ARG2 cheap :ARG3 more
+cleaner have-degree-91 :ARG2 clean :ARG3 more
+clearer have-degree-91 :ARG2 clear :ARG3 more
+closer have-degree-91 :ARG2 close :ARG3 more
+colder have-degree-91 :ARG2 cold :ARG3 more
+cooler have-degree-91 :ARG2 cool :ARG3 more
+costlier have-degree-91 :ARG2 costly :ARG3 more
+creamier have-degree-91 :ARG2 creamy :ARG3 more
+crisper have-degree-91 :ARG2 crisp :ARG3 more
+crunchier have-degree-91 :ARG2 crunchy :ARG3 more
+darker have-degree-91 :ARG2 dark :ARG3 more
+deeper have-degree-91 :ARG2 deep :ARG3 more
+duller have-degree-91 :ARG2 dull :ARG3 more
+dumber have-degree-91 :ARG2 dumb :ARG3 more
+earlier have-degree-91 :ARG2 early :ARG3 more
+easier have-degree-91 :ARG2 easy :ARG3 more
+fairer have-degree-91 :ARG2 fair :ARG3 more
+fancier have-degree-91 :ARG2 fancy :ARG3 more
+farther have-degree-91 :ARG2 far :ARG3 more
+faster have-degree-91 :ARG2 fast :ARG3 more
+fatter have-degree-91 :ARG2 fat :ARG3 more
+fewer have-degree-91 :ARG2 few :ARG3 more
+firmer have-degree-91 :ARG2 firm :ARG3 more
+flashier have-degree-91 :ARG2 flashy :ARG3 more
+freer have-degree-91 :ARG2 free :ARG3 more
+fuzzier have-degree-91 :ARG2 fuzzy :ARG3 more
+gloomier have-degree-91 :ARG2 gloomy :ARG3 more
+grander have-degree-91 :ARG2 grand :ARG3 more
+greater have-degree-91 :ARG2 great :ARG3 more
+greedier have-degree-91 :ARG2 greedy :ARG3 more
+greener have-degree-91 :ARG2 green :ARG3 more
+handsomer have-degree-91 :ARG2 handsome :ARG3 more
+happier have-degree-91 :ARG2 happy :ARG3 more
+harder have-degree-91 :ARG2 hard :ARG3 more
+harsher have-degree-91 :ARG2 harsh :ARG3 more
+healthier have-degree-91 :ARG2 healthy :ARG3 more
+heavier have-degree-91 :ARG2 heavy :ARG3 more
+heftier have-degree-91 :ARG2 hefty :ARG3 more
+higher have-degree-91 :ARG2 high :ARG3 more
+kinder have-degree-91 :ARG2 kind :ARG3 more
+larger have-degree-91 :ARG2 large :ARG3 more
+later have-degree-91 :ARG2 late :ARG3 more
+leaner have-degree-91 :ARG2 lean :ARG3 more
+lesser have-degree-91 :ARG2 less :ARG3 more
+lighter have-degree-91 :ARG2 light :ARG3 more
+longer have-degree-91 :ARG2 long :ARG3 more
+looser have-degree-91 :ARG2 loose :ARG3 more
+louder have-degree-91 :ARG2 loud :ARG3 more
+lovelier have-degree-91 :ARG2 lovely :ARG3 more
+lower have-degree-91 :ARG2 low :ARG3 more
+luckier have-degree-91 :ARG2 lucky :ARG3 more
+lumpier have-degree-91 :ARG2 lumpy :ARG3 more
+meaner have-degree-91 :ARG2 mean :ARG3 more
+murkier have-degree-91 :ARG2 murky :ARG3 more
+narrower have-degree-91 :ARG2 narrow :ARG3 more
+nastier have-degree-91 :ARG2 nasty :ARG3 more
+naughtier have-degree-91 :ARG2 naughty :ARG3 more
+newer have-degree-91 :ARG2 new :ARG3 more
+nicer have-degree-91 :ARG2 nice :ARG3 more
+older have-degree-91 :ARG2 old :ARG3 more
+poorer have-degree-91 :ARG2 poor :ARG3 more
+prettier have-degree-91 :ARG2 pretty :ARG3 more
+pricier have-degree-91 :ARG2 pricey :ARG3 more
+quicker have-degree-91 :ARG2 quick :ARG3 more
+redder have-degree-91 :ARG2 red :ARG3 more
+richer have-degree-91 :ARG2 rich :ARG3 more
+riskier have-degree-91 :ARG2 risky :ARG3 more
+rosier have-degree-91 :ARG2 rosy :ARG3 more
+rougher have-degree-91 :ARG2 rough :ARG3 more
+sadder have-degree-91 :ARG2 sad :ARG3 more
+safer have-degree-91 :ARG2 safe :ARG3 more
+seamier have-degree-91 :ARG2 seamy :ARG3 more
+shadier have-degree-91 :ARG2 shady :ARG3 more
+shallower have-degree-91 :ARG2 shallow :ARG3 more
+sharper have-degree-91 :ARG2 sharp :ARG3 more
+shorter have-degree-91 :ARG2 short :ARG3 more
+shrewder have-degree-91 :ARG2 shrewd :ARG3 more
+simpler have-degree-91 :ARG2 simple :ARG3 more
+slimmer have-degree-91 :ARG2 slim :ARG3 more
+slower have-degree-91 :ARG2 slow :ARG3 more
+smaller have-degree-91 :ARG2 small :ARG3 more
+smarter have-degree-91 :ARG2 smart :ARG3 more
+smoother have-degree-91 :ARG2 smooth :ARG3 more
+softer have-degree-91 :ARG2 soft :ARG3 more
+speedier have-degree-91 :ARG2 speedy :ARG3 more
+steadier have-degree-91 :ARG2 steady :ARG3 more
+steeper have-degree-91 :ARG2 steep :ARG3 more
+stickier have-degree-91 :ARG2 sticky :ARG3 more
+stiffer have-degree-91 :ARG2 stiff :ARG3 more
+stingier have-degree-91 :ARG2 stingy :ARG3 more
+stormier have-degree-91 :ARG2 stormy :ARG3 more
+straighter have-degree-91 :ARG2 straight :ARG3 more
+stricter have-degree-91 :ARG2 strict :ARG3 more
+stronger have-degree-91 :ARG2 strong :ARG3 more
+swankier have-degree-91 :ARG2 swanky :ARG3 more
+taller have-degree-91 :ARG2 tall :ARG3 more
+tamer have-degree-91 :ARG2 tame :ARG3 more
+tastier have-degree-91 :ARG2 tasty :ARG3 more
+thicker have-degree-91 :ARG2 thick :ARG3 more
+thinner have-degree-91 :ARG2 thin :ARG3 more
+tighter have-degree-91 :ARG2 tight :ARG3 more
+tougher have-degree-91 :ARG2 tough :ARG3 more
+trickier have-degree-91 :ARG2 tricky :ARG3 more
+warmer have-degree-91 :ARG2 warm :ARG3 more
+weaker have-degree-91 :ARG2 weak :ARG3 more
+wealthier have-degree-91 :ARG2 wealthy :ARG3 more
+wider have-degree-91 :ARG2 wide :ARG3 more
+wiser have-degree-91 :ARG2 wise :ARG3 more
+worse have-degree-91 :ARG2 bad :ARG3 more
+worthier have-degree-91 :ARG2 worthy :ARG3 more
+younger have-degree-91 :ARG2 young :ARG3 more
+bleaker have-degree-91 :ARG2 bleak :ARG3 more
+blunter have-degree-91 :ARG2 blunt :ARG3 more
+colder have-degree-91 :ARG2 cold :ARG3 more
+deader have-degree-91 :ARG2 dead :ARG3 more
+dirtier have-degree-91 :ARG2 dirty :ARG3 more
+drier have-degree-91 :ARG2 dry :ARG3 more
+flatter have-degree-91 :ARG2 flat :ARG3 more
+flimsier have-degree-91 :ARG2 flimsy :ARG3 more
+funnier have-degree-91 :ARG2 funny :ARG3 more
+greyer have-degree-91 :ARG2 grey :ARG3 more
+handier have-degree-91 :ARG2 handy :ARG3 more
+hotter have-degree-91 :ARG2 hot :ARG3 more
+iffier have-degree-91 :ARG2 iffy :ARG3 more
+livelier have-degree-91 :ARG2 lively :ARG3 more
+loonier have-degree-91 :ARG2 loony :ARG3 more
+madder have-degree-91 :ARG2 mad :ARG3 more
+milder have-degree-91 :ARG2 mild :ARG3 more
+nearer have-degree-91 :ARG2 near :ARG3 more
+nobler have-degree-91 :ARG2 noble :ARG3 more
+paler have-degree-91 :ARG2 pale :ARG3 more
+rarer have-degree-91 :ARG2 rare :ARG3 more
+sicker have-degree-91 :ARG2 sick :ARG3 more
+slighter have-degree-91 :ARG2 slight :ARG3 more
+stranger have-degree-91 :ARG2 strange :ARG3 more
+stupider have-degree-91 :ARG2 stupid :ARG3 more
+whiter have-degree-91 :ARG2 white :ARG3 more
+
+arguably argue-01
+contractor person contract-02
+contractors person contract-02
+cowardly coward
+defensive defend-01
+efficacy efficient-01
+epidermal epidermis
+filopodia filopodium
+****ing fucking
+healthcare health care-03
+hyperproliferation hyperproliferate-01
+licence license
+logical logic
+mid middle
+nutters nutter
+paedophile pedophile
+PR respond-01 :degree part
+RW right-08
+promoter promote-02
+scrutiny scrutinize-01
+tendency tend-02
+viewers view-01
+pre+existing preexist-01
+pre+-+existing preexist-01
+pre+@-@+existing preexist-01
+statistically statistic
+supportive support-01
+suppressive suppress-01
+civilised civilize-01
+like dislike-01
+succession succeed-03
+cherry+pick cherrypick-01
+needy need-01
+akin resemble-01
+reproductive reproduce-01
+corps corporation
+unresolved resolve-01 :polarity -
+knockout knock-out-12
+societal society
+R&D research-01 and develop-02
+BS bullshit
+theory theorize-01
+censorship censor-01
+murderous murder-01
+uneducated educate-01 :polarity -
+stickers stick-01
+separatist separatism
+crazy craze-01
+catalyst catalyze-01
+AI intelligent-01 :mod artificial
+hypocritical hypocrisy
+marketeer market-01 
+marketeers market-01 
+expertise expert-01
+outbreak break-out-30
+spoiler spoil-01
+undeclared declare-02 :polarity -
+privatisation privatize-01
+hard+line hardline
+hard+-+line hardline
+hard+@-@+line hardline
+deadly die-01
+ohh oh
+blindness blind-02
+nuff enough
+implication imply-01
+problematic problem
+whiny whine-01
+regression regress-01
+GA person :ARG0-of assist-01 graduate
+malnutrition malnourished-01
+cytotoxicity cytotoxic
+DA attorney district
+AA affirmative-action
+useless use-01 :polarity -
+IMHO opine-01 :ARG0 i :ARG1-of humble-01
+lengthy long-03
+good+bye goodbye
+civillians civilian
+wrongful wrong-02
+since after
+sight see-01
+until before
+multi+national multinational
+multi+-+national multinational
+multi+@-@+national multinational
+rider ride-01
+ineptitude apt-04 :polarity -
+breakthrough break-through-22
+heartless heart :polarity -
+fugitive flee-05
+purposely purpose
+mandatory mandate-01
+payed pay-01
+Jeeze jeez
+entirety entire
+knees kneel-01
+ive i
+pre+emp preempt-01
+pre+-+emp preempt-01
+pre+@-@+emp preempt-01
+on+line online
+on+-+line online
+on+@-@+line online
+adaptor adapt-01
+competitive compete-02
+talkin talk-01
+negged negative-03
+biomarkers biomarker
+inept apt-04 :polarity -
+likelihood likely-01
+shiny shine-01
+apprenticeship apprentice-01
+nationalisation nationalize-01
+laughable laugh-01
+PM private-02 message-01
+PM private message-01
+PM personal-02 message-01
+hyperproliferative hyperproliferate-01
+closure close-01
+prior before
+can permit-01
+teenaged teenage
+meds medication
+Col. colonel
+antitumour counter-01 tumor
+bout about
+knowingly know-01
+guise disguise-01
+newborn new-01 bear-02
+stromal stroma
+stats statistic
+stricken strike-01
+remortgaging remortgage-01
+specificity specific-02
+foresight foresee-01
+should obligate-01
+oversight oversee-01
+icy ice
+sucker suck-01
+embattled embattle-01
+elusive elude-01
+multivitamins multivitamin
+libs liberal-02
+Ag antigen
+normoxic normoxia
+favourite favor-01
+respectable respect-01 possible-01
+rightwinger person right-08
+Luckily luck
+til until
+stats statistics
+immunodetection immunodetect-01
+harmless harmful-02 :polarity -
+foriegn foreign
+extinction extinct
+pre+emptive preempt-01
+pre+-+emptive preempt-01
+pre+@-@+emptive preempt-01
+chavs chav
+fuckin fucking
+shareholder person :ARG0-of hold-01 :ARG1 share
+shareholders person :ARG0-of hold-01 :ARG1 share
+hysterical hysteria 
+landslide land slide-01
+implications imply-01
+implication imply-01
+gf girlfriend
+designation designate-01
+legalised legalize-01
+destroyer destroy-01
+sunbeds sunbed 
+grievance complain-01
+responders person :ARG0-of respond-01
+questionable question-03
+friendlies friendly
+IHC immunohistochemistry
+cytostatic cytostasis
+electors person :ARG0-of elect-01
+force enforce-01
+co+immunoprecipitation coimmunoprecipitate-01
+co+-+immunoprecipitation coimmunoprecipitate-01
+co+@-@+immunoprecipitation coimmunoprecipitate-01
+ceasefire cease-01 fire-01
+surroundings surround-01
+unprovoked provoke-01
+loosing lose-02
+colonise colonize-01
+interceptors intercept-01
+aforementioned mention-01 before
+courageous courage
+whatever regardless-91
+rep reputation
+daddy dad
+hypoxic hypoxia
+harrassment harass-01
+especially special-02
+racketeering racket-02
+botnets botnet
+nationalistic nationalism
+roadside road side
+fuzzy fuzz-01
+multiculturism multiculturalism
+hahahahaha haha
+hahahaha haha
+hahaha haha
+desperation desperate-02
+preneoplastic preneoplasm
+awwww aw
+awww aw
+aww aw
+entrapment entrap-01
+respectability respect-01
+maker make-05
+ranchers ranch-01
+trainers train-01
+theorist theorize-01
+stoopid stupid
+nationalised nationalize-01
+systemic system
+bravery brave-02
+ahhhh ah
+ahhh ah
+ahh ah
+mammograms mammogram
+transphosphorylates transphosphorylate-01
+accountable account-01
+offenders offend-03
+earthquake earth quake-01
+absurdity absurd 
+respiratory respire-01 
+metabolism metabolize-01
+determination determined-02
+murine mouse
+geographical geography
+tensions tense-03
+former before
+furore furor
+detrimental harm-01
+righties right-08
+disgruntled disgruntle-01
+medicinal medicine
+accidental accident
+shameful shame-02
+attributable attribute-01 possible-01
+bailouts bail-out-02
+harmful harm-01
+brutality brutalize-01
+carriers carry-01
+powerless powerful-02 :polarity -
+ectopically ectopic
+blackout black-out-03
+pro support-01
+orthopaedist orthopedics
+incoming come-in-07
+squeaky squeak-01
+ain't request-confirmation-91
+SE southeast
+politicans politician 
+trully true-01
+linker link-01
+rep represent-01
+invasiveness invade-01
+shouldnt recommend-01 :polarity -
+negs negative-03
+intellectual intellect
+microtubules microtubule
+heir person inherit-01
+heirs person inherit-01
+creative create-01
+economical economy
+freebies freebie
+magnetic magnet
+weirdos weirdo
+econ economics
+lethal die-01
+standby stand-by-05
+memory remember-01
+onto on-to-01
+obligation oblige-02
+theorists theorize-01
+foresnics forensics
+disproportionate proportionate :polarity -
+disenfranchisement disenfranchise-01
+RWers right-08 person
+organisers organize-01
+coexpressed coexpress-01
+Capt. captain
+postwar after war war-01
+phosphotyrosine phosphorylate-01
+commanders command-02
+stressful stress-02
+descendants descend-01 person
+automaker automobile make-01
+burner burn-01
+antagonistic antagonize-01
+postirradiation after irradiate-01 
+sub submarine
+upbringing bring-up-08
+Sgt. sergeant
+retribution retribute-01
+ressession recession-02
+businesspeople business person
+lawmakers person make-01 law
+compassionate compassion
+treason betray-01
+awesome awe-01
+whackjobs whackjob
+worthy worth-02
+climbers climb-0
+empathy empathize-01
+infighting infight-05
+tensions tense-01
+correctness correct-02
+forcibly force-01
+approx approximately
+morality moral-02
+gastrulation gastrulate-01
+temp temporary
+hoarders hoard-01 person
+intrest interest
+workforce force work-01
+perversion pervert-01
+laughable possible-01 laugh-01
+arguement argue-01
+obv obvious-01
+logically logic
+existance exist-01
+unborn bear-02 :polarity -
+ahead before
+hurtful hurt-01
+rediculous ridiculous-02
+outstanding stand-out-06
+truthful true-01
+clerical cleric
+heartbroken break-heart-31
+trainer train-01 person
+lefty left-19 person
+worthless worth-02 :polarity -
+scared fear-01
+bailout bail-out-02
+depolymerization depolymerize-01
+bloodshed shed-03 blood
+fuckin fuck
+popular populace
+loyalists loyal-01 person
+professional profession
+enhancer enhance-01
+firebombing fire bomb-01
+birthplace bear-02 place
+spoiler spoil-01
+reflective reflect-01
+seasonal season 
+immunoblots immunoblot-01
+malnourishment malnourished-01
+hospitalised hospitalize-01
+kinetic kinetics
+whiner whine-01 person
+priceless price-01 :polarity -
+placodes placode
+aerial air
+arguably possible-01
+beleive believe-01
+sentimental sentiment
+immunoblotted immunoblot-01
+abstinance abstain-01
+slaves enslave-01
+remainder remain-01
+federal federation 
+then after
+handwritten write-01 hand
+POV have-point-of-view-08
+stereotypical stereotypic-0
+firefights fire-01 fight-01
+vascularization vascularize-01
+imaginary imagine-01
+dept department
+herders herd-01 person
+underlying underlay-01
+uptake take-up-13
+effective affect-01
+admittedly admit-01
+interceptor intercept-01
+rightful right-05
+vid video
+clothes cloth
+pollster poll-01 person
+treasonous betray-01
+groundless ground-02 :polarity -
+underemployed under employ-01
+probability probable
+theft thieve-01
+nut+case nutcase 
+preventative prevent-01
+policymakers policy-01 make-01 
+economists economy
+reproducible reproduce-01 possible-01
+molester molest-01 person
+westernised westernize-01
+moderators moderate-02
+anxious worry-01
+collectors collect-01 person
+intellectually intellect
+noticeably notice-01
+handover hand-over-02
+talented talent
+mortality die-01
+sanitation sanitize-01
+watchers watch-01 person
+monotherapies monotherapy
+willed will-02
+op original person post-01
+rainfall rain-01 fall-01
+rotator rotate-01
+capable possible-01
+denuclearization denuclearize-01
+geographical geographic
+neuronal neuron
+leftie left-19 person
+untold tell-01 :polarity -
+retroviral retrovirus
+pics pic
+paedophilia pedophilia
+prenylated prenylate-01
+remittances thing remit-01
+Dr doctor
+soliders soldier
+groundbreaking break-ground-28
+independant depend-01 :polarity -
+rehab rehabilitate-01
+Wed wednesday
+executors execute-02
+determinant determine-01
+scanners scan-01
+fuxxing fucking
+insets inset
+oppressors oppress-01
+enhancers enhance-01
+timepoints timepoint
+gov govern-01
+helpless help-01 :polarity -
+undetected detect-01 :polarity -
+senior old
+multiplicity multiply-01
+rotten rot-01
+exons exon
+relative relate-0
+stimulatory stimulate-01
+floodwaters water flood-01
+handlers handle-01
+baiters bait-01
+outbreaks break-out-30
+affordability afford-01
+sympathisers sympathize-01 person
+theories theorize-01
+thankies thank-01
+optimal optimum
+f***ing fucking
+carelessly care-04 :polarity -
+kidding kid-01
+enviornment environment
+instructor instruct-01 person
+precautionary precaution-02
+veggie vegetable
+integral integrate-01
+labors labor-01
+combinatorial combine-01
+systematically systematical
+hypocrit hypocrite
+pharmaceutical pharmacy
+summarised summarize-01
+destabilisation destabilize-01
+seperatist separatist
+interpetations interpret-01
+video videotape-01
+humorous humor-01
+disclaimer disclaim-01
+operative operate-02
+elderly elder
+monstrous monster
+favourable favor-01
+nationalise nationalize-0
+rivalry rival-01
+Rev reverend
+hyperacetylation hyperacetylate-01
+needlessly need-01 :polarity -
+heteros hetero
+harrassment harass-01
+libs liberal-02 person
+versus oppose-01
+oppressive oppress-01
+dilema dilemma
+needless need-01 :polarity -
+negging nag-01
+independance depend-01 :polarity -
+worthless worth-01 :polarity -
+marchers march-01 person
+repellent repel-01
+shameless shame-01 :polarity -
+rainy rain-01
+goddam goddamn
+cytocidal cytocide
+perps perpetrate-01
+quandry quandary
+unpaid pay-01 :polarity -
+couldnt possible-01 :polarity -
+unabated abate-01 :polarity -
+worshiped worship-01
+decryption decrypt-01
+sever severe
+contenders contend-01 person
+accross across 
+legit legitimate-02
+gardener garden-01 person
+slavery enslave-01
+salvation save-02
+SW southwest
+convincingly convince-01
+humility humble-01
+captives capture-01 person
+unpasteurized pasteurize-01 :polarity -
+crosshairs crosshair
+regrowth regrow-01 
+arbiter arbitrate-01 person
+disgruntled disgruntle-01
+boldness bold-02
+coordinators coordinate-01 person
+intentions intent-02
+photographer photograph-01 person
+FYI inform-01 purpose-01
+grad graduate-01
+inspirational inspire-01
+brokerage broker-01
+approx approximately
+consistant consistent-01
+allys ally-01
+racketeer racket-02
+conspirator conspire-01 person
+alcoholics alcohol
+housemates housemate
+adjusters adjust-01 person
+congrats congratulate-01
+dissidents dissent-01 person
+outrageous outrage-01
+inundation inundate-01
+suicidal suicide
+foreclosures foreclose-01
+effective effect-03
+unneccesary need-01 :polarity -
+obsessional obsess-01
+conspirators conspire-01 person
+definately definite
+sarcastic sarcasm
+riders ride-01
+variety vary-01
+prevalence prevail-01
+available avail-01
+compensatory compensate-01
+agressive aggressive
+motion move-03
+underarms underarm
+denial deny-01
+
+undeniable deny-01 possible-01 :polarity -
+undeniably deny-01 possible-01 :polarity -
+unfounded found-01 :polarity -
+unbelieveable believe-01 possible-01 :polarity -
+unbelieveably believe-01 possible-01 :polarity -
+undruggable possible-01 drug-01 :polarity -
+undeserved deserve-01 :polarity -
+undeservedly deserve-01 :polarity -
+unwarranted warrant-01 :polarity -
+unstimulated stimulate-01  :polarity -
+unfettered fetter-01 :polarity -
+undiscovered discover-01 :polarity -
+unmet meet-01 :polarity -
+unrivaled rival-01 :polarity -
+untapped tap-02 :polarity -
+unaccounted account-01 :polarity -
+undoubtedly doubt-01 :polarity -
+unknown know-01 :polarity -
+unknowingly know-01 :polarity -
+unkown know-01 :polarity -
+unmatched match-01 :polarity -
+nonactivated activate-01 :polarity -
+nonsensical sense-02 :polarity -
+nonperishable perishable :polarity -
+nonsupervisory supervise-01 :polarity -
+induction induct-02
+informative inform-01
+influx flux-01
+incessant cease-01 :polarity -
+indiscriminate discriminate-01 :polarity -
+infernos inferno
+intensity intensify-01
+interactors interact-01
+immunoreactivity immunoreact-01
+immunoprecipitations immunoprecipitate-01
+immortalization immortalize-03
+
+unemployment employ-01 :polarity -
+UE employ-01 :polarity -
+lmao laugh-01 i ass off
+preventable prevent-01 possible-01
+recoverable recover-02 possible-01
+forseeable foresee-01 possible-01
+achievable achieve-01 possible-01
+noticable notice-01 possible-01
+programmable program-01 possible-01
+edible eat-01 possible-01
+druggable drug-01 possible-01
+for support-01
+Indian India
+previous before
+previously before

@@ -1,0 +1,101 @@
+TITLE :concession
+HIGHLIGHT-RED :concession
+HIGHLIGHT-RED :concession-of
+HIGHLIGHT-RED have-concession-91
+HIGHLIGHT-RED contrast-01
+HIGHLIGHT-RED even-if
+HIGHLIGHT-RED even-when
+HIGHLIGHT-RED even-as
+HIGHLIGHT-BLUE though
+HIGHLIGHT-BLUE although
+HIGHLIGHT-BLUE even though
+HIGHLIGHT-BLUE albeit
+HIGHLIGHT-BLUE despite
+HIGHLIGHT-BLUE despite of
+HIGHLIGHT-BLUE in spite of
+HIGHLIGHT-BLUE even as
+HIGHLIGHT-BLUE even if
+HIGHLIGHT-BLUE even when
+HIGHLIGHT-BLUE however
+HIGHLIGHT-BLUE nevertheless
+HIGHLIGHT-BLUE but
+HIGHLIGHT-BLUE anyway
+
+Jump to section on &nbsp; 
+    <a href="#reification">reification with <nobr>h</nobr>ave-concession-91</a> &nbsp; &middot; &nbsp;
+    <a href="#contrast">comparison with <nobr>c</nobr>ontrast-01</a> &nbsp; &middot; &nbsp;
+    <a href="#even"><nobr>e</nobr>ven if/<nobr>e</nobr>ven as/<nobr>e</nobr>ven when</a>
+<p>
+<hr>
+<p>
+In <font style="font-family:Courier;">(m / </font><i>main-event</i><font style="font-family:Courier;"> :concession (c / </font><i>concession-event</i><font style="font-family:Courier;">))</font>,
+the <i>concession-event</i> creates an expectation which is at least
+partially invalidated by the <i>main-event</i>. The expectation can be
+implied or subjective.
+<p>
+In English, a <i>concession-event</i> is typically signalled by the 
+subordinating conjunctions although, even though, though, and albeit, 
+or the prepositions despite, despite of and in spite of.
+<p>
+It can also be signalled on the <i>main-event</i> side by adverbs
+such as however and nevertheless, or even by the conjunction but, 
+particularly when but is used in conjunction with anyway.
+
+EXAMPLE isi_0002.84 The game continued although it rained .
+
+EXAMPLE isi_0002.85 The game continued despite of the rain .
+
+EXAMPLE isi_0002.182 It started to rain, but the game continued anyway .
+
+<ul>
+   <li> It started to rain; but the game continued .
+   <li> It started to rain; but the game continued anyway .
+   <li> It started to rain; however, the game continued .
+   <li> It started to rain; nevertheless, the game continued .
+</ul>
+
+EXAMPLE nw.wsj_0003.27 Workers described `` clouds of blue dust '' that hung over parts of the factory , even though exhaust fans ventilated the area .
+
+<hr>
+<a name="reification">
+<h2>Reification: have-concession-91</h2>
+
+The reification of :concession is have-concession-91.
+<p>
+If a word such as nevertheless signals that there is a concession,
+but that concession is outside the sentence, use the reification
+have-concession-91:
+
+EXAMPLE isi_0002.185 Nevertheless, the game continued .
+
+<hr>
+<a name="contrast">
+<h2>Choosing between :concession and contrast-01</h2>
+
+Unlike contrast-01, which symmetrically contrasts two things
+(John is rich, but Mary is poor. = Mary is poor, but John is rich.),
+:concession is directional, i.e. the <i>concession-event</i> creates
+an expectation and the <i>main-event</i> invalidates it. The 
+<i>concession-event</i> and the <i>main-event</i>
+cannot be switched without changing the meaning.
+<p>
+If you are not sure whether to use :concession or contrast-01, see
+whether you can rephrase the sentence using although, which signals
+:concession; otherwise use contrast-01.
+
+See also page on <a href="http://www.isi.edu/~ulf/amr/lib/popup/contrast.html"><nobr>c</nobr>ontrast-01</a>.
+
+<hr>
+<a name="even">
+<h2>Special cases: even if &mdash; even as &mdash; even when</h2>
+
+As constructions with the conjunctions even if, even as and even when have
+meanings that add a hypothetical or temporal aspect, those conjunctions are
+included in the AMR, much as <i>after</i> etc.  are included in temporal AMRs.
+
+EXAMPLE isi_0002.86 The game will continue even if it rains .
+
+EXAMPLE isi_0002.101 They feared him even when he was behind bars .
+
+EXAMPLE isi_0002.102 Supply will rise further even as demand tapers off .
+

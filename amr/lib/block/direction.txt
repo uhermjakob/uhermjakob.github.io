@@ -1,0 +1,33 @@
+TITLE :direction
+HIGHLIGHT-RED :direction
+HIGHLIGHT-BLUE north
+HIGHLIGHT-BLUE south
+HIGHLIGHT-BLUE east
+HIGHLIGHT-BLUE west
+HIGHLIGHT-BLUE up
+HIGHLIGHT-BLUE down
+HIGHLIGHT-BLUE left
+HIGHLIGHT-BLUE right
+HIGHLIGHT-BLUE back
+HIGHLIGHT-BLUE forth
+HIGHLIGHT-BLUE towards
+HIGHLIGHT-BLUE away from
+
+We use the role :direction for directions of the compass such as north and south,
+as well as for up and down, left and right, back and forth, and towards a place.
+
+When an argument is a <a href="source.html">:source</a> or a <a href="destination.html">:destination</a>,
+we do <b>not</b> also mark it as a direction.
+
+EXAMPLE isi_0002.47 He drove west, from Houston to Austin . 
+
+EXAMPLE isi_0002.1 The plane crash occurred 50 miles east of Moscow.
+
+EXAMPLE isi_0002.145 We drove 5 miles towards the coast.
+
+EXAMPLE isi_0002.146 He drove away from the sunset.
+
+EXAMPLE wb.eng_0003.80 I commute back and forth to work on the Huguenot Trail.
+
+Related roles: <a href="source.html">:source</a> (from starting point), <a href="destination.html">:destination</a> (to end point), <a href="path.html">:path</a> (a path or places on a path)
+

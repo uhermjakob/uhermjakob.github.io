@@ -1,0 +1,2 @@
+Preprocess info for multi-word terms such as "at once".
+capital (have-org-role-91 :ARG2 capital)

@@ -1,0 +1,13 @@
+Extract
+  extract-sentences-for-wikification.pl > amr-banked-sentences-with-id-and-ne-2014-01-21.txt
+Get RPI wikis for hard-wired input: amr-banked-sentences-with-id-and-ne-2014-01-17.txt
+  rpi-wikification-map-stats.pl > tmp2
+Sort RPI wikis by ne-surf, ne-type, wiki (with count):
+  rpi-wikification-top-stats.pl < tmp2
+Stats, issues:
+  rpi-wikification-map2-stats.pl < tmp2 > tmp4
+Build html viz of lookup tables:
+  rpi-wikification-viz-map.pl > ~ulf/www/tmp/wikification-table.html
+
+cat *-list.txt ok-wiki-specialization.txt | tmp231.pl > wikification-lookup-table.txt
+build-wikification-table-map-viz.pl > /nfs/isd/ulf/www/tmp/wikification-table-v0x.html

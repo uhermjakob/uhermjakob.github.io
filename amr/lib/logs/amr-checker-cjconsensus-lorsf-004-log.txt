@@ -1,0 +1,10 @@
+STEM match for unaligned vortices :: vortex :: ENG_DF_000170_20120302_C000205QT_0001.6 cjconsensus
+STEM match for unaligned stormy :: storm :: ENG_DF_000170_20120302_C000205QT_0001.13 cjconsensus
+STEM match for unaligned twisters :: twist-01 :: ENG_DF_000170_20120302_C000205QT_0001.22 cjconsensus
+STEM match for unaligned vortices :: vortex :: ENG_DF_000170_20120302_C000205QT_0001.27 cjconsensus
+STEM match for unaligned precursor :: precede-01 :: ENG_DF_000170_20120302_C000205QT_0001.46 cjconsensus
+STEM match for unaligned precursor :: precede-01 :: ENG_DF_000170_20120302_C000205QT_0001.50 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20120302_C000205QT_0001.59 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20120302_C000205QT_0001.59 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20120302_C000205QT_0001.63 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20120302_C000205QT_0001.63 cjconsensus

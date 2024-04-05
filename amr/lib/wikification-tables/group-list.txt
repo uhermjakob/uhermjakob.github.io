@@ -1,0 +1,39 @@
+# ethnic/religious group list
+(67) ::ne-surf Islam ::ne-type religious-group ::wiki Islam
+(25) ::ne-surf Arab ::ne-type ethnic-group ::wiki Arabs
+(15) ::ne-surf Kurd ::ne-type ethnic-group ::wiki Kurds
+(12) ::ne-surf Islamism ::ne-type religious-group ::wiki Islam
+(12) ::ne-surf Muslim ::ne-type religious-group ::wiki Muslim
+(7) ::ne-surf Hmong ::ne-type ethnic-group ::wiki Hmong_people
+(6) ::ne-surf Shiite ::ne-type religious-group ::wiki Shia_Islam
+(5) ::ne-surf Hinduism ::ne-type religious-group ::wiki Hindu
+(4) ::ne-surf Christian ::ne-type religious-group ::wiki Christian
+(4) ::ne-surf Sunni ::ne-type religious-group ::wiki Sunni_Islam
+(3) ::ne-surf Christianity ::ne-type religious-group ::wiki Christian
+(1) ::ne-surf Catholic ::ne-type religious-group ::wiki Catholicism
+(1) ::ne-surf Catholicism ::ne-type religious-group ::wiki Catholicism
+(1) ::ne-surf Copt ::ne-type ethnic-group ::wiki Copts
+(1) ::ne-surf Hindu ::ne-type religious-group ::wiki Hindu
+(1) ::ne-surf Islamic ::ne-type religious-group ::wiki Islam
+(1) ::ne-surf Jew ::ne-type religious-group ::wiki Jews
+(1) ::ne-surf Mormon ::ne-type religious-group ::wiki Mormons
+(1) ::ne-surf Salafism ::ne-type religious-group ::wiki Salafi_movement
+(1) ::ne-surf Shiite ::ne-type religious-group ::wiki Shia_Islam
+(1) ::ne-surf Sunni Islam ::ne-type religious-group ::wiki Sunni_Islam
+(1) ::ne-surf Wahhabi ::ne-type religious-group ::wiki Wahhabi_movement
+(0) ::ne-surf Salafist ::ne-type religious-group ::wiki Salafi_movement
+(0) ::ne-surf Lutheran ::ne-type religious-group ::wiki Lutheranism
+(0) ::ne-surf Buddhist ::ne-type religious-group ::wiki Buddhism
+(0) ::ne-surf Sikh ::ne-type religious-group ::wiki Sikh
+(0) ::ne-surf Shintoist ::ne-type religious-group ::wiki Shinto
+(0) ::ne-surf Taoist ::ne-type religious-group ::wiki Taoism
+(0) ::ne-surf Confucian ::ne-type religious-group ::wiki Confucianism
+(0) ::ne-surf Druze ::ne-type religious-group ::wiki Druze
+(0) ::ne-surf Baptist ::ne-type religious-group ::wiki Baptists
+(0) ::ne-surf Methodist ::ne-type religious-group ::wiki Methodism
+(0) ::ne-surf Orthodox Christian ::ne-type religious-group ::wiki Orthodox_Christianity
+(0) ::ne-surf Anglican ::ne-type religious-group ::wiki Anglicanism
+(0) ::ne-surf Protestant ::ne-type religious-group ::wiki Protestantism
+(0) ::ne-surf Calvinist ::ne-type religious-group ::wiki Calvinism
+(0) ::ne-surf Pentacostal ::ne-type religious-group ::wiki Pentecostalism
+(0) ::ne-surf Pentecostal ::ne-type religious-group ::wiki Pentecostalism

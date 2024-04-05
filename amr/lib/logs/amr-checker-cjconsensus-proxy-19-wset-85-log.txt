@@ -1,0 +1,3 @@
+STEM match for unaligned 1540 :: 1540 :: PROXY_APW_ENG_20080425_1111.19 cjconsensus
+STEM match for unaligned 1540 :: 1540 :: PROXY_APW_ENG_20080425_1111.19 cjconsensus
+STEM match for unaligned and :: and :: PROXY_APW_ENG_20080425_1111.25 cjconsensus

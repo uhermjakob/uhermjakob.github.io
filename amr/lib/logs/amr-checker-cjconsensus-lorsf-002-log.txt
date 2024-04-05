@@ -1,0 +1,11 @@
+STEM match for unaligned adjuster :: adjust-01 :: ENG_DF_000170_20100514_C000209GX_0001.2 cjconsensus
+STEM match for unaligned adjuster :: adjust-01 :: ENG_DF_000170_20100514_C000209GX_0001.16 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20100514_C000209GX_0001.18 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20100514_C000209GX_0001.21 cjconsensus
+STEM match for unaligned adjuster :: adjust-01 :: ENG_DF_000170_20100514_C000209GX_0001.43 cjconsensus
+STEM match for unaligned adjuster :: adjust-01 :: ENG_DF_000170_20100514_C000209GX_0001.57 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20100514_C000209GX_0001.59 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20100514_C000209GX_0001.62 cjconsensus
+STEM match for unaligned boohooing :: boohoo-00 :: ENG_DF_000170_20100514_C000209GX_0001.102 cjconsensus
+STEM match for unaligned boohooing :: boohoo-00 :: ENG_DF_000170_20100514_C000209GX_0001.111 cjconsensus
+STEM match for unaligned and :: and :: ENG_DF_000170_20100514_C000209GX_0001.114 cjconsensus

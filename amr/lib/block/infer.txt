@@ -1,0 +1,14 @@
+TITLE infer-01
+HIGHLIGHT-RED infer-01
+HIGHLIGHT-BLUE must
+HIGHLIGHT-BLUE therefore
+
+Use infer-01 to annotate inferences, which in a sentence might be expressed
+by a range of terms such as therefore or must:
+
+EXAMPLE isi_0002.157 I think, therefore I am .
+
+EXAMPLE isi_0002.218 John isn't here, he must be sick.
+
+Note: However, in most cases, <a href="http://www.isi.edu/~ulf/amr/lib/popup/%6Dust.html">must</a> is annotated using obligate-01.
+

@@ -1,0 +1,17 @@
+TITLE :frequency
+HIGHLIGHT-RED :frequency
+HIGHLIGHT-RED have-frequency-91
+HIGHLIGHT-BLUE rate-entity-91
+
+EXAMPLE isi_0002.300 We met three times.
+
+EXAMPLE isi_0002.108 She sometimes misses class.
+
+When the frequency relationship is modified, use its reification have-frequency-91:
+
+EXAMPLE isi_0002.299 We met only once.
+
+Events that occur with regular :frequency are annotated using <a href="rate-entity.html">rate-entity-91</a>:
+
+EXAMPLE isi_0002.281 We play bridge every Wednesday afternoon.
+

@@ -1,0 +1,7 @@
+STEM match for unaligned squeaks :: squeak-01 :: DF-212-191666-303_1700.5 colorado
+STEM match for unaligned Bushs :: Bush :: DF-212-191666-303_1700.7 colorado
+STEM match for unaligned discoteque :: disco :: DF-212-191666-303_1700.21 colorado
+STEM match for unaligned and :: and :: DF-212-191666-303_1700.23 colorado
+STEM match for unaligned bedrooms :: bedroom :: DF-212-191666-303_1700.23 colorado
+STEM match for unaligned bathrooms :: bathroom :: DF-212-191666-303_1700.23 colorado
+STEM match for unaligned principled :: principle :: DF-212-191666-303_1984.4 colorado

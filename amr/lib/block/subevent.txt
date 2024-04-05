@@ -1,0 +1,8 @@
+TITLE :subevent
+HIGHLIGHT-RED :subevent
+HIGHLIGHT-RED :subevent-of
+
+EXAMPLE isi_0002.56 In the 1974 soccer World Cup final, Germany beat the Netherlands 2-1.
+
+Reifications: have-subevent-91
+

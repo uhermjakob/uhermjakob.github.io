@@ -1,0 +1,12 @@
+TITLE cause-01
+HIGHLIGHT-RED :cause
+HIGHLIGHT-RED cause-01
+
+cause-01 is used for explicit words such as <i>cause/because/because of</i>
+as well implicit cases such as in the first example below (cause of death).
+
+EXAMPLE isi_0002.36 The old man died of lung cancer .
+
+EXAMPLE nw.wsj_0790.54 Cars ca n't move because of overflowing sewers .
+
+The editor offers &nbsp; <i>:cause</i> &nbsp; as a shortcut for &nbsp; <i>:ARG1-of&nbsp; cause-01 :ARG0</i>.

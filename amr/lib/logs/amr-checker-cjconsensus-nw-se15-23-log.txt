@@ -1,0 +1,4 @@
+STEM match for unaligned challengers :: challenge-01 :: nyt_eng_20131029_0042.9 cjconsensus
+STEM match for unaligned detainers :: detain-01 :: nyt_eng_20131029_0042.13 cjconsensus
+STEM match for unaligned mward :: mward@statesman.com :: nyt_eng_20131029_0042.18 cjconsensus
+STEM match for unaligned News :: newspaper :: nyt_eng_20131029_0042.20 cjconsensus

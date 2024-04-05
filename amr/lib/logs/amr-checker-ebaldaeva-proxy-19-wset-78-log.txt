@@ -1,0 +1,12 @@
+STEM match for unaligned reference :: refer-02 :: PROXY_APW_ENG_20080209_0664.10 ebaldaeva
+STEM match for unaligned and :: and :: PROXY_APW_ENG_20080209_0664.12 ebaldaeva
+STEM match for unaligned scheper :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.7 ebaldaeva
+STEM match for unaligned scheper :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.8 ebaldaeva
+STEM match for unaligned schepeter :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.12 ebaldaeva
+STEM match for unaligned schepeter :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.13 ebaldaeva
+STEM match for unaligned schepeter :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.14 ebaldaeva
+STEM match for unaligned schepeter :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.17 ebaldaeva
+STEM match for unaligned schepeter :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.18 ebaldaeva
+STEM match for unaligned initiative :: initiate-01 :: PROXY_APW_ENG_20080214_1715.22 ebaldaeva
+STEM match for unaligned initiative :: initiate-01 :: PROXY_APW_ENG_20080214_1715.22 ebaldaeva
+STEM match for unaligned scheper :: Scheper-Hughes :: PROXY_APW_ENG_20080214_1715.23 ebaldaeva

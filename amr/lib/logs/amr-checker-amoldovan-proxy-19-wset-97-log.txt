@@ -1,0 +1,12 @@
+STEM match for unaligned chyuan :: Jen-Chyuan :: PROXY_CNA_ENG_20080128_0016.5 amoldovan
+STEM match for unaligned renowned :: renown :: PROXY_CNA_ENG_20080128_0016.12 amoldovan
+STEM match for unaligned reuy :: Reuy-Long :: PROXY_CNA_ENG_20080216_0006.5 amoldovan
+STEM match for unaligned long :: Reuy-Long :: PROXY_CNA_ENG_20080216_0006.5 amoldovan
+STEM match for unaligned packager :: package-01 :: PROXY_CNA_ENG_20080216_0006.7 amoldovan
+STEM match for unaligned and :: and :: PROXY_CNA_ENG_20080216_0006.7 amoldovan
+STEM match for unaligned Tester :: test-01 :: PROXY_CNA_ENG_20080216_0006.7 amoldovan
+STEM match for unaligned reuy :: Reuy-Long :: PROXY_CNA_ENG_20080216_0006.8 amoldovan
+STEM match for unaligned long :: Reuy-Long :: PROXY_CNA_ENG_20080216_0006.8 amoldovan
+STEM match for unaligned chun :: Chih-Chun :: PROXY_CNA_ENG_20080216_0006.11 amoldovan
+STEM match for unaligned hsiung :: Kuo-Hsiung :: PROXY_CNA_ENG_20080216_0006.11 amoldovan
+STEM match for unaligned technical :: technique :: PROXY_CNA_ENG_20080216_0006.14 amoldovan

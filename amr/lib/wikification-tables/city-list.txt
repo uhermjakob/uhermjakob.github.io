@@ -1,0 +1,111 @@
+# city list
+(42) ::ne-surf Hong Kong ::ne-type city ::wiki Hong_Kong
+(35) ::ne-surf Moscow ::ne-type city ::wiki Moscow
+(5) ::ne-surf Moscow ::ne-type government-organization ::wiki Moscow
+(35) ::ne-surf Paris ::ne-type city ::wiki Paris
+(34) ::ne-surf London ::ne-type city ::wiki London
+(32) ::ne-surf Beijing ::ne-type city ::wiki Beijing
+(5) ::ne-surf Beijing ::ne-type government-organization ::wiki Beijing
+(24) ::ne-surf Vienna ::ne-type city ::wiki Vienna
+(22) ::ne-surf Washington ::ne-type city ::wiki Washington,_D.C.
+(5) ::ne-surf Washington ::ne-type government-organization ::wiki Washington,_D.C.
+(21) ::ne-surf Manokwari ::ne-type city ::wiki Manokwari
+(17) ::ne-surf Tehran ::ne-type city ::wiki Tehran
+(5) ::ne-surf Tehran ::ne-type government-organization ::wiki Tehran
+(16) ::ne-surf Pyongyang ::ne-type city ::wiki Pyongyang
+(5) ::ne-surf Pyongyang ::ne-type government-organization ::wiki Pyongyang
+(15) ::ne-surf Shanghai ::ne-type city ::wiki Shanghai
+(13) ::ne-surf New Delhi ::ne-type city ::wiki New_Delhi
+(13) ::ne-surf New York ::ne-type city ::wiki New_York_City
+(13) ::ne-surf Tokyo ::ne-type city ::wiki Tokyo
+(11) ::ne-surf Geneva ::ne-type city ::wiki Geneva
+(11) ::ne-surf Hanoi ::ne-type city ::wiki Hanoi
+(11) ::ne-surf Seoul ::ne-type city ::wiki Seoul
+(5) ::ne-surf Seoul ::ne-type government-organization ::wiki Seoul
+(11) ::ne-surf Sydney ::ne-type city ::wiki Sydney
+(10) ::ne-surf Tianjin ::ne-type city ::wiki Tianjin
+(10) ::ne-surf Zahedan ::ne-type city ::wiki Zahedan
+(9) ::ne-surf Tallinn ::ne-type city ::wiki Tallinn
+(8) ::ne-surf Baghdad ::ne-type city ::wiki Baghdad
+(8) ::ne-surf Berlin ::ne-type city ::wiki Berlin
+(8) ::ne-surf Kabul ::ne-type city ::wiki Kabul
+(8) ::ne-surf Rio de Janeiro ::ne-type city ::wiki Rio_de_Janeiro
+(8) ::ne-surf Riyadh ::ne-type city ::wiki Riyadh
+(7) ::ne-surf Brussels ::ne-type city ::wiki Brussels
+(7) ::ne-surf Cairo ::ne-type city ::wiki Cairo
+(7) ::ne-surf Islamabad ::ne-type city ::wiki Islamabad
+(6) ::ne-surf Ho Chi Minh City ::ne-type city ::wiki Ho_Chi_Minh_City
+(6) ::ne-surf Karachi ::ne-type city ::wiki Karachi
+(5) ::ne-surf Hyderabad ::ne-type city ::wiki Hyderabad
+(5) ::ne-surf Mumbai ::ne-type city ::wiki Mumbai
+(4) ::ne-surf Bangkok ::ne-type city ::wiki Bangkok
+(4) ::ne-surf Bonn ::ne-type city ::wiki Bonn
+(4) ::ne-surf Dublin ::ne-type city ::wiki Dublin
+(4) ::ne-surf Kuala Lumpur ::ne-type city ::wiki Kuala_Lumpur
+(4) ::ne-surf Madrid ::ne-type city ::wiki Madrid
+(4) ::ne-surf Pretoria ::ne-type city ::wiki Pretoria
+(4) ::ne-surf Quetta ::ne-type city ::wiki Quetta
+(4) ::ne-surf Teheran ::ne-type city ::wiki Tehran
+(3) ::ne-surf Amman ::ne-type city ::wiki Amman
+(3) ::ne-surf Boston ::ne-type city ::wiki Boston
+(3) ::ne-surf Dubai ::ne-type city ::wiki Dubai
+(3) ::ne-surf Jakarta ::ne-type city ::wiki Jakarta
+(3) ::ne-surf Lahore ::ne-type city ::wiki Lahore
+(3) ::ne-surf Manila ::ne-type city ::wiki Manila
+(3) ::ne-surf Mecca ::ne-type city ::wiki Mecca
+(3) ::ne-surf Mexico City ::ne-type city ::wiki Mexico_City
+(3) ::ne-surf Qom ::ne-type city ::wiki Qom
+(3) ::ne-surf Taipei ::ne-type city ::wiki Taipei
+(3) ::ne-surf Tirana ::ne-type city ::wiki Tirana
+(3) ::ne-surf Toronto ::ne-type city ::wiki Toronto
+(3) ::ne-surf Washington D.C. ::ne-type city ::wiki Washington,_D.C.
+(2) ::ne-surf Algiers ::ne-type city ::wiki Algiers
+(2) ::ne-surf Bangalore ::ne-type city ::wiki Bangalore
+(2) ::ne-surf Beirut ::ne-type city ::wiki Beirut
+(2) ::ne-surf Bogota ::ne-type city ::wiki Bogotá
+(2) ::ne-surf Cape Town ::ne-type city ::wiki Cape_Town
+(2) ::ne-surf Damascus ::ne-type city ::wiki Damascus
+(2) ::ne-surf Glasgow ::ne-type city ::wiki Glasgow
+(2) ::ne-surf Istanbul ::ne-type city ::wiki Istanbul
+(2) ::ne-surf Kathmandu ::ne-type city ::wiki Kathmandu
+(2) ::ne-surf Mogadishu ::ne-type city ::wiki Mogadishu
+(2) ::ne-surf Montreal ::ne-type city ::wiki Montreal
+(2) ::ne-surf Rome ::ne-type city ::wiki Rome
+(2) ::ne-surf Stratford-upon-Avon ::ne-type city ::wiki Stratford-upon-Avon
+(2) ::ne-surf Washington ::ne-type city ::wiki Washington,_D.C.
+(2) ::ne-surf Washington DC ::ne-type city ::wiki Washington,_D.C.
+(1) ::ne-surf Bombay ::ne-type city ::wiki Mumbai
+(1) ::ne-surf Munich ::ne-type city ::wiki Munich
+(0) ::ne-surf New York City ::ne-type city ::wiki New_York_City
+(0) ::ne-surf Hamburg ::ne-type city ::wiki Hamburg
+(0) ::ne-surf Bucharest ::ne-type city ::wiki Bucharest
+(0) ::ne-surf Kandahar ::ne-type city ::wiki Kandahar
+(0) ::ne-surf Los Angeles ::ne-type city ::wiki Los_Angeles
+(0) ::ne-surf Los Angeles ::ne-type county ::wiki Los_Angeles_County,_California
+(0) ::ne-surf San Francisco ::ne-type city ::wiki San_Francisco
+(0) ::ne-surf Macao ::ne-type city ::wiki Macau
+(0) ::ne-surf Macau ::ne-type city ::wiki Macau
+(0) ::ne-surf Cluj ::ne-type city ::wiki Cluj-Napoca
+(0) ::ne-surf Cluj-Napoca ::ne-type city ::wiki Cluj-Napoca
+(0) ::ne-surf Klausenburg ::ne-type city ::wiki Cluj-Napoca
+(0) ::ne-surf Kolozsvár ::ne-type city ::wiki Cluj-Napoca
+(7) ::ne-surf Bethlehem ::ne-type city ::wiki Bethlehem
+(7) ::ne-surf Nanjing ::ne-type city ::wiki Nanjing
+(7) ::ne-surf Tripoli ::ne-type city ::wiki Tripoli
+(7) ::ne-surf Guangzhou ::ne-type city ::wiki Guangzhou
+(7) ::ne-surf The Hague ::ne-type city ::wiki The_Hague
+(7) ::ne-surf Den Haag ::ne-type city ::wiki The_Hague
+(4) ::ne-surf 's-Gravenhage ::ne-type city ::wiki The_Hague
+
+
+(1) ::ne-surf Manhattan ::ne-type city-district ::wiki Manhattan
+(1) ::ne-surf Brooklyn ::ne-type city-district ::wiki Brooklyn
+(1) ::ne-surf Hollywood ::ne-type city-district ::wiki Hollywood
+(1) ::ne-surf Pudong ::ne-type city-district ::wiki Pudong
+(1) ::ne-surf Tempelhof ::ne-type city-district ::wiki Tempelhof
+(1) ::ne-surf Bergedorf ::ne-type city-district ::wiki Bergedorf
+(1) ::ne-surf Schwabing ::ne-type city-district ::wiki Schwabing
+(1) ::ne-surf Knightsbridge ::ne-type city-district ::wiki Knightsbridge
+
+(0) ::ne-surf Indianapolis ::ne-type city ::wiki Indianapolis
+(0) ::ne-surf Boca Raton ::ne-type city ::wiki Boca_Raton,_Florida
