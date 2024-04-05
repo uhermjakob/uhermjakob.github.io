@@ -1,0 +1,570 @@
+<html>
+  <head>
+    <title>Python</title>
+  </head>
+  <script type="text/javascript">
+  <!--
+    function toggle(id) {
+       if ((s = document.getElementById(id)) != null) {
+          if (s.style.display == 'none') {
+             s.style.display = 'inline';
+          } else {
+             s.style.display = 'none';
+          }
+       }
+    }
+  -->
+  </script>
+  <body bgcolor="#FFFFEE">
+<table width="100%" border="0" cellpadding="3" cellspacing="0">
+	<tr bgcolor="#BBCCFF">
+	  <td>&nbsp; <b><font class="large1" size="+2">Python Notes</font> &nbsp; for DSCI 510</b> &nbsp; &nbsp; 
+	    Version 0.0.13 &nbsp; March 22, 2022 &nbsp; &nbsp; 
+        <font class="small1" size="-1" color="#777777">Written by Ulf Hermjakob, USC/ISI</font> &nbsp; &nbsp; &nbsp; 
+      </td></tr></table><p>
+    &nbsp; <font size="+2" color="#0000BB"><b>Regular Expressions</b></font>
+    <ul>
+      <font size="+1" color="#0000BB"><b>Basics</b></font>
+      <ul>
+      <li> <b>\d</b> &nbsp;  Matches any digit, e.g. 0-9, but also digits in foreign scripts &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_1');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_1" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;I bought 10 pounds of potatoes for $5.27.&quot;
+re.findall(r&#x27;\d&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;1&#x27;, &#x27;0&#x27;, &#x27;5&#x27;, &#x27;2&#x27;, &#x27;7&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\d+</b> &nbsp;  Matches one or more digits &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_2');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_2" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;I bought 10 pounds of potatoes for $5.27.&quot;
+re.findall(r&#x27;\d+&#x27;, s)     # + indicates &quot;one or more&quot;</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;10&#x27;, &#x27;5&#x27;, &#x27;27&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\d{1,3}</b> &nbsp;  Matches 1-3 digits &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_3');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_3" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;January 20, 2021&quot;
+re.findall(r&#x27;\d{1,3}&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;20&#x27;, &#x27;202&#x27;, &#x27;1&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;They spent $1,250,000 on 45,000 trees in 2021.&quot;
+re.findall(r&#x27;\d{1,3}(?:,\d\d\d)+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;1,250,000&#x27;, &#x27;45,000&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\d{4,}</b> &nbsp;  Matches at least 4 digits &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_4');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_4" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;10000 people gathered on January 20, 2021.&quot;
+re.findall(r&#x27;\d{4,}&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;10000&#x27;, &#x27;2021&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\d{,4}</b> &nbsp;  Matches up to 4 digits &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_5');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_5" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He spent $8000 in a budget of $11000.&quot;
+re.findall(r&#x27;\$\d{,4}&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;$8000&#x27;, &#x27;$1100&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\d{4}</b> &nbsp;  Matches 4 digits &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_6');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_6" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;10000 people gathered on January 20, 2021.&quot;
+re.findall(r&#x27;\b\d{4}\b&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;2021&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\s</b> &nbsp;  Matches a whitespace (e.g. regular space, tab, newline, no-break space, thin/wide spaces) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_7');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_7" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;A line with a\ttab.&quot;
+re.findall(r&#x27;\s&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27; &#x27;, &#x27; &#x27;, &#x27; &#x27;, &#x27;\t&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\S</b> &nbsp;  Matches any non-whitespace &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_8');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_8" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;2 cows.&quot;
+re.findall(r&#x27;\S&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;2&#x27;, &#x27;c&#x27;, &#x27;o&#x27;, &#x27;w&#x27;, &#x27;s&#x27;, &#x27;.&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\S+</b> &nbsp;  Matches one or more non-whitespace &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_9');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_9" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;2 cows.&quot;
+re.findall(r&#x27;\S+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;2&#x27;, &#x27;cows.&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\s?</b> &nbsp;  Matches zero or one whitespace (? indicates 0 or 1 of the preceding character or group; optional) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_10');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_10" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;Temperatures: 68F, 20 C&quot;
+re.findall(r&#x27;\d+\s?[FC]\b&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;68F&#x27;, &#x27;20 C&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\s*</b> &nbsp;  Matches zero or more whitespaces (* indicates 0 or more of the preceding character or group) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_11');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_11" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;John,Mary, and Paul&quot;
+re.findall(r&#x27;\S,\s*\S&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;n,M&#x27;, &#x27;y, a&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\s+</b> &nbsp;  Matches one or more whitespaces (+ indicates 1 or more of the preceding character or group) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_12');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_12" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;John,Mary, and Paul&quot;
+re.findall(r&#x27;\S,\s+\S&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;y, a&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\w</b> &nbsp;  Matches a word character (letter or digit) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_13');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_13" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &#x27;5 words: Dvořák, Москва المغرب 中国 भारत&#x27;
+re.findall(r&#x27;\w+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;5&#x27;, &#x27;words&#x27;, &#x27;Dvořák&#x27;, &#x27;Москва&#x27;, &#x27;المغرب&#x27;, &#x27;中国&#x27;, &#x27;भ&#x27;, &#x27;रत&#x27;]</span></td></tr></table>Note that word &#x27;भारत&#x27; is split into &#x27;भ&#x27;, &#x27;रत&#x27; . This is due to a vowel sign inside the Hindi word that does not count as a &quot;word&quot; character in regular expressions. See &quot;Practical examples: Indian words&quot; for how to fix this.<br>
+</td></tr></table></div>
+      <li> <b>[aeiou]</b> &nbsp;  Matches any character inside the square brackets &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_14');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_14" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;The clown laughed.&quot;
+re.findall(r&#x27;[aeiou]&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;e&#x27;, &#x27;o&#x27;, &#x27;a&#x27;, &#x27;u&#x27;, &#x27;e&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>[^aeiou]</b> &nbsp;  Matches any character not inside the square brackets after initial ^ &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_15');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_15" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;The clown laughed.&quot;
+re.findall(r&#x27;[^aeiou]&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;T&#x27;, &#x27;h&#x27;, &#x27; &#x27;, &#x27;c&#x27;, &#x27;l&#x27;, &#x27;w&#x27;, &#x27;n&#x27;, &#x27; &#x27;, &#x27;l&#x27;, &#x27;g&#x27;, &#x27;h&#x27;, &#x27;d&#x27;, &#x27;.&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>[1-9a-z]</b> &nbsp;  Matches any character in a range. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_16');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_16" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;In 2021!&quot;
+re.findall(r&#x27;[1-9a-z]&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;n&#x27;, &#x27;2&#x27;, &#x27;2&#x27;, &#x27;1&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>.</b> &nbsp;  Matches any character (except newline) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_17');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_17" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;DSCI510 from 9-5 but not 24/7&quot;
+re.findall(r&#x27;\d.\d&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;510&#x27;, &#x27;9-5&#x27;, &#x27;4/7&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He can ran 100 meters in 10.35 seconds.&quot;
+re.findall(r&#x27;\d+\.\d+&#x27;, s) # \. stands for an actual period</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;10.35&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>+?</b> &nbsp;  Repeats a character one or more times (non-greedy, i.e. as short as possible) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_18');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_18" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He came on March 15 and left on March 22, 2021.&quot;
+re.findall(r&#x27;(March.+\d+)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;March 15 and left on March 22, 2021&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He came on March 15 and left on March 22, 2021.&quot;
+re.findall(r&#x27;(March.+?\d+)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;March 15&#x27;, &#x27;March 22&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>*?</b> &nbsp;  Repeats a character zero or more times (non-greedy, i.e. as short as possible) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_19');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_19" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &#x27;&lt;a href=&quot;https://www.usc.edu&quot; title=&quot;University of Southern California&quot;&gt;USC&lt;\a&gt;&#x27;
+re.findall(r&#x27;&quot;.*&quot;&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;&quot;https://www.usc.edu&quot; title=&quot;University of Southern California&quot;&#x27;]</span></td></tr></table>Returns 1 string, probably not intended.<br>
+<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &#x27;&lt;a href=&quot;https://www.usc.edu&quot; title=&quot;University of Southern California&quot;&gt;USC&lt;\a&gt;&#x27;
+re.findall(r&#x27;&quot;.*?&quot;&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;&quot;https://www.usc.edu&quot;&#x27;, &#x27;&quot;University of Southern California&quot;&#x27;]</span></td></tr></table>Returns 2 strings, as intended.<br>
+</td></tr></table></div>
+      <li> <b>^</b> &nbsp;  Matches the beginning of a line &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_20');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_20" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;10+20=30&quot;
+re.findall(r&#x27;^\d+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;10&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>$</b> &nbsp;  Matches the end of a line &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_21');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_21" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;10+20=30&quot;
+re.findall(r&#x27;\d+$&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;30&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He spent $400 on a dinner for two on February 14.&quot;
+re.findall(r&#x27;\$\d+&#x27;, s) # \$ stands for an actual dollar sign</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;$400&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\b</b> &nbsp;  Matches word boundary &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_22');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_22" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>The boundary marker prevents the F in Ford to match the F as an abbreviation for Fahrenheit.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;99F in a 1999 Ford Mustang.&quot;
+re.findall(r&#x27;(\d+)\s*([CF])\b&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;99&#x27;, &#x27;F&#x27;)]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;99F in a 1999 Ford Mustang.&quot;
+re.findall(r&#x27;(\d+)\s*([CF])&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;99&#x27;, &#x27;F&#x27;), (&#x27;1999&#x27;, &#x27;F&#x27;)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>(...)</b> &nbsp;  Captures a group &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_23');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_23" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;68F is 20 C.&quot;
+re.findall(r&#x27;(\d+)\s*([CF])&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;68&#x27;, &#x27;F&#x27;), (&#x27;20&#x27;, &#x27;C&#x27;)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>(?:...)</b> &nbsp;  Define a non-capture group &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_24');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_24" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;They spent $1,250,000 on 45,000 trees in 2021.&quot;
+re.findall(r&#x27;\d{1,3}(?:,\d\d\d)+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;1,250,000&#x27;, &#x27;45,000&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>cat|dog</b> &nbsp;  Alternatives &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_25');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_25" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Alternatives inside a capture group:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He visited us on June 27 and July 4.&quot;
+re.findall(r&#x27;(June|July|August)\s+([1-9]|[12]\d|3[01])\b&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;June&#x27;, &#x27;27&#x27;), (&#x27;July&#x27;, &#x27;4&#x27;)]</span></td></tr></table><br>
+Alternatives inside a non-capture group:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He visited us on June 27 and July 4.&quot;
+re.findall(r&#x27;(?:June|July|August)\s+(?:[1-9]|[12]\d|3[01])\b&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;June 27&#x27;, &#x27;July 4&#x27;]</span></td></tr></table>Note that days of the month are limited to 1-31.<br>
+</td></tr></table></div>
+      <li> <b>r&#x27;...&#x27;</b> &nbsp;  Interprets the string as a regular expression, i.e. without interpreting \ as a Python string escape character. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_26');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_26" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>With an r prefix, the \ inside a string is taken literally, not interpreted as the start of an escape sequence.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">s1 = &#x27;\b&#x27;
+s2 = r&#x27;\b&#x27;
+f&#x27;{s1} has {len(s1)} character; {s2} has {len(s2)} characters.&#x27;</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;\x08 has 1 character; \\b has 2 characters.&#x27;</span></td></tr></table>The r prefix is useful for regular expressions. (Note: \x08 represents the backspace control character.)<br>
+<br>
+In LaTeX, there is a \begin tag, which in Python has to be escaped as &#x27;\\begin&#x27; because in Python, &#x27;\b&#x27; is interpreted as a backspace. In a regular expression, \begin also has to be escaped, because &#x27;\b&#x27; is interpreted as a word-boundary mark.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+# string with single backslashes before begin:
+s = &#x27;\\begin{document} \\begin{section}&#x27; 
+re.findall(&#x27;(\\begin){([^{}]+)}&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[]</span></td></tr></table>The above does not work (does not find anything), because Python interprets the \\begin part of a string as a 6-character string with a single \. The regular expression then interprets the resulting &#x27;\begin&#x27; as a word-boundary mark followed by the 4 letters egin . (Bad!)<br>
+<br>
+The following resolves the problem by doing a double escape. In Python, &#x27;\\\\begin&#x27; is the 7-character string \\begin (starting with two backslashes), as each &#x27;\\&#x27; is interpreted as the escape sequence for a \. The regular expression processor then interprets the \\ as an escape sequence for one literal \, which is what we intended.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &#x27;\\begin{document} \\begin{section}&#x27;
+re.findall(&#x27;(\\\\begin){([^{}]+)}&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;\\begin&#x27;, &#x27;document&#x27;), (&#x27;\\begin&#x27;, &#x27;section&#x27;)]</span></td></tr></table>It works, but now the backslashes are getting out of hand, leading to &quot;backslashitis&quot;: \\\\<br>
+<br>
+Backslashitis can be controlled by using the r&#x27;&#x27; string prefix to suppress regular Python escape ineterpretation:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = r&#x27;\begin{document} \begin{section}&#x27;
+re.findall(r&#x27;(\\begin){([^{}]+)}&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;\\begin&#x27;, &#x27;document&#x27;), (&#x27;\\begin&#x27;, &#x27;section&#x27;)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>\1 \2</b> &nbsp;  Backreferences that refer back to previously captured groups. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_27');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_27" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Insert a space between a digit and a letter.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;3cats and 5dogs&quot;
+re.sub(r&#x27;([0-9])([a-z])&#x27;, r&#x27;\1 \2&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;3 cats and 5 dogs&#x27;</span></td></tr></table>\1 stands for the 1st captured group, \2 for the second captured group.<br>
+<br>
+Find adjacent duplicate digits.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;1233456666789&quot;
+regex.findall(r&#x27;((\d)\2)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;33&#x27;, &#x27;3&#x27;), (&#x27;66&#x27;, &#x27;6&#x27;), (&#x27;66&#x27;, &#x27;6&#x27;)]</span></td></tr></table>\1 stands for the 1st (= outer) captured group, \2 for second (= inner) captured group.<br>
+<br>
+Find adjacent duplicate words.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;He told me that that was impossible because of of the theory.&quot;
+regex.findall(r&#x27;((?:\pL\pM*)+)\s\1(?!\pL)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;that&#x27;, &#x27;of&#x27;]</span></td></tr></table>\1 stands for the 1st captured group. \pL is any letter. \pM any letter modifier.<br>
+</td></tr></table></div>
+      <li> <b>Metacharacters .^*+?{}[]()\|$</b> &nbsp;  To match a character that is also used as a metacharacter, escape it with a blackslash, etc. \. \$ &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_28');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_28" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He can ran 100 meters in 10.35 seconds.&quot;
+re.findall(r&#x27;\d+\.\d+&#x27;, s) # \. stands for an actual period</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;10.35&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He spent $400 on a dinner for two on February 14.&quot;
+re.findall(r&#x27;\$\d+&#x27;, s) # \$ stands for an actual dollar sign</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;$400&#x27;]</span></td></tr></table></td></tr></table></div>
+      </ul>
+      <font size="+1" color="#0000BB"><b>Lookarounds</b></font>
+      <ul>
+      <li> <b>(?&lt;=...)</b> &nbsp;  Positive lookbehind: left context must match the ... inside (?&lt;=...) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_29');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_29" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;On February 16, 2022, gas cost between $4.35 and $5 a gallon.&quot;
+re.findall(r&#x27;(?&lt;=\$)(\d+(?:\.\d+)?)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;4.35&#x27;, &#x27;5&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>(?=...)</b> &nbsp;  Positive lookahead: right context must match the ... inside (?=...) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_30');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_30" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;I paid 50 dollars for these 2 tickets.&quot;
+re.findall(r&#x27;(\d+(?:\.\d+)?)(?=\s*dollars?\b)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;50&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>(?&lt;!...)</b> &nbsp;  Negative lookbehind: left context must NOT match the ... inside (?&lt;!...) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_31');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_31" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>The following example mistakenly identifies the -15 in 12-15 as a negative number:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;12-15&quot;
+re.findall(r&#x27;-?\d+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;12&#x27;, &#x27;-15&#x27;]</span></td></tr></table><br>
+We can avoid a range &quot;-&quot; to be interpreted as a minus &quot;-&quot;, by forbidding the number to be directly preceded by a digit:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;12-15&quot;
+re.findall(r&#x27;(?&lt;!\d)-?\d+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;12&#x27;, &#x27;15&#x27;]</span></td></tr></table><br>
+Find words ending in -man but not in -human or -woman:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;chairman, demand, human, man, policeman, spokeswoman, subhuman, woman&quot;
+regex.findall(r&#x27;\pL*(?&lt;!hu|wo)man\b&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;chairman&#x27;, &#x27;man&#x27;, &#x27;policeman&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>(?!...)</b> &nbsp;  Negative lookahead: right context must NOT match the ... inside (?!...) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_32');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_32" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Looking for names that are not followed by Sr.:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;Reagan, Bush Sr. and Clinton&quot;
+re.findall(r&#x27;(\b[A-Z][a-z]{2,})\b(?! Sr\.)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;Reagan&#x27;, &#x27;Clinton&#x27;]</span></td></tr></table><br>
+Find words starting with un- but not with under-:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;sunny, unable, unclear, under, underground, understand, undo, unfair&quot;
+regex.findall(r&#x27;\bun(?!der)\pL*&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;unable&#x27;, &#x27;unclear&#x27;, &#x27;undo&#x27;, &#x27;unfair&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>More:</b> &nbsp;       <a href="https://www.regular-expressions.info/lookaround.html" target="_">https://www.regular-expressions.info/lookaround.html</a> &nbsp;  Lookarounds for regular expressions &nbsp; 
+      </ul>
+      <font size="+1" color="#0000BB"><b>Methods</b></font>
+      <ul>
+      <li> <b>search</b> &nbsp;  Returns a Match-object if there is a match anywhere in the string. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_33');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_33" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;He traveled on June 16 and on July 4.&quot;
+m = re.search(r&#x27;on (June|July) (\d+)&#x27;, s)
+m.group(0, 1, 2)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">(&#x27;on June 16&#x27;, &#x27;June&#x27;, &#x27;16&#x27;)</span></td></tr></table>Returns a match object for the first match. m.group(0) covers the whole match, m.group(1) the 1st captured group, m.group(2) the 2nd captured group.<br>
+<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;The temperature was 70°F.&quot;
+m = re.search(r&#x27;(-?\d+(?:\.\d+)?)\s*°\s*([CF])\b&#x27;, s)
+m.group(0, 1, 2)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">(&#x27;70°F&#x27;, &#x27;70&#x27;, &#x27;F&#x27;)</span></td></tr></table></td></tr></table></div>
+      <li> <b>match</b> &nbsp;  Returns a Match-object if there is a match at the beginning of the string. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_34');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_34" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008&quot;
+m = re.match(r&#x27;From (\S+@\S+).*?(200[5-8]|2010)&#x27;, s)
+m.group(0, 1, 2)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">(&#x27;From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008&#x27;, &#x27;stephen.marquard@uct.ac.za&#x27;, &#x27;2008&#x27;)</span></td></tr></table>Returns a match object. m.group(0) covers the whole match, m.group(1) the 1st captured group, m.group(2) the 2nd captured group.<br>
+<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008&quot;
+re.match(r&#x27;(\S+@\S+).*?(200[5-8]|2010)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">None</span></td></tr></table>No match, because the email address (\S+@\S+) is not at the beginning of the string.<br>
+</td></tr></table></div>
+      <li> <b>findall</b> &nbsp;  Returns a list containing all matches. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_35');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_35" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;I bought 10 pounds of potatoes for $5.27.&quot;
+re.findall(r&#x27;\d+&#x27;, s)     # + indicates &quot;one or more&quot;</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;10&#x27;, &#x27;5&#x27;, &#x27;27&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;The temperature was 70°F (21.1°C).&quot;
+re.findall(r&#x27;(-?\d+(?:\.\d+)?)\s*°\s*([CF])\b&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;70&#x27;, &#x27;F&#x27;), (&#x27;21.1&#x27;, &#x27;C&#x27;)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>sub</b> &nbsp;  Substitute all parts of a string that match a regular expression with something else. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_36');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_36" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>The following substitution removes punctuation.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;• My fiancée (Mary) said: “hello”.&#x27;
+regex.sub(r&#x27;\pP&#x27;, &#x27;&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27; My fiancée Mary said hello&#x27;</span></td></tr></table><br>
+Insert a space between a digit and a letter.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;3cats and 5dogs&quot;
+re.sub(r&#x27;([0-9])([a-z])&#x27;, r&#x27;\1 \2&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;3 cats and 5 dogs&#x27;</span></td></tr></table>\1 stands for the 1st captured group, \2 for the second captured group.<br>
+</td></tr></table></div>
+      <li> <b>split</b> &nbsp;  Returns a list where the string has been split at each match &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_37');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_37" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Split string around commas and semicolons (incl. any following spaces)<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;apples, bananas,red onions; apple pie&quot;
+re.split(r&#x27;[,;]\s*&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;apples&#x27;, &#x27;bananas&#x27;, &#x27;red onions&#x27;, &#x27;apple pie&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>compile</b> &nbsp;  Compiles a regular expression into a reusable object. Might also speed up the code at run time. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_38');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_38" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+re_float = re.compile(r&#x27;\d+\.\d+&#x27;)
+(re_float.findall(&#x27;$8.50 to $10.99 a pound&#x27;), re_float.findall(&#x27;He is 1.88m.&#x27;))</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">([&#x27;8.50&#x27;, &#x27;10.99&#x27;], [&#x27;1.88&#x27;])</span></td></tr></table></td></tr></table></div>
+      </ul>
+      <font size="+1" color="#0000BB"><b>Flags</b></font>
+      <ul>
+      <li> <b>re.IGNORECASE</b> &nbsp;  &quot;Apple&quot; and &quot;apple&quot; considered the same. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_39');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_39" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;The cat chased the mouse.&quot;
+re.findall(r&#x27;the&#x27;, s, re.IGNORECASE)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;The&#x27;, &#x27;the&#x27;]</span></td></tr></table><br>
+Similarly, when using regex:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;The cat chased the mouse.&quot;
+regex.findall(r&#x27;the&#x27;, s, regex.IGNORECASE)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;The&#x27;, &#x27;the&#x27;]</span></td></tr></table></td></tr></table></div>
+      </ul>
+      <font size="+1" color="#0000BB"><b>Advanced package &quot;regex&quot;</b></font>
+      <ul>
+      <li> <b>Script support</b> &nbsp;  regex provides better script support than re &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_40');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_40" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;Dvořák Москва المغرب 中国 भारत&#x27;
+regex.findall(r&#x27;\p{Latin}+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;Dvořák&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;Dvořák Москва المغرب 中国 भारत&#x27;
+regex.findall(r&#x27;\p{Cyrillic}+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;Москва&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;Dvořák Москва المغرب 中国 भारत&#x27;
+regex.findall(r&#x27;\p{Arabic}+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;المغرب&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;Dvořák Москва المغرب 中国 भारत&#x27;
+regex.findall(r&#x27;\p{InCJK_Unified_Ideographs}+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;中国&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;Dvořák Москва المغرب 中国 भारत&#x27;
+regex.findall(r&#x27;\p{Devanagari}+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;भारत&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>Punctuation support</b> &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_41');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_41" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>The following substitution removes punctuation.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;• My fiancée (Mary) said: “hello”.&#x27;
+regex.sub(r&#x27;\pP&#x27;, &#x27;&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27; My fiancée Mary said hello&#x27;</span></td></tr></table><br>
+Finds all quoted words<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;I said “hello” and he (François) said «bonjour».&#x27;
+regex.findall(r&#x27;\p{Pi}\pL+\p{Pf}&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;“hello”&#x27;, &#x27;«bonjour»&#x27;]</span></td></tr></table>\p{Pi} stands for &quot;opening quote&quot;, \p{Pf} for &quot;closing quote&quot;; \pL for &quot;letter&quot;<br>
+</td></tr></table></div>
+      <li> <b>Set operations</b> &nbsp;  set intersection, union, difference; might require &quot;Version1&quot; flag set: (?V1) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_42');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_42" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Set intersection: Latin lower-case letters<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;Dvořák Москва&#x27;
+regex.findall(r&#x27;(?V1)[\p{Latin}&amp;&amp;\p{Ll}]&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;v&#x27;, &#x27;o&#x27;, &#x27;ř&#x27;, &#x27;á&#x27;, &#x27;k&#x27;]</span></td></tr></table><br>
+Set difference: non-ASCII Latin<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;Dvořák Москва&#x27;
+regex.findall(r&#x27;(?V1)[\p{Latin}--\p{ASCII}]&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;ř&#x27;, &#x27;á&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>Character classes</b> &nbsp;  \pL letter • \p{Ll} lower-case letter • \p{Lu} upper-case letter • \pM modifier character • \PL non-letter • \pP punctuation • \p{Pi} open quote • \p{Pf} close quote • \pS symbol • \pZ any space &nbsp; 
+      <li> <b>More:</b> &nbsp;       <a href="https://pypi.org/project/regex" target="_">https://pypi.org/project/regex</a> &nbsp;  PyPI regex module description &nbsp; 
+      <li> <b>More:</b> &nbsp;       <a href="https://www.regular-expressions.info/unicode.html" target="_">https://www.regular-expressions.info/unicode.html</a> &nbsp;  Unicode regular expressions &nbsp; 
+      <li> <b>More:</b> &nbsp;       <a href="https://regex101.com" target="_">https://regex101.com</a> &nbsp;  Interactively explore regular expressions &nbsp; 
+      </ul>
+      <font size="+1" color="#0000BB"><b>Practical examples</b></font>
+      <ul>
+      <li> <b>Remove punctuation</b> &nbsp;  including non-ASCII punctuation, but keeping non-ASCII letters &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_43');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_43" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>The following substitution removes punctuation.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &#x27;• My fiancée (Mary) said: “hello”.&#x27;
+regex.sub(r&#x27;\pP&#x27;, &#x27;&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27; My fiancée Mary said hello&#x27;</span></td></tr></table></td></tr></table></div>
+      <li> <b>Detect adjacent duplicate words.</b> &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_44');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_44" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Find adjacent duplicate words.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;He told me that that was impossible because of of the theory.&quot;
+regex.findall(r&#x27;((?:\pL\pM*)+)\s\1(?!\pL)&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;that&#x27;, &#x27;of&#x27;]</span></td></tr></table>\1 stands for the 1st captured group. \pL is any letter. \pM any letter modifier.<br>
+</td></tr></table></div>
+      <li> <b>Numbers</b> &nbsp;  integers and floating point numbers (ASCII) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_45');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_45" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;100 -10C +10.5C 0 0.1 .2 3.14159 January 12-14 192.0.2.1 000 0.&quot;
+re.findall(r&#x27;(?&lt;![0-9.])[-+]?(?:[1-9][0-9]*\.[0-9]+|0?\.[0-9]+|[1-9][0-9]*|0)(?!\.?[0-9])&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;100&#x27;, &#x27;-10&#x27;, &#x27;+10.5&#x27;, &#x27;0&#x27;, &#x27;0.1&#x27;, &#x27;.2&#x27;, &#x27;3.14159&#x27;, &#x27;12&#x27;, &#x27;14&#x27;, &#x27;0&#x27;]</span></td></tr></table>Includes some context sensitivity to exclude things such as IP addresses (192.0.2.1) and negative numbers from ranges (12-14).<br>
+</td></tr></table></div>
+      <li> <b>Numbers with commas</b> &nbsp;  125,500 &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_46');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_46" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+s = &quot;They spent $1,250,000 on 45,000 trees in 2021.&quot;
+re.findall(r&#x27;\d{1,3}(?:,\d\d\d)+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;1,250,000&#x27;, &#x27;45,000&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>Hybrid numbers (ASCII)</b> &nbsp;  3.4 billion &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_47');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_47" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Find and map hybrid numbers (&quot;2 million&quot;) to numeric (2000000)<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+def combine_hybrid_number_components(tuple): # tuple: (&#x27;2&#x27;, &#x27;million&#x27;)
+    d = {&#x27;million&#x27;:1000000, &#x27;billion&#x27;:1000000000, &#x27;trillion&#x27;:1000000000000}
+    product = float(tuple[0]) * d.get(tuple[1].lower())
+    return int(product) if product.is_integer() else product
+
+s = &quot;Sales in 2021 were $3.4 BILLION, up $200 million from the year before.&quot;
+h = re.findall(r&#x27;(\d+(?:\.\d+)?)\s*((?:m|b|tr)illion)\b&#x27;, s, re.IGNORECASE)
+list(map(combine_hybrid_number_components, h))</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[3400000000, 200000000]</span></td></tr></table></td></tr></table></div>
+      <li> <b>Indian words (with letter modifiers)</b> &nbsp;  भारत &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_48');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_48" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Many Indian languages use letter modifiers (\pM) such as vowel signs and viramas that need to be added when searching for words:<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;नई दिल्ली से जर्मनी तक.&quot;
+regex.findall(r&#x27;(?:\pL\pM*)+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;नई&#x27;, &#x27;दिल्ली&#x27;, &#x27;से&#x27;, &#x27;जर्मनी&#x27;, &#x27;तक&#x27;]</span></td></tr></table><br>
+Without letter modifiers, things fall apart.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+s = &quot;नई दिल्ली से जर्मनी तक.&quot;
+regex.findall(r&#x27;\pL+&#x27;, s)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;नई&#x27;, &#x27;द&#x27;, &#x27;ल&#x27;, &#x27;ल&#x27;, &#x27;स&#x27;, &#x27;जर&#x27;, &#x27;मन&#x27;, &#x27;तक&#x27;]</span></td></tr></table></td></tr></table></div>
+      <li> <b>Simple glosser</b> &nbsp;  Spanish to English &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_49');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_49" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>This simple glossing program translates a sentence word-by-word, without context, using a simple dictionary.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+spa_eng_dict = {&quot;amigos&quot;: &quot;friends&quot;, &quot;hermana&quot;: &quot;sister&quot;, &quot;mi&quot;: &quot;my&quot;, &quot;pequeña&quot;: &quot;little&quot;, &quot;tiene&quot;: &quot;has&quot;}
+s = &quot;María (mi hermana pequeña) tiene 1000 amigos.&quot;
+
+rest = s
+result = &#x27;&#x27;
+while m3 := regex.match(r&#x27;(.*?)(\pL+)(.*)&#x27;, rest):   # Capture pre-word (minimal), word, post-word.
+    pre_word, word, rest = m3.group(1, 2, 3)         # post-word becomes new rest for next iteration.
+    result += pre_word + spa_eng_dict.get(word, word)
+result += rest                                       # Add remaining text (e.g. after the last word).
+
+result</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;María (my sister little) has 1000 friends.&#x27;</span></td></tr></table>The program uses a widely applicable idiom of regular expression, where a pattern of interest (here &quot;\pL+&quot; (= letters)) is preceded by a non-greedy pre-pattern string (.*?) and followed by a greedy post-pattern catch-the-rest (.*). The function preserves non-words such as spaces, punctuation, digits as well as words not covered by the dictionary (e.g. &quot;María&quot;). In the real world, the content of spa_eng_dict would be read in from a much larger dictionary file.<br>
+</td></tr></table></div>
+      </ul>
+    </ul>
+    &nbsp; <font size="+2" color="#0000BB"><b>Functions</b></font>
+    <ul>
+      <font size="+1" color="#0000BB"><b>Methods related to strings</b></font>
+      <ul>
+      <li> <b>str.isalpha()</b> &nbsp;  Checks if string is all letters. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_50');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_50" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;abc&#x27;.isalpha()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;12&#x27;.isalpha()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">False</span></td></tr></table><br>
+Chinese letters (&quot;China&quot;)<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;中国&#x27;.isalpha()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;T-cell&#x27;.isalpha()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">False</span></td></tr></table>False because of the hyphen (&#x27;-&#x27;) which is not a letter.<br>
+</td></tr></table></div>
+      <li> <b>str.isdigit()</b> &nbsp;  Checks if string is all digits. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_51');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_51" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;12&#x27;.isdigit()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table><br>
+Arabic digits (&quot;50&quot;)<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;٥٠&#x27;.isdigit()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;2.5&#x27;.isalpha()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">False</span></td></tr></table>False because of the period (&#x27;.&#x27;) which is not a digit.<br>
+<br>
+Chinese number (&quot;ten two&quot; = 12)<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;十二&#x27;.isdigit()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">False</span></td></tr></table>False because Chinese numbers are not digits.<br>
+</td></tr></table></div>
+      <li> <b>str.islower()</b> &nbsp;  Checks if string is all lower case. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_52');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_52" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;a&#x27;.islower()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table><br>
+Greek letter beta<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;β&#x27;.islower()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.isupper()</b> &nbsp;  Checks if string is all upper case. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_53');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_53" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;A&#x27;.isupper()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table><br>
+Cyrillic capital letter Sha<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;Ш&#x27;.isupper()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.isspace()</b> &nbsp;  Checks if string is all spaces. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_54');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_54" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27; &#x27;.isspace()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table><br>
+tab is a space character<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;\t&#x27;.isspace()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.startswith()</b> &nbsp;  Checks if string starts with a given substring. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_55');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_55" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;that&#x27;.startswith(&#x27;th&#x27;)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">True</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.endswith()</b> &nbsp;  Checks if string ends with a given substring. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_56');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_56" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;that&#x27;.endswith(&#x27;th&#x27;)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">False</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.strip()</b> &nbsp;  Strips the beginning or end of a string of given characters (default: spaces). &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_57');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_57" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27; Hello ! &#x27;.strip()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;Hello !&#x27;</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;** Hello ! **&#x27;.strip(&#x27; *&#x27;)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;Hello !&#x27;</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.lstrip()</b> &nbsp;  Strips the beginning of a string of given characters (default: spaces). &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_58');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_58" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27; Hello ! &#x27;.lstrip()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;Hello ! &#x27;</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.rstrip()</b> &nbsp;  Strips the end of a string of given characters (default: spaces). &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_59');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_59" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27; Hello ! &#x27;.rstrip()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27; Hello !&#x27;</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.find()</b> &nbsp;  Returns the position of a substring inside a string. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_60');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_60" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;Waldo&#x27;.find(&#x27;ld&#x27;)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">2</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;Waldo&#x27;.find(&#x27;x&#x27;)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">-1</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.lower()</b> &nbsp;  Returns the string in all lower case. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_61');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_61" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;NASA Lab&#x27;.lower()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;nasa lab&#x27;</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.upper()</b> &nbsp;  Returns the string in all upper case. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_62');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_62" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;The NASA lab&#x27;.upper()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;THE NASA LAB&#x27;</span></td></tr></table></td></tr></table></div>
+      <li> <b>str.capitalize()</b> &nbsp;  Returns the string in capitalized case (first letter upper case). &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_63');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_63" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;the NASA lab&#x27;.capitalize()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;The nasa lab&#x27;</span></td></tr></table>Upper case for first letter, lower case for rest.<br>
+</td></tr></table></div>
+      <li> <b>str.replace()</b> &nbsp;  Replaces all instances of a given substring with another substring. &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_64');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_64" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">&#x27;art is art&#x27;.replace(&#x27;art&#x27;, &#x27;love&#x27;)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;love is love&#x27;</span></td></tr></table></td></tr></table></div>
+      </ul>
+      <font size="+1" color="#0000BB"><b>Functions related to lists</b></font>
+      <ul>
+      <li> <b>enumerate()</b> &nbsp;  adds a counter to an iterable (e.g. list) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_65');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_65" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]
+list(enumerate(fruits))</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(0, &#x27;apple&#x27;), (1, &#x27;banana&#x27;), (2, &#x27;cherry&#x27;)]</span></td></tr></table>Useful in &quot;for&quot; loops: for i, fruit in enumerate(fruits): ...<br>
+<br>
+Optional second argument: enumeration start index<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">months = (&quot;January&quot;, &quot;February&quot;, &quot;March&quot;, &quot;April&quot;)
+list(enumerate(months, 1))  # start enumeration at 1</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(1, &#x27;January&#x27;), (2, &#x27;February&#x27;), (3, &#x27;March&#x27;), (4, &#x27;April&#x27;)]</span></td></tr></table>Useful in &quot;for&quot; loops: for i, month in enumerate(months, 1): ...<br>
+</td></tr></table></div>
+      <li> <b>map()</b> &nbsp;  executes a specified function for each item in an iterable (e.g. list) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_66');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_66" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td>Map all strings in list to lower case.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">l = [&quot;My&quot;, &quot;NASA&quot;, &quot;project&quot;]
+list(map(str.lower, l))   # str is the type for strings.</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;my&#x27;, &#x27;nasa&#x27;, &#x27;project&#x27;]</span></td></tr></table><br>
+Map all units in list from singular to plural form.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">def eng_plural(s: str) -&gt; str:
+    irreg_eng_plurals = {&quot;foot&quot;: &quot;feet&quot;, &quot;mouse&quot;: &quot;mice&quot;}
+    if irregular_plural := irreg_eng_plurals.get(s):
+        return irregular_plural
+    elif s.endswith(&#x27;y&#x27;):
+        return s[:-1] + &#x27;ies&#x27;
+    elif s[-1:] in [&#x27;s&#x27;, &#x27;x&#x27;] or s[-2:] in [&#x27;ch&#x27;, &#x27;sh&#x27;]:
+        return s + &#x27;es&#x27;
+    else:
+        return s + &#x27;s&#x27;
+
+units = [&quot;inch&quot;, &quot;foot&quot;, &quot;yard&quot;, &quot;mile&quot;]
+list(map(eng_plural, units))   # str is the type for strings.</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;inches&#x27;, &#x27;feet&#x27;, &#x27;yards&#x27;, &#x27;miles&#x27;]</span></td></tr></table><br>
+Find and map hybrid numbers (&quot;2 million&quot;) to numeric (2000000)<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import re
+def combine_hybrid_number_components(tuple): # tuple: (&#x27;2&#x27;, &#x27;million&#x27;)
+    d = {&#x27;million&#x27;:1000000, &#x27;billion&#x27;:1000000000, &#x27;trillion&#x27;:1000000000000}
+    product = float(tuple[0]) * d.get(tuple[1].lower())
+    return int(product) if product.is_integer() else product
+
+s = &quot;Sales in 2021 were $3.4 BILLION, up $200 million from the year before.&quot;
+h = re.findall(r&#x27;(\d+(?:\.\d+)?)\s*((?:m|b|tr)illion)\b&#x27;, s, re.IGNORECASE)
+list(map(combine_hybrid_number_components, h))</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[3400000000, 200000000]</span></td></tr></table></td></tr></table></div>
+      <li> <b>zip()</b> &nbsp;  aggregates elements from each of the iterable (e.g. list) arguments into a tuple &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_67');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_67" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">husbands = (&quot;Alexander&quot;, &quot;Ben&quot;, &quot;Charles&quot;)
+wives = (&quot;Abigail&quot;, &quot;Barbara&quot;, &quot;Christine&quot;)
+list(zip(husbands, wives))</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;Alexander&#x27;, &#x27;Abigail&#x27;), (&#x27;Ben&#x27;, &#x27;Barbara&#x27;), (&#x27;Charles&#x27;, &#x27;Christine&#x27;)]</span></td></tr></table></td></tr></table></div>
+      </ul>
+    </ul>
+    &nbsp; <font size="+2" color="#0000BB"><b>Web Surfing</b></font>
+    <ul>
+      <font size="+1" color="#0000BB"><b>urllib</b></font>
+      <ul>
+      <li> <b>Description</b> &nbsp;  urllib is a package that collects several modules for working with URLs: (1) urllib.request for opening and reading URLs (2) urllib.error containing the exceptions raised by urllib.request and (3) urllib.parse for parsing URLs &nbsp; 
+      <li> <b>Examples</b> &nbsp;  Romeo poem (print and count words) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_68');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_68" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import urllib.request, urllib.parse, urllib.error
+lines = []
+with urllib.request.urlopen(&#x27;http://data.pr4e.org/romeo.txt&#x27;) as f:
+    for line in f:
+       lines.append(line.decode().strip())
+lines</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;But soft what light through yonder window breaks&#x27;, &#x27;It is the east and Juliet is the sun&#x27;, &#x27;Arise fair sun and kill the envious moon&#x27;, &#x27;Who is already sick and pale with grief&#x27;]</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import urllib.request, urllib.parse, urllib.error
+word_counts = {}
+with urllib.request.urlopen(&#x27;http://data.pr4e.org/romeo.txt&#x27;) as f:
+    for line in f:
+       words = line.decode().split()
+       for word in words:
+           word_counts[word] = word_counts.get(word, 0) + 1
+sorted(word_counts.items(), key=lambda x: x[1], reverse=True)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;is&#x27;, 3), (&#x27;the&#x27;, 3), (&#x27;and&#x27;, 3), (&#x27;sun&#x27;, 2), (&#x27;But&#x27;, 1), (&#x27;soft&#x27;, 1), (&#x27;what&#x27;, 1), (&#x27;light&#x27;, 1), (&#x27;through&#x27;, 1), (&#x27;yonder&#x27;, 1), (&#x27;window&#x27;, 1), (&#x27;breaks&#x27;, 1), (&#x27;It&#x27;, 1), (&#x27;east&#x27;, 1), (&#x27;Juliet&#x27;, 1), (&#x27;Arise&#x27;, 1), (&#x27;fair&#x27;, 1), (&#x27;kill&#x27;, 1), (&#x27;envious&#x27;, 1), (&#x27;moon&#x27;, 1), (&#x27;Who&#x27;, 1), (&#x27;already&#x27;, 1), (&#x27;sick&#x27;, 1), (&#x27;pale&#x27;, 1), (&#x27;with&#x27;, 1), (&#x27;grief&#x27;, 1)]</span></td></tr></table></td></tr></table></div>
+      </ul>
+      <font size="+1" color="#0000BB"><b>requests</b></font>
+      <ul>
+      <li> <b>Description</b> &nbsp;  A simple, yet elegant HTTP library for Python. Text extracted by requests is already decoded, i.e. converted from UTF-8 (Python bytes) to Unicode (Python string). &nbsp; 
+      <li> <b>Examples</b> &nbsp;  Romeo poem, JSON file, Chinese &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_69');" style="color:#005500;text-decoration:underline;">Examples</span><div id="t_69" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import requests
+r = requests.get(&#x27;http://data.pr4e.org/romeo.txt&#x27;)
+r.text</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">&#x27;But soft what light through yonder window breaks\nIt is the east and Juliet is the sun\nArise fair sun and kill the envious moon\nWho is already sick and pale with grief\n&#x27;</span></td></tr></table><br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import requests
+r = requests.get(&#x27;http://data.pr4e.org/romeo.txt&#x27;)
+r.text.strip().split(&#x27;\n&#x27;)</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;But soft what light through yonder window breaks&#x27;, &#x27;It is the east and Juliet is the sun&#x27;, &#x27;Arise fair sun and kill the envious moon&#x27;, &#x27;Who is already sick and pale with grief&#x27;]</span></td></tr></table><br>
+Retrieve a document in JSON format.<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import requests
+r = requests.get(&#x27;https://reqres.in/api/products/3&#x27;)
+r.json()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">{&#x27;data&#x27;: {&#x27;id&#x27;: 3, &#x27;name&#x27;: &#x27;true red&#x27;, &#x27;year&#x27;: 2002, &#x27;color&#x27;: &#x27;#BF1932&#x27;, &#x27;pantone_value&#x27;: &#x27;19-1664&#x27;}, &#x27;support&#x27;: {&#x27;url&#x27;: &#x27;https://reqres.in/#support-heading&#x27;, &#x27;text&#x27;: &#x27;To keep ReqRes free, contributions towards server costs are appreciated!&#x27;}}</span></td></tr></table>Returns a JSON object (a special type of Python dictionary).<br>
+<br>
+<table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import regex
+import requests
+r = requests.get(&#x27;https://en.wiktionary.org/wiki/%E5%86%AC%E5%A4%A9&#x27;)
+set(regex.findall(r&#x27;\p{InCJK_Unified_Ideographs}*冬天\p{InCJK_Unified_Ideographs}*&#x27;, r.text))</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">{&#x27;冬天價&#x27;, &#x27;冬天裡&#x27;, &#x27;核冬天&#x27;, &#x27;冬天時&#x27;, &#x27;冬天&#x27;, &#x27;冬天道&#x27;, &#x27;冬天頭&#x27;, &#x27;冬天家&#x27;}</span></td></tr></table>requests already delivers properly decoded text.<br>
+</td></tr></table></div>
+      </ul>
+      <font size="+1" color="#0000BB"><b>beautifulsoup4</b></font>
+      <ul>
+      <li> <b>Description</b> &nbsp;  Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree. &nbsp; 
+      <li> <b>Installation</b> &nbsp;  pip install beautifulsoup4 &nbsp; 
+      <li> <b>Documentation</b> &nbsp;       <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc" target="_">https://www.crummy.com/software/BeautifulSoup/bs4/doc</a> &nbsp; 
+      <li> <b>Example</b> &nbsp;  Navigating inside the soup &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_70');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_70" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">from bs4 import BeautifulSoup
+html_doc = &quot;&quot;&quot;
+&lt;html&gt;&lt;head&gt;&lt;title&gt;The Dormouse&#x27;s story&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;
+    &lt;p class=&quot;title&quot;&gt;&lt;b&gt;The Dormouse&#x27;s story&lt;/b&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;story&quot;&gt;Once upon a time there were three little sisters; and their names were
+      &lt;a href=&quot;http://example.com/elsie&quot; class=&quot;sister&quot; id=&quot;link1&quot;&gt;Elsie&lt;/a&gt;,
+      &lt;a href=&quot;http://example.com/lacie&quot; class=&quot;sister&quot; id=&quot;link2&quot;&gt;Lacie&lt;/a&gt; and
+      &lt;a href=&quot;http://example.com/tillie&quot; class=&quot;sister&quot; id=&quot;link3&quot;&gt;Tillie&lt;/a&gt;;
+      and they lived at the bottom of a well.&lt;/p&gt;
+    &lt;p class=&quot;story&quot;&gt;...&lt;/p&gt;
+&quot;&quot;&quot;
+soup = BeautifulSoup(html_doc, &#x27;html.parser&#x27;)
+{   &quot;soup.title&quot;: soup.title,
+    &quot;soup.title.string&quot;: soup.title.string, 
+    &quot;soup.p&quot;: soup.p,
+    &quot;soup.p.get(&#x27;class&#x27;)&quot;: soup.p.get(&#x27;class&#x27;),
+    &quot;soup.a&quot;: soup.a,
+    &quot;soup.a.attrs&quot;: soup.a.attrs,
+    &quot;soup.find_all(&#x27;a&#x27;)&quot;: soup.find_all(&#x27;a&#x27;),
+    &quot;soup.a.parent.get(&#x27;class&#x27;)&quot;: soup.a.parent.get(&#x27;class&#x27;),
+    &quot;number of soup.body.children&quot;: len(list(soup.body.children)) }</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">{&#x27;soup.title&#x27;: &lt;title&gt;The Dormouse&#x27;s story&lt;/title&gt;, &#x27;soup.title.string&#x27;: &quot;The Dormouse&#x27;s story&quot;, &#x27;soup.p&#x27;: &lt;p class=&quot;title&quot;&gt;&lt;b&gt;The Dormouse&#x27;s story&lt;/b&gt;&lt;/p&gt;, &quot;soup.p.get(&#x27;class&#x27;)&quot;: [&#x27;title&#x27;], &#x27;soup.a&#x27;: &lt;a class=&quot;sister&quot; href=&quot;http://example.com/elsie&quot; id=&quot;link1&quot;&gt;Elsie&lt;/a&gt;, &#x27;soup.a.attrs&#x27;: {&#x27;href&#x27;: &#x27;http://example.com/elsie&#x27;, &#x27;class&#x27;: [&#x27;sister&#x27;], &#x27;id&#x27;: &#x27;link1&#x27;}, &quot;soup.find_all(&#x27;a&#x27;)&quot;: [&lt;a class=&quot;sister&quot; href=&quot;http://example.com/elsie&quot; id=&quot;link1&quot;&gt;Elsie&lt;/a&gt;, &lt;a class=&quot;sister&quot; href=&quot;http://example.com/lacie&quot; id=&quot;link2&quot;&gt;Lacie&lt;/a&gt;, &lt;a class=&quot;sister&quot; href=&quot;http://example.com/tillie&quot; id=&quot;link3&quot;&gt;Tillie&lt;/a&gt;], &quot;soup.a.parent.get(&#x27;class&#x27;)&quot;: [&#x27;story&#x27;], &#x27;number of soup.body.children&#x27;: 7}</span></td></tr></table></td></tr></table></div>
+      <li> <b>Example</b> &nbsp;  Find all &#x27;academic&#x27; links on USC webpage &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_71');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_71" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import urllib.request, urllib.parse, urllib.error
+from bs4 import BeautifulSoup
+
+url = &quot;https://www.usc.edu&quot;
+html = urllib.request.urlopen(url).read()
+soup = BeautifulSoup(html, &#x27;html.parser&#x27;)
+
+# Retrieve all of the anchor tags
+tags = soup(&#x27;a&#x27;)
+links = []
+for tag in tags:
+    if (link := tag.get(&#x27;href&#x27;)) and &#x27;academic&#x27; in link:
+        links.append(link)
+links</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[&#x27;http://about.usc.edu/administration/academic-deans/&#x27;, &#x27;https://academics.usc.edu/&#x27;, &#x27;http://academics.usc.edu/calendar/&#x27;]</span></td></tr></table></td></tr></table></div>
+      </ul>
+    </ul>
+    &nbsp; <font size="+2" color="#0000BB"><b>Databases</b></font>
+    <ul>
+      <font size="+1" color="#0000BB"><b>SQL</b></font>
+      <ul>
+      <li> <b>CREATE</b> &nbsp;  TABLE TableName (attribute1 Type1, attribute2 Type2) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_72');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_72" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import sqlite3
+conn = sqlite3.connect(&#x27;emaildb.sqlite&#x27;)  # &#x27;emaildb.sqlite&#x27; is filename where database will be stored.
+cur = conn.cursor()
+cur.execute(&#x27;DROP TABLE IF EXISTS Counts&#x27;)
+cur.execute(&#x27;CREATE TABLE Counts (email TEXT, count INTEGER)&#x27;)
+cur.close()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">None</span></td></tr></table></td></tr></table></div>
+      <li> <b>INSERT</b> &nbsp;  INTO TableName (attribute1, attribute2) VALUES (value1, value2) &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_73');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_73" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import sqlite3
+conn = sqlite3.connect(&#x27;emaildb.sqlite&#x27;)
+cur = conn.cursor()
+cur.execute(&#x27;DROP TABLE IF EXISTS Counts&#x27;)
+cur.execute(&#x27;CREATE TABLE Counts (email TEXT, count INTEGER)&#x27;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;stephen.marquard@uct.ac.za&#x27;, 1)&quot;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;gsilver@umich.edu&#x27;, 1)&quot;)
+list(cur.execute(&quot;SELECT email, count FROM Counts&quot;))
+# cur.close()  # uncomment in real app</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;stephen.marquard@uct.ac.za&#x27;, 1), (&#x27;gsilver@umich.edu&#x27;, 1)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>UPDATE</b> &nbsp;  TableName SET attribute1 = value1 WHERE attribute2 = &#x27;value2&#x27; &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_74');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_74" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import sqlite3
+conn = sqlite3.connect(&#x27;emaildb.sqlite&#x27;)
+cur = conn.cursor()
+cur.execute(&#x27;DROP TABLE IF EXISTS Counts&#x27;)
+cur.execute(&#x27;CREATE TABLE Counts (email TEXT, count INTEGER)&#x27;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;stephen.marquard@uct.ac.za&#x27;, 1)&quot;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;gsilver@umich.edu&#x27;, 1)&quot;)
+cur.execute(&quot;UPDATE Counts SET count = count + 1 WHERE email = &#x27;stephen.marquard@uct.ac.za&#x27;&quot;)
+list(cur.execute(&quot;SELECT email, count FROM Counts&quot;))
+# cur.close()  # uncomment in real app</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;stephen.marquard@uct.ac.za&#x27;, 2), (&#x27;gsilver@umich.edu&#x27;, 1)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>SELECT</b> &nbsp;  attribute1, attribute2 FROM TableName WHERE attribute1 = &#x27;value1&#x27; &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_75');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_75" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import sqlite3
+conn = sqlite3.connect(&#x27;emaildb.sqlite&#x27;)
+cur = conn.cursor()
+cur.execute(&#x27;DROP TABLE IF EXISTS Counts&#x27;)
+cur.execute(&#x27;CREATE TABLE Counts (email TEXT, count INTEGER)&#x27;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;stephen.marquard@uct.ac.za&#x27;, 1)&quot;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;gsilver@umich.edu&#x27;, 1)&quot;)
+list(cur.execute(&quot;SELECT email, count FROM Counts ORDER BY count DESC LIMIT 10&quot;))
+# cur.close()  # uncomment in real app</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;stephen.marquard@uct.ac.za&#x27;, 1), (&#x27;gsilver@umich.edu&#x27;, 1)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>DELETE</b> &nbsp;  FROM TableName WHERE attribute1 = &#x27;value1&#x27; &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_76');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_76" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import sqlite3
+conn = sqlite3.connect(&#x27;emaildb.sqlite&#x27;)
+cur = conn.cursor()
+cur.execute(&#x27;DROP TABLE IF EXISTS Counts&#x27;)
+cur.execute(&#x27;CREATE TABLE Counts (email TEXT, count INTEGER)&#x27;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;stephen.marquard@uct.ac.za&#x27;, 1)&quot;)
+cur.execute(&quot;INSERT INTO Counts (email, count) VALUES (&#x27;gsilver@umich.edu&#x27;, 1)&quot;)
+cur.execute(&quot;DELETE FROM Counts WHERE email = &#x27;gsilver@umich.edu&#x27;&quot;)
+list(cur.execute(&quot;SELECT email, count FROM Counts&quot;))
+# cur.close()  # uncomment in real app</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">[(&#x27;stephen.marquard@uct.ac.za&#x27;, 1)]</span></td></tr></table></td></tr></table></div>
+      <li> <b>DROP</b> &nbsp;  TABLE IF EXISTS TableName &nbsp;  &nbsp; <span id="ex_$toggle_index" title="Click here for a full example"onclick="javascript:toggle('t_77');" style="color:#005500;text-decoration:underline;">Example</span><div id="t_77" style="display:none;"><br><table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; </td><td><table border="1" cellpadding="3"><tr><td style="color:#005500;" width="800"><span style="font-family:Courier;"><pre><code class="language-python">import sqlite3
+conn = sqlite3.connect(&#x27;emaildb.sqlite&#x27;)
+cur = conn.cursor()
+cur.execute(&#x27;DROP TABLE IF EXISTS Counts&#x27;)
+cur.close()</code></pre></span></td></tr></table><table border="0" cellpadding="3"><tr><td style="color:#0000AA;" width="800"><span style="font-family:Courier;">None</span></td></tr></table></td></tr></table></div>
+      </ul>
+    </ul>
+<p><i>Note: This is an early version of work in progress. Suggestions are very welcome.   </body>
+</html>
