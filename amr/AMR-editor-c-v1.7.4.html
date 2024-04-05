@@ -4,9 +4,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Editor</title>
-    <link rel="stylesheet" type="text/css" href="https://www.isi.edu/~ulf/css/handheld/default.css" media="handheld">
-    <link rel="stylesheet" type="text/css" href="https://www.isi.edu/~ulf/css/handheld/default.css" media="only screen and (max-device-width:480px)"> 
-    <link rel="shortcut icon" href="https://www.isi.edu/~ulf/amr/images/AMR-favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/handheld/default.css" media="handheld">
+    <link rel="stylesheet" type="text/css" href="../css/handheld/default.css" media="only screen and (max-device-width:480px)"> 
+    <link rel="shortcut icon" href="images/AMR-favicon.ico">
     <script type="text/javascript">
     <!--
 
@@ -669,7 +669,7 @@
        closeCurrentOpenPopup();
        var x = screen.width - 480 - 13;
        var y = 0;
-       var newWindow=window.open('https://www.isi.edu/~ulf/amr/help/quickref.html','QuickRef','height=530,width=480,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
+       var newWindow=window.open('help/quickref.html','QuickRef','height=530,width=480,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
        var auto_moveto = show_amr_obj['option-auto-moveto'];
        auto_moveto = 1;
        if (auto_moveto && ! browserUserAgent.match(/chrome/i)) {
@@ -687,7 +687,7 @@
        closeCurrentOpenPopup();
        var x = screen.width - 700 - 13;
        var y = 0;
-       var newWindow=window.open('https://www.isi.edu/~ulf/amr/lib/ne-types.html','NE types','height=600,width=700,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
+       var newWindow=window.open('lib/ne-types.html','NE types','height=600,width=700,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
        var auto_moveto = show_amr_obj['option-auto-moveto'];
        auto_moveto = 1;
        if (auto_moveto && ! browserUserAgent.match(/chrome/i)) {
@@ -701,7 +701,7 @@
        closeCurrentOpenPopup();
        var x = screen.width - 750 - 13;
        var y = 0;
-       var newWindow=window.open('https://www.isi.edu/~ulf/amr/lib/roles.html','AMR roles','height=600,width=750,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
+       var newWindow=window.open('lib/roles.html','AMR roles','height=600,width=750,resizable=1,scrollbars=1,toolbar=0,statusbar=0,menubar=0');
        var auto_moveto = show_amr_obj['option-auto-moveto'];
        auto_moveto = 1;
        if (auto_moveto && ! browserUserAgent.match(/chrome/i)) {
@@ -712,18 +712,18 @@
     }
 
     function show_dict() {
-       var newWindow=window.open('https://www.isi.edu/~ulf/amr/lib/amr-dict.html','_WIKI');
+       var newWindow=window.open('lib/amr-dict.html','_WIKI');
        newWindow.focus();
     }
 
     function show_video_page() {
-       var newWindow=window.open('https://www.isi.edu/~ulf/amr/lib/videos.html','_VIDEO');
+       var newWindow=window.open('lib/videos.html','_VIDEO');
        newWindow.focus();
     }
 
     function show_meetings() {
        /*
-       var newWindow=window.open('https://www.isi.edu/~ulf/amr/lib/meetings.html','_MEETING');
+       var newWindow=window.open('lib/meetings.html','_MEETING');
        newWindow.focus();
        */
        show_page('meetings', 'MEETING');
@@ -757,7 +757,7 @@
        // closeCurrentOpenPopup();
        var x = 0;
        var y = 0;
-       var url = 'https://www.isi.edu/~ulf/amr/help/amr-guidelines.pdf';
+       var url = 'help/amr-guidelines.pdf';
        if (version == 'github') url = 'https://github.com/amrisi/amr-guidelines/blob/master/amr.md';
        var newWindow=window.open(url,'AMR guidelines','height=600,width=750,resizable=1,scrollbars=1,toolbar=1,statusbar=0,menubar=1');
        var auto_moveto = show_amr_obj['option-auto-moveto'];
@@ -3877,20 +3877,20 @@
        }
        var url, url2;
        if (check_list['oncf.' + core_concept]) {
-          url = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/' + core_concept + '-c.html';
-          url2 = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames-var/' + core_concept + '-c-' + variable + '.html';
+          url = 'ontonotes-4.0-frames/' + core_concept + '-c.html';
+          url2 = 'ontonotes-4.0-frames-var/' + core_concept + '-c-' + variable + '.html';
        } else if (check_list['onvf.' + core_concept]) {
-          url = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/' + core_concept + '-v.html';
-          url2 = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames-var/' + core_concept + '-v-' + variable + '.html';
+          url = 'ontonotes-4.0-frames/' + core_concept + '-v.html';
+          url2 = 'ontonotes-4.0-frames-var/' + core_concept + '-v-' + variable + '.html';
        } else if (check_list['onjf.' + core_concept]) {
-          url = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/' + core_concept + '-j.html';
-          url2 = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames-var/' + core_concept + '-j-' + variable + '.html';
+          url = 'ontonotes-4.0-frames/' + core_concept + '-j.html';
+          url2 = 'ontonotes-4.0-frames-var/' + core_concept + '-j-' + variable + '.html';
        } else if (check_list['onnf.' + core_concept]) {
-          url = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/' + core_concept + '-n.html';
-          url2 = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames-var/' + core_concept + '-n-' + variable + '.html';
+          url = 'ontonotes-4.0-frames/' + core_concept + '-n.html';
+          url2 = 'ontonotes-4.0-frames-var/' + core_concept + '-n-' + variable + '.html';
        } else if (check_list['onf.' + core_concept]) {
-          url = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/' + core_concept + '.html';
-          url2 = 'https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames-var/' + core_concept + '-' + variable + '.html';
+          url = 'ontonotes-4.0-frames/' + core_concept + '.html';
+          url2 = 'ontonotes-4.0-frames-var/' + core_concept + '-' + variable + '.html';
        }
        var snt = amr['props-snt'] || '';
        if (window.XMLHttpRequest) {
@@ -4262,14 +4262,14 @@
 	     } else if (special_url) {
                 concept_m = '<a href="' + special_url + '" style="color:' + special_color + ';text-decoration:underline;" target="_BLANK">' + concept + '</a>';
              } else if (concept == 'be-01') {
-                concept_m = '<a href="https://www.isi.edu/~ulf/amr/lib/popup/be.html" title="be-01 is banned. Click here for more info." style="color:#CC0000;" target="_BLANK">' + concept + '</a>';
+                concept_m = '<a href="lib/popup/be.html" title="be-01 is banned. Click here for more info." style="color:#CC0000;" target="_BLANK">' + concept + '</a>';
 	     } else if (check_list['oncf.' + concept]
 		     || check_list['onf.' + concept]) {
                 concept_m = '<span title="Invoke PropBank frame file selection popup for this word" style="color:#0000FF;text-decoration:underline;" onclick="generate_dynamic_ontonotes_popup(\'' + concept + '\', \'' + variable + '\');">' + concept + '</span>';
 	     } else if (check_list['onvf.' + concept]
 	   // && (! ((concept == 'name') && head_concept.match(/-ne$/i) && role.match(/^:op\d+$/i)))
 	      && (! ((concept == 'name') && role.match(/^:name$/i)))) {
-		// concept_m = '<a href="https://www.isi.edu/~ulf/amr/ontonotes-4.0-frames/' + concept + '-v.html" target="_BLANK" title="PropBank frame available">' + concept + '</a>';
+		// concept_m = '<a href="ontonotes-4.0-frames/' + concept + '-v.html" target="_BLANK" title="PropBank frame available">' + concept + '</a>';
                 concept_m = '<span title="Invoke PropBank frame file selection popup for this verb" style="color:#0000FF;text-decoration:underline;" onclick="generate_dynamic_ontonotes_popup(\'' + concept + '\', \'' + variable + '\');">' + concept + '</span>';
 		// add_log('concept_m ' + html_protect(concept_m));
 	     } else if (check_list['onjf.' + concept]) {
@@ -4711,7 +4711,7 @@
 	     if (workset && workset.match(/^dfb-\d\d\d\d$/)) {
 		var post_id = id.replace(/^.*_(\d\d\d\d)[._]\d+$/, "$1");
 		post_id = post_id.replace(/^0*/, "p");
-                thread_url = 'https://www.isi.edu/~ulf/amr/thread-viz/' + workset + '.html#' + post_id;
+                thread_url = 'thread-viz/' + workset + '.html#' + post_id;
                 prop_line += '</td><td width="3"></td><td><table border="1" cellpadding="1" cellspacing="0"><tr style="background-color:#BBCCFF;"><td><nobr>&nbsp;<a style="text-decoration:none" title="Visualize the Thread that this sentence is part of (in new tab)" target="_THREAD_VIZ" href="' + thread_url + '"><font color="black">VT</font></a>&nbsp;</nobr></td></tr></table>';
 	     }
              snt_sender = ((s0 = document.getElementById('snt-sender')) != null) ? s0.innerHTML : '';
@@ -7136,14 +7136,14 @@
          <span title="current annotator" id="banner-username"></span> &nbsp;
 	 <!--
 	 <font title="Older versions" class="small1" size="-1" color="#888888">Older versions:</font>
-	 <a href="http://www.isi.edu/~ulf/amr/AMR-editor-v1.2.html" title="AMR Editor version 1.2 (May 8, 2012)"><font class="small1" size="-1" color="#888888">1.2</font></a></nobr>
-	 <a href="http://www.isi.edu/~ulf/amr/AMR-editor-v1.3.html" title="AMR Editor version 1.3 (May 11, 2012)"><font class="small1" size="-1" color="#888888">1.3</font></a></nobr>
-	 <a href="http://www.isi.edu/~ulf/amr/AMR-editor-v1.4.html" title="AMR Editor version 1.4 (May 22, 2012)"><font class="small1" size="-1" color="#888888">1.4</font></a></nobr>
-	 <a href="http://www.isi.edu/~ulf/amr/AMR-editor-v1.5.html" title="AMR Editor version 1.5 (June 6, 2012)"><font class="small1" size="-1" color="#888888">1.5</font></a></nobr>
-	 <a href="http://www.isi.edu/~ulf/amr/AMR-editor-v1.6.html" title="AMR Editor version 1.6 (June 19, 2012)"><font class="small1" size="-1" color="#888888">1.6</font></a></nobr>
+	 <a href="AMR-editor-v1.2.html" title="AMR Editor version 1.2 (May 8, 2012)"><font class="small1" size="-1" color="#888888">1.2</font></a></nobr>
+	 <a href="AMR-editor-v1.3.html" title="AMR Editor version 1.3 (May 11, 2012)"><font class="small1" size="-1" color="#888888">1.3</font></a></nobr>
+	 <a href="AMR-editor-v1.4.html" title="AMR Editor version 1.4 (May 22, 2012)"><font class="small1" size="-1" color="#888888">1.4</font></a></nobr>
+	 <a href="AMR-editor-v1.5.html" title="AMR Editor version 1.5 (June 6, 2012)"><font class="small1" size="-1" color="#888888">1.5</font></a></nobr>
+	 <a href="AMR-editor-v1.6.html" title="AMR Editor version 1.6 (June 19, 2012)"><font class="small1" size="-1" color="#888888">1.6</font></a></nobr>
 	 -->
 	 <br>
-       <nobr>&nbsp; <font class="small1" size="-1" color="#888888">Written by Ulf Hermjakob, USC/ISI &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Version 1.7.4z128 &nbsp; Jun. 21, 2022 &nbsp; &nbsp; &nbsp; &nbsp; AMR Editor URL: &nbsp; <span style="border-bottom:1px dotted;" title="To add the AMR Editor to your favorites, use this URL." onclick="window.external.AddFavorite('https://www.isi.edu/~ulf/amr/AMR-editor.html','AMR Editor');">https://www.isi.edu/~ulf/amr/AMR-editor.html</span></font></nobr>
+       <nobr>&nbsp; <font class="small1" size="-1" color="#888888">Written by Ulf Hermjakob, USC/ISI &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Version 1.7.4z128 &nbsp; Jun. 21, 2022 &nbsp; &nbsp; &nbsp; &nbsp; AMR Editor URL: &nbsp; <span style="border-bottom:1px dotted;" title="To add the AMR Editor to your favorites, use this URL." onclick="window.external.AddFavorite('AMR-editor.html','AMR Editor');">AMR-editor.html</span></font></nobr>
        </td>
        <td width="20">&nbsp;</td>
        <td id="undo-redo-box" style="display:none;">
@@ -7226,7 +7226,7 @@
 	 <td id="save-and-next-button" style="display:none"><nobr>
            <form name="save-workset-snt" id="save-workset-snt" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/amr-editor/save-amr-v1.7.cgi" method="post" style="margin-bottom: 0em;">
              <input type="hidden" id="plain-amr2" name="plain-amr2">
-             <input type="hidden" id="save-amr-editor-url2" name="save-amr-editor-url2" value="https://www.isi.edu/~ulf/amr/AMR-editor-c-v1.7.html">
+             <input type="hidden" id="save-amr-editor-url2" name="save-amr-editor-url2" value="AMR-editor-c-v1.7.html">
              <input type="hidden" id="save-amr-editor-file2" name="save-amr-editor-file2" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c-v1.7.html">
              <input type="hidden" id="save-options2" name="save-options2" value="">
              <input type="hidden" id="amr-editor-save-command2" name="amr-editor-save-command2" value="Save and load next">
@@ -7248,7 +7248,7 @@
 	 <td width="5"></td>
 	 <td style="display:block">
            <form name="next-workset-snt" id="next-workset-snt" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/amr-editor/load-amr-v1.7.cgi" method="post" style="margin-bottom: 0em;">
-             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="https://www.isi.edu/~ulf/amr/AMR-editor-c-v1.7.html">
+             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="AMR-editor-c-v1.7.html">
              <input type="hidden" id="load-amr-editor-file" name="load-amr-editor-file" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c-v1.7.html">
              <input type="hidden" id="load-options3" name="load-options3" value="">
              <input type="hidden" id="amr-editor-load-command" name="amr-editor-load-command" value="Load next">
@@ -7267,7 +7267,7 @@
 	 <td width="12"></td>
 	 <td id="select-workset-snt-button" style="display:block" align="middle">
            <form name="select-workset-snt" id="select-workset-snt" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/amr-editor/load-amr-v1.7.cgi" method="post" style="margin-bottom: 0em;">
-             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="https://www.isi.edu/~ulf/amr/AMR-editor-c-v1.7.html">
+             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="AMR-editor-c-v1.7.html">
              <input type="hidden" id="load-amr-editor-file" name="load-amr-editor-file" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c-v1.7.html">
              <input type="hidden" id="load-options4" name="load-options4" value="">
              <input type="hidden" id="amr-editor-load-command" name="amr-editor-load-command" value="Load next">
@@ -7452,14 +7452,14 @@
 	 <td style="background-color:#E8EEFF;" width="920">
            <form name="main" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/amr-editor/load-amr-v1.7.cgi" method="post" style="margin-bottom: 0em;">
              <input type="hidden" id="load-amr-editor-file" name="load-amr-editor-file" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c-v1.7.html">
-             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="https://www.isi.edu/~ulf/amr/AMR-editor-c-v1.7.html">
+             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="AMR-editor-c-v1.7.html">
              <input type="hidden" id="amr-editor-load-command" name="amr-editor-load-command" value="Load AMR at ISI">
              <input type="hidden" id="load-options2" name="load-options2" value="">
              <input type="hidden" id="cookie-id-load2" name="cookie-id-load2" value="">
              <input type="hidden" id="logsid-load2" name="logsid-load2" value="">
              <input type="hidden" id="workset-p" name="workset-p" value="1">
              <table style="background-color:#E8EEFF;" width="100%">
-               <tr><td title="To see and select from list of available worksets, leave workset field empty"><nobr><b>Load or <a href="https://www.isi.edu/~ulf/amr/ontonotes-snt-finder.html" target="_ON_SNT_FINDER" title="Click here to create new workset using OntoNotes Sentence Finder (in new tab)">create</a> AMR workset at ISI</b> &nbsp; </nobr></td>
+               <tr><td title="To see and select from list of available worksets, leave workset field empty"><nobr><b>Load or <a href="ontonotes-snt-finder.html" target="_ON_SNT_FINDER" title="Click here to create new workset using OntoNotes Sentence Finder (in new tab)">create</a> AMR workset at ISI</b> &nbsp; </nobr></td>
                    <td>Annotator:</td>
 	           <td><input type="text" size="12" name="load-username2" id="load-username2" value="guest" style="font-size:1.1em"></td>
                    <td title="To see and select from list of available worksets, leave this field empty"><nobr> &nbsp; &nbsp; Workset:</nobr></td>
@@ -7475,7 +7475,7 @@
 	 <td style="background-color:#E8EEFF;" width="920">
            <form name="main" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/amr-editor/load-amr-v1.7.cgi" method="post" style="margin-bottom: 0em;">
              <input type="hidden" id="load-amr-editor-file" name="load-amr-editor-file" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c-v1.7.html">
-             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="https://www.isi.edu/~ulf/amr/AMR-editor-c-v1.7.html">
+             <input type="hidden" id="load-amr-editor-url" name="load-amr-editor-url" value="AMR-editor-c-v1.7.html">
              <input type="hidden" id="amr-editor-load-command" name="amr-editor-load-command" value="Load AMR at ISI">
              <input type="hidden" id="load-options" name="load-options" value="">
              <input type="hidden" id="cookie-id-load" name="cookie-id-load" value="">
@@ -7498,7 +7498,7 @@
 	 <td style="background-color:#E8EEFF;" width="920">
             <form name="main" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/onto-snt-load-wrapper-v1.0.cgi" method="post" style="margin-bottom: 0em;">
                <input type="hidden" id="los-amr-editor-file" name="los-amr-editor-file" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c-v1.7.html">
-               <input type="hidden" id="los-amr-editor-url" name="los-amr-editor-url" value="https://www.isi.edu/~ulf/amr/AMR-editor-c-v1.7.html">
+               <input type="hidden" id="los-amr-editor-url" name="los-amr-editor-url" value="AMR-editor-c-v1.7.html">
                <input type="hidden" id="los-options" name="los-options" value="">
                <input type="hidden" id="los-username" name="los-username" value="guest">
                <input type="hidden" id="amr-editor-los-command" name="amr-editor-los-command" value="Load OntoNotes sentence">
@@ -7601,7 +7601,7 @@
      <p>
      <form id="save-at-isi-form" name="save-at-isi-form" enctype="multipart/form-data" action="https://www.isi.edu/cgi-bin/div3/mt/amr-editor/save-amr-v1.7.cgi" method="post">
        <input type="hidden" id="plain-amr" name="plain-amr">
-       <input type="hidden" id="save-amr-editor-url" name="save-amr-editor-url" value="https://www.isi.edu/~ulf/amr/AMR-editor-c-v1.7.html">
+       <input type="hidden" id="save-amr-editor-url" name="save-amr-editor-url" value="AMR-editor-c-v1.7.html">
        <input type="hidden" id="save-amr-editor-file" name="save-amr-editor-file" value="/nfs/isd/ulf/public_html/amr/AMR-editor-c-v1.7.html">
        <input type="hidden" id="comment" name="comment" value="">
        <input type="hidden" id="save-options" name="save-options" value="">
@@ -7726,11 +7726,11 @@
 	         <li style="margin-bottom: 0.4em;"> <b>First time user?</b> 
 		    <ol>
 		       <li> This 
-		            <!-- <span title="Click to see a simple example" style="color:#0000FF;text-decoration:underline;" onclick="popUpRight('https://www.isi.edu/~ulf/amr/help/example1.html',550,750,'Simple Example');">simple example</span> -->
-		            <a href="https://www.isi.edu/~ulf/amr/help/example1.html" target="_BLANK" title="Click to see a simple example">simple example</a>
+		            <!-- <span title="Click to see a simple example" style="color:#0000FF;text-decoration:underline;" onclick="popUpRight('help/example1.html',550,750,'Simple Example');">simple example</span> -->
+		            <a href="help/example1.html" target="_BLANK" title="Click to see a simple example">simple example</a>
 		            shows how to build an AMR for <i>"The boy wants to see the girl."</i>
-		       <li> This <a href="https://www.isi.edu/~ulf/amr/help/example2.html" target="_BLANK" title="Click to see an example">next example</a> includes a shortcut for adding named entities (NEs) <i>"John F. Kennedy was murdered."</i><br> as well as a replace (= change) operation.
-		       <li> Check out the <a href="https://www.isi.edu/~ulf/amr/help/amr-guidelines.pdf" target="_GUIDELINES" title="Click to consult the AMR Guidelines (Febr. 11, 2014)">AMR Guidelines</a>, the <a href="https://www.isi.edu/~ulf/amr/lib/amr-dict.html" target="_DICT" title="Click to consult the latest version of the AMR Dictionary">AMR Dictionary</a>, <a href="https://www.isi.edu/~ulf/amr/lib/videos.html" target="_VIDEO" title="Click here to watch a few short YouTube videos on slected topics of AMR annotation">YouTube videos about AMR annotation</a>, the <a href="https://www.isi.edu/~ulf/amr/help/manual.html" target="_MANUAL" title="Click to consult manual">AMR Editor Manual</a>, the <span onclick="popupQuickRef();" style="color:blue;text-decoration:underline"; title="Click to popup QuickRef of common AMR Editor text commands">QuickRef</span> (popup), the <a href="https://www.isi.edu/~ulf/amr/help/faq.html" target="_FAQ" title="frequently asked questions">FAQs</a> and the <a href="https://www.isi.edu/~ulf/amr/help/release-notes.html" target="_RNOTES" title="The release notes document the release history of the versions of this editor, including updates and additions for each new version.">Release Notes</a>.
+		       <li> This <a href="help/example2.html" target="_BLANK" title="Click to see an example">next example</a> includes a shortcut for adding named entities (NEs) <i>"John F. Kennedy was murdered."</i><br> as well as a replace (= change) operation.
+		       <li> Check out the <a href="help/amr-guidelines.pdf" target="_GUIDELINES" title="Click to consult the AMR Guidelines (Febr. 11, 2014)">AMR Guidelines</a>, the <a href="lib/amr-dict.html" target="_DICT" title="Click to consult the latest version of the AMR Dictionary">AMR Dictionary</a>, <a href="lib/videos.html" target="_VIDEO" title="Click here to watch a few short YouTube videos on slected topics of AMR annotation">YouTube videos about AMR annotation</a>, the <a href="help/manual.html" target="_MANUAL" title="Click to consult manual">AMR Editor Manual</a>, the <span onclick="popupQuickRef();" style="color:blue;text-decoration:underline"; title="Click to popup QuickRef of common AMR Editor text commands">QuickRef</span> (popup), the <a href="help/faq.html" target="_FAQ" title="frequently asked questions">FAQs</a> and the <a href="help/release-notes.html" target="_RNOTES" title="The release notes document the release history of the versions of this editor, including updates and additions for each new version.">Release Notes</a>.
 		    </ol>
                  <li style="margin-bottom: 0.4em;"> <b>Why are there two input methods?</b>
 		   <ol> 
@@ -7781,7 +7781,7 @@
    <div id="snt-position" style="display:none;"></div>
    <div id="snt-url" style="display:none;"></div>
   <p>
-  <script src="https://www.isi.edu/~ulf/amr/BlobBuilder.js"></script>
-  <script src="https://www.isi.edu/~ulf/amr/FileSaver.js"></script>
+  <script src="BlobBuilder.js"></script>
+  <script src="FileSaver.js"></script>
   </body>
 </html>
