@@ -1,0 +1,243 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DataFirst</title>
+        <style>
+      [patitle]:hover:after {opacity: 1; transition: all 0.05s ease 0.1s; visibility: visible;}
+      [patitle]:after {
+        content: attr(patitle);
+            position: absolute;
+            bottom: 1.4em;
+            left: -9px;
+            padding: 5px 10px 5px 10px;
+            color: #000;
+            font-weight: normal;
+            white-space: wrap;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            -moz-box-shadow: 0px 0px 4px #222;
+            -webkit-box-shadow: 0px 0px 4px #222;
+            box-shadow: 0px 0px 4px #222;
+            font-size: 100%;
+            background-color: #E0E7FF;
+            opacity: 0;
+            z-index: 99999;
+            visibility: hidden;}
+          [patitle] {position: relative; }
+          [pbtitle]:hover:after {opacity: 1; transition: all 0.05s ease 0.1s; visibility: visible;}
+          [pbtitle]:after {
+        content: attr(pbtitle);
+            position: absolute;
+            top: 1.4em;
+            left: -9px;
+            padding: 5px 10px 5px 10px;
+            color: #000;
+            font-weight: normal;
+            white-space: wrap;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            -moz-box-shadow: 0px 0px 4px #222;
+            -webkit-box-shadow: 0px 0px 4px #222;
+            box-shadow: 0px 0px 4px #222;
+            font-size: 100%;
+            background-color: #FFE0E7;
+            opacity: 0;
+            z-index: 99999;
+            visibility: hidden;}
+          [pbtitle] {position: relative; }
+        </style>
+    <script type="text/javascript">
+    <!--
+    function toggle_info(j) {
+        if ((s = document.getElementById(j)) != null) {
+            if (s.style.display == 'inline') {
+                s.style.display = 'none';
+            } else {
+                s.style.display = 'inline';
+            }
+        }
+    }
+    -->
+    </script>
+</head>
+<body bgcolor="#FFFFEE">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr bgcolor="#BBCCFF">
+            <td><table border="0" cellpadding="3" cellspacing="0">
+                    <tr>
+                        <td><b><font class="large" size="+2">&nbsp; DataFirst Projects Fall 2023</font></b></td>
+                        <td>&nbsp;&nbsp;&nbsp;August 31, 2023 at 13:32&nbsp;&nbsp;&nbsp;</td>
+                        <td style="color:#777777;font-size:80%;">Script by Ulf Hermjakob</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><p>
+<br>
+<table><tr><td><font size="+2"><a href="#p1">(1)</a></font></td><td>&nbsp;</td><td><font size="+2">Learning and forgetting in neural networks</font></td></tr>
+<tr><td><font size="+2"><a href="#p2">(2)</a></font></td><td>&nbsp;</td><td><font size="+2">Utilizing AI Generated Images for Object Detection and Classification</font></td></tr>
+<tr><td><font size="+2"><a href="#p3">(3)</a></font></td><td>&nbsp;</td><td><font size="+2"><s>A Knowledge Graph of a Crowdsourcing Event</s> <span style="color:#FF0000;">(Postponed to Spring 2024)</span></font></td></tr>
+<tr><td><font size="+2"><a href="#p4">(4)</a></font></td><td>&nbsp;</td><td><font size="+2">Urban Futures Data Core</font></td></tr>
+<tr><td><font size="+2"><a href="#p5">(5)</a></font></td><td>&nbsp;</td><td><font size="+2">Pyleoclim: A Python Package for the Analysis of Paleoclimate Data</font></td></tr>
+<tr><td><font size="+2"><a href="#p6">(6)</a></font></td><td>&nbsp;</td><td><font size="+2">AI/ML assisted fault detection in foundry processed devices</font></td></tr>
+<tr><td><font size="+2"><a href="#p7">(7)</a></font></td><td>&nbsp;</td><td><font size="+2">Assessing the California Public Sector Job Market</font></td></tr>
+<tr><td><font size="+2"><a href="#p8">(8)</a></font></td><td>&nbsp;</td><td><font size="+2">Does Municipal Broadband Deliver as Promised? An examination of broadband pricing and household adoption in areas served by muni networks.</font></td></tr>
+<tr><td><font size="+2"><a href="#p9">(9)</a></font></td><td>&nbsp;</td><td><font size="+2">Automated question type coding of forensic interviews</font></td></tr>
+<tr><td><font size="+2"><a href="#p10">(10)</a></font></td><td>&nbsp;</td><td><font size="+2">Building a Platform for NFL Data Insights</font></td></tr>
+<tr><td><font size="+2"><a href="#p11">(11)</a></font></td><td>&nbsp;</td><td><font size="+2">Understanding the Relation Between Noise and Bias in Annotated Datasets</font></td></tr>
+<tr><td><font size="+2"><a href="#p12">(12)</a></font></td><td>&nbsp;</td><td><font size="+2">Federated Learning for Neuroscience</font></td></tr>
+<tr><td><font size="+2"><a href="#p13">(13)</a></font></td><td>&nbsp;</td><td><font size="+2">Bad Writing is &quot;Fine&quot;: Tuning an LLM to Suggest Improvements</font></td></tr>
+<tr><td><font size="+2"><a href="#p14">(14)</a></font></td><td>&nbsp;</td><td><font size="+2">Analyzing Open Source Software Ecosystems</font></td></tr>
+<tr><td><font size="+2"><a href="#p15">(15)</a></font></td><td>&nbsp;</td><td><font size="+2">Build a multilingual decipherment system</font></td></tr>
+<tr><td><font size="+2"><a href="#p16">(16)</a></font></td><td>&nbsp;</td><td><font size="+2">Natural language processing of safety reports  in nuclear power plants</font></td></tr>
+<tr><td><font size="+2"><a href="#p17">(17)</a></font></td><td>&nbsp;</td><td><font size="+2">Application of AI, ML and NLP in understanding and preventing a serious aviation safety problem in the US - Runway Safety</font></td></tr>
+<tr><td><font size="+2"><a href="#p18">(18)</a></font></td><td>&nbsp;</td><td><font size="+2">AI Ethics for Smart Health through Smart Watches</font></td></tr>
+<tr><td><font size="+2"><a href="#p19">(19)</a></font></td><td>&nbsp;</td><td><font size="+2">Regular Data: Quality health monitoring while you sit&nbsp; <span style="color:#AAAAAA;">(added on Sept. 8, 2023)</span></font></td></tr>
+</table><p><br>
+<a name="p1"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(1) <b>Learning and forgetting in neural networks</b></font> &nbsp; &nbsp; <nobr>Prof. Marcin Abram</nobr></td></tr>
+<tr><td>In this project, you will examine the mechanism responsible for forgetting previous tasks in artificial neural networks. You will study how those mechanisms shape the behavior of neural network learning from heterogeneous data distributions. You will investigate how new information is stored in neural networks by plotting and interpreting the neuron activation patterns. You will also compare different learning schemas, and you will examine how they influence the final loss function landscape.</td></tr>
+<tr><td><b>Skills needed:</b> Python, TensorFlow or PyTorch<br>
+<b>Students will learn:</b> How the information is stored in neural networks. How neural networks can forget how to perform previously mastered tasks. How to interpret neural networks (by examining the neuron activation patterns). How to conduct scientific experiments (in the domain of machine learning). How to present and visualize scientific data.</td></tr>
+</table></td></tr></table><br><br>
+<a name="p2"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(2) <b>Utilizing AI Generated Images for Object Detection and Classification</b></font> &nbsp; &nbsp; <nobr>Prof. Seon Ho Kim</nobr></td></tr>
+<tr><td>Developing image-based object detection and classification models requires significant time, resources, and effort. Especially, acquiring a good training dataset is essential. However, there are some cases when it is very hard to get quality data such as rare cases (e.g., disasters) or expensive cases to get (e.g., faraway places). Due to the development of generative AI, we might produce synthetic images to enhance the quality of dataset by filling up missing images with them. Based on our prior work in object detection and classification for smart city applications, we would like to explore the potential of AI generated images for an enhanced object detection and classification. 
+</td></tr>
+<tr><td><b>Skills needed:</b> Python, Some knowledge in image machine learning,  Knowing existing methods such as Yolo is desirable, Imagination!!!<br>
+<b>Students will learn:</b> Image machine learning, object detection</td></tr>
+</table></td></tr></table><br><br>
+<a name="p3"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(3) <b><s>A  Knowledge Graph of a Crowdsourcing Event</b></font></s> &nbsp; <span style="color:#FF0000;"> (Postponed to Spring 2024)</span> &nbsp; &nbsp; <nobr>Prof. Daniel O'Leary</nobr></td></tr>
+<tr><td>Build a knowledge graph of a crowdsourcing event.</td></tr>
+<tr><td><b>Skills needed:</b> NEO4j, or Python<br>
+<b>Students will learn:</b> Crowdsourcing, knowledge graphs and text analysis</td></tr>
+</table></td></tr></table><br><br>
+<a name="p4"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(4) <b>Urban Futures Data Core</b></font> &nbsp; &nbsp; <nobr>Prof. Alice Chen</nobr></td></tr>
+<tr><td>Cities are the focal point of economic, social, and environmental challenges and opportunities. To establish USC as a thought leader and partner of choice to tackle the challenges of the urban future, the USC Sol Price School of Public Policy and the USC Marshall School of Business propose establishing an Urban Futures Data Core to serve as a university-wide hub for data analysis and dissemination. Students working on this project will work with all faculty at Price and Marshall to catalogue the publicly available, restricted-use, and self-collected datasets that USC researchers have previously used. They will then create a secure website to track each data source and its data use agreements, dates of availability, and geographic level of granularity. After a data website is constructed, students will have the opportunity to assist with creating geographic visualizations of key indices related to urban futures. </td></tr>
+<tr><td><b>Skills needed:</b> web design, python<br>
+<b>Students will learn:</b> The students will learn about all data sources used in public policy and business, data management, and web design.</td></tr>
+</table></td></tr></table><br><br>
+<a name="p5"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(5) <b>Pyleoclim: A Python Package for the Analysis of Paleoclimate Data</b></font> &nbsp; &nbsp; <nobr>Prof. Deborah Khider/Julien Emile-Geay</nobr></td></tr>
+<tr><td>Paleoclimate timeseries data are crucial to understand how climate has changed in the past. A major aspect of this work falls under exploratory analysis, and in particular, visualization. Pyleoclim contains many functionalities for timeseries analysis of paleoclimate data and has already been used in teaching and research settings. In the coming months, we are expanding several functionalities of the package to address growing community need: outlier detection, automated visualizations, automated checks for the validity of datasets loaded into the package. In addition, these new functionalities will be integrated into tutorials distributed through a Jupyter Book.</td></tr>
+<tr><td><b>Skills needed:</b> Python: pandas, numpy, matplotlib, seaborn. GitHub knowledge preferred but not necessary<br>
+<b>Students will learn:</b> Timeseries analysis, Python packaging, continuous integration, containerization, GitHub, Jupyter, Binder. </td></tr>
+</table></td></tr></table><br><br>
+<a name="p6"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(6) <b>AI/ML assisted fault detection in foundry processed devices</b></font> &nbsp; &nbsp; <nobr>Prof. Andrew Rittenbach and JP Walters</nobr></td></tr>
+<tr><td>Highly accurate fault detection in foundry produced microelectronics is crucial to ensuring quality of devices that leave the foundry. However, current defect detection flows are human-centric, which produces a bottleneck. The objective of this project is to leverage recent advances in AI/ML to develop automated techniques that can 1) identify manufacturing defects in microelectronics using imagery collected at the foundry, and 2) determine whether the identified defect will impact the performance of the manufactured component.</td></tr>
+<tr><td><b>Skills needed:</b> Python, PyTorch or TensorFlow, image analysis<br>
+<b>Students will learn:</b> Students will learn about manufacturing defect detection algorithms, machine learning techniques, and microelectronics fabrication.</td></tr>
+</table></td></tr></table><br><br>
+<a name="p7"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(7) <b>Assessing the California Public Sector Job Market</b></font> &nbsp; &nbsp; <nobr>Prof. William Resh</nobr></td></tr>
+<tr><td>Public sector institutions at local, state, and federal levels are facing an unprecedented hiring crisis in competition for new talent. Yet there is no systematic understanding of the needs and openings across these levels of government to inform stakeholders such as universities, community colleges, and high schools on the current and emerging hiring trends in what constitutes approximately 15-20% of the entire labor market. In this project, students will develop algorithms that continuously scrap relevant job sites used by these governments to assess both developed and emerging hiring trends by aptitudes, professions, entry-levels, mobility, location, and other important attributes. In so doing, the project will inform researchers in public policy, public administration, political science, and labor economics as well as practitioners in government and associated stakeholders.</td></tr>
+<tr><td><b>Skills needed:</b> Python, Statistics, R or Stata<br>
+<b>Students will learn:</b> Students will learn how to develop and organize labor market data to be used by practitioners and researchers through the construction of portal that can ably transform data into usable aggregated statistics and graphs.</td></tr>
+</table></td></tr></table><br><br>
+<a name="p8"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(8) <b>Does Municipal Broadband Deliver as Promised? An examination of broadband pricing and household adoption in areas served by muni networks.</b></font> &nbsp; &nbsp; <nobr>Prof. Hernan Galperin</nobr></td></tr>
+<tr><td>Broadband networks owned and/or operated by local governments (&quot;muni networks&quot;) are increasingly seen as a key tool to close the digital divide in Internet availability and adoption.   There is however only anecdotal evidence about whether muni networks deliver on the promise of more affordable broadband in communities of little interest to traditional ISPs - typically disadvantaged communities. Taking advantage of the greater level of resolution in the new FCC broadband availability maps, this project will examine broadband pricing and adoption at the address level in areas served by muni networks, using a matched sample of comparable areas as a reference point. The goal of the project is to empirically assert whether muni networks are delivering on the promise of more affordable services, and whether this results in more household adoption than expected. The project is a component of an ongoing collaboration with digital equity advocacy organizations.</td></tr>
+<tr><td><b>Skills needed:</b> Data scraping (Python), statistics and basic GIS skills<br>
+<b>Students will learn:</b> Students will have the opportunity to apply data scraping, organization and analysis skills in the context of policy analysis</td></tr>
+</table></td></tr></table><br><br>
+<a name="p9"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(9) <b>Automated question type coding of forensic interviews</b></font> &nbsp; &nbsp; <nobr>Prof. Thomas D. Lyon</nobr></td></tr>
+<tr><td>Question type coding is used in research on forensic interviewing to distinguish between best practice open-ended questions, and closed-ended and leading questions that interviewers are trained to avoid. Most research teams in the field rely on a time-consuming and labor-intensive method of question type coding whereby a researcher codes every question in the interview, and a second researcher codes a subset to demonstrate inter-rater reliability. We are currently working with a graduate of the Masters in Computer Science program at USC on a project exploring automated question type coding of forensic interviews with victims of child abuse. In collaboration with the student, we have trained a large language model (RoBERTa) to distinguish between question types based on a rudimentary classification system. In the next stage of the project, we are aiming to finetune the model and use zero shot and few shot prompting to make distinctions for which there is limited manually-coded data.
+</td></tr>
+<tr><td><b>Skills needed:</b> Python and/or R<br>
+<b>Students will learn:</b> Students will learn to train and finetune large language models
+</td></tr>
+</table></td></tr></table><br><br>
+<a name="p10"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(10) <b>Building a Platform for NFL Data Insights</b></font> &nbsp; &nbsp; <nobr>Prof. Jeremy Abramson</nobr></td></tr>
+<tr><td>Open source sports data such as the nflverse has lead to a massive increase in public sports analytics.  But it&apos;s still hard to process, subset, visualize and analyze this data.  This project will build a general-purpose analysis platform and dashboard, similar to what many teams use internally.  Using the nflfastr data, this platform will allow interested individuals to select the play parameters they&apos;re interested in, and will provide relevant analysis, visualization and insight.  Ideally, we&apos;ll set up the dashboard on the internet, and open source the project, allowing others to expand the available datasets, analyses and visualizations.  </td></tr>
+<tr><td><b>Skills needed:</b> Python (pandas, streamlit, dash, etc. is a bonus!)<br>
+<b>Students will learn:</b> How to analyze and present insights from NFL play-by-play data</td></tr>
+</table></td></tr></table><br><br>
+<a name="p11"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(11) <b>Understanding the Relation Between Noise and Bias in Annotated Datasets</b></font> &nbsp; &nbsp; <nobr>Negar Mokhberian</nobr></td></tr>
+<tr><td>When it comes to classification tasks, many previous work has tried to design larger and more complex neural networks. Recently, the line of data-centric AI has worked on shifting the focus to the quality of the train data. This shift arises from the recognition that the annotations associated with dataset instances can exhibit both noise, stemming from vague instructions or human errors, and bias, arising from differing perspectives among annotators in response to given prompts.
+In this project, our objective is to bridge the gap between the two lines of research: one dedicated to identifying noisy instances and the other striving to account for the diverse perspectives of annotators. Specifically, we will delve into the domain of offensive text detection datasets, a highly subjective task. Our investigation will center on whether perspectivist classification models have effectively harnessed valuable information from instances flagged as noisy by noise-detection techniques. </td></tr>
+<tr><td><b>Skills needed:</b> Python, PyTorch, Fine-tuning language models in Huggingface package<br>
+<b>Students will learn:</b> The student will learn the importance of individual instances and individual annotations in training the classification models. Each of these datapoints can introduce either useful signal or noise to the model and the student will learn to recognize the difference. </td></tr>
+</table></td></tr></table><br><br>
+<a name="p12"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(12) <b>Federated Learning for Neuroscience</b></font> &nbsp; &nbsp; <nobr>Prof. Jose-Luis Ambite</nobr></td></tr>
+<tr><td>Federated learning is an approach to distributed deep learning without sharing data. Multiple site train a neural network over private data. The parameters of the neural network are shared with a federation controller, but they are encrypted before sharing. Model aggregation is performed under fully homomorphic encryption. We propose to apply federated learning to several problems in neuroscience, such as predicting Alzheimer&apos;s, Parkinson&apos;s, epilepsy, and autism, possibly over multimodal data. </td></tr>
+<tr><td><b>Skills needed:</b> Python, Tensorflow, deep learning<br>
+<b>Students will learn:</b> Federated learning, machine learning for biomedical applications. </td></tr>
+</table></td></tr></table><br><br>
+<a name="p13"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(13) <b>Bad Writing is &quot;Fine&quot;: Tuning an LLM to Suggest Improvements</b></font> &nbsp; &nbsp; <nobr>Prof. Benjamin Nye</nobr></td></tr>
+<tr><td>Prototype an approach to fine-tune a large language model (LLM) to help diagnose areas to improve a specific writing product. For example, scientific papers require consistent language but in creative writing variety matters. Proposed steps are:
+1. Writing Product: Coordinate with project mentors to choose a common and important writing product, such as a position paper or an academic conference. Identify/gather a rubric and a corpus.
+3. Inject Bad Writing: For each element of the rubric, develop prompts for generative AI to decrease the quality of writing based on the rubric (i.e., make it worse). This will form a training data set of the good example and version worse on certain characteristics.
+4. Fine Tune: Students will be expected to attempt to fine tune an LLM (e.g., LLAMA 2) based on this synthetically generated data
+5. Evaluate: Research if tuning suggests better domain-specific areas to improve.
+
+This project aligns with ongoing work with the USC Generative AI Center.</td></tr>
+<tr><td><b>Skills needed:</b> Python<br>
+<b>Students will learn:</b> Generative AI for large language models. Generating synthetic data for a rubric. Fine tuning a large language model, likely using CARC (the on campus computing cluster). Understanding intelligent tutoring system design fundamentals for modeling how experts diagnose issues from novices.</td></tr>
+</table></td></tr></table><br><br>
+<a name="p14"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(14) <b>Analyzing Open Source Software Ecosystems</b></font> &nbsp; &nbsp; <nobr>Prof. Jeremy Abramson</nobr></td></tr>
+<tr><td>Open source runs a lot of the world&apos;s critical software systems, but there is much that&apos;s unknown in how maintainers, developers and other parts of the software ecosystem function.  Help us analyze a large corpus of open source data — both source code and patch conversations — to better understand them!  We&apos;ll study things like rise to influence, authorship styles, malware analysis, topic modeling and social network analysis!</td></tr>
+<tr><td><b>Skills needed:</b> Python (needed), experience with LLMs/OpenAI APIs, program analysis, C code (preferred, but not necessary!)<br>
+<b>Students will learn:</b> We&apos;ll touch on using LLMs to parse text messages and analyze code, graph databases, program analysis, and social network analysis among other skills</td></tr>
+</table></td></tr></table><br><br>
+<a name="p15"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(15) <b>Build a multilingual decipherment system</b></font> &nbsp; &nbsp; <nobr>Prof. Jonathan May</nobr></td></tr>
+<tr><td>We will build a working system that can decipher a letter substitution cipher into 14 languages and beyond,  based on https://aclanthology.org/2021.acl-long.561/ then apply it to languages it has never seen</td></tr>
+<tr><td><b>Skills needed:</b> python, deep learning with transformers<br>
+<b>Students will learn:</b> read and understand an NLP paper, unusual applications of transformers, reproduction study</td></tr>
+</table></td></tr></table><br><br>
+<a name="p16"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(16) <b>Natural language processing of safety reports  in nuclear power plants</b></font> &nbsp; &nbsp; <nobr>Prof. Najmedin Meshkati</nobr></td></tr>
+<tr><td>This project, which will be co-advised by Dr. Yolanda Gil, will use Natural Language Processing (NLP) techniques to analyze voluminous   Diablo Canyon Independent Safety Committee (DCISC) annual reports to identify the role and contribution of &quot;Traits of a Healthy Nuclear Safety Culture&quot;, as defined by the Nuclear Regulatory Commission and the Institute of Nuclear Power Operations, in incident causation.</td></tr>
+<tr><td><b>Skills needed:</b> Natural language Processing and related skills. <br>
+<b>Students will learn:</b> Application of NLP in real-world, working on very serious and important issues with global applications, which can be generalized and applied to other safety-sensitive technologies. </td></tr>
+</table></td></tr></table><br><br>
+<a name="p17"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(17) <b>Application of AI, ML and NLP in understanding and preventing a serious aviation safety problem in the US - Runway Safety</b></font> &nbsp; &nbsp; <nobr>Prof. Najmedin Meshkati</nobr></td></tr>
+<tr><td>This project, which is co-advised by Dr. Yolanda Gil, will use AI/ML/NLP to understand root-causes of one of the serious aviation safety problem in the US - runway incursions. The Aviation Safety Reporting Systems, which is administered by the NASA and is an untapped treasure trove of textual data, will be used for this project.</td></tr>
+<tr><td><b>Skills needed:</b> AI/ML/NLP and associated skills.<br>
+<b>Students will learn:</b> Using AI/ML/NLP and working on the data from a major global industry - aviation.</td></tr>
+</table></td></tr></table><br><br>
+<a name="p18"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(18) <b>AI Ethics for Smart Health through Smart Watches</b></font> &nbsp; &nbsp; <nobr>Prof. Yolanda Gil</nobr></td></tr>
+<tr><td>Lots of personal data can be obtained from wearable devices such as smart watches.  This data can be used to improve health, for example to learn to detect health problems and to check whether people adhere to doctor’s exercise recommendations.  This project will conduct a thorough study of the ethical issues in using AI systems in this domain, with recommendations of how AI systems for smart health should be designed with ethical considerations in mind.</td></tr>
+<tr><td><b>Skills needed:</b> Interest in healthcare and data science.<br>
+<b>Students will learn:</b> What kinds of health-related data can be captured through wearable devices, what kinds of analyses are possible, privacy and ethical aspects of personal applications for smart health.</td></tr>
+</table></td></tr></table><br><br>
+<a name="p19"><br><table border="1" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr><td><font size="+2">(19) <b>Regular Data: Quality health monitoring while you sit&nbsp; <span style="color:#AAAAAA;">(added on Sept. 8, 2023)</span></b></font> &nbsp; &nbsp; <nobr>Prof. Francisco Valero-Cuevas, Prof. Yogi Matharu, Prof. Yolanda Gil</nobr></td></tr>
+<tr><td><b>Goals:</b> To create a software-as-a-service data pipeline for collecting health biomarkers via an instrumented toilet seat. This clinical data management system (CDMS) will enable collecting clinical-grade, high-quality, curated, and consistent data capture that meets NIH and FDA standards of clinical utility.</td></tr>
+<tr><td><b>Needs:</b> Engineering and software architecture skills to create the data pipeline from instrument signals to health reports compatible with reimbursement, research and clinical data systems.</td></tr>
+</table></td></tr></table><br><br>
+
+  </body>
+</html>
